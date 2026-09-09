@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" role="img" aria-label="전세대출 2억 원을 금리 4퍼센트로 받으면 원금 2억은 DSR 계산에서 빠지고 연이자 800만 원만 들어가며, 연소득 5천만 원이면 DSR이 16퍼센트포인트 오른다">
+  <rect width="640" height="300" fill="#FDF6E3"/>
+  <text x="32" y="42" font-family="system-ui, -apple-system, sans-serif" font-size="19" font-weight="700" fill="#1F2328">원금은 빠지고 이자만 들어가요</text>
+  <text x="32" y="64" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">전세대출 2억 원 · 금리 4%로 가정한 예시입니다</text>
+
+  <rect x="32" y="92" width="272" height="100" rx="10" fill="#FFFFFF" stroke="#E5E0D0" stroke-dasharray="5 3"/>
+  <text x="52" y="120" font-family="system-ui, sans-serif" font-size="13" fill="#6B7280">원금</text>
+  <text x="52" y="152" font-family="system-ui, sans-serif" font-size="24" font-weight="700" fill="#B8B2A0">2억 원</text>
+  <text x="52" y="176" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#8A8F98">DSR 계산에서 빠집니다</text>
+
+  <text x="316" y="148" text-anchor="middle" font-family="system-ui, sans-serif" font-size="20" font-weight="700" fill="#B8B2A0">+</text>
+
+  <rect x="336" y="92" width="272" height="100" rx="10" fill="#FFFFFF" stroke="#E8642F" stroke-width="2"/>
+  <text x="356" y="120" font-family="system-ui, sans-serif" font-size="13" fill="#6B7280">1년치 이자</text>
+  <text x="356" y="152" font-family="system-ui, sans-serif" font-size="24" font-weight="700" fill="#E8642F">800만 원</text>
+  <text x="356" y="176" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#B4501F">이것만 들어갑니다</text>
+
+  <line x1="32" y1="216" x2="608" y2="216" stroke="#E5E0D0"/>
+  <text x="32" y="244" font-family="system-ui, sans-serif" font-size="13" fill="#4B5563">연소득 5,000만 원이면</text>
+  <text x="212" y="244" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#1F2328">800 ÷ 5,000 = DSR 16%p 상승</text>
+  <text x="32" y="270" font-family="system-ui, sans-serif" font-size="13" fill="#4B5563">연소득 7,000만 원이면</text>
+  <text x="212" y="270" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#1F2328">800 ÷ 7,000 = DSR 11.4%p 상승</text>
+
+  <text x="32" y="292" font-family="system-ui, sans-serif" font-size="11" fill="#8A8F98">금리 4%는 계산을 보여주기 위한 가정치입니다 · 실제 금리·소득 인정 방식은 은행마다 달라요</text>
+</svg>
