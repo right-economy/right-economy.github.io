@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320" role="img" aria-label="입주율 산정식은 입주 및 잔금완납호수를 입주대상 호수로 나눈 값이다. 입주했거나 잔금을 완납했으면 세고, 둘 다 아니면 안 센다. 잔금만 내고 아직 안 들어가 살아도 세는 값이다">
+  <rect width="640" height="320" fill="#FDF6E3"/>
+  <text x="32" y="42" font-family="system-ui, -apple-system, sans-serif" font-size="19" font-weight="700" fill="#1F2328">잔금만 내도 「입주」로 셉니다</text>
+  <text x="32" y="64" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">산정식은 「입주 및 잔금완납호수 ÷ 입주대상 호수」 · 주택산업연구원</text>
+
+  <rect x="32" y="92" width="576" height="60" rx="10" fill="#FFFFFF" stroke="#E8642F" stroke-width="2"/>
+  <text x="52" y="118" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F2328">입주했거나 잔금을 냈다면</text>
+  <text x="52" y="140" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">둘 중 하나면 됩니다 · 잔금만 내고 안 들어가 살아도</text>
+  <text x="574" y="128" text-anchor="end" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#E8642F">입주로 셈</text>
+
+  <rect x="32" y="164" width="576" height="60" rx="10" fill="#FFFFFF" stroke="#E5E0D0"/>
+  <text x="52" y="190" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F2328">둘 다 아니라면</text>
+  <text x="52" y="212" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">입주도 안 했고 잔금도 남았다면</text>
+  <text x="574" y="200" text-anchor="end" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#8A8F98">안 셈</text>
+
+  <line x1="32" y1="248" x2="608" y2="248" stroke="#E5E0D0"/>
+  <text x="32" y="274" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F2328">그래서 입주율이 낮다는 건 「돈이 안 돌았다」에 가깝습니다</text>
+  <text x="32" y="298" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">못 들어간 집들 중 이유 1위가 잔금대출 미확보(37.2%) · 6월 26.5%에서 상승</text>
+  <text x="32" y="314" font-family="system-ui, sans-serif" font-size="11" fill="#8A8F98">주택산업연구원 2026년 9월 보도자료 · 주택사업자 대상 설문</text>
+</svg>

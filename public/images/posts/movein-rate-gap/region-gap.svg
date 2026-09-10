@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-label="2026년 8월 아파트 입주율은 전국 59.5퍼센트인데 서울 82퍼센트 인천경기 80.2퍼센트로 수도권은 전국 평균보다 20퍼센트포인트 넘게 높고, 제주 59.1 대전충청 56.8 대구부산경상 52.7 광주전라 49.0퍼센트로 나머지 지역은 전부 전국 평균 아래다">
+  <rect width="640" height="400" fill="#FDF6E3"/>
+  <text x="32" y="42" font-family="system-ui, -apple-system, sans-serif" font-size="19" font-weight="700" fill="#1F2328">전국 59.5%는 어느 동네 얘기도 아니에요</text>
+  <text x="32" y="64" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">2026년 8월 아파트 입주율 · 주택산업연구원 조사 · 막대는 40%부터 그렸습니다</text>
+
+  <line x1="288" y1="92" x2="288" y2="330" stroke="#B4501F" stroke-width="2" stroke-dasharray="5 3"/>
+  <text x="292" y="88" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#B4501F">전국 59.5</text>
+
+  <text x="118" y="118" text-anchor="end" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F2328">서울</text>
+  <rect x="128" y="102" width="420" height="22" rx="3" fill="#E8642F"/>
+  <text x="556" y="119" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#E8642F">82.0</text>
+
+  <text x="118" y="152" text-anchor="end" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F2328">인천·경기</text>
+  <rect x="128" y="136" width="402" height="22" rx="3" fill="#E8642F"/>
+  <text x="538" y="153" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#E8642F">80.2</text>
+
+  <text x="118" y="186" text-anchor="end" font-family="system-ui, sans-serif" font-size="13" fill="#4B5563">제주</text>
+  <rect x="128" y="170" width="191" height="22" rx="3" fill="#B8B2A0"/>
+  <text x="327" y="187" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#4B5563">59.1</text>
+
+  <text x="118" y="220" text-anchor="end" font-family="system-ui, sans-serif" font-size="13" fill="#4B5563">대전·충청</text>
+  <rect x="128" y="204" width="168" height="22" rx="3" fill="#B8B2A0"/>
+  <text x="304" y="221" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#4B5563">56.8</text>
+
+  <text x="118" y="254" text-anchor="end" font-family="system-ui, sans-serif" font-size="13" fill="#4B5563">대구·부산·경상</text>
+  <rect x="128" y="238" width="122" height="22" rx="3" fill="#B8B2A0"/>
+  <text x="258" y="255" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#4B5563">52.7</text>
+
+  <text x="118" y="288" text-anchor="end" font-family="system-ui, sans-serif" font-size="13" fill="#4B5563">광주·전라</text>
+  <rect x="128" y="272" width="86" height="22" rx="3" fill="#D8D2C0"/>
+  <text x="222" y="289" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#8A6A18">49.0</text>
+
+  <line x1="32" y1="330" x2="608" y2="330" stroke="#E5E0D0"/>
+  <text x="32" y="356" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F2328">수도권 두 곳은 80%대, 나머지 네 곳은 전부 전국 평균 아래예요</text>
+  <text x="32" y="378" font-family="system-ui, sans-serif" font-size="11" fill="#8A8F98">여섯 권역만 실린 값이라 전국 평균은 이 여섯을 더해 나눈 값이 아닙니다</text>
+  <text x="32" y="394" font-family="system-ui, sans-serif" font-size="11" fill="#8A8F98">주택산업연구원 2026년 9월 보도자료 3쪽 · 강원권은 이달 응답 미집계</text>
+</svg>
