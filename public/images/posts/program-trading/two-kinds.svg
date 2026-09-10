@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 300" width="660" height="300" font-family="system-ui, -apple-system, 'Malgun Gothic', sans-serif" role="img" aria-label="프로그램 매매는 선물과 현물의 가격차를 노리는 차익거래와 현물만 묶어서 사고파는 비차익거래로 나뉜다">
+  <rect width="660" height="300" fill="#ffffff"/>
+  <text x="20" y="30" font-size="15" font-weight="700" fill="#1a2540">같은 「프로그램」인데 이유가 둘로 갈립니다</text>
+  <text x="20" y="49" font-size="11" fill="#6b7280">한국거래소는 프로그램매매를 이 둘로 나눠 집계합니다</text>
+
+  <rect x="20" y="72" width="300" height="150" rx="10" fill="#eff6ff" stroke="#bfdbfe"/>
+  <text x="40" y="98" font-size="13" font-weight="700" fill="#1d4ed8">차익거래</text>
+  <text x="40" y="122" font-size="12" fill="#1a2540">선물과 현물의 <tspan font-weight="700">값 차이</tspan>를 노림</text>
+  <text x="40" y="146" font-size="11.5" fill="#475569">선물이 비싸면 선물을 팔고 현물을 삼</text>
+  <text x="40" y="167" font-size="11.5" fill="#475569">싸면 반대로</text>
+  <text x="40" y="196" font-size="11.5" font-weight="700" fill="#1d4ed8">→ 방향이 아니라 가격차가 이유</text>
+
+  <rect x="340" y="72" width="300" height="150" rx="10" fill="#f0fdf4" stroke="#bbf7d0"/>
+  <text x="360" y="98" font-size="13" font-weight="700" fill="#15803d">비차익거래</text>
+  <text x="360" y="122" font-size="12" fill="#1a2540">선물 없이 <tspan font-weight="700">현물만</tspan> 묶어서 매매</text>
+  <text x="360" y="146" font-size="11.5" fill="#475569">지수를 따라가는 자금이 들고날 때</text>
+  <text x="360" y="167" font-size="11.5" fill="#475569">한꺼번에 사고팝니다</text>
+  <text x="360" y="196" font-size="11.5" font-weight="700" fill="#15803d">→ 자금의 들고남이 이유</text>
+
+  <rect x="20" y="238" width="620" height="46" rx="8" fill="#fffbeb" stroke="#fde68a"/>
+  <text x="36" y="259" font-size="11.5" fill="#92400e">⚠️ 「프로그램 순매수 ○○억」을 <tspan font-weight="700">「기관이 좋게 봤다」로 읽으면 어긋날 수 있습니다.</tspan></text>
+  <text x="36" y="277" font-size="11.5" fill="#92400e">차익거래 쪽은 값 차이를 맞추려고 나오는 기계적인 주문이라서요.</text>
+</svg>
