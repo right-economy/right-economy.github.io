@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320" role="img" aria-label="입주율은 준공 후 입주기간 내에 입주를 마쳤거나 잔금을 납부한 가구의 비중이다. 잔금만 내고 안 들어가 살아도 입주로 세고, 이사는 했는데 잔금이 남았으면 안 센다">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320" role="img" aria-label="입주율 산정식은 입주 및 잔금완납호수를 입주대상 호수로 나눈 값이다. 잔금만 내고 안 들어가 살아도 입주로 세고, 이사는 했는데 잔금이 남았으면 안 센다">
   <rect width="640" height="320" fill="#FDF6E3"/>
   <text x="32" y="42" font-family="system-ui, -apple-system, sans-serif" font-size="19" font-weight="700" fill="#1F2328">「입주」가 이사를 뜻하는 게 아니에요</text>
-  <text x="32" y="64" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">입주기간 안에 입주를 마쳤거나 잔금을 낸 가구의 비중 · 주택산업연구원 정의</text>
+  <text x="32" y="64" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">산정식은 「입주 및 잔금완납호수 ÷ 입주대상 호수」 · 주택산업연구원</text>
 
   <rect x="32" y="92" width="576" height="60" rx="10" fill="#FFFFFF" stroke="#E8642F" stroke-width="2"/>
   <text x="52" y="118" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F2328">잔금을 냈다면</text>
