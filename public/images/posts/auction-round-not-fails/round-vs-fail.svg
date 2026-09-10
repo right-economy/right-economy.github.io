@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 340" role="img" aria-label="경매 회차 표기를 유찰 횟수로 읽으면 35건 중 20건만 맞고 회차로 읽으면 32건이 맞는다. 3회차는 두 번 깎여 감정가의 64퍼센트가 된다">
+  <rect width="640" height="340" fill="#FDF6E3"/>
+  <text x="32" y="42" font-family="system-ui, -apple-system, sans-serif" font-size="19" font-weight="700" fill="#1F2328">「3」이 세는 게 무엇이냐로 값이 갈려요</text>
+  <text x="32" y="64" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">수도권 빌라 경매 35건에 두 가정을 각각 대봤습니다 · 2026년 9월 10일 조회</text>
+
+  <rect x="32" y="90" width="276" height="104" rx="10" fill="#FFFFFF" stroke="#E5E0D0"/>
+  <text x="52" y="116" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#8A8F98">숫자 = 유찰 횟수라고 보면</text>
+  <text x="52" y="150" font-family="system-ui, sans-serif" font-size="13" fill="#6B7280">3이면 세 번 깎임 → 감정가의 51%</text>
+  <text x="52" y="180" font-family="system-ui, sans-serif" font-size="22" font-weight="700" fill="#8A8F98">20 / 35건 일치</text>
+
+  <rect x="332" y="90" width="276" height="104" rx="10" fill="#FFFFFF" stroke="#E8642F" stroke-width="2"/>
+  <text x="352" y="116" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F2328">숫자 = 회차라고 보면</text>
+  <text x="352" y="150" font-family="system-ui, sans-serif" font-size="13" fill="#6B7280">3회차면 두 번 깎임 → 감정가의 64%</text>
+  <text x="352" y="180" font-family="system-ui, sans-serif" font-size="22" font-weight="700" fill="#E8642F">32 / 35건 일치</text>
+
+  <line x1="32" y1="216" x2="608" y2="216" stroke="#E5E0D0"/>
+  <text x="32" y="242" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F2328">회차로 읽으면 이렇게 됩니다 (1회당 20% 깎일 때)</text>
+
+  <text x="52" y="272" font-family="system-ui, sans-serif" font-size="13" fill="#4B5563">1회차</text>
+  <text x="130" y="272" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F2328">깎인 적 없음 · 감정가 100%</text>
+  <text x="380" y="272" font-family="system-ui, sans-serif" font-size="12" fill="#8A8F98">이게 흔히 말하는 신건이에요</text>
+
+  <text x="52" y="296" font-family="system-ui, sans-serif" font-size="13" fill="#4B5563">2회차</text>
+  <text x="130" y="296" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F2328">한 번 깎임 · 80%</text>
+
+  <text x="52" y="320" font-family="system-ui, sans-serif" font-size="13" fill="#4B5563">3회차</text>
+  <text x="130" y="320" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F2328">두 번 깎임 · 64%</text>
+</svg>
