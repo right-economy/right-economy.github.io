@@ -15,6 +15,6 @@
 
   <line x1="32" y1="248" x2="608" y2="248" stroke="#E5E0D0"/>
   <text x="32" y="274" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F2328">그래서 입주율이 낮다는 건 「돈이 안 돌았다」에 가깝습니다</text>
-  <text x="32" y="298" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">못 들어간 집들 중에서 이유 1위가 잔금대출 미확보(37.2%)였어요</text>
-  <text x="32" y="314" font-family="system-ui, sans-serif" font-size="11" fill="#8A8F98">한국경제 2026.9.10 보도에 실린 주택산업연구원 조사</text>
+  <text x="32" y="298" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">못 들어간 집들 중 이유 1위가 잔금대출 미확보(37.2%) · 6월 26.5%에서 상승</text>
+  <text x="32" y="314" font-family="system-ui, sans-serif" font-size="11" fill="#8A8F98">주택산업연구원 2026년 9월 보도자료 · 주택사업자 대상 설문</text>
 </svg>
