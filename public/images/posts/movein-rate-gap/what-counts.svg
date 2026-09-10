@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320" role="img" aria-label="입주율은 준공 후 입주기간 내에 입주를 마쳤거나 잔금을 납부한 가구의 비중이다. 잔금만 내고 안 들어가 살아도 입주로 세고, 이사는 했는데 잔금이 남았으면 안 센다">
+  <rect width="640" height="320" fill="#FDF6E3"/>
+  <text x="32" y="42" font-family="system-ui, -apple-system, sans-serif" font-size="19" font-weight="700" fill="#1F2328">「입주」가 이사를 뜻하는 게 아니에요</text>
+  <text x="32" y="64" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">입주기간 안에 입주를 마쳤거나 잔금을 낸 가구의 비중 · 주택산업연구원 정의</text>
+
+  <rect x="32" y="92" width="576" height="60" rx="10" fill="#FFFFFF" stroke="#E8642F" stroke-width="2"/>
+  <text x="52" y="118" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F2328">잔금을 냈다면</text>
+  <text x="52" y="140" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">아직 이사를 안 갔어도, 세를 놓았어도</text>
+  <text x="574" y="128" text-anchor="end" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#E8642F">입주로 셈</text>
+
+  <rect x="32" y="164" width="576" height="60" rx="10" fill="#FFFFFF" stroke="#E5E0D0"/>
+  <text x="52" y="190" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F2328">잔금이 남았다면</text>
+  <text x="52" y="212" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">짐을 옮겼든 아니든</text>
+  <text x="574" y="200" text-anchor="end" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#8A8F98">안 셈</text>
+
+  <line x1="32" y1="248" x2="608" y2="248" stroke="#E5E0D0"/>
+  <text x="32" y="274" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F2328">그래서 입주율이 낮다는 건 「돈이 안 돌았다」에 가깝습니다</text>
+  <text x="32" y="298" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">못 들어간 집들 중에서 이유 1위가 잔금대출 미확보(37.2%)였어요</text>
+  <text x="32" y="314" font-family="system-ui, sans-serif" font-size="11" fill="#8A8F98">한국경제 2026.9.10 보도에 실린 주택산업연구원 조사</text>
+</svg>
