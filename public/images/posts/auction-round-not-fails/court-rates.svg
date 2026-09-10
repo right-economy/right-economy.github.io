@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320" role="img" aria-label="같은 날 경매 물건을 법원별로 역산하니 서울남부지방법원 9건과 안양지원 1건은 1회당 20퍼센트, 수원지방법원 1건은 30퍼센트로 깎였고 서울동부지방법원 2건은 전혀 안 깎였다">
+  <rect width="640" height="320" fill="#FDF6E3"/>
+  <text x="32" y="42" font-family="system-ui, -apple-system, sans-serif" font-size="19" font-weight="700" fill="#1F2328">깎이는 비율이 법원마다 달라요</text>
+  <text x="32" y="64" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">같은 날 물건의 감정가와 최저가로 1회당 저감률을 거꾸로 계산한 값입니다</text>
+
+  <rect x="32" y="90" width="576" height="50" rx="8" fill="#FFFFFF" stroke="#E5E0D0"/>
+  <text x="52" y="121" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F2328">서울남부지방법원</text>
+  <text x="230" y="121" font-family="system-ui, sans-serif" font-size="13" fill="#6B7280">9건</text>
+  <text x="300" y="121" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F2328">1회당 20%</text>
+  <text x="440" y="121" font-family="system-ui, sans-serif" font-size="12" fill="#1F7A3D" font-weight="700">9건 모두 같은 값</text>
+
+  <rect x="32" y="150" width="576" height="50" rx="8" fill="#FFFFFF" stroke="#E5E0D0"/>
+  <text x="52" y="181" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F2328">수원지방법원 안양지원</text>
+  <text x="230" y="181" font-family="system-ui, sans-serif" font-size="13" fill="#6B7280">1건</text>
+  <text x="300" y="181" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F2328">1회당 20%</text>
+
+  <rect x="32" y="210" width="576" height="50" rx="8" fill="#FFFFFF" stroke="#E8642F" stroke-width="2"/>
+  <text x="52" y="241" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F2328">수원지방법원</text>
+  <text x="230" y="241" font-family="system-ui, sans-serif" font-size="13" fill="#6B7280">1건</text>
+  <text x="300" y="241" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#E8642F">1회당 30%</text>
+  <text x="440" y="241" font-family="system-ui, sans-serif" font-size="12" fill="#B4501F" font-weight="700">여기만 다릅니다</text>
+
+  <text x="32" y="290" font-family="system-ui, sans-serif" font-size="11" fill="#8A8F98">표본이 법원마다 1~9건으로 적습니다 · 이 값은 저희가 본 물건에서 거꾸로 계산한 것이라</text>
+  <text x="32" y="308" font-family="system-ui, sans-serif" font-size="11" fill="#8A8F98">각 법원의 공식 기준이 아닙니다 · 실제 비율은 해당 물건의 매각공고에서 확인하셔야 해요</text>
+</svg>
