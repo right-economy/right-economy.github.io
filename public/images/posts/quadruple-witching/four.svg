@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 300" width="660" height="300" font-family="system-ui, -apple-system, 'Malgun Gothic', sans-serif" role="img" aria-label="네 마녀의 날에 만기가 겹치는 네 가지는 코스피200 선물, 코스피200 옵션, 개별주식 선물, 개별주식 옵션이다">
+  <rect width="660" height="300" fill="#ffffff"/>
+  <text x="20" y="30" font-size="15" font-weight="700" fill="#1a2540">'네 마녀'는 같은 날 만기가 되는 네 가지입니다</text>
+  <text x="20" y="49" font-size="11" fill="#6b7280">한국 · 3·6·9·12월 두 번째 목요일</text>
+
+  <rect x="20" y="70" width="300" height="90" rx="8" fill="#eff6ff" stroke="#bfdbfe"/>
+  <text x="36" y="94" font-size="12" font-weight="700" fill="#1d4ed8">지수에 걸린 것</text>
+  <text x="36" y="118" font-size="13" fill="#1a2540">① 코스피200 선물</text>
+  <text x="36" y="141" font-size="13" fill="#1a2540">② 코스피200 옵션</text>
+
+  <rect x="340" y="70" width="300" height="90" rx="8" fill="#fff7ed" stroke="#fed7aa"/>
+  <text x="356" y="94" font-size="12" font-weight="700" fill="#c2410c">개별 종목에 걸린 것</text>
+  <text x="356" y="118" font-size="13" fill="#1a2540">③ 개별주식 선물</text>
+  <text x="356" y="141" font-size="13" fill="#1a2540">④ 개별주식 옵션</text>
+
+  <text x="330" y="192" font-size="12" fill="#374151" text-anchor="middle">네 가지 만기가 한 날에 몰리면</text>
+  <text x="330" y="214" font-size="13" font-weight="700" fill="#1a2540" text-anchor="middle">그날 장 마감 무렵 청산·교체 물량이 한꺼번에 나옵니다</text>
+
+  <rect x="20" y="236" width="620" height="48" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="36" y="257" font-size="11.5" fill="#475569">미국은 세 번째 금요일이라 날짜가 다릅니다. 이름이 같아도</text>
+  <text x="36" y="274" font-size="11.5" fill="#475569">한국 만기일과 미국 만기일은 서로 다른 날입니다.</text>
+</svg>
