@@ -22,7 +22,7 @@ tags: ["안전자산", "금", "달러", "VIX", "지표읽기"]
 
 같은 데이터에서 구간만 바꿔봤습니다.
 
-![금은 VIX 급등 상위 5일엔 5번 중 4번 올랐지만 범위를 넓히면 33퍼센트로 떨어진다](/images/posts/safe-haven-check/sample-flip.svg)
+![금은 VIX 급등 상위 5일엔 5번 중 4번 올랐지만 상위 15일 30일 전체 하락일로 범위를 넓히면 오른 비율이 33에서 41퍼센트로 떨어진다](/images/posts/safe-haven-check/sample-flip.svg)
 
 <small>각 구간에서 금이 오른 날의 비율. 2025년 9월~2026년 9월 264거래일. 자료: Yahoo Finance(GC=F·^VIX·^GSPC)</small>
 
