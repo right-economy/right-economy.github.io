@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-label="강남3구와 용산을 뺀 서울 21개 자치구에서 2026년 1월부터 8월까지 월세 400만원 이상 거래가 598건인데 성동구 180건 마포구 125건으로 두 구가 305건 51퍼센트를 차지한다. 나머지 19개 구를 다 합쳐도 293건으로 두 구보다 적다">
+  <rect width="640" height="400" fill="#FDF6E3"/>
+  <text x="32" y="42" font-family="system-ui, -apple-system, sans-serif" font-size="19" font-weight="700" fill="#1F2328">두 구가 나머지 열아홉 구보다 많아요</text>
+  <text x="32" y="64" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">월세 400만원 이상 · 2026년 1~8월 · 강남3구·용산 뺀 21개 자치구 · 국토교통부</text>
+
+  <text x="104" y="110" text-anchor="end" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F2328">성동</text>
+  <rect x="114" y="92" width="360" height="26" rx="4" fill="#E8642F"/>
+  <text x="134" y="111" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">180건</text>
+
+  <text x="104" y="148" text-anchor="end" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F2328">마포</text>
+  <rect x="114" y="130" width="250" height="26" rx="4" fill="#E8642F"/>
+  <text x="134" y="149" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">125건</text>
+
+  <line x1="32" y1="174" x2="608" y2="174" stroke="#E5E0D0" stroke-dasharray="4 3"/>
+
+  <text x="104" y="202" text-anchor="end" font-family="system-ui, sans-serif" font-size="13" fill="#4B5563">광진</text>
+  <rect x="114" y="186" width="124" height="22" rx="3" fill="#B8B2A0"/>
+  <text x="246" y="203" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#4B5563">62</text>
+
+  <text x="104" y="234" text-anchor="end" font-family="system-ui, sans-serif" font-size="13" fill="#4B5563">중구</text>
+  <rect x="114" y="218" width="116" height="22" rx="3" fill="#B8B2A0"/>
+  <text x="238" y="235" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#4B5563">58</text>
+
+  <text x="104" y="266" text-anchor="end" font-family="system-ui, sans-serif" font-size="13" fill="#4B5563">영등포</text>
+  <rect x="114" y="250" width="90" height="22" rx="3" fill="#B8B2A0"/>
+  <text x="212" y="267" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#4B5563">45</text>
+
+  <text x="104" y="298" text-anchor="end" font-family="system-ui, sans-serif" font-size="13" fill="#8A8F98">그 밖 16개구</text>
+  <rect x="114" y="282" width="256" height="22" rx="3" fill="#D8D2C0"/>
+  <text x="378" y="299" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#8A6A18">128건 (강북·도봉·강서·금천은 0건)</text>
+
+  <line x1="32" y1="326" x2="608" y2="326" stroke="#E5E0D0"/>
+  <text x="32" y="352" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F2328">성동 180 + 마포 125 = 305건 · 21개구 전체의 51%</text>
+  <text x="32" y="376" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">나머지 19개 구를 다 합쳐도 293건으로 두 구보다 적습니다</text>
+  <text x="32" y="394" font-family="system-ui, sans-serif" font-size="11" fill="#8A8F98">아파트 전월세 실거래 직접 집계 · 월세 400만원 기준은 기사에서 쓰인 선을 따랐습니다</text>
+</svg>
