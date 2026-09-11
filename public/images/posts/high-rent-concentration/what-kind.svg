@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320" role="img" aria-label="성동구 고가 월세는 전용 84.8제곱미터 월세 478만원 보증금 1.25억이 중앙값이고 트리마제가 43건으로 가장 많다. 마포구는 전용 115제곱미터 월세 482만원 보증금 1억이 중앙값이고 메세나폴리스가 18건으로 가장 많다">
+  <rect width="640" height="320" fill="#FDF6E3"/>
+  <text x="32" y="42" font-family="system-ui, -apple-system, sans-serif" font-size="19" font-weight="700" fill="#1F2328">두 구에서 무슨 집이 이 값에 나갔나</text>
+  <text x="32" y="64" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">각 구의 월세 400만원 이상 거래 중앙값 · 2026년 1~8월</text>
+
+  <rect x="32" y="92" width="276" height="150" rx="10" fill="#FFFFFF" stroke="#E8642F" stroke-width="2"/>
+  <text x="52" y="120" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#1F2328">성동 180건</text>
+  <text x="52" y="150" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">전용</text>
+  <text x="120" y="150" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F2328">84.8㎡</text>
+  <text x="52" y="176" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">월세</text>
+  <text x="120" y="176" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F2328">478만원</text>
+  <text x="52" y="202" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">보증금</text>
+  <text x="120" y="202" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F2328">1.25억</text>
+  <text x="52" y="228" font-family="system-ui, sans-serif" font-size="12" fill="#B4501F" font-weight="700">트리마제 한 단지에서만 43건</text>
+
+  <rect x="332" y="92" width="276" height="150" rx="10" fill="#FFFFFF" stroke="#E8642F" stroke-width="2"/>
+  <text x="352" y="120" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#1F2328">마포 125건</text>
+  <text x="352" y="150" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">전용</text>
+  <text x="420" y="150" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F2328">115.0㎡</text>
+  <text x="352" y="176" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">월세</text>
+  <text x="420" y="176" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F2328">482만원</text>
+  <text x="352" y="202" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">보증금</text>
+  <text x="420" y="202" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F2328">1.00억</text>
+  <text x="352" y="228" font-family="system-ui, sans-serif" font-size="12" fill="#B4501F" font-weight="700">메세나폴리스에서 18건</text>
+
+  <line x1="32" y1="262" x2="608" y2="262" stroke="#E5E0D0"/>
+  <text x="32" y="288" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F2328">월세는 비슷한데 크기가 30㎡ 넘게 다릅니다</text>
+  <text x="32" y="310" font-family="system-ui, sans-serif" font-size="11" fill="#8A8F98">중앙값이라 개별 계약은 이보다 높거나 낮습니다 · 단지명은 건수가 많은 곳을 그대로 옮긴 것이고 추천이 아닙니다</text>
+</svg>
