@@ -94,7 +94,7 @@ tags: ["실거래가", "계약해제", "부동산통계", "직접집계", "신�
 
 계약월별로 나눠보면 이런 모양입니다.
 
-![계약월별 해제율](/images/posts/cancelled-deals-check/monthly-rate.svg)
+![계약월별 해제율. 해제까지 중앙값 32일·최장 137일이 걸려 네 달 모두 아직 확정값이 아니다](/images/posts/cancelled-deals-check/monthly-rate.svg)
 
 <small>최근 계약월일수록 값이 낮게 나옵니다. 해제까지 중앙값 32일·최장 137일이 걸려서, 7월뿐 아니라 6월·5월도 아직 덜 잡힌 상태예요</small>
 
