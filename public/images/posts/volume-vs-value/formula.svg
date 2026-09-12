@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 260" width="720" height="260" role="img" aria-label="거래대금은 거래량과 가격을 곱한 값이라는 관계도">
+  <style>
+    .t{font-family:'Apple SD Gothic Neo','Malgun Gothic',sans-serif}
+    .lb{font-size:15px;fill:#57534e}
+    .bg{font-size:26px;font-weight:700}
+    .sm{font-size:13px;fill:#78716c}
+    .op{font-size:30px;font-weight:700;fill:#a8a29e}
+  </style>
+  <rect width="720" height="260" fill="#fffdfa"/>
+  <!-- 거래량 -->
+  <rect x="24" y="60" width="180" height="96" rx="12" fill="#fff2ec" stroke="#ece4d6"/>
+  <text class="t bg" x="114" y="100" text-anchor="middle" fill="#c2410c">거래량</text>
+  <text class="t sm" x="114" y="126" text-anchor="middle">몇 주가 오갔나 (주)</text>
+  <text class="t op" x="228" y="118" text-anchor="middle">×</text>
+  <!-- 가격 -->
+  <rect x="252" y="60" width="180" height="96" rx="12" fill="#fff2ec" stroke="#ece4d6"/>
+  <text class="t bg" x="342" y="100" text-anchor="middle" fill="#c2410c">주가</text>
+  <text class="t sm" x="342" y="126" text-anchor="middle">한 주에 얼마 (원)</text>
+  <text class="t op" x="456" y="118" text-anchor="middle">=</text>
+  <!-- 거래대금 -->
+  <rect x="480" y="52" width="216" height="112" rx="12" fill="#c2410c"/>
+  <text class="t bg" x="588" y="96" text-anchor="middle" fill="#ffffff">거래대금</text>
+  <text class="t" x="588" y="124" text-anchor="middle" font-size="14" fill="#ffffff">오간 돈의 크기 (원)</text>
+  <text class="t lb" x="360" y="206" text-anchor="middle">두 값은 함께 움직이지 않습니다 — 주가가 다르면 한쪽만 늘 수 있습니다</text>
+  <text class="t sm" x="360" y="232" text-anchor="middle">옳은경제 · 개념 관계도</text>
+</svg>
