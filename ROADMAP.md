@@ -145,6 +145,18 @@ cron_trigger_econbite_market.sh 의 PUBLISH_CHECKLIST 언급   0건  → 항목 
 
 ## 🔍 SEO 감사 — 이미 확인된 것 (다시 파지 말 것)
 
+- **OG·트위터 카드 · Article JSON-LD** → 🟢 **이상 0건** (2026-09-12 실측, dist 797페이지).
+  ```
+  og:image        797/797      twitter:image  797/797      twitter:card  797/797
+  og-default.png  실파일 존재 · 1200×630 · 비율 1.90 (권장 1.91) · 61KB
+  Article JSON-LD 227/227 · author·datePublished·dateModified·headline·image 누락 0
+  ```
+  ⚠️ **「태그가 있다」와 「그 파일이 실제로 있다」는 다른 축이라 둘 다 쟀다.** 797페이지가
+  전부 같은 URL 하나를 가리키고 있어서, 그 파일이 없으면 전 페이지가 동시에 깨질 자리였다.
+  📌 og:image 가 **글별이 아니라 기본 이미지 1종**인 건 사실이나 **이슈가 아니라 미구현**이다
+  (글별 생성은 ROADMAP 위쪽 열린 항목). 공유 썸네일은 정상 동작한다.
+  **이 축은 더 팔 게 없다.**
+
 > 이 절은 **SEO 감사 슬롯이 같은 자리를 반복해서 파는 걸 막으려고** 있다.
 > 2026-08-31 감사에서 아래 셋을 다시 팠고, **셋 다 이미 답이 있거나 내 측정 도구 문제**였다.
 
