@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 330" role="img" aria-label="갱신요구권을 썼다고 표기된 전세 갱신 2만703건 중 보증금을 5퍼센트 넘게 올린 계약은 0건이고 최댓값도 5.0036퍼센트였다. 권리 표기가 없는 갱신 1만7764건에서는 39.7퍼센트인 7054건이 5퍼센트를 넘었다">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 330" role="img" aria-label="갱신요구권을 썼다고 표기된 전세 갱신 2만703건 중 보증금을 5.01퍼센트 넘게 올린 계약은 0건이고 최댓값 5.0036퍼센트는 만원 단위로 올림하며 생긴 차이다. 권리 표기가 없는 갱신 1만7764건에서는 39.7퍼센트인 7054건이 5퍼센트를 넘었다">
   <rect width="640" height="330" fill="#FDF6E3"/>
   <text x="32" y="42" font-family="system-ui, -apple-system, sans-serif" font-size="19" font-weight="700" fill="#1F2328">권리를 쓰면 5%가 천장이 됩니다</text>
   <text x="32" y="64" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">서울 아파트 전세 갱신계약 · 2026년 1~8월 · 국토교통부 실거래</text>
@@ -7,7 +7,7 @@
   <text x="52" y="120" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#1F2328">갱신요구권 「사용」 표기 · 20,703건</text>
   <text x="52" y="148" font-family="system-ui, sans-serif" font-size="13" fill="#6B7280">보증금을 5% 넘게 올린 계약</text>
   <text x="300" y="148" font-family="system-ui, sans-serif" font-size="20" font-weight="700" fill="#E8642F">0건</text>
-  <text x="52" y="172" font-family="system-ui, sans-serif" font-size="12" fill="#B4501F" font-weight="700">가장 많이 오른 것도 5.0036% · 절반(52.7%)은 정확히 5.00%</text>
+  <text x="52" y="172" font-family="system-ui, sans-serif" font-size="12" fill="#B4501F" font-weight="700">최댓값 5.0036%는 만원 단위 올림 탓 · 절반(52.7%)은 정확히 5.00%</text>
 
   <rect x="32" y="196" width="576" height="92" rx="10" fill="#FFFFFF" stroke="#E5E0D0"/>
   <text x="52" y="224" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#1F2328">권리 표기가 없는 갱신 · 17,764건</text>
