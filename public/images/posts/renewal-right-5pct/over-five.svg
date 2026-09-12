@@ -5,13 +5,13 @@
 
   <rect x="32" y="92" width="576" height="92" rx="10" fill="#FFFFFF" stroke="#E8642F" stroke-width="2"/>
   <text x="52" y="120" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#1F2328">갱신요구권 「사용」 표기 · 20,703건</text>
-  <text x="52" y="148" font-family="system-ui, sans-serif" font-size="13" fill="#6B7280">보증금을 5% 넘게 올린 계약</text>
+  <text x="52" y="148" font-family="system-ui, sans-serif" font-size="13" fill="#6B7280">보증금을 5.01% 넘게 올린 계약</text>
   <text x="300" y="148" font-family="system-ui, sans-serif" font-size="20" font-weight="700" fill="#E8642F">0건</text>
   <text x="52" y="172" font-family="system-ui, sans-serif" font-size="12" fill="#B4501F" font-weight="700">최댓값 5.0036%는 만원 단위 올림 탓 · 절반(52.7%)은 정확히 5.00%</text>
 
   <rect x="32" y="196" width="576" height="92" rx="10" fill="#FFFFFF" stroke="#E5E0D0"/>
   <text x="52" y="224" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#1F2328">권리 표기가 없는 갱신 · 17,764건</text>
-  <text x="52" y="252" font-family="system-ui, sans-serif" font-size="13" fill="#6B7280">보증금을 5% 넘게 올린 계약</text>
+  <text x="52" y="252" font-family="system-ui, sans-serif" font-size="13" fill="#6B7280">보증금을 5.01% 넘게 올린 계약</text>
   <text x="300" y="252" font-family="system-ui, sans-serif" font-size="20" font-weight="700" fill="#4B5563">7,054건</text>
   <text x="386" y="252" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#4B5563">39.7%</text>
   <text x="52" y="276" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">넘은 계약들의 인상률 중앙값은 +12.0%</text>
