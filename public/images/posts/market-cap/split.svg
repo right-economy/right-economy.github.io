@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" width="720" height="330" role="img" aria-label="액면분할을 하면 주가는 50만원에서 10만원으로 5분의 1이 되고 주식수는 100만주에서 500만주로 5배가 되어 시가총액 5000억원은 그대로라는 비교">
+  <style>
+    .t{font-family:'Apple SD Gothic Neo','Malgun Gothic',sans-serif}
+    .h{font-size:16px;font-weight:700;fill:#292524}
+    .v{font-size:15px;fill:#57534e}
+    .n{font-size:19px;font-weight:700;fill:#c2410c}
+    .sm{font-size:13px;fill:#78716c}
+  </style>
+  <rect width="720" height="330" fill="#fffdfa"/>
+  <text class="t h" x="24" y="36">5대1 액면분할을 하면</text>
+
+  <text class="t h" x="24" y="82">분할 전</text>
+  <rect x="24" y="96" width="300" height="30" rx="6" fill="#fff2ec" stroke="#ece4d6"/>
+  <text class="t v" x="40" y="116">주가 <tspan font-weight="700" fill="#c2410c">500,000원</tspan> × 주식수 <tspan font-weight="700" fill="#c2410c">100만 주</tspan></text>
+
+  <text class="t h" x="24" y="176">분할 후</text>
+  <rect x="24" y="190" width="300" height="30" rx="6" fill="#fff2ec" stroke="#ece4d6"/>
+  <text class="t v" x="40" y="210">주가 <tspan font-weight="700" fill="#c2410c">100,000원</tspan> × 주식수 <tspan font-weight="700" fill="#c2410c">500만 주</tspan></text>
+
+  <text class="t sm" x="40" y="148">↓ 5분의 1</text>
+  <text class="t sm" x="215" y="148">↓ 5배</text>
+
+  <rect x="360" y="96" width="336" height="124" rx="12" fill="#c2410c"/>
+  <text class="t" x="528" y="136" text-anchor="middle" font-size="15" fill="#ffe8dd">시가총액은 양쪽 다</text>
+  <text class="t" x="528" y="176" text-anchor="middle" font-size="30" font-weight="700" fill="#ffffff">5,000억 원</text>
+  <text class="t" x="528" y="202" text-anchor="middle" font-size="14" fill="#ffffff">회사 값어치는 안 변했습니다</text>
+
+  <text class="t sm" x="24" y="262">주가만 보면 「80% 폭락」처럼 보이지만 가진 사람의 평가액은 그대로입니다.</text>
+  <text class="t sm" x="24" y="286">주식 1주가 5주로 쪼개졌기 때문이에요.</text>
+  <text class="t sm" x="24" y="316">예시 수치(계산으로 확인 가능) · 옳은경제</text>
+</svg>

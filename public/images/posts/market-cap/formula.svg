@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 268" width="720" height="268" role="img" aria-label="주가에 상장주식수를 곱하면 시가총액이 된다는 관계도">
+  <style>
+    .t{font-family:'Apple SD Gothic Neo','Malgun Gothic',sans-serif}
+    .bg{font-size:25px;font-weight:700}
+    .sm{font-size:13px;fill:#78716c}
+    .op{font-size:30px;font-weight:700;fill:#a8a29e}
+    .lb{font-size:15px;fill:#57534e}
+  </style>
+  <rect width="720" height="268" fill="#fffdfa"/>
+  <rect x="24" y="64" width="182" height="96" rx="12" fill="#fff2ec" stroke="#ece4d6"/>
+  <text class="t bg" x="115" y="104" text-anchor="middle" fill="#c2410c">주가</text>
+  <text class="t sm" x="115" y="130" text-anchor="middle">한 주에 얼마 (원)</text>
+  <text class="t op" x="230" y="122" text-anchor="middle">×</text>
+  <rect x="254" y="64" width="182" height="96" rx="12" fill="#fff2ec" stroke="#ece4d6"/>
+  <text class="t bg" x="345" y="104" text-anchor="middle" fill="#c2410c">상장주식수</text>
+  <text class="t sm" x="345" y="130" text-anchor="middle">주식이 몇 장 (주)</text>
+  <text class="t op" x="460" y="122" text-anchor="middle">=</text>
+  <rect x="484" y="56" width="212" height="112" rx="12" fill="#c2410c"/>
+  <text class="t bg" x="590" y="100" text-anchor="middle" fill="#ffffff">시가총액</text>
+  <text class="t" x="590" y="128" text-anchor="middle" font-size="14" fill="#ffffff">회사 전체의 값 (원)</text>
+  <text class="t lb" x="360" y="212" text-anchor="middle">주가는 「한 주의 가격」, 시가총액은 「회사 전체의 가격」입니다</text>
+  <text class="t sm" x="360" y="240" text-anchor="middle">주식수가 바뀌면 둘은 따로 움직입니다 · 옳은경제 개념 관계도</text>
+</svg>
