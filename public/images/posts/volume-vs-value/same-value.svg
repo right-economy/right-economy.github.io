@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 348" width="720" height="348" role="img" aria-label="거래대금이 1000만원으로 같아도 주가가 10만원이면 100주, 1000원이면 1만주로 거래량은 100배 차이가 나는 비교 막대">
+  <style>
+    .t{font-family:'Apple SD Gothic Neo','Malgun Gothic',sans-serif}
+    .h{font-size:16px;font-weight:700;fill:#292524}
+    .v{font-size:15px;fill:#57534e}
+    .n{font-size:20px;font-weight:700;fill:#c2410c}
+    .sm{font-size:13px;fill:#78716c}
+  </style>
+  <rect width="720" height="348" fill="#fffdfa"/>
+  <text class="t h" x="24" y="34">거래대금이 똑같이 1,000만 원일 때</text>
+
+  <!-- A -->
+  <text class="t h" x="24" y="78">A 주식 · 한 주 100,000원</text>
+  <rect x="24" y="92" width="120" height="34" rx="6" fill="#c2410c"/>
+  <text class="t" x="156" y="116" font-size="15" fill="#57534e">거래대금 1,000만 원</text>
+  <rect x="24" y="136" width="6" height="26" rx="3" fill="#f4a582"/>
+  <text class="t n" x="42" y="157">100주</text>
+  <text class="t sm" x="112" y="157">← 거래량</text>
+
+  <!-- B -->
+  <text class="t h" x="24" y="212">B 주식 · 한 주 1,000원</text>
+  <rect x="24" y="226" width="120" height="34" rx="6" fill="#c2410c"/>
+  <text class="t" x="156" y="250" font-size="15" fill="#57534e">거래대금 1,000만 원</text>
+  <rect x="24" y="270" width="600" height="26" rx="6" fill="#f4a582"/>
+  <text class="t n" x="640" y="291">1만 주</text>
+
+  <text class="t sm" x="24" y="332">같은 돈이 오갔지만 거래량은 100배 차이 · 예시 수치(계산으로 확인 가능) · 옳은경제</text>
+</svg>
