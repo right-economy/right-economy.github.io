@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="권리 표기가 없는 전세 갱신 1만7764건의 보증금 인상률 분포는 인하 1.7퍼센트 동결 11.5퍼센트 0에서 5퍼센트 47.1퍼센트로 여기까지가 60.3퍼센트이고, 5에서 10퍼센트 15퍼센트 10에서 20퍼센트 17퍼센트 20퍼센트 이상 7.7퍼센트로 5퍼센트를 넘는 쪽이 39.7퍼센트다. 즉 열에 여섯은 5퍼센트 안에 들어오지만 넷은 넘는다">
+  <rect width="640" height="360" fill="#FDF6E3"/>
+  <text x="32" y="42" font-family="system-ui, -apple-system, sans-serif" font-size="19" font-weight="700" fill="#1F2328">열에 여섯은 5% 안, 넷은 넘었어요</text>
+  <text x="32" y="64" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">권리 표기가 없는 전세 갱신 17,764건의 보증금 인상률 · 2026년 1~8월</text>
+
+  <text x="118" y="106" text-anchor="end" font-family="system-ui, sans-serif" font-size="13" fill="#4B5563">인하</text>
+  <rect x="128" y="90" width="13" height="22" rx="3" fill="#B8B2A0"/>
+  <text x="149" y="107" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#4B5563">302건 · 1.7%</text>
+
+  <text x="118" y="140" text-anchor="end" font-family="system-ui, sans-serif" font-size="13" fill="#4B5563">동결</text>
+  <rect x="128" y="124" width="88" height="22" rx="3" fill="#B8B2A0"/>
+  <text x="224" y="141" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#4B5563">2,043건 · 11.5%</text>
+
+  <text x="118" y="174" text-anchor="end" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F2328">0~5%</text>
+  <rect x="128" y="158" width="360" height="22" rx="3" fill="#9FC69A"/>
+  <text x="496" y="175" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F7A3D">8,365건 · 47.1%</text>
+
+  <line x1="32" y1="192" x2="608" y2="192" stroke="#B4501F" stroke-width="2" stroke-dasharray="5 3"/>
+  <text x="36" y="208" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#B4501F">여기 위가 5% 이하 60.3% · 아래가 초과 39.7%</text>
+
+  <text x="118" y="242" text-anchor="end" font-family="system-ui, sans-serif" font-size="13" fill="#4B5563">5~10%</text>
+  <rect x="128" y="226" width="115" height="22" rx="3" fill="#E8A87C"/>
+  <text x="251" y="243" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#B4501F">2,667건 · 15.0%</text>
+
+  <text x="118" y="276" text-anchor="end" font-family="system-ui, sans-serif" font-size="13" fill="#4B5563">10~20%</text>
+  <rect x="128" y="260" width="130" height="22" rx="3" fill="#E8642F"/>
+  <text x="266" y="277" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#B4501F">3,015건 · 17.0%</text>
+
+  <text x="118" y="310" text-anchor="end" font-family="system-ui, sans-serif" font-size="13" fill="#4B5563">20%↑</text>
+  <rect x="128" y="294" width="59" height="22" rx="3" fill="#C7451F"/>
+  <text x="195" y="311" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#B4501F">1,372건 · 7.7%</text>
+
+  <text x="32" y="342" font-family="system-ui, sans-serif" font-size="11" fill="#8A8F98">여섯 칸을 더하면 17,764건입니다 · 월세 없는 순수 전세만 · 국토교통부 실거래 직접 집계</text>
+  <text x="32" y="356" font-family="system-ui, sans-serif" font-size="11" fill="#8A8F98">합의로 올린 것도 여기 들어가니 「법을 어겼다」는 뜻이 아닙니다</text>
+</svg>
