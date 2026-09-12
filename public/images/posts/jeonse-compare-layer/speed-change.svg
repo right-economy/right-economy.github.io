@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" role="img" aria-label="전셋값 누적 상승률이 서울은 2025년 1.59퍼센트에서 2026년 7.61퍼센트로 4.8배, 경기는 0.58퍼센트에서 5.17퍼센트로 8.9배 빨라졌다. 올라간 폭은 서울이 크지만 빨라진 배수는 경기가 크다">
+  <rect width="640" height="300" fill="#FDF6E3"/>
+  <text x="32" y="42" font-family="system-ui, -apple-system, sans-serif" font-size="19" font-weight="700" fill="#1F2328">폭은 서울이, 배수는 경기가 큽니다</text>
+  <text x="32" y="64" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">1~8월 누적 상승률을 작년 같은 기간과 견준 값 · 한국부동산원</text>
+
+  <rect x="32" y="92" width="276" height="122" rx="10" fill="#FFFFFF" stroke="#E5E0D0"/>
+  <text x="52" y="118" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#1F2328">서울</text>
+  <text x="52" y="148" font-family="system-ui, sans-serif" font-size="13" fill="#6B7280">2025년 1~8월</text>
+  <text x="190" y="148" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#8A8F98">1.59%</text>
+  <text x="52" y="174" font-family="system-ui, sans-serif" font-size="13" fill="#6B7280">2026년 1~8월</text>
+  <text x="190" y="174" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F2328">7.61%</text>
+  <text x="52" y="200" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#B4501F">+6.02%p · 4.8배</text>
+
+  <rect x="332" y="92" width="276" height="122" rx="10" fill="#FFFFFF" stroke="#E8642F" stroke-width="2"/>
+  <text x="352" y="118" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#1F2328">경기</text>
+  <text x="352" y="148" font-family="system-ui, sans-serif" font-size="13" fill="#6B7280">2025년 1~8월</text>
+  <text x="490" y="148" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#8A8F98">0.58%</text>
+  <text x="352" y="174" font-family="system-ui, sans-serif" font-size="13" fill="#6B7280">2026년 1~8월</text>
+  <text x="490" y="174" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F2328">5.17%</text>
+  <text x="352" y="200" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#E8642F">+4.59%p · 8.9배</text>
+
+  <line x1="32" y1="236" x2="608" y2="236" stroke="#E5E0D0"/>
+  <text x="32" y="262" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F2328">「몇 배 빨라졌나」로 보면 경기, 「몇 %p 올랐나」로 보면 서울이에요</text>
+  <text x="32" y="286" font-family="system-ui, sans-serif" font-size="11" fill="#8A8F98">작년 출발점이 낮으면 배수가 커집니다 · 배수와 폭은 다른 것을 재는 값이에요</text>
+</svg>
