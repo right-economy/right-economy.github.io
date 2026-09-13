@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" width="720" height="320" role="img" aria-label="회사의 시가총액이 그대로여도 위에 있던 회사들이 더 커지면 순위가 밀려 대형주 구간에서 중형주 구간으로 분류가 바뀔 수 있다는 비교. 구체적인 경계 등수는 그림에 넣지 않았다">
+  <style>
+    .t{font-family:'Apple SD Gothic Neo','Malgun Gothic',sans-serif}
+    .h{font-size:16px;font-weight:700;fill:#292524}
+    .sm{font-size:13px;fill:#78716c}
+    .n{font-size:15px;font-weight:700}
+  </style>
+  <rect width="720" height="320" fill="#fffdfa"/>
+  <text class="t h" x="24" y="36">회사는 그대로인데 분류만 바뀌는 경우</text>
+
+  <text class="t h" x="24" y="80" font-size="15">작년</text>
+  <rect x="24" y="92" width="300" height="44" rx="8" fill="#fff2ec" stroke="#ece4d6"/>
+  <text class="t n" x="42" y="120" fill="#57534e">A회사 시가총액 <tspan fill="#c2410c">5조 원</tspan> · <tspan fill="#c2410c">경계선 바로 위</tspan></text>
+  <rect x="340" y="92" width="120" height="44" rx="8" fill="#c2410c"/>
+  <text class="t n" x="400" y="120" text-anchor="middle" fill="#ffffff">대형주</text>
+
+  <text class="t h" x="24" y="184" font-size="15">올해</text>
+  <rect x="24" y="196" width="300" height="44" rx="8" fill="#fff2ec" stroke="#ece4d6"/>
+  <text class="t n" x="42" y="224" fill="#57534e">A회사 시가총액 <tspan fill="#c2410c">5조 원</tspan> · <tspan fill="#c2410c">경계선 바로 아래</tspan></text>
+  <rect x="340" y="196" width="120" height="44" rx="8" fill="#f4a582"/>
+  <text class="t n" x="400" y="224" text-anchor="middle" fill="#7c2d12">중형주</text>
+
+  <text class="t" x="480" y="152" font-size="15" font-weight="700" fill="#292524">A회사는</text>
+  <text class="t" x="480" y="176" font-size="15" font-weight="700" fill="#c2410c">아무것도 안 했습니다</text>
+  <text class="t" x="480" y="204" font-size="14" fill="#57534e">위에 있던 회사들이</text>
+  <text class="t" x="480" y="226" font-size="14" fill="#57534e">더 커진 것뿐이에요.</text>
+
+  <text class="t sm" x="24" y="284">순위로 나누면 남이 움직여도 내 자리가 바뀝니다 · 예시 수치</text>
+  <text class="t sm" x="24" y="308">옳은경제 · 이해를 돕기 위한 예시 (실제 종목이 아니고, 경계 등수는 넣지 않았습니다)</text>
+</svg>

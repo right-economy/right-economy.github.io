@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" width="720" height="340" role="img" aria-label="같은 시장의 회사들을 시가총액 순으로 줄 세운 뒤 위에서부터 구간을 잘라 대형주 중형주 소형주로 나눈다는 도식. 절대 금액이 아니라 순위로 갈린다">
+  <style>
+    .t{font-family:'Apple SD Gothic Neo','Malgun Gothic',sans-serif}
+    .h{font-size:16px;font-weight:700;fill:#292524}
+    .lb{font-size:15px;font-weight:700}
+    .sm{font-size:13px;fill:#78716c}
+  </style>
+  <rect width="720" height="340" fill="#fffdfa"/>
+  <text class="t h" x="24" y="36">시가총액 순으로 줄을 세운 다음, 위에서부터 자릅니다</text>
+
+  <rect x="24" y="62" width="360" height="62" rx="10" fill="#c2410c"/>
+  <text class="t lb" x="44" y="90" fill="#ffffff" font-size="17">대형주</text>
+  <text class="t" x="44" y="112" font-size="13" fill="#ffe8dd">시가총액이 가장 큰 위쪽 구간</text>
+
+  <rect x="24" y="132" width="268" height="62" rx="10" fill="#f4a582"/>
+  <text class="t lb" x="44" y="160" fill="#7c2d12" font-size="17">중형주</text>
+  <text class="t" x="44" y="182" font-size="13" fill="#7c2d12">그다음 구간</text>
+
+  <rect x="24" y="202" width="176" height="62" rx="10" fill="#e7e5e4"/>
+  <text class="t lb" x="44" y="230" fill="#57534e" font-size="17">소형주</text>
+  <text class="t" x="44" y="252" font-size="13" fill="#57534e">나머지 전부</text>
+
+  <line x1="420" y1="62" x2="420" y2="264" stroke="#d6d3d1" stroke-width="2" stroke-dasharray="4 4"/>
+  <text class="t" x="440" y="100" font-size="15" fill="#292524" font-weight="700">자르는 위치는</text>
+  <text class="t" x="440" y="126" font-size="15" fill="#c2410c" font-weight="700">「몇 등까지」로 정합니다</text>
+  <text class="t" x="440" y="162" font-size="14" fill="#57534e">「시가총액 ○조 이상」 같은</text>
+  <text class="t" x="440" y="184" font-size="14" fill="#57534e">금액 기준이 아니에요.</text>
+  <text class="t" x="440" y="220" font-size="14" fill="#57534e">그래서 회사가 그대로여도</text>
+  <text class="t" x="440" y="242" font-size="14" fill="#57534e">분류는 바뀔 수 있습니다.</text>
+
+  <text class="t sm" x="24" y="300">구간을 몇 등에서 자를지는 거래소가 정합니다 · 시장마다 다릅니다</text>
+  <text class="t sm" x="24" y="324">옳은경제 · 개념 도식 (특정 구간 숫자는 이 그림에 넣지 않았습니다)</text>
+</svg>
