@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 330" role="img" aria-label="서울 아파트 매매를 연식별로 그냥 세면 준공 5년 이하 중앙값이 7.49억으로 가장 싸 보이지만 전용면적 중앙값이 51.8제곱미터로 작기 때문이다. 전용 84제곱미터대만 골라 비교하면 5년 이하가 16.75억으로 2.24배 높아진다. 크기를 안 맞추면 신축이 싸 보인다">
+  <rect width="640" height="330" fill="#FDF6E3"/>
+  <text x="32" y="42" font-family="system-ui, -apple-system, sans-serif" font-size="19" font-weight="700" fill="#1F2328">신축이 싸 보이는 건 작은 집이 많아서예요</text>
+  <text x="32" y="64" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">서울 아파트 매매 14,092건 · 2026년 6~8월 · 해제분 제외 · 국토교통부</text>
+
+  <rect x="32" y="92" width="576" height="98" rx="10" fill="#FFFFFF" stroke="#E5E0D0" stroke-dasharray="5 3"/>
+  <text x="52" y="118" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#8A8F98">① 크기 안 맞추고 연식별로만 세면</text>
+  <text x="52" y="148" font-family="system-ui, sans-serif" font-size="13" fill="#4B5563">준공 5년 이하 중앙값</text>
+  <text x="240" y="148" font-family="system-ui, sans-serif" font-size="17" font-weight="700" fill="#8A8F98">7.49억</text>
+  <text x="340" y="148" font-family="system-ui, sans-serif" font-size="13" fill="#6B7280">전용 중앙 51.8㎡</text>
+  <text x="52" y="176" font-family="system-ui, sans-serif" font-size="12" fill="#B4501F" font-weight="700">신축 거래에 소형이 많아서 생긴 값이에요</text>
+
+  <rect x="32" y="204" width="576" height="98" rx="10" fill="#FFFFFF" stroke="#E8642F" stroke-width="2"/>
+  <text x="52" y="230" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F2328">② 전용 84㎡대만 골라 비교하면</text>
+  <text x="52" y="260" font-family="system-ui, sans-serif" font-size="13" fill="#4B5563">준공 5년 이하 중앙값</text>
+  <text x="240" y="260" font-family="system-ui, sans-serif" font-size="17" font-weight="700" fill="#E8642F">16.75억</text>
+  <text x="340" y="260" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#B4501F">같은 집단인데 2.24배</text>
+  <text x="52" y="288" font-family="system-ui, sans-serif" font-size="12" fill="#1F2328" font-weight="700">크기가 고정되니 연식만 남습니다</text>
+
+  <text x="32" y="322" font-family="system-ui, sans-serif" font-size="11" fill="#8A8F98">같은 자료를 두 방법으로 센 값입니다 · 84㎡대는 전용 81~87㎡로 잡았고 4,588건이에요</text>
+</svg>
