@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 350" role="img" aria-label="2026년 1월부터 7월까지 청약통장 계좌는 10대 이하에서 3만 개, 10대에서 7만 개 늘어 합계 10만 개 증가한 반면 30대 11만 개, 40대 12만 개, 50대 11만 개가 줄어 합계 34만 개 감소했다. 세대별로 방향이 정반대다. 다만 줄어든 쪽이 3.4배로 커서 두 흐름이 맞먹는다는 뜻은 아니다">
+  <rect width="640" height="350" fill="#FDF6E3"/>
+  <text x="32" y="42" font-family="system-ui, -apple-system, sans-serif" font-size="19" font-weight="700" fill="#1F2328">세대별로 방향이 정반대예요</text>
+  <text x="32" y="64" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">2026년 1~7월 청약통장 계좌 증감 · 국토교통부 자료 · 한국경제 보도 인용</text>
+
+  <text x="32" y="98" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F7A3D">늘어난 쪽</text>
+  <text x="126" y="128" text-anchor="end" font-family="system-ui, sans-serif" font-size="13" fill="#4B5563">10대 이하</text>
+  <rect x="136" y="112" width="72" height="22" rx="3" fill="#9FC69A"/>
+  <text x="216" y="129" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F7A3D">+3만</text>
+  <text x="126" y="158" text-anchor="end" font-family="system-ui, sans-serif" font-size="13" fill="#4B5563">10대</text>
+  <rect x="136" y="142" width="168" height="22" rx="3" fill="#9FC69A"/>
+  <text x="312" y="159" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F7A3D">+7만</text>
+  <text x="136" y="186" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F7A3D">합계 +10만 개</text>
+
+  <line x1="32" y1="204" x2="608" y2="204" stroke="#E5E0D0"/>
+
+  <text x="32" y="230" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#B4501F">줄어든 쪽</text>
+  <text x="126" y="260" text-anchor="end" font-family="system-ui, sans-serif" font-size="13" fill="#4B5563">30대</text>
+  <rect x="136" y="244" width="264" height="22" rx="3" fill="#E8642F"/>
+  <text x="408" y="261" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#B4501F">−11만</text>
+  <text x="126" y="290" text-anchor="end" font-family="system-ui, sans-serif" font-size="13" fill="#4B5563">40대</text>
+  <rect x="136" y="274" width="288" height="22" rx="3" fill="#E8642F"/>
+  <text x="432" y="291" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#B4501F">−12만</text>
+  <text x="126" y="320" text-anchor="end" font-family="system-ui, sans-serif" font-size="13" fill="#4B5563">50대</text>
+  <rect x="136" y="304" width="264" height="22" rx="3" fill="#E8642F"/>
+  <text x="408" y="321" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#B4501F">−11만</text>
+  <text x="456" y="291" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#B4501F">합계 −34만 개</text>
+
+  <text x="32" y="344" font-family="system-ui, sans-serif" font-size="11" fill="#8A8F98">줄어든 쪽이 3.4배로 큽니다 · 계좌 수 증감이고 가입자 수가 아니에요 · 20대·60대 이상은 보도에 없어 뺐습니다</text>
+</svg>
