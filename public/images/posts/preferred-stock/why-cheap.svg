@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" width="720" height="300" role="img" aria-label="우선주가 대체로 보통주보다 싸게 거래되는 이유는 의결권이 없어 회사 결정에 참여할 수 없고 거래량이 적어 사고팔기가 덜 편하기 때문이라는 도식">
+  <style>
+    .t{font-family:'Apple SD Gothic Neo','Malgun Gothic',sans-serif}
+    .h{font-size:16px;font-weight:700;fill:#292524}
+    .b{font-size:15px;font-weight:700;fill:#c2410c}
+    .s{font-size:13px;fill:#57534e}
+    .sm{font-size:12px;fill:#a8a29e}
+  </style>
+  <rect width="720" height="300" fill="#fffdfa"/>
+  <text class="t h" x="24" y="36">우선주가 대체로 더 싼 이유</text>
+
+  <rect x="24" y="58" width="330" height="112" rx="12" fill="#fff2ec" stroke="#ece4d6"/>
+  <text class="t b" x="44" y="92">① 의결권이 없어요</text>
+  <text class="t s" x="44" y="120">회사 결정에 표를 던질 수 없습니다.</text>
+  <text class="t s" x="44" y="144">그 권리만큼 값이 덜 매겨집니다.</text>
+
+  <rect x="366" y="58" width="330" height="112" rx="12" fill="#fff2ec" stroke="#ece4d6"/>
+  <text class="t b" x="386" y="92">② 거래가 적어요</text>
+  <text class="t s" x="386" y="120">물량이 적어 원할 때 사고팔기가</text>
+  <text class="t s" x="386" y="144">덜 편합니다. 그만큼 할인됩니다.</text>
+
+  <rect x="24" y="190" width="672" height="62" rx="12" fill="#c2410c"/>
+  <text class="t" x="360" y="216" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">같은 배당을 더 싸게 사면 배당수익률은 높아집니다</text>
+  <text class="t" x="360" y="240" text-anchor="middle" font-size="13" fill="#ffe8dd">우선주를 배당 목적으로 보는 이유가 여기 있습니다</text>
+
+  <text class="t sm" x="24" y="282">「대체로」입니다 — 회사·시기에 따라 가격 차이는 크게 달라지고 역전되기도 합니다 · 옳은경제 개념 정리</text>
+</svg>
