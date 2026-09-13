@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320" role="img" aria-label="2026년 1월부터 7월까지 청약통장에 들어온 돈은 8조 4천억 원이고 나간 돈은 8조 2천억 원이라 순증이 2천억 원에 그쳤다. 작년 순증 4조 1천억 원의 20분의 1이다. 빠져나가기만 한 게 아니라 들어온 만큼 나간 것이다">
+  <rect width="640" height="320" fill="#FDF6E3"/>
+  <text x="32" y="42" font-family="system-ui, -apple-system, sans-serif" font-size="19" font-weight="700" fill="#1F2328">빠져나가기만 한 게 아니에요</text>
+  <text x="32" y="64" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">2026년 1~7월 청약통장 자금 흐름 · 국토교통부 자료 · 한국경제 보도 인용</text>
+
+  <text x="126" y="112" text-anchor="end" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F7A3D">들어온 돈</text>
+  <rect x="136" y="94" width="420" height="26" rx="4" fill="#9FC69A"/>
+  <text x="156" y="113" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F5C2E">8조 4,000억</text>
+
+  <text x="126" y="152" text-anchor="end" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#B4501F">나간 돈</text>
+  <rect x="136" y="134" width="410" height="26" rx="4" fill="#E8642F"/>
+  <text x="156" y="153" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">8조 2,000억</text>
+
+  <text x="126" y="192" text-anchor="end" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F2328">남은 것</text>
+  <rect x="136" y="174" width="10" height="26" rx="2" fill="#B8B2A0"/>
+  <text x="158" y="193" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#4B5563">2,000억</text>
+
+  <line x1="32" y1="218" x2="608" y2="218" stroke="#E5E0D0"/>
+  <text x="32" y="246" font-family="system-ui, sans-serif" font-size="13" fill="#4B5563">작년 같은 기간 순증</text>
+  <text x="200" y="246" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#1F2328">4조 1,000억</text>
+  <text x="340" y="246" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#B4501F">→ 20분의 1로</text>
+
+  <text x="32" y="278" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F2328">들어온 돈도 8조가 넘습니다 · 줄어든 건 「남은 것」이에요</text>
+  <text x="32" y="308" font-family="system-ui, sans-serif" font-size="11" fill="#8A8F98">막대는 0부터 그렸습니다 · 계좌 수가 아니라 금액 기준이에요</text>
+</svg>
