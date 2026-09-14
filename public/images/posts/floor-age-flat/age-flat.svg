@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img">
+  <rect width="640" height="360" fill="#FDF6E3"/>
+  <text x="32" y="42" font-family="system-ui, -apple-system, sans-serif" font-size="19" font-weight="700" fill="#1F2328">연식을 갈라도 층값은 그대로예요</text>
+  <text x="32" y="64" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">같은 단지·같은 전용 84㎡대에서 1~3층 대비 6층 이상 · 서울 399개 단지 · 2026년 6~8월</text>
+
+  <line x1="150" y1="92" x2="150" y2="272" stroke="#E5E0D0"/>
+  <text x="150" y="292" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#8A8F98">0%</text>
+  <line x1="380" y1="92" x2="380" y2="272" stroke="#E5E0D0" stroke-dasharray="4 3"/>
+  <text x="380" y="292" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#8A8F98">5%</text>
+
+  <text x="138" y="116" text-anchor="end" font-family="system-ui, sans-serif" font-size="13" fill="#4B5563">10년 이하</text>
+  <rect x="150" y="100" width="216" height="22" rx="3" fill="#E8A87C"/>
+  <text x="376" y="117" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#B4501F">+4.7%</text>
+  <text x="448" y="117" font-family="system-ui, sans-serif" font-size="12" fill="#8A8F98">56곳</text>
+
+  <text x="138" y="156" text-anchor="end" font-family="system-ui, sans-serif" font-size="13" fill="#4B5563">11~20년</text>
+  <rect x="150" y="140" width="225" height="22" rx="3" fill="#E8A87C"/>
+  <text x="385" y="157" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#B4501F">+4.9%</text>
+  <text x="448" y="157" font-family="system-ui, sans-serif" font-size="12" fill="#8A8F98">83곳</text>
+
+  <text x="138" y="196" text-anchor="end" font-family="system-ui, sans-serif" font-size="13" fill="#4B5563">21~30년</text>
+  <rect x="150" y="180" width="225" height="22" rx="3" fill="#E8A87C"/>
+  <text x="385" y="197" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#B4501F">+4.9%</text>
+  <text x="448" y="197" font-family="system-ui, sans-serif" font-size="12" fill="#8A8F98">176곳</text>
+
+  <text x="138" y="236" text-anchor="end" font-family="system-ui, sans-serif" font-size="13" fill="#4B5563">31년 이상</text>
+  <rect x="150" y="220" width="221" height="22" rx="3" fill="#E8A87C"/>
+  <text x="381" y="237" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#B4501F">+4.8%</text>
+  <text x="448" y="237" font-family="system-ui, sans-serif" font-size="12" fill="#8A8F98">84곳</text>
+
+  <line x1="32" y1="308" x2="608" y2="308" stroke="#E5E0D0"/>
+  <text x="32" y="330" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F2328">제일 큰 칸과 제일 작은 칸의 차이가 0.3%p예요</text>
+  <text x="32" y="352" font-family="system-ui, sans-serif" font-size="11" fill="#8A8F98">막대는 0부터 · 연식 구간은 31년 기준 · 네 칸 합 399곳 · 국토교통부 실거래 · 2026년 9월 14일 집계</text>
+</svg>
