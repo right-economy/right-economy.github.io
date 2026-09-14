@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 340" role="img">
+  <rect width="640" height="340" fill="#FDF6E3"/>
+  <text x="32" y="42" font-family="system-ui, -apple-system, sans-serif" font-size="19" font-weight="700" fill="#1F2328">중앙값이 흔들린 구는 거래가 반으로 줄었어요</text>
+  <text x="32" y="64" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">서울 전용 84㎡대 거래 건수 · 3~4월 대비 7~8월 · 국토교통부 실거래</text>
+
+  <text x="108" y="106" text-anchor="end" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F2328">송파</text>
+  <rect x="120" y="90" width="247" height="20" rx="3" fill="#D8D2C0"/>
+  <text x="375" y="106" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">309건</text>
+  <rect x="120" y="114" width="130" height="20" rx="3" fill="#E8642F"/>
+  <text x="258" y="130" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#B4501F">162건</text>
+  <text x="440" y="120" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#B4501F">−47.6%</text>
+
+  <text x="108" y="172" text-anchor="end" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F2328">강남</text>
+  <rect x="120" y="156" width="106" height="20" rx="3" fill="#D8D2C0"/>
+  <text x="234" y="172" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">133건</text>
+  <rect x="120" y="180" width="33" height="20" rx="3" fill="#E8642F"/>
+  <text x="161" y="196" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#B4501F">41건</text>
+  <text x="440" y="186" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#B4501F">−69.2%</text>
+
+  <text x="108" y="238" text-anchor="end" font-family="system-ui, sans-serif" font-size="13" fill="#4B5563">도봉</text>
+  <rect x="120" y="222" width="146" height="20" rx="3" fill="#D8D2C0"/>
+  <text x="274" y="238" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">183건</text>
+  <rect x="120" y="246" width="151" height="20" rx="3" fill="#9FC69A"/>
+  <text x="279" y="262" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F5C2E">189건</text>
+  <text x="440" y="252" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F7A3D">+3.3%</text>
+
+  <line x1="32" y1="284" x2="608" y2="284" stroke="#E5E0D0"/>
+  <text x="32" y="306" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F2328">거래가 줄면 남은 몇 건이 구 전체 중앙값을 좌우합니다</text>
+  <text x="32" y="328" font-family="system-ui, sans-serif" font-size="11" fill="#8A8F98">위 막대가 3~4월, 아래가 7~8월이에요 · 막대는 0부터 · 해제 신고분 제외 · 2026년 9월 14일 집계</text>
+</svg>
