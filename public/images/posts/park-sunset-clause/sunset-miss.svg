@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img">
+  <rect width="640" height="360" fill="#FDF6E3"/>
+  <text x="32" y="42" font-family="system-ui, -apple-system, sans-serif" font-size="19" font-weight="700" fill="#1F2328">일몰제는 「비어 있는 땅」을 풀어주지 않아요</text>
+  <text x="32" y="64" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">도시공원 일몰제(장기미집행 도시계획시설 실효) · 2020년 7월 1일 시행</text>
+
+  <rect x="32" y="90" width="278" height="150" rx="10" fill="#FFFFFF" stroke="#9FC69A" stroke-width="2"/>
+  <text x="52" y="116" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F7A3D">일몰제가 걸리는 땅</text>
+  <text x="52" y="146" font-family="system-ui, sans-serif" font-size="13" fill="#4B5563">공원으로 정해만 두고</text>
+  <text x="52" y="170" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F2328">20년간 사업을 한 번도</text>
+  <text x="52" y="192" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F2328">시작하지 않은 경우</text>
+  <text x="52" y="222" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F7A3D">→ 지정이 효력을 잃어요</text>
+
+  <rect x="330" y="90" width="278" height="150" rx="10" fill="#FFFFFF" stroke="#E8642F" stroke-width="2"/>
+  <text x="350" y="116" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#B4501F">염창공원 훼손지</text>
+  <text x="350" y="146" font-family="system-ui, sans-serif" font-size="13" fill="#4B5563">민간이 공원 조성 사업에</text>
+  <text x="350" y="170" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F2328">한 번 착수한 이력이 있음</text>
+  <text x="350" y="192" font-family="system-ui, sans-serif" font-size="13" fill="#4B5563">(뒤에 중단되고 폐쇄됨)</text>
+  <text x="350" y="222" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#B4501F">→ 「미집행」이 아니에요</text>
+
+  <line x1="32" y1="264" x2="608" y2="264" stroke="#E5E0D0"/>
+  <text x="32" y="290" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F2328">기준은 「비어 있었나」가 아니라 「시작한 적 있나」예요</text>
+  <text x="32" y="314" font-family="system-ui, sans-serif" font-size="13" fill="#4B5563">그래서 실제로 20년 넘게 빈 땅이어도 일몰제로는 풀리지 않았습니다.</text>
+  <text x="32" y="344" font-family="system-ui, sans-serif" font-size="11" fill="#8A8F98">일몰제 요건은 국토계획법상 실효 규정이고, 염창 건의 「미적용」은 언론 보도로 확인한 것이에요 · 2026년 9월 14일</text>
+</svg>

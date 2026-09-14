@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 340" role="img">
+  <rect width="640" height="340" fill="#FDF6E3"/>
+  <text x="32" y="42" font-family="system-ui, -apple-system, sans-serif" font-size="19" font-weight="700" fill="#1F2328">공원으로 지정된 지 49년째예요</text>
+  <text x="32" y="64" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">서울 강서구 염창근린공원 · 전체 11만 1,769.4㎡ 중 훼손지 약 5만 1,000㎡</text>
+
+  <line x1="70" y1="110" x2="70" y2="270" stroke="#E5E0D0" stroke-width="2"/>
+
+  <circle cx="70" cy="120" r="6" fill="#B8B2A0"/>
+  <text x="92" y="118" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F2328">1977년</text>
+  <text x="168" y="118" font-family="system-ui, sans-serif" font-size="13" fill="#4B5563">근린공원으로 지정</text>
+
+  <circle cx="70" cy="170" r="6" fill="#B8B2A0"/>
+  <text x="92" y="168" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F2328">2009년</text>
+  <text x="168" y="168" font-family="system-ui, sans-serif" font-size="13" fill="#4B5563">골프연습장 폐쇄 · 이후 방치</text>
+
+  <rect x="84" y="182" width="330" height="26" rx="4" fill="#EFEAD8"/>
+  <text x="98" y="200" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#8A6A18">빈 땅으로 남은 기간 — 여기가 「20년」이에요</text>
+
+  <circle cx="70" cy="228" r="7" fill="#E8642F"/>
+  <text x="92" y="226" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F2328">2026년 8월</text>
+  <text x="192" y="226" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#B4501F">공공주택 1,000가구 발표</text>
+
+  <circle cx="70" cy="266" r="6" fill="#D8D2C0"/>
+  <text x="92" y="264" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#8A8F98">2029년</text>
+  <text x="168" y="264" font-family="system-ui, sans-serif" font-size="13" fill="#8A8F98">착공 목표 (예정)</text>
+
+  <line x1="32" y1="292" x2="608" y2="292" stroke="#E5E0D0"/>
+  <text x="32" y="314" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F2328">지정 1977년 · 발표 2026년 — 그 사이 49년이에요</text>
+  <text x="32" y="332" font-family="system-ui, sans-serif" font-size="11" fill="#8A8F98">2029년 착공은 발표된 목표이고 확정된 일정이 아니에요 · 언론 보도 기준 · 2026년 9월 14일</text>
+</svg>
