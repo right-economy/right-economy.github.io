@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 398" role="img">
+  <rect width="640" height="398" fill="#FDF6E3"/>
+  <text x="32" y="42" font-family="system-ui, -apple-system, sans-serif" font-size="19" font-weight="700" fill="#1F2328">같은 자료인데 가격대로 자르면 갈려요</text>
+  <text x="32" y="64" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">같은 399개 단지 · 같은 계산 · 자르는 기준만 바꿨어요</text>
+
+  <rect x="32" y="86" width="278" height="152" rx="10" fill="#FFFFFF" stroke="#E5E0D0" stroke-dasharray="5 3"/>
+  <text x="52" y="110" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#8A8F98">연식으로 자르면</text>
+  <text x="52" y="140" font-family="system-ui, sans-serif" font-size="13" fill="#4B5563">10년 이하</text>
+  <text x="240" y="140" text-anchor="end" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#8A8F98">+4.7%</text>
+  <text x="52" y="166" font-family="system-ui, sans-serif" font-size="13" fill="#4B5563">31년 이상</text>
+  <text x="240" y="166" text-anchor="end" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#8A8F98">+4.8%</text>
+  <line x1="52" y1="184" x2="290" y2="184" stroke="#E5E0D0"/>
+  <text x="52" y="208" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#8A8F98">벌어진 폭</text>
+  <text x="240" y="208" text-anchor="end" font-family="system-ui, sans-serif" font-size="17" font-weight="700" fill="#8A8F98">0.3%p</text>
+  <text x="52" y="228" font-family="system-ui, sans-serif" font-size="11" fill="#8A8F98">사실상 같은 값이에요</text>
+
+  <rect x="330" y="86" width="278" height="152" rx="10" fill="#FFFFFF" stroke="#E8642F" stroke-width="2"/>
+  <text x="350" y="110" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F2328">가격대로 자르면</text>
+  <text x="350" y="140" font-family="system-ui, sans-serif" font-size="13" fill="#4B5563">7억 미만</text>
+  <text x="588" y="140" text-anchor="end" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#E8642F">+6.2%</text>
+  <text x="350" y="166" font-family="system-ui, sans-serif" font-size="13" fill="#4B5563">15억 이상</text>
+  <text x="588" y="166" text-anchor="end" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#E8642F">+3.6%</text>
+  <line x1="350" y1="184" x2="588" y2="184" stroke="#E5E0D0"/>
+  <text x="350" y="208" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F2328">벌어진 폭</text>
+  <text x="588" y="208" text-anchor="end" font-family="system-ui, sans-serif" font-size="17" font-weight="700" fill="#E8642F">2.5%p</text>
+  <text x="350" y="228" font-family="system-ui, sans-serif" font-size="11" fill="#B4501F">이쪽은 눈에 보이게 갈려요</text>
+
+  <text x="32" y="266" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F2328">그런데 가격 경계를 옮기면 그 2.5%p도 줄어듭니다</text>
+  <text x="32" y="292" font-family="system-ui, sans-serif" font-size="12" fill="#4B5563">경계 6억 — 미만 +8.3%(33곳) · 이상 +4.6%(366곳)</text>
+  <text x="380" y="292" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#B4501F">3.7%p 벌어짐</text>
+  <text x="32" y="314" font-family="system-ui, sans-serif" font-size="12" fill="#4B5563">경계 9억 — 미만 +5.0%(159곳) · 이상 +4.7%(240곳)</text>
+  <text x="380" y="314" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#8A8F98">0.3%p 로 줄어듦</text>
+
+  <line x1="32" y1="330" x2="608" y2="330" stroke="#E5E0D0"/>
+  <text x="32" y="352" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F2328">층값이 큰 건 「싼 집」이 아니라 「아주 싼 구간」이에요</text>
+  <text x="32" y="370" font-family="system-ui, sans-serif" font-size="11" fill="#8A8F98">「벌어진 폭」은 원값 기준이에요 · 연식 4.93−4.67=0.26%p · 가격대 6.174−3.635=2.539%p</text>
+  <text x="32" y="386" font-family="system-ui, sans-serif" font-size="11" fill="#8A8F98">6억 미만은 33곳뿐이라 다른 칸보다 표본이 훨씬 작습니다 · 국토교통부 실거래 · 2026년 9월 14일 집계</text>
+</svg>
