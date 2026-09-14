@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" width="720" height="300" role="img" aria-label="하루 30퍼센트 제한이 있어도 사흘 연속 상한가면 2.2배가 된다는 계산. 기준점이 매일 새로 잡히기 때문이다">
+  <style>
+    .t{font-family:'Apple SD Gothic Neo','Malgun Gothic',sans-serif}
+    .h{font-size:16px;font-weight:700;fill:#292524}
+    .d{font-size:14px;font-weight:700;fill:#57534e}
+    .v{font-size:20px;font-weight:900;fill:#c2410c}
+    .sm{font-size:12px;fill:#a8a29e}
+  </style>
+  <rect width="720" height="300" fill="#fffdfa"/>
+  <text class="t h" x="24" y="34">제한이 있어도 며칠이면 크게 벌어집니다</text>
+
+  <rect x="24" y="58" width="152" height="86" rx="10" fill="#fff2ec" stroke="#ece4d6"/>
+  <text class="t d" x="100" y="88" text-anchor="middle">시작</text>
+  <text class="t v" x="100" y="118" text-anchor="middle">100</text>
+
+  <rect x="196" y="58" width="152" height="86" rx="10" fill="#fff2ec" stroke="#ece4d6"/>
+  <text class="t d" x="272" y="88" text-anchor="middle">1일 상한가</text>
+  <text class="t v" x="272" y="118" text-anchor="middle">130</text>
+
+  <rect x="368" y="58" width="152" height="86" rx="10" fill="#fff2ec" stroke="#ece4d6"/>
+  <text class="t d" x="444" y="88" text-anchor="middle">2일 연속</text>
+  <text class="t v" x="444" y="118" text-anchor="middle">169</text>
+
+  <rect x="540" y="58" width="156" height="86" rx="10" fill="#c2410c"/>
+  <text class="t d" x="618" y="88" text-anchor="middle" fill="#ffe8dd">3일 연속</text>
+  <text class="t v" x="618" y="118" text-anchor="middle" fill="#ffffff">219.7</text>
+
+  <rect x="24" y="172" width="672" height="58" rx="12" fill="#fff2ec" stroke="#ece4d6"/>
+  <text class="t" x="360" y="198" text-anchor="middle" font-size="15" font-weight="700" fill="#292524">기준점이 <tspan fill="#c2410c">매일 새로 잡히기</tspan> 때문입니다</text>
+  <text class="t" x="360" y="220" text-anchor="middle" font-size="13" fill="#57534e">30%씩 세 번 = 90%가 아니라 약 120% 상승</text>
+
+  <text class="t sm" x="24" y="268">100 × 1.3 × 1.3 × 1.3 = 219.7 · 계산으로 확인되는 예시입니다</text>
+  <text class="t sm" x="24" y="290">실제로 사흘 연속 상한가가 흔하다는 뜻은 아닙니다 · 옳은경제</text>
+</svg>
