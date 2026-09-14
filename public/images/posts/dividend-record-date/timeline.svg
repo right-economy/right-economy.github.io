@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" width="720" height="300" role="img" aria-label="배당을 받으려면 배당기준일 이틀 전 영업일까지 사야 한다는 시간표. 주식은 산 날 바로 주주가 되는 게 아니라 이틀 뒤 결제되기 때문이다">
+  <style>
+    .t{font-family:'Apple SD Gothic Neo','Malgun Gothic',sans-serif}
+    .h{font-size:16px;font-weight:700;fill:#292524}
+    .d{font-size:15px;font-weight:700}
+    .s{font-size:13px;fill:#57534e}
+    .sm{font-size:12px;fill:#a8a29e}
+  </style>
+  <rect width="720" height="300" fill="#fffdfa"/>
+  <text class="t h" x="24" y="36">배당을 받으려면 언제까지 사야 하나</text>
+
+  <line x1="60" y1="120" x2="660" y2="120" stroke="#e7e5e4" stroke-width="4"/>
+
+  <circle cx="140" cy="120" r="13" fill="#c2410c"/>
+  <text class="t d" x="140" y="92" text-anchor="middle" fill="#c2410c">여기까지 사면 ○</text>
+  <text class="t s" x="140" y="158" text-anchor="middle">기준일 2영업일 전</text>
+
+  <circle cx="400" cy="120" r="13" fill="#f4a582"/>
+  <text class="t d" x="400" y="92" text-anchor="middle" fill="#7c2d12">배당기준일</text>
+  <text class="t s" x="400" y="158" text-anchor="middle">이날 주주명부에 있어야</text>
+
+  <circle cx="620" cy="120" r="13" fill="#d6d3d1"/>
+  <text class="t d" x="620" y="92" text-anchor="middle" fill="#78716c">그다음 날 사면 ✕</text>
+  <text class="t s" x="620" y="158" text-anchor="middle">이번 배당은 못 받음</text>
+
+  <rect x="24" y="196" width="672" height="58" rx="12" fill="#fff2ec" stroke="#ece4d6"/>
+  <text class="t" x="360" y="222" text-anchor="middle" font-size="15" font-weight="700" fill="#292524">산 날 바로 주주가 되는 게 아니라 <tspan fill="#c2410c">2영업일 뒤에 결제</tspan>됩니다</text>
+  <text class="t" x="360" y="244" text-anchor="middle" font-size="13" fill="#57534e">그래서 기준일 당일에 사면 늦습니다</text>
+
+  <text class="t sm" x="24" y="282">영업일 기준이라 주말·공휴일은 안 셉니다 · 옳은경제 개념 시간표</text>
+</svg>

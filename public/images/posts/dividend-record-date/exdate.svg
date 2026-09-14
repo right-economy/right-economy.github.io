@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 290" width="720" height="290" role="img" aria-label="배당기준일이 지나면 배당받을 권리가 빠지므로 주가가 그만큼 조정되는 배당락 개념도. 실제 낙폭은 이론과 다를 수 있다">
+  <style>
+    .t{font-family:'Apple SD Gothic Neo','Malgun Gothic',sans-serif}
+    .h{font-size:16px;font-weight:700;fill:#292524}
+    .b{font-size:15px;font-weight:700;fill:#c2410c}
+    .s{font-size:13px;fill:#57534e}
+    .sm{font-size:12px;fill:#a8a29e}
+  </style>
+  <rect width="720" height="290" fill="#fffdfa"/>
+  <text class="t h" x="24" y="36">기준일이 지나면 주가가 조정됩니다 — 배당락</text>
+
+  <rect x="24" y="62" width="320" height="120" rx="12" fill="#fff2ec" stroke="#ece4d6"/>
+  <text class="t b" x="44" y="94">기준일까지</text>
+  <text class="t s" x="44" y="124">주가 안에 <tspan font-weight="700">「배당받을 권리」</tspan>가</text>
+  <text class="t s" x="44" y="148">들어 있습니다.</text>
+
+  <text class="t" x="360" y="128" text-anchor="middle" font-size="26" font-weight="700" fill="#a8a29e">→</text>
+
+  <rect x="376" y="62" width="320" height="120" rx="12" fill="#ffffff" stroke="#c2410c" stroke-width="2"/>
+  <text class="t b" x="396" y="94">기준일 다음 날</text>
+  <text class="t s" x="396" y="124">그 권리가 빠졌으니</text>
+  <text class="t s" x="396" y="148">주가도 <tspan font-weight="700">그만큼 내려서</tspan> 시작합니다.</text>
+
+  <rect x="24" y="200" width="672" height="46" rx="10" fill="#c2410c"/>
+  <text class="t" x="360" y="229" text-anchor="middle" font-size="15" font-weight="700" fill="#ffffff">떨어진 게 아니라 「빠진 것」입니다 — 손해가 아니에요</text>
+
+  <text class="t sm" x="24" y="274">다만 실제 시초가는 시장 상황에 따라 이론과 다르게 움직입니다 · 옳은경제 개념도</text>
+</svg>
