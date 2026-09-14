@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img">
-  <rect width="640" height="360" fill="#FDF6E3"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 380" role="img">
+  <rect width="640" height="380" fill="#FDF6E3"/>
   <text x="32" y="42" font-family="system-ui, -apple-system, sans-serif" font-size="19" font-weight="700" fill="#1F2328">연식을 갈라도 층값은 그대로예요</text>
   <text x="32" y="64" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">같은 단지·같은 전용 84㎡대에서 1~3층 대비 6층 이상 · 서울 399개 단지 · 2026년 6~8월</text>
 
@@ -30,5 +30,6 @@
 
   <line x1="32" y1="308" x2="608" y2="308" stroke="#E5E0D0"/>
   <text x="32" y="330" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F2328">제일 큰 칸과 제일 작은 칸의 차이가 0.3%p예요</text>
-  <text x="32" y="352" font-family="system-ui, sans-serif" font-size="11" fill="#8A8F98">막대는 0부터 · 연식 구간은 31년 기준 · 네 칸 합 399곳 · 국토교통부 실거래 · 2026년 9월 14일 집계</text>
+  <text x="32" y="350" font-family="system-ui, sans-serif" font-size="11" fill="#8A8F98">원값 4.67 / 4.93 / 4.92 / 4.80% · 0.3%p 는 원값으로 뺀 0.26%p 를 반올림한 값이에요</text>
+  <text x="32" y="366" font-family="system-ui, sans-serif" font-size="11" fill="#8A8F98">막대는 0부터 · 연식 구간은 31년 기준 · 네 칸 합 399곳 · 국토교통부 실거래 · 2026년 9월 14일 집계</text>
 </svg>
