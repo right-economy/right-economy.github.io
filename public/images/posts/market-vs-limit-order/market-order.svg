@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 418" role="img">
+  <rect width="640" height="418" fill="#FDF6E3"/>
+  <text x="32" y="42" font-family="system-ui, -apple-system, sans-serif" font-size="19" font-weight="700" fill="#1F2328">시장가는 싼 것부터 집어 올라갑니다</text>
+  <text x="32" y="64" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">매도 호가가 이렇게 쌓여 있을 때 300주를 시장가로 사면</text>
+
+  <text x="150" y="98" text-anchor="end" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#8A8F98">매도 호가</text>
+  <text x="290" y="98" text-anchor="end" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#8A8F98">걸린 수량</text>
+  <text x="470" y="98" text-anchor="end" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#B4501F">내가 사는 양</text>
+  <line x1="32" y1="108" x2="608" y2="108" stroke="#E5E0D0"/>
+
+  <text x="150" y="138" text-anchor="end" font-family="system-ui, sans-serif" font-size="14" fill="#9A9488">10,300원</text>
+  <text x="290" y="138" text-anchor="end" font-family="system-ui, sans-serif" font-size="13" fill="#9A9488">400주</text>
+  <text x="470" y="138" text-anchor="end" font-family="system-ui, sans-serif" font-size="13" fill="#B8B2A0">—</text>
+
+  <rect x="32" y="152" width="576" height="34" rx="6" fill="#FBEADF"/>
+  <text x="150" y="175" text-anchor="end" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F2328">10,200원</text>
+  <text x="290" y="175" text-anchor="end" font-family="system-ui, sans-serif" font-size="13" fill="#4B5563">200주</text>
+  <text x="470" y="175" text-anchor="end" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#B4501F">100주</text>
+  <text x="490" y="175" font-family="system-ui, sans-serif" font-size="12" fill="#8A8F98">← 여기까지 올라감</text>
+
+  <rect x="32" y="194" width="576" height="34" rx="6" fill="#FBEADF"/>
+  <text x="150" y="217" text-anchor="end" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F2328">10,100원</text>
+  <text x="290" y="217" text-anchor="end" font-family="system-ui, sans-serif" font-size="13" fill="#4B5563">200주</text>
+  <text x="470" y="217" text-anchor="end" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#B4501F">200주</text>
+  <text x="490" y="217" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F7A3D">← 화면에 보이던 값</text>
+
+  <line x1="32" y1="242" x2="608" y2="242" stroke="#E5E0D0"/>
+
+  <rect x="32" y="256" width="278" height="58" rx="8" fill="#FFFFFF" stroke="#B8B2A0" stroke-width="2"/>
+  <text x="52" y="280" font-family="system-ui, sans-serif" font-size="13" fill="#4B5563">화면에 보이던 값</text>
+  <text x="52" y="304" font-family="system-ui, sans-serif" font-size="17" font-weight="700" fill="#1F2328">10,100원</text>
+
+  <rect x="330" y="256" width="278" height="80" rx="8" fill="#FFFFFF" stroke="#E8642F" stroke-width="2"/>
+  <text x="350" y="280" font-family="system-ui, sans-serif" font-size="13" fill="#4B5563">실제 평균 단가</text>
+  <text x="350" y="304" font-family="system-ui, sans-serif" font-size="17" font-weight="700" fill="#B4501F">10,133원</text>
+  <text x="350" y="326" font-family="system-ui, sans-serif" font-size="11" fill="#8A8F98">(200×10,100 + 100×10,200) ÷ 300</text>
+
+  <text x="32" y="366" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F2328">한 칸에 걸린 수량이 적으면 그만큼 위로 올라갑니다</text>
+  <text x="32" y="388" font-family="system-ui, sans-serif" font-size="13" fill="#4B5563">거래가 적은 종목일수록 호가가 얇아서 차이가 커집니다.</text>
+  <text x="32" y="410" font-family="system-ui, sans-serif" font-size="11" fill="#8A8F98">가격·수량은 구조를 보여주기 위해 만든 예시입니다 · 실제 종목의 호가가 아닙니다</text>
+</svg>
