@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img">
   <rect width="640" height="400" fill="#FDF6E3"/>
-  <text x="32" y="42" font-family="system-ui, -apple-system, sans-serif" font-size="19" font-weight="700" fill="#1F2328">모든 칸이 시간을 타는 건 아니에요</text>
+  <text x="32" y="42" font-family="system-ui, -apple-system, sans-serif" font-size="19" font-weight="700" fill="#1F2328">시간을 안 타는 건 가격·면적·층뿐이에요</text>
   <text x="32" y="64" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">3월 계약과 8월 계약을 견주면 — 서울 아파트 매매 33,388건 · 2026년 9월 15일 집계</text>
 
   <text x="150" y="98" text-anchor="end" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#8A8F98">항목</text>
@@ -20,12 +20,12 @@
   <text x="560" y="178" text-anchor="end" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#B4501F">80.1%p</text>
 
   <line x1="32" y1="198" x2="608" y2="198" stroke="#E5E0D0" stroke-dasharray="4 3"/>
-  <text x="32" y="222" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">아래는 대조군 — 같은 자료인데 거의 안 움직여요</text>
+  <text x="32" y="222" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">해제 표시도 같은 방향이에요 — 폭만 작습니다(비율로는 −52.9%)</text>
 
-  <text x="150" y="252" text-anchor="end" font-family="system-ui, sans-serif" font-size="14" fill="#4B5563">해제 표시</text>
+  <text x="150" y="252" text-anchor="end" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#B4501F">해제 표시</text>
   <text x="290" y="252" text-anchor="end" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#8A8F98">3.4%</text>
   <text x="410" y="252" text-anchor="end" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#8A8F98">1.6%</text>
-  <text x="560" y="252" text-anchor="end" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#1F7A3D">1.8%p</text>
+  <text x="560" y="252" text-anchor="end" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#B4501F">1.8%p</text>
 
   <text x="150" y="290" text-anchor="end" font-family="system-ui, sans-serif" font-size="14" fill="#4B5563">값·면적·층</text>
   <text x="290" y="290" text-anchor="end" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#8A8F98">100%</text>
@@ -33,7 +33,7 @@
   <text x="560" y="290" text-anchor="end" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#1F7A3D">0%p</text>
 
   <line x1="32" y1="316" x2="608" y2="316" stroke="#E5E0D0"/>
-  <text x="32" y="340" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F2328">가격·면적·층은 언제 봐도 다 차 있어요 — 시세를 보는 데는 문제없습니다</text>
+  <text x="32" y="340" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F2328">방향이 없는 건 가격·면적·층뿐이에요 — 시세를 보는 데는 문제없습니다</text>
   <text x="32" y="362" font-family="system-ui, sans-serif" font-size="13" fill="#4B5563">비는 건 등기 뒤에 붙는 칸이고, 그건 시간이 지나면 채워집니다.</text>
   <text x="32" y="386" font-family="system-ui, sans-serif" font-size="11" fill="#8A8F98">8월 계약은 2,811건뿐이라 다른 달보다 표본이 작습니다 · 서울 20개 자치구 · 국토교통부 실거래</text>
 </svg>
