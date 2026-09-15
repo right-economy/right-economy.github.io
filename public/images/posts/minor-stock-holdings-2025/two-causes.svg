@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 348" role="img">
+  <rect width="640" height="348" fill="#FDF6E3"/>
+  <text x="32" y="42" font-family="system-ui, -apple-system, sans-serif" font-size="19" font-weight="700" fill="#1F2328">늘어난 2조 6,612억에 두 가지가 섞여 있어요</text>
+  <text x="32" y="64" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">이 자료로는 어느 쪽이 얼마인지 가를 수 없습니다</text>
+
+  <rect x="32" y="92" width="278" height="112" rx="10" fill="#FFFFFF" stroke="#E8642F" stroke-width="2"/>
+  <text x="52" y="122" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#B4501F">새로 넣은 돈</text>
+  <text x="52" y="152" font-family="system-ui, sans-serif" font-size="13" fill="#4B5563">부모가 사주거나</text>
+  <text x="52" y="174" font-family="system-ui, sans-serif" font-size="13" fill="#4B5563">증여한 것</text>
+  <text x="52" y="194" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#8A8F98">얼마인지 모름</text>
+
+  <rect x="330" y="92" width="278" height="112" rx="10" fill="#FFFFFF" stroke="#9FC69A" stroke-width="2"/>
+  <text x="350" y="122" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#1F7A3D">갖고 있던 게 오른 것</text>
+  <text x="350" y="152" font-family="system-ui, sans-serif" font-size="13" fill="#4B5563">한 주도 안 샀는데</text>
+  <text x="350" y="174" font-family="system-ui, sans-serif" font-size="13" fill="#4B5563">평가액만 늘어난 것</text>
+  <text x="350" y="194" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#8A8F98">얼마인지 모름</text>
+
+  <line x1="32" y1="228" x2="608" y2="228" stroke="#E5E0D0"/>
+  <text x="32" y="254" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F2328">그래서 「증여가 57% 늘었다」고 읽으면 틀립니다</text>
+  <text x="32" y="278" font-family="system-ui, sans-serif" font-size="13" fill="#4B5563">보도에도 「증시 상승에 따른 평가액 증가도 반영됐다」고 적혀 있어요.</text>
+  <text x="32" y="302" font-family="system-ui, sans-serif" font-size="13" fill="#4B5563">둘 중 한쪽만 재서 붙이면, 나머지 한쪽을 가른 것처럼 보이게 됩니다.</text>
+  <text x="32" y="336" font-family="system-ui, sans-serif" font-size="11" fill="#8A8F98">2025년 12월 말 기준 · 한국예탁결제원 자료(뉴시스 보도) · 두 원인의 비중을 가르는 자료는 기사에 없습니다</text>
+</svg>

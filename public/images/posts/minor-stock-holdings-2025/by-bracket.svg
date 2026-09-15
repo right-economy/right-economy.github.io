@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 392" role="img">
+  <rect width="640" height="392" fill="#FDF6E3"/>
+  <text x="32" y="42" font-family="system-ui, -apple-system, sans-serif" font-size="19" font-weight="700" fill="#1F2328">맨 아래 칸만 줄었어요</text>
+  <text x="32" y="64" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">미성년자 주식 보유자 · 금액 구간별 인원 · 2024년 말 → 2025년 말</text>
+
+  <text x="168" y="98" text-anchor="end" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#8A8F98">보유 금액</text>
+  <text x="330" y="98" text-anchor="end" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#8A8F98">2024년 말</text>
+  <text x="500" y="98" text-anchor="end" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#8A8F98">2025년 말</text>
+  <line x1="32" y1="108" x2="608" y2="108" stroke="#E5E0D0"/>
+
+  <text x="168" y="142" text-anchor="end" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F2328">1억 원 이상</text>
+  <text x="330" y="142" text-anchor="end" font-family="system-ui, sans-serif" font-size="14" fill="#8A8F98">2,800명</text>
+  <text x="372" y="142" font-family="system-ui, sans-serif" font-size="13" fill="#B8B2A0">→</text>
+  <text x="500" y="142" text-anchor="end" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#B4501F">5,400명</text>
+  <text x="520" y="142" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#E8642F">늘었다</text>
+
+  <text x="168" y="182" text-anchor="end" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F2328">5천만~1억 원</text>
+  <text x="330" y="182" text-anchor="end" font-family="system-ui, sans-serif" font-size="14" fill="#8A8F98">4,400명</text>
+  <text x="372" y="182" font-family="system-ui, sans-serif" font-size="13" fill="#B8B2A0">→</text>
+  <text x="500" y="182" text-anchor="end" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#B4501F">1만 명</text>
+  <text x="520" y="182" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#E8642F">늘었다</text>
+
+  <text x="168" y="222" text-anchor="end" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F2328">1천만~5천만 원</text>
+  <text x="330" y="222" text-anchor="end" font-family="system-ui, sans-serif" font-size="14" fill="#8A8F98">8만 9,600명</text>
+  <text x="372" y="222" font-family="system-ui, sans-serif" font-size="13" fill="#B8B2A0">→</text>
+  <text x="500" y="222" text-anchor="end" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#B4501F">14만 7,300명</text>
+  <text x="520" y="222" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#E8642F">늘었다</text>
+
+  <rect x="32" y="240" width="576" height="46" rx="8" fill="#FBEADF"/>
+  <text x="168" y="270" text-anchor="end" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F2328">1천만 원 미만</text>
+  <text x="330" y="270" text-anchor="end" font-family="system-ui, sans-serif" font-size="14" fill="#8A8F98">67만 6,600명</text>
+  <text x="372" y="270" font-family="system-ui, sans-serif" font-size="13" fill="#B8B2A0">→</text>
+  <text x="500" y="270" text-anchor="end" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#1F7A3D">60만 6,800명</text>
+  <text x="520" y="270" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F7A3D">6만 9,800명 줄어</text>
+
+  <line x1="32" y1="306" x2="608" y2="306" stroke="#E5E0D0"/>
+  <text x="32" y="330" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F2328">다만 「그만둔 것」과 「윗칸으로 올라간 것」은 구분되지 않아요</text>
+  <text x="32" y="352" font-family="system-ui, sans-serif" font-size="13" fill="#4B5563">1천만 원을 넘으면 아래 칸에서 빠지고 위 칸에 더해집니다.</text>
+  <text x="32" y="376" font-family="system-ui, sans-serif" font-size="11" fill="#8A8F98">인원은 모두 백 단위 반올림 — 네 칸을 더해도 전체와 정확히 맞지 않습니다 · 한국예탁결제원 자료(뉴시스 보도)</text>
+</svg>
