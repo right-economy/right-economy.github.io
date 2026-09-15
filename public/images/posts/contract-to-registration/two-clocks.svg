@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img">
+  <rect width="640" height="360" fill="#FDF6E3"/>
+  <text x="32" y="42" font-family="system-ui, -apple-system, sans-serif" font-size="19" font-weight="700" fill="#1F2328">거래 하나에 시계가 두 개예요</text>
+  <text x="32" y="64" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">같은 계약인데 「통계에 뜨는 때」와 「소유권이 넘어가는 때」가 다릅니다</text>
+
+  <line x1="60" y1="120" x2="600" y2="120" stroke="#E5E0D0" stroke-width="2"/>
+
+  <circle cx="72" cy="120" r="8" fill="#1F2328"/>
+  <text x="72" y="152" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F2328">계약</text>
+  <text x="72" y="170" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#8A8F98">0일</text>
+
+  <circle cx="228" cy="120" r="8" fill="#E8A87C"/>
+  <text x="228" y="152" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#B4501F">신고 기한</text>
+  <text x="228" y="170" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#8A8F98">30일 이내</text>
+  <text x="228" y="190" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#6B7280">여기서 거래량 통계에 잡혀요</text>
+
+  <circle cx="492" cy="120" r="10" fill="#E8642F"/>
+  <text x="492" y="152" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#B4501F">등기</text>
+  <text x="492" y="170" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#1F2328">중앙값 79일</text>
+  <text x="492" y="190" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#6B7280">잔금 치르고 소유권이 넘어가요</text>
+
+  <rect x="60" y="216" width="248" height="30" rx="4" fill="#EFEAD8"/>
+  <text x="74" y="236" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#8A6A18">이 구간이 거래량 통계의 시계</text>
+
+  <rect x="60" y="252" width="440" height="30" rx="4" fill="#FADFCB"/>
+  <text x="74" y="272" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#B4501F">이 구간이 실제로 집이 넘어가는 시계 — 두 배 넘게 깁니다</text>
+
+  <line x1="32" y1="302" x2="608" y2="302" stroke="#E5E0D0"/>
+  <text x="32" y="326" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F2328">「거래됐다」는 기사와 「집이 넘어갔다」는 두 달쯤 어긋나요</text>
+  <text x="32" y="348" font-family="system-ui, sans-serif" font-size="11" fill="#8A8F98">79일은 등기가 끝난 17,889건의 중앙값이고, 아직 등기 안 된 건은 빠져 있어요 · 국토교통부 실거래</text>
+</svg>
