@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 340" role="img">
+  <rect width="640" height="340" fill="#FDF6E3"/>
+  <text x="32" y="42" font-family="system-ui, -apple-system, sans-serif" font-size="19" font-weight="700" fill="#1F2328">단일가는 모았다가 한 번에 체결합니다</text>
+  <text x="32" y="64" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">그래서 「지금 이 값에 바로」가 되지 않습니다</text>
+
+  <rect x="32" y="88" width="576" height="88" rx="10" fill="#FFFFFF" stroke="#9FC69A" stroke-width="2"/>
+  <text x="50" y="114" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F7A3D">정규장 — 실시간 체결</text>
+  <circle cx="62" cy="146" r="7" fill="#9FC69A"/>
+  <circle cx="122" cy="146" r="7" fill="#9FC69A"/>
+  <circle cx="182" cy="146" r="7" fill="#9FC69A"/>
+  <circle cx="242" cy="146" r="7" fill="#9FC69A"/>
+  <circle cx="302" cy="146" r="7" fill="#9FC69A"/>
+  <line x1="62" y1="160" x2="62" y2="168" stroke="#1F7A3D" stroke-width="2"/>
+  <line x1="122" y1="160" x2="122" y2="168" stroke="#1F7A3D" stroke-width="2"/>
+  <line x1="182" y1="160" x2="182" y2="168" stroke="#1F7A3D" stroke-width="2"/>
+  <line x1="242" y1="160" x2="242" y2="168" stroke="#1F7A3D" stroke-width="2"/>
+  <line x1="302" y1="160" x2="302" y2="168" stroke="#1F7A3D" stroke-width="2"/>
+  <text x="330" y="151" font-family="system-ui, sans-serif" font-size="13" fill="#4B5563">주문이 오는 대로 각각 체결된다</text>
+
+  <rect x="32" y="192" width="576" height="88" rx="10" fill="#FFFFFF" stroke="#E8642F" stroke-width="2"/>
+  <text x="50" y="218" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#B4501F">시간외 단일가 — 10분마다 한 번</text>
+  <rect x="50" y="234" width="266" height="30" rx="6" fill="#FBEADF"/>
+  <circle cx="74" cy="249" r="6" fill="#E8642F"/>
+  <circle cx="104" cy="249" r="6" fill="#E8642F"/>
+  <circle cx="134" cy="249" r="6" fill="#E8642F"/>
+  <circle cx="164" cy="249" r="6" fill="#E8642F"/>
+  <circle cx="194" cy="249" r="6" fill="#E8642F"/>
+  <text x="216" y="254" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#B4501F">10분 동안 모음</text>
+  <path d="M326 249 L354 249" stroke="#B4501F" stroke-width="2"/>
+  <path d="M348 244 L356 249 L348 254 Z" fill="#B4501F"/>
+  <text x="366" y="246" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F2328">한 번에 같은 가격으로</text>
+  <text x="366" y="266" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F2328">모두 체결</text>
+
+  <text x="32" y="308" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F2328">그 10분 안에서는 먼저 낸 순서가 값을 바꾸지 않습니다</text>
+  <text x="32" y="332" font-family="system-ui, sans-serif" font-size="11" fill="#8A8F98">옳은경제 정리 · 단일가 주기와 적용 구간은 제도 개편에 따라 달라질 수 있습니다</text>
+</svg>
