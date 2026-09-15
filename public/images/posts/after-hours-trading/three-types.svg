@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 372" role="img">
+  <rect width="640" height="372" fill="#FDF6E3"/>
+  <text x="32" y="42" font-family="system-ui, -apple-system, sans-serif" font-size="19" font-weight="700" fill="#1F2328">시간외 거래는 가격이 정해지는 방식이 다릅니다</text>
+  <text x="32" y="64" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">시각은 제도 개편으로 바뀔 수 있어 방식만 적었습니다</text>
+
+  <rect x="32" y="90" width="182" height="152" rx="10" fill="#FFFFFF" stroke="#B8B2A0" stroke-width="2"/>
+  <text x="50" y="116" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#5A5344">장전 시간외 종가</text>
+  <text x="50" y="146" font-family="system-ui, sans-serif" font-size="13" fill="#4B5563">정규장 시작 전</text>
+  <text x="50" y="176" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F2328">전일 종가로 고정</text>
+  <text x="50" y="206" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">값을 흥정하지 않는다</text>
+  <text x="50" y="228" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">사고팔 사람만 맞춘다</text>
+
+  <rect x="229" y="90" width="182" height="152" rx="10" fill="#FFFFFF" stroke="#B8B2A0" stroke-width="2"/>
+  <text x="247" y="116" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#5A5344">장후 시간외 종가</text>
+  <text x="247" y="146" font-family="system-ui, sans-serif" font-size="13" fill="#4B5563">정규장 끝난 직후</text>
+  <text x="247" y="176" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F2328">당일 종가로 고정</text>
+  <text x="247" y="206" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">역시 가격은 이미</text>
+  <text x="247" y="228" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">정해져 있다</text>
+
+  <rect x="426" y="90" width="182" height="152" rx="10" fill="#FFFFFF" stroke="#E8642F" stroke-width="2"/>
+  <text x="444" y="116" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#B4501F">시간외 단일가</text>
+  <text x="444" y="146" font-family="system-ui, sans-serif" font-size="13" fill="#4B5563">그보다 더 뒤</text>
+  <text x="444" y="176" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#B4501F">10분마다 새로 정해짐</text>
+  <text x="444" y="206" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">당일 종가 대비</text>
+  <text x="444" y="228" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F2328">위아래 10% 안에서</text>
+
+  <line x1="32" y1="266" x2="608" y2="266" stroke="#E5E0D0"/>
+  <text x="32" y="292" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F2328">「시간외에서 올랐다」는 대개 세 번째 칸 이야기입니다</text>
+  <text x="32" y="316" font-family="system-ui, sans-serif" font-size="13" fill="#4B5563">앞의 두 칸은 가격이 고정이라 오르내릴 수가 없습니다.</text>
+  <text x="32" y="340" font-family="system-ui, sans-serif" font-size="13" fill="#4B5563">정규장 가격제한폭(±30%)과 시간외 단일가(±10%)는 다른 숫자입니다.</text>
+  <text x="32" y="364" font-family="system-ui, sans-serif" font-size="11" fill="#8A8F98">한국거래소 제도 정리 · 2026년 9월 15일 기준 · 시각과 이용 범위는 증권사마다 다를 수 있습니다</text>
+</svg>
