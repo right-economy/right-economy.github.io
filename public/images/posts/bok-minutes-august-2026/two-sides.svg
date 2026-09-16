@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" font-family="Pretendard, sans-serif" role="img" aria-label="올리자고 한 여섯 명은 물가가 이미 너무 올랐고 경기가 좋아 더 오를 것 같으며 집값과 가계빚도 걱정된다고 봤다. 두고 보자고 한 한 명은 힘든 사람들이 더 힘들어지고 환율도 내려가는 중이라 이 물가가 계속될지 더 봐야 한다고 봤다">
+  <rect width="720" height="340" fill="#fffaf5"/>
+  <text x="360" y="38" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">같은 회의에서 나온 두 얘기</text>
+
+  <!-- 올리자 -->
+  <rect x="42" y="62" width="310" height="222" rx="10" fill="#fdf1e6" stroke="#e8853b" stroke-width="2"/>
+  <text x="197" y="94" text-anchor="middle" font-size="16" font-weight="800" fill="#c2410c">올리자 — 여섯 명</text>
+  <text x="70" y="136" font-size="14" fill="#5b4636">· 물가가 이미 너무 올랐다</text>
+  <text x="70" y="172" font-size="14" fill="#5b4636">· 경기가 좋아 더 오를 것 같다</text>
+  <text x="70" y="208" font-size="14" fill="#5b4636">· 집값과 가계빚도 걱정된다</text>
+  <text x="197" y="256" text-anchor="middle" font-size="26" font-weight="800" fill="#e8853b">6</text>
+
+  <!-- 두고 보자 -->
+  <rect x="368" y="62" width="310" height="222" rx="10" fill="#f2f6f3" stroke="#3f8f5a" stroke-width="2"/>
+  <text x="523" y="94" text-anchor="middle" font-size="16" font-weight="800" fill="#2f7d54">두고 보자 — 한 명</text>
+  <text x="396" y="136" font-size="14" fill="#5b4636">· 힘든 사람들이 더 힘들어진다</text>
+  <text x="396" y="172" font-size="14" fill="#5b4636">· 환율도 내려가는 중이다</text>
+  <text x="396" y="208" font-size="14" fill="#5b4636">· 이 물가가 계속될지 더 봐야 한다</text>
+  <text x="523" y="256" text-anchor="middle" font-size="26" font-weight="800" fill="#3f8f5a">1</text>
+
+  <text x="360" y="312" text-anchor="middle" font-size="12" font-weight="700" fill="#7c2d12">소수의견은 틀린 의견이 아닙니다 · 원래 의견이 나뉘라고 만든 회의입니다</text>
+  <text x="360" y="332" text-anchor="middle" font-size="11.5" fill="#b08968">2026년 8월 27일 금융통화위원회 · 2.75% 유지 의견은 황건일 위원 · 출처: 언론 보도</text>
+</svg>
