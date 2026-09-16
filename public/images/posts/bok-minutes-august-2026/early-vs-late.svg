@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" font-family="Pretendard, sans-serif" role="img" aria-label="물가가 오른 뒤에 대응하면 금리를 크게 올려야 하고 오르기 전에 대응하면 조금만 올려도 된다는 비교. 사람들이 앞으로 오를 것이라 믿기 시작하면 그 믿음만으로 물건값과 월급이 먼저 움직이기 때문이다">
+  <rect width="720" height="320" fill="#fffaf5"/>
+  <text x="360" y="40" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">일찍 조금 vs 나중에 많이</text>
+
+  <line x1="110" y1="232" x2="610" y2="232" stroke="#d8b9a5" stroke-width="1.5"/>
+
+  <!-- 오르기 전에 -->
+  <rect x="175" y="182" width="110" height="50" rx="4" fill="#e8853b"/>
+  <text x="230" y="170" text-anchor="middle" font-size="18" font-weight="800" fill="#c2410c">조금</text>
+  <text x="230" y="256" text-anchor="middle" font-size="13.5" font-weight="700" fill="#7c2d12">오르기 전에 대응</text>
+  <text x="230" y="276" text-anchor="middle" font-size="12" font-weight="700" fill="#2f7d54">→ 일찍 조금이면 됨</text>
+
+  <text x="360" y="212" text-anchor="middle" font-size="16" font-weight="800" fill="#8a6d5a">vs</text>
+
+  <!-- 오른 뒤에 -->
+  <rect x="435" y="92" width="110" height="140" rx="4" fill="#c9b7a8"/>
+  <text x="490" y="80" text-anchor="middle" font-size="18" font-weight="800" fill="#8a6d5a">많이</text>
+  <text x="490" y="256" text-anchor="middle" font-size="13.5" font-weight="700" fill="#7c2d12">오른 뒤에 대응</text>
+  <text x="490" y="276" text-anchor="middle" font-size="12" fill="#8a6d5a">→ 그만큼 크게 올려야</text>
+
+  <text x="360" y="304" text-anchor="middle" font-size="11.5" fill="#b08968">사람들이 「앞으로 오를 것」이라 믿기 시작하면 그 믿음만으로 물건값과 월급이 먼저 움직입니다 · 막대 높이는 크기 비교를 위한 그림이며 특정 금리 폭이 아닙니다 · 출처: 옳은경제 정리</text>
+</svg>
