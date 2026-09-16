@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img">
+  <rect width="640" height="360" fill="#FDF6E3"/>
+  <text x="32" y="42" font-family="system-ui, -apple-system, sans-serif" font-size="19" font-weight="700" fill="#1F2328">비싼 집일수록 등기가 늦어요</text>
+  <text x="32" y="64" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">계약일에서 등기일까지 걸린 날 · 서울 아파트 매매 17,919건 · 2026년 3~5월 계약</text>
+
+  <text x="132" y="108" text-anchor="end" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F2328">5억 미만</text>
+  <rect x="144" y="92" width="152" height="22" rx="3" fill="#9FC69A"/>
+  <text x="306" y="109" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F5C2E">57일</text>
+  <text x="392" y="109" font-family="system-ui, sans-serif" font-size="12" fill="#8A8F98">2,701건</text>
+
+  <text x="132" y="152" text-anchor="end" font-family="system-ui, sans-serif" font-size="13" fill="#4B5563">5~10억</text>
+  <rect x="144" y="136" width="205" height="22" rx="3" fill="#E8A87C"/>
+  <text x="359" y="153" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#B4501F">77일</text>
+  <text x="432" y="153" font-family="system-ui, sans-serif" font-size="12" fill="#8A8F98">7,510건</text>
+
+  <text x="132" y="196" text-anchor="end" font-family="system-ui, sans-serif" font-size="13" fill="#4B5563">10~20억</text>
+  <rect x="144" y="180" width="229" height="22" rx="3" fill="#E8A87C"/>
+  <text x="383" y="197" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#B4501F">86일</text>
+  <text x="456" y="197" font-family="system-ui, sans-serif" font-size="12" fill="#8A8F98">5,135건</text>
+
+  <text x="132" y="240" text-anchor="end" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F2328">20억 이상</text>
+  <rect x="144" y="224" width="248" height="22" rx="3" fill="#E8642F"/>
+  <text x="402" y="241" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#B4501F">93일</text>
+  <text x="474" y="241" font-family="system-ui, sans-serif" font-size="12" fill="#8A8F98">2,573건</text>
+
+  <line x1="32" y1="268" x2="608" y2="268" stroke="#E5E0D0"/>
+  <text x="32" y="292" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F2328">5억 미만과 20억 이상이 36일 차이납니다</text>
+  <text x="32" y="316" font-family="system-ui, sans-serif" font-size="13" fill="#4B5563">왜 늦어지는지는 이 자료로 알 수 없어요 — 잔금 규모나 대출 일정으로 짐작할 뿐입니다.</text>
+  <text x="32" y="340" font-family="system-ui, sans-serif" font-size="11" fill="#8A8F98">네 칸 합 17,919건 · 막대는 0부터 · 안 끝난 거래가 빠져 있고 비싼 쪽이 더 많이 빠져 격차도 더 클 수 있어요</text>
+  <text x="32" y="356" font-family="system-ui, sans-serif" font-size="11" fill="#8A8F98">서울 20개 자치구 · 해제 신고분 제외 · 국토교통부 실거래 · 2026년 9월 16일 집계</text>
+</svg>
