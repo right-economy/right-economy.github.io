@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 388" role="img">
+  <rect width="640" height="388" fill="#FDF6E3"/>
+  <text x="32" y="42" font-family="system-ui, -apple-system, sans-serif" font-size="19" font-weight="700" fill="#1F2328">호가창의 숫자는 「아직 안 된 주문」이에요</text>
+  <text x="32" y="64" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">가격 옆에 붙은 수량이 잔량입니다 · 구조를 보여주기 위한 예시</text>
+
+  <text x="214" y="98" text-anchor="end" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#8A8F98">잔량</text>
+  <text x="330" y="98" text-anchor="end" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#8A8F98">가격</text>
+  <text x="446" y="98" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#8A8F98">잔량</text>
+  <line x1="32" y1="108" x2="608" y2="108" stroke="#E5E0D0"/>
+
+  <text x="60" y="134" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F7A3D">팔겠다는 쪽</text>
+  <text x="214" y="160" text-anchor="end" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F7A3D">420</text>
+  <text x="330" y="160" text-anchor="end" font-family="system-ui, sans-serif" font-size="14" fill="#4B5563">10,200원</text>
+  <text x="214" y="188" text-anchor="end" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F7A3D">180</text>
+  <text x="330" y="188" text-anchor="end" font-family="system-ui, sans-serif" font-size="14" fill="#4B5563">10,100원</text>
+
+  <line x1="32" y1="206" x2="608" y2="206" stroke="#B8B2A0" stroke-dasharray="5 4"/>
+
+  <text x="446" y="238" font-family="system-ui, sans-serif" font-size="14" fill="#4B5563">10,000원</text>
+  <text x="446" y="266" font-family="system-ui, sans-serif" font-size="14" fill="#4B5563">9,900원</text>
+  <text x="404" y="238" text-anchor="end" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#B4501F">640</text>
+  <text x="404" y="266" text-anchor="end" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#B4501F">910</text>
+  <text x="446" y="294" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#B4501F">사겠다는 쪽</text>
+
+  <line x1="32" y1="314" x2="608" y2="314" stroke="#E5E0D0"/>
+  <text x="32" y="338" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F2328">이 숫자들은 이미 사고판 양이 아닙니다</text>
+  <text x="32" y="360" font-family="system-ui, sans-serif" font-size="13" fill="#4B5563">「그 가격에 사겠다·팔겠다」고 걸어놓고 아직 체결되지 않은 수량이에요.</text>
+  <text x="32" y="382" font-family="system-ui, sans-serif" font-size="11" fill="#8A8F98">가격·수량은 만든 예시이며 실제 종목의 호가가 아닙니다 · 보통 10단계까지만 표시됩니다</text>
+</svg>
