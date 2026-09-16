@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 356" role="img">
+  <rect width="640" height="356" fill="#FDF6E3"/>
+  <text x="32" y="42" font-family="system-ui, -apple-system, sans-serif" font-size="19" font-weight="700" fill="#1F2328">팔린 날과 돈이 되는 날이 다릅니다</text>
+  <text x="32" y="64" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">영업일 기준 · 주말과 공휴일은 세지 않습니다</text>
+
+  <line x1="80" y1="150" x2="560" y2="150" stroke="#E5E0D0" stroke-width="4"/>
+
+  <circle cx="80" cy="150" r="13" fill="#E8642F"/>
+  <text x="80" y="122" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F2328">매도 체결</text>
+  <text x="80" y="184" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#B4501F">0일</text>
+  <text x="80" y="206" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">잔고에 금액이 찍힘</text>
+
+  <circle cx="320" cy="150" r="10" fill="#C9C1AE"/>
+  <text x="320" y="122" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#8A8F98">다음 영업일</text>
+  <text x="320" y="184" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#8A8F98">1일</text>
+
+  <circle cx="560" cy="150" r="13" fill="#1F7A3D"/>
+  <text x="560" y="122" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F2328">결제 완료</text>
+  <text x="560" y="184" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#1F7A3D">2일</text>
+  <text x="560" y="206" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">이제 출금됩니다</text>
+
+  <rect x="80" y="232" width="480" height="30" rx="6" fill="#FBEADF"/>
+  <text x="320" y="252" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#B4501F">이 구간에는 출금이 안 됩니다</text>
+
+  <line x1="32" y1="286" x2="608" y2="286" stroke="#E5E0D0"/>
+  <text x="32" y="310" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F2328">금요일에 팔면 화요일에 결제됩니다</text>
+  <text x="32" y="332" font-family="system-ui, sans-serif" font-size="13" fill="#4B5563">연휴가 끼면 더 길어져요 — 돈 쓸 날이 있으면 거기서 거꾸로 세는 편이 낫습니다.</text>
+  <text x="32" y="352" font-family="system-ui, sans-serif" font-size="11" fill="#8A8F98">결제 주기는 제도 변경에 따라 달라질 수 있고, 증권사별 서비스로 예외가 있을 수 있습니다</text>
+</svg>

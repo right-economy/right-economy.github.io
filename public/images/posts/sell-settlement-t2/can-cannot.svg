@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 340" role="img">
+  <rect width="640" height="340" fill="#FDF6E3"/>
+  <text x="32" y="42" font-family="system-ui, -apple-system, sans-serif" font-size="19" font-weight="700" fill="#1F2328">안에서 도는 돈과 밖으로 나가는 돈</text>
+  <text x="32" y="64" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">매도 체결 후 결제가 끝나기 전 구간</text>
+
+  <rect x="32" y="92" width="278" height="120" rx="10" fill="#FFFFFF" stroke="#9FC69A" stroke-width="2"/>
+  <text x="52" y="122" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#1F7A3D">다른 주식 사기</text>
+  <text x="52" y="152" font-family="system-ui, sans-serif" font-size="22" font-weight="700" fill="#1F7A3D">됩니다</text>
+  <text x="52" y="182" font-family="system-ui, sans-serif" font-size="13" fill="#4B5563">증권사 안에서 도는 돈이라</text>
+  <text x="52" y="202" font-family="system-ui, sans-serif" font-size="13" fill="#4B5563">바로 쓸 수 있어요</text>
+
+  <rect x="330" y="92" width="278" height="120" rx="10" fill="#FFFFFF" stroke="#E8642F" stroke-width="2"/>
+  <text x="350" y="122" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#B4501F">은행으로 출금</text>
+  <text x="350" y="152" font-family="system-ui, sans-serif" font-size="22" font-weight="700" fill="#B4501F">안 됩니다</text>
+  <text x="350" y="182" font-family="system-ui, sans-serif" font-size="13" fill="#4B5563">밖으로 나가는 돈이라</text>
+  <text x="350" y="202" font-family="system-ui, sans-serif" font-size="13" fill="#4B5563">결제가 끝나야 나갑니다</text>
+
+  <line x1="32" y1="240" x2="608" y2="240" stroke="#E5E0D0"/>
+  <text x="32" y="264" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F2328">「팔아서 다른 걸 샀는데 출금은 안 된다」가 이상한 일이 아니에요</text>
+  <text x="32" y="288" font-family="system-ui, sans-serif" font-size="13" fill="#4B5563">두 가지가 다른 절차를 타기 때문입니다.</text>
+  <text x="32" y="330" font-family="system-ui, sans-serif" font-size="11" fill="#8A8F98">일부 증권사는 별도 서비스로 결제 전 출금을 지원하기도 합니다 · 이용 조건은 증권사 안내를 확인하세요</text>
+</svg>
