@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="720" height="380" viewBox="0 0 720 380" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="380" viewBox="0 0 720 380" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" role="img" aria-label="지역별 아파트 경매 낙찰가율 막대그래프. 서울 101%로 감정가 초과, 전국 85.4%, 인천 80.4%">
   <rect width="720" height="380" fill="#ffffff"/>
   <text x="40" y="42" font-size="22" font-weight="700" fill="#1f2937">아파트 경매 낙찰가율 — 서울만 감정가 넘겨요</text>
   <text x="40" y="68" font-size="14" fill="#6b7280">낙찰가율 100% = 감정가만큼 주고 낙찰 · 100% 넘으면 웃돈</text>

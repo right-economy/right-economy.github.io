@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 392" role="img">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 392" role="img" aria-label="미성년자 주식 보유자를 금액 구간별로 나눈 표. 1억 원 이상은 2,800명에서 5,400명으로, 5천만~1억 원은 4,400명에서 약 1만 명으로, 1천만~5천만 원은 8만 9,600명에서 14만 7,300명으로 늘었다. 반면 1천만 원 미만은 67만 6,600명에서 60만 6,800명으로 6만 9,800명 줄었다. 큰 구간은 늘고 작은 구간만 줄어든 모양이다">
   <rect width="640" height="392" fill="#FDF6E3"/>
   <text x="32" y="42" font-family="system-ui, -apple-system, sans-serif" font-size="19" font-weight="700" fill="#1F2328">맨 아래 칸만 줄었어요</text>
   <text x="32" y="64" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">미성년자 주식 보유자 · 금액 구간별 인원 · 2024년 말 → 2025년 말</text>

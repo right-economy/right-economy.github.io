@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 330" width="660" height="330" font-family="system-ui, -apple-system, 'Malgun Gothic', sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 330" width="660" height="330" font-family="system-ui, -apple-system, 'Malgun Gothic', sans-serif" role="img" aria-label="환율 효과가 플러스에서 마이너스로 뒤집힌다">
   <rect width="660" height="330" fill="#ffffff"/>
   <text x="20" y="28" font-size="15" font-weight="700" fill="#1a2540">환율은 유가 상승을 키우기도 하고 깎기도 합니다</text>
   <text x="20" y="47" font-size="11" fill="#6b7280">원화 환산 상승률 − 달러 유가 상승률 (2025년 8월 말 기준, %p)</text>

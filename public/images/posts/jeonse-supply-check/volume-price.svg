@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 450" width="760" height="450" font-family="-apple-system,BlinkMacSystemFont,Apple SD Gothic Neo,sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 450" width="760" height="450" font-family="-apple-system,BlinkMacSystemFont,Apple SD Gothic Neo,sans-serif" role="img" aria-label="분기별 전세 계약 건수 막대와 ㎡당 보증금 중앙값. 계약은 줄고 보증금은 오르는 흐름">
 <rect width="760" height="450" fill="#fffdf9"/>
 <text x="24" y="32" font-size="18" font-weight="700" fill="#2a2521">전세 계약은 줄고, ㎡당 보증금은 올랐어요</text>
 <text x="24" y="52" font-size="12" fill="#6f665c">막대 = 월평균 전세 계약 건수(건) · 막대 위 숫자 = ㎡당 보증금 중앙값(만원)</text>

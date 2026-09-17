@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 380" role="img">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 380" role="img" aria-label="연식을 네 칸으로 갈라도 저층 대비 고층 차이가 4.7~4.9%로 거의 같다는 그림. 칸마다 단지 수가 다른데도 값이 붙어 있어서, 층값이 건물 나이를 따라 움직이지 않는다는 뜻이다">
   <rect width="640" height="380" fill="#FDF6E3"/>
   <text x="32" y="42" font-family="system-ui, -apple-system, sans-serif" font-size="19" font-weight="700" fill="#1F2328">연식을 갈라도 층값은 그대로예요</text>
   <text x="32" y="64" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">같은 단지·같은 전용 84㎡대에서 1~3층 대비 6층 이상 · 서울 399개 단지 · 2026년 6~8월</text>

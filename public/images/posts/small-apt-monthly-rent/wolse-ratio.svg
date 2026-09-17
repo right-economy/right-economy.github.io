@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" font-family="'Noto Sans KR', sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" font-family="'Noto Sans KR', sans-serif" role="img" aria-label="서울 아파트 전체 월세 비중 약 54%보다 소형(60㎡ 이하)이 약 60%로 더 높다는 막대그래프">
   <rect width="640" height="360" fill="#ffffff"/>
   <text x="320" y="34" text-anchor="middle" font-size="19" font-weight="700" fill="#1a1a2e">서울 아파트 임대차 월세 비중</text>
   <text x="320" y="56" text-anchor="middle" font-size="13" fill="#6b7280">2026년 대략치 · 소형일수록 월세화가 빠름</text>

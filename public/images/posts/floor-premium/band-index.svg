@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" width="720" height="420" font-family="-apple-system,BlinkMacSystemFont,Apple SD Gothic Neo,sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" width="720" height="420" font-family="-apple-system,BlinkMacSystemFont,Apple SD Gothic Neo,sans-serif" role="img" aria-label="저층은 지수 97.8, 중층과 고층은 나란히 100.0으로 같은 수준을 보여주는 막대그래프">
 <rect width="720" height="420" fill="#fffdf9"/>
 <text x="90" y="32" font-size="18" font-weight="700" fill="#2a2521">같은 단지·같은 면적 안에서 층별 상대가격</text>
 <text x="90" y="50" font-size="12" fill="#6f665c">단지·평형별 중앙값 = 100 으로 맞춘 뒤 비교 (중앙값)</text>
