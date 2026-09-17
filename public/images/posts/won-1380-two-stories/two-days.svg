@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" font-family="Pretendard, sans-serif" role="img" aria-label="원달러 환율이 9월 15일 1345원대에서 9월 17일 장중 1384원까지 이틀 사이에 34원 넘게 올랐다는 막대 비교">
+  <rect width="720" height="300" fill="#fffaf5"/>
+  <text x="360" y="38" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">이틀 사이에 34원</text>
+  <line x1="110" y1="222" x2="610" y2="222" stroke="#d8b9a5" stroke-width="1.5"/>
+
+  <rect x="175" y="150" width="110" height="72" rx="4" fill="#c9b7a8"/>
+  <text x="230" y="138" text-anchor="middle" font-size="19" font-weight="800" fill="#8a6d5a">1,345원대</text>
+  <text x="230" y="246" text-anchor="middle" font-size="13.5" font-weight="700" fill="#7c2d12">9월 15일</text>
+
+  <text x="360" y="196" text-anchor="middle" font-size="22" font-weight="900" fill="#c2410c">→</text>
+  <text x="360" y="168" text-anchor="middle" font-size="16" font-weight="800" fill="#c2410c">+34원</text>
+
+  <rect x="435" y="102" width="110" height="120" rx="4" fill="#e8853b"/>
+  <text x="490" y="90" text-anchor="middle" font-size="19" font-weight="800" fill="#c2410c">1,380원대</text>
+  <text x="490" y="246" text-anchor="middle" font-size="13.5" font-weight="700" fill="#7c2d12">9월 17일</text>
+  <text x="490" y="266" text-anchor="middle" font-size="12" fill="#8a6d5a">장중</text>
+
+  <text x="360" y="288" text-anchor="middle" font-size="11.5" fill="#b08968">막대 높이는 변화를 보여주는 그림이며 실제 비율이 아닙니다 · 9월 17일 값은 장중이라 마감에서 달라질 수 있습니다</text>
+</svg>
