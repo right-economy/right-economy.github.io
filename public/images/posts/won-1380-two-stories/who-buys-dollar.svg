@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" font-family="Pretendard, sans-serif" role="img" aria-label="해외에 투자할 때 국내에서 원화를 팔아 달러를 사면 국내 달러 수요가 생기지만, 해외에서 달러를 빌려 그대로 쓰면 국내 외환시장을 거치지 않아 수요가 생기지 않는다는 비교">
+  <rect width="720" height="320" fill="#fffaf5"/>
+  <text x="360" y="38" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">달러를 어디서 구하느냐로 갈린다</text>
+
+  <rect x="42" y="66" width="310" height="192" rx="10" fill="#fdf1e6" stroke="#e8853b" stroke-width="2"/>
+  <text x="197" y="98" text-anchor="middle" font-size="15" font-weight="800" fill="#c2410c">국내에서 원화를 팔아 산다</text>
+  <text x="197" y="138" text-anchor="middle" font-size="14" fill="#5b4636">원화 → 달러</text>
+  <text x="197" y="166" text-anchor="middle" font-size="13" fill="#8a6d5a">서울 외환시장을 거친다</text>
+  <text x="197" y="212" text-anchor="middle" font-size="15" font-weight="800" fill="#c2410c">달러 수요 생김</text>
+  <text x="197" y="236" text-anchor="middle" font-size="12.5" fill="#8a6d5a">→ 환율을 밀어올리는 쪽</text>
+
+  <rect x="368" y="66" width="310" height="192" rx="10" fill="#f2f6f3" stroke="#3f8f5a" stroke-width="2"/>
+  <text x="523" y="98" text-anchor="middle" font-size="15" font-weight="800" fill="#2f7d54">해외에서 달러를 빌려 쓴다</text>
+  <text x="523" y="138" text-anchor="middle" font-size="14" fill="#5b4636">달러 → 달러</text>
+  <text x="523" y="166" text-anchor="middle" font-size="13" fill="#8a6d5a">국내 외환시장을 안 거친다</text>
+  <text x="523" y="212" text-anchor="middle" font-size="15" font-weight="800" fill="#2f7d54">달러 수요 안 생김</text>
+  <text x="523" y="236" text-anchor="middle" font-size="12.5" fill="#8a6d5a">→ 환율과 직접 상관없음</text>
+
+  <text x="360" y="292" text-anchor="middle" font-size="12.5" font-weight="700" fill="#7c2d12">같은 「해외 투자」라도 돈을 어디서 구하느냐에 따라 다릅니다</text>
+  <text x="360" y="312" text-anchor="middle" font-size="11.5" fill="#b08968">일반적인 구조를 정리한 것이며 특정 사안이 어느 쪽인지는 이 글에서 확인하지 않았습니다</text>
+</svg>
