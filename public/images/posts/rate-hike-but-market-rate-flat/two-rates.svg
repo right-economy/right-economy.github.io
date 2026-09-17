@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" font-family="Pretendard, sans-serif" role="img" aria-label="기준금리는 중앙은행이 회의에서 정하고 하루 만에 바뀌지만, 시장금리는 국채와 은행채가 거래되며 매일 조금씩 정해지고 앞으로의 예상까지 담는다">
+  <rect width="720" height="320" fill="#fffaf5"/>
+  <text x="360" y="38" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">둘은 다른 방식으로 정해진다</text>
+
+  <rect x="42" y="66" width="310" height="196" rx="10" fill="#fdf1e6" stroke="#e8853b" stroke-width="2"/>
+  <text x="197" y="98" text-anchor="middle" font-size="16" font-weight="800" fill="#c2410c">기준금리</text>
+  <text x="70" y="136" font-size="14" fill="#5b4636">· 중앙은행이 회의에서 정한다</text>
+  <text x="70" y="170" font-size="14" fill="#5b4636">· 한 달에 한 번꼴로 바뀐다</text>
+  <text x="70" y="204" font-size="14" fill="#5b4636">· 정해지면 그날부터 그 값이다</text>
+  <text x="197" y="240" text-anchor="middle" font-size="13" font-weight="700" fill="#c2410c">사람이 정하는 값</text>
+
+  <rect x="368" y="66" width="310" height="196" rx="10" fill="#f2f6f3" stroke="#3f8f5a" stroke-width="2"/>
+  <text x="523" y="98" text-anchor="middle" font-size="16" font-weight="800" fill="#2f7d54">시장금리</text>
+  <text x="396" y="136" font-size="14" fill="#5b4636">· 국채·은행채가 거래되며 정해진다</text>
+  <text x="396" y="170" font-size="14" fill="#5b4636">· 매일 조금씩 움직인다</text>
+  <text x="396" y="204" font-size="14" fill="#5b4636">· 앞으로의 예상까지 담는다</text>
+  <text x="523" y="240" text-anchor="middle" font-size="13" font-weight="700" fill="#2f7d54">사고팔며 정해지는 값</text>
+
+  <text x="360" y="292" text-anchor="middle" font-size="12.5" font-weight="700" fill="#7c2d12">내 대출 금리는 대개 오른쪽을 따라간다</text>
+  <text x="360" y="312" text-anchor="middle" font-size="11.5" fill="#b08968">출처: 옳은경제 정리 · 상품별 기준 금리는 약관에 따라 다릅니다</text>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" font-family="Pretendard, sans-serif" role="img" aria-label="시장금리는 발표 당일이 아니라 예상이 굳어지는 몇 주 전부터 미리 올라간다. 발표 날에는 이미 반영이 끝나 거의 안 움직이고, 발표가 예상과 다를 때만 그날 크게 움직인다">
+  <rect width="720" height="300" fill="#fffaf5"/>
+  <text x="360" y="38" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">시장금리는 발표 날에 움직이지 않는다</text>
+
+  <line x1="80" y1="215" x2="640" y2="215" stroke="#d8b9a5" stroke-width="1.5"/>
+  <path d="M100 195 L200 178 L300 152 L400 132 L470 126 L540 124 L620 123" fill="none" stroke="#e8853b" stroke-width="3.5" stroke-linecap="round"/>
+  <circle cx="470" cy="126" r="6" fill="#c2410c"/>
+  <line x1="470" y1="126" x2="470" y2="215" stroke="#c2410c" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <text x="470" y="236" text-anchor="middle" font-size="13.5" font-weight="800" fill="#c2410c">기준금리 발표일</text>
+
+  <text x="180" y="100" text-anchor="middle" font-size="14" font-weight="700" fill="#8a6d5a">예상이 굳어지는 구간</text>
+  <text x="180" y="122" text-anchor="middle" font-size="12.5" fill="#b08968">→ 여기서 이미 올라간다</text>
+  <text x="600" y="100" text-anchor="middle" font-size="14" font-weight="700" fill="#2f7d54">발표 뒤</text>
+  <text x="600" y="122" text-anchor="middle" font-size="12.5" fill="#8a6d5a">→ 거의 제자리</text>
+
+  <text x="360" y="272" text-anchor="middle" font-size="11.5" fill="#b08968">곡선은 흐름을 보여주는 그림이며 특정 시점의 실제 금리 값이 아닙니다 · 출처: 옳은경제 정리</text>
+</svg>
