@@ -492,6 +492,26 @@ grep -n '오늘\|어제\|이번 주\|지금\|최근\|아직\|간밤' src/content
   📌 중복·길이는 같은 슬롯에서 같이 쟀고 **이상 0건**이었다 — title 중복 0 · description 중복 0 ·
      title 60자 초과 0 · description 160자 초과 1건(165자, 5자 잘림이라 실질 영향 없음).
 
+- **canonical · OG · 구조화데이터 · 도메인 정합** → 🟢 **이상 0건** (2026-09-17 실측, 라이브)
+  ```
+  canonical      https://right-economy.com/posts/<slug>/     ✅ 절대 URL · 커스텀 도메인
+  og:url         같은 주소                                   ✅
+  og:image       /og-default.png  1200x630 PNG 200          ✅ 규격 정상
+  og:type        article                                     ✅
+  twitter:card   summary_large_image                         ✅
+  robots         index, follow, max-image-preview:large …    ✅
+  JSON-LD        Organization · Article · BreadcrumbList     ✅
+                 Article 필드 8종(headline·datePublished·dateModified·
+                 author·publisher·image·description·mainEntityOfPage) 전부 채워짐
+  도메인 혼용     right-economy.github.io 0건 · jiyu-ng.github.io 0건
+  sitemap        https://right-economy.com 만 사용            ✅
+  ```
+  🟡 **글마다 og:image 가 전부 `og-default.png` 하나다**(표본 4편 일치). 공유 썸네일이 전부 같다.
+     ⚠️ **고치지 않는다** — 본문 그림은 SVG 라 OG 로 못 쓰고(대부분 플랫폼 미지원),
+     글마다 PNG 를 새로 만드는 건 이 슬롯 범위(작은 개선 1건)를 넘는다. **억지 개선 쪽이다.**
+  📌 같은 날 아침 애드센스 거부 건과 이어지는 축이라 같이 쟀다 — **라이브 쪽 주소 표기는 문제없다.**
+     `right-economy.github.io` 는 스텁이지만 그쪽 canonical 도 `.com` 을 가리킨다.
+
 - **고아 페이지 — 어디서도 안 걸리는 글** → 🟢 **0편** (2026-09-16, dist 870 HTML · 글 251편)
   ```
   목록 페이지(dist/index.html)가 글 251편을 전부 링크한다 → 사이트 기준 고아 0
