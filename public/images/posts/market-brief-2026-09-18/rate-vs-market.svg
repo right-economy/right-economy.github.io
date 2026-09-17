@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" font-family="Pretendard, sans-serif" role="img" aria-label="연준이 기준금리를 3.75에서 4.00퍼센트로 올린 다음 날 미국 국채 10년물 금리는 5.01퍼센트에서 4.95퍼센트로 내렸고 나스닥은 1.69퍼센트 올랐다는 비교">
+  <rect width="720" height="320" fill="#fffaf5"/>
+  <text x="360" y="38" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">올린 다음 날, 시장은 반대로 갔다</text>
+
+  <rect x="42" y="66" width="310" height="180" rx="10" fill="#fdf1e6" stroke="#e8853b" stroke-width="2"/>
+  <text x="197" y="98" text-anchor="middle" font-size="15" font-weight="800" fill="#c2410c">연준이 한 것</text>
+  <text x="197" y="140" text-anchor="middle" font-size="28" font-weight="900" fill="#c2410c">3.75~4.00%</text>
+  <text x="197" y="170" text-anchor="middle" font-size="15" font-weight="700" fill="#8a6d5a">0.25%p 인상</text>
+  <text x="197" y="212" text-anchor="middle" font-size="14" fill="#5b4636">9월 16일 (현지)</text>
+
+  <rect x="368" y="66" width="310" height="180" rx="10" fill="#f2f6f3" stroke="#3f8f5a" stroke-width="2"/>
+  <text x="523" y="98" text-anchor="middle" font-size="15" font-weight="800" fill="#2f7d54">다음 날 시장</text>
+  <text x="396" y="134" font-size="15" fill="#5b4636">10년물 금리  5.01% → <tspan font-weight="800" fill="#2f7d54">4.95%</tspan></text>
+  <text x="396" y="168" font-size="15" fill="#5b4636">나스닥  <tspan font-weight="800" fill="#2f7d54">+1.69%</tspan></text>
+  <text x="396" y="202" font-size="15" fill="#5b4636">반도체  <tspan font-weight="800" fill="#2f7d54">+3.14%</tspan></text>
+  <text x="523" y="232" text-anchor="middle" font-size="13.5" fill="#8a6d5a">9월 17일 (현지) 마감</text>
+
+  <text x="360" y="278" text-anchor="middle" font-size="12.5" font-weight="700" fill="#7c2d12">기준금리는 올랐는데 시장금리는 내렸습니다</text>
+  <text x="360" y="300" text-anchor="middle" font-size="11.5" fill="#b08968">지수·금리는 yfinance 일봉(9월 17일 인덱스 확인) · 등락률은 전일 종가 대비 산수 검산 통과</text>
+</svg>
