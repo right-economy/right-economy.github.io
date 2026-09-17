@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 340" role="img">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 340" role="img" aria-label="매도 후 결제 전 기간에 다른 주식을 다시 사는 것은 되지만 은행 계좌로 출금하는 것은 안 된다는 비교. 증권사 안에서 도는 돈은 쓸 수 있고 밖으로 나가는 돈은 결제가 끝나야 나간다">
   <rect width="640" height="340" fill="#FDF6E3"/>
   <text x="32" y="42" font-family="system-ui, -apple-system, sans-serif" font-size="19" font-weight="700" fill="#1F2328">안에서 도는 돈과 밖으로 나가는 돈</text>
   <text x="32" y="64" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">매도 체결 후 결제가 끝나기 전 구간</text>

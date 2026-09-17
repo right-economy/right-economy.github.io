@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="계약일을 0일로 두면 실거래 신고 기한은 30일 이내이고 등기는 중앙값 79일이다. 거래량 통계는 신고 시점에 잡히지만 소유권이 실제로 넘어가는 건 그보다 두 배 넘게 뒤라서, 거래됐다는 기사와 집이 넘어갔다는 사실은 두 달쯤 어긋난다">
   <rect width="640" height="360" fill="#FDF6E3"/>
   <text x="32" y="42" font-family="system-ui, -apple-system, sans-serif" font-size="19" font-weight="700" fill="#1F2328">거래 하나에 시계가 두 개예요</text>
   <text x="32" y="64" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">같은 계약인데 「통계에 뜨는 때」와 「소유권이 넘어가는 때」가 다릅니다</text>

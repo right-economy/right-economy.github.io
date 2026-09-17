@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="740" height="330" viewBox="0 0 740 330" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="740" height="330" viewBox="0 0 740 330" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" role="img" aria-label="수입 의존도가 큰 민감 품목과 국내 비중이 큰 둔감 품목을 비교한 표">
   <rect width="740" height="330" fill="#ffffff"/>
   <text x="40" y="34" font-size="20" font-weight="700" fill="#1a1a1a">어떤 값이 환율에 민감할까 — 수입 의존도로 갈린다</text>
   <text x="40" y="56" font-size="13" fill="#6b7280">해외에서 사 오는 비중이 클수록 환율 오르면 값도 빨리 따라 올라요</text>

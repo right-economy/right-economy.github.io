@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="720" height="380" viewBox="0 0 720 380" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="380" viewBox="0 0 720 380" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" role="img" aria-label="현금이 M1 안에, M1이 M2 안에 포함되는 통화량의 계층 구조를 나타낸 개념 도식">
   <rect width="720" height="380" fill="#ffffff"/>
   <text x="40" y="34" font-size="20" font-weight="700" fill="#1a1a1a">통화량은 '얼마나 쉽게 쓸 수 있나'로 층을 나눠요</text>
   <text x="40" y="56" font-size="13" fill="#6b7280">바깥으로 갈수록 범위는 넓어지고, 당장 쓰긴 조금 덜 편해져요</text>

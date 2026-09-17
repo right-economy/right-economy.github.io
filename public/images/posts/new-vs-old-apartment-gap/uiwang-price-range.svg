@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="640" height="320" viewBox="0 0 640 320" font-family="'Noto Sans KR', system-ui, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="320" viewBox="0 0 640 320" font-family="'Noto Sans KR', system-ui, sans-serif" role="img" aria-label="의왕 주요 단지의 매매 시세 범위를 연식별로 비교한 가로 막대그래프. 2020년대 신축은 7억~14억, 1990년대 구축은 3억~4억대에 몰려 있다">
   <rect width="640" height="320" fill="#ffffff"/>
   <text x="20" y="28" font-size="16" font-weight="700" fill="#3a3a3a">의왕 주요 단지 매매 시세 범위 (호가 기준)</text>
 

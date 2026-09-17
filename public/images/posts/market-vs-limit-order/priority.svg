@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 352" role="img">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 352" role="img" aria-label="체결 우선순위. 먼저 가격이 유리한 주문이 앞서고, 같은 가격이면 먼저 넣은 주문이 앞선다. 그래서 같은 값에 걸어도 늦게 넣으면 뒤에서 기다린다">
   <rect width="640" height="352" fill="#FDF6E3"/>
   <text x="32" y="42" font-family="system-ui, -apple-system, sans-serif" font-size="19" font-weight="700" fill="#1F2328">값이 닿아도 줄이 끝나야 내 차례예요</text>
   <text x="32" y="64" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">체결은 두 단계로 순서를 정합니다</text>

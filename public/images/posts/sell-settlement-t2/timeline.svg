@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 356" role="img">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 356" role="img" aria-label="매도 체결일을 0일로 두면 실제 돈과 주식이 오가는 결제는 2영업일 뒤에 끝난다. 체결 당일 잔고에는 금액이 찍히지만 출금은 결제가 끝나야 된다는 시간표">
   <rect width="640" height="356" fill="#FDF6E3"/>
   <text x="32" y="42" font-family="system-ui, -apple-system, sans-serif" font-size="19" font-weight="700" fill="#1F2328">팔린 날과 돈이 되는 날이 다릅니다</text>
   <text x="32" y="64" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">영업일 기준 · 주말과 공휴일은 세지 않습니다</text>

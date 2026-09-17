@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 418" role="img">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 418" role="img" aria-label="호가창에서 시장가 매수가 체결되는 방식. 가장 싼 매도 호가부터 차례로 사들이는데 수량이 모자라면 그다음 비싼 호가까지 올라가므로 평균 단가가 화면에 보이던 값보다 높아진다">
   <rect width="640" height="418" fill="#FDF6E3"/>
   <text x="32" y="42" font-family="system-ui, -apple-system, sans-serif" font-size="19" font-weight="700" fill="#1F2328">시장가는 싼 것부터 집어 올라갑니다</text>
   <text x="32" y="64" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">매도 호가가 이렇게 쌓여 있을 때 300주를 시장가로 사면</text>

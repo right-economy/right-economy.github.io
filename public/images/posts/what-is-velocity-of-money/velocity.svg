@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="740" height="380" viewBox="0 0 740 380" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="740" height="380" viewBox="0 0 740 380" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" role="img" aria-label="같은 1만 원이라도 한 번 쓰고 멈추면 유통속도가 낮고(경기 냉랭), 여러 손을 거치며 활발히 돌면 유통속도가 높다(경기 활발)는 것을 비교한 도식">
   <rect width="740" height="380" fill="#ffffff"/>
   <text x="40" y="34" font-size="20" font-weight="700" fill="#1a1a1a">돈의 양이 같아도 '도는 속도'가 다르면 경제 온도가 달라요</text>
   <text x="40" y="56" font-size="13" fill="#6b7280">같은 1만 원이 한 달에 몇 번 쓰이느냐 = 화폐유통속도(V)</text>

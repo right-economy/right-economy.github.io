@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="'Noto Sans KR', sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="'Noto Sans KR', sans-serif" role="img" aria-label="전세 5억을 보증금 2억으로 낮추고 나머지 3억을 월세로 전환할 때, 전환율 4.5%면 월 113만원, 5%면 125만원, 6%면 150만원이 된다는 비교 표 그래프">
   <rect width="640" height="400" fill="#ffffff"/>
   <text x="320" y="34" text-anchor="middle" font-size="18" font-weight="700" fill="#1a1a2e">전세 5억 → 보증금 2억 반전세, 전환율별 월세</text>
   <text x="320" y="56" text-anchor="middle" font-size="13" fill="#6b7280">월세로 돌리는 금액 3억 · 단위: 만원</text>

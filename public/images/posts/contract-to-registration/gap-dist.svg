@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-label="계약에서 등기까지 걸린 기간 분포. 61~90일이 33.8%, 91~120일이 32.7%로 둘을 합치면 66.5%다. 30일 이하는 10.1%뿐이고 121일 이상은 3.9%다. 다만 아직 등기가 끝나지 않은 건은 이 표본에 없어 실제 중앙값은 이보다 길 수 있다">
   <rect width="640" height="400" fill="#FDF6E3"/>
   <text x="32" y="42" font-family="system-ui, -apple-system, sans-serif" font-size="19" font-weight="700" fill="#1F2328">셋 중 둘은 두세 달 걸려요</text>
   <text x="32" y="64" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">계약일에서 등기일까지 · 서울 아파트 매매 17,889건 · 2026년 3~5월 계약분</text>

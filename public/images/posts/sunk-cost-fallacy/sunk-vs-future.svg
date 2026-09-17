@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 340" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 340" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" role="img" aria-label="이미 쓴 매몰비용은 판단에서 빼고, 앞으로의 비용과 이득만 저울에 올려야 함을 보여주는 도식">
   <rect width="640" height="340" fill="#ffffff"/>
   <text x="320" y="34" text-anchor="middle" font-size="19" font-weight="700" fill="#1f2937">이미 쓴 돈(매몰비용)은 판단에서 빼야 한다</text>
   <text x="320" y="58" text-anchor="middle" font-size="13" fill="#6b7280">합리적 판단 = '지금부터 무엇이 이득인가'만 본다 (예시)</text>

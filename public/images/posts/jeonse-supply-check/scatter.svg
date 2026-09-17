@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 470" width="740" height="470" font-family="-apple-system,BlinkMacSystemFont,Apple SD Gothic Neo,sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 470" width="740" height="470" font-family="-apple-system,BlinkMacSystemFont,Apple SD Gothic Neo,sans-serif" role="img" aria-label="신축 입주 비중과 다음 달 전셋값 변화율의 산점도. 점들이 흩어져 있어 관계가 보이지 않음">
 <rect width="740" height="470" fill="#fffdf9"/>
 <text x="24" y="32" font-size="18" font-weight="700" fill="#2a2521">신축 입주가 적은 달일수록 전셋값이 올랐을까</text>
 <text x="24" y="52" font-size="12" fill="#6f665c">점 하나 = 한 달 · 가로축이 왼쪽일수록 입주가 적은 달 · 세로축 0선 = 전셋값 보합</text>

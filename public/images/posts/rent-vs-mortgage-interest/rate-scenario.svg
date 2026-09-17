@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" font-family="'Noto Sans KR', sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" font-family="'Noto Sans KR', sans-serif" role="img" aria-label="금리 4%일 때 월세 160만원은 4.8억 대출과 같아 자기자본 2억을 더해 6.8억 집을, 금리 5%일 때는 3.84억 대출로 5.84억 집을 살 수 있다는 비교 막대그래프">
   <rect width="640" height="420" fill="#ffffff"/>
   <text x="320" y="34" text-anchor="middle" font-size="19" font-weight="700" fill="#1a1a2e">월세 160만원 = 대출 이자로 맞추면</text>
   <text x="320" y="56" text-anchor="middle" font-size="13" fill="#6b7280">자기자본 2억 가정 · 매수 가능 집값 · 단위: 억원</text>
