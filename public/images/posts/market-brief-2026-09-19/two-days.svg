@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" font-family="Pretendard, sans-serif" role="img" aria-label="9월 17일에는 코스피가 0.04퍼센트 내리고 환율만 13원 60전 올랐는데, 9월 18일에는 코스피가 2.66퍼센트 오르고 환율은 1원 10전만 올라 거의 제자리였다는 비교">
+  <rect width="720" height="320" fill="#fffaf5"/>
+  <text x="360" y="38" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">이틀 사이에 자리가 바뀌었다</text>
+
+  <rect x="42" y="66" width="310" height="186" rx="10" fill="#f4f1ec" stroke="#c9b7a8" stroke-width="2"/>
+  <text x="197" y="96" text-anchor="middle" font-size="15" font-weight="800" fill="#8a6d5a">9월 17일</text>
+  <text x="197" y="140" text-anchor="middle" font-size="24" font-weight="900" fill="#8a8070">코스피 −0.04%</text>
+  <text x="197" y="180" text-anchor="middle" font-size="24" font-weight="900" fill="#c2410c">환율 +13.6원</text>
+  <text x="197" y="220" text-anchor="middle" font-size="14" fill="#5b4636">지수는 제자리 · 환율만 크게</text>
+
+  <rect x="368" y="66" width="310" height="186" rx="10" fill="#f2f6f3" stroke="#3f8f5a" stroke-width="2"/>
+  <text x="523" y="96" text-anchor="middle" font-size="15" font-weight="800" fill="#2f7d54">9월 18일</text>
+  <text x="523" y="140" text-anchor="middle" font-size="24" font-weight="900" fill="#2f7d54">코스피 +2.66%</text>
+  <text x="523" y="180" text-anchor="middle" font-size="24" font-weight="900" fill="#8a8070">환율 +1.1원</text>
+  <text x="523" y="220" text-anchor="middle" font-size="14" fill="#5b4636">지수가 크게 · 환율은 제자리</text>
+
+  <text x="360" y="288" text-anchor="middle" font-size="12.5" font-weight="700" fill="#7c2d12">하루 만에 움직이는 자리가 바뀌었습니다</text>
+  <text x="360" y="308" text-anchor="middle" font-size="11.5" fill="#b08968">코스피는 마감 보도값 · 환율은 서울 외환시장 매매기준율(오후 3시 30분) · 출처: 언론 보도</text>
+</svg>
