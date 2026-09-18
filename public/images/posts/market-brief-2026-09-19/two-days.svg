@@ -15,5 +15,5 @@
   <text x="523" y="220" text-anchor="middle" font-size="14" fill="#5b4636">지수가 크게 · 환율은 제자리</text>
 
   <text x="360" y="288" text-anchor="middle" font-size="12.5" font-weight="700" fill="#7c2d12">하루 만에 움직이는 자리가 바뀌었습니다</text>
-  <text x="360" y="308" text-anchor="middle" font-size="11.5" fill="#b08968">코스피는 마감 보도값 · 환율은 서울 외환시장 매매기준율(오후 3시 30분) · 출처: 언론 보도</text>
+  <text x="360" y="308" text-anchor="middle" font-size="11.5" fill="#b08968">코스피는 마감 시세 데이터 · 환율은 서울 외환시장 매매기준율(오후 3시 30분) 보도값</text>
 </svg>
