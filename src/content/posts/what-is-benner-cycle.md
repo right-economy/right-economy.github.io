@@ -13,7 +13,7 @@ tags: ["배너사이클", "증시전망", "분할매수", "리스크관리", "�
 새뮤얼 배너는 1873년 대공황으로 재산을 몽땅 날린 농부였어요. 그 뒤 "시장은 왜 오르내림을 반복할까"에 매달렸고, 1875년 과거의 물가·경기 리듬을 토대로 **미래의 호황과 불황 연도를 미리 그려놓은 차트**를 남겼죠. 핵심 믿음은 하나였어요 — **"시장에는 무작위가 아니라 정해진 리듬이 있다."**
 
 <figure>
-<img src="/images/posts/what-is-benner-cycle/benner-original-1884.jpg" alt="새뮤얼 배너가 1884년 저서에 실은 원본 배너 사이클 예측 차트" width="1800" height="1126" loading="lazy" decoding="async" />
+<img src="/images/posts/what-is-benner-cycle/benner-original-1884.webp" alt="새뮤얼 배너가 1884년 저서에 실은 원본 배너 사이클 예측 차트" width="1800" height="1126" loading="lazy" decoding="async" />
 <figcaption>그림 1. 새뮤얼 배너의 원본 차트 — 저서 『Benner's Prophecies of Future Ups and Downs in Prices』(1884)에 실림 · 퍼블릭 도메인, via Wikimedia Commons</figcaption>
 </figure>
 
