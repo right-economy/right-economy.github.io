@@ -17,3 +17,25 @@
 # 열려 있어야 의미가 있으므로 접근은 그대로 두고 색인만 뺀다.
 /data/*
   X-Robots-Tag: noindex
+
+# ── HTML 엣지 캐시 (2026-09-18 실측으로 추가) ──────────────────────
+# 🔴 글 페이지 TTFB 가 2.0~2.8초였다. 홈(0.35s)·정적자산(0.42s)과 7배 차이.
+#    원인: HTML 에만 Cloudflare Pages 기본값 `max-age=0, must-revalidate` 가 붙어
+#    cf-cache-status 가 항상 DYNAMIC — 매 요청이 오리진까지 간다.
+#    (정적 자산은 max-age=14400 이라 REVALIDATED 로 잡힌다)
+#
+# s-maxage=60  엣지만 60초 보관. 브라우저는 max-age=0 이라 매번 확인한다.
+# stale-while-revalidate=300  60초가 지나도 일단 옛 것을 주고 뒤에서 갱신한다.
+#
+# ⚠️ 발행·정정 직후 최대 60초 동안 옛 문서가 나갈 수 있다. 그래서 짧게 잡았다.
+#    라이브 검증은 지금도 캐시우회 2회 일치로 하고 있으므로(2026-09-17 실측),
+#    정정 확인 절차는 그대로 두면 된다.
+# 되돌리기: 이 블록을 지우면 Cloudflare 기본값으로 돌아간다.
+/*.html
+  Cache-Control: public, max-age=0, s-maxage=60, stale-while-revalidate=300
+
+/
+  Cache-Control: public, max-age=0, s-maxage=60, stale-while-revalidate=300
+
+/posts/*
+  Cache-Control: public, max-age=0, s-maxage=60, stale-while-revalidate=300
