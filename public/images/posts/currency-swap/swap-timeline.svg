@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="300" viewBox="0 0 760 300" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" role="img" aria-label="1997년 외환위기, 2008년 10월 한미 300억 달러 통화스와프, 2020년 3월 600억 달러 통화스와프, 2021년 말 종료를 순서대로 표시한 연표">
+  <rect width="760" height="300" fill="#ffffff"/>
+  <text x="40" y="36" font-size="20" font-weight="700" fill="#1a1a1a">한국이 한·미 통화스와프를 맺은 두 번</text>
+  <text x="40" y="58" font-size="13" fill="#6b7280">체결일과 한도 기준 · 두 계약 모두 한시적으로 운영된 뒤 종료됐다</text>
+
+  <line x1="80" y1="150" x2="700" y2="150" stroke="#e5e7eb" stroke-width="3"/>
+
+  <!-- 1997 -->
+  <circle cx="110" cy="150" r="7" fill="#94a3b8"/>
+  <text x="110" y="182" font-size="13" font-weight="700" fill="#475569" text-anchor="middle">1997</text>
+  <text x="110" y="200" font-size="11.5" fill="#64748b" text-anchor="middle">외환위기</text>
+  <text x="110" y="216" font-size="11.5" fill="#64748b" text-anchor="middle">IMF 구제금융</text>
+
+  <!-- 2008 -->
+  <circle cx="300" cy="150" r="9" fill="#F97316"/>
+  <text x="300" y="120" font-size="13.5" font-weight="700" fill="#c2410c" text-anchor="middle">2008년 10월</text>
+  <text x="300" y="100" font-size="15" font-weight="700" fill="#9a3412" text-anchor="middle">300억 달러</text>
+  <text x="300" y="182" font-size="11.5" fill="#64748b" text-anchor="middle">글로벌 금융위기</text>
+  <text x="300" y="198" font-size="11.5" fill="#64748b" text-anchor="middle">2010년 2월 종료</text>
+
+  <!-- 2020 -->
+  <circle cx="500" cy="150" r="9" fill="#F97316"/>
+  <text x="500" y="120" font-size="13.5" font-weight="700" fill="#c2410c" text-anchor="middle">2020년 3월</text>
+  <text x="500" y="100" font-size="15" font-weight="700" fill="#9a3412" text-anchor="middle">600억 달러</text>
+  <text x="500" y="182" font-size="11.5" fill="#64748b" text-anchor="middle">코로나 충격</text>
+
+  <!-- 2021 -->
+  <circle cx="650" cy="150" r="7" fill="#94a3b8"/>
+  <text x="650" y="182" font-size="13" font-weight="700" fill="#475569" text-anchor="middle">2021년 말</text>
+  <text x="650" y="200" font-size="11.5" fill="#64748b" text-anchor="middle">연장 없이 종료</text>
+
+  <rect x="80" y="240" width="620" height="34" rx="8" fill="#fff7ed" stroke="#fdba74"/>
+  <text x="390" y="262" font-size="12" font-weight="700" fill="#c2410c" text-anchor="middle">두 번 다 계약 한도를 전부 끌어 쓰지는 않았다</text>
+
+  <text x="40" y="292" font-size="11" fill="#94a3b8">출처: 한국은행 통화스와프 체결·종료 발표 · 금액은 계약 한도 기준</text>
+</svg>
