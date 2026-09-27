@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="380" viewBox="0 0 760 380" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" role="img" aria-label="RP 거래에서 오늘 채권을 넘기고 현금을 받은 뒤 약속한 날 채권을 돌려받고 현금에 이자를 더해 갚는 두 단계를 나타낸 도식">
+  <rect width="760" height="380" fill="#ffffff"/>
+  <text x="40" y="36" font-size="20" font-weight="700" fill="#1a1a1a">RP 는 두 번의 거래가 한 계약에 묶인 것</text>
+  <text x="40" y="58" font-size="13" fill="#6b7280">파는 시점과 되사는 시점이 계약서에 함께 적힌다</text>
+
+  <defs>
+    <marker id="aO" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto">
+      <path d="M0,0 L9,4.5 L0,9 z" fill="#F97316"/>
+    </marker>
+    <marker id="aB" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto">
+      <path d="M0,0 L9,4.5 L0,9 z" fill="#2563eb"/>
+    </marker>
+  </defs>
+
+  <!-- 1단계 -->
+  <text x="40" y="96" font-size="14" font-weight="700" fill="#c2410c">① 오늘</text>
+  <rect x="40" y="108" width="170" height="64" rx="10" fill="#fff7ed" stroke="#fdba74" stroke-width="1.5"/>
+  <text x="125" y="136" font-size="14" font-weight="700" fill="#c2410c" text-anchor="middle">채권 가진 쪽</text>
+  <text x="125" y="157" font-size="11.5" fill="#9a3412" text-anchor="middle">단기 자금이 필요하다</text>
+
+  <rect x="540" y="108" width="170" height="64" rx="10" fill="#eff6ff" stroke="#93c5fd" stroke-width="1.5"/>
+  <text x="625" y="136" font-size="14" font-weight="700" fill="#1d4ed8" text-anchor="middle">현금 가진 쪽</text>
+  <text x="625" y="157" font-size="11.5" fill="#1e40af" text-anchor="middle">며칠만 굴리고 싶다</text>
+
+  <line x1="215" y1="128" x2="534" y2="128" stroke="#F97316" stroke-width="2.5" marker-end="url(#aO)"/>
+  <text x="375" y="121" font-size="12.5" font-weight="700" fill="#c2410c" text-anchor="middle">채권을 넘긴다</text>
+  <line x1="534" y1="156" x2="215" y2="156" stroke="#2563eb" stroke-width="2.5" marker-end="url(#aB)"/>
+  <text x="375" y="176" font-size="12.5" font-weight="700" fill="#1d4ed8" text-anchor="middle">현금을 준다</text>
+
+  <!-- 2단계 -->
+  <text x="40" y="228" font-size="14" font-weight="700" fill="#15803d">② 약속한 날 (하루 뒤일 수도, 몇 달 뒤일 수도)</text>
+  <line x1="534" y1="252" x2="215" y2="252" stroke="#22c55e" stroke-width="2.5" marker-end="url(#aB)"/>
+  <text x="375" y="245" font-size="12.5" font-weight="700" fill="#15803d" text-anchor="middle">채권을 돌려준다</text>
+  <line x1="215" y1="280" x2="534" y2="280" stroke="#22c55e" stroke-width="2.5" marker-end="url(#aO)"/>
+  <text x="375" y="300" font-size="12.5" font-weight="700" fill="#15803d" text-anchor="middle">받았던 현금 + 미리 정한 웃돈</text>
+
+  <rect x="40" y="316" width="670" height="44" rx="10" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="375" y="335" font-size="13" font-weight="700" fill="#334155" text-anchor="middle">형식은 채권 매매, 실질은 채권을 맡기고 돈을 빌리는 것</text>
+  <text x="375" y="353" font-size="11.5" fill="#64748b" text-anchor="middle">그 웃돈이 이자에 해당하고, 연 단위로 환산한 값을 RP 금리라고 부른다</text>
+</svg>
