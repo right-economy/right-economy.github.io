@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 340" role="img" aria-label="경기가 나빠질 때 국채금리는 내려가고 회사채 금리는 올라가면서 두 선 사이 간격인 신용스프레드가 벌어지는 모습을 나타낸 개념 도식">
+  <rect width="760" height="340" fill="#ffffff"/>
+  <style>
+    text{font-family:'Pretendard',system-ui,sans-serif;fill:#2a2521}
+    .title{font-size:17px;font-weight:700}
+    .note{font-size:12px;fill:#7a7066}
+    .lbl{font-size:12.5px;font-weight:700}
+    .axis{stroke:#c9bfae;stroke-width:1.5}
+    .grid{stroke:#ece4d6;stroke-width:1}
+    .corp{stroke:#c2410c;stroke-width:2.6;fill:none}
+    .govt{stroke:#8a8172;stroke-width:2.6;fill:none;stroke-dasharray:6 4}
+    .gap{stroke:#c2410c;stroke-width:1.2;stroke-dasharray:3 3}
+  </style>
+
+  <text class="title" x="30" y="34">스프레드가 벌어진다 = 두 선이 반대로 간다</text>
+  <text class="note" x="30" y="56">세로축은 금리, 가로축은 시간. 값이 아니라 움직이는 방향을 보는 그림이다.</text>
+
+  <line class="axis" x1="70" y1="90" x2="70" y2="272"/>
+  <line class="axis" x1="70" y1="272" x2="712" y2="272"/>
+  <line class="grid" x1="70" y1="150" x2="712" y2="150"/>
+  <line class="grid" x1="70" y1="210" x2="712" y2="210"/>
+
+  <text class="note" x="30" y="95">금리</text>
+  <text class="note" x="92" y="290">경기 좋을 때</text>
+  <text class="note" x="560" y="290">경기 나빠질 때</text>
+
+  <path class="corp" d="M90 175 L250 172 L410 168 L540 140 L690 104"/>
+  <path class="govt" d="M90 205 L250 203 L410 202 L540 214 L690 232"/>
+
+  <line class="gap" x1="250" y1="172" x2="250" y2="203"/>
+  <line class="gap" x1="690" y1="104" x2="690" y2="232"/>
+
+  <text class="lbl" x="600" y="96" fill="#c2410c">회사채 금리</text>
+  <text class="lbl" x="600" y="250" fill="#6b6357">국채 금리</text>
+
+  <text class="note" x="262" y="192">좁음</text>
+  <text class="note" x="616" y="175" fill="#c2410c">벌어짐</text>
+
+  <text class="note" x="30" y="322">경기가 나빠지면 안전한 국채로 돈이 몰려 국채금리는 내려가고, 회사는 떼일 걱정이 커져 회사채 금리는 올라간다.</text>
+</svg>
