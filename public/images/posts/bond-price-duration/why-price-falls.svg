@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 320" role="img" aria-label="시장 금리가 오르면 새로 나오는 채권은 이자를 더 주는데 이미 산 채권의 이자는 고정돼 있어서, 이미 산 채권을 사려는 사람이 값을 깎아야 같은 수익이 맞춰지고 그래서 채권값이 떨어지는 흐름을 나타낸 도식">
+  <rect width="760" height="320" fill="#ffffff"/>
+  <style>
+    text{font-family:'Pretendard',system-ui,sans-serif;fill:#2a2521}
+    .box{fill:#fdfaf4;stroke:#ece4d6;stroke-width:1.5}
+    .accent{fill:#fff2ec;stroke:#c2410c;stroke-width:1.8}
+    .h{font-size:14.5px;font-weight:700}
+    .s{font-size:12px;fill:#7a7066}
+    .arrow{stroke:#c2410c;stroke-width:2.4;fill:none;marker-end:url(#ah2)}
+  </style>
+  <defs>
+    <marker id="ah2" markerWidth="10" markerHeight="10" refX="7" refY="3.2" orient="auto">
+      <path d="M0 0 L8 3.2 L0 6.4 Z" fill="#c2410c"/>
+    </marker>
+  </defs>
+
+  <rect class="box" x="28" y="46" width="216" height="88" rx="12"/>
+  <text class="h" x="50" y="78">① 시장 금리 ↑</text>
+  <text class="s" x="50" y="100">새로 나오는 채권은</text>
+  <text class="s" x="50" y="117">이자를 더 준다</text>
+
+  <rect class="box" x="28" y="186" width="216" height="88" rx="12"/>
+  <text class="h" x="50" y="218">② 내 채권은 고정</text>
+  <text class="s" x="50" y="240">살 때 정한 이자가</text>
+  <text class="s" x="50" y="257">만기까지 안 바뀐다</text>
+
+  <path class="arrow" d="M244 90 C304 90 304 160 356 160"/>
+  <path class="arrow" d="M244 230 C304 230 304 160 356 160"/>
+
+  <rect class="accent" x="358" y="116" width="200" height="88" rx="12"/>
+  <text class="h" x="380" y="148" fill="#c0392b">③ 사려는 사람이</text>
+  <text class="h" x="380" y="168" fill="#c0392b">값을 깎는다</text>
+  <text class="s" x="380" y="190">안 깎으면 새 채권을 산다</text>
+
+  <path class="arrow" d="M558 160 H606"/>
+
+  <rect class="box" x="608" y="116" width="126" height="88" rx="12"/>
+  <text class="h" x="630" y="148">④ 채권값 ↓</text>
+  <text class="s" x="630" y="170">깎인 값만큼</text>
+  <text class="s" x="630" y="187">수익률이 맞춰짐</text>
+
+  <text class="s" x="28" y="300">금리와 채권값이 반대로 움직이는 건 이 ②번 칸 때문이다. 이자가 고정이라 조절할 수 있는 게 값밖에 없다.</text>
+</svg>
