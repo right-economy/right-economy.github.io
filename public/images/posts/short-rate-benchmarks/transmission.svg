@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 340" role="img" aria-label="기준금리가 콜금리와 KOFR을 거쳐 CD금리와 코픽스로 넘어가고 마지막에 대출금리에 닿는 전달 경로 도식. 앞 칸은 당일 반응하고 뒤 칸으로 갈수록 반영이 늦어진다">
+  <rect width="760" height="340" fill="#ffffff"/>
+  <style>
+    text{font-family:'Pretendard',system-ui,sans-serif;fill:#2a2521}
+    .title{font-size:17px;font-weight:700}
+    .note{font-size:12px;fill:#7a7066}
+    .box{font-size:13.5px;font-weight:700}
+    .lag{font-size:11.5px;font-weight:700;fill:#c2410c}
+    .cap{font-size:11.5px;fill:#7a7066}
+    .k1{fill:#2a2521}.k2{fill:#c2410c}.k3{fill:#e8814a}.k4{fill:#f4a97b}.k5{fill:#d9d2c6}
+    .arw{stroke:#c9bfae;stroke-width:2;fill:none}
+  </style>
+
+  <text class="title" x="30" y="34">기준금리는 몇 칸을 건너서 온다</text>
+  <text class="note" x="30" y="56">칸마다 반영되는 시간이 다르고, 뒤로 갈수록 늦어진다</text>
+
+  <rect class="k1" x="30" y="86" width="132" height="54" rx="8"/>
+  <text class="box" x="96" y="110" fill="#ffffff" text-anchor="middle">기준금리</text>
+  <text class="cap" x="96" y="129" fill="#d9d2c6" text-anchor="middle">한국은행이 정한다</text>
+
+  <path class="arw" d="M168 113 H206" marker-end="url(#a)"/>
+
+  <rect class="k2" x="212" y="78" width="126" height="32" rx="7"/>
+  <text class="box" x="275" y="99" fill="#ffffff" text-anchor="middle">콜금리</text>
+  <rect class="k3" x="212" y="118" width="126" height="32" rx="7"/>
+  <text class="box" x="275" y="139" fill="#ffffff" text-anchor="middle">KOFR</text>
+  <text class="lag" x="275" y="170" text-anchor="middle">거의 그날</text>
+
+  <path class="arw" d="M344 113 H382" marker-end="url(#a)"/>
+
+  <rect class="k4" x="388" y="86" width="126" height="54" rx="8"/>
+  <text class="box" x="451" y="110" text-anchor="middle">CD금리</text>
+  <text class="cap" x="451" y="129" text-anchor="middle">석 달 조달값</text>
+  <text class="lag" x="451" y="170" text-anchor="middle">며칠 ~ 몇 주</text>
+
+  <path class="arw" d="M520 113 H558" marker-end="url(#a)"/>
+
+  <rect class="k5" x="564" y="86" width="126" height="54" rx="8"/>
+  <text class="box" x="627" y="110" text-anchor="middle">코픽스</text>
+  <text class="cap" x="627" y="129" text-anchor="middle">한 달 모아 공시</text>
+  <text class="lag" x="627" y="170" text-anchor="middle">다음 달</text>
+
+  <path class="arw" d="M451 196 V232" marker-end="url(#a)"/>
+  <path class="arw" d="M627 196 V232" marker-end="url(#a)"/>
+
+  <rect x="330" y="238" width="420" height="52" rx="8" fill="#fdf6ef" stroke="#e8c9ab" stroke-width="1.5"/>
+  <text class="box" x="540" y="262" text-anchor="middle">내 변동금리 대출</text>
+  <text class="cap" x="540" y="281" text-anchor="middle">계약서에 적힌 연동 기준과 재산정 주기가 속도를 정한다</text>
+
+  <text class="note" x="30" y="316">「기준금리 내렸는데 내 대출은 그대로」는 이 칸들을 건너오는 중이라는 뜻이다</text>
+
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#c9bfae"/>
+    </marker>
+  </defs>
+</svg>
