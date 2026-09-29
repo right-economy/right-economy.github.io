@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 330" role="img" aria-label="콜금리와 KOFR은 하루, CD금리는 91일, 코픽스는 한 달 주기로 공시되는 값임을 기간 축 위에 놓고 비교한 도식. 같은 단기 금리라도 재는 기간이 크게 다르다">
+  <rect width="760" height="330" fill="#ffffff"/>
+  <style>
+    text{font-family:'Pretendard',system-ui,sans-serif;fill:#2a2521}
+    .title{font-size:17px;font-weight:700}
+    .note{font-size:12px;fill:#7a7066}
+    .lbl{font-size:13.5px;font-weight:600}
+    .sub{font-size:11.5px;fill:#7a7066}
+    .val{font-size:13px;font-weight:700}
+    .b1{fill:#c2410c}.b2{fill:#e8814a}.b3{fill:#f4a97b}.b4{fill:#d9d2c6}
+    .axis{stroke:#c9bfae;stroke-width:1.5}
+  </style>
+
+  <text class="title" x="30" y="34">같은 「단기」인데 재는 기간이 다르다</text>
+  <text class="note" x="30" y="56">막대 길이는 그 값이 다루는 기간에 비례 (91일 = 480px)</text>
+
+  <line class="axis" x1="196" y1="76" x2="196" y2="286"/>
+
+  <text class="lbl" x="30" y="103">콜금리</text>
+  <text class="sub" x="30" y="119">기관끼리 · 무담보</text>
+  <rect class="b1" x="196" y="88" width="6" height="26" rx="2"/>
+  <text class="val" x="214" y="107" fill="#c2410c">하루</text>
+
+  <text class="lbl" x="30" y="163">KOFR</text>
+  <text class="sub" x="30" y="179">기관끼리 · 담보 있음</text>
+  <rect class="b2" x="196" y="148" width="6" height="26" rx="2"/>
+  <text class="val" x="214" y="167" fill="#c2410c">하루</text>
+
+  <text class="lbl" x="30" y="223">CD금리</text>
+  <text class="sub" x="30" y="239">은행이 증서를 판다</text>
+  <rect class="b3" x="196" y="208" width="480" height="26" rx="4"/>
+  <text class="val" x="686" y="227" fill="#a8491b">91일</text>
+
+  <text class="lbl" x="30" y="279">코픽스</text>
+  <text class="sub" x="30" y="295">은행 조달값 집계</text>
+  <rect class="b4" x="196" y="264" width="158" height="26" rx="4"/>
+  <text class="val" x="366" y="283" fill="#8a8172">한 달 주기로 공시</text>
+
+  <text class="note" x="30" y="320">앞의 둘은 그날그날의 값이고, 아래로 내려갈수록 지난 기간을 모아 낸 값이다</text>
+</svg>
