@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 330" role="img" aria-label="기업어음은 만기가 짧아 몇 달마다 새로 발행해 갚는 일을 반복하는데, 시장이 얼어붙어 새로 발행이 안 되면 그 자리에서 자금이 막히는 구조를 나타낸 도식">
+  <rect width="760" height="330" fill="#ffffff"/>
+  <style>
+    text{font-family:'Pretendard',system-ui,sans-serif;fill:#2a2521}
+    .title{font-size:17px;font-weight:700}
+    .note{font-size:12px;fill:#7a7066}
+    .box{fill:#fdfaf4;stroke:#ece4d6;stroke-width:1.5}
+    .bad{fill:#fff2ec;stroke:#c2410c;stroke-width:2}
+    .lbl{font-size:13px;font-weight:700}
+    .arr{stroke:#8a8172;stroke-width:2.2;fill:none;marker-end:url(#a1)}
+    .arrx{stroke:#c2410c;stroke-width:2.6;fill:none;marker-end:url(#a2)}
+    .axis{stroke:#c9bfae;stroke-width:1.5}
+  </style>
+  <defs>
+    <marker id="a1" markerWidth="9" markerHeight="9" refX="6.5" refY="3" orient="auto"><path d="M0 0 L7 3 L0 6 Z" fill="#8a8172"/></marker>
+    <marker id="a2" markerWidth="9" markerHeight="9" refX="6.5" refY="3" orient="auto"><path d="M0 0 L7 3 L0 6 Z" fill="#c2410c"/></marker>
+  </defs>
+
+  <text class="title" x="30" y="34">짧게 빌리고 계속 갈아탄다</text>
+  <text class="note" x="30" y="56">기업어음은 만기가 몇 달이라, 갚을 돈을 다시 빌려서 만든다</text>
+
+  <line class="axis" x1="30" y1="250" x2="730" y2="250"/>
+  <text class="note" x="30" y="272">시간</text>
+
+  <rect class="box" x="60" y="110" width="150" height="62" rx="12"/>
+  <text class="lbl" x="82" y="137">1차 발행</text>
+  <text class="note" x="82" y="158">3개월 뒤 갚기로</text>
+
+  <path class="arr" d="M212 141 H268"/>
+
+  <rect class="box" x="270" y="110" width="150" height="62" rx="12"/>
+  <text class="lbl" x="292" y="137">다시 발행해서</text>
+  <text class="note" x="292" y="158">앞의 것을 갚음</text>
+
+  <path class="arr" d="M422 141 H478"/>
+
+  <rect class="box" x="480" y="110" width="150" height="62" rx="12"/>
+  <text class="lbl" x="502" y="137">또 발행해서</text>
+  <text class="note" x="502" y="158">또 갚음</text>
+
+  <path class="arrx" d="M555 176 V208"/>
+  <rect class="bad" x="430" y="210" width="250" height="56" rx="12"/>
+  <text class="lbl" x="452" y="235" fill="#c0392b">여기서 안 팔리면</text>
+  <text class="note" x="452" y="256">갚을 돈이 그 자리에서 사라진다</text>
+
+  <text class="note" x="30" y="308">돈을 못 벌어서가 아니라 새로 빌리는 길이 막혀서 생기는 문제다. 실적이 멀쩡한 회사도 겪는다.</text>
+</svg>
