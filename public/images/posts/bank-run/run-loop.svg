@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 330" role="img" aria-label="소문이 돌면 각자 먼저 찾으려 하고, 인출이 몰리면 지급 여력이 실제로 줄고, 그것이 다시 소문을 키우는 순환을 네 칸과 화살표로 나타낸 도식. 소문이 사실이 아니어도 같은 결과가 난다">
+  <rect width="760" height="330" fill="#ffffff"/>
+  <style>
+    text{font-family:'Pretendard',system-ui,sans-serif;fill:#2a2521}
+    .title{font-size:17px;font-weight:700}
+    .note{font-size:12px;fill:#7a7066}
+    .box{font-size:13.5px;font-weight:700}
+    .cap{font-size:11.5px;fill:#7a7066}
+    .arw{stroke:#c9bfae;stroke-width:2;fill:none}
+  </style>
+
+  <text class="title" x="30" y="34">걱정이 결과를 만든다</text>
+  <text class="note" x="30" y="56">소문이 맞았는지는 이 순환에서 중요하지 않다. 틀려도 같은 자리를 돈다</text>
+
+  <rect x="30" y="86" width="150" height="58" rx="9" fill="#fdf6ef" stroke="#e8c9ab" stroke-width="1.5"/>
+  <text class="box" x="105" y="112" text-anchor="middle">「위험하대」</text>
+  <text class="cap" x="105" y="130" text-anchor="middle">사실 여부와 무관</text>
+
+  <path class="arw" d="M186 115 H228" marker-end="url(#a)"/>
+
+  <rect x="234" y="86" width="166" height="58" rx="9" fill="#f4a97b"/>
+  <text class="box" x="317" y="112" text-anchor="middle">먼저 찾는 게 유리</text>
+  <text class="cap" x="317" y="130" text-anchor="middle">각자에겐 합리적 선택</text>
+
+  <path class="arw" d="M406 115 H448" marker-end="url(#a)"/>
+
+  <rect x="454" y="86" width="166" height="58" rx="9" fill="#e8814a"/>
+  <text class="box" x="537" y="112" text-anchor="middle" fill="#ffffff">인출이 몰린다</text>
+  <text class="cap" x="537" y="130" text-anchor="middle" fill="#fdf0e4">남긴 몫을 넘어선다</text>
+
+  <path class="arw" d="M626 115 H668" marker-end="url(#a)"/>
+
+  <rect x="674" y="86" width="56" height="58" rx="9" fill="#c2410c"/>
+  <text class="box" x="702" y="120" text-anchor="middle" fill="#ffffff">마비</text>
+
+  <path class="arw" d="M702 150 V196 H105 V150" marker-end="url(#a)"/>
+  <rect x="250" y="176" width="300" height="40" rx="8" fill="#ffffff" stroke="#e8c9ab" stroke-width="1.5"/>
+  <text class="box" x="400" y="201" text-anchor="middle">「봐, 진짜였잖아」 — 소문이 커진다</text>
+
+  <text class="note" x="30" y="258">막는 법은 은행을 튼튼하게 만드는 쪽이 아니라 두 번째 칸을 없애는 쪽이다</text>
+  <rect x="30" y="272" width="700" height="38" rx="8" fill="#f6f2ea"/>
+  <text class="box" x="380" y="296" text-anchor="middle">예금자보호 · 중앙은행 급전 → 「서둘러 갈 이유」를 지운다</text>
+
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#c9bfae"/>
+    </marker>
+  </defs>
+</svg>
