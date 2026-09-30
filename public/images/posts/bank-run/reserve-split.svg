@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" role="img" aria-label="예금 100 가운데 작은 일부만 지급준비금으로 은행에 남고 대부분은 대출로 나가 있음을 가로 막대로 나눠 보여주는 도식. 창구에서 바로 내줄 수 있는 몫이 훨씬 작다">
+  <rect width="760" height="300" fill="#ffffff"/>
+  <style>
+    text{font-family:'Pretendard',system-ui,sans-serif;fill:#2a2521}
+    .title{font-size:17px;font-weight:700}
+    .note{font-size:12px;fill:#7a7066}
+    .lbl{font-size:13.5px;font-weight:700}
+    .sub{font-size:11.5px;fill:#7a7066}
+    .val{font-size:13px;font-weight:700}
+  </style>
+
+  <text class="title" x="30" y="34">맡긴 돈은 지금 어디에 있나</text>
+  <text class="note" x="30" y="56">비율은 설명을 위한 예시다. 실제 지급준비율은 나라·예금 종류마다 다르다</text>
+
+  <text class="lbl" x="30" y="100">예금자가 맡긴 돈</text>
+  <rect x="30" y="112" width="700" height="34" rx="5" fill="#d9d2c6"/>
+  <text class="val" x="380" y="134" text-anchor="middle" fill="#5a5349">100</text>
+
+  <path d="M380 156 V182" stroke="#c9bfae" stroke-width="2" marker-end="url(#a)"/>
+
+  <rect x="30" y="196" width="63" height="44" rx="5" fill="#c2410c"/>
+  <rect x="97" y="196" width="633" height="44" rx="5" fill="#f4a97b"/>
+  <text class="val" x="61" y="223" text-anchor="middle" fill="#ffffff">약 9</text>
+  <text class="val" x="413" y="223" text-anchor="middle" fill="#8a4a1f">약 91</text>
+
+  <text class="lbl" x="30" y="262">은행에 남은 몫</text>
+  <text class="sub" x="30" y="279">창구에서 바로 내준다</text>
+  <text class="lbl" x="200" y="262">대출로 나간 몫</text>
+  <text class="sub" x="200" y="279">당장 현금으로 못 바꾼다 — 빌려간 사람이 갚아야 돌아온다</text>
+
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#c9bfae"/>
+    </marker>
+  </defs>
+</svg>
