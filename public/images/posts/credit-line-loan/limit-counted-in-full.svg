@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 330" role="img" aria-label="같은 마이너스통장을 이자 계산에서는 실제 쓴 800만원으로 보지만 다른 대출을 받을 때 심사에서는 한도 5000만원 전액을 빚으로 본다는 대비를 두 줄의 가로 막대로 보여주는 도식">
+  <rect width="760" height="330" fill="#ffffff"/>
+  <style>
+    text{font-family:'Pretendard',system-ui,sans-serif;fill:#2a2521}
+    .title{font-size:17px;font-weight:700}
+    .note{font-size:12px;fill:#7a7066}
+    .lbl{font-size:13.5px;font-weight:700}
+    .sub{font-size:11.5px;fill:#7a7066}
+    .val{font-size:13px;font-weight:700}
+    .who{font-size:12.5px;font-weight:700;fill:#7a7066}
+  </style>
+
+  <text class="title" x="30" y="34">같은 통장인데 세는 금액이 다르다</text>
+  <text class="note" x="30" y="56">한도 5,000만원 중 800만원을 쓰고 있는 사람. 금액은 설명을 위한 예시다</text>
+
+  <text class="who" x="30" y="100">은행이 이자를 매길 때</text>
+  <rect x="30" y="110" width="112" height="40" rx="5" fill="#c2410c"/>
+  <rect x="146" y="110" width="584" height="40" rx="5" fill="#f6f3ee" stroke="#e6e0d6" stroke-dasharray="4 4"/>
+  <text class="val" x="86" y="135" text-anchor="middle" fill="#ffffff">800만원</text>
+  <text class="sub" x="438" y="135" text-anchor="middle">세지 않는다</text>
+
+  <text class="who" x="30" y="196">다른 대출을 심사할 때</text>
+  <rect x="30" y="206" width="700" height="40" rx="5" fill="#7c2d12"/>
+  <text class="val" x="380" y="231" text-anchor="middle" fill="#ffffff">5,000만원 — 한도 전액을 빚으로 본다</text>
+
+  <text class="sub" x="30" y="276">그래서 한 푼도 안 꺼낸 통장이 주택담보대출 한도를 줄일 수 있다.</text>
+  <text class="sub" x="30" y="296">큰 대출을 앞두고 있으면 쓰지 않는 한도는 미리 줄이거나 해지하는 쪽이 유리하다.</text>
+  <text class="sub" x="30" y="316">기준: 총부채원리금상환비율(DSR) 산정 방식 · 출처: 금융위원회</text>
+</svg>

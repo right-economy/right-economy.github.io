@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 320" role="img" aria-label="마이너스통장 한도 5000만원 가운데 실제로 꺼내 쓴 800만원에만 이자가 붙고 나머지 4200만원에는 이자가 붙지 않는다는 것을 가로 막대로 나눠 보여주는 도식">
+  <rect width="760" height="320" fill="#ffffff"/>
+  <style>
+    text{font-family:'Pretendard',system-ui,sans-serif;fill:#2a2521}
+    .title{font-size:17px;font-weight:700}
+    .note{font-size:12px;fill:#7a7066}
+    .lbl{font-size:13.5px;font-weight:700}
+    .sub{font-size:11.5px;fill:#7a7066}
+    .val{font-size:13px;font-weight:700}
+  </style>
+
+  <text class="title" x="30" y="34">이자는 꺼낸 돈에만 붙는다</text>
+  <text class="note" x="30" y="56">금액은 설명을 위한 예시다. 실제 한도·금리는 사람마다 다르다</text>
+
+  <text class="lbl" x="30" y="100">통장에 열어둔 한도</text>
+  <rect x="30" y="112" width="700" height="34" rx="5" fill="#d9d2c6"/>
+  <text class="val" x="380" y="134" text-anchor="middle" fill="#5a5349">5,000만원</text>
+
+  <path d="M380 156 V182" stroke="#c9bfae" stroke-width="2" marker-end="url(#a)"/>
+
+  <rect x="30" y="196" width="112" height="44" rx="5" fill="#c2410c"/>
+  <rect x="146" y="196" width="584" height="44" rx="5" fill="#f1ece3"/>
+  <text class="val" x="86" y="223" text-anchor="middle" fill="#ffffff">800만원</text>
+  <text class="val" x="438" y="223" text-anchor="middle" fill="#8a8275">4,200만원</text>
+
+  <text class="lbl" x="30" y="266">실제로 꺼내 쓴 돈</text>
+  <text class="sub" x="30" y="283">여기에만 이자가 붙는다</text>
+  <text class="sub" x="30" y="300">하루 단위로 계산해 매달 뗀다</text>
+  <text class="lbl" x="300" y="266">안 꺼낸 돈</text>
+  <text class="sub" x="300" y="283">이자가 0원이다 — 한도를 열어둔 것만으로는 비용이 안 생긴다</text>
+
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#c9bfae"/>
+    </marker>
+  </defs>
+</svg>
