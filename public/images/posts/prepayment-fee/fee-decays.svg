@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 320" role="img" aria-label="중도상환수수료가 대출 실행 직후에는 가장 크고 시간이 지날수록 일직선으로 줄어들어 3년이 되는 시점에 0원이 되는 것을 사선 막대로 보여주는 도식">
+  <rect width="760" height="320" fill="#ffffff"/>
+  <style>
+    text{font-family:'Pretendard',system-ui,sans-serif;fill:#2a2521}
+    .title{font-size:17px;font-weight:700}
+    .note{font-size:12px;fill:#7a7066}
+    .lbl{font-size:13px;font-weight:700}
+    .sub{font-size:11.5px;fill:#7a7066}
+    .ax{font-size:12px;fill:#7a7066}
+  </style>
+
+  <text class="title" x="30" y="34">수수료는 시간이 지나면 줄어든다</text>
+  <text class="note" x="30" y="56">면제 기간 3년은 흔한 조건이며 상품마다 다르다. 계산 방식도 은행이 정한다</text>
+
+  <!-- 축 -->
+  <line x1="80" y1="240" x2="700" y2="240" stroke="#c9bfae" stroke-width="1.5"/>
+  <line x1="80" y1="100" x2="80" y2="240" stroke="#c9bfae" stroke-width="1.5"/>
+
+  <!-- 사선 영역 -->
+  <path d="M80 110 L620 240 L80 240 Z" fill="#f4a97b"/>
+  <path d="M80 110 L620 240" stroke="#c2410c" stroke-width="2.5" fill="none"/>
+
+  <circle cx="80" cy="110" r="5" fill="#c2410c"/>
+  <circle cx="620" cy="240" r="5" fill="#c2410c"/>
+
+  <text class="lbl" x="92" y="104">가장 많이 낸다</text>
+  <text class="sub" x="92" y="121">갚는 금액에 수수료율을 그대로 곱한 수준</text>
+
+  <text class="lbl" x="632" y="232">0원</text>
+  <text class="sub" x="556" y="264">면제 시점</text>
+
+  <text class="ax" x="74" y="258">실행일</text>
+  <text class="ax" x="330" y="258" text-anchor="middle">1년 6개월</text>
+  <line x1="350" y1="236" x2="350" y2="244" stroke="#c9bfae" stroke-width="1.5"/>
+
+  <text class="sub" x="210" y="190">남은 기간에 비례해 줄어든다</text>
+
+  <text class="sub" x="30" y="294">같은 금액을 갚아도 언제 갚느냐에 따라 내는 돈이 달라진다. 면제 시점이 눈앞이면 며칠 기다리는 것만으로 0원이 된다.</text>
+</svg>
