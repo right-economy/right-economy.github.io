@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 350" role="img" aria-label="주택 취득세율이 가액에 따라 어떻게 변하는지 보여주는 꺾은선 도식. 6억원 이하는 1퍼센트로 평평하고, 6억원에서 9억원 사이는 1퍼센트에서 3퍼센트까지 직선으로 올라가며, 9억원을 넘으면 다시 3퍼센트로 평평해진다. 구간이 바뀌는 지점에 계단이 없다">
+  <rect width="760" height="350" fill="#ffffff"/>
+  <style>
+    text{font-family:'Pretendard',system-ui,sans-serif;fill:#2a2521}
+    .title{font-size:17px;font-weight:700}
+    .note{font-size:12px;fill:#7a7066}
+    .ax{font-size:12px;fill:#7a7066}
+    .lbl{font-size:13px;font-weight:700}
+    .sub{font-size:11.5px;fill:#7a7066}
+  </style>
+
+  <text class="title" x="30" y="34">6억과 9억에서 계단이 생기지 않는다</text>
+  <text class="note" x="30" y="56">1주택·조정대상지역 아님·전용 85㎡ 이하 기준. 다주택·법인은 중과 규정이 따로 있다</text>
+
+  <line x1="90" y1="280" x2="710" y2="280" stroke="#c9bfae" stroke-width="1.5"/>
+  <line x1="90" y1="100" x2="90" y2="280" stroke="#c9bfae" stroke-width="1.5"/>
+
+  <text class="ax" x="60" y="285">1%</text>
+  <text class="ax" x="60" y="195">2%</text>
+  <text class="ax" x="60" y="105">3%</text>
+  <line x1="86" y1="190" x2="710" y2="190" stroke="#eee8dc" stroke-width="1"/>
+  <line x1="86" y1="100" x2="710" y2="100" stroke="#eee8dc" stroke-width="1"/>
+
+  <path d="M90 280 L290 280 L530 100 L710 100" stroke="#c2410c" stroke-width="3" fill="none"/>
+  <circle cx="290" cy="280" r="5.5" fill="#c2410c"/>
+  <circle cx="530" cy="100" r="5.5" fill="#c2410c"/>
+
+  <line x1="290" y1="280" x2="290" y2="296" stroke="#c9bfae" stroke-width="1.5"/>
+  <line x1="530" y1="100" x2="530" y2="296" stroke="#c9bfae" stroke-width="1" stroke-dasharray="3 3"/>
+  <text class="ax" x="290" y="312" text-anchor="middle">6억</text>
+  <text class="ax" x="530" y="312" text-anchor="middle">9억</text>
+  <text class="ax" x="120" y="312">3억</text>
+  <text class="ax" x="660" y="312">12억</text>
+
+  <text class="lbl" x="110" y="266">1%로 고정</text>
+  <text class="lbl" x="330" y="196">가액에 비례해 올라간다</text>
+  <text class="sub" x="330" y="214">7억 1.67% · 7.5억 2% · 8억 2.33%</text>
+  <text class="lbl" x="556" y="126">3%로 고정</text>
+
+  <text class="sub" x="30" y="338">기준: 지방세법 제11조 제1항 제8호 · 2026년 10월 3일 법제처 찾기쉬운 생활법령정보 확인</text>
+</svg>

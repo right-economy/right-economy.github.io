@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" role="img" aria-label="6억원과 6억 1만원에 집을 살 때 취득세를 비교한 도식. 6억원은 취득세 600만원, 6억 1만원은 600만 500원으로 차이가 500원뿐이어서 경계를 1만원 넘겼다고 세금이 뛰지 않는다는 것을 보여준다">
+  <rect width="760" height="300" fill="#ffffff"/>
+  <style>
+    text{font-family:'Pretendard',system-ui,sans-serif;fill:#2a2521}
+    .title{font-size:17px;font-weight:700}
+    .note{font-size:12px;fill:#7a7066}
+    .price{font-size:15px;font-weight:700}
+    .tax{font-size:22px;font-weight:800}
+    .unit{font-size:12.5px;fill:#7a7066}
+    .diff{font-size:14px;font-weight:700;fill:#c2410c}
+    .sub{font-size:11.5px;fill:#7a7066}
+  </style>
+
+  <text class="title" x="30" y="34">1만원 넘겼다고 세금이 뛰지 않는다</text>
+  <text class="note" x="30" y="56">취득세만 비교. 지방교육세는 각각 60만원·60만 50원이 더 붙는다</text>
+
+  <rect x="30" y="80" width="300" height="150" rx="10" fill="#f4f1ea" stroke="#c9bfae" stroke-width="1.5"/>
+  <text class="price" x="52" y="112">집값 6억원</text>
+  <text class="unit" x="52" y="134">세율 1.0000%</text>
+  <text class="tax" x="52" y="178">600만원</text>
+  <text class="sub" x="52" y="204">구간 안에 있을 때</text>
+
+  <rect x="400" y="80" width="300" height="150" rx="10" fill="#fdf0e6" stroke="#f4a97b" stroke-width="1.5"/>
+  <text class="price" x="422" y="112">집값 6억 1만원</text>
+  <text class="unit" x="422" y="134">세율 1.000067%</text>
+  <text class="tax" x="422" y="178">600만 500원</text>
+  <text class="sub" x="422" y="204">경계를 막 넘겼을 때</text>
+
+  <text class="diff" x="352" y="160" text-anchor="middle">→</text>
+  <text class="diff" x="380" y="256" text-anchor="middle">차이 500원</text>
+
+  <text class="sub" x="30" y="286">구간이 바뀌어도 세율이 뛰지 않고 가액만큼만 움직인다. 1%에서 2%로 점프한다는 말은 이 구조와 맞지 않는다.</text>
+</svg>
