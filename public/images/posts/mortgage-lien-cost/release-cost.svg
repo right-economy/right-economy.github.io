@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 330" role="img" aria-label="근저당권 말소 등기에 드는 비용을 신청 방식에 따라 비교한 막대 도식. 등록면허세 6천원과 지방교육세 1천2백원은 방식과 무관하게 같고, 등기신청수수료만 전자신청 1천원, 전자표준양식 3천원, 서면방문 4천원으로 달라져 합계가 8천2백원에서 1만1천2백원 사이로 갈린다">
+  <rect width="760" height="330" fill="#ffffff"/>
+  <style>
+    text{font-family:'Pretendard',system-ui,sans-serif;fill:#2a2521}
+    .title{font-size:17px;font-weight:700}
+    .note{font-size:12px;fill:#7a7066}
+    .way{font-size:13.5px;font-weight:700}
+    .sum{font-size:14px;font-weight:700}
+    .seg{font-size:11.5px;fill:#ffffff;font-weight:700}
+    .lg{font-size:12px;fill:#7a7066}
+    .sub{font-size:11.5px;fill:#7a7066}
+  </style>
+
+  <text class="title" x="30" y="34">말소 비용은 신청 방식에서 갈린다</text>
+  <text class="note" x="30" y="56">세금 두 가지는 고정이고 수수료만 달라진다. 법무사 보수는 별도</text>
+
+  <rect x="30" y="72" width="14" height="12" fill="#1d6a5a"/><text class="lg" x="50" y="82">등록면허세 6,000원</text>
+  <rect x="190" y="72" width="14" height="12" fill="#4f9d8a"/><text class="lg" x="210" y="82">지방교육세 1,200원</text>
+  <rect x="350" y="72" width="14" height="12" fill="#f4a97b"/><text class="lg" x="370" y="82">등기신청수수료</text>
+
+  <text class="way" x="30" y="124">전자신청</text>
+  <rect x="150" y="108" width="246" height="26" fill="#1d6a5a"/><text class="seg" x="160" y="126">6,000</text>
+  <rect x="396" y="108" width="49" height="26" fill="#4f9d8a"/><text class="seg" x="402" y="126">1,200</text>
+  <rect x="445" y="108" width="41" height="26" fill="#f4a97b"/>
+  <text class="sum" x="500" y="127">합계 8,200원</text>
+  <text class="sub" x="150" y="148">수수료 1,000원</text>
+
+  <text class="way" x="30" y="196">전자표준양식</text>
+  <rect x="150" y="180" width="246" height="26" fill="#1d6a5a"/><text class="seg" x="160" y="198">6,000</text>
+  <rect x="396" y="180" width="49" height="26" fill="#4f9d8a"/><text class="seg" x="402" y="198">1,200</text>
+  <rect x="445" y="180" width="123" height="26" fill="#f4a97b"/><text class="seg" x="452" y="198">3,000</text>
+  <text class="sum" x="582" y="199">합계 10,200원</text>
+  <text class="sub" x="150" y="220">등기소에서 작성하는 방식</text>
+
+  <text class="way" x="30" y="268">서면방문</text>
+  <rect x="150" y="252" width="246" height="26" fill="#1d6a5a"/><text class="seg" x="160" y="270">6,000</text>
+  <rect x="396" y="252" width="49" height="26" fill="#4f9d8a"/><text class="seg" x="402" y="270">1,200</text>
+  <rect x="445" y="252" width="164" height="26" fill="#f4a97b"/><text class="seg" x="452" y="270">4,000</text>
+  <text class="sum" x="623" y="271">합계 11,200원</text>
+  <text class="sub" x="150" y="292">직접 등기소에 가는 방식</text>
+
+  <text class="sub" x="30" y="318">기준: 지방세법 제28조·제151조, 등기신청수수료 징수에 관한 예규. 2026년 10월 3일 법제처 찾기쉬운 생활법령정보 확인</text>
+</svg>
