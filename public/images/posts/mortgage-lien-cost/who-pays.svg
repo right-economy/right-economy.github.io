@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 340" role="img" aria-label="근저당권을 설정할 때 드는 등록면허세와 지방교육세, 등기신청수수료, 법무사 보수는 은행이 부담하고 인지세만 은행과 고객이 반씩 나누는데, 대출을 갚고 근저당권을 말소할 때 드는 비용은 전부 고객이 부담한다는 것을 왼쪽 오른쪽 두 칸으로 비교해 보여주는 도식">
+  <rect width="760" height="340" fill="#ffffff"/>
+  <style>
+    text{font-family:'Pretendard',system-ui,sans-serif;fill:#2a2521}
+    .title{font-size:17px;font-weight:700}
+    .note{font-size:12px;fill:#7a7066}
+    .head{font-size:14.5px;font-weight:700}
+    .item{font-size:13px}
+    .who{font-size:15px;font-weight:700}
+    .sub{font-size:11.5px;fill:#7a7066}
+  </style>
+
+  <text class="title" x="30" y="34">같은 등기인데 비용을 내는 사람이 바뀐다</text>
+  <text class="note" x="30" y="56">2008년 3월 은행 여신거래 표준약관 기준. 상품·금융회사에 따라 달라질 수 있다</text>
+
+  <rect x="30" y="76" width="340" height="208" rx="10" fill="#f4f1ea" stroke="#c9bfae" stroke-width="1.5"/>
+  <text class="head" x="52" y="106">대출받을 때 — 설정</text>
+  <text class="who" x="52" y="134" fill="#1d6a5a">은행이 낸다</text>
+  <text class="item" x="52" y="162">등록면허세 (채권최고액의 0.2%)</text>
+  <text class="item" x="52" y="186">지방교육세 (등록면허세의 20%)</text>
+  <text class="item" x="52" y="210">등기신청수수료 · 법무사 보수</text>
+  <line x1="52" y1="226" x2="348" y2="226" stroke="#c9bfae" stroke-width="1"/>
+  <text class="item" x="52" y="250">인지세는 은행과 고객이 반씩</text>
+  <text class="sub" x="52" y="270">금액이 큰 쪽은 전부 은행 몫이다</text>
+
+  <rect x="390" y="76" width="340" height="208" rx="10" fill="#fdf0e6" stroke="#f4a97b" stroke-width="1.5"/>
+  <text class="head" x="412" y="106">다 갚았을 때 — 말소</text>
+  <text class="who" x="412" y="134" fill="#c2410c">내가 낸다</text>
+  <text class="item" x="412" y="162">등록면허세 6,000원 (건당)</text>
+  <text class="item" x="412" y="186">지방교육세 1,200원</text>
+  <text class="item" x="412" y="210">등기신청수수료 1,000~4,000원</text>
+  <line x1="412" y1="226" x2="708" y2="226" stroke="#f4a97b" stroke-width="1"/>
+  <text class="item" x="412" y="250">법무사에게 맡기면 보수가 더 붙는다</text>
+  <text class="sub" x="412" y="270">금액은 작지만 신청하지 않으면 아무 일도 없다</text>
+
+  <text class="sub" x="30" y="314">설정은 대출과 함께 은행이 처리해 주는 반면, 말소는 내가 신청해야 시작된다. 그래서 금액이 작은 쪽을 더 자주 놓친다.</text>
+</svg>
