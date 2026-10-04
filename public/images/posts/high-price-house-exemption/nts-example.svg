@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 350" role="img" aria-label="국세청 계산 예시를 단계별로 보여주는 도식. 15억에 판 집의 전체 양도차익 6억 7천만원에서 과세 대상은 20퍼센트인 1억 3천4백만원이고, 장기보유특별공제 1억 720만원을 빼면 최종 양도소득금액이 2천6백8십만원이 된다">
+  <rect width="760" height="350" fill="#ffffff"/>
+  <style>
+    text{font-family:'Pretendard',system-ui,sans-serif;fill:#2a2521}
+    .title{font-size:17px;font-weight:700}
+    .note{font-size:12px;fill:#7a7066}
+    .step{font-size:13px;font-weight:700;fill:#7a7066}
+    .calc{font-size:14px}
+    .amt{font-size:19px;font-weight:800}
+    .fin{font-size:30px;font-weight:900;fill:#c2410c}
+    .sub{font-size:11.5px;fill:#7a7066}
+  </style>
+
+  <text class="title" x="30" y="34">15억에 판 집, 끝까지 계산하면</text>
+  <text class="note" x="30" y="56">국세청 공개 예시 — 취득 8억 · 양도 15억 · 필요경비 3천만원 · 10년 이상 거주</text>
+
+  <rect x="30" y="76" width="700" height="56" rx="10" fill="#f4f1ea" stroke="#c9bfae" stroke-width="1.5"/>
+  <text class="step" x="52" y="100">① 전체 양도차익</text>
+  <text class="calc" x="52" y="122">15억 − 8억 − 3천만원</text>
+  <text class="amt" x="600" y="114">6억 7,000만원</text>
+
+  <rect x="30" y="144" width="700" height="56" rx="10" fill="#fdf0e6" stroke="#f4a97b" stroke-width="1.5"/>
+  <text class="step" x="52" y="168">② 과세 대상 양도차익 (12억 초과분 비율만)</text>
+  <text class="calc" x="52" y="190">6억 7,000만 × (15억 − 12억) ÷ 15억 = 20%</text>
+  <text class="amt" x="600" y="182" fill="#c2410c">1억 3,400만원</text>
+
+  <rect x="30" y="212" width="700" height="56" rx="10" fill="#f4f1ea" stroke="#c9bfae" stroke-width="1.5"/>
+  <text class="step" x="52" y="236">③ 장기보유특별공제 (같은 비율로 안분)</text>
+  <text class="calc" x="52" y="258">6억 7,000만 × 80% × 20%</text>
+  <text class="amt" x="600" y="250">− 1억 720만원</text>
+
+  <rect x="30" y="280" width="700" height="48" rx="10" fill="#2a2521"/>
+  <text class="step" x="52" y="310" fill="#c9bfae">양도소득금액</text>
+  <text class="fin" x="700" y="313" text-anchor="end" fill="#ffb877">2,680만원</text>
+</svg>
