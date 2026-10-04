@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 330" role="img" aria-label="공시가격별 공정시장가액비율과 재산세 본세를 비교한 표. 공시 3억은 비율 43퍼센트에 특례세율 9만 9천원, 5억은 44퍼센트에 26만원, 6억은 44퍼센트에 34만 8천원, 9억은 45퍼센트에 78만 7천5백원이고, 1세대 1주택 특례를 못 쓰면 각각 더 높아진다">
+  <rect width="760" height="330" fill="#ffffff"/>
+  <style>
+    text{font-family:'Pretendard',system-ui,sans-serif;fill:#2a2521}
+    .title{font-size:17px;font-weight:700}
+    .note{font-size:12px;fill:#7a7066}
+    .th{font-size:12.5px;font-weight:800;fill:#7a7066}
+    .td{font-size:15px;font-weight:700}
+    .tdr{font-size:15px;font-weight:800;fill:#c2410c}
+    .tdg{font-size:14px;fill:#7a7066}
+    .sub{font-size:11.5px;fill:#7a7066}
+  </style>
+
+  <text class="title" x="30" y="34">공시가격이 오르면 비율도 한 칸씩 올라간다</text>
+  <text class="note" x="30" y="56">1세대 1주택 · 시가표준액 9억원 이하. 재산세 본세 기준(도시지역분·지방교육세 별도)</text>
+
+  <line x1="30" y1="78" x2="730" y2="78" stroke="#c9bfae" stroke-width="2"/>
+  <text class="th" x="44" y="98">공시가격</text>
+  <text class="th" x="190" y="98">공정시장가액비율</text>
+  <text class="th" x="370" y="98">과세표준</text>
+  <text class="th" x="540" y="98">특례세율 적용</text>
+  <text class="th" x="650" y="98">특례 없을 때</text>
+  <line x1="30" y1="110" x2="730" y2="110" stroke="#c9bfae" stroke-width="1"/>
+
+  <text class="td" x="44" y="140">3억원</text>
+  <text class="td" x="190" y="140">43%</text>
+  <text class="tdg" x="370" y="140">1억 2,900만원</text>
+  <text class="tdr" x="540" y="140">9만 9,000원</text>
+  <text class="tdg" x="650" y="140">16만 3,500원</text>
+  <line x1="30" y1="154" x2="730" y2="154" stroke="#eee8dc" stroke-width="1"/>
+
+  <text class="td" x="44" y="184">5억원</text>
+  <text class="td" x="190" y="184">44%</text>
+  <text class="tdg" x="370" y="184">2억 2,000만원</text>
+  <text class="tdr" x="540" y="184">26만원</text>
+  <text class="tdg" x="650" y="184">37만원</text>
+  <line x1="30" y1="198" x2="730" y2="198" stroke="#eee8dc" stroke-width="1"/>
+
+  <text class="td" x="44" y="228">6억원</text>
+  <text class="td" x="190" y="228">44%</text>
+  <text class="tdg" x="370" y="228">2억 6,400만원</text>
+  <text class="tdr" x="540" y="228">34만 8,000원</text>
+  <text class="tdg" x="650" y="228">48만원</text>
+  <line x1="30" y1="242" x2="730" y2="242" stroke="#eee8dc" stroke-width="1"/>
+
+  <text class="td" x="44" y="272">9억원</text>
+  <text class="td" x="190" y="272">45%</text>
+  <text class="tdg" x="370" y="272">4억 500만원</text>
+  <text class="tdr" x="540" y="272">78만 7,500원</text>
+  <text class="tdg" x="650" y="272">99만원</text>
+  <line x1="30" y1="286" x2="730" y2="286" stroke="#c9bfae" stroke-width="2"/>
+
+  <text class="sub" x="30" y="312">기준: 지방세법 제110조·제111조·제111조의2 · 시행령 제110조의2 · 법제처 생활법령정보 2026-10-04 확인</text>
+</svg>

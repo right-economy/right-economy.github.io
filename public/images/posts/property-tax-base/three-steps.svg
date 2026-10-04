@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 330" role="img" aria-label="공시가격 5억원 주택의 재산세가 정해지는 세 단계를 보여주는 도식. 공시가격 5억에 공정시장가액비율 44퍼센트를 곱해 과세표준 2억 2천만원이 나오고, 거기에 1세대 1주택 특례세율을 적용하면 재산세 본세가 26만원이 된다">
+  <rect width="760" height="330" fill="#ffffff"/>
+  <style>
+    text{font-family:'Pretendard',system-ui,sans-serif;fill:#2a2521}
+    .title{font-size:17px;font-weight:700}
+    .note{font-size:12px;fill:#7a7066}
+    .step{font-size:12.5px;font-weight:700;fill:#7a7066}
+    .big{font-size:27px;font-weight:900}
+    .op{font-size:22px;font-weight:800;fill:#c2410c}
+    .sub{font-size:11.5px;fill:#7a7066}
+  </style>
+
+  <text class="title" x="30" y="34">공시가격에 바로 세율을 곱하지 않는다</text>
+  <text class="note" x="30" y="56">1세대 1주택 · 시가표준액 9억원 이하 기준. 다주택이면 비율이 60%이고 특례세율도 안 쓴다</text>
+
+  <rect x="30" y="80" width="200" height="110" rx="12" fill="#f4f1ea" stroke="#c9bfae" stroke-width="1.5"/>
+  <text class="step" x="50" y="108">공시가격</text>
+  <text class="big" x="50" y="146">5억원</text>
+  <text class="sub" x="50" y="170">정부가 매년 정하는 값</text>
+
+  <text class="op" x="248" y="142">×44%</text>
+
+  <rect x="320" y="80" width="200" height="110" rx="12" fill="#fdf0e6" stroke="#f4a97b" stroke-width="1.5"/>
+  <text class="step" x="340" y="108">과세표준</text>
+  <text class="big" x="340" y="146" fill="#c2410c">2억 2,000만원</text>
+  <text class="sub" x="340" y="170">공정시장가액비율을 곱한 값</text>
+
+  <text class="op" x="540" y="142">→</text>
+
+  <rect x="580" y="80" width="150" height="110" rx="12" fill="#2a2521"/>
+  <text class="step" x="600" y="108" fill="#c9bfae">재산세 본세</text>
+  <text class="big" x="600" y="146" fill="#ffb877">26만원</text>
+  <text class="sub" x="600" y="170" fill="#9a8f7a">특례세율 적용</text>
+
+  <text class="sub" x="30" y="222">공시가격 5억이 그대로 과세표준이 되면 세금이 두 배 가까이 올라간다. 비율이 그 사이를 한 번 깎는다.</text>
+  <text class="sub" x="30" y="246">⚠️ 이 26만원은 재산세 본세다. 실제 고지서에는 도시지역분과 지방교육세가 따로 더 붙는다.</text>
+
+  <text class="sub" x="30" y="300">기준: 지방세법 제110조·제111조·제111조의2 · 같은 법 시행령 제110조의2</text>
+  <text class="sub" x="30" y="318">법제처 찾기쉬운 생활법령정보 2026년 10월 4일 확인</text>
+</svg>
