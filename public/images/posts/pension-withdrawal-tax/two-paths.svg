@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" role="img" aria-label="사적연금 연 수령액이 1,500만원을 넘으면 종합과세와 15% 분리과세 중에서 고를 수 있다는 갈림길 그림">
+  <rect width="640" height="300" fill="#fbfaf7"/>
+  <text x="320" y="30" text-anchor="middle" font-family="system-ui,sans-serif" font-size="15" font-weight="600" fill="#2b2b2b">사적연금 한 해 수령액</text>
+
+  <rect x="240" y="48" width="160" height="40" rx="6" fill="#e8ecf5" stroke="#8b9dc3"/>
+  <text x="320" y="73" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" fill="#2b2b2b">1,500만원</text>
+
+  <path d="M300 88 L150 130" stroke="#8b9dc3" stroke-width="1.5" fill="none"/>
+  <path d="M340 88 L490 130" stroke="#c38b8b" stroke-width="1.5" fill="none"/>
+
+  <rect x="30" y="132" width="240" height="124" rx="8" fill="#eef3ec" stroke="#7a9a72"/>
+  <text x="150" y="156" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" font-weight="600" fill="#2b2b2b">1,500만원 이하</text>
+  <text x="150" y="182" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#444">떼고 끝낼 수 있음</text>
+  <text x="150" y="208" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#444">70세 미만 5%</text>
+  <text x="150" y="226" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#444">70~79세 4% · 80세 이상 3%</text>
+  <text x="150" y="246" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#777">소득세만 · 지방소득세 별도</text>
+
+  <rect x="370" y="132" width="240" height="124" rx="8" fill="#f5eeee" stroke="#c38b8b"/>
+  <text x="490" y="156" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" font-weight="600" fill="#2b2b2b">1,500만원 초과</text>
+  <text x="490" y="182" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#444">둘 중 하나를 고름</text>
+  <text x="490" y="208" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#444">① 종합과세</text>
+  <text x="490" y="230" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#444">② 15%로 떼고 끝내기</text>
+  <text x="490" y="248" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#777">신고할 때 선택</text>
+
+  <text x="320" y="286" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#777">출처: 국세청 연금소득 안내 · 세율은 소득세 기준</text>
+</svg>
