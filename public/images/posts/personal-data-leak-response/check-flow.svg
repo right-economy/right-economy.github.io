@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 205" role="img" aria-label="계좌정보통합관리와 Msafer로 내 이름의 계좌와 휴대폰 수를 세고 모르는 것이 있으면 신고로 넘어간다는 흐름 그림">
+  <rect width="660" height="205" fill="#fbfaf7"/>
+  <text x="330" y="30" text-anchor="middle" font-family="system-ui,sans-serif" font-size="15" font-weight="600" fill="#2b2b2b">막는 것과 이미 생긴 것을 찾는 것은 다릅니다</text>
+
+  <rect x="40" y="56" width="165" height="62" rx="7" fill="#f3f1e8" stroke="#b5a86a"/>
+  <text x="122" y="80" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12.5" fill="#2b2b2b">계좌정보통합관리</text>
+  <text x="122" y="100" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#555">내 계좌·카드를 셈</text>
+
+  <rect x="248" y="56" width="165" height="62" rx="7" fill="#f3f1e8" stroke="#b5a86a"/>
+  <text x="330" y="80" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12.5" fill="#2b2b2b">Msafer</text>
+  <text x="330" y="100" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#555">내 휴대폰을 셈</text>
+
+  <rect x="456" y="56" width="165" height="62" rx="7" fill="#f5eeee" stroke="#c38b8b"/>
+  <text x="538" y="80" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12.5" fill="#2b2b2b">모르는 게 있으면</text>
+  <text x="538" y="100" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#8a5a5a">해지·신고로</text>
+
+  <path d="M210 87 L243 87" stroke="#999" stroke-width="2"/>
+  <path d="M236 81 L244 87 L236 93 Z" fill="#999"/>
+  <path d="M418 87 L451 87" stroke="#999" stroke-width="2"/>
+  <path d="M444 81 L452 87 L444 93 Z" fill="#999"/>
+
+  <text x="330" y="148" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#444">차단을 걸어도 이미 만들어진 것은 그대로 남습니다</text>
+  <text x="330" y="167" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#444">그래서 세는 일을 따로 해야 합니다</text>
+
+  <text x="330" y="192" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#777">출처: 금융결제원 payinfo.or.kr · 한국정보통신진흥협회 Msafer</text>
+</svg>

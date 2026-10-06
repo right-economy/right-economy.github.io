@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 250" role="img" aria-label="금융감독원은 계좌와 카드 발급을 막고 Msafer는 휴대폰 개통을 막으며 계좌정보통합관리는 차단이 아니라 확인용이라는 비교 그림">
+  <rect width="660" height="250" fill="#fbfaf7"/>
+  <text x="330" y="32" text-anchor="middle" font-family="system-ui,sans-serif" font-size="15" font-weight="600" fill="#2b2b2b">세 곳이 각각 다른 문을 잠급니다</text>
+
+  <rect x="28" y="58" width="190" height="112" rx="8" fill="#eef3ec" stroke="#7a9a72"/>
+  <text x="123" y="84" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" font-weight="600" fill="#2b2b2b">금융감독원</text>
+  <text x="123" y="104" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11.5" fill="#666">개인정보노출자</text>
+  <text x="123" y="120" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11.5" fill="#666">사고예방시스템</text>
+  <text x="123" y="146" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12.5" fill="#2b2b2b">계좌·카드 발급</text>
+  <text x="123" y="162" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12.5" font-weight="600" fill="#3d6b35">막음</text>
+
+  <rect x="235" y="58" width="190" height="112" rx="8" fill="#eef3ec" stroke="#7a9a72"/>
+  <text x="330" y="84" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" font-weight="600" fill="#2b2b2b">Msafer</text>
+  <text x="330" y="104" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11.5" fill="#666">한국정보통신</text>
+  <text x="330" y="120" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11.5" fill="#666">진흥협회</text>
+  <text x="330" y="146" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12.5" fill="#2b2b2b">휴대폰 개통</text>
+  <text x="330" y="162" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12.5" font-weight="600" fill="#3d6b35">막음</text>
+
+  <rect x="442" y="58" width="190" height="112" rx="8" fill="#f3f1e8" stroke="#b5a86a"/>
+  <text x="537" y="84" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" font-weight="600" fill="#2b2b2b">금융결제원</text>
+  <text x="537" y="104" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11.5" fill="#666">계좌정보</text>
+  <text x="537" y="120" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11.5" fill="#666">통합관리</text>
+  <text x="537" y="146" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12.5" fill="#2b2b2b">내 계좌·카드</text>
+  <text x="537" y="162" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12.5" font-weight="600" fill="#8a7a3a">보여줌</text>
+
+  <text x="330" y="200" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#444">앞의 둘은 막는 것이고 세 번째는 보는 것입니다</text>
+  <text x="330" y="219" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#8a5a5a">하나만 걸면 나머지 문은 열려 있습니다</text>
+
+  <text x="330" y="242" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#777">출처: 금융감독원 pd.fss.or.kr · 금융결제원 payinfo.or.kr · 한국정보통신진흥협회 Msafer</text>
+</svg>
