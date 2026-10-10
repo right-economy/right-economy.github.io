@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 230" role="img" aria-label="평균임금이 통상임금보다 낮게 계산되면 통상임금을 평균임금으로 쓴다는 하한 그림">
+  <rect width="660" height="230" fill="#fbfaf7"/>
+  <text x="330" y="32" text-anchor="middle" font-family="system-ui,sans-serif" font-size="15" font-weight="600" fill="#2b2b2b">평균임금에는 바닥이 있습니다</text>
+
+  <line x1="70" y1="132" x2="600" y2="132" stroke="#7a9a72" stroke-width="2.5" stroke-dasharray="7 5"/>
+  <text x="608" y="129" font-family="system-ui,sans-serif" font-size="11.5" font-weight="600" fill="#5c7a56">통상임금</text>
+
+  <rect x="110" y="72" width="110" height="60" fill="#f0e3e3" stroke="#c38b8b"/>
+  <text x="165" y="60" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#444">평상시</text>
+  <text x="165" y="108" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#2b2b2b">평균임금이 위</text>
+  <text x="165" y="156" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11.5" fill="#666">평균임금으로 계산</text>
+
+  <rect x="330" y="132" width="110" height="44" fill="#f0e3e3" stroke="#c38b8b"/>
+  <text x="385" y="60" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#444">결근·무급휴직이 끼면</text>
+  <text x="385" y="160" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#2b2b2b">바닥 아래로</text>
+  <text x="385" y="196" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11.5" fill="#8a5a5a">그래도 통상임금으로 올려 계산</text>
+
+  <text x="330" y="216" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11.5" fill="#666">근로기준법 제2조 제2항 · 퇴직 직전 달이 비정상이어도 퇴직금이 깎이지 않는 장치</text>
+</svg>
