@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 270" role="img" aria-label="통상임금은 월 통상임금을 월 소정근로시간으로 나눠 시간당 금액이 되고, 평균임금은 3개월 임금총액을 그 기간 총 달력일수로 나눠 하루당 금액이 된다는 비교 그림">
+  <rect width="660" height="270" fill="#fbfaf7"/>
+  <text x="330" y="32" text-anchor="middle" font-family="system-ui,sans-serif" font-size="15" font-weight="600" fill="#2b2b2b">나누는 수가 다르니 단위도 다릅니다</text>
+
+  <rect x="28" y="58" width="292" height="178" rx="8" fill="#eef3ec" stroke="#7a9a72"/>
+  <text x="174" y="84" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13.5" font-weight="600" fill="#2b2b2b">통상임금</text>
+  <line x1="60" y1="98" x2="288" y2="98" stroke="#b9ccb4" stroke-width="1"/>
+  <text x="174" y="122" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#444">정기적·일률적으로 주기로 정한 임금</text>
+  <text x="174" y="152" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12.5" fill="#2b2b2b">÷ 월 소정근로시간</text>
+  <text x="174" y="172" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11.5" fill="#666">(주 40시간이면 보통 209시간)</text>
+  <rect x="88" y="188" width="172" height="30" rx="15" fill="#7a9a72"/>
+  <text x="174" y="208" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" font-weight="600" fill="#fff">시간당 금액</text>
+
+  <rect x="340" y="58" width="292" height="178" rx="8" fill="#f5eeee" stroke="#c38b8b"/>
+  <text x="486" y="84" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13.5" font-weight="600" fill="#2b2b2b">평균임금</text>
+  <line x1="372" y1="98" x2="600" y2="98" stroke="#ddc4c4" stroke-width="1"/>
+  <text x="486" y="122" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#444">직전 3개월에 실제로 받은 임금 총액</text>
+  <text x="486" y="152" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12.5" fill="#2b2b2b">÷ 그 기간의 총 달력일수</text>
+  <text x="486" y="172" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11.5" fill="#666">(걸친 달에 따라 89~92일)</text>
+  <rect x="400" y="188" width="172" height="30" rx="15" fill="#c38b8b"/>
+  <text x="486" y="208" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" font-weight="600" fill="#fff">하루당 금액</text>
+
+  <text x="330" y="258" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11.5" fill="#666">두 값을 그대로 크기 비교하면 단위가 어긋납니다</text>
+</svg>
