@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 300" role="img" aria-label="1년 계약으로 365일을 근무하고 퇴직하면 월 1일씩 쌓인 11일만 남고, 하루 더 일해 366일을 근무하면 11일에 1년 만근으로 생긴 15일이 더해져 26일이 된다는 비교 그림">
+  <rect width="660" height="300" fill="#fbfaf7"/>
+  <text x="330" y="32" text-anchor="middle" font-family="system-ui,sans-serif" font-size="15" font-weight="600" fill="#2b2b2b">마지막 하루가 15일을 가릅니다</text>
+
+  <rect x="28" y="58" width="292" height="196" rx="8" fill="#f3eeea" stroke="#b08968"/>
+  <text x="174" y="84" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13.5" font-weight="600" fill="#2b2b2b">365일 근무 후 퇴직</text>
+  <line x1="60" y1="98" x2="288" y2="98" stroke="#d8c6b8" stroke-width="1"/>
+  <text x="174" y="124" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#444">1년 미만 구간에 월 1일씩</text>
+  <text x="174" y="154" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#2b2b2b">11일</text>
+  <text x="174" y="180" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#444">+ 1년 만근분 없음</text>
+  <line x1="92" y1="196" x2="256" y2="196" stroke="#d8c6b8" stroke-width="1"/>
+  <text x="174" y="226" text-anchor="middle" font-family="system-ui,sans-serif" font-size="19" font-weight="700" fill="#2b2b2b">11일</text>
+  <text x="174" y="244" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11.5" fill="#666">마지막 날이 1년째</text>
+
+  <rect x="340" y="58" width="292" height="196" rx="8" fill="#eef3ec" stroke="#7a9a72"/>
+  <text x="486" y="84" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13.5" font-weight="600" fill="#2b2b2b">366일 근무 후 퇴직</text>
+  <line x1="372" y1="98" x2="600" y2="98" stroke="#b9ccb4" stroke-width="1"/>
+  <text x="486" y="124" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#444">1년 미만 구간에 월 1일씩</text>
+  <text x="486" y="154" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#2b2b2b">11일</text>
+  <text x="486" y="180" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#444">+ 1년 만근으로 15일</text>
+  <line x1="404" y1="196" x2="568" y2="196" stroke="#b9ccb4" stroke-width="1"/>
+  <text x="486" y="226" text-anchor="middle" font-family="system-ui,sans-serif" font-size="19" font-weight="700" fill="#2b2b2b">26일</text>
+  <text x="486" y="244" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11.5" fill="#666">하루를 더 다님</text>
+
+  <text x="330" y="282" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11.5" fill="#666">근로기준법 제60조 · 출근율 80% 이상을 채운 경우 · 옳은경제</text>
+</svg>
