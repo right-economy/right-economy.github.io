@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" width="720" height="330" role="img" aria-label="유상증자 발행가액은 청약일 전 제3거래일부터 제5거래일까지의 가중산술평균주가를 기준주가로 삼고 거기에 배정 방식별 할인율 상한을 적용해 정한다는 흐름 도식">
+  <style>
+    .t{font-family:'Apple SD Gothic Neo','Malgun Gothic',sans-serif}
+    .h{font-size:16px;font-weight:700;fill:#292524}
+    .v{font-size:14px;fill:#57534e}
+    .sm{font-size:13px;fill:#78716c}
+  </style>
+  <rect width="720" height="330" fill="#fffdfa"/>
+  <text class="t h" x="24" y="36">발행가는 공시 당일 주가로 정하지 않습니다</text>
+
+  <text class="t sm" x="24" y="72">청약일에서 거꾸로 센 거래일</text>
+  <rect x="24" y="84" width="96" height="44" rx="6" fill="#ffffff" stroke="#e7d5bd"/>
+  <text class="t v" x="72" y="112" text-anchor="middle">−5일</text>
+  <rect x="128" y="84" width="96" height="44" rx="6" fill="#fde8d7" stroke="#e7d5bd"/>
+  <text class="t v" x="176" y="112" text-anchor="middle">−4일</text>
+  <rect x="232" y="84" width="96" height="44" rx="6" fill="#ffffff" stroke="#e7d5bd"/>
+  <text class="t v" x="280" y="112" text-anchor="middle">−3일</text>
+  <rect x="336" y="84" width="96" height="44" rx="6" fill="#f5f5f4" stroke="#e7e5e4" stroke-dasharray="4 3"/>
+  <text class="t sm" x="384" y="112" text-anchor="middle">−2일</text>
+  <rect x="440" y="84" width="96" height="44" rx="6" fill="#f5f5f4" stroke="#e7e5e4" stroke-dasharray="4 3"/>
+  <text class="t sm" x="488" y="112" text-anchor="middle">−1일</text>
+  <rect x="544" y="84" width="152" height="44" rx="6" fill="#1c1917"/>
+  <text class="t" x="620" y="112" text-anchor="middle" font-size="14" fill="#ffffff">청약일</text>
+  <text class="t sm" x="24" y="152">↑ 이 사흘의 가중산술평균주가 = 기준주가</text>
+  <text class="t sm" x="340" y="152">↑ 계산에 안 들어갑니다</text>
+
+  <rect x="24" y="178" width="200" height="60" rx="8" fill="#fff2ec" stroke="#ece4d6"/>
+  <text class="t v" x="124" y="204" text-anchor="middle">기준주가</text>
+  <text class="t sm" x="124" y="226" text-anchor="middle">사흘 가중평균</text>
+  <line x1="230" y1="208" x2="276" y2="208" stroke="#c2410c" stroke-width="2"/>
+  <polygon points="276,202 290,208 276,214" fill="#c2410c"/>
+  <rect x="296" y="178" width="200" height="60" rx="8" fill="#fff2ec" stroke="#ece4d6"/>
+  <text class="t v" x="396" y="204" text-anchor="middle">할인율 상한 적용</text>
+  <text class="t sm" x="396" y="226" text-anchor="middle">배정 방식마다 다름</text>
+  <line x1="502" y1="208" x2="548" y2="208" stroke="#c2410c" stroke-width="2"/>
+  <polygon points="548,202 562,208 548,214" fill="#c2410c"/>
+  <rect x="568" y="178" width="128" height="60" rx="8" fill="#c2410c"/>
+  <text class="t" x="632" y="212" text-anchor="middle" font-size="15" font-weight="700" fill="#ffffff">발행가액</text>
+
+  <text class="t sm" x="24" y="276">주가가 많이 흔들린 날 하루가 발행가를 정하지 않도록 사흘을 평균 냅니다.</text>
+  <text class="t sm" x="24" y="300">할인율 상한은 제3자배정 10%, 일반공모 30% 이내입니다.</text>
+  <text class="t sm" x="24" y="320">기준: 증권의 발행 및 공시 등에 관한 규정 제5-18조 · 출처: 금융감독원</text>
+</svg>
