@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 300" role="img" aria-label="확정기여형에서는 해마다 그 해 임금총액의 12분의 1이 계좌에 들어가 그 해 칸이 닫힌다는 도식. 임금이 오르던 해의 적립액은 그대로 남고, 마지막 해에 임금이 줄어도 앞선 해의 적립액은 바뀌지 않는다.">
+  <rect width="660" height="300" fill="#fbfaf7"/>
+  <text x="330" y="32" text-anchor="middle" font-family="system-ui,sans-serif" font-size="15" font-weight="600" fill="#2b2b2b">DC는 해마다 그 해 임금으로 칸이 닫힙니다</text>
+
+  <rect x="36" y="150" width="88" height="54" rx="6" fill="#eef3ec" stroke="#7a9a72"/>
+  <text x="80" y="176" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#2b2b2b">1년차</text>
+  <text x="80" y="194" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12.5" font-weight="600" fill="#2b2b2b">250만원</text>
+
+  <rect x="140" y="132" width="88" height="72" rx="6" fill="#eef3ec" stroke="#7a9a72"/>
+  <text x="184" y="158" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#2b2b2b">4년차</text>
+  <text x="184" y="178" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12.5" font-weight="600" fill="#2b2b2b">290만원</text>
+
+  <rect x="244" y="108" width="88" height="96" rx="6" fill="#eef3ec" stroke="#7a9a72"/>
+  <text x="288" y="134" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#2b2b2b">7년차</text>
+  <text x="288" y="156" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12.5" font-weight="600" fill="#2b2b2b">330만원</text>
+
+  <rect x="348" y="92" width="88" height="112" rx="6" fill="#eef3ec" stroke="#7a9a72"/>
+  <text x="392" y="118" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#2b2b2b">9년차</text>
+  <text x="392" y="142" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12.5" font-weight="600" fill="#2b2b2b">360만원</text>
+
+  <rect x="452" y="140" width="88" height="64" rx="6" fill="#f3eeea" stroke="#b08968"/>
+  <text x="496" y="166" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#2b2b2b">10년차</text>
+  <text x="496" y="186" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12.5" font-weight="600" fill="#2b2b2b">270만원</text>
+
+  <line x1="36" y1="204" x2="624" y2="204" stroke="#c9bfb4" stroke-width="1.5"/>
+  <text x="588" y="176" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#666">…</text>
+
+  <text x="330" y="236" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#444">마지막 해에 임금이 줄어도 앞선 해의 칸은 그대로입니다</text>
+  <text x="330" y="262" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#444">대신 쌓인 돈의 운용 손익이 최종 금액을 움직입니다</text>
+  <text x="330" y="286" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11.5" fill="#777">칸 안의 금액은 연 임금총액의 12분의 1을 가정한 예시입니다</text>
+</svg>

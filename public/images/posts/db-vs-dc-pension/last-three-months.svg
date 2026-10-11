@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 320" role="img" aria-label="근속 10년이 같아도 확정급여형에서는 퇴직 직전 3개월 평균임금이 전체 금액을 정한다는 비교 그림. 평균임금 월 400만원이면 4,000만원, 말년에 320만원으로 낮아지면 3,200만원이 되어 과거 근속분까지 함께 줄어든다.">
+  <rect width="660" height="320" fill="#fbfaf7"/>
+  <text x="330" y="32" text-anchor="middle" font-family="system-ui,sans-serif" font-size="15" font-weight="600" fill="#2b2b2b">DB는 마지막 평균임금 하나가 전체를 정합니다</text>
+
+  <rect x="28" y="58" width="292" height="222" rx="8" fill="#eef3ec" stroke="#7a9a72"/>
+  <text x="174" y="84" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13.5" font-weight="600" fill="#2b2b2b">마지막 평균임금 월 400만원</text>
+  <line x1="60" y1="98" x2="288" y2="98" stroke="#b9ccb4" stroke-width="1"/>
+  <text x="174" y="124" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#444">30일분 평균임금 400만원</text>
+  <text x="174" y="148" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#444">× 계속근로 10년</text>
+  <line x1="92" y1="168" x2="256" y2="168" stroke="#b9ccb4" stroke-width="1"/>
+  <text x="174" y="206" text-anchor="middle" font-family="system-ui,sans-serif" font-size="21" font-weight="700" fill="#2b2b2b">4,000만원</text>
+  <text x="174" y="236" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11.5" fill="#666">1년차 근속분도</text>
+  <text x="174" y="256" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11.5" fill="#666">400만원으로 계산됩니다</text>
+
+  <rect x="340" y="58" width="292" height="222" rx="8" fill="#f3eeea" stroke="#b08968"/>
+  <text x="486" y="84" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13.5" font-weight="600" fill="#2b2b2b">마지막 평균임금 월 320만원</text>
+  <line x1="372" y1="98" x2="600" y2="98" stroke="#d8c6b8" stroke-width="1"/>
+  <text x="486" y="124" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#444">30일분 평균임금 320만원</text>
+  <text x="486" y="148" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#444">× 계속근로 10년</text>
+  <line x1="404" y1="168" x2="568" y2="168" stroke="#d8c6b8" stroke-width="1"/>
+  <text x="486" y="206" text-anchor="middle" font-family="system-ui,sans-serif" font-size="21" font-weight="700" fill="#2b2b2b">3,200만원</text>
+  <text x="486" y="236" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11.5" fill="#666">임금이 오르던 9년치도</text>
+  <text x="486" y="256" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11.5" fill="#666">함께 낮아집니다</text>
+
+  <text x="330" y="304" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#555">근속 기간은 둘 다 10년입니다. 달라진 값은 마지막 3개월뿐입니다.</text>
+</svg>
