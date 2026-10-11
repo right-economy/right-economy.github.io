@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" width="720" height="340" role="img" aria-label="유상증자는 회사 바깥의 투자자가 현금을 넣어 자본이 늘어나고, 무상증자는 회사 안의 잉여금을 자본금으로 옮기기만 해서 자기자본 총액이 그대로라는 비교 도식">
+  <style>
+    .t{font-family:'Apple SD Gothic Neo','Malgun Gothic',sans-serif}
+    .h{font-size:16px;font-weight:700;fill:#292524}
+    .v{font-size:14px;fill:#57534e}
+    .sm{font-size:13px;fill:#78716c}
+    .k{font-size:15px;font-weight:700;fill:#c2410c}
+  </style>
+  <rect width="720" height="340" fill="#fffdfa"/>
+
+  <text class="t h" x="24" y="36">유상증자 — 돈이 바깥에서 들어옵니다</text>
+  <rect x="24" y="52" width="140" height="56" rx="8" fill="#fff2ec" stroke="#ece4d6"/>
+  <text class="t v" x="94" y="86" text-anchor="middle">투자자 지갑</text>
+  <line x1="170" y1="80" x2="248" y2="80" stroke="#c2410c" stroke-width="2"/>
+  <polygon points="248,74 262,80 248,86" fill="#c2410c"/>
+  <text class="t sm" x="178" y="70">현금</text>
+  <rect x="268" y="52" width="180" height="56" rx="8" fill="#c2410c"/>
+  <text class="t" x="358" y="78" text-anchor="middle" font-size="14" fill="#ffffff">회사 자본</text>
+  <text class="t" x="358" y="98" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff">늘어남</text>
+  <line x1="454" y1="80" x2="528" y2="80" stroke="#c2410c" stroke-width="2"/>
+  <polygon points="528,74 542,80 528,86" fill="#c2410c"/>
+  <text class="t sm" x="462" y="70">새 주식</text>
+  <rect x="548" y="52" width="148" height="56" rx="8" fill="#fff2ec" stroke="#ece4d6"/>
+  <text class="t k" x="622" y="78" text-anchor="middle">지분 묽어짐</text>
+  <text class="t sm" x="622" y="98" text-anchor="middle">(안 받으면)</text>
+
+  <line x1="24" y1="140" x2="696" y2="140" stroke="#ece4d6" stroke-width="1"/>
+
+  <text class="t h" x="24" y="178">무상증자 — 회사 안에서 칸만 바뀝니다</text>
+  <rect x="24" y="194" width="300" height="96" rx="8" fill="#fff2ec" stroke="#ece4d6"/>
+  <text class="t sm" x="40" y="216">자기자본</text>
+  <rect x="40" y="226" width="124" height="46" rx="6" fill="#fde8d7" stroke="#e7d5bd"/>
+  <text class="t v" x="102" y="254" text-anchor="middle">잉여금</text>
+  <rect x="184" y="226" width="124" height="46" rx="6" fill="#ffffff" stroke="#e7d5bd"/>
+  <text class="t v" x="246" y="254" text-anchor="middle">자본금</text>
+  <line x1="166" y1="249" x2="180" y2="249" stroke="#c2410c" stroke-width="2"/>
+  <polygon points="180,243 194,249 180,255" fill="#c2410c"/>
+  <rect x="356" y="194" width="340" height="96" rx="12" fill="#1c1917"/>
+  <text class="t" x="526" y="226" text-anchor="middle" font-size="14" fill="#fde8d7">자기자본 총액</text>
+  <text class="t" x="526" y="256" text-anchor="middle" font-size="24" font-weight="700" fill="#ffffff">그대로</text>
+  <text class="t" x="526" y="278" text-anchor="middle" font-size="13" fill="#d6d3d1">회사에 들어온 현금은 0원입니다</text>
+
+  <text class="t sm" x="24" y="320">상법상 증자 방식 구분 · 금액 없는 개념 도식 · 출처: 옳은경제 정리</text>
+</svg>
