@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" width="720" height="320" role="img"
+     aria-label="자본금을 줄이는 절차 비교. 유상감자는 주주총회 특별결의(출석 3분의 2 이상, 발행주식총수 3분의 1 이상)와 1개월 이상의 채권자 이의절차를 거친다. 결손 보전을 위한 무상감자는 보통결의(출석 과반, 발행주식총수 4분의 1 이상)로 가능하고 채권자 이의절차가 면제된다.">
+  <rect width="720" height="320" fill="#fcfcfd"/>
+  <text x="24" y="32" font-family="sans-serif" font-size="15" font-weight="700" fill="#1a2540">자본금을 줄일 때 거치는 문턱</text>
+
+  <rect x="24" y="52" width="320" height="214" rx="10" fill="#fdf4f3" stroke="#e6b7b1"/>
+  <text x="44" y="82" font-family="sans-serif" font-size="15" font-weight="700" fill="#8c3a30">유상감자</text>
+  <text x="44" y="108" font-family="sans-serif" font-size="13" fill="#1a2540">주주총회 특별결의</text>
+  <text x="44" y="130" font-family="sans-serif" font-size="12" fill="#5b6478">출석 의결권 2/3 이상</text>
+  <text x="44" y="150" font-family="sans-serif" font-size="12" fill="#5b6478">+ 발행주식총수 1/3 이상</text>
+  <line x1="44" y1="166" x2="324" y2="166" stroke="#e6b7b1"/>
+  <text x="44" y="190" font-family="sans-serif" font-size="13" fill="#1a2540">채권자 이의절차 필요</text>
+  <text x="44" y="212" font-family="sans-serif" font-size="12" fill="#5b6478">1개월 이상 공고 · 개별 최고</text>
+  <text x="44" y="240" font-family="sans-serif" font-size="12" fill="#8c3a30">회사 재산이 밖으로 나가니까</text>
+
+  <rect x="376" y="52" width="320" height="214" rx="10" fill="#f3f8f4" stroke="#a8c9b0"/>
+  <text x="396" y="82" font-family="sans-serif" font-size="15" font-weight="700" fill="#2f6b43">무상감자 (결손 보전)</text>
+  <text x="396" y="108" font-family="sans-serif" font-size="13" fill="#1a2540">주주총회 보통결의</text>
+  <text x="396" y="130" font-family="sans-serif" font-size="12" fill="#5b6478">출석 의결권 과반</text>
+  <text x="396" y="150" font-family="sans-serif" font-size="12" fill="#5b6478">+ 발행주식총수 1/4 이상</text>
+  <line x1="396" y1="166" x2="676" y2="166" stroke="#a8c9b0"/>
+  <text x="396" y="190" font-family="sans-serif" font-size="13" fill="#1a2540">채권자 이의절차 면제</text>
+  <text x="396" y="212" font-family="sans-serif" font-size="12" fill="#5b6478">공고·최고 없이 진행</text>
+  <text x="396" y="240" font-family="sans-serif" font-size="12" fill="#2f6b43">재산이 안 나가 빚 갚을 몫이 안 줄어서</text>
+
+  <text x="24" y="296" font-family="sans-serif" font-size="11" fill="#8a93a6">기준: 상법 제438조·제439조 · 결손 보전 목적 감자는 보통결의와 채권자보호절차 면제</text>
+</svg>
