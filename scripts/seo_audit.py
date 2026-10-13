@@ -18,9 +18,14 @@
 """
 
 import os
+import re
+import shutil
 import sys
+import tempfile
+import xml.etree.ElementTree as ET
 from collections import defaultdict
 from html.parser import HTMLParser
+from urllib.parse import unquote, urlparse
 
 SITE = "https://right-economy.com"
 
@@ -146,6 +151,157 @@ BAD = """<!doctype html><html><head>
 </head><body><h1>a</h1><h1>b</h1><img src="a.svg"></body></html>"""
 
 
+SITEMAP_NS = {"s": "http://www.sitemaps.org/schemas/sitemap/0.9"}
+
+# 단일-글 태그 페이지는 thin/중복이라 ①sitemap 에서 빼고 ②noindex 를 박는다.
+# 결정이 두 자리에 나뉘어 있어서 **한쪽만 바뀌면 조용히 어긋난다** —
+#   sitemap 만 빼고 noindex 를 안 박으면 얇은 페이지가 계속 색인되고,
+#   noindex 만 박고 sitemap 에 남기면 색인 거부 URL 을 제출하게 된다.
+# 둘 다 에러를 안 내므로 사람이 볼 일이 없다. 그래서 「둘이 같은 집합인가」를 센다.
+# 기준은 astro.config.mjs 의 sitemap filter(글 2개 이상)와 같아야 한다.
+TAG_MIN_POSTS = 2
+
+
+def tag_post_counts(posts_dir):
+    """태그별 글 수. 원고를 못 읽으면 0 이 아니라 None(=모름)을 돌려준다."""
+    if not os.path.isdir(posts_dir):
+        return None
+    counts = {}
+    for name in sorted(os.listdir(posts_dir)):
+        if not name.endswith(".md"):
+            continue
+        with open(os.path.join(posts_dir, name), encoding="utf-8") as fh:
+            raw = fh.read()
+        m = re.search(r"^tags:\s*\[([^\]]*)\]", raw, re.M)
+        if not m:
+            continue
+        for t in m.group(1).split(","):
+            t = t.strip().strip("\"'")
+            if t:
+                counts[t] = counts.get(t, 0) + 1
+    return counts or None
+
+
+def sitemap_paths(dist):
+    """sitemap 의 URL 경로 집합. 한국어 경로가 퍼센트 인코딩돼 들어오므로
+    **반드시 디코드해서 맞춘다** — 안 맞추면 같은 URL 이 양쪽에 다르게 앉아
+    「447장 빠졌다」 같은 허수가 나온다(2026-10-13 내가 밟음). 없으면 None."""
+    files = [
+        os.path.join(dist, f)
+        for f in sorted(os.listdir(dist))
+        if f.startswith("sitemap") and f.endswith(".xml") and "index" not in f
+    ] if os.path.isdir(dist) else []
+    if not files:
+        return None
+    paths = set()
+    for f in files:
+        for loc in ET.parse(f).getroot().findall("s:url/s:loc", SITEMAP_NS):
+            paths.add(unquote(urlparse((loc.text or "").strip()).path))
+    return paths or None
+
+
+def check_site(dist, posts_dir):
+    """페이지 한 장으로는 안 보이는 축 — sitemap 과 noindex 가 같은 집합인가."""
+    out = []
+    counts = tag_post_counts(posts_dir)
+    sm = sitemap_paths(dist)
+    if counts is None:
+        out.append(("tagcount-unknown", "원고에서 태그 수를 못 읽었다 — 정합성을 못 쟀다(0건이 아니라 모름)"))
+    if sm is None:
+        out.append(("sitemap-unreadable", "sitemap 을 못 읽었다 — 정합성을 못 쟀다(0건이 아니라 모름)"))
+    if counts is None or sm is None:
+        return out
+
+    # index.html 만 본다. 404.html 처럼 index.html 이 아닌 산출물은 애초에
+    # sitemap 대상이 아니라서, 같이 세면 「제외됐는데 색인 허용」 허수가 된다.
+    noindex, indexable = set(), set()
+    for root, _dirs, files in os.walk(dist):
+        if "index.html" not in files:
+            continue
+        rel = os.path.relpath(root, dist).replace(os.sep, "/")
+        path = "/" if rel == "." else "/%s/" % rel
+        with open(os.path.join(root, "index.html"), encoding="utf-8", errors="replace") as fh:
+            robots = (parse(fh.read()).robots or "")
+        blocked = "noindex" in robots.lower()
+        (noindex if blocked else indexable).add(path)
+
+        if path.startswith("/tags/"):
+            tag = unquote(path[len("/tags/"):].rstrip("/"))
+            thin = counts.get(tag, 0) < TAG_MIN_POSTS
+            if thin and not blocked:
+                out.append(("thin-tag-indexable",
+                            "글 %d개뿐인 태그인데 noindex 가 없다: %s" % (counts.get(tag, 0), path)))
+            elif not thin and blocked:
+                out.append(("noindex-on-listed-tag",
+                            "글 %d개 묶인 태그인데 noindex 다: %s" % (counts.get(tag, 0), path)))
+        elif blocked:
+            out.append(("noindex-on-real-page", "글·허브인데 noindex 다: %s" % path))
+
+    excluded = (noindex | indexable) - sm
+    for path in sorted(excluded - noindex)[:20]:
+        out.append(("sitemap-vs-noindex", "sitemap 에서 빠졌는데 색인은 허용한다: %s" % path))
+    for path in sorted(noindex - excluded)[:20]:
+        out.append(("sitemap-vs-noindex", "noindex 인데 sitemap 에 제출한다: %s" % path))
+    return out
+
+
+# 사이트 레벨 검사의 양성·음성 표본. 페이지 한 장이 아니라 **디렉터리 모양**이
+# 입력이라 임시 폴더로 만든다.
+def _fixture(root, thin_noindex, thin_in_sitemap, post_b_noindex):
+    posts = os.path.join(root, "posts")
+    dist = os.path.join(root, "dist")
+    os.makedirs(posts)
+    # 많=2건(목록 태그) · 하나=1건(얇은 태그)
+    open(os.path.join(posts, "a.md"), "w", encoding="utf-8").write('tags: ["많", "하나"]\n')
+    open(os.path.join(posts, "b.md"), "w", encoding="utf-8").write('tags: ["많"]\n')
+
+    def page(relpath, robots):
+        d = os.path.join(dist, relpath) if relpath else dist
+        os.makedirs(d, exist_ok=True)
+        meta = '<meta name="robots" content="%s">' % robots if robots else ""
+        open(os.path.join(d, "index.html"), "w", encoding="utf-8").write(
+            "<!doctype html><html><head>%s</head><body></body></html>" % meta)
+
+    page("", "index, follow")
+    page("posts/a", "index, follow")
+    page("posts/b", "noindex, follow" if post_b_noindex else "index, follow")
+    page("tags/많", "index, follow")
+    page("tags/하나", "noindex, follow" if thin_noindex else "index, follow")
+
+    locs = ["/", "/posts/a/", "/posts/b/", "/tags/%EB%A7%8E/"]
+    if thin_in_sitemap:
+        locs.append("/tags/%ED%95%98%EB%82%98/")
+    body = "".join("<url><loc>https://x%s</loc></url>" % u for u in locs)
+    open(os.path.join(dist, "sitemap-0.xml"), "w", encoding="utf-8").write(
+        '<?xml version="1.0" encoding="UTF-8"?>'
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">%s</urlset>' % body)
+    return dist, posts
+
+
+def selftest_site():
+    """양성 1본 + 음성 1본을 같은 실행에서 돌린다."""
+    problems = []
+    root = tempfile.mkdtemp(prefix="seoaudit-good-")
+    try:
+        dist, posts = _fixture(root, thin_noindex=True, thin_in_sitemap=False, post_b_noindex=False)
+        issues = check_site(dist, posts)
+        if issues:
+            problems.append("양성 표본이 걸렸다(과민): %s" % [i for i, _ in issues])
+    finally:
+        shutil.rmtree(root, ignore_errors=True)
+
+    root = tempfile.mkdtemp(prefix="seoaudit-bad-")
+    try:
+        dist, posts = _fixture(root, thin_noindex=False, thin_in_sitemap=False, post_b_noindex=True)
+        fired = set(i for i, _ in check_site(dist, posts))
+        missing = {"thin-tag-indexable", "noindex-on-real-page", "sitemap-vs-noindex"} - fired
+        if missing:
+            problems.append("음성 표본에서 안 걸린 검사(둔감): %s" % sorted(missing))
+    finally:
+        shutil.rmtree(root, ignore_errors=True)
+    return problems
+
+
 def selftest():
     """양성(정상)·음성(불량) 표본을 같은 실행에서 돌린다.
 
@@ -164,6 +320,7 @@ def selftest():
     missing = must_fire - bad_ids
     if missing:
         problems.append("음성 표본에서 안 걸린 검사(둔감): %s" % sorted(missing))
+    problems.extend(selftest_site())
     return problems
 
 
@@ -174,7 +331,7 @@ def main():
         for p in problems:
             print("   " + p)
         return 2
-    print("✅ 자체 점검 통과 (양성 1본 무이슈 · 음성 1본 전 검사 발화)")
+    print("✅ 자체 점검 통과 (페이지·사이트 검사 각각 양성 1본 무이슈 · 음성 1본 전 검사 발화)")
 
     dist = sys.argv[1] if len(sys.argv) > 1 else "dist"
     if not os.path.isdir(dist):
@@ -209,6 +366,9 @@ def main():
             titles[m.title.strip()].append(rel)
         if (m.description or "").strip():
             descs[m.description.strip()].append(rel)
+
+    for issue_id, msg in check_site(dist, os.path.join("src", "content", "posts")):
+        by_issue[issue_id].append(("(사이트 전체)", msg))
 
     dup_titles = dict((k, v) for k, v in titles.items() if len(v) > 1)
     dup_descs = dict((k, v) for k, v in descs.items() if len(v) > 1)
