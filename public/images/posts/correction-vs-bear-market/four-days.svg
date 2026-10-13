@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" width="720" height="300" role="img"
-     aria-label="2026년 10월 코스피 나흘 연속 하락의 일별 등락률 막대 그래프. 10월 6일 마이너스 0.89퍼센트, 10월 7일 마이너스 1.98퍼센트, 10월 8일 마이너스 2.62퍼센트, 10월 12일 마이너스 3.65퍼센트로 매일 하락폭이 커졌다. 나흘을 합치면 10월 2일 종가 7003.74에서 6384.24로 8.85퍼센트 내렸고, 조정의 기준인 10퍼센트에는 아직 미치지 않는다.">
+     aria-label="2026년 10월 코스피 나흘 연속 하락의 일별 등락률 막대 그래프. 10월 6일 마이너스 0.89퍼센트, 10월 7일 마이너스 1.98퍼센트, 10월 8일 마이너스 2.62퍼센트, 10월 12일 마이너스 3.65퍼센트로 매일 하락폭이 커졌다. 나흘을 합치면 10월 2일 종가 7003.74에서 6384.24로 8.85퍼센트 내렸다. 이 8.85퍼센트는 나흘 전 종가를 분모로 쓴 값이고, 52주 최고 종가인 6월 22일 9114.55를 분모로 쓰면 29.96퍼센트 아래다.">
   <rect width="720" height="300" fill="#ffffff"/>
-  <text x="24" y="32" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="16" font-weight="700" fill="#1f2937">나흘 연속 내렸지만, 합쳐도 10%는 아니다</text>
+  <text x="24" y="32" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="16" font-weight="700" fill="#1f2937">나흘 합계 8.85%는 나흘 전 종가가 분모다</text>
   <text x="24" y="52" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12" fill="#8a94a6">코스피 일별 등락률 (2026-10-06 ~ 2026-10-12)</text>
 
   <line x1="80" y1="80" x2="80" y2="230" stroke="#c7cedb"/>
@@ -26,5 +26,5 @@
   <text x="583" y="252" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="12" fill="#4a5568">10/12</text>
 
   <text x="24" y="280" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#2a3b55">나흘 합계: 7,003.74(10/2 종가) → 6,384.24(10/12 종가) = -8.85%</text>
-  <text x="24" y="296" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12" fill="#8a94a6">10월 9일~11일은 한글날 연휴로 휴장. 조정 기준인 -10%에는 아직 닿지 않았다.</text>
+  <text x="24" y="296" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12" fill="#8a94a6">10월 9일~11일은 한글날 연휴로 휴장. 조정·하락장은 고점을 분모로 쓴다 — 52주 최고(6/22 9,114.55) 대비 -29.96%.</text>
 </svg>
