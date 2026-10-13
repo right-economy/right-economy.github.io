@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="300" viewBox="0 0 720 300" role="img" aria-label="신용융자 담보유지비율이 D일 장중 167퍼센트에서 D일 장마감 142퍼센트, D+1일 121퍼센트, D+2일 103퍼센트로 내려가는 꺾은선. 140퍼센트 최저선을 지난 D+1일에 추가담보 납부요구가 나가고 D+2일 미납 뒤 D+3일에 임의처분한다">
+  <rect width="720" height="300" fill="#ffffff"/>
+  <text x="24" y="30" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="700" fill="#1f2937">담보유지비율은 주가보다 빠르게 내려간다</text>
+
+  <line x1="80" y1="240" x2="660" y2="240" stroke="#d1d5db" stroke-width="1"/>
+  <line x1="80" y1="60" x2="80" y2="240" stroke="#d1d5db" stroke-width="1"/>
+
+  <line x1="80" y1="137" x2="660" y2="137" stroke="#e0331a" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <text x="664" y="141" font-family="system-ui, sans-serif" font-size="11.5" fill="#e0331a">최저 140%</text>
+
+  <polyline points="120,68 270,132 420,186 570,232" fill="none" stroke="#2563eb" stroke-width="2.5"/>
+  <circle cx="120" cy="68" r="5" fill="#2563eb"/>
+  <circle cx="270" cy="132" r="5" fill="#2563eb"/>
+  <circle cx="420" cy="186" r="5" fill="#2563eb"/>
+  <circle cx="570" cy="232" r="5" fill="#2563eb"/>
+
+  <text x="120" y="56" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#2563eb">167%</text>
+  <text x="270" y="120" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#2563eb">142%</text>
+  <text x="420" y="174" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#2563eb">121%</text>
+  <text x="570" y="220" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#2563eb">103%</text>
+
+  <text x="120" y="258" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11.5" fill="#4b5563">D일 장중</text>
+  <text x="120" y="272" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#9ca3af">10,000원</text>
+  <text x="270" y="258" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11.5" fill="#4b5563">D일 장마감</text>
+  <text x="270" y="272" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#9ca3af">8,500원</text>
+  <text x="420" y="258" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11.5" fill="#4b5563">D+1일</text>
+  <text x="420" y="272" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#9ca3af">7,230원 · 추가담보 요구</text>
+  <text x="570" y="258" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11.5" fill="#4b5563">D+2일</text>
+  <text x="570" y="272" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#9ca3af">6,150원 · 225만 원 부족</text>
+
+  <text x="24" y="292" font-family="system-ui, sans-serif" font-size="11" fill="#6b7280">투자원금 400만 원 + 융자 600만 원으로 1만 원짜리 1,000주를 산 경우 (한국투자증권 신용거래설명서 예시)</text>
+</svg>
