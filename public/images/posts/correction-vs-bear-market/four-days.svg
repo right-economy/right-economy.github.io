@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" width="720" height="300" role="img"
+     aria-label="2026년 10월 코스피 나흘 연속 하락의 일별 등락률 막대 그래프. 10월 6일 마이너스 0.89퍼센트, 10월 7일 마이너스 1.98퍼센트, 10월 8일 마이너스 2.62퍼센트, 10월 12일 마이너스 3.65퍼센트로 매일 하락폭이 커졌다. 나흘을 합치면 10월 2일 종가 7003.74에서 6384.24로 8.85퍼센트 내렸고, 조정의 기준인 10퍼센트에는 아직 미치지 않는다.">
+  <rect width="720" height="300" fill="#ffffff"/>
+  <text x="24" y="32" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="16" font-weight="700" fill="#1f2937">나흘 연속 내렸지만, 합쳐도 10%는 아니다</text>
+  <text x="24" y="52" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12" fill="#8a94a6">코스피 일별 등락률 (2026-10-06 ~ 2026-10-12)</text>
+
+  <line x1="80" y1="80" x2="80" y2="230" stroke="#c7cedb"/>
+  <line x1="80" y1="80" x2="660" y2="80" stroke="#e3e8f0"/>
+  <text x="70" y="85" text-anchor="end" font-family="-apple-system, sans-serif" font-size="11" fill="#8a94a6">0%</text>
+  <line x1="80" y1="230" x2="660" y2="230" stroke="#c7cedb"/>
+  <text x="70" y="234" text-anchor="end" font-family="-apple-system, sans-serif" font-size="11" fill="#8a94a6">-4%</text>
+
+  <rect x="130" y="80" width="78" height="33"  fill="#aec6e8"/>
+  <rect x="268" y="80" width="78" height="74"  fill="#88a9d4"/>
+  <rect x="406" y="80" width="78" height="98"  fill="#6a8cc0"/>
+  <rect x="544" y="80" width="78" height="137" fill="#44679c"/>
+
+  <text x="169" y="129" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="#1f2937">-0.89%</text>
+  <text x="307" y="170" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="#1f2937">-1.98%</text>
+  <text x="445" y="194" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="#1f2937">-2.62%</text>
+  <text x="583" y="233" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="#1f2937">-3.65%</text>
+
+  <text x="169" y="252" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="12" fill="#4a5568">10/6</text>
+  <text x="307" y="252" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="12" fill="#4a5568">10/7</text>
+  <text x="445" y="252" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="12" fill="#4a5568">10/8</text>
+  <text x="583" y="252" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="12" fill="#4a5568">10/12</text>
+
+  <text x="24" y="280" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#2a3b55">나흘 합계: 7,003.74(10/2 종가) → 6,384.24(10/12 종가) = -8.85%</text>
+  <text x="24" y="296" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12" fill="#8a94a6">10월 9일~11일은 한글날 연휴로 휴장. 조정 기준인 -10%에는 아직 닿지 않았다.</text>
+</svg>
