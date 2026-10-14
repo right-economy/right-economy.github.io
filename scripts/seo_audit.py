@@ -53,6 +53,7 @@ class Meta(HTMLParser):
         self.twitter = {}
         self.robots = None
         self.h1 = 0
+        self.headings = []
         self.img_total = 0
         self.img_no_alt = 0
 
@@ -75,8 +76,10 @@ class Meta(HTMLParser):
         elif tag == "link":
             if (a.get("rel") or "").lower() == "canonical":
                 self.canonical = a.get("href")
-        elif tag == "h1":
-            self.h1 += 1
+        elif len(tag) == 2 and tag[0] == "h" and tag[1] in "123456":
+            self.headings.append(int(tag[1]))
+            if tag == "h1":
+                self.h1 += 1
         elif tag == "img":
             self.img_total += 1
             # alt 속성 자체가 없으면 누락. alt="" 는 장식 이미지의 올바른 표기라 통과.
@@ -130,6 +133,12 @@ def check_page(m):
     elif m.h1 > 1:
         out.append(("h1-multi", "h1 이 %d개" % m.h1))
 
+    # heading 레벨 건너뛰기(h2→h4 등). h1 유일성과 다른 축이다 — 개수는 맞는데
+    # 순서가 어긋나면 스크린리더·크롤러가 보는 문서 구조가 실제와 달라진다.
+    for prev, nxt in zip(m.headings, m.headings[1:]):
+        if nxt > prev + 1:
+            out.append(("heading-skip", "heading 레벨을 건너뛴다: h%d → h%d" % (prev, nxt)))
+
     if m.img_no_alt:
         out.append(("img-no-alt", "alt 속성 없는 img %d개 (전체 %d)" % (m.img_no_alt, m.img_total)))
 
@@ -143,15 +152,76 @@ GOOD = """<!doctype html><html><head>
 <meta property="og:title" content="t"><meta property="og:description" content="d">
 <meta property="og:url" content="u"><meta property="og:image" content="i">
 <meta name="twitter:card" content="summary_large_image">
-</head><body><h1>제목</h1><img src="a.svg" alt="설명"><img src="b.svg" alt=""></body></html>"""
+</head><body><h1>제목</h1><h2>소제목</h2><h3>더 안</h3><h2>소제목2</h2>
+<img src="a.svg" alt="설명"><img src="b.svg" alt=""></body></html>"""
 
 BAD = """<!doctype html><html><head>
 <title></title>
 <link rel="canonical" href="/posts/x/">
-</head><body><h1>a</h1><h1>b</h1><img src="a.svg"></body></html>"""
+</head><body><h1>a</h1><h1>b</h1><h4>c</h4><img src="a.svg"></body></html>"""
 
 
 SITEMAP_NS = {"s": "http://www.sitemaps.org/schemas/sitemap/0.9"}
+
+# ET 는 expat(C 확장) 위에서만 돈다. 이 맥의 homebrew python 3.14.7 은 pyexpat 가
+# 시스템 libexpat 심볼을 못 찾아 `ET.parse` 가 ImportError 로 죽는다(2026-10-14 실측:
+# "No module named expat"). 그러면 sitemap 축만 못 재는 게 아니라 **자체 점검이
+# 터져서 감사 전체가 종료코드 1 로 멈춘다** — 실제로 이 슬롯에서 그렇게 멈췄다.
+# 그래서 `<loc>` 추출은 순수 파이썬 파서로도 되게 둔다. html.parser 는 표준
+# 라이브러리에 순수 파이썬으로 들어있어 같은 방식으로 깨지지 않고, 속성·텍스트
+# 경계를 파서가 정하는 점은 ET 와 같다(= 이 파일이 정규식을 안 쓰는 이유 그대로).
+# ⚠️ 대신 fallback 은 XML 적격성(well-formedness)을 검사하지 않는다. 망가진
+# sitemap 이면 loc 집합이 모자라게 나오고, 그건 sitemap-vs-noindex 로 시끄럽게
+# 드러난다(조용히 0건이 되지는 않는다).
+def _expat_ok():
+    try:
+        ET.XMLParser()
+        return True
+    except ImportError:
+        return False
+
+
+class _Locs(HTMLParser):
+    """sitemap 의 `<loc>` 텍스트만 모은다. 네임스페이스 접두사가 붙어도
+    (`<s:loc>`) 같이 받는다."""
+
+    def __init__(self):
+        HTMLParser.__init__(self)
+        self.locs = []
+        self._buf = None
+
+    def handle_starttag(self, tag, attrs):
+        if tag == "loc" or tag.endswith(":loc"):
+            self._buf = []
+
+    def handle_data(self, data):
+        if self._buf is not None:
+            self._buf.append(data)
+
+    def handle_endtag(self, tag):
+        if (tag == "loc" or tag.endswith(":loc")) and self._buf is not None:
+            self.locs.append("".join(self._buf).strip())
+            self._buf = None
+
+
+def _locs_et(text):
+    root = ET.fromstring(text)
+    return [(e.text or "").strip() for e in root.findall("s:url/s:loc", SITEMAP_NS)]
+
+
+def _locs_parser(text):
+    p = _Locs()
+    p.feed(text)
+    p.close()
+    return p.locs
+
+
+def _locs_in(text):
+    """sitemap XML 한 장에서 loc 문자열 목록. expat 이 있으면 ET 로 읽고,
+    없으면 순수 파이썬 파서로 읽는다. 두 경로가 같은 답을 내는지는
+    `selftest_locs` 가 매 실행에서 대조한다."""
+    return _locs_et(text) if _expat_ok() else _locs_parser(text)
+
 
 # 단일-글 태그 페이지는 thin/중복이라 ①sitemap 에서 빼고 ②noindex 를 박는다.
 # 결정이 두 자리에 나뉘어 있어서 **한쪽만 바뀌면 조용히 어긋난다** —
@@ -195,8 +265,9 @@ def sitemap_paths(dist):
         return None
     paths = set()
     for f in files:
-        for loc in ET.parse(f).getroot().findall("s:url/s:loc", SITEMAP_NS):
-            paths.add(unquote(urlparse((loc.text or "").strip()).path))
+        with open(f, encoding="utf-8") as fh:
+            for loc in _locs_in(fh.read()):
+                paths.add(unquote(urlparse(loc).path))
     return paths or None
 
 
@@ -302,6 +373,41 @@ def selftest_site():
     return problems
 
 
+SITEMAP_SAMPLE = (
+    '<?xml version="1.0" encoding="UTF-8"?>\n'
+    '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+    '  <url><loc>https://right-economy.com/</loc><lastmod>2026-10-14</lastmod></url>\n'
+    '  <url>\n    <loc>\n      https://right-economy.com/posts/what-is-cpi/\n    </loc>\n  </url>\n'
+    '  <url><loc>https://right-economy.com/tags/%EA%B8%88%EB%A6%AC/</loc></url>\n'
+    '</urlset>\n'
+)
+SITEMAP_SAMPLE_EXPECTED = [
+    "https://right-economy.com/",
+    "https://right-economy.com/posts/what-is-cpi/",
+    "https://right-economy.com/tags/%EA%B8%88%EB%A6%AC/",
+]
+SITEMAP_EMPTY = (
+    '<?xml version="1.0" encoding="UTF-8"?>'
+    '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"></urlset>'
+)
+
+
+def selftest_locs():
+    """loc 추출기 점검. **실제로 쓰이는 경로를 잰다** — 이 맥에서는 expat 이
+    없어서 fallback 이 본선이다. expat 이 있는 환경에서는 두 경로가 같은 답을
+    내는지까지 대조해서, fallback 이 조용히 어긋나는 걸 막는다."""
+    problems = []
+    if _locs_parser(SITEMAP_SAMPLE) != SITEMAP_SAMPLE_EXPECTED:
+        problems.append("loc 파서가 표본을 못 읽었다: %s" % _locs_parser(SITEMAP_SAMPLE))
+    if _locs_parser(SITEMAP_EMPTY) != []:
+        problems.append("url 0건 표본에서 loc 이 나왔다(허수): %s" % _locs_parser(SITEMAP_EMPTY))
+    if _expat_ok():
+        if _locs_et(SITEMAP_SAMPLE) != _locs_parser(SITEMAP_SAMPLE):
+            problems.append("ET 와 fallback 의 답이 다르다: %s vs %s"
+                            % (_locs_et(SITEMAP_SAMPLE), _locs_parser(SITEMAP_SAMPLE)))
+    return problems
+
+
 def selftest():
     """양성(정상)·음성(불량) 표본을 같은 실행에서 돌린다.
 
@@ -313,6 +419,7 @@ def selftest():
     must_fire = {
         "title-missing", "desc-missing", "canonical-not-site",
         "og-missing", "twitter-missing", "h1-multi", "img-no-alt",
+        "heading-skip",
     }
     problems = []
     if good_issues:
@@ -320,6 +427,7 @@ def selftest():
     missing = must_fire - bad_ids
     if missing:
         problems.append("음성 표본에서 안 걸린 검사(둔감): %s" % sorted(missing))
+    problems.extend(selftest_locs())
     problems.extend(selftest_site())
     return problems
 
@@ -331,7 +439,8 @@ def main():
         for p in problems:
             print("   " + p)
         return 2
-    print("✅ 자체 점검 통과 (페이지·사이트 검사 각각 양성 1본 무이슈 · 음성 1본 전 검사 발화)")
+    print("✅ 자체 점검 통과 (페이지·사이트 검사 각각 양성 1본 무이슈 · 음성 1본 전 검사 발화 · "
+          "loc 추출기 %s 경로)" % ("ET" if _expat_ok() else "순수 파이썬 fallback"))
 
     dist = sys.argv[1] if len(sys.argv) > 1 else "dist"
     if not os.path.isdir(dist):
