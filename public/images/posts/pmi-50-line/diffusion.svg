@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" width="720" height="320" role="img"
+     aria-label="확산지수 계산 방식을 보여주는 도식. 설문 응답을 좋아졌다, 같다, 나빠졌다 세 갈래로 받아 좋아졌다 비율에 같다 비율의 절반을 더해 지수를 만든다. 예시로 좋아졌다 30퍼센트, 같다 50퍼센트, 나빠졌다 20퍼센트면 30 더하기 25로 55가 된다. 좋아졌다와 나빠졌다가 같은 비율이면 결과는 항상 50이 된다.">
+  <rect width="720" height="320" fill="#ffffff"/>
+  <text x="24" y="34" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="16" font-weight="700" fill="#1f2937">PMI는 평균이 아니라 '응답 비율'을 더해서 만든다</text>
+  <text x="24" y="54" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12" fill="#8a94a6">확산지수 = 좋아졌다(%) + 같다(%) × 0.5 · 아래 숫자는 계산을 보여주기 위한 예시</text>
+
+  <rect x="24"  y="78" width="190" height="62" rx="8" fill="#e6f2ea" stroke="#a8cdb6"/>
+  <rect x="238" y="78" width="190" height="62" rx="8" fill="#eef1f6" stroke="#c7cedb"/>
+  <rect x="452" y="78" width="190" height="62" rx="8" fill="#f9e2e2" stroke="#e3a5a5"/>
+
+  <text x="119" y="103" text-anchor="middle" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#1f2937">좋아졌다</text>
+  <text x="119" y="126" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="13" fill="#41604e">30% → 그대로 30</text>
+  <text x="333" y="103" text-anchor="middle" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#1f2937">같다</text>
+  <text x="333" y="126" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="13" fill="#4a5568">50% → 절반만 25</text>
+  <text x="547" y="103" text-anchor="middle" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#1f2937">나빠졌다</text>
+  <text x="547" y="126" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="13" fill="#8f4a4a">20% → 안 더한다</text>
+
+  <path d="M119,146 L119,176 M333,146 L333,176 M547,146 L547,176" stroke="#c7cedb" stroke-width="2"/>
+  <rect x="24" y="182" width="618" height="52" rx="8" fill="#e8f0fe" stroke="#b7c9e8"/>
+  <text x="333" y="214" text-anchor="middle" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="15" font-weight="700" fill="#2a3b55">30 + 25 = 55 → 50보다 위, 늘었다고 답한 쪽이 더 많았다</text>
+
+  <rect x="24" y="252" width="618" height="46" rx="8" fill="#fdf6e7" stroke="#e8d49a"/>
+  <text x="333" y="281" text-anchor="middle" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13.5" fill="#6b5420">좋아졌다와 나빠졌다가 같은 비율이면 결과는 늘 50 — 그래서 50이 경계선이 된다</text>
+</svg>

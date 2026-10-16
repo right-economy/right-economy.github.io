@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 250" width="720" height="250" role="img"
+     aria-label="설문 지표와 생산 통계의 발표 시차를 비교한 도식. 한 달 치 설문은 그 달 안에 받아 달이 바뀌면 바로 지수로 나오고, 산업생산이나 국내총생산 같은 통계는 집계와 검증에 시간이 걸려 몇 주 또는 몇 달 뒤에 확정된다. 그래서 설문 지표는 방향을 먼저 알려주는 자리에 쓰이고 크기는 통계로 확인한다.">
+  <rect width="720" height="250" fill="#ffffff"/>
+  <text x="24" y="34" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="16" font-weight="700" fill="#1f2937">설문이 먼저 나오고 통계가 나중에 확인한다</text>
+  <text x="24" y="54" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12" fill="#8a94a6">같은 달을 두고 두 지표가 도착하는 시점이 다르다</text>
+
+  <line x1="24" y1="96" x2="690" y2="96" stroke="#c7cedb" stroke-width="2"/>
+  <text x="24" y="86" font-family="-apple-system, sans-serif" font-size="11.5" fill="#8a94a6">그 달</text>
+  <text x="300" y="86" font-family="-apple-system, sans-serif" font-size="11.5" fill="#8a94a6">다음 달 초</text>
+  <text x="560" y="86" font-family="-apple-system, sans-serif" font-size="11.5" fill="#8a94a6">그 뒤</text>
+
+  <rect x="24" y="112" width="250" height="48" rx="8" fill="#e8f0fe" stroke="#b7c9e8"/>
+  <text x="149" y="133" text-anchor="middle" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#2a3b55">설문 응답 수집</text>
+  <text x="149" y="152" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="12" fill="#4a5568">구매·자재 담당자에게 묻는다</text>
+
+  <rect x="290" y="112" width="180" height="48" rx="8" fill="#e6f2ea" stroke="#a8cdb6"/>
+  <text x="380" y="133" text-anchor="middle" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#2f5c42">PMI 발표</text>
+  <text x="380" y="152" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="12" fill="#41604e">방향을 먼저 알려준다</text>
+
+  <rect x="486" y="112" width="204" height="48" rx="8" fill="#eef1f6" stroke="#c7cedb"/>
+  <text x="588" y="133" text-anchor="middle" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#1f2937">생산·GDP 통계</text>
+  <text x="588" y="152" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="12" fill="#4a5568">크기를 뒤늦게 확인한다</text>
+
+  <rect x="24" y="182" width="666" height="48" rx="8" fill="#fdf6e7" stroke="#e8d49a"/>
+  <text x="357" y="211" text-anchor="middle" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13.5" fill="#6b5420">그래서 설문 지표가 빨리 움직여도, 얼마나 움직였는지는 통계가 나올 때까지 모른다</text>
+</svg>
