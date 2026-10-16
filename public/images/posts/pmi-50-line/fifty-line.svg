@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 260" width="720" height="260" role="img"
+     aria-label="PMI 눈금을 50 기준선으로 가른 띠 도식. 50 아래는 지난달보다 줄었다고 답한 곳이 더 많은 수축 구간, 50은 양쪽이 같은 경계, 50 위는 늘었다고 답한 곳이 더 많은 확장 구간이다. 50 아래에서 숫자가 올라가는 경우는 여전히 줄었지만 줄어든 곳이 전보다 적어졌다는 뜻이어서 수축 구간에 그대로 머문다.">
+  <rect width="720" height="260" fill="#ffffff"/>
+  <text x="24" y="34" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="16" font-weight="700" fill="#1f2937">50은 평균도 목표치도 아니라 '양쪽이 같아지는 자리'다</text>
+  <text x="24" y="54" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12" fill="#8a94a6">비교 대상은 항상 '지난달의 내 사업장'이다</text>
+
+  <rect x="24"  y="80" width="306" height="58" fill="#f9d2d2" stroke="#e3a5a5"/>
+  <rect x="330" y="80" width="30"  height="58" fill="#eef1f6" stroke="#c7cedb"/>
+  <rect x="360" y="80" width="306" height="58" fill="#e6f2ea" stroke="#a8cdb6"/>
+
+  <text x="177" y="106" text-anchor="middle" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#8f4a4a">50 아래 · 수축</text>
+  <text x="177" y="127" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="12.5" fill="#6b3b3b">줄었다고 답한 곳이 더 많다</text>
+  <text x="345" y="113" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="#4a5568">50</text>
+  <text x="513" y="106" text-anchor="middle" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#2f5c42">50 위 · 확장</text>
+  <text x="513" y="127" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="12.5" fill="#41604e">늘었다고 답한 곳이 더 많다</text>
+
+  <path d="M120,166 L220,166" stroke="#8f4a4a" stroke-width="2.5" marker-end="url(#ar)"/>
+  <defs><marker id="ar" markerWidth="9" markerHeight="9" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#8f4a4a"/></marker></defs>
+  <text x="240" y="170" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#6b3b3b">숫자는 올랐지만 아직 50 아래 — 여전히 수축이다</text>
+
+  <rect x="24" y="192" width="642" height="50" rx="8" fill="#fdf6e7" stroke="#e8d49a"/>
+  <text x="345" y="222" text-anchor="middle" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13.5" fill="#6b5420">48에서 49로 올라간 건 '좋아졌다'가 아니라 '나빠진 곳이 전보다 적어졌다'는 뜻이다</text>
+</svg>
