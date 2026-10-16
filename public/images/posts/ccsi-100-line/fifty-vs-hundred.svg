@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 280" width="720" height="280" role="img"
+     aria-label="PMI와 소비자동향지수의 기준선을 비교한 도식. PMI는 좋아졌다 비율에 같다 비율의 절반을 더하는 확산지수여서 0에서 100 사이를 움직이고 경계가 50이다. 소비자동향지수는 응답의 세기에 플러스마이너스 1.0과 0.5의 가중치를 주고 100을 더하는 방식이어서 0에서 200 사이를 움직이고 경계가 100이다. 두 지표의 기준선이 다른 이유는 계산 방식이 다르기 때문이다.">
+  <rect width="720" height="280" fill="#ffffff"/>
+  <text x="24" y="34" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="16" font-weight="700" fill="#1f2937">기준선이 50과 100으로 갈리는 건 계산식이 달라서다</text>
+
+  <rect x="24" y="62" width="320" height="180" rx="10" fill="#eef1f6" stroke="#c7cedb"/>
+  <text x="184" y="90" text-anchor="middle" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14.5" font-weight="700" fill="#1f2937">PMI · 확산지수</text>
+  <text x="184" y="114" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="12.5" fill="#4a5568">좋아졌다% + 같다% × 0.5</text>
+  <line x1="56" y1="150" x2="312" y2="150" stroke="#c7cedb" stroke-width="3"/>
+  <line x1="184" y1="138" x2="184" y2="162" stroke="#2a3b55" stroke-width="3"/>
+  <text x="56" y="178" font-family="-apple-system, sans-serif" font-size="11.5" fill="#8a94a6">0</text>
+  <text x="184" y="178" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="12" font-weight="700" fill="#2a3b55">50</text>
+  <text x="312" y="178" text-anchor="end" font-family="-apple-system, sans-serif" font-size="11.5" fill="#8a94a6">100</text>
+  <text x="184" y="212" text-anchor="middle" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12.5" fill="#4a5568">응답한 곳의 수를 센다</text>
+
+  <rect x="376" y="62" width="320" height="180" rx="10" fill="#e8f0fe" stroke="#b7c9e8"/>
+  <text x="536" y="90" text-anchor="middle" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14.5" font-weight="700" fill="#1f2937">CSI · 소비자동향지수</text>
+  <text x="536" y="114" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="12.5" fill="#2a3b55">가중 합 ÷ 응답 수 × 100 + 100</text>
+  <line x1="408" y1="150" x2="664" y2="150" stroke="#b7c9e8" stroke-width="3"/>
+  <line x1="536" y1="138" x2="536" y2="162" stroke="#2a3b55" stroke-width="3"/>
+  <text x="408" y="178" font-family="-apple-system, sans-serif" font-size="11.5" fill="#8a94a6">0</text>
+  <text x="536" y="178" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="12" font-weight="700" fill="#2a3b55">100</text>
+  <text x="664" y="178" text-anchor="end" font-family="-apple-system, sans-serif" font-size="11.5" fill="#8a94a6">200</text>
+  <text x="536" y="212" text-anchor="middle" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12.5" fill="#2a3b55">응답의 세기까지 센다</text>
+
+  <text x="360" y="266" text-anchor="middle" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#6b5420">두 지표의 숫자를 서로 비교하면 안 된다</text>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" width="720" height="300" role="img"
+     aria-label="소비자심리지수를 구성하는 여섯 개 지표를 현재와 전망으로 나눈 도식. 현재를 묻는 지표는 현재생활형편과 현재경기판단 둘이고, 앞날을 묻는 지표는 생활형편전망, 가계수입전망, 소비지출전망, 향후경기전망 넷이다. 이 여섯 개를 표준화해 하나로 합성하고 장기 평균을 100에 맞춘다.">
+  <rect width="720" height="300" fill="#ffffff"/>
+  <text x="24" y="34" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="16" font-weight="700" fill="#1f2937">여섯 개를 묶어 하나로 만든 지수다</text>
+  <text x="24" y="54" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12" fill="#8a94a6">소비자심리지수(CCSI)의 구성 지표 · 넷은 앞날을 묻는 전망 항목이다</text>
+
+  <rect x="24" y="78" width="320" height="130" rx="10" fill="#eef1f6" stroke="#c7cedb"/>
+  <text x="184" y="104" text-anchor="middle" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#1f2937">지금을 묻는 항목 (2)</text>
+  <text x="184" y="134" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="13" fill="#4a5568">현재생활형편</text>
+  <text x="184" y="160" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="13" fill="#4a5568">현재경기판단</text>
+
+  <rect x="376" y="78" width="320" height="130" rx="10" fill="#e8f0fe" stroke="#b7c9e8"/>
+  <text x="536" y="104" text-anchor="middle" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#1f2937">앞날을 묻는 항목 (4)</text>
+  <text x="536" y="130" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="13" fill="#2a3b55">생활형편전망 · 가계수입전망</text>
+  <text x="536" y="154" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="13" fill="#2a3b55">소비지출전망 · 향후경기전망</text>
+  <text x="536" y="182" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="12" fill="#5a6b85">가계가 보는 앞날이 더 무겁게 들어간다</text>
+
+  <path d="M184,212 L340,244 M536,212 L380,244" stroke="#c7cedb" stroke-width="2"/>
+  <rect x="150" y="248" width="420" height="44" rx="8" fill="#e9f4ed" stroke="#a8cdb6"/>
+  <text x="360" y="276" text-anchor="middle" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#2f5c42">표준화해 합성 → 장기 평균이 100이 되도록 맞춘다</text>
+</svg>

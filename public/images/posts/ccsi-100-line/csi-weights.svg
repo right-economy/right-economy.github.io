@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" width="720" height="300" role="img"
+     aria-label="소비자동향지수 계산 방식 도식. 응답을 매우 좋아짐, 약간 좋아짐, 변화없음, 약간 나빠짐, 매우 나빠짐 다섯 갈래로 받아 가중치를 각각 플러스 1.0, 플러스 0.5, 0, 마이너스 0.5, 마이너스 1.0으로 준다. 가중 합을 전체 응답 수로 나눠 100을 곱하고 다시 100을 더하므로, 좋아짐과 나빠짐이 같은 무게로 맞비기면 결과는 100이 된다.">
+  <rect width="720" height="300" fill="#ffffff"/>
+  <text x="24" y="34" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="16" font-weight="700" fill="#1f2937">응답의 '세기'까지 가중치로 센다</text>
+  <text x="24" y="54" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12" fill="#8a94a6">소비자동향지수(CSI) = (가중 합 ÷ 전체 응답 수) × 100 + 100</text>
+
+  <rect x="24"  y="78" width="128" height="70" rx="8" fill="#d8ece0" stroke="#8fc0a4"/>
+  <rect x="160" y="78" width="128" height="70" rx="8" fill="#e9f4ed" stroke="#a8cdb6"/>
+  <rect x="296" y="78" width="128" height="70" rx="8" fill="#eef1f6" stroke="#c7cedb"/>
+  <rect x="432" y="78" width="128" height="70" rx="8" fill="#fbeaea" stroke="#e3a5a5"/>
+  <rect x="568" y="78" width="128" height="70" rx="8" fill="#f6d6d6" stroke="#d58b8b"/>
+
+  <text x="88"  y="104" text-anchor="middle" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="700" fill="#1f2937">매우 좋아짐</text>
+  <text x="224" y="104" text-anchor="middle" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="700" fill="#1f2937">약간 좋아짐</text>
+  <text x="360" y="104" text-anchor="middle" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="700" fill="#1f2937">변화 없음</text>
+  <text x="496" y="104" text-anchor="middle" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="700" fill="#1f2937">약간 나빠짐</text>
+  <text x="632" y="104" text-anchor="middle" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="700" fill="#1f2937">매우 나빠짐</text>
+
+  <text x="88"  y="132" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="15" font-weight="700" fill="#2f5c42">+1.0</text>
+  <text x="224" y="132" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="15" font-weight="700" fill="#41604e">+0.5</text>
+  <text x="360" y="132" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="15" font-weight="700" fill="#4a5568">0</text>
+  <text x="496" y="132" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="15" font-weight="700" fill="#8f4a4a">-0.5</text>
+  <text x="632" y="132" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="15" font-weight="700" fill="#7a3b3b">-1.0</text>
+
+  <path d="M360,154 L360,182" stroke="#c7cedb" stroke-width="2"/>
+  <rect x="24" y="188" width="672" height="48" rx="8" fill="#e8f0fe" stroke="#b7c9e8"/>
+  <text x="360" y="218" text-anchor="middle" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14.5" font-weight="700" fill="#2a3b55">좋아짐과 나빠짐이 같은 무게로 맞비기면 가중 합이 0 → 지수는 100</text>
+
+  <rect x="24" y="248" width="672" height="40" rx="8" fill="#fdf6e7" stroke="#e8d49a"/>
+  <text x="360" y="273" text-anchor="middle" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#6b5420">지수가 움직일 수 있는 범위는 0에서 200까지다</text>
+</svg>
