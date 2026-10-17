@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" width="720" height="300" role="img"
+     aria-label="손익분기 인플레이션이 왜 손익분기인지 설명하는 도식. 명목 국고채를 들면 받는 이자가 고정이고 물가가 오른 만큼 실질 가치가 깎인다. 물가연동 국고채는 원금과 이자가 소비자물가지수에 따라 조정되므로 물가 위험을 떠안지 않는다. 두 채권의 손익이 같아지는 물가상승률이 두 금리의 차이이며, 실제 물가가 그보다 높으면 물가연동채가 유리하고 낮으면 명목채가 유리하다.">
+  <rect width="720" height="300" fill="#ffffff"/>
+  <text x="24" y="34" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="16" font-weight="700" fill="#1f2937">왜 '손익분기'라고 부르나</text>
+  <text x="24" y="54" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12" fill="#8a94a6">두 채권의 손익이 같아지는 물가상승률이라서</text>
+
+  <rect x="24" y="82" width="320" height="112" rx="10" fill="#f7f1ef" stroke="#e0c9c2"/>
+  <text x="44" y="108" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#7a4038">명목 국고채</text>
+  <text x="44" y="132" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12" fill="#5a6b7d">받을 이자가 처음에 고정된다</text>
+  <text x="44" y="152" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12" fill="#5a6b7d">물가가 오르면 받는 돈의 값이 깎인다</text>
+  <text x="44" y="176" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12" fill="#7a4038">물가 위험을 투자자가 안는다</text>
+
+  <rect x="376" y="82" width="320" height="112" rx="10" fill="#eff5f1" stroke="#c2dac8"/>
+  <text x="396" y="108" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#2f5d44">물가연동 국고채</text>
+  <text x="396" y="132" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12" fill="#5a6b7d">원금과 이자가 소비자물가에 맞춰 조정된다</text>
+  <text x="396" y="152" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12" fill="#5a6b7d">물가가 올라도 받는 돈의 값이 유지된다</text>
+  <text x="396" y="176" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12" fill="#2f5d44">물가 위험을 안지 않는다</text>
+
+  <rect x="24" y="212" width="672" height="40" rx="8" fill="#f5f0e6" stroke="#ddd0b8"/>
+  <text x="360" y="238" text-anchor="middle" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13.5" fill="#5a4a2a">두 금리의 차이 = 두 채권의 손익이 같아지는 물가상승률</text>
+
+  <text x="24" y="276" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12" fill="#8a94a6">실제 물가가 이보다 높으면 물가연동채가, 낮으면 명목채가 유리해진다</text>
+</svg>
