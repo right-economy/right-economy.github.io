@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 280" width="720" height="280" role="img" aria-label="환전을 왕복하면 스프레드를 두 번 낸다는 것을 보여주는 도식. 매매기준율이 1,400원에서 그대로인 동안 달러 현찰을 살 때 1,424.5원을 내고 되팔 때 1,375.5원을 받아, 1달러당 49원이 줄어든다">
+  <rect width="720" height="280" fill="#ffffff"/>
+  <g font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif">
+    <text x="30" y="36" font-size="14" fill="#555f6d">기준율이 1,400원에서 움직이지 않은 경우</text>
+
+    <rect x="40" y="70" width="200" height="76" rx="8" fill="#f3e6e6" stroke="#c98b8b"/>
+    <text x="140" y="96" text-anchor="middle" font-size="13" fill="#7a3b3b">살 때 낸 돈</text>
+    <text x="140" y="124" text-anchor="middle" font-size="20" font-weight="700" fill="#5c2626">1,424.5원</text>
+
+    <path d="M250 108 L300 108" stroke="#9aa7b8" stroke-width="2"/>
+    <path d="M300 108 l-9 -5 v10 z" fill="#9aa7b8"/>
+    <text x="275" y="94" text-anchor="middle" font-size="12.5" fill="#777f8c">1달러</text>
+
+    <rect x="310" y="70" width="200" height="76" rx="8" fill="#e6eef3" stroke="#7f9fb5"/>
+    <text x="410" y="96" text-anchor="middle" font-size="13" fill="#2f5467">되팔아 받은 돈</text>
+    <text x="410" y="124" text-anchor="middle" font-size="20" font-weight="700" fill="#1e3c4c">1,375.5원</text>
+
+    <path d="M520 108 L570 108" stroke="#9aa7b8" stroke-width="2"/>
+    <path d="M570 108 l-9 -5 v10 z" fill="#9aa7b8"/>
+
+    <rect x="580" y="70" width="110" height="76" rx="8" fill="#1f3a5f"/>
+    <text x="635" y="96" text-anchor="middle" font-size="13" fill="#cfe0f5">차이</text>
+    <text x="635" y="124" text-anchor="middle" font-size="20" font-weight="700" fill="#ffffff">49원</text>
+
+    <text x="40" y="192" font-size="13.5" fill="#3a4350">24.5원 + 24.5원 = 49원. 기준율의 3.5%에 해당한다.</text>
+    <text x="40" y="218" font-size="13.5" fill="#3a4350">환율이 제자리여도 왕복 환전만으로 이만큼 줄어든다.</text>
+    <text x="40" y="262" font-size="12.5" fill="#777f8c">달러 현찰 스프레드 1.75% · 우대 없이 계산한 예시</text>
+  </g>
+</svg>

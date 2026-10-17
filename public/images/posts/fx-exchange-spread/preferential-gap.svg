@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" width="720" height="300" role="img" aria-label="환율 우대율이 매매기준율과 현찰 환율 사이의 간격을 깎는 비율이라는 것을 보여주는 도식. 기준율 1,400원에 현찰 살 때 간격 24.5원이 붙어 우대 0퍼센트면 1,424.5원, 우대 50퍼센트면 간격 절반인 12.3원만 붙어 1,412.3원, 우대 90퍼센트면 2.5원만 붙어 1,402.5원, 우대 100퍼센트면 기준율과 같은 1,400원이 된다">
+  <rect width="720" height="300" fill="#ffffff"/>
+  <g font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif">
+    <text x="30" y="36" font-size="14" fill="#555f6d">우대율은 기준율과 적용 환율 사이의 간격(24.5원)을 깎는 비율이다</text>
+    <line x1="150" y1="58" x2="150" y2="258" stroke="#1f3a5f" stroke-width="2" stroke-dasharray="4 4"/>
+    <text x="150" y="278" text-anchor="middle" font-size="13" fill="#1f3a5f">매매기준율 1,400원</text>
+
+    <g font-size="13.5" fill="#3a4350">
+      <text x="30" y="84">우대 0%</text>
+      <text x="30" y="134">우대 50%</text>
+      <text x="30" y="184">우대 90%</text>
+      <text x="30" y="234">우대 100%</text>
+    </g>
+
+    <rect x="150" y="68" width="420" height="22" rx="4" fill="#c98b8b"/>
+    <text x="582" y="84" font-size="14" font-weight="700" fill="#5c2626">1,424.5원</text>
+    <text x="360" y="84" text-anchor="middle" font-size="12.5" fill="#ffffff">+24.5원</text>
+
+    <rect x="150" y="118" width="210" height="22" rx="4" fill="#d6a3a3"/>
+    <text x="372" y="134" font-size="14" font-weight="700" fill="#5c2626">1,412.3원</text>
+    <text x="255" y="134" text-anchor="middle" font-size="12.5" fill="#ffffff">+12.3원</text>
+
+    <rect x="150" y="168" width="42" height="22" rx="4" fill="#e3bfbf"/>
+    <text x="204" y="184" font-size="14" font-weight="700" fill="#5c2626">1,402.5원</text>
+
+    <rect x="150" y="218" width="3" height="22" fill="#9aa7b8"/>
+    <text x="165" y="234" font-size="14" font-weight="700" fill="#1f3a5f">1,400.0원</text>
+
+    <text x="30" y="296" font-size="12.5" fill="#777f8c">달러 현찰 스프레드 1.75% · 기준율 1,400원으로 계산한 예시</text>
+  </g>
+</svg>
