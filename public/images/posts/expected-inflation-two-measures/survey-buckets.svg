@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" width="720" height="300" role="img"
+     aria-label="한국은행 소비자동향조사의 기대인플레이션 집계 방식 도식. 응답자는 앞으로 1년 물가상승률을 마이너스 0.5퍼센트에서 8.0퍼센트 사이의 아홉 개 구간 중 하나로 고른다. 각 구간의 중앙값에 그 구간을 고른 응답자 수를 가중해 평균을 내면 발표되는 기대인플레이션율이 된다. 응답자에게는 지난 1년 실제 물가상승률이 참고로 함께 제시된다.">
+  <rect width="720" height="300" fill="#ffffff"/>
+  <text x="24" y="34" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="16" font-weight="700" fill="#1f2937">하나의 숫자를 적는 게 아니라 구간을 고른다</text>
+  <text x="24" y="54" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12" fill="#8a94a6">앞으로 1년간 소비자물가 상승률을 9개 구간 중 하나로</text>
+
+  <rect x="24"  y="86" width="68" height="54" rx="6" fill="#eef1f6" stroke="#c7cedb"/>
+  <rect x="100" y="86" width="68" height="54" rx="6" fill="#e9eef7" stroke="#c2cce0"/>
+  <rect x="176" y="86" width="68" height="54" rx="6" fill="#e4ebf7" stroke="#bdc9e2"/>
+  <rect x="252" y="86" width="68" height="54" rx="6" fill="#dfe8f7" stroke="#b7c5e3"/>
+  <rect x="328" y="86" width="68" height="54" rx="6" fill="#dae5f7" stroke="#b1c2e4"/>
+  <rect x="404" y="86" width="68" height="54" rx="6" fill="#d5e2f7" stroke="#abbee5"/>
+  <rect x="480" y="86" width="68" height="54" rx="6" fill="#d0def7" stroke="#a5bae6"/>
+  <rect x="556" y="86" width="68" height="54" rx="6" fill="#cbdbf7" stroke="#9fb6e7"/>
+  <rect x="632" y="86" width="64" height="54" rx="6" fill="#c6d8f7" stroke="#99b2e8"/>
+
+  <text x="58"  y="118" text-anchor="middle" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#33475b">구간 1</text>
+  <text x="134" y="118" text-anchor="middle" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#33475b">2</text>
+  <text x="210" y="118" text-anchor="middle" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#33475b">3</text>
+  <text x="286" y="118" text-anchor="middle" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#33475b">4</text>
+  <text x="362" y="118" text-anchor="middle" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#33475b">5</text>
+  <text x="438" y="118" text-anchor="middle" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#33475b">6</text>
+  <text x="514" y="118" text-anchor="middle" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#33475b">7</text>
+  <text x="590" y="118" text-anchor="middle" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#33475b">8</text>
+  <text x="664" y="118" text-anchor="middle" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#33475b">9</text>
+
+  <text x="24"  y="162" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12.5" fill="#7a5a2a">-0.5%</text>
+  <text x="696" y="162" text-anchor="end" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12.5" fill="#7a5a2a">8.0%</text>
+  <line x1="24" y1="148" x2="696" y2="148" stroke="#d7cdbd"/>
+
+  <rect x="24" y="188" width="672" height="54" rx="8" fill="#f5f0e6" stroke="#ddd0b8"/>
+  <text x="44" y="212" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#5a4a2a">발표되는 기대인플레이션율 = 각 구간의 중앙값을 그 구간을 고른 응답자 수로 가중평균</text>
+  <text x="44" y="232" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12" fill="#8a7a5a">응답자에게는 지난 1년 실제 물가상승률이 참고로 함께 제시된다</text>
+
+  <text x="24" y="276" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12" fill="#8a94a6">구간을 고르는 방식이라 개인의 정확한 전망치는 집계에 남지 않는다</text>
+</svg>
