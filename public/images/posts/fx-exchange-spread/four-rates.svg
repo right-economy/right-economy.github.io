@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" width="720" height="330" role="img" aria-label="매매기준율에서 네 가지 고객 적용 환율이 갈라지는 도식. 가운데 매매기준율 1,400원에서 현찰 스프레드 1.75퍼센트가 양쪽으로 붙어 현찰 살 때 1,424.5원, 현찰 팔 때 1,375.5원이 되고, 전신환 스프레드 0.97퍼센트가 붙어 송금 보낼 때 1,413.6원, 송금 받을 때 1,386.4원이 된다">
+  <rect width="720" height="330" fill="#ffffff"/>
+  <g font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif">
+    <rect x="270" y="138" width="180" height="54" rx="8" fill="#1f3a5f"/>
+    <text x="360" y="160" text-anchor="middle" font-size="14" fill="#cfe0f5">매매기준율</text>
+    <text x="360" y="181" text-anchor="middle" font-size="18" font-weight="700" fill="#ffffff">1,400원</text>
+
+    <line x1="270" y1="152" x2="190" y2="92" stroke="#9aa7b8" stroke-width="1.5"/>
+    <line x1="270" y1="178" x2="190" y2="238" stroke="#9aa7b8" stroke-width="1.5"/>
+    <line x1="450" y1="152" x2="530" y2="92" stroke="#9aa7b8" stroke-width="1.5"/>
+    <line x1="450" y1="178" x2="530" y2="238" stroke="#9aa7b8" stroke-width="1.5"/>
+
+    <rect x="20" y="62" width="200" height="62" rx="8" fill="#f3e6e6" stroke="#c98b8b"/>
+    <text x="36" y="84" font-size="13" fill="#7a3b3b">현찰 살 때 (+1.75%)</text>
+    <text x="36" y="108" font-size="17" font-weight="700" fill="#5c2626">1,424.5원</text>
+
+    <rect x="20" y="208" width="200" height="62" rx="8" fill="#e6eef3" stroke="#7f9fb5"/>
+    <text x="36" y="230" font-size="13" fill="#2f5467">현찰 팔 때 (−1.75%)</text>
+    <text x="36" y="254" font-size="17" font-weight="700" fill="#1e3c4c">1,375.5원</text>
+
+    <rect x="500" y="62" width="200" height="62" rx="8" fill="#f6efe2" stroke="#c7a86a"/>
+    <text x="516" y="84" font-size="13" fill="#7a5c20">송금 보낼 때 (+0.97%)</text>
+    <text x="516" y="108" font-size="17" font-weight="700" fill="#5c4414">1,413.6원</text>
+
+    <rect x="500" y="208" width="200" height="62" rx="8" fill="#eaf1e8" stroke="#8aad84"/>
+    <text x="516" y="230" font-size="13" fill="#3a5a35">송금 받을 때 (−0.97%)</text>
+    <text x="516" y="254" font-size="17" font-weight="700" fill="#27421f">1,386.4원</text>
+
+    <text x="360" y="36" text-anchor="middle" font-size="14" fill="#555f6d">같은 기준율에서 네 갈래로 갈린다</text>
+    <text x="360" y="306" text-anchor="middle" font-size="12.5" fill="#777f8c">스프레드 비율은 미국 달러 예시 · 통화·은행마다 다르다</text>
+  </g>
+</svg>
