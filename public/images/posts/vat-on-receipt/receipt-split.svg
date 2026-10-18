@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 340" role="img" aria-label="총액 11,000원 영수증이 공급가액 10,000원과 부가세 1,000원으로 쪼개지는 도식. 세율 10퍼센트는 공급가액에 곱하므로 총액에서 세액을 구할 때는 11로 나눈다. 총액의 10퍼센트인 1,100원으로 계산하면 100원이 커진다">
+  <rect width="760" height="340" fill="#ffffff"/>
+  <style>
+    text{font-family:'Pretendard',system-ui,sans-serif;fill:#2a2521}
+    .title{font-size:17px;font-weight:700}
+    .note{font-size:12px;fill:#7a7066}
+    .step{font-size:12.5px;font-weight:700;fill:#7a7066}
+    .big{font-size:26px;font-weight:900}
+    .op{font-size:21px;font-weight:800;fill:#c2410c}
+    .sub{font-size:11.5px;fill:#7a7066}
+  </style>
+
+  <text class="title" x="30" y="34">세율 10%를 어디에 곱하는가</text>
+  <text class="note" x="30" y="56">카드 영수증의 「합계 11,000원」을 쪼개면 아래 두 줄이 된다</text>
+
+  <rect x="30" y="80" width="210" height="112" rx="12" fill="#2a2521"/>
+  <text class="step" x="50" y="108" fill="#c9bfae">결제한 총액</text>
+  <text class="big" x="50" y="146" fill="#ffb877">11,000원</text>
+  <text class="sub" x="50" y="172" fill="#9a8f7a">= 공급대가</text>
+
+  <text class="op" x="258" y="144">÷ 11</text>
+
+  <rect x="340" y="80" width="190" height="112" rx="12" fill="#f4f1ea" stroke="#c9bfae" stroke-width="1.5"/>
+  <text class="step" x="360" y="108">공급가액</text>
+  <text class="big" x="360" y="146">10,000원</text>
+  <text class="sub" x="360" y="172">물건·서비스의 값</text>
+
+  <rect x="552" y="80" width="178" height="112" rx="12" fill="#fdf0e6" stroke="#f4a97b" stroke-width="1.5"/>
+  <text class="step" x="572" y="108">부가가치세</text>
+  <text class="big" x="572" y="146" fill="#c2410c">1,000원</text>
+  <text class="sub" x="572" y="172">공급가액의 10%</text>
+
+  <text class="sub" x="30" y="226">공급가액을 구할 때는 총액 ÷ 1.1 · 세액을 구할 때는 총액 ÷ 11. 두 값을 더하면 다시 총액이 된다.</text>
+  <text class="sub" x="30" y="250">총액 11,000원의 10%로 계산하면 1,100원이 나오는데, 이건 세금이 100원 커진 값이다.</text>
+
+  <text class="sub" x="30" y="306">기준: 부가가치세 세율 10% · 일반과세자 매출세액 = 매출액 × 10%</text>
+  <text class="sub" x="30" y="324">출처: 국세청 「부가가치세 개요」·「사업자 구분」 2026년 10월 18일 확인</text>
+</svg>

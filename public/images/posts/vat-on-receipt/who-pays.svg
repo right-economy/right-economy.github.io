@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 330" role="img" aria-label="부가가치세를 손님이 부담하고 가게가 세무서에 내는 흐름 도식. 손님이 총액 11,000원을 내면 그 안의 1,000원이 세액이고, 가게는 커피 원료를 5,500원에 사며 낸 매입세액 500원을 빼고 차액 500원을 세무서에 납부한다">
+  <rect width="760" height="330" fill="#ffffff"/>
+  <style>
+    text{font-family:'Pretendard',system-ui,sans-serif;fill:#2a2521}
+    .title{font-size:17px;font-weight:700}
+    .note{font-size:12px;fill:#7a7066}
+    .step{font-size:12.5px;font-weight:700;fill:#7a7066}
+    .mid{font-size:20px;font-weight:900}
+    .op{font-size:19px;font-weight:800;fill:#c2410c}
+    .sub{font-size:11.5px;fill:#7a7066}
+  </style>
+
+  <text class="title" x="30" y="34">부담하는 사람과 신고하는 사람이 다르다</text>
+  <text class="note" x="30" y="56">원료를 5,500원에 사서 11,000원에 파는 가게로 따져본 경우</text>
+
+  <rect x="30" y="80" width="200" height="116" rx="12" fill="#f4f1ea" stroke="#c9bfae" stroke-width="1.5"/>
+  <text class="step" x="50" y="106">손님이 낸 돈</text>
+  <text class="mid" x="50" y="138">11,000원</text>
+  <text class="sub" x="50" y="160">그 안의 세액 1,000원</text>
+  <text class="sub" x="50" y="180">= 매출세액</text>
+
+  <text class="op" x="246" y="144">−</text>
+
+  <rect x="282" y="80" width="200" height="116" rx="12" fill="#f4f1ea" stroke="#c9bfae" stroke-width="1.5"/>
+  <text class="step" x="302" y="106">가게가 원료 살 때</text>
+  <text class="mid" x="302" y="138">5,500원</text>
+  <text class="sub" x="302" y="160">그 안의 세액 500원</text>
+  <text class="sub" x="302" y="180">= 매입세액</text>
+
+  <text class="op" x="498" y="144">=</text>
+
+  <rect x="530" y="80" width="200" height="116" rx="12" fill="#2a2521"/>
+  <text class="step" x="550" y="106" fill="#c9bfae">가게가 세무서에</text>
+  <text class="mid" x="550" y="138" fill="#ffb877">500원</text>
+  <text class="sub" x="550" y="160" fill="#9a8f7a">낸 세금을 뺀 차액만</text>
+  <text class="sub" x="550" y="180" fill="#9a8f7a">= 납부세액</text>
+
+  <text class="sub" x="30" y="232">가게 돈이 500원 나가는 게 아니다. 손님에게서 받아둔 1,000원 중 이미 낸 500원을 빼고 남긴 것이다.</text>
+  <text class="sub" x="30" y="256">그래서 부가가치세는 거래 단계마다 「더해진 값」에만 붙는다. 이 가게가 더한 값은 5,000원이다.</text>
+
+  <text class="sub" x="30" y="300">기준: 납부세액 = 매출세액(매출액 × 10%) − 매입세액 · 최종소비자가 부담한 세액을 사업자가 납부</text>
+  <text class="sub" x="30" y="318">출처: 국세청 「부가가치세 개요」 2026년 10월 18일 확인</text>
+</svg>
