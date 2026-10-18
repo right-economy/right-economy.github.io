@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" role="img" aria-label="직전 연도 매출에 따라 사업자가 갈리는 띠 도식. 4,800만원 미만 간이과세자는 부가가치세 납부의무가 면제되고, 4,800만원 이상 1억 400만원 미만 간이과세자는 매출액에 업종별 부가가치율과 10퍼센트를 곱해 실효 1.5에서 4퍼센트를 내며 매입액의 0.5퍼센트를 공제받고, 1억 400만원 이상 일반과세자는 10퍼센트를 매기고 매입세액을 전액 공제받는다. 미가공식료품·의료·교육 같은 면세사업은 매출과 무관하게 이 띠 밖에 있다">
+  <rect width="760" height="360" fill="#ffffff"/>
+  <style>
+    text{font-family:'Pretendard',system-ui,sans-serif;fill:#2a2521}
+    .title{font-size:17px;font-weight:700}
+    .note{font-size:12px;fill:#7a7066}
+    .step{font-size:12.5px;font-weight:700;fill:#7a7066}
+    .amt{font-size:15px;font-weight:900}
+    .sub{font-size:11.5px;fill:#7a7066}
+    .tick{font-size:12px;font-weight:700;fill:#c2410c}
+  </style>
+
+  <text class="title" x="30" y="34">같은 10%인데 가게에 따라 내는 방식이 갈린다</text>
+  <text class="note" x="30" y="56">기준은 직전 연도 공급대가(부가세를 포함한 매출) 합계액</text>
+
+  <rect x="30" y="86" width="222" height="104" rx="12" fill="#f4f1ea" stroke="#c9bfae" stroke-width="1.5"/>
+  <text class="step" x="48" y="112">4,800만원 미만</text>
+  <text class="amt" x="48" y="138">납부의무 면제</text>
+  <text class="sub" x="48" y="160">간이과세자이지만 납부세액을</text>
+  <text class="sub" x="48" y="178">내지 않는다</text>
+
+  <rect x="268" y="86" width="222" height="104" rx="12" fill="#fdf0e6" stroke="#f4a97b" stroke-width="1.5"/>
+  <text class="step" x="286" y="112">4,800만원 ~ 1억 400만원</text>
+  <text class="amt" x="286" y="138" fill="#c2410c">간이과세자 1.5~4%</text>
+  <text class="sub" x="286" y="160">매출액 × 업종별 부가가치율 × 10%</text>
+  <text class="sub" x="286" y="178">매입액의 0.5%를 공제</text>
+
+  <rect x="506" y="86" width="224" height="104" rx="12" fill="#2a2521"/>
+  <text class="step" x="524" y="112" fill="#c9bfae">1억 400만원 이상</text>
+  <text class="amt" x="524" y="138" fill="#ffb877">일반과세자 10%</text>
+  <text class="sub" x="524" y="160" fill="#9a8f7a">매출세액 − 매입세액</text>
+  <text class="sub" x="524" y="178" fill="#9a8f7a">매입세액을 전액 공제</text>
+
+  <line x1="30" y1="212" x2="730" y2="212" stroke="#c9bfae" stroke-width="1.5"/>
+  <text class="tick" x="252" y="232" text-anchor="middle">4,800만원</text>
+  <text class="tick" x="490" y="232" text-anchor="middle">1억 400만원</text>
+
+  <rect x="30" y="252" width="700" height="56" rx="12" fill="#ffffff" stroke="#c9bfae" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text class="step" x="48" y="276">면세사업자는 이 띠 밖에 있다</text>
+  <text class="sub" x="48" y="296">미가공식료품 같은 생필품 판매, 의료·교육 용역처럼 법에 열거된 사업은 매출과 무관하게 부가가치세를 안 매긴다</text>
+
+  <text class="sub" x="30" y="336">출처: 국세청 「부가가치세 사업자 구분」·「세액계산 방법」 2026년 10월 18일 확인</text>
+</svg>
