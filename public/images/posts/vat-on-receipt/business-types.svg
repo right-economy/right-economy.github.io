@@ -21,15 +21,15 @@
 
   <rect x="268" y="86" width="222" height="104" rx="12" fill="#fdf0e6" stroke="#f4a97b" stroke-width="1.5"/>
   <text class="step" x="286" y="112">4,800만원 ~ 1억 400만원</text>
-  <text class="amt" x="286" y="138" fill="#c2410c">간이과세자 1.5~4%</text>
+  <text class="amt" x="286" y="138" style="fill:#c2410c">간이과세자 1.5~4%</text>
   <text class="sub" x="286" y="160">매출액 × 업종별 부가가치율 × 10%</text>
   <text class="sub" x="286" y="178">매입액의 0.5%를 공제</text>
 
   <rect x="506" y="86" width="224" height="104" rx="12" fill="#2a2521"/>
-  <text class="step" x="524" y="112" fill="#c9bfae">1억 400만원 이상</text>
-  <text class="amt" x="524" y="138" fill="#ffb877">일반과세자 10%</text>
-  <text class="sub" x="524" y="160" fill="#9a8f7a">매출세액 − 매입세액</text>
-  <text class="sub" x="524" y="178" fill="#9a8f7a">매입세액을 전액 공제</text>
+  <text class="step" x="524" y="112" style="fill:#c9bfae">1억 400만원 이상</text>
+  <text class="amt" x="524" y="138" style="fill:#ffb877">일반과세자 10%</text>
+  <text class="sub" x="524" y="160" style="fill:#9a8f7a">매출세액 − 매입세액</text>
+  <text class="sub" x="524" y="178" style="fill:#9a8f7a">매입세액을 전액 공제</text>
 
   <line x1="30" y1="212" x2="730" y2="212" stroke="#c9bfae" stroke-width="1.5"/>
   <text class="tick" x="252" y="232" text-anchor="middle">4,800만원</text>

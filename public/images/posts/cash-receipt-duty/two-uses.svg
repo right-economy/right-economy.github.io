@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 340" role="img" aria-label="현금영수증 용도가 소득공제용과 지출증빙용으로 갈리는 비교 도식. 소득공제용은 근로자가 연말정산에서 총급여 25퍼센트를 넘는 금액에 15에서 40퍼센트의 공제율을 적용받고, 공제 한도는 총급여 7천만원 이하면 300만원, 7천만원을 넘으면 250만원이다. 지출증빙용은 사업자가 부가가치세 매입세액 공제를 받고 필요경비로도 인정받는다. 공급받는 자의 사업자등록번호와 세액이 따로 적힌 신용카드매출전표도 지출증빙용과 같은 자리에서 쓰인다">
+  <rect width="760" height="340" fill="#ffffff"/>
+  <style>
+    text{font-family:'Pretendard',system-ui,sans-serif;fill:#2a2521}
+    .title{font-size:17px;font-weight:700}
+    .note{font-size:12px;fill:#7a7066}
+    .step{font-size:12.5px;font-weight:700;fill:#7a7066}
+    .amt{font-size:15px;font-weight:900}
+    .sub{font-size:11.5px;fill:#7a7066}
+  </style>
+
+  <text class="title" x="30" y="34">같은 종이가 용도에 따라 다른 칸으로 간다</text>
+  <text class="note" x="30" y="56">발급받을 때 소득공제용과 지출증빙용 중 하나를 고른다</text>
+
+  <rect x="30" y="86" width="340" height="150" rx="12" fill="#f4f1ea" stroke="#c9bfae" stroke-width="1.5"/>
+  <text class="step" x="50" y="112">소득공제용 · 받는 사람은 근로자</text>
+  <text class="amt" x="50" y="140">연말정산 소득공제</text>
+  <text class="sub" x="50" y="164">총급여의 25%를 넘는 금액에 15~40% 공제율</text>
+  <text class="sub" x="50" y="186">한도 300만원 (총급여 7천만원 이하)</text>
+  <text class="sub" x="50" y="208">한도 250만원 (총급여 7천만원 초과)</text>
+
+  <rect x="390" y="86" width="340" height="150" rx="12" fill="#2a2521"/>
+  <text class="step" x="410" y="112" style="fill:#c9bfae">지출증빙용 · 받는 사람은 사업자</text>
+  <text class="amt" x="410" y="140" style="fill:#ffb877">매입세액 공제</text>
+  <text class="sub" x="410" y="164" style="fill:#9a8f7a">사업과 관련해 받은 것이면 부가가치세에서</text>
+  <text class="sub" x="410" y="186" style="fill:#9a8f7a">매입세액으로 빼고</text>
+  <text class="sub" x="410" y="208" style="fill:#9a8f7a">필요경비로도 인정된다</text>
+
+  <rect x="30" y="256" width="700" height="46" rx="12" fill="#fdf0e6" stroke="#f4a97b" stroke-width="1.5"/>
+  <text class="sub" x="50" y="284">공급받는 자의 사업자등록번호와 부가가치세액이 따로 적힌 신용카드매출전표도 오른쪽과 같은 자리에서 쓰인다</text>
+
+  <text class="sub" x="30" y="326">출처: 국세청 「현금영수증·신용카드 발급·수취 시 혜택」 2026년 10월 18일 확인</text>
+</svg>
