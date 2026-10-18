@@ -231,6 +231,29 @@ def _locs_in(text):
 # 기준은 astro.config.mjs 의 sitemap filter(글 2개 이상)와 같아야 한다.
 TAG_MIN_POSTS = 2
 
+# category 는 content.config.ts 에서 z.string() 이라 **오타가 빌드를 통과한다.**
+# 통과한 오타는 조용히 사라지지 않고 `/category/<오타>/` 허브를 하나 더 만들어
+# 글 몇 편을 본래 허브에서 떼어 간다. 2026-10-18 실측: 「경제」 4편 · 「경제 상식」
+# 1편이 그렇게 떨어져 있었고 둘 다 라이브 200 이었다.
+# ⚠️ 이 목록을 CLAUDE.md §4 에서 베끼지 말 것 — 그쪽에 「시황」이 빠져 있다(42편이 쓴다).
+CATEGORIES = ("기초 개념", "지표 읽기", "투자", "생활 경제", "부동산", "경제 뉴스", "시황")
+
+
+def post_categories(posts_dir):
+    """글별 category. 원고를 못 읽으면 0 이 아니라 None(=모름)을 돌려준다."""
+    if not os.path.isdir(posts_dir):
+        return None
+    out = {}
+    for name in sorted(os.listdir(posts_dir)):
+        if not name.endswith(".md"):
+            continue
+        with open(os.path.join(posts_dir, name), encoding="utf-8") as fh:
+            raw = fh.read()
+        m = re.search(r'^category:\s*"?([^"\n]+?)"?\s*$', raw, re.M)
+        if m:
+            out[name] = m.group(1).strip()
+    return out or None
+
 
 def tag_post_counts(posts_dir):
     """태그별 글 수. 원고를 못 읽으면 0 이 아니라 None(=모름)을 돌려준다."""
@@ -276,6 +299,20 @@ def check_site(dist, posts_dir):
     out = []
     counts = tag_post_counts(posts_dir)
     sm = sitemap_paths(dist)
+
+    cats = post_categories(posts_dir)
+    if cats is None:
+        out.append(("category-unknown", "원고에서 category 를 못 읽었다 — 허용 목록 대조를 못 했다(0건이 아니라 모름)"))
+    else:
+        off = defaultdict(list)
+        for name, cat in cats.items():
+            if cat not in CATEGORIES:
+                off[cat].append(name)
+        for cat in sorted(off):
+            out.append(("category-off-list",
+                        "허용 목록에 없는 category %r — 글 %d편이 /category/%s/ 허브로 떨어진다: %s"
+                        % (cat, len(off[cat]), cat, ", ".join(sorted(off[cat])[:5]))))
+
     if counts is None:
         out.append(("tagcount-unknown", "원고에서 태그 수를 못 읽었다 — 정합성을 못 쟀다(0건이 아니라 모름)"))
     if sm is None:
@@ -318,13 +355,15 @@ def check_site(dist, posts_dir):
 
 # 사이트 레벨 검사의 양성·음성 표본. 페이지 한 장이 아니라 **디렉터리 모양**이
 # 입력이라 임시 폴더로 만든다.
-def _fixture(root, thin_noindex, thin_in_sitemap, post_b_noindex):
+def _fixture(root, thin_noindex, thin_in_sitemap, post_b_noindex, bad_category=False):
     posts = os.path.join(root, "posts")
     dist = os.path.join(root, "dist")
     os.makedirs(posts)
     # 많=2건(목록 태그) · 하나=1건(얇은 태그)
-    open(os.path.join(posts, "a.md"), "w", encoding="utf-8").write('tags: ["많", "하나"]\n')
-    open(os.path.join(posts, "b.md"), "w", encoding="utf-8").write('tags: ["많"]\n')
+    open(os.path.join(posts, "a.md"), "w", encoding="utf-8").write(
+        'category: "%s"\ntags: ["많", "하나"]\n' % ("경제" if bad_category else "기초 개념"))
+    open(os.path.join(posts, "b.md"), "w", encoding="utf-8").write(
+        'category: "투자"\ntags: ["많"]\n')
 
     def page(relpath, robots):
         d = os.path.join(dist, relpath) if relpath else dist
@@ -363,9 +402,11 @@ def selftest_site():
 
     root = tempfile.mkdtemp(prefix="seoaudit-bad-")
     try:
-        dist, posts = _fixture(root, thin_noindex=False, thin_in_sitemap=False, post_b_noindex=True)
+        dist, posts = _fixture(root, thin_noindex=False, thin_in_sitemap=False, post_b_noindex=True,
+                               bad_category=True)
         fired = set(i for i, _ in check_site(dist, posts))
-        missing = {"thin-tag-indexable", "noindex-on-real-page", "sitemap-vs-noindex"} - fired
+        missing = {"thin-tag-indexable", "noindex-on-real-page", "sitemap-vs-noindex",
+                   "category-off-list"} - fired
         if missing:
             problems.append("음성 표본에서 안 걸린 검사(둔감): %s" % sorted(missing))
     finally:
