@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 340" role="img" aria-label="전자세금계산서의 발급과 전송 기한 타임라인. 원칙은 부가가치세법이 정한 공급시기에 발급하는 것이고, 한 달치를 묶는 월합계 세금계산서는 공급시기가 속한 달의 다음 달 10일까지 발급하며 기한이 토요일이나 공휴일이면 다음 영업일로 밀린다. 발급한 다음 날까지 국세청에 전송한다. 발급 의무 대상은 모든 법인사업자와 직전 연도 공급가액 8천만원 이상인 개인사업자이고 2024년 7월 1일부터 적용된다">
+  <rect width="760" height="340" fill="#ffffff"/>
+  <style>
+    text{font-family:'Pretendard',system-ui,sans-serif;fill:#2a2521}
+    .title{font-size:17px;font-weight:700}
+    .note{font-size:12px;fill:#7a7066}
+    .step{font-size:12.5px;font-weight:700;fill:#7a7066}
+    .amt{font-size:15px;font-weight:900}
+    .sub{font-size:11.5px;fill:#7a7066}
+    .tick{font-size:12px;font-weight:700;fill:#c2410c}
+  </style>
+
+  <text class="title" x="30" y="34">발급 기한과 전송 기한이 따로 있다</text>
+  <text class="note" x="30" y="56">세금계산서는 사업자끼리의 거래에 끊는다</text>
+
+  <line x1="30" y1="120" x2="730" y2="120" stroke="#c9bfae" stroke-width="1.5"/>
+  <circle cx="110" cy="120" r="6" fill="#2a2521"/>
+  <circle cx="400" cy="120" r="6" fill="#c2410c"/>
+  <circle cx="650" cy="120" r="6" fill="#c2410c"/>
+
+  <text class="step" x="110" y="104" text-anchor="middle">공급시기</text>
+  <text class="tick" x="400" y="104" text-anchor="middle">다음 달 10일</text>
+  <text class="tick" x="650" y="104" text-anchor="middle">발급일의 다음 날</text>
+
+  <rect x="30" y="144" width="200" height="84" rx="12" fill="#f4f1ea" stroke="#c9bfae" stroke-width="1.5"/>
+  <text class="amt" x="48" y="172">원칙</text>
+  <text class="sub" x="48" y="194">부가가치세법이 정한</text>
+  <text class="sub" x="48" y="212">공급시기에 발급</text>
+
+  <rect x="252" y="144" width="250" height="84" rx="12" fill="#fdf0e6" stroke="#f4a97b" stroke-width="1.5"/>
+  <text class="amt" x="270" y="172" style="fill:#c2410c">월합계 세금계산서</text>
+  <text class="sub" x="270" y="194">공급시기가 속한 달의 다음 달 10일까지</text>
+  <text class="sub" x="270" y="212">토요일·공휴일이면 다음 영업일</text>
+
+  <rect x="524" y="144" width="206" height="84" rx="12" fill="#2a2521"/>
+  <text class="amt" x="542" y="172" style="fill:#ffb877">전송</text>
+  <text class="sub" x="542" y="194" style="fill:#9a8f7a">발급한 다음 날까지</text>
+  <text class="sub" x="542" y="212" style="fill:#9a8f7a">국세청에 전송</text>
+
+  <rect x="30" y="250" width="700" height="52" rx="12" fill="#ffffff" stroke="#c9bfae" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text class="step" x="48" y="274">전자 발급 의무 대상</text>
+  <text class="sub" x="48" y="294">모든 법인사업자(2011년 1월~) · 직전 연도 공급가액 8천만원 이상인 개인사업자(2024년 7월 1일~)</text>
+
+  <text class="sub" x="30" y="326">출처: 국세청 「전자(세금)계산서 발급시기 및 발급·전송기한」·「발급의무대상자」 2026년 10월 18일 확인</text>
+</svg>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" role="img" aria-label="의무발행업종에서 현금 10만원 이상을 받은 거래가 갈리는 두 갈래 도식. 손님이 번호를 알려주면 그 번호로 발급하고, 알려주지 않으면 가게가 국세청 지정 코드 010-000-1234로 현금을 받은 날부터 5일 이내에 자진발급한다. 두 갈래 모두 국세청에 기록이 남으며, 발급하지 않으면 미발급 금액의 20퍼센트가 가산세로 붙는다">
+  <rect width="760" height="360" fill="#ffffff"/>
+  <style>
+    text{font-family:'Pretendard',system-ui,sans-serif;fill:#2a2521}
+    .title{font-size:17px;font-weight:700}
+    .note{font-size:12px;fill:#7a7066}
+    .step{font-size:12.5px;font-weight:700;fill:#7a7066}
+    .amt{font-size:15px;font-weight:900}
+    .sub{font-size:11.5px;fill:#7a7066}
+    .tick{font-size:12px;font-weight:700;fill:#c2410c}
+  </style>
+
+  <text class="title" x="30" y="34">번호를 불렀든 안 불렀든 발급된다</text>
+  <text class="note" x="30" y="56">의무발행업종에서 건당 10만원(부가세 포함) 이상을 현금으로 받은 거래</text>
+
+  <rect x="30" y="86" width="190" height="74" rx="12" fill="#f4f1ea" stroke="#c9bfae" stroke-width="1.5"/>
+  <text class="step" x="48" y="112">출발</text>
+  <text class="amt" x="48" y="138">현금 10만원 이상</text>
+
+  <line x1="220" y1="123" x2="268" y2="123" stroke="#c9bfae" stroke-width="1.5"/>
+
+  <rect x="268" y="72" width="226" height="94" rx="12" fill="#f4f1ea" stroke="#c9bfae" stroke-width="1.5"/>
+  <text class="step" x="286" y="98">손님이 번호를 알려줬다</text>
+  <text class="amt" x="286" y="124">그 번호로 발급</text>
+  <text class="sub" x="286" y="146">소득공제용 또는 지출증빙용으로</text>
+
+  <rect x="268" y="184" width="226" height="94" rx="12" fill="#fdf0e6" stroke="#f4a97b" stroke-width="1.5"/>
+  <text class="step" x="286" y="210">번호를 안 알려줬다</text>
+  <text class="amt" x="286" y="236" style="fill:#c2410c">010-000-1234</text>
+  <text class="sub" x="286" y="258">현금을 받은 날부터 5일 이내 자진발급</text>
+
+  <line x1="494" y1="123" x2="534" y2="123" stroke="#c9bfae" stroke-width="1.5"/>
+  <line x1="494" y1="231" x2="534" y2="231" stroke="#f4a97b" stroke-width="1.5"/>
+  <line x1="534" y1="123" x2="534" y2="231" stroke="#c9bfae" stroke-width="1.5"/>
+
+  <rect x="534" y="140" width="196" height="74" rx="12" fill="#2a2521"/>
+  <text class="step" x="552" y="166" style="fill:#c9bfae">두 갈래 모두</text>
+  <text class="amt" x="552" y="192" style="fill:#ffb877">국세청에 기록</text>
+
+  <rect x="30" y="252" width="190" height="56" rx="12" fill="#ffffff" stroke="#c9bfae" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text class="step" x="48" y="276">발급하지 않으면</text>
+  <text class="tick" x="48" y="298">미발급 금액의 20% 가산세</text>
+
+  <text class="sub" x="30" y="336">기준: 2019년 1월 1일 이후 거래분 · 출처: 국세청 「현금영수증 발급의무」 2026년 10월 18일 확인</text>
+</svg>
