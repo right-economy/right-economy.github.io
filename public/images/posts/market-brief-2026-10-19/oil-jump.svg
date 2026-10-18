@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 340" role="img" aria-label="10월 16일 국제유가 상승을 두 유종으로 나눠 보여주는 도식. 브렌트유는 배럴당 3.94달러 올라 109.86달러로 5개월 만에 가장 높고, WTI는 3.44달러 올라 101.41달러로 100달러선을 넘었다. 오르게 만든 쪽은 호르무즈 해협 선박 피격과 사우디 얀부 항 위협이고, 내리게 누른 쪽은 미국 전략비축유 1,700만 배럴 방출 계획이다">
+  <rect width="760" height="340" fill="#ffffff"/>
+  <style>
+    text{font-family:'Pretendard',system-ui,sans-serif;fill:#2a2521}
+    .title{font-size:17px;font-weight:700}
+    .note{font-size:12px;fill:#6b6157}
+    .lbl{font-size:12.5px;font-weight:700;fill:#6b6157}
+    .big{font-size:24px;font-weight:900}
+    .delta{font-size:13px;font-weight:800;fill:#c2410c}
+    .sub{font-size:11.5px;fill:#6b6157}
+    .head{font-size:12.5px;font-weight:800}
+  </style>
+
+  <text class="title" x="30" y="34">유가가 하루에 3달러 넘게 올랐다</text>
+  <text class="note" x="30" y="56">10월 16일(현지시간) 마감 기준 · 단위: 배럴당 달러</text>
+
+  <rect x="30" y="78" width="340" height="104" rx="12" fill="#f4f1ea" stroke="#c9bfae" stroke-width="1.5"/>
+  <text class="lbl" x="52" y="104">브렌트유</text>
+  <text class="big" x="52" y="138">109.86달러</text>
+  <text class="delta" x="52" y="162">+3.94달러 · 5개월 만에 가장 높음</text>
+
+  <rect x="390" y="78" width="340" height="104" rx="12" fill="#f4f1ea" stroke="#c9bfae" stroke-width="1.5"/>
+  <text class="lbl" x="412" y="104">WTI</text>
+  <text class="big" x="412" y="138">101.41달러</text>
+  <text class="delta" x="412" y="162">+3.44달러 · 100달러선 위</text>
+
+  <text class="head" x="30" y="214">올린 쪽</text>
+  <rect x="30" y="224" width="340" height="62" rx="10" fill="#ffffff" stroke="#c9bfae" stroke-width="1.5"/>
+  <text class="sub" x="48" y="248">호르무즈 해협에서 선박 피격이 이어졌습니다</text>
+  <text class="sub" x="48" y="270">사우디 얀부 항에 미사일 위협이 있었습니다</text>
+
+  <text class="head" x="390" y="214">누른 쪽</text>
+  <rect x="390" y="224" width="340" height="62" rx="10" fill="#2a2521"/>
+  <text class="sub" x="408" y="248" style="fill:#9a8f7a">미국이 전략비축유 1,700만 배럴을</text>
+  <text class="sub" x="408" y="270" style="fill:#9a8f7a">풀겠다고 밝혔습니다</text>
+
+  <text class="sub" x="30" y="316">기준: 10월 16일 현지 마감가 · 전 거래일 대비</text>
+  <text class="sub" x="30" y="332">출처: 서울경제TV·이투데이·미디어펜·에너지신문(2026년 10월 16~17일 보도) · 2026년 10월 19일 오전 조회</text>
+</svg>
