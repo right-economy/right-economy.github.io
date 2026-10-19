@@ -1,11 +1,11 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import { SITE_NAME, SITE_DESCRIPTION } from '../consts';
+import { SITE_NAME } from '../consts';
 import { withBase } from '../lib/url';
+import { organizationNode } from '../lib/schema';
 
 const canonical = new URL(Astro.url.pathname, Astro.site);
 const siteUrl = new URL(withBase('/'), Astro.site).href;
-const logoUrl = new URL(withBase('/mascot/logo.png'), Astro.site).href;
 
 // AboutPage + Organization(발행처) + BreadcrumbList (@graph)
 // — 글 상세의 Article.publisher가 가리키는 발행 주체를 /about에 정식 노드로
@@ -13,15 +13,7 @@ const logoUrl = new URL(withBase('/mascot/logo.png'), Astro.site).href;
 const jsonLd = {
   '@context': 'https://schema.org',
   '@graph': [
-    {
-      '@type': 'Organization',
-      '@id': `${siteUrl}#organization`,
-      name: SITE_NAME,
-      url: siteUrl,
-      description: SITE_DESCRIPTION,
-      logo: { '@type': 'ImageObject', url: logoUrl },
-      parentOrganization: { '@type': 'Organization', name: '글린트프로젝트' },
-    },
+    organizationNode(Astro.site),
     {
       '@type': 'AboutPage',
       name: `소개 — ${SITE_NAME}`,
