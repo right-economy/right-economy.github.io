@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 268" role="img" aria-label="상속세 신고기한을 세는 순서 도식. 3월 2일에 상속이 개시되면 그 날이 아니라 그 달의 말일인 3월 31일부터 세기 시작해 6개월 뒤인 9월 30일이 신고기한이 된다. 기한 안에 신고하면 산출세액의 3퍼센트를 신고세액공제로 빼준다">
+  <rect width="760" height="268" fill="#ffffff"/>
+  <style>
+    text{font-family:'Pretendard',system-ui,sans-serif;fill:#2a2521}
+    .title{font-size:17px;font-weight:700}
+    .note{font-size:12px;fill:#6b6157}
+    .date{font-size:15px;font-weight:800}
+    .lab{font-size:12.5px;font-weight:700;fill:#6b6157}
+    .span{font-size:14px;font-weight:800;fill:#c2410c}
+    .sub{font-size:11.5px;fill:#6b6157}
+    .banner{font-size:13px;font-weight:700;fill:#ffffff}
+  </style>
+
+  <text class="title" x="30" y="34">세기 시작하는 날이 돌아가신 날이 아니다</text>
+  <text class="note" x="30" y="56">3월 2일에 상속이 개시된 경우로 따져본 것 · 날짜는 설명용 예시</text>
+
+  <line x1="70" y1="132" x2="700" y2="132" stroke="#c9bfae" stroke-width="2"/>
+
+  <rect x="300" y="122" width="360" height="20" rx="10" fill="#f4f1ea" stroke="#c9bfae" stroke-width="1.5"/>
+  <text class="span" x="448" y="137">6개월</text>
+
+  <circle cx="110" cy="132" r="7" fill="#c9bfae"/>
+  <text class="lab" x="70" y="108">상속 개시</text>
+  <text class="date" x="70" y="166">3월 2일</text>
+  <text class="sub" x="70" y="186">이 날부터 세지 않는다</text>
+
+  <circle cx="300" cy="132" r="9" fill="#c2410c"/>
+  <text class="lab" x="258" y="108">그 달의 말일</text>
+  <text class="date" x="258" y="166">3월 31일</text>
+  <text class="sub" x="258" y="186">여기서부터 센다</text>
+
+  <circle cx="660" cy="132" r="9" fill="#2a2521"/>
+  <text class="lab" x="612" y="108">신고·납부 기한</text>
+  <text class="date" x="612" y="166">9월 30일</text>
+  <text class="sub" x="612" y="186">이 날까지</text>
+
+  <rect x="70" y="210" width="630" height="38" rx="9" fill="#2a2521"/>
+  <text class="banner" x="92" y="235">기한 안에 신고하면 산출세액의 <tspan fill="#ffb877">3%</tspan>를 신고세액공제로 빼준다. 넘기면 사유와 무관하게 못 받는다.</text>
+</svg>
