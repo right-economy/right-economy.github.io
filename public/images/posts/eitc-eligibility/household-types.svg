@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 380" role="img" aria-label="근로장려금 가구 유형 세 가지를 소득 기준과 최대 지급액으로 비교한 도식. 단독 가구는 부부합산 총소득 2,200만원 미만에 최대 165만원, 홑벌이 가구는 3,200만원 미만에 최대 285만원, 맞벌이 가구는 4,400만원 미만에 최대 330만원이다. 가구 유형은 배우자의 총급여액 등이 300만원 이상인지로 갈린다">
+  <rect width="760" height="380" fill="#ffffff"/>
+  <style>
+    text{font-family:'Pretendard',system-ui,sans-serif;fill:#2a2521}
+    .title{font-size:17px;font-weight:700}
+    .note{font-size:12px;fill:#6b6157}
+    .lbl{font-size:13px;font-weight:800}
+    .cap{font-size:11.5px;fill:#6b6157}
+    .amt{font-size:21px;font-weight:900}
+    .inc{font-size:13.5px;font-weight:700;fill:#c2410c}
+    .sub{font-size:11.5px;fill:#6b6157}
+  </style>
+
+  <text class="title" x="30" y="34">가구 유형 셋, 기준도 셋</text>
+  <text class="note" x="30" y="56">2025년 귀속소득 기준 · 소득은 부부합산 총소득</text>
+
+  <rect x="30" y="76" width="223" height="150" rx="12" fill="#f4f1ea" stroke="#c9bfae" stroke-width="1.5"/>
+  <text class="lbl" x="50" y="102">단독 가구</text>
+  <text class="cap" x="50" y="122">배우자·18세 미만 자녀·</text>
+  <text class="cap" x="50" y="139">70세 이상 부모 모두 없음</text>
+  <text class="inc" x="50" y="167">총소득 2,200만원 미만</text>
+  <text class="cap" x="50" y="188">최대 지급액</text>
+  <text class="amt" x="50" y="213">165만원</text>
+
+  <rect x="268" y="76" width="223" height="150" rx="12" fill="#f4f1ea" stroke="#c9bfae" stroke-width="1.5"/>
+  <text class="lbl" x="288" y="102">홑벌이 가구</text>
+  <text class="cap" x="288" y="122">배우자 총급여 300만원 미만</text>
+  <text class="cap" x="288" y="139">또는 부양자녀·부모 있음</text>
+  <text class="inc" x="288" y="167">총소득 3,200만원 미만</text>
+  <text class="cap" x="288" y="188">최대 지급액</text>
+  <text class="amt" x="288" y="213">285만원</text>
+
+  <rect x="506" y="76" width="224" height="150" rx="12" fill="#2a2521"/>
+  <text class="lbl" x="526" y="102" style="fill:#ffb877">맞벌이 가구</text>
+  <text class="cap" x="526" y="122" style="fill:#9a8f7a">본인과 배우자 각각</text>
+  <text class="cap" x="526" y="139" style="fill:#9a8f7a">총급여 300만원 이상</text>
+  <text class="inc" x="526" y="167" style="fill:#ffb877">총소득 4,400만원 미만</text>
+  <text class="cap" x="526" y="188" style="fill:#9a8f7a">최대 지급액</text>
+  <text class="amt" x="526" y="213" style="fill:#ffffff">330만원</text>
+
+  <text class="sub" x="30" y="258">기준선을 1원이라도 넘으면 한 푼도 안 나온다. 금액은 소득이 올라갈수록 줄어드는 구간이 따로 있어서,</text>
+  <text class="sub" x="30" y="278">기준 안에 든다고 최대액을 받는 것은 아니다.</text>
+
+  <text class="sub" x="30" y="316">가구 판정 기준일: 2025년 12월 31일 · 소득에는 근로소득 외에 사업소득·종교인소득도 들어간다</text>
+  <text class="sub" x="30" y="340">기준: 2026년 신청분(2025년 귀속)</text>
+  <text class="sub" x="30" y="360">출처: 국세청 「근로·자녀장려금」, 2026년 10월 19일 확인</text>
+</svg>
