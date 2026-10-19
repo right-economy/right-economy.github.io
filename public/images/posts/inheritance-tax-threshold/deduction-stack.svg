@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 372" role="img" aria-label="상속공제가 쌓여 기준선이 정해지는 도식. 배우자와 자녀가 함께 상속받으면 일괄공제 5억원 위에 배우자 최소공제 5억원이 얹혀 합계 10억원이 되고, 배우자가 단독으로 상속받으면 일괄공제를 적용하지 않아 기초공제 2억원 위에 배우자공제 5억원이 얹혀 합계 7억원이 된다">
+  <rect width="760" height="372" fill="#ffffff"/>
+  <style>
+    text{font-family:'Pretendard',system-ui,sans-serif;fill:#2a2521}
+    .title{font-size:17px;font-weight:700}
+    .note{font-size:12px;fill:#6b6157}
+    .case{font-size:13.5px;font-weight:700}
+    .sum{font-size:21px;font-weight:900;fill:#c2410c}
+    .lab{font-size:12.5px;font-weight:700}
+    .labw{font-size:12.5px;font-weight:700;fill:#ffffff}
+    .amt{font-size:15px;font-weight:800}
+    .amtw{font-size:15px;font-weight:800;fill:#ffb877}
+    .sub{font-size:11.5px;fill:#6b6157}
+  </style>
+
+  <text class="title" x="30" y="34">같은 재산이라도 상속인이 누구냐에 따라 기준선이 바뀐다</text>
+  <text class="note" x="30" y="56">막대 높이는 공제 금액에 비례한다 · 자녀공제 등 그 밖의 인적공제는 뺀 단순 비교</text>
+
+  <text class="case" x="90" y="98">배우자와 자녀가 함께 상속</text>
+  <text class="sum" x="90" y="128">합계 10억원</text>
+  <rect x="90" y="142" width="230" height="90" rx="8" fill="#2a2521"/>
+  <text class="labw" x="110" y="176">배우자 상속공제 (최소)</text>
+  <text class="amtw" x="110" y="202">5억원</text>
+  <rect x="90" y="236" width="230" height="90" rx="8" fill="#f4f1ea" stroke="#c9bfae" stroke-width="1.5"/>
+  <text class="lab" x="110" y="270">일괄공제</text>
+  <text class="amt" x="110" y="296">5억원</text>
+  <text class="sub" x="90" y="350">배우자가 한 푼도 안 받아도 5억원은 공제된다</text>
+
+  <text class="case" x="440" y="98">배우자가 단독으로 상속</text>
+  <text class="sum" x="440" y="128">합계 7억원</text>
+  <rect x="440" y="196" width="230" height="90" rx="8" fill="#2a2521"/>
+  <text class="labw" x="460" y="230">배우자 상속공제 (최소)</text>
+  <text class="amtw" x="460" y="256">5억원</text>
+  <rect x="440" y="290" width="230" height="36" rx="8" fill="#f4f1ea" stroke="#c9bfae" stroke-width="1.5"/>
+  <text class="lab" x="460" y="313">기초공제</text>
+  <text class="amt" x="566" y="313">2억원</text>
+  <text class="sub" x="440" y="350">자녀도 부모도 없으면 일괄공제 5억원을 적용하지 않는다</text>
+</svg>
