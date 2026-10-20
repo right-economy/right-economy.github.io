@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 250" role="img" aria-label="체납 세액 150만원을 경계로 고지 후 가산세가 갈리는 띠 도식. 납부고지서별 세목별 세액이 150만원 미만이면 지정납부기한 다음 날부터 붙는 월 단위 가산세와 독촉 비용을 적용하지 않는다. 150만원 이상이면 월 1만분의 67이 채운 개월 수만큼 붙는다. 법정납부기한까지의 하루 단위 가산세와 미납 세액 100분의 3은 금액과 무관하게 그대로 붙는다">
+  <rect width="760" height="250" fill="#ffffff"/>
+  <style>
+    text{font-family:'Pretendard',system-ui,sans-serif;fill:#2a2521}
+    .title{font-size:17px;font-weight:700}
+    .note{font-size:12px;fill:#7a7066}
+    .step{font-size:12.5px;font-weight:700;fill:#7a7066}
+    .amt{font-size:15px;font-weight:900}
+    .sub{font-size:11.5px;fill:#7a7066}
+    .tick{font-size:12px;font-weight:700;fill:#c2410c}
+  </style>
+
+  <text class="title" x="30" y="34">150만원 아래는 뒤쪽 토막이 안 붙는다</text>
+  <text class="note" x="30" y="56">기준은 납부고지서별·세목별 세액이다. 전체 체납액 합계를 보지 않는다</text>
+
+  <rect x="30" y="86" width="340" height="96" rx="12" fill="#f4f1ea" stroke="#c9bfae" stroke-width="1.5"/>
+  <text class="step" x="50" y="112">150만원 미만</text>
+  <text class="amt" x="50" y="138">월 단위 가산세 없음</text>
+  <text class="sub" x="50" y="160">독촉 비용도 안 붙는다.</text>
+
+  <rect x="390" y="86" width="340" height="96" rx="12" fill="#fdf0e6" stroke="#f4a97b" stroke-width="1.5"/>
+  <text class="step" x="410" y="112">150만원 이상</text>
+  <text class="amt" x="410" y="138">월 0.67% × 채운 개월 수</text>
+  <text class="sub" x="410" y="160">지정납부기한 다음 날부터 센다.</text>
+
+  <rect x="30" y="196" width="700" height="38" rx="10" fill="#fbf8f2" stroke="#c9bfae" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text class="sub" x="48" y="221">금액과 무관하게 붙는 것 — 고지 전 하루 단위 0.022%, 그리고 미납 세액의 3%.</text>
+</svg>
