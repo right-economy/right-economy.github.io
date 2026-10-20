@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" role="img" aria-label="기초자산이 셋인 ELS에서 상환 판정이 가장 많이 내린 지수 하나로 정해진다는 도식. 세 지수가 각각 최초 기준가격 대비 112퍼센트, 104퍼센트, 71퍼센트인 상황에서, 그날 기준선이 85퍼센트라면 앞의 둘은 기준선 위에 있지만 71퍼센트인 셋째가 기준선 아래라 조기상환되지 않는다. 판정은 가장 낮은 하나만 본다">
+  <rect width="760" height="400" fill="#ffffff"/>
+  <style>
+    text{font-family:'Pretendard',system-ui,sans-serif;fill:#2a2521}
+    .title{font-size:17px;font-weight:700}
+    .note{font-size:12px;fill:#7a7066}
+    .step{font-size:12.5px;font-weight:700;fill:#7a7066}
+    .amt{font-size:22px;font-weight:900}
+    .sub{font-size:11.5px;fill:#7a7066}
+    .tick{font-size:12.5px;font-weight:700;fill:#c2410c}
+  </style>
+
+  <text class="title" x="30" y="34">둘이 넘어도 하나가 못 넘으면 넘은 게 아니다</text>
+  <text class="note" x="30" y="56">기초자산 세 개짜리 상품의 어느 평가일 · 그날 기준선은 최초 기준가격의 85%</text>
+
+  <rect x="48" y="84" width="196" height="116" rx="12" fill="#f4f1ea" stroke="#c9bfae" stroke-width="1.5"/>
+  <text class="step" x="68" y="110">지수 A</text>
+  <text class="amt" x="68" y="144">112%</text>
+  <text class="sub" x="68" y="170">기준선 위에 있다</text>
+  <text class="sub" x="68" y="188">+12%</text>
+
+  <rect x="282" y="84" width="196" height="116" rx="12" fill="#f4f1ea" stroke="#c9bfae" stroke-width="1.5"/>
+  <text class="step" x="302" y="110">지수 B</text>
+  <text class="amt" x="302" y="144">104%</text>
+  <text class="sub" x="302" y="170">기준선 위에 있다</text>
+  <text class="sub" x="302" y="188">+4%</text>
+
+  <line x1="30" y1="232" x2="730" y2="232" stroke="#c2410c" stroke-width="2" stroke-dasharray="7 5"/>
+  <text class="tick" x="30" y="224">기준선 85%</text>
+
+  <rect x="516" y="258" width="196" height="116" rx="12" fill="#2a2521"/>
+  <text class="step" x="536" y="284" style="fill:#c9bfae">지수 C</text>
+  <text class="amt" x="536" y="318" style="fill:#ffb877">71%</text>
+  <text class="sub" x="536" y="344" style="fill:#c9bfae">기준선 아래에 있다</text>
+  <text class="sub" x="536" y="362" style="fill:#c9bfae">−29%</text>
+
+  <text class="sub" x="48" y="284">상환 여부는 셋을 평균하지 않는다.</text>
+  <text class="sub" x="48" y="304">가장 낮은 하나만 보고 정한다.</text>
+  <text class="sub" x="48" y="332">그래서 기초자산 개수가 늘수록</text>
+  <text class="sub" x="48" y="352">「전부 기준선 위에 있을 확률」은 내려간다.</text>
+</svg>
