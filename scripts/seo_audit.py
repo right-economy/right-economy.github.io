@@ -56,6 +56,8 @@ class Meta(HTMLParser):
         self.headings = []
         self.img_total = 0
         self.img_no_alt = 0
+        self.jsonld = 0
+        self.internal_hrefs = []
 
     def handle_starttag(self, tag, attrs):
         a = dict(attrs)
@@ -85,6 +87,15 @@ class Meta(HTMLParser):
             # alt 속성 자체가 없으면 누락. alt="" 는 장식 이미지의 올바른 표기라 통과.
             if "alt" not in a:
                 self.img_no_alt += 1
+        elif tag == "script":
+            if (a.get("type") or "").strip().lower() == "application/ld+json":
+                self.jsonld += 1
+        elif tag == "a":
+            href = a.get("href")
+            # 사이트 안쪽 링크만 센다. 스킴이 붙은 외부 링크·mailto·앵커만 있는
+            # href 는 유입 그래프의 변이 아니다.
+            if href and href.startswith("/"):
+                self.internal_hrefs.append(href)
 
     def handle_endtag(self, tag):
         if tag == "title":
@@ -316,6 +327,68 @@ def check_site(dist, posts_dir):
     return out
 
 
+def _route_of(dist, root):
+    """dist 안의 디렉터리를 사이트 경로로 바꾼다."""
+    rel = os.path.relpath(root, dist).replace(os.sep, "/")
+    return "/" if rel == "." else "/%s/" % rel
+
+
+def _normalize_href(href):
+    """내부 href 를 라우트 모양으로 맞춘다. 맞춰두지 않으면 같은 글이
+    `/posts/a`·`/posts/a/`·`/posts/a/#요약` 세 모양으로 갈려 **유입이 있는 글이
+    고아로 잡힌다**(허수 쪽으로 틀리는 방향이라 더 위험하다)."""
+    href = href.split("#")[0].split("?")[0]
+    if not href:
+        return None
+    if not href.endswith("/"):
+        href += "/"
+    return unquote(href)
+
+
+# 페이지 한 장만 보면 안 보이는 축 둘.
+#   ① 고아 글 — 어느 페이지에서도 <a> 로 안 걸리는 글. sitemap 에 있으니 색인은
+#      되지만 크롤러가 따라올 길이 없고 내부 링크 가중치도 못 받는다. 페이지
+#      자체는 메타가 완벽해도 걸리지 않으므로 check_page 로는 영영 안 보인다.
+#   ② JSON-LD 누락 — 글 페이지에 Article 구조화 데이터가 없으면 검색결과 리치
+#      스니펫 대상에서 빠진다.
+#
+# ⚠️ **index.html 만 본다.** 404.html 은 .html 이지만 라우트가 아니고, 아무도
+#    링크하지 않는 게 정상이며 JSON-LD 가 없는 게 맞다. 같이 세면 「고아 1건·
+#    JSON-LD 누락 1건」이 매번 찍혀서, 다음 사람이 그 2건을 기준선으로 알고
+#    진짜 결함을 같이 묻는다. (is_page 가 google 소유확인 파일을 뺀 것과 같은 이유)
+def check_links(dist):
+    """유입 그래프와 글 페이지의 구조화 데이터. 못 쟀으면 「모름」으로 올린다."""
+    out = []
+    routes = {}
+    for root, _dirs, files in os.walk(dist):
+        if "index.html" not in files:
+            continue
+        with open(os.path.join(root, "index.html"), encoding="utf-8", errors="replace") as fh:
+            routes[_route_of(dist, root)] = parse(fh.read())
+    if not routes:
+        out.append(("linkgraph-unknown",
+                    "index.html 을 한 장도 못 찾았다 — 유입을 못 쟀다(0건이 아니라 모름)"))
+        return out
+
+    inbound = dict((route, 0) for route in routes)
+    for route, m in routes.items():
+        # 한 페이지가 같은 글을 여러 번 걸어도 유입 1 로 센다. 안 그러면
+        # 본문에 두 번 걸린 글이 「인기 글」처럼 보인다.
+        for href in set(m.internal_hrefs):
+            target = _normalize_href(href)
+            if target in inbound and target != route:
+                inbound[target] += 1
+
+    for route in sorted(routes):
+        if not route.startswith("/posts/"):
+            continue
+        if inbound[route] == 0:
+            out.append(("orphan-post", "어느 페이지에서도 링크로 안 걸린다: %s" % route))
+        if routes[route].jsonld == 0:
+            out.append(("jsonld-missing", "글인데 JSON-LD 가 없다: %s" % route))
+    return out
+
+
 # 사이트 레벨 검사의 양성·음성 표본. 페이지 한 장이 아니라 **디렉터리 모양**이
 # 입력이라 임시 폴더로 만든다.
 def _fixture(root, thin_noindex, thin_in_sitemap, post_b_noindex):
@@ -347,6 +420,64 @@ def _fixture(root, thin_noindex, thin_in_sitemap, post_b_noindex):
         '<?xml version="1.0" encoding="UTF-8"?>'
         '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">%s</urlset>' % body)
     return dist, posts
+
+
+def _link_fixture(root, b_linked, b_jsonld):
+    """유입 그래프 표본. 양성 쪽은 href 모양을 일부러 어긋나게 적는다 —
+    `/posts/a`(끝 슬래시 없음)·`/posts/b/#요약`(앵커 붙음)으로 걸어서,
+    정규화가 깨지면 **양성 표본이 고아로 잡히며** 바로 드러나게 둔다."""
+    dist = os.path.join(root, "dist")
+
+    def page(relpath, body, jsonld):
+        d = os.path.join(dist, relpath) if relpath else dist
+        os.makedirs(d, exist_ok=True)
+        ld = '<script type="application/ld+json">{}</script>' if jsonld else ""
+        open(os.path.join(d, "index.html"), "w", encoding="utf-8").write(
+            "<!doctype html><html><head>%s</head><body>%s</body></html>" % (ld, body))
+
+    links = '<a href="/posts/a">가</a>'
+    if b_linked:
+        links += '<a href="/posts/b/#%EC%9A%94%EC%95%BD">나</a>'
+    page("", links, False)                 # 허브는 글이 아니라 JSON-LD 를 안 본다
+    page("posts/a", "", True)
+    page("posts/b", "", b_jsonld)
+
+    # 404.html 은 라우트가 아니다. 섞어 넣어서 **같이 세지 않는지**까지 본다.
+    os.makedirs(dist, exist_ok=True)
+    open(os.path.join(dist, "404.html"), "w", encoding="utf-8").write(
+        "<!doctype html><html><head></head><body></body></html>")
+    return dist
+
+
+def selftest_links():
+    """양성 1본 + 음성 1본. 양성에는 404.html 과 어긋난 href 모양을 같이 넣는다."""
+    problems = []
+    root = tempfile.mkdtemp(prefix="seoaudit-link-good-")
+    try:
+        issues = check_links(_link_fixture(root, b_linked=True, b_jsonld=True))
+        if issues:
+            problems.append("양성 표본이 걸렸다(과민): %s" % [i for i, _ in issues])
+    finally:
+        shutil.rmtree(root, ignore_errors=True)
+
+    root = tempfile.mkdtemp(prefix="seoaudit-link-bad-")
+    try:
+        fired = set(i for i, _ in check_links(_link_fixture(root, b_linked=False, b_jsonld=False)))
+        missing = {"orphan-post", "jsonld-missing"} - fired
+        if missing:
+            problems.append("음성 표본에서 안 걸린 검사(둔감): %s" % sorted(missing))
+    finally:
+        shutil.rmtree(root, ignore_errors=True)
+
+    # dist 가 비면 「고아 0건」이 아니라 「못 쟀다」로 올라와야 한다.
+    root = tempfile.mkdtemp(prefix="seoaudit-link-empty-")
+    try:
+        fired = set(i for i, _ in check_links(root))
+        if "linkgraph-unknown" not in fired:
+            problems.append("빈 dist 에서 「모름」이 안 올라왔다 — 0건으로 읽는다: %s" % sorted(fired))
+    finally:
+        shutil.rmtree(root, ignore_errors=True)
+    return problems
 
 
 def selftest_site():
@@ -429,6 +560,7 @@ def selftest():
         problems.append("음성 표본에서 안 걸린 검사(둔감): %s" % sorted(missing))
     problems.extend(selftest_locs())
     problems.extend(selftest_site())
+    problems.extend(selftest_links())
     return problems
 
 
@@ -439,8 +571,9 @@ def main():
         for p in problems:
             print("   " + p)
         return 2
-    print("✅ 자체 점검 통과 (페이지·사이트 검사 각각 양성 1본 무이슈 · 음성 1본 전 검사 발화 · "
-          "loc 추출기 %s 경로)" % ("ET" if _expat_ok() else "순수 파이썬 fallback"))
+    print("✅ 자체 점검 통과 (페이지·사이트·유입그래프 검사 각각 양성 1본 무이슈 · "
+          "음성 1본 전 검사 발화 · 빈 dist 는 「모름」 · loc 추출기 %s 경로)"
+          % ("ET" if _expat_ok() else "순수 파이썬 fallback"))
 
     dist = sys.argv[1] if len(sys.argv) > 1 else "dist"
     if not os.path.isdir(dist):
@@ -477,6 +610,8 @@ def main():
             descs[m.description.strip()].append(rel)
 
     for issue_id, msg in check_site(dist, os.path.join("src", "content", "posts")):
+        by_issue[issue_id].append(("(사이트 전체)", msg))
+    for issue_id, msg in check_links(dist):
         by_issue[issue_id].append(("(사이트 전체)", msg))
 
     dup_titles = dict((k, v) for k, v in titles.items() if len(v) > 1)
