@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" role="img" aria-label="ELS의 손익이 한쪽으로만 열려 있다는 도식. 1,000만원을 연 6퍼센트 조건으로 넣었을 때, 지수가 아무리 많이 올라도 받는 돈은 약속한 수익까지로 묶여 3년을 채우면 180만원이다. 반대로 조건을 못 채우고 기준선 아래로 내려간 적이 있으면 지수가 내린 만큼 그대로 손실이 되어, 만기 지수가 최초 기준가격의 60퍼센트면 원금 1,000만원이 600만원으로 줄고 400만원을 잃는다">
+  <rect width="760" height="360" fill="#ffffff"/>
+  <style>
+    text{font-family:'Pretendard',system-ui,sans-serif;fill:#2a2521}
+    .title{font-size:17px;font-weight:700}
+    .note{font-size:12px;fill:#7a7066}
+    .step{font-size:12.5px;font-weight:700;fill:#7a7066}
+    .amt{font-size:19px;font-weight:900}
+    .sub{font-size:11.5px;fill:#7a7066}
+  </style>
+
+  <text class="title" x="30" y="34">위로는 막혀 있고 아래로는 뚫려 있다</text>
+  <text class="note" x="30" y="56">1,000만원을 연 6% 조건으로 넣은 경우 · 수익률은 예시</text>
+
+  <rect x="30" y="86" width="340" height="186" rx="12" fill="#f4f1ea" stroke="#c9bfae" stroke-width="1.5"/>
+  <text class="step" x="52" y="114">지수가 올랐을 때</text>
+  <text class="amt" x="52" y="148">약속한 이율까지만 받는다</text>
+  <text class="sub" x="52" y="176">지수가 10% 올라도 60% 올라도 같다.</text>
+  <text class="sub" x="52" y="196">상환 조건을 넘긴 뒤로는 더 안 늘어난다.</text>
+  <text class="sub" x="52" y="222">3년을 다 채웠을 때 6% × 3년 = 18%</text>
+  <text class="sub" x="52" y="242">6개월 만에 끝나면 6% × 0.5년 = 3%</text>
+
+  <rect x="392" y="86" width="338" height="186" rx="12" fill="#2a2521"/>
+  <text class="step" x="414" y="114" style="fill:#c9bfae">지수가 내렸을 때</text>
+  <text class="amt" x="414" y="148" style="fill:#ffb877">내린 만큼 그대로 줄어든다</text>
+  <text class="sub" x="414" y="176" style="fill:#c9bfae">기준선 아래로 내려간 적이 있고</text>
+  <text class="sub" x="414" y="196" style="fill:#c9bfae">상환 조건도 한 번도 못 채웠을 때다.</text>
+  <text class="sub" x="414" y="222" style="fill:#c9bfae">만기 지수가 최초 기준가격의 60%라면</text>
+  <text class="sub" x="414" y="242" style="fill:#ffb877">1,000만원 → 600만원 (400만원 손실)</text>
+
+  <text class="sub" x="30" y="306">가장 잘 풀린 경우에 받는 180만원과, 잘못 풀린 경우에 잃는 400만원은 크기가 다르다.</text>
+  <text class="sub" x="30" y="326">이 비대칭을 받는 대가로 예금보다 높은 이율이 붙는다.</text>
+</svg>

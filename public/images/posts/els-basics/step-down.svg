@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 330" role="img" aria-label="스텝다운 ELS의 조기상환 조건이 6개월마다 내려가는 계단 도식. 만기 3년 상품에서 평가일이 여섯 번 오고, 조기상환 기준선이 최초 기준가격의 90퍼센트, 90퍼센트, 85퍼센트, 85퍼센트, 80퍼센트, 75퍼센트로 낮아진다. 어느 평가일에든 모든 기초자산 종가가 그날 기준선 이상이면 그 자리에서 약속한 수익과 함께 상환되고 상품이 끝난다">
+  <rect width="760" height="330" fill="#ffffff"/>
+  <style>
+    text{font-family:'Pretendard',system-ui,sans-serif;fill:#2a2521}
+    .title{font-size:17px;font-weight:700}
+    .note{font-size:12px;fill:#7a7066}
+    .step{font-size:12px;font-weight:700;fill:#7a7066}
+    .amt{font-size:16px;font-weight:900;fill:#c2410c}
+    .sub{font-size:11.5px;fill:#7a7066}
+  </style>
+
+  <text class="title" x="30" y="34">기준선이 6개월마다 한 칸씩 내려간다</text>
+  <text class="note" x="30" y="56">만기 3년·조기상환 주기 6개월인 상품의 상환조건 예시 (90 - 90 - 85 - 85 - 80 - 75)</text>
+
+  <line x1="30" y1="268" x2="730" y2="268" stroke="#c9bfae" stroke-width="1.5"/>
+
+  <rect x="42" y="96" width="98" height="172" rx="10" fill="#fdf0e6" stroke="#f4a97b" stroke-width="1.5"/>
+  <text class="step" x="60" y="122">6개월</text>
+  <text class="amt" x="60" y="146">90%</text>
+  <text class="sub" x="60" y="168">이상이면</text>
+  <text class="sub" x="60" y="186">여기서 끝</text>
+
+  <rect x="156" y="96" width="98" height="172" rx="10" fill="#fdf0e6" stroke="#f4a97b" stroke-width="1.5"/>
+  <text class="step" x="174" y="122">12개월</text>
+  <text class="amt" x="174" y="146">90%</text>
+
+  <rect x="270" y="124" width="98" height="144" rx="10" fill="#f4f1ea" stroke="#c9bfae" stroke-width="1.5"/>
+  <text class="step" x="288" y="150">18개월</text>
+  <text class="amt" x="288" y="174">85%</text>
+
+  <rect x="384" y="124" width="98" height="144" rx="10" fill="#f4f1ea" stroke="#c9bfae" stroke-width="1.5"/>
+  <text class="step" x="402" y="150">24개월</text>
+  <text class="amt" x="402" y="174">85%</text>
+
+  <rect x="498" y="156" width="98" height="112" rx="10" fill="#f4f1ea" stroke="#c9bfae" stroke-width="1.5"/>
+  <text class="step" x="516" y="182">30개월</text>
+  <text class="amt" x="516" y="206">80%</text>
+
+  <rect x="612" y="186" width="118" height="82" rx="10" fill="#2a2521"/>
+  <text class="step" x="630" y="212" style="fill:#c9bfae">36개월 만기</text>
+  <text class="amt" x="630" y="236" style="fill:#ffb877">75%</text>
+
+  <text class="sub" x="30" y="296">평가일마다 모든 기초자산 종가를 그날 기준선과 견준다. 한 번이라도 넘으면 그 자리에서 약속한 수익과 함께 끝난다.</text>
+  <text class="sub" x="30" y="316">넘지 못하면 다음 평가일로 넘어가고, 기준선은 그만큼 낮아져 있다.</text>
+</svg>
