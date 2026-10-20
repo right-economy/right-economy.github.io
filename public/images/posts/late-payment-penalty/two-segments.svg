@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 330" role="img" aria-label="세금을 늦게 냈을 때 가산세 계산이 두 구간으로 갈리는 도식. 법정납부기한 다음 날부터 지정납부기한까지는 1일 10만분의 22, 즉 하루 0.022퍼센트로 일수를 센다. 납부고지서를 받으면 미납 세액의 100분의 3이 한 번 붙는다. 지정납부기한 다음 날부터 납부일 전날까지는 월 1만분의 67, 즉 한 달 0.67퍼센트로 채운 개월 수만 센다. 2026년 7월 1일 시행">
+  <rect width="760" height="330" fill="#ffffff"/>
+  <style>
+    text{font-family:'Pretendard',system-ui,sans-serif;fill:#2a2521}
+    .title{font-size:17px;font-weight:700}
+    .note{font-size:12px;fill:#7a7066}
+    .step{font-size:12.5px;font-weight:700;fill:#7a7066}
+    .amt{font-size:15px;font-weight:900}
+    .sub{font-size:11.5px;fill:#7a7066}
+    .tick{font-size:12px;font-weight:700;fill:#c2410c}
+  </style>
+
+  <text class="title" x="30" y="34">늦게 낸 기간은 두 토막으로 나뉘어 센다</text>
+  <text class="note" x="30" y="56">2026년 7월 1일 시행 · 뒤쪽 토막만 월 단위로 바뀌었다</text>
+
+  <line x1="30" y1="104" x2="730" y2="104" stroke="#c9bfae" stroke-width="2"/>
+  <circle cx="30" cy="104" r="5" fill="#c2410c"/>
+  <circle cx="380" cy="104" r="5" fill="#c2410c"/>
+  <circle cx="730" cy="104" r="5" fill="#c2410c"/>
+  <text class="tick" x="30" y="92">법정납부기한</text>
+  <text class="tick" x="316" y="92">지정납부기한</text>
+  <text class="tick" x="676" y="92">납부일</text>
+
+  <rect x="30" y="124" width="332" height="112" rx="12" fill="#f4f1ea" stroke="#c9bfae" stroke-width="1.5"/>
+  <text class="step" x="48" y="150">고지 전 토막</text>
+  <text class="amt" x="48" y="176">1일 0.022%</text>
+  <text class="sub" x="48" y="198">법에는 1일 10만분의 22로 적혀 있다.</text>
+  <text class="sub" x="48" y="216">하루씩 센다 — 사흘 늦으면 사흘치다.</text>
+
+  <rect x="398" y="124" width="332" height="112" rx="12" fill="#fdf0e6" stroke="#f4a97b" stroke-width="1.5"/>
+  <text class="step" x="416" y="150">고지 후 토막</text>
+  <text class="amt" x="416" y="176">월 0.67%</text>
+  <text class="sub" x="416" y="198">법에는 월 1만분의 67로 적혀 있다.</text>
+  <text class="sub" x="416" y="216">「채운 개월 수」만 센다 — 40일은 1개월.</text>
+
+  <rect x="30" y="256" width="700" height="48" rx="10" fill="#fbf8f2" stroke="#c9bfae" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text class="sub" x="48" y="276">납부고지서를 받고도 지정납부기한까지 안 내면, 두 토막 사이에 미납 세액의 100분의 3이 한 번 붙는다.</text>
+  <text class="sub" x="48" y="294">이건 기간에 비례하지 않는다. 하루 늦어도 3%, 열흘 늦어도 3%다.</text>
+</svg>

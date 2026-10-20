@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 340" role="img" aria-label="신고를 했는지 여부로 가산세와 감면율이 갈리는 도식. 신고는 했는데 세액을 적게 적었으면 과소신고가산세 100분의 10이고, 스스로 수정신고하면 1개월 이내 90퍼센트까지 감면된다. 신고를 아예 안 했으면 무신고가산세 100분의 20이고, 기한 후 신고로는 1개월 이내 50퍼센트까지만 감면된다. 부정행위면 둘 다 100분의 40, 역외거래 부정행위는 100분의 60">
+  <rect width="760" height="340" fill="#ffffff"/>
+  <style>
+    text{font-family:'Pretendard',system-ui,sans-serif;fill:#2a2521}
+    .title{font-size:17px;font-weight:700}
+    .note{font-size:12px;fill:#7a7066}
+    .step{font-size:12.5px;font-weight:700;fill:#7a7066}
+    .amt{font-size:15px;font-weight:900}
+    .sub{font-size:11.5px;fill:#7a7066}
+    .tick{font-size:12px;font-weight:700;fill:#c2410c}
+  </style>
+
+  <text class="title" x="30" y="34">적게 적은 쪽과 아예 안 적은 쪽이 갈린다</text>
+  <text class="note" x="30" y="56">감면율은 늦어진 기간에 따라 더 내려간다. 아래는 가장 빨리 고쳤을 때 값이다</text>
+
+  <rect x="30" y="86" width="340" height="206" rx="12" fill="#f4f1ea" stroke="#c9bfae" stroke-width="1.5"/>
+  <text class="step" x="50" y="112">신고는 했는데 세액을 적게 적었다</text>
+  <text class="amt" x="50" y="140">과소신고가산세 10%</text>
+  <text class="sub" x="50" y="162">적게 신고한 세액에 붙는다.</text>
+  <text class="tick" x="50" y="192">스스로 고치면 (수정신고)</text>
+  <text class="amt" x="50" y="218">1개월 이내 90% 감면</text>
+  <text class="sub" x="50" y="240">1~3개월 75% · 3~6개월 50%</text>
+  <text class="sub" x="50" y="258">6개월~1년 30% · 1년~1년 6개월 20%</text>
+  <text class="sub" x="50" y="276">1년 6개월~2년 10%</text>
+
+  <rect x="390" y="86" width="340" height="206" rx="12" fill="#fdf0e6" stroke="#f4a97b" stroke-width="1.5"/>
+  <text class="step" x="410" y="112">신고를 아예 안 했다</text>
+  <text class="amt" x="410" y="140">무신고가산세 20%</text>
+  <text class="sub" x="410" y="162">내야 할 세액에 붙는다.</text>
+  <text class="tick" x="410" y="192">늦게라도 내면 (기한 후 신고)</text>
+  <text class="amt" x="410" y="218">1개월 이내 50% 감면</text>
+  <text class="sub" x="410" y="240">1~3개월 30% · 3~6개월 20%</text>
+  <text class="sub" x="410" y="258">6개월이 지나면 깎아주는 칸이 없다.</text>
+  <text class="sub" x="410" y="276">같은 한 달인데 감면 폭이 40%p 작다.</text>
+</svg>
