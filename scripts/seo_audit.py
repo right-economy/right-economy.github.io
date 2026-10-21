@@ -351,6 +351,11 @@ def _normalize_href(href):
 #      자체는 메타가 완벽해도 걸리지 않으므로 check_page 로는 영영 안 보인다.
 #   ② JSON-LD 누락 — 글 페이지에 Article 구조화 데이터가 없으면 검색결과 리치
 #      스니펫 대상에서 빠진다.
+#   ③ 깨진 내부 링크 — 가리키는 자리가 dist 에 없는 `<a href="/…">`. ①이 「받는
+#      쪽이 0인가」를 세는 반면 이건 **보내는 쪽이 허공을 가리키나**다. 같은
+#      href 목록을 읽고도 서로 안 보이는 축이라, 유입 그래프가 멀쩡해도 오타
+#      하나가 조용히 404 로 남는다. 본문 내부링크는 글 발행 크론이 매일 손으로
+#      적는 값이라 오타가 들어올 자리가 상시 열려 있다.
 #
 # ⚠️ **index.html 만 본다.** 404.html 은 .html 이지만 라우트가 아니고, 아무도
 #    링크하지 않는 게 정상이며 JSON-LD 가 없는 게 맞다. 같이 세면 「고아 1건·
@@ -360,24 +365,47 @@ def check_links(dist):
     """유입 그래프와 글 페이지의 구조화 데이터. 못 쟀으면 「모름」으로 올린다."""
     out = []
     routes = {}
+    # 링크가 가리킬 수 있는 자리는 둘이다 — 라우트(디렉터리의 index.html)와
+    # dist 안의 실제 파일(`/og-default.png`·`/rss.xml`·`/_astro/*.css`). 파일을
+    # 빼고 세면 멀쩡한 자산 링크가 전부 깨진 링크로 잡힌다.
+    assets = set()
     for root, _dirs, files in os.walk(dist):
+        base = _route_of(dist, root)
+        for f in files:
+            assets.add(base + f)
         if "index.html" not in files:
             continue
         with open(os.path.join(root, "index.html"), encoding="utf-8", errors="replace") as fh:
-            routes[_route_of(dist, root)] = parse(fh.read())
+            routes[base] = parse(fh.read())
     if not routes:
         out.append(("linkgraph-unknown",
                     "index.html 을 한 장도 못 찾았다 — 유입을 못 쟀다(0건이 아니라 모름)"))
         return out
 
     inbound = dict((route, 0) for route in routes)
+    dead = {}
     for route, m in routes.items():
         # 한 페이지가 같은 글을 여러 번 걸어도 유입 1 로 센다. 안 그러면
         # 본문에 두 번 걸린 글이 「인기 글」처럼 보인다.
         for href in set(m.internal_hrefs):
             target = _normalize_href(href)
-            if target in inbound and target != route:
-                inbound[target] += 1
+            if target is None:
+                continue
+            if target in inbound:
+                if target != route:
+                    inbound[target] += 1
+                continue
+            # 라우트가 아니면 파일일 수 있다. `_normalize_href` 가 끝 슬래시를
+            # 붙여놨으니 파일 쪽은 벗겨서 본다.
+            if target.rstrip("/") in assets:
+                continue
+            dead.setdefault(target, set()).add(route)
+
+    for target in sorted(dead)[:20]:
+        srcs = sorted(dead[target])
+        out.append(("dead-internal-link",
+                    "가리키는 자리가 dist 에 없다: %s ← %d곳 (예: %s)"
+                    % (target, len(srcs), srcs[0])))
 
     for route in sorted(routes):
         if not route.startswith("/posts/"):
@@ -422,10 +450,14 @@ def _fixture(root, thin_noindex, thin_in_sitemap, post_b_noindex):
     return dist, posts
 
 
-def _link_fixture(root, b_linked, b_jsonld):
+def _link_fixture(root, b_linked, b_jsonld, dead_link=False):
     """유입 그래프 표본. 양성 쪽은 href 모양을 일부러 어긋나게 적는다 —
     `/posts/a`(끝 슬래시 없음)·`/posts/b/#요약`(앵커 붙음)으로 걸어서,
-    정규화가 깨지면 **양성 표본이 고아로 잡히며** 바로 드러나게 둔다."""
+    정규화가 깨지면 **양성 표본이 고아로 잡히며** 바로 드러나게 둔다.
+
+    양성에는 **실제로 있는 파일 링크**(`/og-default.png`)도 같이 넣는다. 깨진
+    링크 검사가 라우트만 타깃으로 보면 멀쩡한 자산 링크가 전부 걸리는데,
+    그 과민이 여기서 드러난다."""
     dist = os.path.join(root, "dist")
 
     def page(relpath, body, jsonld):
@@ -435,12 +467,15 @@ def _link_fixture(root, b_linked, b_jsonld):
         open(os.path.join(d, "index.html"), "w", encoding="utf-8").write(
             "<!doctype html><html><head>%s</head><body>%s</body></html>" % (ld, body))
 
-    links = '<a href="/posts/a">가</a>'
+    links = '<a href="/posts/a">가</a><a href="/og-default.png">그림</a>'
     if b_linked:
         links += '<a href="/posts/b/#%EC%9A%94%EC%95%BD">나</a>'
+    if dead_link:
+        links += '<a href="/posts/ghost/">없는 글</a>'
     page("", links, False)                 # 허브는 글이 아니라 JSON-LD 를 안 본다
     page("posts/a", "", True)
     page("posts/b", "", b_jsonld)
+    open(os.path.join(dist, "og-default.png"), "wb").write(b"\x89PNG")
 
     # 404.html 은 라우트가 아니다. 섞어 넣어서 **같이 세지 않는지**까지 본다.
     os.makedirs(dist, exist_ok=True)
@@ -462,8 +497,9 @@ def selftest_links():
 
     root = tempfile.mkdtemp(prefix="seoaudit-link-bad-")
     try:
-        fired = set(i for i, _ in check_links(_link_fixture(root, b_linked=False, b_jsonld=False)))
-        missing = {"orphan-post", "jsonld-missing"} - fired
+        fired = set(i for i, _ in check_links(
+            _link_fixture(root, b_linked=False, b_jsonld=False, dead_link=True)))
+        missing = {"orphan-post", "jsonld-missing", "dead-internal-link"} - fired
         if missing:
             problems.append("음성 표본에서 안 걸린 검사(둔감): %s" % sorted(missing))
     finally:
