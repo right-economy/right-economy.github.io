@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 340" role="img" aria-label="2026년 10월 2일 서울남부지방법원이 상장폐지 결정의 효력정지 가처분을 인용해 두 상장사의 퇴출이 멈추고, 같은 날 한국거래소가 법원 판단이 있으면 지정을 유예하거나 효력을 정지할 수 있도록 시행세칙을 신설했다는 흐름 도식">
+  <rect width="760" height="340" fill="#ffffff"/>
+  <style>
+    text{font-family:'Pretendard',system-ui,sans-serif;fill:#2a2521}
+    .title{font-size:17px;font-weight:700}
+    .note{font-size:12px;fill:#7a7066}
+    .step{font-size:12.5px;font-weight:700;fill:#7a7066}
+    .big{font-size:15px;font-weight:900}
+    .sub{font-size:11.5px;fill:#7a7066}
+  </style>
+  <text class="title" x="30" y="34">빨라진 퇴출에 법원이 한 번 멈춤을 걸었다</text>
+  <text class="note" x="30" y="56">2026년 10월 2일 · 서울남부지방법원</text>
+
+  <rect x="30" y="84" width="212" height="94" rx="12" fill="#f4f1ea" stroke="#c9bfae" stroke-width="1.5"/>
+  <text class="step" x="50" y="110">① 가처분 인용</text>
+  <text class="big" x="50" y="136">상폐 효력 정지</text>
+  <text class="sub" x="50" y="160">상장사 2곳의 퇴출이 멈췄다</text>
+
+  <text class="big" x="258" y="138" style="fill:#c2410c">→</text>
+
+  <rect x="286" y="84" width="212" height="94" rx="12" fill="#f4f1ea" stroke="#c9bfae" stroke-width="1.5"/>
+  <text class="step" x="306" y="110">② 법원이 짚은 것</text>
+  <text class="sub" x="306" y="132">소명 기회가 없다</text>
+  <text class="sub" x="306" y="150">45거래일 연속 규정</text>
+  <text class="sub" x="306" y="168">기준 상향을 6개월 앞당긴 점</text>
+
+  <text class="big" x="514" y="138" style="fill:#c2410c">→</text>
+
+  <rect x="542" y="84" width="188" height="94" rx="12" fill="#2a2521"/>
+  <text class="step" x="562" y="110" style="fill:#c9bfae">③ 같은 날</text>
+  <text class="big" x="562" y="136" style="fill:#ffb877">시행세칙 신설</text>
+  <text class="sub" x="562" y="160" style="fill:#c9bfae">유예·효력정지 근거</text>
+
+  <line x1="30" y1="212" x2="730" y2="212" stroke="#e5dfd4" stroke-width="1.5"/>
+  <text class="sub" x="30" y="240">규칙이 빨라지면 그 속도를 감당할 절차도 같이 있어야 한다는 게 이번에 드러난 자리다.</text>
+  <text class="sub" x="30" y="262">거래소는 법원 판단이 있을 때 지정을 유예하거나 효력을 멈출 수 있는 근거를 규정에 넣었다.</text>
+  <text class="sub" x="30" y="284">정리매매가 진행 중이던 다른 2곳도 같은 날 멈췄다.</text>
+</svg>

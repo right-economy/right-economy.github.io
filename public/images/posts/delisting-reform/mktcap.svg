@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" role="img" aria-label="상장 유지에 필요한 시가총액 기준이 단계적으로 올라가는 막대 도식. 2026년 1월 150억원, 2026년 7월 200억원, 2027년 1월 300억원으로 높아지며, 원래 계획보다 1년씩 앞당겨 적용된다">
+  <rect width="760" height="360" fill="#ffffff"/>
+  <style>
+    text{font-family:'Pretendard',system-ui,sans-serif;fill:#2a2521}
+    .title{font-size:17px;font-weight:700}
+    .note{font-size:12px;fill:#7a7066}
+    .val{font-size:19px;font-weight:900}
+    .when{font-size:12.5px;font-weight:700;fill:#7a7066}
+    .sub{font-size:11.5px;fill:#7a7066}
+  </style>
+  <text class="title" x="30" y="34">상장을 유지하려면 넘어야 하는 시가총액</text>
+  <text class="note" x="30" y="56">코스피·코스닥 공통 · 금액은 시가총액 기준</text>
+
+  <line x1="30" y1="266" x2="730" y2="266" stroke="#2a2521" stroke-width="1.5"/>
+
+  <rect x="110" y="191" width="110" height="75" fill="#c9bfae"/>
+  <text class="val" x="122" y="183">150억</text>
+  <text class="when" x="122" y="290">2026년 1월</text>
+
+  <rect x="300" y="166" width="110" height="100" fill="#9db4ee"/>
+  <text class="val" x="312" y="158">200억</text>
+  <text class="when" x="312" y="290">2026년 7월</text>
+
+  <rect x="490" y="116" width="110" height="150" fill="#2a2521"/>
+  <text class="val" x="502" y="108">300억</text>
+  <text class="when" x="502" y="290">2027년 1월</text>
+
+  <text class="sub" x="30" y="326">막대 높이는 금액에 비례한다(150·200·300). 원래는 2027년과 2028년에 올릴 계획이었는데 각각 1년씩 앞당겼다.</text>
+</svg>
