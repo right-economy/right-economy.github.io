@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" role="img" aria-label="ETF 한 종목에 숫자가 세 겹으로 쌓여 있고 그 사이의 간격이 서로 다른 이름을 가진다는 도식. 맨 위는 ETF가 따라가기로 한 기초지수, 가운데는 담은 자산을 실제로 계산한 순자산가치 NAV와 장중 실시간 추정치 iNAV, 맨 아래는 시장에서 사고팔려 붙은 시장가격이다. 기초지수와 순자산가치 사이의 벌어짐을 추적오차라고 부르고 운용보수와 매매 시점 차이에서 생기며, 순자산가치와 시장가격 사이의 벌어짐을 괴리율이라고 부르고 수급과 유동성공급자 호가에서 생긴다">
+  <rect width="760" height="420" fill="#ffffff"/>
+  <style>
+    text{font-family:'Pretendard',system-ui,sans-serif;fill:#2a2521}
+    .title{font-size:17px;font-weight:700}
+    .note{font-size:12px;fill:#7a7066}
+    .step{font-size:12.5px;font-weight:700;fill:#7a7066}
+    .big{font-size:19px;font-weight:900}
+    .sub{font-size:11.5px;fill:#7a7066}
+    .gap{font-size:13px;font-weight:900;fill:#c2410c}
+    .gapsub{font-size:11.5px;fill:#c2410c}
+  </style>
+
+  <text class="title" x="30" y="34">한 ETF에 숫자가 세 겹이고, 사이 간격마다 이름이 다르다</text>
+  <text class="note" x="30" y="56">위에서 아래로 내려오며 두 번 벌어진다 · 벌어지는 이유가 서로 다르다</text>
+
+  <rect x="30" y="82" width="420" height="78" rx="12" fill="#f4f1ea" stroke="#c9bfae" stroke-width="1.5"/>
+  <text class="step" x="52" y="108">① 기초지수</text>
+  <text class="big" x="52" y="138">따라가기로 약속한 값</text>
+
+  <line x1="240" y1="160" x2="240" y2="196" stroke="#c2410c" stroke-width="2" stroke-dasharray="6 4"/>
+  <text class="gap" x="470" y="178">← 추적오차</text>
+  <text class="gapsub" x="470" y="196">운용보수 · 매매 시점 차이 · 운용 전략</text>
+
+  <rect x="30" y="196" width="420" height="78" rx="12" fill="#f4f1ea" stroke="#c9bfae" stroke-width="1.5"/>
+  <text class="step" x="52" y="222">② 순자산가치(NAV) · 장중 추정치(iNAV)</text>
+  <text class="big" x="52" y="252">담은 자산을 계산한 값</text>
+
+  <line x1="240" y1="274" x2="240" y2="310" stroke="#c2410c" stroke-width="2" stroke-dasharray="6 4"/>
+  <text class="gap" x="470" y="292">← 괴리율</text>
+  <text class="gapsub" x="470" y="310">수급 불균형 · 유동성공급자(LP) 호가 공백</text>
+
+  <rect x="30" y="310" width="420" height="78" rx="12" fill="#2a2521"/>
+  <text class="step" x="52" y="336" style="fill:#c9bfae">③ 시장가격</text>
+  <text class="big" x="52" y="366" style="fill:#ffb877">내가 실제로 내는 값</text>
+
+  <text class="sub" x="470" y="350">사는 쪽이 ③만 보고 누르면</text>
+  <text class="sub" x="470" y="368">②와 벌어진 만큼을 얹어서 산다.</text>
+</svg>
