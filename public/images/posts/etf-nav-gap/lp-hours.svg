@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 330" role="img" aria-label="하루 거래시간을 띠로 늘어놓고 유동성공급자의 호가 제시 의무가 있는 구간과 면제되는 구간을 나눈 도식. 오전 8시 30분부터 9시까지 장 시작 동시호가, 9시부터 9시 5분까지 개장 직후 5분, 오후 3시 20분부터 3시 30분까지 종가 결정 동시호가 이 세 구간은 의무가 면제된다. 그 사이 오전 9시 5분부터 오후 3시 20분까지만 유동성공급자가 호가를 대줄 의무가 있고, 면제 구간에 시장가 주문이 몰리면 괴리율이 크게 벌어진다">
+  <rect width="760" height="330" fill="#ffffff"/>
+  <style>
+    text{font-family:'Pretendard',system-ui,sans-serif;fill:#2a2521}
+    .title{font-size:17px;font-weight:700}
+    .note{font-size:12px;fill:#7a7066}
+    .tlabel{font-size:12px;font-weight:700;fill:#7a7066}
+    .band{font-size:13px;font-weight:900}
+    .sub{font-size:11.5px;fill:#7a7066}
+    .warn{font-size:12px;font-weight:700;fill:#c2410c}
+  </style>
+
+  <text class="title" x="30" y="34">호가를 대줄 의무가 없는 구간이 하루에 세 번 있다</text>
+  <text class="note" x="30" y="56">유가증권시장 업무규정 시행세칙 기준 · 정규장 09:00~15:30</text>
+
+  <rect x="30" y="100" width="118" height="64" rx="8" fill="#f4f1ea" stroke="#c2410c" stroke-width="2" stroke-dasharray="6 4"/>
+  <text class="band" x="46" y="128" style="fill:#c2410c">면제</text>
+  <text class="sub" x="46" y="150">장 시작 동시호가</text>
+
+  <rect x="152" y="100" width="76" height="64" rx="8" fill="#f4f1ea" stroke="#c2410c" stroke-width="2" stroke-dasharray="6 4"/>
+  <text class="band" x="168" y="128" style="fill:#c2410c">면제</text>
+  <text class="sub" x="168" y="150">개장 5분</text>
+
+  <rect x="232" y="100" width="376" height="64" rx="8" fill="#2a2521"/>
+  <text class="band" x="252" y="128" style="fill:#ffb877">의무 있음</text>
+  <text class="sub" x="252" y="150" style="fill:#c9bfae">LP가 매수·매도 호가를 계속 대준다</text>
+
+  <rect x="612" y="100" width="118" height="64" rx="8" fill="#f4f1ea" stroke="#c2410c" stroke-width="2" stroke-dasharray="6 4"/>
+  <text class="band" x="628" y="128" style="fill:#c2410c">면제</text>
+  <text class="sub" x="628" y="150">종가 동시호가</text>
+
+  <line x1="30" y1="184" x2="730" y2="184" stroke="#c9bfae" stroke-width="1.5"/>
+  <text class="tlabel" x="30" y="204">08:30</text>
+  <text class="tlabel" x="146" y="204">09:00</text>
+  <text class="tlabel" x="214" y="204">09:05</text>
+  <text class="tlabel" x="588" y="204">15:20</text>
+  <text class="tlabel" x="692" y="204">15:30</text>
+
+  <text class="warn" x="30" y="248">면제 구간에 시장가 주문이 몰리면 받아줄 호가가 얇다.</text>
+  <text class="sub" x="30" y="270">호가가 얇은 자리에서 체결된 값이 그날의 시장가격이 되고, 순자산가치와 벌어진 폭이 그대로 괴리율로 찍힌다.</text>
+  <text class="sub" x="30" y="292">같은 ETF를 09:30에 샀다면 LP 호가가 받쳐주는 구간이라 같은 일이 생기기 어렵다.</text>
+</svg>

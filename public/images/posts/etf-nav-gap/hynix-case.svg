@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" role="img" aria-label="2026년 6월 8일과 9일 이틀간 SK하이닉스 주가 변동과 그 종목을 기초자산으로 삼은 단일종목 레버리지 ETF의 종가 변동을 나란히 견준 막대 도식. 8일에는 SK하이닉스가 7.68퍼센트 내렸는데 ETF 종가는 49.7퍼센트 올라 괴리율이 85.86퍼센트까지 벌어졌고, 9일에는 SK하이닉스가 15.91퍼센트 올랐는데 ETF 종가는 27.03퍼센트 내렸다. 두 날 모두 ETF가 기초자산과 반대 방향으로 움직였다">
+  <rect width="760" height="400" fill="#ffffff"/>
+  <style>
+    text{font-family:'Pretendard',system-ui,sans-serif;fill:#2a2521}
+    .title{font-size:17px;font-weight:700}
+    .note{font-size:12px;fill:#7a7066}
+    .day{font-size:13px;font-weight:900;fill:#7a7066}
+    .val{font-size:18px;font-weight:900}
+    .sub{font-size:11.5px;fill:#7a7066}
+    .leg{font-size:11.5px;font-weight:700;fill:#7a7066}
+    .gap{font-size:13px;font-weight:900;fill:#c2410c}
+  </style>
+
+  <text class="title" x="30" y="34">기초자산이 내린 날 ETF는 오르고, 오른 날 ETF는 내렸다</text>
+  <text class="note" x="30" y="56">SK하이닉스와 그 종목을 기초자산으로 삼은 단일종목 레버리지 ETF의 종가 등락률 · 2026년 6월 8~9일</text>
+
+  <line x1="30" y1="230" x2="730" y2="230" stroke="#2a2521" stroke-width="1.5"/>
+  <text class="leg" x="676" y="248">0%</text>
+
+  <text class="day" x="118" y="86">6월 8일</text>
+  <rect x="86" y="230" width="62" height="18" fill="#c9bfae"/>
+  <text class="val" x="76" y="272">−7.68%</text>
+  <text class="sub" x="86" y="306">SK하이닉스</text>
+  <rect x="166" y="112" width="62" height="118" fill="#2a2521"/>
+  <text class="val" x="158" y="104">+49.7%</text>
+  <text class="sub" x="166" y="306">레버리지 ETF</text>
+  <text class="gap" x="76" y="332">그날 괴리율 85.86%</text>
+
+  <line x1="380" y1="80" x2="380" y2="350" stroke="#e5dfd4" stroke-width="1.5"/>
+
+  <text class="day" x="492" y="86">6월 9일</text>
+  <rect x="460" y="192" width="62" height="38" fill="#c9bfae"/>
+  <text class="val" x="446" y="184">+15.91%</text>
+  <text class="sub" x="460" y="306">SK하이닉스</text>
+  <rect x="540" y="230" width="62" height="64" fill="#2a2521"/>
+  <text class="val" x="530" y="316">−27.03%</text>
+  <text class="sub" x="540" y="336">레버리지 ETF</text>
+
+  <text class="sub" x="30" y="372">8일 장 마감 동시호가에 매수가 몰려 순자산보다 한참 비싼 값에 종가가 붙었고, 9일은 그 값에서 되돌아오며 생긴 낙폭이다.</text>
+</svg>
