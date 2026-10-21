@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 390" role="img" aria-label="상장폐지 실질심사가 3심제에서 2심제로 줄고 최대 기간이 2년에서 1년 6개월로 짧아진 비교 도식. 막대 길이는 개월 수에 비례하며, 위쪽 예전 구조는 24개월 길이를 3단계로 나눈 모습이고 아래쪽 지금 구조는 1심 12개월과 2심 6개월을 합쳐 18개월이다. 예전 구조의 단계별 기간 배분은 공개된 수치가 없어 균등하게 그렸다">
+  <rect width="760" height="390" fill="#ffffff"/>
+  <style>
+    text{font-family:'Pretendard',system-ui,sans-serif;fill:#2a2521}
+    .title{font-size:17px;font-weight:700}
+    .note{font-size:12px;fill:#7a7066}
+    .lab{font-size:12.5px;font-weight:700;fill:#7a7066}
+    .box{font-size:12.5px;font-weight:700}
+    .sum{font-size:19px;font-weight:900}
+    .sub{font-size:11.5px;fill:#7a7066}
+  </style>
+  <text class="title" x="30" y="34">심사가 세 번에서 두 번으로, 최대 2년이 1년 6개월로</text>
+  <text class="note" x="30" y="56">상장폐지 실질심사 절차 · 2026년 4월 1일 적용 · 막대 길이는 개월 수에 비례(25px = 1개월)</text>
+
+  <text class="lab" x="30" y="110">예전</text>
+  <rect x="86" y="90" width="200" height="40" rx="7" fill="#f4f1ea" stroke="#c9bfae" stroke-width="1.5"/>
+  <text class="box" x="102" y="115">1심</text>
+  <rect x="290" y="90" width="200" height="40" rx="7" fill="#f4f1ea" stroke="#c9bfae" stroke-width="1.5"/>
+  <text class="box" x="306" y="115">2심</text>
+  <rect x="494" y="90" width="200" height="40" rx="7" fill="#f4f1ea" stroke="#c9bfae" stroke-width="1.5"/>
+  <text class="box" x="510" y="115">3심</text>
+  <text class="sum" x="86" y="156">합쳐서 24개월</text>
+  <text class="sub" x="236" y="156">단계별 배분은 공개된 수치가 없어 균등하게 그렸다</text>
+
+  <text class="lab" x="30" y="226">지금</text>
+  <rect x="86" y="206" width="300" height="40" rx="7" fill="#2a2521"/>
+  <text class="box" x="102" y="231" style="fill:#ffb877">1심 — 최대 12개월</text>
+  <rect x="390" y="206" width="150" height="40" rx="7" fill="#2a2521"/>
+  <text class="box" x="406" y="231" style="fill:#ffb877">2심 — 6개월</text>
+  <text class="sum" x="86" y="272" style="fill:#c2410c">합쳐서 18개월</text>
+
+  <line x1="30" y1="300" x2="730" y2="300" stroke="#e5dfd4" stroke-width="1.5"/>
+  <text class="sub" x="30" y="328">기간이 줄었다는 건 기업이 숫자를 되돌릴 시간이 그만큼 적다는 뜻이다.</text>
+  <text class="sub" x="30" y="350">예전에는 2년을 끌며 유상증자나 사업 변경으로 요건을 다시 맞추는 일이 가능했다.</text>
+  <text class="sub" x="30" y="372">주주 입장에서는 회생할 틈이 좁아진 대신 결판이 빨리 난다는 뜻이기도 하다.</text>
+</svg>
