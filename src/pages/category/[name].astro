@@ -1,7 +1,11 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { SITE_NAME } from '../../consts';
+import {
+  SITE_NAME,
+  CATEGORY_DESCRIPTIONS,
+  CATEGORY_DESCRIPTION_FALLBACK,
+} from '../../consts';
 import { withBase } from '../../lib/url';
 import { readingMinutes } from '../../lib/reading';
 
@@ -23,6 +27,10 @@ const { category, posts } = Astro.props;
 const canonical = new URL(Astro.url.pathname, Astro.site);
 const siteUrl = new URL(withBase('/'), Astro.site).href;
 
+// 허브별 설명. 손으로 쓴 것이 있으면 그걸 쓰고, 없는 카테고리는 템플릿으로 떨어진다.
+const metaDescription =
+  CATEGORY_DESCRIPTIONS[category] ?? CATEGORY_DESCRIPTION_FALLBACK(category);
+
 // 이 카테고리에 속한 글을 ItemList로 노출(홈과 동일 패턴) — 검색엔진이
 // 허브 페이지가 어떤 글을 묶는지 구조로 이해. 최신순, position 1부터.
 const listItems = posts.map((post, i) => ({
@@ -40,7 +48,7 @@ const jsonLd = {
     {
       '@type': 'CollectionPage',
       name: `${category} — ${SITE_NAME}`,
-      description: `${SITE_NAME}의 ${category} 분야 글 목록`,
+      description: metaDescription,
       url: canonical.href,
       inLanguage: 'ko-KR',
       publisher: { '@type': 'Organization', name: SITE_NAME },
@@ -65,7 +73,7 @@ const jsonLd = {
 
 <BaseLayout
   title={`${category} — 옳은경제`}
-  description={`옳은경제의 ${category} 분야 글을 모아봤습니다. 어려운 경제를 쉽고 정확하게 정리합니다.`}
+  description={metaDescription}
 >
   <script
     type="application/ld+json"
