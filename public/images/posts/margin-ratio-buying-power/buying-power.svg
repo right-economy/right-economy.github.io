@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" width="760" height="400" role="img"
+     aria-label="예수금 100만원으로 주문할 수 있는 금액을 증거금률별로 비교한 쌓은 막대 그래프. 증거금률 20%에서 500만원, 40%에서 250만원, 60%에서 167만원, 100%에서 100만원이고 내 예수금 100만원은 네 경우 모두 같다">
+  <style>
+    text{font-family:-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif;fill:#2a2521}
+    .t{font-size:19px;font-weight:700}
+    .ax{font-size:13px;fill:#7a7066}
+    .xl{font-size:15px;font-weight:600}
+    .vl{font-size:16px;font-weight:700}
+    .lg{font-size:13px;fill:#7a7066}
+  </style>
+  <rect width="760" height="400" fill="#fffdf9"/>
+  <text class="t" x="30" y="34">예수금 100만원으로 주문되는 금액</text>
+  <text class="ax" x="30" y="55">증거금률이 낮을수록 미수금이 커진다 (단위: 만원)</text>
+
+  <line x1="100" y1="330" x2="720" y2="330" stroke="#2a2521" stroke-width="1.5"/>
+  <line x1="100" y1="278" x2="720" y2="278" stroke="#e8e2d6" stroke-width="1"/>
+  <line x1="100" y1="226" x2="720" y2="226" stroke="#e8e2d6" stroke-width="1"/>
+  <line x1="100" y1="174" x2="720" y2="174" stroke="#e8e2d6" stroke-width="1"/>
+  <line x1="100" y1="122" x2="720" y2="122" stroke="#e8e2d6" stroke-width="1"/>
+  <line x1="100" y1="70"  x2="720" y2="70"  stroke="#e8e2d6" stroke-width="1"/>
+  <text class="ax" x="92" y="334" text-anchor="end">0</text>
+  <text class="ax" x="92" y="282" text-anchor="end">100</text>
+  <text class="ax" x="92" y="230" text-anchor="end">200</text>
+  <text class="ax" x="92" y="178" text-anchor="end">300</text>
+  <text class="ax" x="92" y="126" text-anchor="end">400</text>
+  <text class="ax" x="92" y="74"  text-anchor="end">500</text>
+
+  <rect x="144" y="70"  width="72" height="208" fill="#f4a97b"/>
+  <rect x="144" y="278" width="72" height="52"  fill="#c2410c"/>
+  <text class="vl" x="180" y="60" text-anchor="middle">500</text>
+  <text class="xl" x="180" y="356" text-anchor="middle">20%</text>
+
+  <rect x="294" y="200" width="72" height="78" fill="#f4a97b"/>
+  <rect x="294" y="278" width="72" height="52" fill="#c2410c"/>
+  <text class="vl" x="330" y="190" text-anchor="middle">250</text>
+  <text class="xl" x="330" y="356" text-anchor="middle">40%</text>
+
+  <rect x="444" y="243" width="72" height="35" fill="#f4a97b"/>
+  <rect x="444" y="278" width="72" height="52" fill="#c2410c"/>
+  <text class="vl" x="480" y="233" text-anchor="middle">167</text>
+  <text class="xl" x="480" y="356" text-anchor="middle">60%</text>
+
+  <rect x="594" y="278" width="72" height="52" fill="#c2410c"/>
+  <text class="vl" x="630" y="268" text-anchor="middle">100</text>
+  <text class="xl" x="630" y="356" text-anchor="middle">100%</text>
+
+  <text class="xl" x="30" y="356">증거금률</text>
+
+  <rect x="400" y="378" width="14" height="12" fill="#c2410c"/>
+  <text class="lg" x="420" y="388">내 예수금 100만원</text>
+  <rect x="560" y="378" width="14" height="12" fill="#f4a97b"/>
+  <text class="lg" x="580" y="388">미수금 (이틀 뒤 입금)</text>
+</svg>
