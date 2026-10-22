@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { SITE_NAME, SITE_INSTAGRAM } from '../consts';
+import { organizationNode } from '../lib/schema';
 import { withBase } from '../lib/url';
 
 const canonical = new URL(Astro.url.pathname, Astro.site);
@@ -12,6 +13,9 @@ const siteUrl = new URL(withBase('/'), Astro.site).href;
 const jsonLd = {
   '@context': 'https://schema.org',
   '@graph': [
+    // publisher 가 가리키는 발행 주체. @id 참조는 같은 페이지의 JSON-LD 안에서만
+    // 풀리므로, 참조만 두고 노드를 빠뜨리면 발행 주체가 빈 참조로 남는다.
+    organizationNode(Astro.site),
     {
       '@type': 'ContactPage',
       name: `문의 — ${SITE_NAME}`,
