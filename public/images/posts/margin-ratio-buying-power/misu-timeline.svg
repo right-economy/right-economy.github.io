@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 330" width="760" height="330" role="img"
+     aria-label="미수금이 생기는 과정을 네 단계로 보여주는 도식. 증거금만으로 매수 체결, 이틀 뒤 결제일에 모자란 금액 입금, 미납이면 다음 날 반대매매, 그 뒤 30일간 전액 현금 주문만 가능">
+  <style>
+    text{font-family:-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif;fill:#2a2521}
+    .t{font-size:19px;font-weight:700}
+    .sub{font-size:13px;fill:#7a7066}
+    .day{font-size:14px;font-weight:700;fill:#c2410c}
+    .hd{font-size:17px;font-weight:700}
+    .bd{font-size:13px;fill:#7a7066}
+    .note{font-size:13px;fill:#7a7066}
+  </style>
+  <rect width="760" height="330" fill="#fffdf9"/>
+  <text class="t" x="30" y="34">미수금이 생긴 뒤에 일어나는 일</text>
+  <text class="sub" x="30" y="55">밝은 상자는 아직 되돌릴 수 있는 자리, 어두운 상자는 되돌릴 수 없는 자리</text>
+
+  <rect x="30" y="86" width="162" height="112" rx="10" fill="#fff" stroke="#c9bfae" stroke-width="1.5"/>
+  <text class="day" x="46" y="112">체결일</text>
+  <text class="hd"  x="46" y="138">매수 주문</text>
+  <text class="bd"  x="46" y="162">증거금만 있으면</text>
+  <text class="bd"  x="46" y="181">그대로 체결된다</text>
+
+  <rect x="214" y="86" width="162" height="112" rx="10" fill="#fff" stroke="#c9bfae" stroke-width="1.5"/>
+  <text class="day" x="230" y="112">이틀 뒤</text>
+  <text class="hd"  x="230" y="138">결제일</text>
+  <text class="bd"  x="230" y="162">모자란 금액을</text>
+  <text class="bd"  x="230" y="181">이날까지 넣는다</text>
+
+  <rect x="398" y="86" width="162" height="112" rx="10" fill="#2a2521"/>
+  <text class="day" x="414" y="112" style="fill:#ffb877">그 다음 날</text>
+  <text class="hd"  x="414" y="138" style="fill:#ffffff">반대매매</text>
+  <text class="bd"  x="414" y="162" style="fill:#c9bfae">동의 없이 팔아</text>
+  <text class="bd"  x="414" y="181" style="fill:#c9bfae">미수금을 회수한다</text>
+
+  <rect x="582" y="86" width="148" height="112" rx="10" fill="#2a2521"/>
+  <text class="day" x="598" y="112" style="fill:#ffb877">이후 30일</text>
+  <text class="hd"  x="598" y="138" style="fill:#ffffff">미수동결</text>
+  <text class="bd"  x="598" y="162" style="fill:#c9bfae">전액 현금으로만</text>
+  <text class="bd"  x="598" y="181" style="fill:#c9bfae">주문이 나간다</text>
+
+  <path d="M196 142 L210 142" stroke="#7a7066" stroke-width="2"/>
+  <path d="M204 137 L210 142 L204 147 Z" fill="#7a7066"/>
+  <path d="M380 142 L394 142" stroke="#7a7066" stroke-width="2"/>
+  <path d="M388 137 L394 142 L388 147 Z" fill="#7a7066"/>
+  <path d="M564 142 L578 142" stroke="#7a7066" stroke-width="2"/>
+  <path d="M572 137 L578 142 L572 147 Z" fill="#7a7066"/>
+
+  <line x1="30" y1="228" x2="730" y2="228" stroke="#e8e2d6" stroke-width="1"/>
+  <text class="note" x="30" y="254">결제일까지 넣으면 미수금도 미수동결도 생기지 않는다. 계좌당 미수금이 10만원 이하면 동결 대상에서 빠진다.</text>
+  <text class="note" x="30" y="276">동결 기간에는 다른 증권사 계좌로 옮겨도 증거금 100% 거래만 된다.</text>
+  <text class="note" x="30" y="298">반대매매로 미수가 변제되는 날까지 걸린 날 수만큼 동결 적용일이 늘어난다.</text>
+</svg>
