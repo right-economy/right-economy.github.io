@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 330" width="760" height="330" role="img"
+     aria-label="지분율에 따라 회계 처리가 갈리는 구간을 가로 띠로 보여주는 그림. 20% 미만은 공정가치 측정 금융자산, 20%에서 50%까지는 지분법, 50% 초과는 연결이며 두 경계는 모두 추정 기준이다">
+  <style>
+    text{font-family:-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif;fill:#2a2521}
+    .t{font-size:19px;font-weight:700}
+    .ax{font-size:13px;fill:#7a7066}
+    .bn{font-size:16px;font-weight:700}
+    .sb{font-size:13px;fill:#7a7066}
+    .tk{font-size:14px;font-weight:700}
+    .bnw{font-size:16px;font-weight:700;fill:#fffdf9}
+    .sbw{font-size:13px;fill:#ffffff}
+  </style>
+  <rect width="760" height="330" fill="#fffdf9"/>
+  <text class="t" x="30" y="34">지분율이 바꾸는 것은 회계 처리다</text>
+  <text class="ax" x="30" y="55">가로축: 의결권 기준 지분율</text>
+
+  <rect x="60" y="110" width="132" height="66" fill="#e8e2d6"/>
+  <rect x="192" y="110" width="198" height="66" fill="#f4a97b"/>
+  <rect x="390" y="110" width="330" height="66" fill="#c2410c"/>
+
+  <text class="bn" x="126" y="142" text-anchor="middle">공정가치</text>
+  <text class="sb" x="126" y="163" text-anchor="middle">금융자산</text>
+  <text class="bn" x="291" y="142" text-anchor="middle">지분법</text>
+  <text class="sb" x="291" y="163" text-anchor="middle">관계기업</text>
+  <text class="bnw" x="555" y="142" text-anchor="middle">연결</text>
+  <text class="sbw" x="555" y="163" text-anchor="middle">자회사로 합산</text>
+
+  <line x1="60" y1="186" x2="720" y2="186" stroke="#2a2521" stroke-width="1.5"/>
+  <line x1="192" y1="186" x2="192" y2="196" stroke="#2a2521" stroke-width="1.5"/>
+  <line x1="390" y1="186" x2="390" y2="196" stroke="#2a2521" stroke-width="1.5"/>
+  <text class="tk" x="60" y="214" text-anchor="middle">0%</text>
+  <text class="tk" x="192" y="214" text-anchor="middle">20%</text>
+  <text class="tk" x="390" y="214" text-anchor="middle">50%</text>
+  <text class="tk" x="720" y="214" text-anchor="middle">100%</text>
+
+  <line x1="60" y1="248" x2="720" y2="248" stroke="#e8e2d6" stroke-width="1"/>
+  <text class="ax" x="60" y="274">20%와 50%는 추정 기준이다. 실제 판단은 유의적 영향력과 지배력이 있는지로 한다.</text>
+  <text class="ax" x="60" y="296">20%에 못 미쳐도 이사회에 들어가 있으면 지분법을 쓰고, 20%를 넘겨도 영향력이 없음을</text>
+  <text class="ax" x="60" y="318">입증하면 쓰지 않는다.</text>
+</svg>

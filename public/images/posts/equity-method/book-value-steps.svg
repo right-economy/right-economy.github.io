@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" width="760" height="400" role="img"
+     aria-label="지분법 투자주식의 장부금액이 한 해 동안 변하는 과정을 막대로 보여주는 그림. 취득원가 100억에 지분법이익 15억이 더해지고 받은 배당 1.8억이 빠져 기말 장부금액이 113.2억이 된다">
+  <style>
+    text{font-family:-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif;fill:#2a2521}
+    .t{font-size:19px;font-weight:700}
+    .ax{font-size:13px;fill:#7a7066}
+    .xl{font-size:14px;font-weight:700}
+    .xs{font-size:12.5px;fill:#7a7066}
+    .vl{font-size:16px;font-weight:700}
+  </style>
+  <rect width="760" height="400" fill="#fffdf9"/>
+  <text class="t" x="30" y="34">지분 30%를 가진 회사의 한 해</text>
+  <text class="ax" x="30" y="55">단위: 억원 · 설명용 가정값</text>
+
+  <line x1="70" y1="330" x2="730" y2="330" stroke="#2a2521" stroke-width="1.5"/>
+  <line x1="70" y1="130" x2="730" y2="130" stroke="#e8e2d6" stroke-width="1"/>
+  <line x1="70" y1="230" x2="730" y2="230" stroke="#e8e2d6" stroke-width="1"/>
+  <text class="ax" x="62" y="334" text-anchor="end">0</text>
+  <text class="ax" x="62" y="234" text-anchor="end">50</text>
+  <text class="ax" x="62" y="134" text-anchor="end">100</text>
+
+  <rect x="100" y="130" width="100" height="200" fill="#e8e2d6"/>
+  <text class="vl" x="150" y="120" text-anchor="middle">100</text>
+  <text class="xl" x="150" y="356" text-anchor="middle">취득원가</text>
+  <text class="xs" x="150" y="376" text-anchor="middle">지분 30% 인수</text>
+
+  <line x1="200" y1="130" x2="270" y2="130" stroke="#7a7066" stroke-width="1" stroke-dasharray="4 3"/>
+  <rect x="270" y="100" width="100" height="30" fill="#c2410c"/>
+  <text class="vl" x="320" y="90" text-anchor="middle">+15</text>
+  <text class="xl" x="320" y="356" text-anchor="middle">지분법이익</text>
+  <text class="xs" x="320" y="376" text-anchor="middle">상대 순이익 50 × 30%</text>
+
+  <line x1="370" y1="100" x2="440" y2="100" stroke="#7a7066" stroke-width="1" stroke-dasharray="4 3"/>
+  <rect x="440" y="100" width="100" height="3.6" fill="#7a7066"/>
+  <text class="vl" x="490" y="90" text-anchor="middle">-1.8</text>
+  <text class="xl" x="490" y="356" text-anchor="middle">받은 배당</text>
+  <text class="xs" x="490" y="376" text-anchor="middle">배당 6 × 30%, 이익 아님</text>
+
+  <line x1="540" y1="103.6" x2="610" y2="103.6" stroke="#7a7066" stroke-width="1" stroke-dasharray="4 3"/>
+  <rect x="610" y="103.6" width="100" height="226.4" fill="#f4a97b"/>
+  <text class="vl" x="660" y="94" text-anchor="middle">113.2</text>
+  <text class="xl" x="660" y="356" text-anchor="middle">기말 장부금액</text>
+  <text class="xs" x="660" y="376" text-anchor="middle">현금은 1.8만 들어왔다</text>
+</svg>
