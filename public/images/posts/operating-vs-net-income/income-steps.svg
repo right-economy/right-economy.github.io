@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 500" width="760" height="500" role="img"
+     aria-label="매출액에서 당기순이익까지 네 번 차감되는 과정을 가로 막대 길이로 보여주는 도식. 매출액 1,000억에서 매출원가 650억을 빼 매출총이익 350억, 판매비와관리비 210억을 빼 영업이익 140억, 영업외손익 60억 손실을 반영해 세전이익 80억, 법인세 18억을 빼 당기순이익 62억이 된다">
+  <style>
+    text{font-family:-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif;fill:#2a2521}
+    .t{font-size:19px;font-weight:700}
+    .ax{font-size:13px;fill:#7a7066}
+    .nm{font-size:15px;font-weight:600}
+    .vl{font-size:16px;font-weight:700}
+    .cut{font-size:13.5px;fill:#7a7066}
+  </style>
+  <rect width="760" height="500" fill="#fffdf9"/>
+  <text class="t" x="30" y="34">매출액에서 당기순이익까지</text>
+  <text class="ax" x="30" y="55">막대 길이가 금액 (단위: 억원, 설명용 가정값)</text>
+
+  <rect x="250" y="80" width="500" height="34" fill="#e8e2d6"/>
+  <text class="nm" x="238" y="102" text-anchor="end">매출액</text>
+  <text class="vl" x="262" y="103">1,000</text>
+  <text class="cut" x="252" y="140">↓  매출원가 650 차감</text>
+
+  <rect x="250" y="156" width="175" height="34" fill="#f4a97b"/>
+  <text class="nm" x="238" y="178" text-anchor="end">매출총이익</text>
+  <text class="vl" x="437" y="179">350</text>
+  <text class="cut" x="252" y="216">↓  판매비와관리비 210 차감</text>
+
+  <rect x="250" y="232" width="70" height="34" fill="#c2410c"/>
+  <text class="nm" x="238" y="254" text-anchor="end">영업이익</text>
+  <text class="vl" x="332" y="255">140</text>
+  <text class="cut" x="252" y="292">↓  영업외손익 60 손실 반영</text>
+
+  <rect x="250" y="308" width="40" height="34" fill="#f4a97b"/>
+  <text class="nm" x="238" y="330" text-anchor="end">세전이익</text>
+  <text class="vl" x="302" y="331">80</text>
+  <text class="cut" x="252" y="368">↓  법인세비용 18 차감</text>
+
+  <rect x="250" y="384" width="31" height="34" fill="#c2410c"/>
+  <text class="nm" x="238" y="406" text-anchor="end">당기순이익</text>
+  <text class="vl" x="293" y="407">62</text>
+
+  <line x1="250" y1="440" x2="750" y2="440" stroke="#e8e2d6" stroke-width="1"/>
+  <text class="ax" x="250" y="464">매출액의 6.2%만 당기순이익으로 남았다. 영업이익 단계까지는 14.0%였다.</text>
+</svg>
