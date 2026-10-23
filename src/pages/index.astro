@@ -92,7 +92,7 @@ const jsonLd = {
   <!-- 카테고리 네비게이션 -->
   <nav class="cat-nav" aria-label="카테고리">
     {categories.map((c) => (
-      <a class="cat-chip" href={withBase(`/category/${c}/`)}>{c}</a>
+      <a class="cat-chip" href={withBase(`/category/${encodeURIComponent(c)}/`)}>{c}</a>
     ))}
   </nav>
 

@@ -154,7 +154,7 @@ const jsonLd = {
     </ol>
   </nav>
   <article class="post">
-    <a class="category" href={withBase(`/category/${post.data.category}/`)}>{post.data.category}</a>
+    <a class="category" href={withBase(`/category/${categorySlug}/`)}>{post.data.category}</a>
     <h1>{post.data.title}</h1>
     <p class="meta">
       <time datetime={published.toISOString().slice(0, 10)}>{dateLabel}</time>
