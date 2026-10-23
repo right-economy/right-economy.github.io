@@ -38,7 +38,7 @@ const recentPosts = posts.slice(0, 4);
 
     <nav class="not-found__cats" aria-label="카테고리 바로가기">
       {categories.map((c) => (
-        <a class="cat-chip" href={withBase(`/category/${c}/`)}>{c}</a>
+        <a class="cat-chip" href={withBase(`/category/${encodeURIComponent(c)}/`)}>{c}</a>
       ))}
     </nav>
   </div>
