@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" width="760" height="400" role="img"
+     aria-label="영업이익과 당기순이익을 두 경우로 비교한 묶음 막대 그래프. A사는 영업이익 140억에 당기순이익 62억으로 줄고, B사는 영업이익 100억에 당기순이익 150억으로 늘어난다">
+  <style>
+    text{font-family:-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif;fill:#2a2521}
+    .t{font-size:19px;font-weight:700}
+    .ax{font-size:13px;fill:#7a7066}
+    .xl{font-size:15px;font-weight:700}
+    .xs{font-size:13px;fill:#7a7066}
+    .vl{font-size:16px;font-weight:700}
+    .lg{font-size:13px;fill:#7a7066}
+  </style>
+  <rect width="760" height="400" fill="#fffdf9"/>
+  <text class="t" x="30" y="34">영업이익과 당기순이익은 반대로도 움직인다</text>
+  <text class="ax" x="30" y="55">단위: 억원 · 설명용 가정값</text>
+
+  <line x1="150" y1="320" x2="730" y2="320" stroke="#2a2521" stroke-width="1.5"/>
+  <line x1="150" y1="257.5" x2="730" y2="257.5" stroke="#e8e2d6" stroke-width="1"/>
+  <line x1="150" y1="195" x2="730" y2="195" stroke="#e8e2d6" stroke-width="1"/>
+  <line x1="150" y1="132.5" x2="730" y2="132.5" stroke="#e8e2d6" stroke-width="1"/>
+  <line x1="150" y1="70" x2="730" y2="70" stroke="#e8e2d6" stroke-width="1"/>
+  <text class="ax" x="142" y="324" text-anchor="end">0</text>
+  <text class="ax" x="142" y="261.5" text-anchor="end">50</text>
+  <text class="ax" x="142" y="199" text-anchor="end">100</text>
+  <text class="ax" x="142" y="136.5" text-anchor="end">150</text>
+  <text class="ax" x="142" y="74" text-anchor="end">200</text>
+
+  <rect x="230" y="145" width="70" height="175" fill="#c2410c"/>
+  <text class="vl" x="265" y="136" text-anchor="middle">140</text>
+  <rect x="310" y="242.5" width="70" height="77.5" fill="#f4a97b"/>
+  <text class="vl" x="345" y="234" text-anchor="middle">62</text>
+  <text class="xl" x="305" y="346" text-anchor="middle">A사</text>
+  <text class="xs" x="305" y="366" text-anchor="middle">이자비용과 법인세가 깎는 경우</text>
+
+  <rect x="510" y="195" width="70" height="125" fill="#c2410c"/>
+  <text class="vl" x="545" y="186" text-anchor="middle">100</text>
+  <rect x="590" y="132.5" width="70" height="187.5" fill="#f4a97b"/>
+  <text class="vl" x="625" y="124" text-anchor="middle">150</text>
+  <text class="xl" x="585" y="346" text-anchor="middle">B사</text>
+  <text class="xs" x="585" y="366" text-anchor="middle">자산 처분이익이 보태는 경우</text>
+
+  <rect x="150" y="380" width="13" height="13" fill="#c2410c"/>
+  <text class="lg" x="170" y="391">영업이익</text>
+  <rect x="245" y="380" width="13" height="13" fill="#f4a97b"/>
+  <text class="lg" x="265" y="391">당기순이익</text>
+</svg>
