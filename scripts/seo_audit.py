@@ -17,6 +17,7 @@
     0 = 실질 이슈 없음 / 1 = 이슈 있음 / 2 = 자체 점검 실패(검사기 고장)
 """
 
+import json
 import os
 import re
 import shutil
@@ -57,6 +58,10 @@ class Meta(HTMLParser):
         self.img_total = 0
         self.img_no_alt = 0
         self.jsonld = 0
+        # ld+json 의 **본문**도 모은다. 개수만 세면 「있다」는 보지만 「해석된다」는
+        # 못 본다 — 깨진 JSON-LD 는 검색엔진이 블록 전체를 버리는데 개수는 1 이다.
+        self.ldjson = []
+        self._in_ldjson = False
         self.internal_hrefs = []
 
     def handle_starttag(self, tag, attrs):
@@ -90,6 +95,8 @@ class Meta(HTMLParser):
         elif tag == "script":
             if (a.get("type") or "").strip().lower() == "application/ld+json":
                 self.jsonld += 1
+                self._in_ldjson = True
+                self.ldjson.append("")
         elif tag == "a":
             href = a.get("href")
             # 사이트 안쪽 링크만 센다. 스킴이 붙은 외부 링크·mailto·앵커만 있는
@@ -100,10 +107,14 @@ class Meta(HTMLParser):
     def handle_endtag(self, tag):
         if tag == "title":
             self._in_title = False
+        elif tag == "script":
+            self._in_ldjson = False
 
     def handle_data(self, data):
         if self._in_title:
             self.title = ((self.title or "") + data)
+        if self._in_ldjson and self.ldjson:
+            self.ldjson[-1] += data
 
 
 def parse(html):
@@ -112,6 +123,69 @@ def parse(html):
     if m.title is not None:
         m.title = m.title.strip()
     return m
+
+
+def _ldjson_nodes(blocks):
+    """ld+json 블록들에서 노드를 평평하게 꺼낸다. (노드목록, 깨진블록수)
+
+    @graph · 최상위 배열 · 단일 객체 세 모양이 다 쓰여서 한 자리에서 펼친다.
+    깨진 블록은 **세어서 돌려준다** — 건너뛰고 0건으로 만들면 검사가 조용히 통과한다.
+    """
+    nodes, broken = [], 0
+    for b in blocks:
+        try:
+            d = json.loads(b)
+        except Exception:
+            broken += 1
+            continue
+        for o in (d if isinstance(d, list) else [d]):
+            if not isinstance(o, dict):
+                continue
+            g = o.get("@graph")
+            for n in (g if isinstance(g, list) else [o]):
+                if isinstance(n, dict):
+                    nodes.append(n)
+    return nodes, broken
+
+
+def check_breadcrumb(m):
+    """BreadcrumbList 의 내용이 쓸 수 있는 모양인가.
+
+    왜 개수로 안 되나: `jsonld == 0` 검사는 「블록이 있나」만 본다. 빵가루는
+    있는데 position 이 어긋나거나 item 이 상대경로면 검색엔진이 계층을 못 읽고
+    리치결과에서 조용히 빠진다. 블록 수는 그대로 1 이라 기존 검사에 안 걸린다.
+
+    ⚠️ 홈(`/`)과 404 에는 빵가루가 없는 게 맞다 — 조상이 없는 자리다.
+       그래서 「없다」를 여기서 이슈로 적지 않는다. 있을 때 모양만 본다.
+    """
+    out = []
+    nodes, broken = _ldjson_nodes(m.ldjson)
+    if broken:
+        out.append(("jsonld-broken", "ld+json 블록 %d개가 파싱되지 않는다 — 검색엔진은 블록 전체를 버린다" % broken))
+    for bc in [n for n in nodes if n.get("@type") == "BreadcrumbList"]:
+        items = bc.get("itemListElement")
+        if not isinstance(items, list) or not items:
+            out.append(("breadcrumb-empty", "BreadcrumbList 에 itemListElement 가 없다"))
+            continue
+        pos = [it.get("position") if isinstance(it, dict) else None for it in items]
+        if pos != list(range(1, len(items) + 1)):
+            out.append(("breadcrumb-position", "position 이 1..%d 가 아니다: %r" % (len(items), pos)))
+        for it in items:
+            if not isinstance(it, dict):
+                out.append(("breadcrumb-item", "itemListElement 항목이 객체가 아니다"))
+                continue
+            if not (it.get("name") or "").strip():
+                out.append(("breadcrumb-item", "name 이 비어 있다 (position %r)" % (it.get("position"),)))
+            target = it.get("item")
+            if target is None:
+                # 마지막 칸은 item 을 생략해도 된다(구글 권고). 중간 칸이면 링크가 끊긴다.
+                if it.get("position") != len(items):
+                    out.append(("breadcrumb-item", "중간 칸에 item 이 없다 (position %r)" % (it.get("position"),)))
+                continue
+            url = target.get("@id") if isinstance(target, dict) else target
+            if not isinstance(url, str) or not url.startswith(SITE):
+                out.append(("breadcrumb-item", "item 이 %s 로 시작하는 절대 URL 이 아니다: %r" % (SITE, url)))
+    return out
 
 
 def check_page(m):
@@ -153,6 +227,7 @@ def check_page(m):
     if m.img_no_alt:
         out.append(("img-no-alt", "alt 속성 없는 img %d개 (전체 %d)" % (m.img_no_alt, m.img_total)))
 
+    out += check_breadcrumb(m)
     return out
 
 
@@ -163,12 +238,20 @@ GOOD = """<!doctype html><html><head>
 <meta property="og:title" content="t"><meta property="og:description" content="d">
 <meta property="og:url" content="u"><meta property="og:image" content="i">
 <meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[
+{"@type":"BreadcrumbList","itemListElement":[
+{"@type":"ListItem","position":1,"name":"홈","item":{"@id":"https://right-economy.com/"}},
+{"@type":"ListItem","position":2,"name":"글"}]}]}</script>
 </head><body><h1>제목</h1><h2>소제목</h2><h3>더 안</h3><h2>소제목2</h2>
 <img src="a.svg" alt="설명"><img src="b.svg" alt=""></body></html>"""
 
 BAD = """<!doctype html><html><head>
 <title></title>
 <link rel="canonical" href="/posts/x/">
+<script type="application/ld+json">{"@type":"BreadcrumbList","itemListElement":[
+{"@type":"ListItem","position":1,"name":"","item":"/posts/x/"},
+{"@type":"ListItem","position":5,"name":"글"}]}</script>
+<script type="application/ld+json">{"@type":"BreadcrumbList", 이건 JSON 이 아니다}</script>
 </head><body><h1>a</h1><h1>b</h1><h4>c</h4><img src="a.svg"></body></html>"""
 
 
@@ -587,6 +670,8 @@ def selftest():
         "title-missing", "desc-missing", "canonical-not-site",
         "og-missing", "twitter-missing", "h1-multi", "img-no-alt",
         "heading-skip",
+        # 2026-10-24 추가. 빵가루는 「블록이 있나」가 아니라 「해석되는 모양인가」를 본다.
+        "jsonld-broken", "breadcrumb-position", "breadcrumb-item",
     }
     problems = []
     if good_issues:
