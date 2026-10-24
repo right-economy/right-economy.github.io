@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" width="760" height="360" role="img"
+     aria-label="연결 당기순이익 150억이 지배기업 소유주 몫 130억과 비지배지분 몫 20억으로 갈라지는 도식. 지배기업 소유주 몫은 모회사 순이익 100억에 종속기업 순이익 50억의 60%인 30억을 더한 값이다">
+  <style>
+    text{font-family:-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif;fill:#2a2521}
+    .t{font-size:19px;font-weight:700}
+    .ax{font-size:13px;fill:#7a7066}
+    .bl{font-size:15px;font-weight:700}
+    .bs{font-size:13px;fill:#7a7066}
+    .big{font-size:26px;font-weight:700}
+  </style>
+  <rect width="760" height="360" fill="#fffdf9"/>
+  <text class="t" x="30" y="34">연결 당기순이익은 맨 아래에서 두 몫으로 갈린다</text>
+  <text class="ax" x="30" y="55">단위: 억원 · 설명용 가정값 · 지분율 60%</text>
+
+  <rect x="230" y="80" width="300" height="66" fill="#2a2521"/>
+  <text class="bl" x="380" y="108" text-anchor="middle" style="fill:#fffdf9">연결 당기순이익</text>
+  <text class="big" x="380" y="136" text-anchor="middle" style="fill:#fffdf9">150</text>
+
+  <path d="M330 146 L330 176 L170 176 L170 206" fill="none" stroke="#7a7066" stroke-width="1.5"/>
+  <path d="M430 146 L430 176 L590 176 L590 206" fill="none" stroke="#7a7066" stroke-width="1.5"/>
+
+  <rect x="40" y="206" width="260" height="96" fill="#c2410c"/>
+  <text class="bl" x="170" y="234" text-anchor="middle" style="fill:#fffdf9">지배기업 소유주 몫</text>
+  <text class="big" x="170" y="266" text-anchor="middle" style="fill:#fffdf9">130</text>
+  <text class="bs" x="170" y="288" text-anchor="middle" style="fill:#ffe3d2">모회사 100 + 50의 60%</text>
+
+  <rect x="460" y="206" width="260" height="96" fill="#f4a97b"/>
+  <text class="bl" x="590" y="234" text-anchor="middle">비지배지분 몫</text>
+  <text class="big" x="590" y="266" text-anchor="middle">20</text>
+  <text class="bs" x="590" y="288" text-anchor="middle">종속기업 50의 40%</text>
+
+  <text class="bs" x="380" y="334" text-anchor="middle">주당순이익과 배당의 재원은 왼쪽에서 나온다</text>
+</svg>
