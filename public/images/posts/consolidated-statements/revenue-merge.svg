@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" width="760" height="400" role="img"
+     aria-label="별도재무제표 매출액 1,000억에 종속기업 매출액 500억을 전액 더하고 내부거래 200억을 뺀 연결 매출액 1,300억을 가로 막대 길이로 보여주는 도식">
+  <style>
+    text{font-family:-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif;fill:#2a2521}
+    .t{font-size:19px;font-weight:700}
+    .ax{font-size:13px;fill:#7a7066}
+    .rl{font-size:15px;font-weight:700}
+    .rs{font-size:13px;fill:#7a7066}
+    .vl{font-size:16px;font-weight:700}
+  </style>
+  <rect width="760" height="400" fill="#fffdf9"/>
+  <text class="t" x="30" y="34">종속기업 매출액은 지분율로 쪼개지 않는다</text>
+  <text class="ax" x="30" y="55">단위: 억원 · 설명용 가정값 · 지분율 60%</text>
+
+  <text class="rl" x="30" y="100">모회사 매출액</text>
+  <text class="rs" x="30" y="120">별도재무제표</text>
+  <rect x="210" y="84" width="400" height="34" fill="#c2410c"/>
+  <text class="vl" x="620" y="108">1,000</text>
+
+  <text class="rl" x="30" y="168">종속기업 매출액</text>
+  <text class="rs" x="30" y="188">지분율과 무관하게 전액</text>
+  <rect x="210" y="152" width="200" height="34" fill="#f4a97b"/>
+  <text class="vl" x="420" y="176">+500</text>
+
+  <text class="rl" x="30" y="236">내부거래</text>
+  <text class="rs" x="30" y="256">모회사가 종속기업에 판 것</text>
+  <rect x="210" y="220" width="80" height="34" fill="#fffdf9" stroke="#c2410c" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text class="vl" x="300" y="244">−200</text>
+
+  <line x1="210" y1="282" x2="730" y2="282" stroke="#2a2521" stroke-width="1.5"/>
+
+  <text class="rl" x="30" y="324">연결 매출액</text>
+  <text class="rs" x="30" y="344">외부에 판 것만 남는다</text>
+  <rect x="210" y="308" width="520" height="34" fill="#2a2521"/>
+  <text class="vl" x="700" y="332" text-anchor="end" style="fill:#fffdf9">1,300</text>
+</svg>
