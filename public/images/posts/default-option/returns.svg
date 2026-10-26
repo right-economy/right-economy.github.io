@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 390" width="760" height="390" role="img"
+     aria-label="2025년 디폴트옵션 유형별 연간 수익률 가로 막대 그래프. 적극투자형 14.93%, 중립투자형 10.81%, 안정투자형 7.47%, 안정형 2.63%이고 전체 평균은 3.69%다. 적립금의 85.4%가 안정형에 있다">
+  <style>
+    text{font-family:-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif;fill:#2a2521}
+    .t{font-size:19px;font-weight:700}
+    .ax{font-size:13px;fill:#7a7066}
+    .bl{font-size:15px;font-weight:700}
+    .vl{font-size:17px;font-weight:700}
+    .bs{font-size:13px;fill:#7a7066}
+  </style>
+  <rect width="760" height="390" fill="#fffdf9"/>
+  <text class="t" x="30" y="34">적립금이 가장 많은 유형이 수익률은 가장 낮았다</text>
+  <text class="ax" x="30" y="55">2025년 연간 수익률 · 기준: 2025년 말 적립금 비중 · 출처: 고용노동부·금융감독원 공시</text>
+
+  <text class="bl" x="30" y="100">적극투자형</text>
+  <rect x="170" y="84" width="430" height="24" fill="#c2410c"/>
+  <text class="vl" x="612" y="103">14.93%</text>
+  <text class="bs" x="30" y="118">적립금 비중 작음</text>
+
+  <text class="bl" x="30" y="162">중립투자형</text>
+  <rect x="170" y="146" width="311" height="24" fill="#c2410c"/>
+  <text class="vl" x="493" y="165">10.81%</text>
+
+  <text class="bl" x="30" y="224">안정투자형</text>
+  <rect x="170" y="208" width="215" height="24" fill="#c2410c"/>
+  <text class="vl" x="397" y="227">7.47%</text>
+
+  <text class="bl" x="30" y="286">안정형</text>
+  <rect x="170" y="270" width="76" height="24" fill="#f4a97b"/>
+  <text class="vl" x="258" y="289">2.63%</text>
+  <text class="bs" x="30" y="304">적립금 85.4% · 가입자 79.4%</text>
+
+  <line x1="276" y1="74" x2="276" y2="320" stroke="#7a7066" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text class="bs" x="282" y="338">전체 평균 3.69%</text>
+</svg>
