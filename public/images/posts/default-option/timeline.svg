@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 330" width="760" height="330" role="img"
+     aria-label="원리금보장상품 만기일부터 4주간 운용지시가 없으면 퇴직연금사업자가 디폴트옵션 적용을 통지하고, 통지 후 2주가 더 지나면 디폴트옵션이 자동 매수되는 6주 일정 도식. 같은 상품의 다음 만기부터는 6주를 기다리지 않고 즉시 적용된다">
+  <style>
+    text{font-family:-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif;fill:#2a2521}
+    .t{font-size:19px;font-weight:700}
+    .ax{font-size:13px;fill:#7a7066}
+    .bl{font-size:15px;font-weight:700}
+    .bs{font-size:13px;fill:#7a7066}
+    .wk{font-size:14px;font-weight:700;fill:#c2410c}
+  </style>
+  <rect width="760" height="330" fill="#fffdf9"/>
+  <text class="t" x="30" y="34">운용지시가 없으면 6주 뒤에 자동 매수된다</text>
+  <text class="ax" x="30" y="55">적용 대상: 확정기여형(DC)과 개인형퇴직연금(IRP)의 원리금보장상품</text>
+
+  <line x1="60" y1="150" x2="700" y2="150" stroke="#7a7066" stroke-width="1.5"/>
+
+  <circle cx="60" cy="150" r="7" fill="#2a2521"/>
+  <text class="bl" x="60" y="128" text-anchor="middle">만기일</text>
+
+  <circle cx="380" cy="150" r="7" fill="#c2410c"/>
+  <text class="bl" x="380" y="128" text-anchor="middle">적용 통지</text>
+
+  <circle cx="700" cy="150" r="9" fill="#c2410c"/>
+  <text class="bl" x="700" y="128" text-anchor="end">자동 매수</text>
+
+  <path d="M60 172 L60 186 L380 186 L380 172" fill="none" stroke="#7a7066" stroke-width="1.5"/>
+  <text class="wk" x="220" y="208" text-anchor="middle">4주 방치</text>
+  <text class="bs" x="220" y="228" text-anchor="middle">이 기간에 운용지시를 하면 끝난다</text>
+
+  <path d="M380 172 L380 186 L700 186 L700 172" fill="none" stroke="#7a7066" stroke-width="1.5"/>
+  <text class="wk" x="540" y="208" text-anchor="middle">2주 유예</text>
+  <text class="bs" x="540" y="228" text-anchor="middle">통지를 받고도 지시가 없으면 적용된다</text>
+
+  <rect x="60" y="262" width="640" height="44" fill="#f4a97b"/>
+  <text class="bl" x="80" y="290">같은 상품의 다음 만기부터는 6주를 기다리지 않고 바로 적용된다</text>
+</svg>
