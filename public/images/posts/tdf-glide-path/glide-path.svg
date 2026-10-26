@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" width="760" height="420" role="img"
+     aria-label="적격 TDF가 지켜야 하는 비중 한도를 투자목표시점 기준으로 나타낸 모식도. 설정 시점의 주식 비중은 40에서 80퍼센트 사이여야 하고, 안전자산 최소 비중은 투자목표시점 전까지 20퍼센트, 투자목표시점 이후에는 60퍼센트로 올라간다. 투자목표시점이 가까워질수록 위험자산 비중을 줄여 간다">
+  <style>
+    text{font-family:-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif;fill:#2a2521}
+    .t{font-size:19px;font-weight:700}
+    .ax{font-size:13px;fill:#7a7066}
+    .gr{font-size:12px;fill:#7a7066}
+    .bl{font-size:14px;font-weight:700}
+    .or{font-size:14px;font-weight:700;fill:#c2410c}
+  </style>
+  <rect width="760" height="420" fill="#fffdf9"/>
+  <text class="t" x="30" y="34">선은 투자목표시점에서 꺾인다</text>
+  <text class="ax" x="30" y="55">적격 TDF 비중 한도 모식도 · 단위: 펀드 자산 대비 % · 출처: 퇴직연금감독규정 시행세칙</text>
+
+  <line x1="70" y1="90" x2="70" y2="320" stroke="#d8cfc4" stroke-width="1.5"/>
+  <line x1="70" y1="320" x2="710" y2="320" stroke="#7a7066" stroke-width="1.5"/>
+  <line x1="70" y1="274" x2="710" y2="274" stroke="#ece4d9" stroke-width="1"/>
+  <line x1="70" y1="228" x2="710" y2="228" stroke="#ece4d9" stroke-width="1"/>
+  <line x1="70" y1="182" x2="710" y2="182" stroke="#ece4d9" stroke-width="1"/>
+  <line x1="70" y1="136" x2="710" y2="136" stroke="#ece4d9" stroke-width="1"/>
+  <text class="gr" x="62" y="325" text-anchor="end">0</text>
+  <text class="gr" x="62" y="279" text-anchor="end">20</text>
+  <text class="gr" x="62" y="233" text-anchor="end">40</text>
+  <text class="gr" x="62" y="187" text-anchor="end">60</text>
+  <text class="gr" x="62" y="141" text-anchor="end">80</text>
+
+  <rect x="70" y="136" width="26" height="92" fill="#f4a97b"/>
+  <text class="or" x="104" y="128">설정 시점 주식 40~80%</text>
+  <text class="gr" x="104" y="148">투자목표시점이 5년 이상 남아 있어야 적격 판정 대상</text>
+
+  <path d="M96 170 L520 252" stroke="#c2410c" stroke-width="2.5" stroke-dasharray="7 5" fill="none"/>
+  <text class="or" x="270" y="196">위험자산 비중을 줄여 간다</text>
+
+  <path d="M70 274 L520 274 L520 182 L710 182" stroke="#2a2521" stroke-width="3" fill="none"/>
+  <text class="bl" x="200" y="296">안전자산 최소 20%</text>
+  <text class="bl" x="615" y="172" text-anchor="middle">최소 60%</text>
+
+  <line x1="520" y1="90" x2="520" y2="320" stroke="#7a7066" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text class="bl" x="520" y="82" text-anchor="middle">투자목표시점(빈티지)</text>
+  <text class="ax" x="70" y="345">설정</text>
+  <text class="ax" x="710" y="345" text-anchor="end">인출기</text>
+  <text class="gr" x="30" y="385">굵은 선은 규정이 정한 안전자산 하한선이고, 점선은 비중을 줄여 가야 한다는 방향만 나타낸 것입니다.</text>
+  <text class="gr" x="30" y="404">실제 펀드의 비중 곡선은 상품마다 다릅니다.</text>
+</svg>

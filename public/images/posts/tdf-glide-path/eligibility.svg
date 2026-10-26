@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" width="760" height="400" role="img"
+     aria-label="적격 TDF 판정에 들어가는 다섯 가지 요건 도식. 투자목표시점이 설정일로부터 5년 이상 남음, 설정 시점 주식 비중 40에서 80퍼센트, 투자적격등급 외 채권 전체 투자자산의 20퍼센트 이내, 안전자산 적립기 20퍼센트 이상 투자목표시점 이후 60퍼센트 이상, 특정 해외국가 투자 비중 80퍼센트 이내. 모두 통과하면 퇴직연금 적립금의 100퍼센트까지 담을 수 있다">
+  <style>
+    text{font-family:-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif;fill:#2a2521}
+    .t{font-size:19px;font-weight:700}
+    .ax{font-size:13px;fill:#7a7066}
+    .num{font-size:22px;font-weight:700;fill:#c2410c}
+    .lb{font-size:14px;font-weight:700}
+    .sb{font-size:12px;fill:#7a7066}
+    .ok{font-size:18px;font-weight:700}
+  </style>
+  <rect width="760" height="400" fill="#fffdf9"/>
+  <text class="t" x="30" y="34">다섯 칸을 다 통과해야 100%가 열린다</text>
+  <text class="ax" x="30" y="55">적격 TDF 요건 · 안전자산·해외국가 항목은 2026년 4월 1일 시행 · 출처: 퇴직연금감독규정 시행세칙</text>
+
+  <rect x="30" y="78" width="138" height="104" rx="8" fill="#fff" stroke="#e4dbcf" stroke-width="1.5"/>
+  <text class="num" x="99" y="116" text-anchor="middle">5년</text>
+  <text class="lb" x="99" y="140" text-anchor="middle">이상 남음</text>
+  <text class="sb" x="99" y="160" text-anchor="middle">설정일부터</text>
+  <text class="sb" x="99" y="175" text-anchor="middle">투자목표시점까지</text>
+
+  <rect x="183" y="78" width="138" height="104" rx="8" fill="#fff" stroke="#e4dbcf" stroke-width="1.5"/>
+  <text class="num" x="252" y="116" text-anchor="middle">40~80%</text>
+  <text class="lb" x="252" y="140" text-anchor="middle">주식 비중</text>
+  <text class="sb" x="252" y="160" text-anchor="middle">설정 시점 기준</text>
+
+  <rect x="336" y="78" width="138" height="104" rx="8" fill="#fff" stroke="#e4dbcf" stroke-width="1.5"/>
+  <text class="num" x="405" y="116" text-anchor="middle">20% 이내</text>
+  <text class="lb" x="405" y="140" text-anchor="middle">비우량 채권</text>
+  <text class="sb" x="405" y="160" text-anchor="middle">투자적격등급 외</text>
+  <text class="sb" x="405" y="175" text-anchor="middle">전체 투자자산 대비</text>
+
+  <rect x="489" y="78" width="138" height="104" rx="8" fill="#fff" stroke="#e4dbcf" stroke-width="1.5"/>
+  <text class="num" x="558" y="112" text-anchor="middle">20%·60%</text>
+  <text class="lb" x="558" y="136" text-anchor="middle">안전자산 하한</text>
+  <text class="sb" x="558" y="156" text-anchor="middle">적립기 20% 이상</text>
+  <text class="sb" x="558" y="171" text-anchor="middle">목표시점 이후 60% 이상</text>
+
+  <rect x="642" y="78" width="88" height="104" rx="8" fill="#fff" stroke="#e4dbcf" stroke-width="1.5"/>
+  <text class="num" x="686" y="116" text-anchor="middle">80%</text>
+  <text class="lb" x="686" y="140" text-anchor="middle">이내</text>
+  <text class="sb" x="686" y="160" text-anchor="middle">특정 해외국가</text>
+  <text class="sb" x="686" y="175" text-anchor="middle">주식·채권 합산</text>
+
+  <path d="M380 192 L380 226" stroke="#7a7066" stroke-width="2" fill="none"/>
+  <path d="M374 220 L380 232 L386 220 Z" fill="#7a7066"/>
+
+  <rect x="140" y="236" width="480" height="62" rx="10" fill="#c2410c"/>
+  <text class="ok" x="380" y="264" text-anchor="middle" style="fill:#ffffff">퇴직연금 적립금의 100%까지 편입 가능</text>
+  <text class="sb" x="380" y="286" text-anchor="middle" style="fill:#ffe6d6">위험자산 70% 한도(이른바 30% 룰)를 적용받지 않음</text>
+
+  <rect x="140" y="312" width="480" height="48" rx="10" fill="#f6efe6" stroke="#e4dbcf" stroke-width="1.5"/>
+  <text class="lb" x="380" y="333" text-anchor="middle">한 칸이라도 못 맞추면</text>
+  <text class="sb" x="380" y="352" text-anchor="middle">일반 펀드와 같이 위험자산 70% 한도가 그대로 적용됩니다</text>
+</svg>
