@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" role="img" aria-label="전환가액이 내려갈 때 바꿔 받을 주식 수가 늘어나는 것을 보여주는 계산 예시. 100억원 전환사채에서 전환가액이 1만원이면 100만주, 8천원이면 125만주, 하한인 7천원이면 142만 8571주가 된다. 상장회사의 하락조정 하한은 최초 전환가액의 70퍼센트다">
+  <rect width="760" height="360" fill="#ffffff"/>
+  <style>
+    text{font-family:'Pretendard',system-ui,sans-serif;fill:#2a2521}
+    .title{font-size:17px;font-weight:700}
+    .note{font-size:12px;fill:#7a7066}
+    .head{font-size:12.5px;font-weight:700;fill:#7a7066}
+    .cell{font-size:14px;font-weight:700}
+    .big{font-size:22px;font-weight:900}
+    .src{font-size:11.5px;fill:#7a7066}
+  </style>
+
+  <text class="title" x="30" y="34">전환가액이 내려가면 바꿔 받을 주식 수가 늘어난다</text>
+  <text class="note" x="30" y="56">계산 예시 · 전환사채 100억원 · 최초 전환가액 1만원으로 가정 · 실제 발행 건의 수치가 아니다</text>
+
+  <line x1="30" y1="96" x2="730" y2="96" stroke="#e8e2d6" stroke-width="1.5"/>
+  <text class="head" x="52" y="88">전환가액</text>
+  <text class="head" x="300" y="88">최초 전환가액 대비</text>
+  <text class="head" x="520" y="88">바꿔 받을 주식 수</text>
+
+  <text class="cell" x="52" y="134">1만원</text>
+  <text class="cell" x="300" y="134" style="fill:#7a7066">100%</text>
+  <text class="big" x="520" y="138" style="fill:#7a7066">100만주</text>
+  <line x1="30" y1="156" x2="730" y2="156" stroke="#f0ece3" stroke-width="1"/>
+
+  <text class="cell" x="52" y="194">8,000원</text>
+  <text class="cell" x="300" y="194" style="fill:#7a7066">80%</text>
+  <text class="big" x="520" y="198" style="fill:#2a2521">125만주</text>
+  <line x1="30" y1="216" x2="730" y2="216" stroke="#f0ece3" stroke-width="1"/>
+
+  <rect x="30" y="226" width="700" height="62" rx="6" fill="#fdf0e6" stroke="#f4a97b" stroke-width="1.5"/>
+  <text class="cell" x="52" y="256">7,000원</text>
+  <text class="src" x="52" y="276">더는 못 내려간다</text>
+  <text class="cell" x="300" y="256" style="fill:#c2410c">70% — 하락조정 하한</text>
+  <text class="big" x="520" y="262" style="fill:#c2410c">142만 8,571주</text>
+
+  <text class="note" x="30" y="318">상장회사는 시가 변동에 따른 하락조정을 최초 전환가액의 70%까지만 할 수 있다. 그 아래로 내리려면 발행 건마다</text>
+  <text class="note" x="30" y="338">주주총회 특별결의가 필요하다. 출처: 증권의 발행 및 공시 등에 관한 규정 제5-23조 · 금융위원회 2024년 규정 개정</text>
+</svg>
