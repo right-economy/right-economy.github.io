@@ -62,11 +62,14 @@ class Meta(HTMLParser):
         # 못 본다 — 깨진 JSON-LD 는 검색엔진이 블록 전체를 버리는데 개수는 1 이다.
         self.ldjson = []
         self._in_ldjson = False
+        self.lang = None
         self.internal_hrefs = []
 
     def handle_starttag(self, tag, attrs):
         a = dict(attrs)
-        if tag == "title":
+        if tag == "html":
+            self.lang = a.get("lang")
+        elif tag == "title":
             self._in_title = True
         elif tag == "meta":
             name = (a.get("name") or "").lower()
@@ -146,6 +149,9 @@ def _ldjson_nodes(blocks):
                 if isinstance(n, dict):
                     nodes.append(n)
     return nodes, broken
+
+
+ARTICLE_TYPES = ("Article", "BlogPosting", "NewsArticle")
 
 
 def check_breadcrumb(m):
@@ -228,20 +234,64 @@ def check_page(m):
         out.append(("img-no-alt", "alt 속성 없는 img %d개 (전체 %d)" % (m.img_no_alt, m.img_total)))
 
     out += check_breadcrumb(m)
+    out += check_identity(m)
     return out
 
 
-GOOD = """<!doctype html><html><head>
+def check_identity(m):
+    """같은 페이지를 가리키는 주소 셋이 같은 자리를 가리키나.
+
+    canonical(검색결과) · og:url(공유 카드) · Article mainEntityOfPage(리치
+    스니펫) 셋이 어긋나면 **태그는 전부 있는 채로** 서로 다른 자리를 가리킨다.
+    「있나」만 세는 검사로는 영영 안 보인다. 빵가루 검사가 「블록이 있나」에서
+    「해석되는 모양인가」로 간 것과 같은 자리다.
+
+    끝 슬래시는 같은 자리의 두 표기라 벗겨서 비교한다.
+    """
+    out = []
+
+    og_url = (m.og.get("og:url") or "").strip()
+    if m.canonical and og_url and m.canonical.rstrip("/") != og_url.rstrip("/"):
+        out.append(("ogurl-ne-canonical",
+                    "og:url 과 canonical 이 다른 자리를 가리킨다: og=%s / canonical=%s"
+                    % (og_url, m.canonical)))
+
+    # lang 이 없으면 크롤러와 스크린리더가 언어를 추측한다. 한국어 본문에 영어로
+    # 추측이 붙으면 검색결과에서 번역본처럼 취급될 수 있다.
+    if m.lang is None:
+        out.append(("lang-missing", "<html> 에 lang 속성이 없다"))
+    elif not m.lang.strip().lower().startswith("ko"):
+        out.append(("lang-unexpected", "<html lang> 이 ko 계열이 아니다: %s" % m.lang))
+
+    nodes, _broken = _ldjson_nodes(m.ldjson)
+    for node in [n for n in nodes if n.get("@type") in ARTICLE_TYPES]:
+        headline = (node.get("headline") or "").strip()
+        if headline and (m.title or "") and headline not in m.title:
+            out.append(("headline-ne-title",
+                        "Article headline 이 <title> 안에 없다: headline=%s / title=%s"
+                        % (headline, m.title)))
+        moe = node.get("mainEntityOfPage")
+        moe_url = moe.get("@id") if isinstance(moe, dict) else moe
+        if moe_url and m.canonical and str(moe_url).rstrip("/") != m.canonical.rstrip("/"):
+            out.append(("moe-ne-canonical",
+                        "mainEntityOfPage 가 canonical 과 다르다: %s / canonical=%s"
+                        % (moe_url, m.canonical)))
+    return out
+
+
+GOOD = """<!doctype html><html lang="ko"><head>
 <title>좋은 제목</title>
 <meta name="description" content="It's a description with an apostrophe and \"quotes\"">
 <link rel="canonical" href="https://right-economy.com/posts/x/">
 <meta property="og:title" content="t"><meta property="og:description" content="d">
-<meta property="og:url" content="u"><meta property="og:image" content="i">
+<meta property="og:url" content="https://right-economy.com/posts/x"><meta property="og:image" content="i">
 <meta name="twitter:card" content="summary_large_image">
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[
 {"@type":"BreadcrumbList","itemListElement":[
 {"@type":"ListItem","position":1,"name":"홈","item":{"@id":"https://right-economy.com/"}},
-{"@type":"ListItem","position":2,"name":"글"}]}]}</script>
+{"@type":"ListItem","position":2,"name":"글"}]},
+{"@type":"Article","headline":"좋은 제목",
+"mainEntityOfPage":{"@type":"WebPage","@id":"https://right-economy.com/posts/x/"}}]}</script>
 </head><body><h1>제목</h1><h2>소제목</h2><h3>더 안</h3><h2>소제목2</h2>
 <img src="a.svg" alt="설명"><img src="b.svg" alt=""></body></html>"""
 
@@ -253,6 +303,22 @@ BAD = """<!doctype html><html><head>
 {"@type":"ListItem","position":5,"name":"글"}]}</script>
 <script type="application/ld+json">{"@type":"BreadcrumbList", 이건 JSON 이 아니다}</script>
 </head><body><h1>a</h1><h1>b</h1><h4>c</h4><img src="a.svg"></body></html>"""
+
+# 세 번째 표본. BAD 와 합칠 수 없다 — BAD 는 title 이 비어야 `title-missing` 이
+# 걸리는데 headline 대조는 **title 이 있어야** 할 수 있는 검사다. 한 장에 몰면
+# 둘 중 하나가 반드시 못 걸리고, 그 자리는 조용히 0건으로 남는다.
+# JSON-LD 모양도 GOOD(@graph) 과 갈라 최상위 배열로 둬서 둘 다 읽히는지 본다.
+BAD_IDENTITY = """<!doctype html><html lang="en"><head>
+<title>진짜 제목</title>
+<meta name="description" content="설명">
+<link rel="canonical" href="https://right-economy.com/posts/a/">
+<meta property="og:title" content="t"><meta property="og:description" content="d">
+<meta property="og:url" content="https://right-economy.com/posts/b/">
+<meta property="og:image" content="i">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">[{"@type":"Article","headline":"다른 헤드라인",
+"mainEntityOfPage":{"@type":"WebPage","@id":"https://right-economy.com/posts/c/"}}]</script>
+</head><body><h1>제목</h1><h2>소제목</h2><img src="a.svg" alt=""></body></html>"""
 
 
 SITEMAP_NS = {"s": "http://www.sitemaps.org/schemas/sitemap/0.9"}
@@ -444,6 +510,26 @@ def _normalize_href(href):
 #    링크하지 않는 게 정상이며 JSON-LD 가 없는 게 맞다. 같이 세면 「고아 1건·
 #    JSON-LD 누락 1건」이 매번 찍혀서, 다음 사람이 그 2건을 기준선으로 알고
 #    진짜 결함을 같이 묻는다. (is_page 가 google 소유확인 파일을 뺀 것과 같은 이유)
+def _asset_target(url):
+    """공유 카드 이미지 주소를 dist 안의 자리로 바꾼다.
+
+    사이트 밖이거나 파일로 떨어지지 않는 모양(`data:`·프로토콜 상대 `//host/…`)
+    이면 None 을 돌려준다. **「없는 파일」과 「밖을 가리킨다」를 섞지 않는다** —
+    앞은 오타고 뒤는 의도일 수 있어서 조치가 다르다.
+    """
+    url = url.split("#")[0].split("?")[0]
+    pr = urlparse(url)
+    if pr.scheme in ("http", "https"):
+        if not url.startswith(SITE):
+            return None
+        path = pr.path
+    elif not pr.scheme and not pr.netloc and url.startswith("/"):
+        path = url
+    else:
+        return None
+    return unquote(path) or None
+
+
 def check_links(dist):
     """유입 그래프와 글 페이지의 구조화 데이터. 못 쟀으면 「모름」으로 올린다."""
     out = []
@@ -490,6 +576,26 @@ def check_links(dist):
                     "가리키는 자리가 dist 에 없다: %s ← %d곳 (예: %s)"
                     % (target, len(srcs), srcs[0])))
 
+    # 공유 카드 이미지. **태그가 있는지는 페이지 검사가 보고, 여기서는 그 주소가
+    # dist 안의 실제 파일로 떨어지는지를 본다.** 경로 오타 하나로 카드가 빈 채
+    # 나가는데 태그는 그대로 남아서 페이지 검사로는 영영 안 걸린다. 깨진 내부
+    # 링크 검사와 같은 축인데 `<a href>` 가 아니라 meta 라서 그쪽에도 안 걸린다.
+    for route in sorted(routes):
+        m = routes[route]
+        for key in ("og:image", "twitter:image"):
+            raw = (m.og.get(key) or m.twitter.get(key) or "").strip()
+            if not raw:
+                continue
+            target = _asset_target(raw)
+            if target is None:
+                out.append(("social-image-offsite",
+                            "%s 가 %s 안의 파일을 가리키지 않는다: %s ← %s"
+                            % (key, SITE, raw, route)))
+            elif target not in assets:
+                out.append(("social-image-missing",
+                            "%s 가 가리키는 파일이 dist 에 없다: %s ← %s"
+                            % (key, raw, route)))
+
     for route in sorted(routes):
         if not route.startswith("/posts/"):
             continue
@@ -533,7 +639,7 @@ def _fixture(root, thin_noindex, thin_in_sitemap, post_b_noindex):
     return dist, posts
 
 
-def _link_fixture(root, b_linked, b_jsonld, dead_link=False):
+def _link_fixture(root, b_linked, b_jsonld, dead_link=False, bad_social=False):
     """유입 그래프 표본. 양성 쪽은 href 모양을 일부러 어긋나게 적는다 —
     `/posts/a`(끝 슬래시 없음)·`/posts/b/#요약`(앵커 붙음)으로 걸어서,
     정규화가 깨지면 **양성 표본이 고아로 잡히며** 바로 드러나게 둔다.
@@ -542,13 +648,19 @@ def _link_fixture(root, b_linked, b_jsonld, dead_link=False):
     링크 검사가 라우트만 타깃으로 보면 멀쩡한 자산 링크가 전부 걸리는데,
     그 과민이 여기서 드러난다."""
     dist = os.path.join(root, "dist")
+    # 양성 쪽 og:image 는 **실제로 만드는 파일**을 절대 URL 로 가리킨다. 공유 카드
+    # 검사가 SITE 접두어를 못 벗기면 멀쩡한 1,045장이 전부 걸리는데, 그 과민이
+    # 여기서 드러난다.
+    social = '<meta property="og:image" content="%s/%s">' % (
+        SITE, "ghost.png" if bad_social else "og-default.png")
 
     def page(relpath, body, jsonld):
         d = os.path.join(dist, relpath) if relpath else dist
         os.makedirs(d, exist_ok=True)
         ld = '<script type="application/ld+json">{}</script>' if jsonld else ""
         open(os.path.join(d, "index.html"), "w", encoding="utf-8").write(
-            "<!doctype html><html><head>%s</head><body>%s</body></html>" % (ld, body))
+            "<!doctype html><html><head>%s%s</head><body>%s</body></html>"
+            % (social, ld, body))
 
     links = '<a href="/posts/a">가</a><a href="/og-default.png">그림</a>'
     if b_linked:
@@ -581,8 +693,10 @@ def selftest_links():
     root = tempfile.mkdtemp(prefix="seoaudit-link-bad-")
     try:
         fired = set(i for i, _ in check_links(
-            _link_fixture(root, b_linked=False, b_jsonld=False, dead_link=True)))
-        missing = {"orphan-post", "jsonld-missing", "dead-internal-link"} - fired
+            _link_fixture(root, b_linked=False, b_jsonld=False, dead_link=True,
+                          bad_social=True)))
+        missing = {"orphan-post", "jsonld-missing", "dead-internal-link",
+                   "social-image-missing"} - fired
         if missing:
             problems.append("음성 표본에서 안 걸린 검사(둔감): %s" % sorted(missing))
     finally:
@@ -666,12 +780,17 @@ def selftest():
     """
     good_issues = check_page(parse(GOOD))
     bad_ids = set(i for i, _ in check_page(parse(BAD)))
+    bad_ids |= set(i for i, _ in check_page(parse(BAD_IDENTITY)))
     must_fire = {
         "title-missing", "desc-missing", "canonical-not-site",
         "og-missing", "twitter-missing", "h1-multi", "img-no-alt",
         "heading-skip",
         # 2026-10-24 추가. 빵가루는 「블록이 있나」가 아니라 「해석되는 모양인가」를 본다.
         "jsonld-broken", "breadcrumb-position", "breadcrumb-item",
+        # 2026-10-27 추가. 같은 자리를 가리켜야 하는 주소 셋과 lang.
+        # 음성 표본은 BAD_IDENTITY 쪽이다.
+        "ogurl-ne-canonical", "lang-unexpected",
+        "headline-ne-title", "moe-ne-canonical",
     }
     problems = []
     if good_issues:
