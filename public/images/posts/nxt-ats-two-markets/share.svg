@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 320" role="img" aria-label="2026년 10월 1일부터 23일까지 한국거래소와 넥스트레이드의 하루 평균 거래대금을 가로 누적 막대로 비교한 그래프. 한국거래소가 27조 6290억원으로 70.7퍼센트, 넥스트레이드가 11조 4750억원으로 29.3퍼센트다. 넥스트레이드 몫은 직전 33퍼센트에서 29퍼센트로 낮아졌다">
+  <rect width="760" height="320" fill="#ffffff"/>
+  <style>
+    text{font-family:'Pretendard',system-ui,sans-serif;fill:#2a2521}
+    .title{font-size:17px;font-weight:700}
+    .note{font-size:12px;fill:#7a7066}
+    .val{font-size:14px;font-weight:900;fill:#ffffff}
+    .cat{font-size:13px;font-weight:700}
+    .pct{font-size:22px;font-weight:900}
+  </style>
+
+  <text class="title" x="30" y="34">국내 주식 거래대금의 10분의 3이 대체거래소에서 돈다</text>
+  <text class="note" x="30" y="56">하루 평균 거래대금 · 단위: 조원 · 기준: 2026년 10월 1~23일 · 출처: 서울경제TV(2026.10.26)</text>
+
+  <rect x="30" y="100" width="516" height="56" rx="5" fill="#7a7066"/>
+  <rect x="546" y="100" width="214" height="56" rx="5" fill="#c2410c"/>
+  <text class="val" x="48" y="135">27조 6,290억원</text>
+  <text class="val" x="562" y="135">11조 4,750억원</text>
+
+  <text class="cat" x="30" y="186">한국거래소</text>
+  <text class="pct" x="30" y="214" style="fill:#7a7066">70.7%</text>
+  <text class="cat" x="546" y="186">넥스트레이드</text>
+  <text class="pct" x="546" y="214" style="fill:#c2410c">29.3%</text>
+
+  <text class="note" x="30" y="256">넥스트레이드 몫은 직전 33%에서 29%로 낮아졌다. 같은 기간 거래량은 1년 전보다 55% 줄었고,</text>
+  <text class="note" x="30" y="276">거래의 약 80%를 차지하던 개인 거래가 24% 빠진 것이 이유로 꼽혔다.</text>
+  <text class="note" x="30" y="300">한국거래소 하루 평균은 26조 9,700억원에서 27조 6,290억원으로 늘었다.</text>
+</svg>

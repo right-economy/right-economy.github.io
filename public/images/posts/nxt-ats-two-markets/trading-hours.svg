@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" role="img" aria-label="한국거래소와 넥스트레이드의 거래시간을 가로 띠로 비교한 도식. 한국거래소 정규장은 오전 9시부터 오후 3시 30분까지 한 구간이다. 넥스트레이드는 세 구간으로 나뉘어 프리마켓이 오전 8시부터 8시 50분, 메인마켓이 오전 9시 00분 30초부터 오후 3시 20분, 애프터마켓이 오후 3시 40분부터 밤 8시까지다. 넥스트레이드 쪽이 아침에 한 시간 먼저 열리고 저녁에 네 시간 반 늦게 닫는다">
+  <rect width="760" height="300" fill="#ffffff"/>
+  <style>
+    text{font-family:'Pretendard',system-ui,sans-serif;fill:#2a2521}
+    .title{font-size:17px;font-weight:700}
+    .note{font-size:12px;fill:#7a7066}
+    .axis{font-size:11.5px;fill:#7a7066;text-anchor:middle}
+    .cat{font-size:13px;font-weight:700}
+    .seg{font-size:11.5px;font-weight:700;fill:#ffffff}
+    .segd{font-size:11.5px;font-weight:700;fill:#2a2521}
+  </style>
+
+  <text class="title" x="30" y="34">저녁 8시까지 열려 있는 시장이 따로 있다</text>
+  <text class="note" x="30" y="56">한국거래소와 넥스트레이드의 정규 거래시간 · 기준: 넥스트레이드 시장안내(2026년 10월 조회)</text>
+
+  <line x1="150" y1="226" x2="740" y2="226" stroke="#c9bfae" stroke-width="1.5"/>
+  <text class="axis" x="150" y="246">08</text>
+  <text class="axis" x="248" y="246">10</text>
+  <text class="axis" x="347" y="246">12</text>
+  <text class="axis" x="445" y="246">14</text>
+  <text class="axis" x="543" y="246">16</text>
+  <text class="axis" x="642" y="246">18</text>
+  <text class="axis" x="740" y="246">20</text>
+
+  <text class="cat" x="30" y="117">한국거래소</text>
+  <rect x="199" y="98" width="320" height="30" rx="4" fill="#7a7066"/>
+  <text class="seg" x="211" y="118">09:00 ~ 15:30</text>
+
+  <text class="cat" x="30" y="183">넥스트레이드</text>
+  <rect x="150" y="164" width="41" height="30" rx="4" fill="#f4a97b"/>
+  <text class="segd" x="150" y="156">08:00</text>
+  <rect x="200" y="164" width="311" height="30" rx="4" fill="#c2410c"/>
+  <text class="seg" x="212" y="184">09:00:30 ~ 15:20</text>
+  <rect x="527" y="164" width="213" height="30" rx="4" fill="#f4a97b"/>
+  <text class="segd" x="539" y="184">15:40 ~ 20:00</text>
+
+  <text class="note" x="30" y="278">주황 연한 칸이 프리마켓과 애프터마켓이다. 한국거래소가 닫은 뒤에도 넥스트레이드에서는 4시간 20분 더 거래된다.</text>
+</svg>
