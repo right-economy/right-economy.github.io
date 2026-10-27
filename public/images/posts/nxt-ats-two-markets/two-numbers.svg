@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 320" role="img" aria-label="2026년 10월 26일 외국인 순매도 금액이 집계 기준에 따라 다르게 보도된 것을 비교한 도식. 유가증권시장만 센 기준은 6955억원이고 코스피와 대체거래소를 합친 기준은 7531억원이다. 두 숫자의 차이는 576억원이다">
+  <rect width="760" height="320" fill="#ffffff"/>
+  <style>
+    text{font-family:'Pretendard',system-ui,sans-serif;fill:#2a2521}
+    .title{font-size:17px;font-weight:700}
+    .note{font-size:12px;fill:#7a7066}
+    .box{font-size:13px;font-weight:700}
+    .big{font-size:30px;font-weight:900}
+    .src{font-size:11.5px;fill:#7a7066}
+    .gap{font-size:14px;font-weight:900;fill:#c2410c}
+  </style>
+
+  <text class="title" x="30" y="34">같은 날 같은 항목인데 숫자가 둘이다</text>
+  <text class="note" x="30" y="56">외국인 순매도 금액 · 단위: 억원 · 기준: 2026년 10월 26일 종가 · 출처: 서울신문·아시아투데이 / 뉴스핌</text>
+
+  <rect x="30" y="92" width="330" height="140" rx="6" fill="#faf7f1" stroke="#e8e2d6" stroke-width="1.5"/>
+  <text class="box" x="52" y="122">유가증권시장만 센 기준</text>
+  <text class="big" x="52" y="170" style="fill:#7a7066">6,955억원</text>
+  <text class="src" x="52" y="200">한국거래소 유가증권시장 체결분</text>
+  <text class="src" x="52" y="219">서울신문·아시아투데이</text>
+
+  <rect x="400" y="92" width="330" height="140" rx="6" fill="#fdf0e6" stroke="#f4a97b" stroke-width="1.5"/>
+  <text class="box" x="422" y="122">코스피와 대체거래소를 합친 기준</text>
+  <text class="big" x="422" y="170" style="fill:#c2410c">7,531억원</text>
+  <text class="src" x="422" y="200">위 체결분에 넥스트레이드 체결분을 더함</text>
+  <text class="src" x="422" y="219">뉴스핌</text>
+
+  <text class="gap" x="30" y="264">두 숫자의 차이 576억원</text>
+  <text class="note" x="30" y="290">둘 다 틀린 숫자가 아니다. 어디까지 세었는지를 적어두지 않으면 어제 수치와 오늘 수치를 나란히 둘 때 어긋난다.</text>
+</svg>
