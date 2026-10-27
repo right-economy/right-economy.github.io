@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 390" role="img" aria-label="실제 전환사채 발행결정 공시 한 건의 조건을 정리한 표. 발행금액 100억원, 표면이자율 0퍼센트, 만기이자율 7퍼센트, 만기일 2029년 11월 12일, 전환가액 1만 2193원, 전환가능 주식수 82만 142주로 발행주식총수의 6.04퍼센트, 전환청구 기간은 2027년 11월 12일부터 2029년 11월 11일까지, 매도청구권은 사채금액의 45퍼센트인 45억원 범위다">
+  <rect width="760" height="390" fill="#ffffff"/>
+  <style>
+    text{font-family:'Pretendard',system-ui,sans-serif;fill:#2a2521}
+    .title{font-size:17px;font-weight:700}
+    .note{font-size:12px;fill:#7a7066}
+    .k{font-size:13px;fill:#7a7066}
+    .v{font-size:14px;font-weight:700}
+    .vo{font-size:14px;font-weight:900;fill:#c2410c}
+  </style>
+
+  <text class="title" x="30" y="34">공시 한 건에 적혀 있는 조건</text>
+  <text class="note" x="30" y="56">코스닥 상장사 핑거 · 사모 전환사채 · 주요사항보고서(전환사채권발행결정) · 2026년 10월 27일 공시</text>
+
+  <rect x="30" y="80" width="700" height="250" rx="6" fill="#faf7f1" stroke="#e8e2d6" stroke-width="1.5"/>
+
+  <text class="k" x="56" y="112">발행 금액</text>
+  <text class="v" x="300" y="112">100억원</text>
+  <line x1="56" y1="128" x2="704" y2="128" stroke="#ebe5da" stroke-width="1"/>
+
+  <text class="k" x="56" y="152">표면이자율 / 만기이자율</text>
+  <text class="vo" x="300" y="152">0% / 7%</text>
+  <line x1="56" y1="168" x2="704" y2="168" stroke="#ebe5da" stroke-width="1"/>
+
+  <text class="k" x="56" y="192">만기일</text>
+  <text class="v" x="300" y="192">2029년 11월 12일</text>
+  <line x1="56" y1="208" x2="704" y2="208" stroke="#ebe5da" stroke-width="1"/>
+
+  <text class="k" x="56" y="232">전환가액</text>
+  <text class="v" x="300" y="232">1주당 12,193원</text>
+  <line x1="56" y1="248" x2="704" y2="248" stroke="#ebe5da" stroke-width="1"/>
+
+  <text class="k" x="56" y="272">전환가능 주식 수</text>
+  <text class="vo" x="300" y="272">820,142주 — 발행주식총수의 6.04%</text>
+  <line x1="56" y1="288" x2="704" y2="288" stroke="#ebe5da" stroke-width="1"/>
+
+  <text class="k" x="56" y="312">전환청구 가능 기간</text>
+  <text class="v" x="300" y="312">2027년 11월 12일 ~ 2029년 11월 11일</text>
+
+  <text class="note" x="30" y="356">표면이자율이 0%라 해마다 들어오는 이자는 없다. 만기까지 들고 있으면 만기이자율 7%로 계산한 돈을 한 번에 받는다.</text>
+  <text class="note" x="30" y="376">매도청구권(콜옵션)은 사채금액의 45%인 45억원 범위이고 발행일부터 12개월~36개월 사이에 행사할 수 있다.</text>
+</svg>

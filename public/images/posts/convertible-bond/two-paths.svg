@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" role="img" aria-label="전환사채를 산 투자자가 고를 수 있는 두 갈래를 비교한 도식. 왼쪽은 만기까지 그대로 들고 있어 원금과 만기이자를 받는 길이고, 오른쪽은 전환청구 기간에 주식으로 바꾸는 길이다. 전환하면 회사의 주식 수가 늘어난다">
+  <rect width="760" height="300" fill="#ffffff"/>
+  <style>
+    text{font-family:'Pretendard',system-ui,sans-serif;fill:#2a2521}
+    .title{font-size:17px;font-weight:700}
+    .note{font-size:12px;fill:#7a7066}
+    .box{font-size:13px;font-weight:700}
+    .mid{font-size:14px;font-weight:900;fill:#c2410c}
+    .src{font-size:11.5px;fill:#7a7066}
+  </style>
+
+  <text class="title" x="30" y="34">전환사채를 산 쪽이 고르는 두 갈래</text>
+  <text class="note" x="30" y="56">가는 길의 구조만 그린 도식 · 금액·이자율은 발행 건마다 다름</text>
+
+  <rect x="286" y="84" width="188" height="44" rx="6" fill="#faf7f1" stroke="#e8e2d6" stroke-width="1.5"/>
+  <text class="box" x="380" y="112" text-anchor="middle">전환사채를 산다</text>
+
+  <path d="M380 128 L380 150 L140 150 L140 176" fill="none" stroke="#c9c2b6" stroke-width="1.5"/>
+  <path d="M380 128 L380 150 L620 150 L620 176" fill="none" stroke="#f4a97b" stroke-width="1.5"/>
+
+  <rect x="30" y="176" width="220" height="92" rx="6" fill="#faf7f1" stroke="#e8e2d6" stroke-width="1.5"/>
+  <text class="box" x="140" y="204" text-anchor="middle">만기까지 그대로 둔다</text>
+  <text class="src" x="140" y="228" text-anchor="middle">원금과 만기이자를 받는다</text>
+  <text class="src" x="140" y="248" text-anchor="middle">주식 수는 그대로다</text>
+
+  <rect x="510" y="176" width="220" height="92" rx="6" fill="#fdf0e6" stroke="#f4a97b" stroke-width="1.5"/>
+  <text class="box" x="620" y="204" text-anchor="middle">전환청구 기간에 바꾼다</text>
+  <text class="src" x="620" y="228" text-anchor="middle">정해진 전환가액으로 주식을 받는다</text>
+  <text class="src" x="620" y="248" text-anchor="middle">그만큼 주식 수가 늘어난다</text>
+
+  <text class="mid" x="380" y="222" text-anchor="middle">고르는 쪽은</text>
+  <text class="mid" x="380" y="242" text-anchor="middle">사채를 든 사람이다</text>
+</svg>
