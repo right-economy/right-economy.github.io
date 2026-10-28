@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" width="720" height="300" role="img" aria-label="경기종합지수를 읽는 순서를 네 칸으로 보여주는 도식. 매월 지수 발표에서 시작해 순환변동치를 보고, 한 달 변화의 방향과 폭을 확인한 뒤, 경기 정점과 저점은 통계청이 한참 뒤에 확정한다는 순서">
+  <style>
+    text{font-family:"Apple SD Gothic Neo","Noto Sans KR",sans-serif;fill:#333}
+    .num{font-size:13px;font-weight:700}
+    .hd{font-size:15px;font-weight:700}
+    .bd{font-size:12.5px}
+    .box{fill:#FFF6EF;stroke:#E8742C;stroke-width:1.5;rx:10}
+    .last{fill:#F4F4F4;stroke:#9A9A9A;stroke-width:1.5;rx:10}
+    .ar{stroke:#E8742C;stroke-width:2;fill:none}
+  </style>
+  <rect width="720" height="300" style="fill:#fff"/>
+
+  <rect class="box" x="30" y="40" width="190" height="96"/>
+  <text class="num" x="46" y="66" style="fill:#E8742C">1</text>
+  <text class="hd" x="46" y="90" style="fill:#333">매월 지수 발표</text>
+  <text class="bd" x="46" y="114" style="fill:#333">산업활동동향에 실린다</text>
+
+  <rect class="box" x="260" y="40" width="190" height="96"/>
+  <text class="num" x="276" y="66" style="fill:#E8742C">2</text>
+  <text class="hd" x="276" y="90" style="fill:#333">순환변동치를 본다</text>
+  <text class="bd" x="276" y="114" style="fill:#333">수준 말고 100 대비</text>
+
+  <rect class="box" x="490" y="40" width="200" height="96"/>
+  <text class="num" x="506" y="66" style="fill:#E8742C">3</text>
+  <text class="hd" x="506" y="90" style="fill:#333">한 달 변화의 방향</text>
+  <text class="bd" x="506" y="114" style="fill:#333">올랐나 내렸나, 얼마나</text>
+
+  <path class="ar" d="M220 88 L256 88"/><path class="ar" d="M248 82 L256 88 L248 94"/>
+  <path class="ar" d="M450 88 L486 88"/><path class="ar" d="M478 82 L486 88 L478 94"/>
+
+  <rect class="last" x="150" y="178" width="420" height="82"/>
+  <text class="num" x="170" y="204" style="fill:#555">4</text>
+  <text class="hd" x="170" y="226" style="fill:#333">경기 정점·저점(기준순환일)은 사후에 확정된다</text>
+  <text class="bd" x="170" y="248" style="fill:#333">지금이 정점인지는 지금 알 수 없다 — 한참 뒤에 통계청이 정한다</text>
+  <path class="ar" d="M360 136 L360 174"/><path class="ar" d="M354 166 L360 174 L366 166"/>
+</svg>
