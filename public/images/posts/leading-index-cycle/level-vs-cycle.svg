@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" width="720" height="340" role="img" aria-label="왼쪽은 추세가 섞인 지수 수준이 계속 우상향하는 선, 오른쪽은 추세를 걷어낸 순환변동치가 기준선 100 위아래로 오르내리는 선을 비교한 개념 도식">
+  <style>
+    text{font-family:"Apple SD Gothic Neo","Noto Sans KR",sans-serif;fill:#333}
+    .ttl{font-size:16px;font-weight:700}
+    .lbl{font-size:13px}
+    .cap{font-size:12px;fill:#777}
+    .ax{stroke:#ccc;stroke-width:1}
+    .base{stroke:#999;stroke-width:1;stroke-dasharray:5 4}
+    .ln{fill:none;stroke:#E8742C;stroke-width:3}
+  </style>
+  <rect width="720" height="340" style="fill:#fff"/>
+
+  <text class="ttl" x="40" y="34" style="fill:#333">지수 수준 — 계속 올라간다</text>
+  <line class="ax" x1="40" y1="250" x2="320" y2="250"/>
+  <line class="ax" x1="40" y1="70" x2="40" y2="250"/>
+  <path class="ln" d="M50 232 L95 220 L140 214 L185 192 L230 186 L275 160 L312 136"/>
+  <text class="lbl" x="40" y="272" style="fill:#333">시간 →</text>
+  <text class="cap" x="150" y="296" style="fill:#777">기준연도를 100으로 두고 쌓은 값</text>
+
+  <line class="ax" x1="360" y1="60" x2="360" y2="300"/>
+
+  <text class="ttl" x="400" y="34" style="fill:#333">순환변동치 — 100 위아래로 돈다</text>
+  <line class="ax" x1="400" y1="250" x2="690" y2="250"/>
+  <line class="ax" x1="400" y1="70" x2="400" y2="250"/>
+  <line class="base" x1="400" y1="160" x2="690" y2="160"/>
+  <text class="lbl" x="652" y="152" style="fill:#999">100</text>
+  <path class="ln" d="M410 186 L450 164 L490 134 L530 150 L570 182 L610 196 L650 170 L684 142"/>
+  <text class="lbl" x="400" y="272" style="fill:#333">시간 →</text>
+  <text class="cap" x="500" y="296" style="fill:#777">같은 지수에서 추세를 걷어낸 값</text>
+</svg>
