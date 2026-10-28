@@ -3,7 +3,7 @@
     text{font-family:"Apple SD Gothic Neo","Noto Sans KR",sans-serif;fill:#333}
     .ttl{font-size:16px;font-weight:700}
     .lbl{font-size:13px}
-    .cap{font-size:12px;fill:#777}
+    .cap{font-size:12px;fill:#757575}
     .ax{stroke:#ccc;stroke-width:1}
     .base{stroke:#999;stroke-width:1;stroke-dasharray:5 4}
     .ln{fill:none;stroke:#E8742C;stroke-width:3}
@@ -15,7 +15,7 @@
   <line class="ax" x1="40" y1="70" x2="40" y2="250"/>
   <path class="ln" d="M50 232 L95 220 L140 214 L185 192 L230 186 L275 160 L312 136"/>
   <text class="lbl" x="40" y="272" style="fill:#333">시간 →</text>
-  <text class="cap" x="150" y="296" style="fill:#777">기준연도를 100으로 두고 쌓은 값</text>
+  <text class="cap" x="150" y="296" style="fill:#757575">기준연도를 100으로 두고 쌓은 값</text>
 
   <line class="ax" x1="360" y1="60" x2="360" y2="300"/>
 
@@ -26,5 +26,5 @@
   <text class="lbl" x="652" y="152" style="fill:#999">100</text>
   <path class="ln" d="M410 186 L450 164 L490 134 L530 150 L570 182 L610 196 L650 170 L684 142"/>
   <text class="lbl" x="400" y="272" style="fill:#333">시간 →</text>
-  <text class="cap" x="500" y="296" style="fill:#777">같은 지수에서 추세를 걷어낸 값</text>
+  <text class="cap" x="500" y="296" style="fill:#757575">같은 지수에서 추세를 걷어낸 값</text>
 </svg>

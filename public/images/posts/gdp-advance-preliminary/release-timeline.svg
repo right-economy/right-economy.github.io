@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 260" width="720" height="260" role="img" aria-label="한 분기의 성장률이 발표되는 순서를 가로 띠로 보여주는 도식. 분기가 끝난 뒤 약 한 달 뒤 속보치, 약 두 달 반 뒤 잠정치, 이듬해 연간 확정, 몇 년에 한 번 기준년 개편 순서">
+  <style>
+    text{font-family:"Apple SD Gothic Neo","Noto Sans KR",sans-serif;fill:#333}
+    .hd{font-size:14.5px;font-weight:700}
+    .bd{font-size:12px}
+    .cap{font-size:11.5px;fill:#757575}
+    .line{stroke:#D9D9D9;stroke-width:3}
+    .dot{fill:#E8742C}
+    .dotg{fill:#9A9A9A}
+  </style>
+  <rect width="720" height="260" style="fill:#fff"/>
+
+  <text class="hd" x="30" y="36" style="fill:#333">한 분기 성장률이 고쳐지는 순서</text>
+
+  <line class="line" x1="46" y1="112" x2="676" y2="112"/>
+
+  <circle class="dot" cx="70" cy="112" r="8"/>
+  <text class="bd" x="46" y="146" style="fill:#333">분기 종료</text>
+  <text class="cap" x="46" y="166" style="fill:#757575">기준점</text>
+
+  <circle class="dot" cx="252" cy="112" r="8"/>
+  <text class="hd" x="212" y="92" style="fill:#333">속보치</text>
+  <text class="bd" x="212" y="146" style="fill:#333">약 1개월 뒤</text>
+  <text class="cap" x="212" y="166" style="fill:#757575">마지막 달 자료가</text>
+  <text class="cap" x="212" y="182" style="fill:#757575">덜 모인 상태</text>
+
+  <circle class="dot" cx="438" cy="112" r="8"/>
+  <text class="hd" x="398" y="92" style="fill:#333">잠정치</text>
+  <text class="bd" x="398" y="146" style="fill:#333">약 2개월 반 뒤</text>
+  <text class="cap" x="398" y="166" style="fill:#757575">자료가 더 들어온</text>
+  <text class="cap" x="398" y="182" style="fill:#757575">뒤 다시 계산</text>
+
+  <circle class="dotg" cx="620" cy="112" r="8"/>
+  <text class="hd" x="566" y="92" style="fill:#555">연간 확정 · 기준년 개편</text>
+  <text class="bd" x="566" y="146" style="fill:#333">이듬해 이후</text>
+  <text class="cap" x="566" y="166" style="fill:#757575">과거 수치까지</text>
+  <text class="cap" x="566" y="182" style="fill:#757575">같이 바뀐다</text>
+
+  <text class="cap" x="46" y="226" style="fill:#757575">발표 시점은 통상 간격이며 분기마다 며칠씩 다르다 · 출처: 한국은행 국민계정 공표 체계</text>
+</svg>
