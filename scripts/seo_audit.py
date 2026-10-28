@@ -606,6 +606,52 @@ def check_links(dist):
     return out
 
 
+# 본문 링크는 **원고(.md)에서 읽는다.** dist 에서는 템플릿이 단 링크(로고·목록으로·
+# 관련 글·이전/다음)와 사람이 본문에 단 링크가 같은 `<a href>` 로 섞여서, 본문 링크만
+# 골라내려면 마크업 구조에 기대야 한다. 원고에는 본문 링크만 있다.
+MD_LINK = re.compile(r"\[([^\]\n]{1,200})\]\((/[^)\s]*)\)")
+
+
+def check_sources(posts_dir):
+    """원고 본문의 내부 링크가 **약속한 자리로 떨어지나.**
+
+    🔴 `](/)` 는 dist 검사로 영영 안 보인다. 홈은 실재하는 라우트라
+    `dead-internal-link` 에 안 걸리고, 템플릿의 로고·「목록으로」가 같은 주소를
+    쓰니 페이지 검사로도 못 가른다. 유입 그래프에서는 **홈의 inbound 가 늘어나
+    오히려 건강해 보인다.** 앵커는 주제를 약속하는데 독자는 홈으로 떨어진다.
+    2026-10-28 실측: `what-is-stagflation` 2건(앵커 「기준금리를 올려」·「분산」).
+    그 글의 본문 링크는 그 둘이 전부여서 **내보내는 링크가 사실상 0이었다.**
+
+    못 읽으면 0건이 아니라 「모름」으로 올린다.
+    """
+    out = []
+    if not os.path.isdir(posts_dir):
+        out.append(("sources-unreadable",
+                    "원고 디렉터리를 못 읽었다 — 본문 링크를 못 쟀다(0건이 아니라 모름): %s" % posts_dir))
+        return out
+    names = [n for n in sorted(os.listdir(posts_dir)) if n.endswith(".md")]
+    if not names:
+        out.append(("sources-unreadable",
+                    "원고를 한 편도 못 찾았다 — 본문 링크를 못 쟀다(0건이 아니라 모름): %s" % posts_dir))
+        return out
+    slugs = set(n[:-3] for n in names)
+    for name in names:
+        with open(os.path.join(posts_dir, name), encoding="utf-8") as fh:
+            raw = fh.read()
+        for m in MD_LINK.finditer(raw):
+            text, url = m.group(1), m.group(2)
+            if url == "/":
+                out.append(("body-link-to-home",
+                            "본문 링크가 홈으로 떨어진다 — 앵커가 약속한 자리가 아니다: "
+                            "[%s](/) ← %s" % (text, name)))
+            elif url.startswith("/posts/"):
+                slug = url[len("/posts/"):].strip("/")
+                if slug and slug not in slugs:
+                    out.append(("body-link-dead-slug",
+                                "본문 링크가 없는 글을 가리킨다: [%s](%s) ← %s" % (text, url, name)))
+    return out
+
+
 # 사이트 레벨 검사의 양성·음성 표본. 페이지 한 장이 아니라 **디렉터리 모양**이
 # 입력이라 임시 폴더로 만든다.
 def _fixture(root, thin_noindex, thin_in_sitemap, post_b_noindex):
@@ -756,6 +802,47 @@ SITEMAP_EMPTY = (
 )
 
 
+def _source_fixture(root, broken):
+    """원고 디렉터리 표본. 입력이 **파일 모양**이라 임시 폴더로 만든다."""
+    posts = os.path.join(root, "posts")
+    os.makedirs(posts)
+    with open(os.path.join(posts, "a.md"), "w", encoding="utf-8") as fh:
+        fh.write("본문에서 [금리](/posts/b/)를 건다.\n")
+    body = "둘째 글.\n"
+    if broken:
+        # 두 결함을 한 파일에 같이 둔다 — 서로 다른 id 라 섞여도 안 가려진다.
+        body += "[기준금리를 올려](/) 하고 [없는 글](/posts/zzz/)도 건다.\n"
+    with open(os.path.join(posts, "b.md"), "w", encoding="utf-8") as fh:
+        fh.write(body)
+    return posts
+
+
+def selftest_sources():
+    """원고 검사 점검. 양성·음성·「모름」 셋을 같은 실행에서 본다.
+
+    🔴 「모름」 표본이 따로 있는 이유 — 경로가 틀렸을 때 0건이 나오면 그 0 이
+    「본문 링크가 멀쩡하다」로 읽힌다. 조회 실패는 값이 아니다.
+    """
+    problems = []
+    tmp = tempfile.mkdtemp()
+    try:
+        good = _source_fixture(os.path.join(tmp, "good"), broken=False)
+        bad = _source_fixture(os.path.join(tmp, "bad"), broken=True)
+        good_issues = check_sources(good)
+        if good_issues:
+            problems.append("원고 양성 표본이 걸렸다(과민): %s" % [i for i, _ in good_issues])
+        bad_ids = set(i for i, _ in check_sources(bad))
+        for need in ("body-link-to-home", "body-link-dead-slug"):
+            if need not in bad_ids:
+                problems.append("원고 음성 표본에서 %s 가 안 걸렸다(둔감)" % need)
+        unknown = set(i for i, _ in check_sources(os.path.join(tmp, "nope")))
+        if "sources-unreadable" not in unknown:
+            problems.append("없는 원고 경로가 「모름」으로 안 올라왔다(0건으로 묻힌다)")
+    finally:
+        shutil.rmtree(tmp, ignore_errors=True)
+    return problems
+
+
 def selftest_locs():
     """loc 추출기 점검. **실제로 쓰이는 경로를 잰다** — 이 맥에서는 expat 이
     없어서 fallback 이 본선이다. expat 이 있는 환경에서는 두 경로가 같은 답을
@@ -801,6 +888,7 @@ def selftest():
     problems.extend(selftest_locs())
     problems.extend(selftest_site())
     problems.extend(selftest_links())
+    problems.extend(selftest_sources())
     return problems
 
 
@@ -812,7 +900,8 @@ def main():
             print("   " + p)
         return 2
     print("✅ 자체 점검 통과 (페이지·사이트·유입그래프 검사 각각 양성 1본 무이슈 · "
-          "음성 1본 전 검사 발화 · 빈 dist 는 「모름」 · loc 추출기 %s 경로)"
+          "음성 1본 전 검사 발화 · 빈 dist·없는 원고는 「모름」 · 원고 본문 링크 축 포함 · "
+          "loc 추출기 %s 경로)"
           % ("ET" if _expat_ok() else "순수 파이썬 fallback"))
 
     dist = sys.argv[1] if len(sys.argv) > 1 else "dist"
@@ -853,6 +942,9 @@ def main():
         by_issue[issue_id].append(("(사이트 전체)", msg))
     for issue_id, msg in check_links(dist):
         by_issue[issue_id].append(("(사이트 전체)", msg))
+    # dist 가 아니라 원고를 읽는 축. dist 쪽 검사로는 안 보이는 자리다(함수 주석 참조).
+    for issue_id, msg in check_sources(os.path.join("src", "content", "posts")):
+        by_issue[issue_id].append(("(원고)", msg))
 
     dup_titles = dict((k, v) for k, v in titles.items() if len(v) > 1)
     dup_descs = dict((k, v) for k, v in descs.items() if len(v) > 1)
