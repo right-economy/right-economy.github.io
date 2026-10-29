@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="300" viewBox="0 0 720 300" role="img" aria-label="ROE는 당기순이익을 자기자본으로 나눈 값이며, 순이익 800억 원을 자기자본 1조 원으로 나누면 8퍼센트가 된다">
+  <rect width="720" height="300" fill="#fbfbfd"/>
+  <text x="24" y="38" font-family="-apple-system,'Apple SD Gothic Neo',sans-serif" font-size="19" font-weight="700" fill="#1a2540">ROE는 무엇을 무엇으로 나눈 값인가</text>
+  <rect x="24" y="66" width="400" height="160" rx="12" fill="#ffffff" stroke="#dfe4ec"/>
+  <text x="48" y="104" font-family="-apple-system,'Apple SD Gothic Neo',sans-serif" font-size="14" fill="#8c95a6">분자 · 1년 동안 번 돈</text>
+  <text x="48" y="132" font-family="-apple-system,'Apple SD Gothic Neo',sans-serif" font-size="17" fill="#1a2540">당기순이익 800억 원</text>
+  <line x1="48" y1="152" x2="400" y2="152" stroke="#1f4fd8" stroke-width="2"/>
+  <text x="48" y="178" font-family="-apple-system,'Apple SD Gothic Neo',sans-serif" font-size="14" fill="#8c95a6">분모 · 주주가 넣어둔 돈</text>
+  <text x="48" y="206" font-family="-apple-system,'Apple SD Gothic Neo',sans-serif" font-size="17" fill="#1a2540">자기자본 1조 원</text>
+  <text x="452" y="150" font-family="-apple-system,'Apple SD Gothic Neo',sans-serif" font-size="26" fill="#6b7689">=</text>
+  <rect x="496" y="96" width="200" height="100" rx="12" fill="#eef4ff"/>
+  <text x="596" y="142" font-family="-apple-system,'Apple SD Gothic Neo',sans-serif" font-size="34" font-weight="700" fill="#1f4fd8" text-anchor="middle">8.0%</text>
+  <text x="596" y="172" font-family="-apple-system,'Apple SD Gothic Neo',sans-serif" font-size="14" fill="#1f4fd8" text-anchor="middle">ROE</text>
+  <text x="24" y="258" font-family="-apple-system,'Apple SD Gothic Neo',sans-serif" font-size="14" fill="#6b7689">분모가 그대로여도 분자가 커지면 올라가고, 분자가 그대로여도 분모가 줄면 올라갑니다.</text>
+  <text x="24" y="286" font-family="-apple-system,'Apple SD Gothic Neo',sans-serif" font-size="12" fill="#8c95a6">설명용으로 지어낸 금액입니다. 특정 기업의 실제 재무수치가 아닙니다.</text>
+</svg>

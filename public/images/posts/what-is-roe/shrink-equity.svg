@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="320" viewBox="0 0 720 320" role="img" aria-label="순이익 800억 원이 그대로일 때 자기자본이 1조 원에서 8천억 원으로 줄면 ROE가 8퍼센트에서 10퍼센트로 올라간다">
+  <rect width="720" height="320" fill="#fbfbfd"/>
+  <text x="24" y="38" font-family="-apple-system,'Apple SD Gothic Neo',sans-serif" font-size="19" font-weight="700" fill="#1a2540">번 돈이 그대로인데 ROE만 올라가는 경우</text>
+  <rect x="24" y="64" width="320" height="196" rx="12" fill="#ffffff" stroke="#dfe4ec"/>
+  <rect x="376" y="64" width="320" height="196" rx="12" fill="#ffffff" stroke="#dfe4ec"/>
+  <text x="48" y="96" font-family="-apple-system,'Apple SD Gothic Neo',sans-serif" font-size="15" fill="#6b7689">자사주를 소각하기 전</text>
+  <text x="400" y="96" font-family="-apple-system,'Apple SD Gothic Neo',sans-serif" font-size="15" fill="#6b7689">2,000억 원어치를 소각한 뒤</text>
+  <rect x="48" y="112" width="272" height="56" rx="8" fill="#eaedf3"/>
+  <rect x="400" y="112" width="218" height="56" rx="8" fill="#eaedf3"/>
+  <text x="68" y="146" font-family="-apple-system,'Apple SD Gothic Neo',sans-serif" font-size="15" fill="#1a2540">자기자본 1조 원</text>
+  <text x="420" y="146" font-family="-apple-system,'Apple SD Gothic Neo',sans-serif" font-size="15" fill="#1a2540">자기자본 8,000억 원</text>
+  <text x="48" y="196" font-family="-apple-system,'Apple SD Gothic Neo',sans-serif" font-size="14" fill="#8c95a6">당기순이익 800억 원</text>
+  <text x="400" y="196" font-family="-apple-system,'Apple SD Gothic Neo',sans-serif" font-size="14" fill="#8c95a6">당기순이익 800억 원</text>
+  <text x="48" y="238" font-family="-apple-system,'Apple SD Gothic Neo',sans-serif" font-size="24" font-weight="700" fill="#6b7689">ROE 8.0%</text>
+  <text x="400" y="238" font-family="-apple-system,'Apple SD Gothic Neo',sans-serif" font-size="24" font-weight="700" fill="#1f4fd8">ROE 10.0%</text>
+  <text x="24" y="292" font-family="-apple-system,'Apple SD Gothic Neo',sans-serif" font-size="14" fill="#6b7689">분모를 줄여도 값은 올라갑니다. 그래서 ROE가 올랐다는 말만으로는 어느 쪽이 움직였는지 알 수 없습니다.</text>
+  <text x="24" y="312" font-family="-apple-system,'Apple SD Gothic Neo',sans-serif" font-size="12" fill="#8c95a6">설명용으로 지어낸 금액입니다. 특정 기업의 실제 재무수치가 아닙니다.</text>
+</svg>
