@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="360" viewBox="0 0 720 360" role="img" aria-label="애널리스트 추정치들이 흩어져 있고 그 평균이 컨센서스, 실제 발표값과 컨센서스 사이의 거리가 서프라이즈">
+  <rect width="720" height="360" fill="#fbfbfd"/>
+  <text x="24" y="38" font-family="-apple-system,'Apple SD Gothic Neo',sans-serif" font-size="19" font-weight="700" fill="#1a2540">컨센서스는 추정치들의 평균, 서프라이즈는 그 평균과 발표값의 거리</text>
+  <line x1="60" y1="300" x2="672" y2="300" stroke="#c8cedb" stroke-width="1.5"/>
+  <text x="60" y="326" font-family="-apple-system,'Apple SD Gothic Neo',sans-serif" font-size="13" fill="#6b7689">낮음</text>
+  <text x="630" y="326" font-family="-apple-system,'Apple SD Gothic Neo',sans-serif" font-size="13" fill="#6b7689">높음</text>
+  <text x="300" y="326" font-family="-apple-system,'Apple SD Gothic Neo',sans-serif" font-size="13" fill="#6b7689">영업이익 추정 구간</text>
+  <circle cx="200" cy="230" r="7" fill="#9aa7bd"/>
+  <circle cx="245" cy="258" r="7" fill="#9aa7bd"/>
+  <circle cx="268" cy="206" r="7" fill="#9aa7bd"/>
+  <circle cx="305" cy="245" r="7" fill="#9aa7bd"/>
+  <circle cx="330" cy="215" r="7" fill="#9aa7bd"/>
+  <circle cx="356" cy="262" r="7" fill="#9aa7bd"/>
+  <circle cx="392" cy="232" r="7" fill="#9aa7bd"/>
+  <circle cx="420" cy="252" r="7" fill="#9aa7bd"/>
+  <text x="196" y="190" font-family="-apple-system,'Apple SD Gothic Neo',sans-serif" font-size="13" fill="#6b7689">증권사별 추정치</text>
+  <line x1="315" y1="110" x2="315" y2="300" stroke="#1f4fd8" stroke-width="2.5" stroke-dasharray="6 4"/>
+  <text x="248" y="100" font-family="-apple-system,'Apple SD Gothic Neo',sans-serif" font-size="15" font-weight="700" fill="#1f4fd8">컨센서스(평균)</text>
+  <line x1="520" y1="110" x2="520" y2="300" stroke="#d6341f" stroke-width="2.5"/>
+  <text x="470" y="100" font-family="-apple-system,'Apple SD Gothic Neo',sans-serif" font-size="15" font-weight="700" fill="#d6341f">실제 발표값</text>
+  <line x1="315" y1="140" x2="520" y2="140" stroke="#1a2540" stroke-width="1.5"/>
+  <path d="M315 140 l10 -5 v10 z" fill="#1a2540"/>
+  <path d="M520 140 l-10 -5 v10 z" fill="#1a2540"/>
+  <text x="352" y="132" font-family="-apple-system,'Apple SD Gothic Neo',sans-serif" font-size="15" font-weight="700" fill="#1a2540">이 거리를 서프라이즈라고 부릅니다</text>
+  <text x="24" y="348" font-family="-apple-system,'Apple SD Gothic Neo',sans-serif" font-size="12" fill="#8c95a6">점의 위치는 설명용으로 그린 가상의 배치입니다. 실제 추정치가 아닙니다.</text>
+</svg>
