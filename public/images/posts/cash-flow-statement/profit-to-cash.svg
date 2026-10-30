@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" width="720" height="300" role="img"
+     aria-label="간접법으로 당기순이익을 영업활동 현금흐름으로 바꾸는 가상의 예시. 당기순이익 100에 현금이 나가지 않은 감가상각비 30을 더하고, 아직 받지 못한 매출채권 증가 60과 쌓인 재고 증가 20을 빼고, 아직 주지 않은 매입채무 증가 10을 더해 영업활동 현금흐름 60이 된다는 계산 흐름.">
+  <rect width="720" height="300" fill="#fcfcfd"/>
+  <text x="24" y="32" font-family="sans-serif" font-size="15" font-weight="700" fill="#1a2540">이익에서 출발해 현금으로 되돌리는 계산 (가상의 예시)</text>
+
+  <rect x="24" y="52" width="150" height="70" rx="8" fill="#eef2fb" stroke="#9fb3d9"/>
+  <text x="99" y="80" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#5b6478">당기순이익</text>
+  <text x="99" y="104" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="700" fill="#1a2540">100</text>
+
+  <text x="200" y="76" font-family="sans-serif" font-size="13" fill="#2f6b43">＋ 감가상각비 30</text>
+  <text x="200" y="98" font-family="sans-serif" font-size="12" fill="#5b6478">비용으로 뺐지만 현금은 안 나갔다</text>
+
+  <text x="200" y="134" font-family="sans-serif" font-size="13" fill="#8c3a30">－ 매출채권 증가 60</text>
+  <text x="200" y="156" font-family="sans-serif" font-size="12" fill="#5b6478">매출로 적었지만 아직 못 받았다</text>
+
+  <text x="200" y="192" font-family="sans-serif" font-size="13" fill="#8c3a30">－ 재고자산 증가 20</text>
+  <text x="200" y="214" font-family="sans-serif" font-size="12" fill="#5b6478">돈은 썼는데 아직 안 팔렸다</text>
+
+  <text x="200" y="250" font-family="sans-serif" font-size="13" fill="#2f6b43">＋ 매입채무 증가 10</text>
+  <text x="200" y="272" font-family="sans-serif" font-size="12" fill="#5b6478">사 왔지만 대금은 아직 안 줬다</text>
+
+  <line x1="470" y1="52" x2="470" y2="284" stroke="#d7dbe3" stroke-dasharray="4 4"/>
+  <path d="M478 168 L520 168" stroke="#5b6478" stroke-width="2.4" marker-end="url(#pc1)"/>
+  <defs>
+    <marker id="pc1" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#5b6478"/>
+    </marker>
+  </defs>
+
+  <rect x="530" y="128" width="166" height="80" rx="8" fill="#ffffff" stroke="#9fb3d9"/>
+  <text x="613" y="156" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#5b6478">영업활동 현금흐름</text>
+  <text x="613" y="186" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="700" fill="#1a2540">60</text>
+</svg>

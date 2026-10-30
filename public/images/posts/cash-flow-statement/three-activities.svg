@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" width="720" height="330" role="img"
+     aria-label="현금흐름표가 한 해 현금 증감을 영업활동, 투자활동, 재무활동 세 칸으로 나눠 적는 구조. 영업활동은 제품을 팔아 받은 돈과 재료비·인건비·세금, 투자활동은 설비 취득과 처분, 금융자산 취득과 처분, 재무활동은 차입과 상환, 증자와 배당 지급·자기주식 취득이 들어가고 세 칸을 합한 값이 현금의 순증감이며 기초 현금에 더하면 기말 현금이 된다는 도식.">
+  <rect width="720" height="330" fill="#fcfcfd"/>
+  <text x="24" y="32" font-family="sans-serif" font-size="15" font-weight="700" fill="#1a2540">현금흐름표는 한 해의 현금 증감을 세 칸으로 나눠 적습니다</text>
+
+  <rect x="24" y="52" width="212" height="150" rx="10" fill="#eef2fb" stroke="#9fb3d9"/>
+  <text x="44" y="80" font-family="sans-serif" font-size="14" font-weight="700" fill="#1a2540">영업활동</text>
+  <text x="44" y="102" font-family="sans-serif" font-size="12" fill="#5b6478">장사로 오간 돈</text>
+  <text x="44" y="128" font-family="sans-serif" font-size="12" fill="#1a2540">+ 팔고 실제로 받은 돈</text>
+  <text x="44" y="150" font-family="sans-serif" font-size="12" fill="#1a2540">− 재료비 · 인건비</text>
+  <text x="44" y="172" font-family="sans-serif" font-size="12" fill="#1a2540">− 법인세로 낸 돈</text>
+
+  <rect x="254" y="52" width="212" height="150" rx="10" fill="#f3f8f4" stroke="#a8c9b0"/>
+  <text x="274" y="80" font-family="sans-serif" font-size="14" font-weight="700" fill="#2f6b43">투자활동</text>
+  <text x="274" y="102" font-family="sans-serif" font-size="12" fill="#5b6478">쓸 것을 사고파는 돈</text>
+  <text x="274" y="128" font-family="sans-serif" font-size="12" fill="#1a2540">− 공장 · 기계 취득</text>
+  <text x="274" y="150" font-family="sans-serif" font-size="12" fill="#1a2540">+ 설비 처분 대금</text>
+  <text x="274" y="172" font-family="sans-serif" font-size="12" fill="#1a2540">± 금융자산 취득 · 처분</text>
+
+  <rect x="484" y="52" width="212" height="150" rx="10" fill="#fdf4f3" stroke="#e6b7b1"/>
+  <text x="504" y="80" font-family="sans-serif" font-size="14" font-weight="700" fill="#8c3a30">재무활동</text>
+  <text x="504" y="102" font-family="sans-serif" font-size="12" fill="#5b6478">조달하고 돌려주는 돈</text>
+  <text x="504" y="128" font-family="sans-serif" font-size="12" fill="#1a2540">+ 차입 · 증자</text>
+  <text x="504" y="150" font-family="sans-serif" font-size="12" fill="#1a2540">− 차입금 상환</text>
+  <text x="504" y="172" font-family="sans-serif" font-size="12" fill="#1a2540">− 배당 · 자기주식 취득</text>
+
+  <path d="M130 206 L130 232 L360 232" stroke="#9fb3d9" stroke-width="2" fill="none"/>
+  <path d="M360 206 L360 232" stroke="#a8c9b0" stroke-width="2" fill="none"/>
+  <path d="M590 206 L590 232 L360 232" stroke="#e6b7b1" stroke-width="2" fill="none"/>
+  <path d="M360 232 L360 252" stroke="#5b6478" stroke-width="2.4" marker-end="url(#cf1)"/>
+  <defs>
+    <marker id="cf1" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#5b6478"/>
+    </marker>
+  </defs>
+
+  <rect x="150" y="258" width="420" height="48" rx="8" fill="#ffffff" stroke="#d7dbe3"/>
+  <text x="360" y="288" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#1a2540">세 칸의 합 = 현금의 순증감 · 기초 현금에 더하면 기말 현금</text>
+</svg>
