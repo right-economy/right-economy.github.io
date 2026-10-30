@@ -194,6 +194,48 @@ def check_breadcrumb(m):
     return out
 
 
+def check_itemlist(m):
+    """ItemList 의 내용이 쓸 수 있는 모양인가. (목록·카테고리·태그 허브)
+
+    왜 개수로 안 되나: 빵가루와 같은 층의 문제다. `jsonld-missing` 은 블록이
+    있나만 보고, 블록 수는 ItemList 가 망가져도 그대로 1 이다. position 이
+    어긋나거나 url 이 상대경로면 검색엔진이 목록을 캐러셀로 못 읽고 **태그는
+    전부 있는 채로** 리치결과에서만 조용히 빠진다.
+
+    ⚠️ 「없다」를 이슈로 적지 않는다 — 글 상세에는 ItemList 가 없는 게 맞다.
+       있을 때 모양만 본다. 빵가루 검사(check_breadcrumb)와 같은 규약이다.
+    ⚠️ numberOfItems 는 항목 수와 어긋날 때만 걸린다. **홈은 최신 20편만 싣고
+       그게 의도다**(src/pages/index.astro 주석) — 보이는 링크 수와 다른 것은
+       결함이 아니라 설계라서, 페이지의 링크 수와는 대조하지 않는다.
+    """
+    out = []
+    nodes, _broken = _ldjson_nodes(m.ldjson)
+    for il in [n for n in nodes if n.get("@type") == "ItemList"]:
+        items = il.get("itemListElement")
+        if not isinstance(items, list) or not items:
+            out.append(("itemlist-empty", "ItemList 에 itemListElement 가 없다 (name %r)" % (il.get("name"),)))
+            continue
+        pos = [it.get("position") if isinstance(it, dict) else None for it in items]
+        if pos != list(range(1, len(items) + 1)):
+            out.append(("itemlist-position", "position 이 1..%d 가 아니다: %r" % (len(items), pos)))
+        count = il.get("numberOfItems")
+        if count is not None and count != len(items):
+            out.append(("itemlist-count", "numberOfItems %r 인데 항목은 %d개" % (count, len(items))))
+        for it in items:
+            if not isinstance(it, dict):
+                out.append(("itemlist-item", "itemListElement 항목이 객체가 아니다"))
+                continue
+            if not (it.get("name") or "").strip():
+                out.append(("itemlist-item", "name 이 비어 있다 (position %r)" % (it.get("position"),)))
+            target = it.get("url")
+            if target is None:
+                target = it.get("item")
+            url = target.get("@id") if isinstance(target, dict) else target
+            if not isinstance(url, str) or not url.startswith(SITE):
+                out.append(("itemlist-item", "url 이 %s 로 시작하는 절대 URL 이 아니다: %r" % (SITE, url)))
+    return out
+
+
 def check_page(m):
     """한 페이지의 이슈를 (id, 설명) 목록으로 돌려준다."""
     out = []
@@ -234,6 +276,7 @@ def check_page(m):
         out.append(("img-no-alt", "alt 속성 없는 img %d개 (전체 %d)" % (m.img_no_alt, m.img_total)))
 
     out += check_breadcrumb(m)
+    out += check_itemlist(m)
     out += check_identity(m)
     return out
 
@@ -291,7 +334,10 @@ GOOD = """<!doctype html><html lang="ko"><head>
 {"@type":"ListItem","position":1,"name":"홈","item":{"@id":"https://right-economy.com/"}},
 {"@type":"ListItem","position":2,"name":"글"}]},
 {"@type":"Article","headline":"좋은 제목",
-"mainEntityOfPage":{"@type":"WebPage","@id":"https://right-economy.com/posts/x/"}}]}</script>
+"mainEntityOfPage":{"@type":"WebPage","@id":"https://right-economy.com/posts/x/"}},
+{"@type":"ItemList","numberOfItems":2,"itemListElement":[
+{"@type":"ListItem","position":1,"name":"글1","url":"https://right-economy.com/posts/x/"},
+{"@type":"ListItem","position":2,"name":"글2","url":"https://right-economy.com/posts/y/"}]}]}</script>
 </head><body><h1>제목</h1><h2>소제목</h2><h3>더 안</h3><h2>소제목2</h2>
 <img src="a.svg" alt="설명"><img src="b.svg" alt=""></body></html>"""
 
@@ -302,6 +348,9 @@ BAD = """<!doctype html><html><head>
 {"@type":"ListItem","position":1,"name":"","item":"/posts/x/"},
 {"@type":"ListItem","position":5,"name":"글"}]}</script>
 <script type="application/ld+json">{"@type":"BreadcrumbList", 이건 JSON 이 아니다}</script>
+<script type="application/ld+json">{"@type":"ItemList","numberOfItems":9,"itemListElement":[
+{"@type":"ListItem","position":1,"name":"","url":"/posts/x/"},
+{"@type":"ListItem","position":7,"name":"글2","url":"https://right-economy.com/posts/y/"}]}</script>
 </head><body><h1>a</h1><h1>b</h1><h4>c</h4><img src="a.svg"></body></html>"""
 
 # 세 번째 표본. BAD 와 합칠 수 없다 — BAD 는 title 이 비어야 `title-missing` 이
@@ -874,6 +923,8 @@ def selftest():
         "heading-skip",
         # 2026-10-24 추가. 빵가루는 「블록이 있나」가 아니라 「해석되는 모양인가」를 본다.
         "jsonld-broken", "breadcrumb-position", "breadcrumb-item",
+        # 2026-10-30 추가. 허브의 ItemList 도 「있나」가 아니라 「해석되는 모양인가」.
+        "itemlist-position", "itemlist-item", "itemlist-count",
         # 2026-10-27 추가. 같은 자리를 가리켜야 하는 주소 셋과 lang.
         # 음성 표본은 BAD_IDENTITY 쪽이다.
         "ogurl-ne-canonical", "lang-unexpected",
