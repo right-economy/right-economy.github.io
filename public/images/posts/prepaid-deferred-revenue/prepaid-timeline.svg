@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" width="720" height="340" role="img" aria-label="미리 받은 회비 120이 열두 달에 걸쳐 매출로 옮겨가며 계약부채 잔액이 줄어드는 그래프">
+  <rect width="720" height="340" fill="#fcfcfd"/>
+  <text x="36" y="42" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="18" font-weight="700" fill="#1a2540">달마다 10씩 매출로 옮겨가고, 남은 금액이 계약부채 잔액</text>
+  <text x="36" y="66" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#5b6478">1월에 1년치 120을 받은 가상의 예시 · 막대는 그 달이 끝난 뒤 남은 잔액</text>
+  <line x1="60" y1="272" x2="672" y2="272" stroke="#c9cfdb"/>
+  <rect x="72" y="144" width="40" height="128" rx="3" fill="#fdeeec" stroke="#d9a79f"/>
+  <text x="92" y="288" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12" fill="#5b6478">1월</text>
+  <text x="92" y="136" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="700" fill="#8c3a30">110</text>
+  <rect x="120" y="156" width="40" height="116" rx="3" fill="#fdeeec" stroke="#d9a79f"/>
+  <text x="140" y="288" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12" fill="#5b6478">2월</text>
+  <rect x="168" y="167" width="40" height="105" rx="3" fill="#fdeeec" stroke="#d9a79f"/>
+  <text x="188" y="288" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12" fill="#5b6478">3월</text>
+  <rect x="216" y="179" width="40" height="93" rx="3" fill="#fdeeec" stroke="#d9a79f"/>
+  <text x="236" y="288" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12" fill="#5b6478">4월</text>
+  <rect x="264" y="191" width="40" height="81" rx="3" fill="#fdeeec" stroke="#d9a79f"/>
+  <text x="284" y="288" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12" fill="#5b6478">5월</text>
+  <rect x="312" y="202" width="40" height="70" rx="3" fill="#fdeeec" stroke="#d9a79f"/>
+  <text x="332" y="288" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12" fill="#5b6478">6월</text>
+  <text x="332" y="194" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="700" fill="#8c3a30">60</text>
+  <rect x="360" y="214" width="40" height="58" rx="3" fill="#fdeeec" stroke="#d9a79f"/>
+  <text x="380" y="288" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12" fill="#5b6478">7월</text>
+  <rect x="408" y="226" width="40" height="46" rx="3" fill="#fdeeec" stroke="#d9a79f"/>
+  <text x="428" y="288" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12" fill="#5b6478">8월</text>
+  <rect x="456" y="237" width="40" height="35" rx="3" fill="#fdeeec" stroke="#d9a79f"/>
+  <text x="476" y="288" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12" fill="#5b6478">9월</text>
+  <rect x="504" y="249" width="40" height="23" rx="3" fill="#fdeeec" stroke="#d9a79f"/>
+  <text x="524" y="288" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12" fill="#5b6478">10월</text>
+  <rect x="552" y="261" width="40" height="11" rx="3" fill="#fdeeec" stroke="#d9a79f"/>
+  <text x="572" y="288" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12" fill="#5b6478">11월</text>
+  <text x="620" y="288" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12" fill="#5b6478">12월</text>
+  <text x="620" y="264" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="700" fill="#8c3a30">0</text>
+  <text x="60" y="124" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#8c3a30">계약부채 잔액 (받은 날 120)</text>
+  <text x="36" y="318" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#1a2540">열두 달 뒤 잔액은 0이 되고, 그 사이 매출로 인식된 금액이 합계 120입니다.</text>
+</svg>

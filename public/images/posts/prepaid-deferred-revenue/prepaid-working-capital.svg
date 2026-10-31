@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" width="720" height="300" role="img" aria-label="미리 받는 구조에서 운전자본이 마이너스가 되는 계산. 매출채권 0 더하기 재고자산 20 빼기 매입채무 30 빼기 선수금 90은 마이너스 100">
+  <rect width="720" height="300" fill="#fcfcfd"/>
+  <text x="36" y="42" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="18" font-weight="700" fill="#1a2540">미리 받는 구조에서는 운전자본이 음수로 나옵니다</text>
+  <text x="36" y="66" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#5b6478">단위 없는 가상의 예시 · 선수금도 영업과 관련된 유동부채라 같은 계산에 넣습니다</text>
+
+  <rect x="30" y="100" width="112" height="96" rx="8" fill="#eef2fb" stroke="#9fb3d9"/>
+  <text x="86" y="130" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#5b6478">매출채권</text>
+  <text x="86" y="166" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="24" font-weight="700" fill="#1a2540">0</text>
+  <text x="155" y="156" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="20" fill="#5b6478">＋</text>
+
+  <rect x="168" y="100" width="112" height="96" rx="8" fill="#eef2fb" stroke="#9fb3d9"/>
+  <text x="224" y="130" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#5b6478">재고자산</text>
+  <text x="224" y="166" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="24" font-weight="700" fill="#1a2540">20</text>
+  <text x="293" y="156" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="20" fill="#5b6478">－</text>
+
+  <rect x="306" y="100" width="112" height="96" rx="8" fill="#eaf4ee" stroke="#9cc0a9"/>
+  <text x="362" y="130" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#5b6478">매입채무</text>
+  <text x="362" y="166" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="24" font-weight="700" fill="#2f6b43">30</text>
+  <text x="431" y="156" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="20" fill="#5b6478">－</text>
+
+  <rect x="444" y="100" width="112" height="96" rx="8" fill="#eaf4ee" stroke="#9cc0a9"/>
+  <text x="500" y="130" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#5b6478">선수금</text>
+  <text x="500" y="166" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="24" font-weight="700" fill="#2f6b43">90</text>
+  <text x="569" y="156" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="20" fill="#5b6478">＝</text>
+
+  <rect x="582" y="100" width="112" height="96" rx="8" fill="#ffffff" stroke="#1a2540" stroke-width="1.5"/>
+  <text x="638" y="130" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#5b6478">운전자본</text>
+  <text x="638" y="166" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="24" font-weight="700" fill="#1a2540">－100</text>
+
+  <text x="36" y="240" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#1a2540">남는 쪽이 더 크면 장사가 커질수록 현금이 먼저 쌓입니다.</text>
+  <text x="36" y="266" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#5b6478">그 현금에는 나중에 서비스로 돌려줄 의무가 붙어 있습니다.</text>
+</svg>
