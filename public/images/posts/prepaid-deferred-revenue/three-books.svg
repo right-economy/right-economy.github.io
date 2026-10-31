@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" width="720" height="300" role="img" aria-label="회비를 미리 받은 날 장부 세 자리의 변화">
+  <rect width="720" height="300" fill="#fcfcfd"/>
+  <text x="36" y="42" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="18" font-weight="700" fill="#1a2540">1년치 회비 120을 받은 날, 장부 세 자리</text>
+  <text x="36" y="66" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#5b6478">단위 없는 가상의 예시</text>
+
+  <rect x="36" y="92" width="196" height="124" rx="10" fill="#eef2fb" stroke="#9fb3d9"/>
+  <text x="134" y="122" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#5b6478">재무상태표 · 자산</text>
+  <text x="134" y="152" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="17" font-weight="700" fill="#1a2540">현금</text>
+  <text x="134" y="188" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="26" font-weight="700" fill="#1a2540">+120</text>
+
+  <rect x="262" y="92" width="196" height="124" rx="10" fill="#fdeeec" stroke="#d9a79f"/>
+  <text x="360" y="122" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#5b6478">재무상태표 · 부채</text>
+  <text x="360" y="152" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="17" font-weight="700" fill="#8c3a30">계약부채(선수금)</text>
+  <text x="360" y="188" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="26" font-weight="700" fill="#8c3a30">+120</text>
+
+  <rect x="488" y="92" width="196" height="124" rx="10" fill="#ffffff" stroke="#d6dae4"/>
+  <text x="586" y="122" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#5b6478">손익계산서</text>
+  <text x="586" y="152" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="17" font-weight="700" fill="#1a2540">매출</text>
+  <text x="586" y="188" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="26" font-weight="700" fill="#5b6478">0</text>
+
+  <text x="36" y="252" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#1a2540">자산과 부채가 같은 금액으로 늘고, 손익은 아직 움직이지 않습니다.</text>
+  <text x="36" y="276" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#5b6478">받은 돈이 매출이 되는 시점은 서비스를 제공한 뒤입니다.</text>
+</svg>
