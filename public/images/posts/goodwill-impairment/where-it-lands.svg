@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 310" width="720" height="310" role="img" aria-label="손상차손 400이 순이익과 자산은 줄이지만 통장 현금은 건드리지 않는 모양">
+  <rect width="720" height="310" fill="#fcfcfd"/>
+  <text x="36" y="42" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="18" font-weight="700" fill="#1a2540">손상차손 400이 세 곳에서 보이는 모습</text>
+  <text x="36" y="66" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#5b6478">위 예시의 4년차 · 단위 없음</text>
+
+  <rect x="36" y="92" width="196" height="120" rx="10" fill="#fdeeec" stroke="#d9a79f"/>
+  <text x="134" y="124" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#8c3a30">손익계산서</text>
+  <text x="134" y="158" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="24" font-weight="700" fill="#8c3a30">-400</text>
+  <text x="134" y="188" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#8c3a30">그해 이익이 줄어듭니다</text>
+
+  <rect x="250" y="92" width="196" height="120" rx="10" fill="#f3eefb" stroke="#b09fd9"/>
+  <text x="348" y="124" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#4a2f7a">재무상태표</text>
+  <text x="348" y="158" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="24" font-weight="700" fill="#4a2f7a">400 → 0</text>
+  <text x="348" y="188" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#4a2f7a">영업권 장부금액이 줄어듭니다</text>
+
+  <rect x="464" y="92" width="196" height="120" rx="10" fill="#eef2fb" stroke="#9fb3d9"/>
+  <text x="562" y="124" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#1a2540">통장 현금</text>
+  <text x="562" y="158" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="24" font-weight="700" fill="#1a2540">0</text>
+  <text x="562" y="188" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#1a2540">이날 나가는 돈은 없습니다</text>
+
+  <text x="36" y="248" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#1a2540">돈은 인수한 해에 이미 나갔습니다. 손상은 그때 준 값이 과했다고 뒤늦게 인정하는 절차입니다.</text>
+  <text x="36" y="276" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#5b6478">그래서 현금흐름표에서는 순이익에 400을 다시 더해 영업활동현금흐름을 구합니다.</text>
+  <text x="36" y="300" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#5b6478">손익계산서에서 어느 줄에 들어가는지는 회사마다 달라서 주석을 봐야 합니다.</text>
+</svg>
