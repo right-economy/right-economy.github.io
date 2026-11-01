@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" width="720" height="340" role="img" aria-label="정액법과 정률법으로 나눈 연도별 감가상각비 비교 막대그래프">
+  <rect width="720" height="340" fill="#fcfcfd"/>
+  <text x="36" y="42" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="18" font-weight="700" fill="#1a2540">나누는 방법이 다르면 해마다 적는 금액이 달라집니다</text>
+  <text x="36" y="66" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#5b6478">취득원가 100, 쓰는 기간 5년 · 정률법은 남은 장부금액의 40%로 둔 가상의 예시 · 단위 없음</text>
+  <rect x="470" y="80" width="16" height="12" rx="3" fill="#9fb3d9"/>
+  <text x="494" y="91" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#5b6478">정액법</text>
+  <rect x="556" y="80" width="16" height="12" rx="3" fill="#d9a79f"/>
+  <text x="580" y="91" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#5b6478">정률법</text>
+  <line x1="60" y1="256" x2="684" y2="256" stroke="#d6dae4"/>
+  <rect x="78" y="181.0" width="38" height="75.0" rx="4" fill="#9fb3d9"/>
+  <text x="97" y="173.0" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#1a2540">20</text>
+  <rect x="122" y="106.0" width="38" height="150.0" rx="4" fill="#d9a79f"/>
+  <text x="141" y="98.0" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#8c3a30">40</text>
+  <text x="119" y="278" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#5b6478">1년차</text>
+  <rect x="204" y="181.0" width="38" height="75.0" rx="4" fill="#9fb3d9"/>
+  <text x="223" y="173.0" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#1a2540">20</text>
+  <rect x="248" y="166.0" width="38" height="90.0" rx="4" fill="#d9a79f"/>
+  <text x="267" y="158.0" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#8c3a30">24</text>
+  <text x="245" y="278" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#5b6478">2년차</text>
+  <rect x="330" y="181.0" width="38" height="75.0" rx="4" fill="#9fb3d9"/>
+  <text x="349" y="173.0" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#1a2540">20</text>
+  <rect x="374" y="202.0" width="38" height="54.0" rx="4" fill="#d9a79f"/>
+  <text x="393" y="194.0" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#8c3a30">14.4</text>
+  <text x="371" y="278" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#5b6478">3년차</text>
+  <rect x="456" y="181.0" width="38" height="75.0" rx="4" fill="#9fb3d9"/>
+  <text x="475" y="173.0" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#1a2540">20</text>
+  <rect x="500" y="223.8" width="38" height="32.2" rx="4" fill="#d9a79f"/>
+  <text x="519" y="215.8" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#8c3a30">8.6</text>
+  <text x="497" y="278" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#5b6478">4년차</text>
+  <rect x="582" y="181.0" width="38" height="75.0" rx="4" fill="#9fb3d9"/>
+  <text x="601" y="173.0" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#1a2540">20</text>
+  <rect x="626" y="236.5" width="38" height="19.5" rx="4" fill="#d9a79f"/>
+  <text x="645" y="228.5" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#8c3a30">5.2</text>
+  <text x="623" y="278" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#5b6478">5년차</text>
+  <text x="36" y="316" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#1a2540">정률법은 앞쪽에 많이 적고 뒤로 갈수록 줄어듭니다. 다섯 해를 합치면 정액법 쪽이 100에 먼저 닿습니다.</text>
+</svg>
