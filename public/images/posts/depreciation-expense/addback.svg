@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" width="720" height="300" role="img" aria-label="감가상각비를 다시 더해 영업활동 현금흐름과 EBITDA를 구하는 두 줄의 계산">
+  <rect width="720" height="300" fill="#fcfcfd"/>
+  <text x="36" y="42" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="18" font-weight="700" fill="#1a2540">빼놓고 계산한 뒤 다시 더하는 자리</text>
+  <text x="36" y="66" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#5b6478">감가상각비 20을 이미 비용으로 뺀 상태에서 출발하는 가상의 예시 · 운전자본 변동은 없다고 두었고 단위는 없음</text>
+
+  <rect x="36" y="96" width="150" height="58" rx="10" fill="#ffffff" stroke="#d6dae4"/>
+  <text x="111" y="120" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#5b6478">당기순이익</text>
+  <text x="111" y="143" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="20" font-weight="700" fill="#1a2540">30</text>
+  <text x="212" y="131" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="18" fill="#5b6478">+</text>
+  <rect x="238" y="96" width="176" height="58" rx="10" fill="#eef2fb" stroke="#9fb3d9"/>
+  <text x="326" y="120" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#5b6478">감가상각비 되돌리기</text>
+  <text x="326" y="143" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="20" font-weight="700" fill="#1a2540">20</text>
+  <text x="440" y="131" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="18" fill="#5b6478">=</text>
+  <rect x="466" y="96" width="218" height="58" rx="10" fill="#f3f6fc" stroke="#9fb3d9"/>
+  <text x="575" y="120" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#5b6478">영업활동 현금흐름</text>
+  <text x="575" y="143" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="20" font-weight="700" fill="#1a2540">50</text>
+
+  <rect x="36" y="180" width="150" height="58" rx="10" fill="#ffffff" stroke="#d6dae4"/>
+  <text x="111" y="204" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#5b6478">영업이익</text>
+  <text x="111" y="227" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="20" font-weight="700" fill="#1a2540">40</text>
+  <text x="212" y="215" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="18" fill="#5b6478">+</text>
+  <rect x="238" y="180" width="176" height="58" rx="10" fill="#fdeeec" stroke="#d9a79f"/>
+  <text x="326" y="204" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#5b6478">감가상각비 되돌리기</text>
+  <text x="326" y="227" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="20" font-weight="700" fill="#8c3a30">20</text>
+  <text x="440" y="215" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="18" fill="#5b6478">=</text>
+  <rect x="466" y="180" width="218" height="58" rx="10" fill="#fdf4f2" stroke="#d9a79f"/>
+  <text x="575" y="204" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#5b6478">EBITDA</text>
+  <text x="575" y="227" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="20" font-weight="700" fill="#8c3a30">60</text>
+
+  <text x="36" y="272" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#1a2540">두 줄 모두 같은 금액을 다시 더한 값입니다. 설비에 쓴 돈이 돌아온 것은 아닙니다.</text>
+</svg>
