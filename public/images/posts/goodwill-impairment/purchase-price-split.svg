@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" width="720" height="300" role="img" aria-label="인수 대가 1000이 순자산 공정가치 600과 영업권 400으로 갈리는 모양">
+  <rect width="720" height="300" fill="#fcfcfd"/>
+  <text x="36" y="42" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="18" font-weight="700" fill="#1a2540">1,000을 주고 샀는데 받아온 순자산이 600이면</text>
+  <text x="36" y="66" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#5b6478">인수 대가 1,000, 취득한 순자산 공정가치 600으로 둔 가상의 예시 · 단위 없음</text>
+
+  <text x="36" y="108" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#5b6478">내가 준 돈</text>
+  <rect x="36" y="118" width="624" height="44" rx="8" fill="#fdeeec" stroke="#d9a79f"/>
+  <text x="348" y="147" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="20" font-weight="700" fill="#8c3a30">인수 대가 1,000</text>
+
+  <text x="36" y="196" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#5b6478">내 장부에 적히는 것</text>
+  <rect x="36" y="206" width="374" height="44" rx="8" fill="#eef2fb" stroke="#9fb3d9"/>
+  <text x="223" y="235" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="17" font-weight="700" fill="#1a2540">순자산 공정가치 600</text>
+  <rect x="418" y="206" width="242" height="44" rx="8" fill="#f3eefb" stroke="#b09fd9"/>
+  <text x="539" y="235" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="17" font-weight="700" fill="#4a2f7a">영업권 400</text>
+
+  <text x="36" y="286" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#1a2540">더 준 400은 사라지지 않고 영업권이라는 이름의 자산으로 남습니다.</text>
+</svg>
