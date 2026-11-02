@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" width="720" height="300" role="img" aria-label="이자 지급이 영업활동 칸에서 재무활동 칸으로 옮겨가고 이자 수취와 배당 수입이 투자활동으로 옮겨가는 변화를 나타낸 도표">
+  <rect width="720" height="300" fill="#fcfcfd"/>
+  <text x="36" y="40" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="18" font-weight="700" fill="#1a2540">이자가 적히는 칸이 정해집니다</text>
+  <text x="36" y="64" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#5b6478">출처: K-IFRS 제1118호 제정에 따른 제1007호 개정 · 비금융업 기준</text>
+
+  <text x="36" y="100" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#1a2540">현행</text>
+  <rect x="36" y="112" width="624" height="46" rx="8" fill="#fdf3e6" stroke="#d9b07f"/>
+  <text x="56" y="141" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13.5" fill="#1a2540">이자 지급 · 이자 수취 · 배당금 수입을 영업 / 투자 / 재무 중에서 회사가 고른다</text>
+  <text x="644" y="141" text-anchor="end" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12.5" fill="#7a5320">매 기간 같게만</text>
+
+  <text x="36" y="196" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#1a2540">2027년부터</text>
+  <rect x="36" y="208" width="200" height="46" rx="8" fill="#eef2fb" stroke="#9fb3d9"/>
+  <text x="136" y="230" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#1a2540">이자 수취</text>
+  <text x="136" y="248" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="700" fill="#1a2540">투자활동</text>
+  <rect x="248" y="208" width="200" height="46" rx="8" fill="#eef2fb" stroke="#9fb3d9"/>
+  <text x="348" y="230" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#1a2540">배당금 수입</text>
+  <text x="348" y="248" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="700" fill="#1a2540">투자활동</text>
+  <rect x="460" y="208" width="200" height="46" rx="8" fill="#f3eefb" stroke="#b09fd9"/>
+  <text x="560" y="230" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#1a2540">이자 지급</text>
+  <text x="560" y="248" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="700" fill="#4a2f7a">재무활동</text>
+
+  <text x="36" y="286" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#1a2540">빚이 많은 회사는 영업활동 칸에서 나가던 이자가 빠져서 그 칸 숫자가 올라갑니다.</text>
+</svg>
