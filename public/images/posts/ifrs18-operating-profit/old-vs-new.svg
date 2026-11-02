@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" width="720" height="330" role="img" aria-label="현행은 매출에서 원가와 판관비를 빼서 영업손익을 구하고, 2027년 기준은 전체 손익에서 투자와 재무 범주를 빼고 남은 잔여를 영업손익으로 보는 두 방식 비교 도표">
+  <rect width="720" height="330" fill="#fcfcfd"/>
+  <text x="36" y="40" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="18" font-weight="700" fill="#1a2540">구하는 방향이 반대입니다</text>
+  <text x="36" y="64" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#5b6478">출처: 금융위원회 K-IFRS 제1118호 제정(2027년 1월 1일 이후 개시 회계연도 적용)</text>
+
+  <text x="36" y="98" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#1a2540">현행 (2012년 개정 기준)</text>
+  <rect x="36" y="110" width="300" height="34" rx="6" fill="#eef2fb" stroke="#9fb3d9"/>
+  <text x="186" y="132" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#1a2540">매출액</text>
+  <text x="186" y="164" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#8c3a30">− 매출원가 − 판매비와관리비</text>
+  <rect x="36" y="176" width="300" height="38" rx="6" fill="#e9f3ec" stroke="#8fba9d"/>
+  <text x="186" y="201" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="15" font-weight="700" fill="#1f5133">영업손익</text>
+  <text x="186" y="240" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12.5" fill="#5b6478">정해진 항목만 빼서 구한다</text>
+
+  <line x1="368" y1="96" x2="368" y2="300" stroke="#dde2ec"/>
+
+  <text x="400" y="98" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#1a2540">2027년 기준 (제1118호)</text>
+  <rect x="400" y="110" width="260" height="34" rx="6" fill="#eef2fb" stroke="#9fb3d9"/>
+  <text x="530" y="132" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#1a2540">전체 손익</text>
+  <text x="530" y="164" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#8c3a30">− 투자 범주 − 재무 범주 등</text>
+  <rect x="400" y="176" width="260" height="38" rx="6" fill="#f3eefb" stroke="#b09fd9"/>
+  <text x="530" y="201" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="15" font-weight="700" fill="#4a2f7a">영업손익 (잔여)</text>
+  <text x="530" y="240" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12.5" fill="#5b6478">다른 범주에 안 들어간 것이 남는다</text>
+
+  <text x="36" y="282" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#1a2540">같은 회사의 같은 해라도 영업손익에 들어오는 항목이 달라질 수 있습니다.</text>
+  <text x="36" y="306" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#5b6478">금융위원회는 「현행과 달리 주된 영업활동 관련 손익에 한정되지 않는다」고 적었습니다.</text>
+</svg>

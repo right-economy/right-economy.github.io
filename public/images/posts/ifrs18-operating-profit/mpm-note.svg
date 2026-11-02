@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 280" width="720" height="280" role="img" aria-label="조정 영업이익 주석이 2012년부터 2026년까지는 자율 공시였고 2027년부터는 산출근거와 조정내역 주석이 의무가 되는 변화를 나타낸 도표">
+  <rect width="720" height="280" fill="#fcfcfd"/>
+  <text x="36" y="40" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="18" font-weight="700" fill="#1a2540">회사가 만든 숫자의 주석이 의무가 됩니다</text>
+  <text x="36" y="64" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#5b6478">출처: 금융위원회 K-IFRS 제1118호 제정안</text>
+
+  <rect x="36" y="92" width="300" height="118" rx="8" fill="#fdf3e6" stroke="#d9b07f"/>
+  <text x="56" y="120" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#7a5320">2012 ~ 2026</text>
+  <text x="56" y="148" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13.5" fill="#1a2540">조정영업손익 주석은 자율</text>
+  <text x="56" y="172" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13.5" fill="#1a2540">적어도 되고 안 적어도 된다</text>
+  <text x="56" y="196" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#5b6478">그래서 조정표가 없는 회사가 있다</text>
+
+  <text x="352" y="156" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="20" fill="#9aa3b5">▶</text>
+
+  <rect x="368" y="92" width="292" height="118" rx="8" fill="#f3eefb" stroke="#b09fd9"/>
+  <text x="388" y="120" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#4a2f7a">2027 ~</text>
+  <text x="388" y="148" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13.5" fill="#1a2540">경영진이 정의한 성과지표는</text>
+  <text x="388" y="172" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13.5" fill="#1a2540">산출근거와 조정내역 주석 의무</text>
+  <text x="388" y="196" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#5b6478">어디서 어떻게 왔는지 적어야 한다</text>
+
+  <text x="36" y="248" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#1a2540">금융위원회는 이 공시를 두고 「자의적 활용을 제한」한다고 적었습니다.</text>
+  <text x="36" y="270" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#5b6478">조기적용은 2026년 1월 1일 이후 개시 회계연도부터 허용됩니다.</text>
+</svg>
