@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" width="720" height="300" role="img" aria-label="같은 회사가 1년차와 2년차에 조정 항목을 다르게 적어 영업이익은 줄었는데 조정 영업이익은 늘어 보이는 비교 표">
+  <rect width="720" height="300" fill="#fcfcfd"/>
+  <text x="36" y="42" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="18" font-weight="700" fill="#1a2540">같은 회사인데 두 해의 조정 항목이 다르면</text>
+  <text x="36" y="66" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#5b6478">1년차와 2년차 수치는 설명을 위해 둔 가상의 금액 · 단위 없음</text>
+
+  <rect x="36" y="92" width="624" height="34" rx="6" fill="#eef2fb" stroke="#9fb3d9"/>
+  <text x="52" y="115" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#1a2540">구분</text>
+  <text x="430" y="115" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#1a2540">1년차</text>
+  <text x="590" y="115" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#1a2540">2년차</text>
+
+  <text x="52" y="156" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#1a2540">영업이익(본문)</text>
+  <text x="430" y="156" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#1a2540">100</text>
+  <text x="590" y="156" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#8c3a30">90</text>
+
+  <text x="52" y="184" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#5b6478">더한 항목</text>
+  <text x="430" y="184" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#5b6478">일회성 비용</text>
+  <text x="590" y="184" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#5b6478">일회성 비용 + 주식보상 + 상각</text>
+
+  <text x="52" y="212" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#5b6478">더한 금액</text>
+  <text x="430" y="212" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#5b6478">+20</text>
+  <text x="590" y="212" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#5b6478">+55</text>
+  <line x1="36" y1="226" x2="660" y2="226" stroke="#c7cedd"/>
+
+  <text x="52" y="252" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="15" font-weight="700" fill="#4a2f7a">조정 영업이익</text>
+  <text x="430" y="252" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="15" font-weight="700" fill="#4a2f7a">120</text>
+  <text x="590" y="252" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="15" font-weight="700" fill="#4a2f7a">145</text>
+
+  <text x="36" y="288" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#1a2540">본문 숫자는 10 줄었는데 조정 숫자는 25 늘었습니다. 두 해를 견주려면 더한 항목이 같은지부터 봅니다.</text>
+</svg>

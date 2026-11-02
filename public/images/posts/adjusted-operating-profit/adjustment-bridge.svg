@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" width="720" height="320" role="img" aria-label="영업이익 100에 일회성 비용 30과 주식보상비용 10을 더해 조정 영업이익 140이 되는 막대 도표">
+  <rect width="720" height="320" fill="#fcfcfd"/>
+  <text x="36" y="42" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="18" font-weight="700" fill="#1a2540">조정 영업이익은 그 뒤에 회사가 더한 숫자입니다</text>
+  <text x="36" y="66" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#5b6478">영업이익 100에 두 항목을 더해 140으로 적는다고 둔 가상의 예시 · 단위 없음</text>
+
+  <rect x="56" y="200" width="110" height="60" rx="6" fill="#e9f3ec" stroke="#8fba9d"/>
+  <text x="111" y="236" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="16" font-weight="700" fill="#1f5133">100</text>
+  <text x="111" y="282" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#1a2540">영업이익</text>
+  <text x="111" y="300" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12" fill="#5b6478">본문</text>
+
+  <rect x="206" y="170" width="110" height="30" rx="6" fill="#fdf3e6" stroke="#d9b07f"/>
+  <text x="261" y="191" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="15" font-weight="700" fill="#7a5320">+30</text>
+  <text x="261" y="282" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#1a2540">공장 폐쇄 비용</text>
+  <text x="261" y="300" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12" fill="#5b6478">회사가 일회성으로 분류</text>
+
+  <rect x="356" y="150" width="110" height="20" rx="6" fill="#fdf3e6" stroke="#d9b07f"/>
+  <text x="411" y="166" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="15" font-weight="700" fill="#7a5320">+10</text>
+  <text x="411" y="282" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#1a2540">주식보상비용</text>
+  <text x="411" y="300" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12" fill="#5b6478">현금이 안 나간다고 분류</text>
+
+  <rect x="506" y="150" width="110" height="110" rx="6" fill="#f3eefb" stroke="#b09fd9"/>
+  <text x="561" y="211" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="16" font-weight="700" fill="#4a2f7a">140</text>
+  <text x="561" y="282" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#1a2540">조정 영업이익</text>
+  <text x="561" y="300" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12" fill="#5b6478">주석·보도자료</text>
+
+  <line x1="166" y1="200" x2="206" y2="200" stroke="#9aa3b5" stroke-dasharray="4 3"/>
+  <line x1="316" y1="170" x2="356" y2="170" stroke="#9aa3b5" stroke-dasharray="4 3"/>
+  <line x1="466" y1="150" x2="506" y2="150" stroke="#9aa3b5" stroke-dasharray="4 3"/>
+  <line x1="36" y1="260" x2="660" y2="260" stroke="#c7cedd"/>
+
+  <text x="36" y="112" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#1a2540">더하는 항목을 고르는 쪽은 기준서가 아니라 그 회사입니다. 같은 비용을 어떤 회사는 더하고 어떤 회사는 두고 봅니다.</text>
+</svg>
