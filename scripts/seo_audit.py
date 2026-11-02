@@ -30,6 +30,9 @@ from urllib.parse import unquote, urlparse
 
 SITE = "https://right-economy.com"
 
+# 본문 시각자료가 놓이는 자리. 공통 레이아웃의 로고·마스코트와 가르는 기준이다.
+CONTENT_IMG_PREFIX = "/images/posts/"
+
 # 길이 권고치. 경계가 아니라 「잘릴 위험 구간」이다 — 넘으면 보고만 하고 차단하지 않는다.
 TITLE_SOFT_MAX = 60
 DESC_SOFT_MAX = 160
@@ -57,6 +60,10 @@ class Meta(HTMLParser):
         self.headings = []
         self.img_total = 0
         self.img_no_alt = 0
+        # 본문 이미지(src 가 /images/posts/ 로 시작)를 **나온 순서대로** 모은다.
+        # 개수가 아니라 순서가 필요하다 — 첫 장만 LCP 후보라서 둘째 이후의
+        # lazy 는 올바른 값이고, 같은 속성이 자리에 따라 결함과 정답으로 갈린다.
+        self.content_imgs = []
         self.jsonld = 0
         # ld+json 의 **본문**도 모은다. 개수만 세면 「있다」는 보지만 「해석된다」는
         # 못 본다 — 깨진 JSON-LD 는 검색엔진이 블록 전체를 버리는데 개수는 1 이다.
@@ -95,6 +102,9 @@ class Meta(HTMLParser):
             # alt 속성 자체가 없으면 누락. alt="" 는 장식 이미지의 올바른 표기라 통과.
             if "alt" not in a:
                 self.img_no_alt += 1
+            src = a.get("src") or ""
+            if src.startswith(CONTENT_IMG_PREFIX):
+                self.content_imgs.append((src, a.get("loading")))
         elif tag == "script":
             if (a.get("type") or "").strip().lower() == "application/ld+json":
                 self.jsonld += 1
@@ -661,6 +671,45 @@ def check_links(dist):
 MD_LINK = re.compile(r"\[([^\]\n]{1,200})\]\((/[^)\s]*)\)")
 
 
+# 페이지 한 장만 봐도 보이지만 **라우트를 알아야** 판정되는 축.
+#   글 본문 첫 시각자료가 lazy 인가 — 그 한 장이 LCP(가장 큰 콘텐츠가 그려지는
+#   시각) 후보다. lazy 는 레이아웃이 잡힌 뒤에야 요청을 걸기 때문에, 첫 장에
+#   붙으면 그 대기만큼 LCP 가 밀린다. 둘째 이후에는 lazy 가 맞는 값이다.
+#
+# 🔴 왜 검사가 필요한가 — astro.config.mjs 의 rehypeImgLoading 이 **작성자가 적은
+#    값을 일부러 존중한다**(없을 때만 첫 장 eager·나머지 lazy 로 채운다). 그래서
+#    원고에 날 HTML 로 <img loading="lazy"> 를 직접 쓰면 플러그인이 안 고치고,
+#    빌드도 통과하고, 메타 검사도 통과한다. 막는 자리가 한 군데도 없다.
+#    2026-11-02 실측: 190편 중 1편(what-is-benner-cycle)이 그 모양이었다.
+#
+# ⚠️ 글 라우트만 본다. 허브·태그 페이지가 나중에 썸네일을 깔면 그 첫 장은 lazy 가
+#    맞는 값이라, 같이 세면 바로 과민이 된다. (현재 실측으로는 글 밖에서 본문
+#    이미지를 쓰는 라우트가 0개다 — 지금 0이라는 것과 앞으로도 0이라는 건 다르다)
+def check_lcp(dist):
+    """글 본문 첫 이미지의 loading 값을 센다."""
+    out = []
+    seen_posts = 0
+    for root, _dirs, files in os.walk(dist):
+        if "index.html" not in files:
+            continue
+        route = _route_of(dist, root)
+        if not route.startswith("/posts/") or route == "/posts/":
+            continue
+        with open(os.path.join(root, "index.html"), encoding="utf-8", errors="replace") as fh:
+            imgs = parse(fh.read()).content_imgs
+        seen_posts += 1
+        if not imgs:
+            continue
+        src, loading = imgs[0]
+        if (loading or "").strip().lower() == "lazy":
+            out.append(("lcp-img-lazy",
+                        "본문 첫 이미지가 lazy 다 — LCP 후보가 지연된다: %s (%s)" % (route, src)))
+    if seen_posts == 0:
+        out.append(("lcp-unmeasured",
+                    "글 라우트를 한 개도 못 찾았다 — 첫 이미지 축을 못 쟀다(0건이 아니라 모름)"))
+    return out
+
+
 def check_sources(posts_dir):
     """원고 본문의 내부 링크가 **약속한 자리로 떨어지나.**
 
@@ -892,6 +941,49 @@ def selftest_sources():
     return problems
 
 
+def _lcp_fixture(root, first_lazy, hub_lazy_thumb=False):
+    """dist 모양의 최소 표본. 글 두 편 + 허브 한 장."""
+    def page(path, body):
+        os.makedirs(os.path.join(root, path), exist_ok=True)
+        with open(os.path.join(root, path, "index.html"), "w", encoding="utf-8") as fh:
+            fh.write("<!doctype html><html lang=\"ko\"><body>%s</body></html>" % body)
+
+    first = "lazy" if first_lazy else "eager"
+    page("posts/a", (
+        '<img src="/images/posts/a/one.svg" alt="x" loading="%s">'
+        '<img src="/images/posts/a/two.svg" alt="y" loading="lazy">' % first))
+    # 본문 이미지가 없는 글. 「이미지 0장」과 「첫 장이 lazy」를 가르는 표본이다.
+    page("posts/b", '<img src="/mascot/logo.png" alt="">')
+    # 허브. 썸네일 첫 장이 lazy 여도 걸리면 안 된다(과민 표본).
+    page("category/x", (
+        '<img src="/images/posts/a/one.svg" alt="x" loading="lazy">'
+        if hub_lazy_thumb else "<p>허브</p>"))
+    return root
+
+
+def selftest_lcp():
+    """첫 이미지 축 점검. 양성·음성·과민·「모름」 넷을 같은 실행에서 본다."""
+    problems = []
+    tmp = tempfile.mkdtemp()
+    try:
+        good = _lcp_fixture(os.path.join(tmp, "good"), first_lazy=False, hub_lazy_thumb=True)
+        if check_lcp(good):
+            problems.append("첫이미지 양성 표본이 걸렸다(과민): %s"
+                            % [i for i, _ in check_lcp(good)])
+        bad = _lcp_fixture(os.path.join(tmp, "bad"), first_lazy=True)
+        bad_ids = set(i for i, _ in check_lcp(bad))
+        if "lcp-img-lazy" not in bad_ids:
+            problems.append("첫이미지 음성 표본에서 lcp-img-lazy 가 안 걸렸다(둔감)")
+        # 글이 한 편도 없는 dist 는 0건이 아니라 「모름」이다.
+        empty = os.path.join(tmp, "empty")
+        os.makedirs(empty, exist_ok=True)
+        if "lcp-unmeasured" not in set(i for i, _ in check_lcp(empty)):
+            problems.append("글 0편인 dist 가 「모름」으로 안 올라왔다(0건으로 묻힌다)")
+    finally:
+        shutil.rmtree(tmp, ignore_errors=True)
+    return problems
+
+
 def selftest_locs():
     """loc 추출기 점검. **실제로 쓰이는 경로를 잰다** — 이 맥에서는 expat 이
     없어서 fallback 이 본선이다. expat 이 있는 환경에서는 두 경로가 같은 답을
@@ -940,6 +1032,7 @@ def selftest():
     problems.extend(selftest_site())
     problems.extend(selftest_links())
     problems.extend(selftest_sources())
+    problems.extend(selftest_lcp())
     return problems
 
 
@@ -952,6 +1045,7 @@ def main():
         return 2
     print("✅ 자체 점검 통과 (페이지·사이트·유입그래프 검사 각각 양성 1본 무이슈 · "
           "음성 1본 전 검사 발화 · 빈 dist·없는 원고는 「모름」 · 원고 본문 링크 축 포함 · "
+          "본문 첫 이미지 축 포함(허브 썸네일 과민 표본까지) · "
           "loc 추출기 %s 경로)"
           % ("ET" if _expat_ok() else "순수 파이썬 fallback"))
 
@@ -992,6 +1086,8 @@ def main():
     for issue_id, msg in check_site(dist, os.path.join("src", "content", "posts")):
         by_issue[issue_id].append(("(사이트 전체)", msg))
     for issue_id, msg in check_links(dist):
+        by_issue[issue_id].append(("(사이트 전체)", msg))
+    for issue_id, msg in check_lcp(dist):
         by_issue[issue_id].append(("(사이트 전체)", msg))
     # dist 가 아니라 원고를 읽는 축. dist 쪽 검사로는 안 보이는 자리다(함수 주석 참조).
     for issue_id, msg in check_sources(os.path.join("src", "content", "posts")):
