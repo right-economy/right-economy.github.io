@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" width="720" height="320" role="img" aria-label="부채총계를 자본총계로 나눈 값이 부채비율이며, 100퍼센트보다 크면 남의 돈이 자기 돈보다 많고 작으면 자기 돈이 더 많다는 것을 나타낸 도식">
+  <rect width="720" height="320" fill="#fcfcfd"/>
+  <text x="36" y="40" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="18" font-weight="700" fill="#1a2540">부채비율은 재무상태표 두 줄의 나눗셈입니다</text>
+  <text x="36" y="64" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#5b6478">분자와 분모 모두 재무상태표에 적힌 값 · 단위: %</text>
+
+  <rect x="36" y="88" width="250" height="44" rx="8" fill="#eef2fb" stroke="#9fb3d9"/>
+  <text x="161" y="116" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14.5" font-weight="700" fill="#2b3f66">부채총계</text>
+  <line x1="36" y1="142" x2="286" y2="142" stroke="#1a2540" stroke-width="2"/>
+  <rect x="36" y="152" width="250" height="44" rx="8" fill="#fdf3e6" stroke="#d9b07f"/>
+  <text x="161" y="180" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14.5" font-weight="700" fill="#7a5320">자본총계</text>
+  <text x="310" y="152" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="22" font-weight="700" fill="#1a2540">=</text>
+
+  <rect x="348" y="88" width="312" height="52" rx="8" fill="#eaf5ee" stroke="#7fb894"/>
+  <text x="368" y="110" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#1f5c38">100%보다 작으면</text>
+  <text x="368" y="130" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#1a2540">자기 돈이 남의 돈보다 많습니다</text>
+
+  <rect x="348" y="150" width="312" height="30" rx="6" fill="#f1f2f5" stroke="#c4c8d2"/>
+  <text x="368" y="170" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#3a4357">100%면 부채총계와 자본총계가 같습니다</text>
+
+  <rect x="348" y="190" width="312" height="52" rx="8" fill="#fdeeee" stroke="#d99f9f"/>
+  <text x="368" y="212" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#8f2f2f">100%보다 크면</text>
+  <text x="368" y="232" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#1a2540">남의 돈이 자기 돈보다 많습니다</text>
+
+  <text x="36" y="272" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13.5" fill="#1a2540">예를 들어 부채총계 150억원, 자본총계 100억원이면 150%입니다.</text>
+  <text x="36" y="296" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13.5" fill="#1a2540">자산총계는 이 두 값을 더한 250억원이라 따로 계산에 들어가지 않습니다.</text>
+</svg>
