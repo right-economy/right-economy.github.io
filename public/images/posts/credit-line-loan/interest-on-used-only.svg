@@ -14,14 +14,14 @@
 
   <text class="lbl" x="30" y="100">통장에 열어둔 한도</text>
   <rect x="30" y="112" width="700" height="34" rx="5" fill="#d9d2c6"/>
-  <text class="val" x="380" y="134" text-anchor="middle" fill="#5a5349">5,000만원</text>
+  <text class="val" x="380" y="134" text-anchor="middle" style="fill:#5a5349">5,000만원</text>
 
   <path d="M380 156 V182" stroke="#c9bfae" stroke-width="2" marker-end="url(#a)"/>
 
   <rect x="30" y="196" width="112" height="44" rx="5" fill="#c2410c"/>
   <rect x="146" y="196" width="584" height="44" rx="5" fill="#f1ece3"/>
-  <text class="val" x="86" y="223" text-anchor="middle" fill="#ffffff">800만원</text>
-  <text class="val" x="438" y="223" text-anchor="middle" fill="#8a8275">4,200만원</text>
+  <text class="val" x="86" y="223" text-anchor="middle" style="fill:#ffffff">800만원</text>
+  <text class="val" x="438" y="223" text-anchor="middle">4,200만원</text>
 
   <text class="lbl" x="30" y="266">실제로 꺼내 쓴 돈</text>
   <text class="sub" x="30" y="283">여기에만 이자가 붙는다</text>

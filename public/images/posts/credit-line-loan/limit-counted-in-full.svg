@@ -16,12 +16,12 @@
   <text class="who" x="30" y="100">은행이 이자를 매길 때</text>
   <rect x="30" y="110" width="112" height="40" rx="5" fill="#c2410c"/>
   <rect x="146" y="110" width="584" height="40" rx="5" fill="#f6f3ee" stroke="#e6e0d6" stroke-dasharray="4 4"/>
-  <text class="val" x="86" y="135" text-anchor="middle" fill="#ffffff">800만원</text>
+  <text class="val" x="86" y="135" text-anchor="middle" style="fill:#ffffff">800만원</text>
   <text class="sub" x="438" y="135" text-anchor="middle">세지 않는다</text>
 
   <text class="who" x="30" y="196">다른 대출을 심사할 때</text>
   <rect x="30" y="206" width="700" height="40" rx="5" fill="#7c2d12"/>
-  <text class="val" x="380" y="231" text-anchor="middle" fill="#ffffff">5,000만원 — 한도 전액을 빚으로 본다</text>
+  <text class="val" x="380" y="231" text-anchor="middle" style="fill:#ffffff">5,000만원 — 한도 전액을 빚으로 본다</text>
 
   <text class="sub" x="30" y="276">그래서 한 푼도 안 꺼낸 통장이 주택담보대출 한도를 줄일 수 있다.</text>
   <text class="sub" x="30" y="296">큰 대출을 앞두고 있으면 쓰지 않는 한도는 미리 줄이거나 해지하는 쪽이 유리하다.</text>

@@ -23,12 +23,12 @@
   <text class="lbl" x="30" y="176">우량 회사채</text>
   <rect class="base" x="150" y="156" width="180" height="30" rx="4"/>
   <rect class="sp" x="330" y="156" width="55" height="30" rx="4"/>
-  <text class="val" x="395" y="176" fill="#c2410c">+ 작은 스프레드</text>
+  <text class="val" x="395" y="176" style="fill:#c2410c">+ 작은 스프레드</text>
 
   <text class="lbl" x="30" y="244">신용도 낮은 회사채</text>
   <rect class="base" x="150" y="224" width="180" height="30" rx="4"/>
   <rect class="sp" x="330" y="224" width="215" height="30" rx="4"/>
-  <text class="val" x="555" y="244" fill="#c2410c">+ 큰 스프레드</text>
+  <text class="val" x="555" y="244" style="fill:#c2410c">+ 큰 스프레드</text>
 
   <rect class="base" x="150" y="298" width="16" height="12" rx="2"/>
   <text class="note" x="172" y="309">국채금리(돈의 기본값)</text>

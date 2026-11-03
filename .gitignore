@@ -22,3 +22,6 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+
+# 감사 스크립트를 모듈로 import 하면 생긴다
+scripts/__pycache__/

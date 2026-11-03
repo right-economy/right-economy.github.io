@@ -22,8 +22,8 @@
   <text class="t v" x="444" y="118" text-anchor="middle">169</text>
 
   <rect x="540" y="58" width="156" height="86" rx="10" fill="#c2410c"/>
-  <text class="t d" x="618" y="88" text-anchor="middle" fill="#ffe8dd">3일 연속</text>
-  <text class="t v" x="618" y="118" text-anchor="middle" fill="#ffffff">219.7</text>
+  <text class="t d" x="618" y="88" text-anchor="middle" style="fill:#fff2ec">3일 연속</text>
+  <text class="t v" x="618" y="118" text-anchor="middle" style="fill:#ffffff">219.7</text>
 
   <rect x="24" y="172" width="672" height="58" rx="12" fill="#fff2ec" stroke="#ece4d6"/>
   <text class="t" x="360" y="198" text-anchor="middle" font-size="15" font-weight="700" fill="#292524">기준점이 <tspan fill="#c2410c">매일 새로 잡히기</tspan> 때문입니다</text>

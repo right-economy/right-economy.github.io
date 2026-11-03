@@ -28,8 +28,8 @@
   <path class="arrow" d="M244 230 C304 230 304 160 356 160"/>
 
   <rect class="accent" x="358" y="116" width="200" height="88" rx="12"/>
-  <text class="h" x="380" y="148" fill="#c0392b">③ 사려는 사람이</text>
-  <text class="h" x="380" y="168" fill="#c0392b">값을 깎는다</text>
+  <text class="h" x="380" y="148" style="fill:#c0392b">③ 사려는 사람이</text>
+  <text class="h" x="380" y="168" style="fill:#c0392b">값을 깎는다</text>
   <text class="s" x="380" y="190">안 깎으면 새 채권을 산다</text>
 
   <path class="arrow" d="M558 160 H606"/>

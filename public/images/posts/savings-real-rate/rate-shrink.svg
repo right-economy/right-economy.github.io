@@ -35,21 +35,21 @@
 
   <!-- 3단계 -->
   <rect x="506" y="82" width="186" height="120" rx="10" fill="#9a3412"/>
-  <text class="t step" x="524" y="106" fill="#fed7aa">③ 실제 받는 돈</text>
+  <text class="t step" x="524" y="106" style="fill:#fed7aa">③ 실제 받는 돈</text>
   <text class="t big" x="524" y="150" fill="#ffffff">1.83<tspan class="unit">%</tspan></text>
-  <text class="t cap" x="524" y="176" fill="#fed7aa">65,988원</text>
-  <text class="t cap" x="524" y="192" fill="#fed7aa">세금 12,012원 차감 후</text>
+  <text class="t cap" x="524" y="176" style="fill:#fed7aa">65,988원</text>
+  <text class="t cap" x="524" y="192" style="fill:#fed7aa">세금 12,012원 차감 후</text>
 
   <!-- 비교 막대 -->
   <text class="t sub" x="28" y="242">같은 360만 원 · 같은 연 4%라도 넣는 방식에 따라</text>
   <g class="t">
     <text class="cap" x="28" y="272">적금(매달 30만 원)</text>
     <rect x="164" y="260" width="100" height="16" rx="3" fill="#fdba74"/>
-    <text class="cap" x="274" y="273" fill="#9a3412">65,988원 · 1.83%</text>
+    <text class="cap" x="274" y="273" style="fill:#9a3412">65,988원 · 1.83%</text>
 
     <text class="cap" x="28" y="302">예금(360만 원 한 번에)</text>
     <rect x="164" y="290" width="185" height="16" rx="3" fill="#ea580c"/>
-    <text class="cap" x="359" y="303" fill="#9a3412">121,824원 · 3.38%</text>
+    <text class="cap" x="359" y="303" style="fill:#9a3412">121,824원 · 3.38%</text>
   </g>
   <text class="t cap" x="28" y="336">※ 둘 다 세후 기준. 다만 예금은 첫날 360만 원이 필요하고, 적금은 매달 30만 원씩 모아가는 상품입니다.</text>
 </svg>

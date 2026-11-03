@@ -25,13 +25,13 @@
   <path class="arw" d="M406 115 H448" marker-end="url(#a)"/>
 
   <rect x="454" y="86" width="166" height="58" rx="9" fill="#e8814a"/>
-  <text class="box" x="537" y="112" text-anchor="middle" fill="#ffffff">인출이 몰린다</text>
-  <text class="cap" x="537" y="130" text-anchor="middle" fill="#fdf0e4">남긴 몫을 넘어선다</text>
+  <text class="box" x="537" y="112" text-anchor="middle">인출이 몰린다</text>
+  <text class="cap" x="537" y="130" text-anchor="middle" style="fill:#2a2521">남긴 몫을 넘어선다</text>
 
   <path class="arw" d="M626 115 H668" marker-end="url(#a)"/>
 
   <rect x="674" y="86" width="56" height="58" rx="9" fill="#c2410c"/>
-  <text class="box" x="702" y="120" text-anchor="middle" fill="#ffffff">마비</text>
+  <text class="box" x="702" y="120" text-anchor="middle" style="fill:#ffffff">마비</text>
 
   <path class="arw" d="M702 150 V196 H105 V150" marker-end="url(#a)"/>
   <rect x="250" y="176" width="300" height="40" rx="8" fill="#ffffff" stroke="#e8c9ab" stroke-width="1.5"/>

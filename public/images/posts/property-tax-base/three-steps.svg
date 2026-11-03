@@ -22,15 +22,15 @@
 
   <rect x="320" y="80" width="200" height="110" rx="12" fill="#fdf0e6" stroke="#f4a97b" stroke-width="1.5"/>
   <text class="step" x="340" y="108">과세표준</text>
-  <text class="big" x="340" y="146" fill="#c2410c">2억 2,000만원</text>
+  <text class="big" x="340" y="146" style="fill:#c2410c">2억 2,000만원</text>
   <text class="sub" x="340" y="170">공정시장가액비율을 곱한 값</text>
 
   <text class="op" x="540" y="142">→</text>
 
   <rect x="580" y="80" width="150" height="110" rx="12" fill="#2a2521"/>
-  <text class="step" x="600" y="108" fill="#c9bfae">재산세 본세</text>
-  <text class="big" x="600" y="146" fill="#ffb877">26만원</text>
-  <text class="sub" x="600" y="170" fill="#9a8f7a">특례세율 적용</text>
+  <text class="step" x="600" y="108" style="fill:#c9bfae">재산세 본세</text>
+  <text class="big" x="600" y="146" style="fill:#ffb877">26만원</text>
+  <text class="sub" x="600" y="170" style="fill:#9a8f7a">특례세율 적용</text>
 
   <text class="sub" x="30" y="222">공시가격 5억이 그대로 과세표준이 되면 세금이 두 배 가까이 올라간다. 비율이 그 사이를 한 번 깎는다.</text>
   <text class="sub" x="30" y="246">⚠️ 이 26만원은 재산세 본세다. 실제 고지서에는 도시지역분과 지방교육세가 따로 더 붙는다.</text>

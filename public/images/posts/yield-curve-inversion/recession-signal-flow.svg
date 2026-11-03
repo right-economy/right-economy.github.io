@@ -32,7 +32,7 @@
 
   <!-- 역전 -->
   <rect class="accent" x="352" y="110" width="196" height="80" rx="12"/>
-  <text class="h" x="374" y="142" fill="#c0392b">③ 금리 역전</text>
+  <text class="h" x="374" y="142" style="fill:#c0392b">③ 금리 역전</text>
   <text class="s" x="374" y="164">단기 &gt; 장기</text>
   <text class="s" x="374" y="181">(정상과 반대 모양)</text>
 
