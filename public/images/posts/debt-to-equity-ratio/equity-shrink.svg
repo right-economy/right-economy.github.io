@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" width="720" height="360" role="img" aria-label="부채총계가 100으로 그대로인 상태에서 자본총계만 100에서 50으로 줄면 부채비율이 100퍼센트에서 200퍼센트로 올라간다는 것을 막대로 비교한 도식">
+  <rect width="720" height="360" fill="#fcfcfd"/>
+  <text x="36" y="40" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="18" font-weight="700" fill="#1a2540">빚을 한 푼도 더 안 빌려도 비율은 오릅니다</text>
+  <text x="36" y="64" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#5b6478">설명을 위해 만든 예시 값 · 막대 길이는 금액에 비례 · 단위: 억원</text>
+
+  <rect x="36" y="88" width="304" height="212" rx="10" fill="#f1f2f5" stroke="#c4c8d2"/>
+  <text x="56" y="116" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#3a4357">작년 — 자본총계 100</text>
+  <rect x="56" y="132" width="180" height="38" rx="6" fill="#eef2fb" stroke="#9fb3d9"/>
+  <text x="76" y="156" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#2b3f66">부채총계 100</text>
+  <rect x="56" y="182" width="180" height="38" rx="6" fill="#fdf3e6" stroke="#d9b07f"/>
+  <text x="76" y="206" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#7a5320">자본총계 100</text>
+  <text x="56" y="262" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="20" font-weight="700" fill="#1a2540">부채비율 100%</text>
+  <text x="56" y="286" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12.5" fill="#3a4357">100 ÷ 100 × 100</text>
+
+  <rect x="380" y="88" width="304" height="212" rx="10" fill="#fdeeee" stroke="#d99f9f"/>
+  <text x="400" y="116" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#8f2f2f">올해 — 손실로 자본총계만 50</text>
+  <rect x="400" y="132" width="180" height="38" rx="6" fill="#eef2fb" stroke="#9fb3d9"/>
+  <text x="420" y="156" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#2b3f66">부채총계 100</text>
+  <rect x="400" y="182" width="90" height="38" rx="6" fill="#fdf3e6" stroke="#d9b07f"/>
+  <text x="420" y="206" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#7a5320">자본 50</text>
+  <text x="400" y="262" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="20" font-weight="700" fill="#8f2f2f">부채비율 200%</text>
+  <text x="400" y="286" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12.5" fill="#1a2540">100 ÷ 50 × 100</text>
+
+  <text x="36" y="330" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13.5" fill="#1a2540">부채총계는 두 해 모두 100입니다. 올라간 것은 비율뿐이고 빚은 그대로입니다.</text>
+</svg>
