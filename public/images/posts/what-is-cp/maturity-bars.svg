@@ -15,7 +15,7 @@
 
   <text class="lbl" x="30" y="107">국고채 10년물</text>
   <rect class="b1" x="190" y="90" width="500" height="28" rx="4"/>
-  <text class="val" x="700" y="109" fill="#8a8172">10년</text>
+  <text class="val" x="700" y="109">10년</text>
 
   <text class="lbl" x="30" y="165">회사채 3년물</text>
   <rect class="b2" x="190" y="148" width="150" height="28" rx="4"/>

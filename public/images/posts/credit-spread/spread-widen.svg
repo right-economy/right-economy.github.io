@@ -30,11 +30,11 @@
   <line class="gap" x1="250" y1="172" x2="250" y2="203"/>
   <line class="gap" x1="690" y1="104" x2="690" y2="232"/>
 
-  <text class="lbl" x="600" y="96" fill="#c2410c">회사채 금리</text>
-  <text class="lbl" x="600" y="250" fill="#6b6357">국채 금리</text>
+  <text class="lbl" x="600" y="96" style="fill:#c2410c">회사채 금리</text>
+  <text class="lbl" x="600" y="250" style="fill:#6b6357">국채 금리</text>
 
   <text class="note" x="262" y="192">좁음</text>
-  <text class="note" x="616" y="175" fill="#c2410c">벌어짐</text>
+  <text class="note" x="616" y="175" style="fill:#c2410c">벌어짐</text>
 
   <text class="note" x="30" y="322">경기가 나빠지면 안전한 국채로 돈이 몰려 국채금리는 내려가고, 회사는 떼일 걱정이 커져 회사채 금리는 올라간다.</text>
 </svg>

@@ -750,6 +750,150 @@ def check_sources(posts_dir):
     return out
 
 
+# SVG 의 `fill` 은 presentation attribute 라 **그 파일 안의 `<style>` 규칙에 진다.**
+# 그래서 `<text … fill="#ffffff">` 라고 적혀 있어도 `text{fill:#2a2521}` 이 있으면
+# 어두운 글자로 찍히고, 어두운 상자 위에서는 **대비 1.00 = 안 보인다.**
+# 글은 SVG 를 `<img>` 로 부르므로 SVG 한 장이 그 자체로 한 문서다 — 사이트
+# 스타일시트는 여기에 끼어들지 않고, 이기는 건 같은 파일의 `<style>` 뿐이다.
+#
+# ⚠️ **이 검사는 「안 보이나」를 모른다 — 「지정이 무시되나」만 본다.** 실제 대비는
+#    띄워서 계산된 색을 받아야 갈리고(2026-10-18·11-03 두 번 다 그렇게 쟀다),
+#    그 측정은 헤드리스 브라우저가 필요해서 이 감사에 넣지 않았다. 대신 **기준선을
+#    0 으로 만들어 두고 기계가 메커니즘을 지킨다** — 2026-11-03 에 51곳을 전부
+#    인라인 `style="fill:…"` 로 옮겨(또는 지정이 기본색보다 나쁜 6곳은 지워서) 0 이 됐다.
+#    여기서 1건이라도 올라오면 **그 자리는 렌더해서 대비를 재야 한다.**
+# ⚠️ 아는 선택자는 태그 이름과 한 겹 클래스(`text`·`.box`·쉼표 묶음)뿐이다.
+#    자손 선택자(`g .box`)를 쓰면 못 본다 — 이 저장소의 도식은 전부 앞의 두 모양이다.
+FILL_TAGS = ("text", "tspan")
+
+
+class SvgFill(HTMLParser):
+    """`<style>` 의 fill 규칙과, fill 속성을 든 글자 요소를 같이 모은다."""
+
+    def __init__(self):
+        HTMLParser.__init__(self)
+        self.css_fill_selectors = set()
+        self.nodes = []          # (tag, class 목록, fill 속성, style 속성, 글자)
+        self._in_style = False
+        self._open = None
+
+    def handle_starttag(self, tag, attrs):
+        if tag == "style":
+            self._in_style = True
+            return
+        if tag in FILL_TAGS:
+            a = dict(attrs)
+            self._open = [tag, (a.get("class") or "").split(), a.get("fill"), a.get("style"), ""]
+            self.nodes.append(self._open)
+
+    def handle_endtag(self, tag):
+        if tag == "style":
+            self._in_style = False
+        if tag in FILL_TAGS:
+            self._open = None
+
+    def handle_data(self, data):
+        if self._in_style:
+            # 규칙 하나하나가 아니라 「fill 을 정하는 선택자」만 모은다.
+            for block in data.split("}"):
+                if "{" not in block:
+                    continue
+                sel, decl = block.split("{", 1)
+                if "fill" not in decl:
+                    continue
+                for part in sel.split(","):
+                    part = part.strip()
+                    if part:
+                        self.css_fill_selectors.add(part)
+        elif self._open is not None:
+            self._open[4] += data
+
+
+def check_svg_fill(images_dir):
+    """SVG 안에서 fill 속성이 같은 파일의 스타일시트 규칙에 지는 자리를 센다.
+
+    못 읽으면 0건이 아니라 「모름」으로 올린다.
+    """
+    out = []
+    if not os.path.isdir(images_dir):
+        out.append(("svgfill-unmeasured",
+                    "그림 디렉터리를 못 읽었다 — SVG fill 축을 못 쟀다(0건이 아니라 모름): %s"
+                    % images_dir))
+        return out
+    seen = 0
+    for root, _dirs, files in os.walk(images_dir):
+        for name in sorted(files):
+            if not name.endswith(".svg"):
+                continue
+            seen += 1
+            path = os.path.join(root, name)
+            with open(path, encoding="utf-8", errors="replace") as fh:
+                p = SvgFill()
+                p.feed(fh.read())
+            for tag, classes, fill, style, text in p.nodes:
+                if not fill or (style and "fill" in style):
+                    continue   # 인라인 style 은 규칙을 이긴다 — 그게 처방이다
+                names = set([tag]) | set("." + c for c in classes)
+                if names & p.css_fill_selectors:
+                    out.append(("svg-fill-loses-to-css",
+                                "fill=%s 가 같은 파일 <style> 에 진다 — 적힌 색으로 안 찍힌다: "
+                                "%s 「%s」 (style=\"fill:…\" 로 적을 것)"
+                                % (fill, os.path.relpath(path, images_dir),
+                                   (text or "").strip()[:24])))
+    if seen == 0:
+        out.append(("svgfill-unmeasured",
+                    "SVG 를 한 장도 못 찾았다 — fill 축을 못 쟀다(0건이 아니라 모름): %s"
+                    % images_dir))
+    return out
+
+
+def _svgfill_fixture(root, losing, inline_style=False, no_rule=False):
+    """SVG 한 장. 세 모양을 만든다 —
+    ①규칙에 지는 fill 속성 ②인라인 style(처방대로) ③fill 규칙이 없는 파일."""
+    os.makedirs(os.path.join(root, "a"), exist_ok=True)
+    rule = "" if no_rule else "text{font-size:13px;fill:#2a2521}\n.cap{fill:#7a7066}"
+    if inline_style:
+        body = '<text class="cap" style="fill:#ffffff">값</text>'
+    elif losing:
+        body = '<text class="cap" fill="#ffffff">값</text>'
+    else:
+        body = '<text class="cap">값</text>'
+    with open(os.path.join(root, "a", "x.svg"), "w", encoding="utf-8") as fh:
+        fh.write('<svg xmlns="http://www.w3.org/2000/svg"><style>%s</style>%s</svg>'
+                 % (rule, body))
+    return root
+
+
+def selftest_svg_fill():
+    """fill 축 점검. 양성·음성·처방·규칙없음·「모름」 다섯을 같은 실행에서 본다."""
+    problems = []
+    tmp = tempfile.mkdtemp()
+    try:
+        good = _svgfill_fixture(os.path.join(tmp, "good"), losing=False)
+        if check_svg_fill(good):
+            problems.append("SVG fill 양성 표본이 걸렸다(과민): %s"
+                            % [i for i, _ in check_svg_fill(good)])
+        bad = _svgfill_fixture(os.path.join(tmp, "bad"), losing=True)
+        if "svg-fill-loses-to-css" not in set(i for i, _ in check_svg_fill(bad)):
+            problems.append("SVG fill 음성 표본에서 svg-fill-loses-to-css 가 안 걸렸다(둔감)")
+        # 처방(인라인 style)을 쓴 파일은 걸리면 안 된다. 안 그러면 고친 자리가
+        # 영구 경고로 남아서 다음 사람이 처방을 되돌린다.
+        fixed = _svgfill_fixture(os.path.join(tmp, "fixed"), losing=True, inline_style=True)
+        if check_svg_fill(fixed):
+            problems.append("처방(인라인 style) 표본이 걸렸다(과민)")
+        # fill 규칙이 없는 파일의 fill 속성은 아무것에도 지지 않는다.
+        plain = _svgfill_fixture(os.path.join(tmp, "plain"), losing=True, no_rule=True)
+        if check_svg_fill(plain):
+            problems.append("fill 규칙이 없는 표본이 걸렸다(과민)")
+        empty = os.path.join(tmp, "empty")
+        os.makedirs(empty, exist_ok=True)
+        if "svgfill-unmeasured" not in set(i for i, _ in check_svg_fill(empty)):
+            problems.append("SVG 0장이 「모름」으로 안 올라왔다(0건으로 묻힌다)")
+    finally:
+        shutil.rmtree(tmp, ignore_errors=True)
+    return problems
+
+
 # 사이트 레벨 검사의 양성·음성 표본. 페이지 한 장이 아니라 **디렉터리 모양**이
 # 입력이라 임시 폴더로 만든다.
 def _fixture(root, thin_noindex, thin_in_sitemap, post_b_noindex):
@@ -1033,6 +1177,7 @@ def selftest():
     problems.extend(selftest_links())
     problems.extend(selftest_sources())
     problems.extend(selftest_lcp())
+    problems.extend(selftest_svg_fill())
     return problems
 
 
@@ -1046,6 +1191,7 @@ def main():
     print("✅ 자체 점검 통과 (페이지·사이트·유입그래프 검사 각각 양성 1본 무이슈 · "
           "음성 1본 전 검사 발화 · 빈 dist·없는 원고는 「모름」 · 원고 본문 링크 축 포함 · "
           "본문 첫 이미지 축 포함(허브 썸네일 과민 표본까지) · "
+          "SVG fill 축 포함(처방·규칙없음 과민 표본까지) · "
           "loc 추출기 %s 경로)"
           % ("ET" if _expat_ok() else "순수 파이썬 fallback"))
 
@@ -1092,6 +1238,9 @@ def main():
     # dist 가 아니라 원고를 읽는 축. dist 쪽 검사로는 안 보이는 자리다(함수 주석 참조).
     for issue_id, msg in check_sources(os.path.join("src", "content", "posts")):
         by_issue[issue_id].append(("(원고)", msg))
+    # 그림 파일을 읽는 축. dist 에서는 SVG 가 <img src> 한 줄이라 안쪽이 안 보인다.
+    for issue_id, msg in check_svg_fill(os.path.join("public", "images", "posts")):
+        by_issue[issue_id].append(("(그림)", msg))
 
     dup_titles = dict((k, v) for k, v in titles.items() if len(v) > 1)
     dup_descs = dict((k, v) for k, v in descs.items() if len(v) > 1)

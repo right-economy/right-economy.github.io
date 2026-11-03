@@ -15,12 +15,12 @@
 
   <text class="who" x="30" y="100">지금 한 번 나가는 돈</text>
   <rect x="30" y="110" width="300" height="42" rx="5" fill="#7c2d12"/>
-  <text class="val" x="180" y="136" text-anchor="middle" fill="#ffffff">중도상환수수료 + 부대비용</text>
+  <text class="val" x="180" y="136" text-anchor="middle" style="fill:#ffffff">중도상환수수료 + 부대비용</text>
   <text class="sub" x="30" y="170">인지세·근저당 설정비도 여기 들어간다</text>
 
   <text class="who" x="30" y="214">남은 기간에 아끼는 돈</text>
   <rect x="30" y="224" width="520" height="42" rx="5" fill="#c2410c"/>
-  <text class="val" x="290" y="250" text-anchor="middle" fill="#ffffff">금리 차이 × 남은 원금 × 남은 기간</text>
+  <text class="val" x="290" y="250" text-anchor="middle" style="fill:#ffffff">금리 차이 × 남은 원금 × 남은 기간</text>
   <text class="sub" x="30" y="284">기간이 짧으면 이 막대가 짧아진다 — 금리 차가 커도 뒤집힐 수 있다</text>
 
   <text class="sub" x="30" y="312">아래가 길면 갈아타고, 위가 길면 면제 시점까지 기다리는 쪽을 본다. 금리 차이만 보고 정하면 위쪽을 빠뜨리게 된다.</text>

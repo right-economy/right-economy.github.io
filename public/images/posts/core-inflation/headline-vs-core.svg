@@ -28,15 +28,15 @@
   <text x="400" y="204" text-anchor="middle" font-size="11.5" fill="#9a6b4f">국제유가에 출렁</text>
 
   <!-- 등호 -->
-  <line x1="495" y1="155" x2="553" y2="155" stroke="#e8703a" stroke-width="2.5" marker-end="url(#ah)"/>
-  <text x="524" y="145" text-anchor="middle" font-size="16" font-weight="800" fill="#c2410c">=</text>
+  <line x1="495" y1="155" x2="548" y2="155" stroke="#e8703a" stroke-width="2.5" marker-end="url(#ah)"/>
+  <text x="521" y="145" text-anchor="middle" font-size="16" font-weight="800" fill="#c2410c">=</text>
 
   <!-- 근원물가 박스 -->
-  <rect x="500" y="80" width="180" height="150" rx="12" fill="#c2410c"/>
-  <text x="590" y="130" text-anchor="middle" font-size="17" font-weight="800" fill="#fff">근원물가</text>
-  <text x="590" y="154" text-anchor="middle" font-size="13" fill="#ffe4d3">(Core CPI)</text>
-  <text x="590" y="184" text-anchor="middle" font-size="12" fill="#ffe4d3">물가의 '기조'가</text>
-  <text x="590" y="202" text-anchor="middle" font-size="12" fill="#ffe4d3">드러나는 지표</text>
+  <rect x="555" y="80" width="150" height="150" rx="12" fill="#c2410c"/>
+  <text x="630" y="130" text-anchor="middle" font-size="17" font-weight="800" fill="#fff">근원물가</text>
+  <text x="630" y="154" text-anchor="middle" font-size="13" fill="#ffe4d3">(Core CPI)</text>
+  <text x="630" y="184" text-anchor="middle" font-size="12" fill="#ffe4d3">물가의 '기조'가</text>
+  <text x="630" y="202" text-anchor="middle" font-size="12" fill="#ffe4d3">드러나는 지표</text>
 
   <text x="360" y="270" text-anchor="middle" font-size="13" font-weight="700" fill="#c2410c">한국은 '농산물 및 석유류 제외 지수'를 대표적인 근원물가로 봐요</text>
   <text x="360" y="298" text-anchor="middle" font-size="11" fill="#b08968">개념 도식 · 출처: 통계청 소비자물가지수 특수분류 설명 자료 기반 재구성</text>

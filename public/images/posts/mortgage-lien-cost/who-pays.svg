@@ -15,7 +15,7 @@
 
   <rect x="30" y="76" width="340" height="208" rx="10" fill="#f4f1ea" stroke="#c9bfae" stroke-width="1.5"/>
   <text class="head" x="52" y="106">대출받을 때 — 설정</text>
-  <text class="who" x="52" y="134" fill="#1d6a5a">은행이 낸다</text>
+  <text class="who" x="52" y="134" style="fill:#1d6a5a">은행이 낸다</text>
   <text class="item" x="52" y="162">등록면허세 (채권최고액의 0.2%)</text>
   <text class="item" x="52" y="186">지방교육세 (등록면허세의 20%)</text>
   <text class="item" x="52" y="210">등기신청수수료 · 법무사 보수</text>
@@ -25,7 +25,7 @@
 
   <rect x="390" y="76" width="340" height="208" rx="10" fill="#fdf0e6" stroke="#f4a97b" stroke-width="1.5"/>
   <text class="head" x="412" y="106">다 갚았을 때 — 말소</text>
-  <text class="who" x="412" y="134" fill="#c2410c">내가 낸다</text>
+  <text class="who" x="412" y="134" style="fill:#c2410c">내가 낸다</text>
   <text class="item" x="412" y="162">등록면허세 6,000원 (건당)</text>
   <text class="item" x="412" y="186">지방교육세 1,200원</text>
   <text class="item" x="412" y="210">등기신청수수료 1,000~4,000원</text>

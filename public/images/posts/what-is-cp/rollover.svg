@@ -40,7 +40,7 @@
 
   <path class="arrx" d="M555 176 V208"/>
   <rect class="bad" x="430" y="210" width="250" height="56" rx="12"/>
-  <text class="lbl" x="452" y="235" fill="#c0392b">여기서 안 팔리면</text>
+  <text class="lbl" x="452" y="235" style="fill:#c0392b">여기서 안 팔리면</text>
   <text class="note" x="452" y="256">갚을 돈이 그 자리에서 사라진다</text>
 
   <text class="note" x="30" y="308">돈을 못 벌어서가 아니라 새로 빌리는 길이 막혀서 생기는 문제다. 실적이 멀쩡한 회사도 겪는다.</text>

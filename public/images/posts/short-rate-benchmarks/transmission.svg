@@ -15,15 +15,15 @@
   <text class="note" x="30" y="56">칸마다 반영되는 시간이 다르고, 뒤로 갈수록 늦어진다</text>
 
   <rect class="k1" x="30" y="86" width="132" height="54" rx="8"/>
-  <text class="box" x="96" y="110" fill="#ffffff" text-anchor="middle">기준금리</text>
-  <text class="cap" x="96" y="129" fill="#d9d2c6" text-anchor="middle">한국은행이 정한다</text>
+  <text class="box" x="96" y="110" style="fill:#ffffff" text-anchor="middle">기준금리</text>
+  <text class="cap" x="96" y="129" style="fill:#d9d2c6" text-anchor="middle">한국은행이 정한다</text>
 
   <path class="arw" d="M168 113 H206" marker-end="url(#a)"/>
 
   <rect class="k2" x="212" y="78" width="126" height="32" rx="7"/>
-  <text class="box" x="275" y="99" fill="#ffffff" text-anchor="middle">콜금리</text>
+  <text class="box" x="275" y="99" style="fill:#ffffff" text-anchor="middle">콜금리</text>
   <rect class="k3" x="212" y="118" width="126" height="32" rx="7"/>
-  <text class="box" x="275" y="139" fill="#ffffff" text-anchor="middle">KOFR</text>
+  <text class="box" x="275" y="139" text-anchor="middle">KOFR</text>
   <text class="lag" x="275" y="170" text-anchor="middle">거의 그날</text>
 
   <path class="arw" d="M344 113 H382" marker-end="url(#a)"/>

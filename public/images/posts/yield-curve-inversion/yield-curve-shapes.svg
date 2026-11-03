@@ -24,8 +24,8 @@
   <text class="lbl" x="66" y="288">단기(3개월)</text>
   <text class="lbl" x="270" y="288">장기(10년)</text>
   <text class="lbl" x="30" y="74" transform="rotate(-90 30 74)">금리(%)</text>
-  <text class="cap" x="90" y="238" fill="#c2410c">낮음</text>
-  <text class="cap" x="278" y="98" fill="#c2410c">높음</text>
+  <text class="cap" x="90" y="238" style="fill:#c2410c">낮음</text>
+  <text class="cap" x="278" y="98" style="fill:#c2410c">높음</text>
 
   <!-- 오른쪽: 역전 곡선 -->
   <text class="title" x="430" y="34">역전 곡선 (우하향)</text>
@@ -40,6 +40,6 @@
   <circle cx="705" cy="245" r="4.5" fill="#c0392b"/>
   <text class="lbl" x="456" y="288">단기(3개월)</text>
   <text class="lbl" x="660" y="288">장기(10년)</text>
-  <text class="cap" x="470" y="100" fill="#c0392b">높음</text>
-  <text class="cap" x="668" y="238" fill="#c0392b">낮음</text>
+  <text class="cap" x="470" y="100" style="fill:#c0392b">높음</text>
+  <text class="cap" x="668" y="238" style="fill:#c0392b">낮음</text>
 </svg>
