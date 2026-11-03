@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" width="720" height="360" role="img" aria-label="세 해 모두 이자보상배율이 1 아래인 회사와 가운데 한 해만 1을 넘긴 회사를 나란히 놓은 막대그래프. 앞쪽만 3년 연속 기준에 걸린다">
+  <rect width="720" height="360" fill="#fcfcfd"/>
+  <text x="36" y="40" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="18" font-weight="700" fill="#1a2540">한 해가 아니라 세 해를 이어서 봅니다</text>
+  <text x="36" y="64" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#5b6478">설명을 위해 만든 예시 값 · 단위: 배 · 가로 점선은 기준선 1배</text>
+
+  <line x1="60" y1="260" x2="684" y2="260" stroke="#c4c8d2" stroke-width="1.5"/>
+  <line x1="60" y1="170" x2="684" y2="170" stroke="#8f2f2f" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <text x="56" y="175" text-anchor="end" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="700" fill="#8f2f2f">1배</text>
+
+  <rect x="96" y="206" width="48" height="54" fill="#e08a5a"/>
+  <text x="120" y="198" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="700" fill="#1a2540">0.6</text>
+  <rect x="160" y="188" width="48" height="72" fill="#e08a5a"/>
+  <text x="184" y="180" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="700" fill="#1a2540">0.8</text>
+  <rect x="224" y="197" width="48" height="63" fill="#e08a5a"/>
+  <text x="248" y="189" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="700" fill="#1a2540">0.7</text>
+
+  <rect x="432" y="206" width="48" height="54" fill="#8fa6c9"/>
+  <text x="456" y="198" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="700" fill="#1a2540">0.6</text>
+  <rect x="496" y="134" width="48" height="126" fill="#8fa6c9"/>
+  <text x="520" y="126" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="700" fill="#1a2540">1.4</text>
+  <rect x="560" y="179" width="48" height="81" fill="#8fa6c9"/>
+  <text x="584" y="171" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="700" fill="#1a2540">0.9</text>
+
+  <text x="120" y="280" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12.5" fill="#5b6478">1년차</text>
+  <text x="184" y="280" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12.5" fill="#5b6478">2년차</text>
+  <text x="248" y="280" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12.5" fill="#5b6478">3년차</text>
+  <text x="456" y="280" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12.5" fill="#5b6478">1년차</text>
+  <text x="520" y="280" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12.5" fill="#5b6478">2년차</text>
+  <text x="584" y="280" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12.5" fill="#5b6478">3년차</text>
+
+  <text x="184" y="104" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#8f2f2f">ㄱ회사 · 세 해 모두 1 아래</text>
+  <text x="520" y="104" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#2b3f66">ㄴ회사 · 가운데 한 해는 1 위</text>
+
+  <text x="36" y="316" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13.5" fill="#1a2540">ㄱ회사는 3년 연속 1 미만이라 한계기업 기준에 걸립니다. 3년 평균은 ㄱ 0.7배, ㄴ 약 0.97배입니다.</text>
+  <text x="36" y="340" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13.5" fill="#1a2540">연속인지를 보는 기준이라 한 해만 끊겨도 연수가 다시 세어집니다.</text>
+</svg>
