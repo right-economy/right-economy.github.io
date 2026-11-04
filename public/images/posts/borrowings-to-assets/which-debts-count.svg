@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" width="720" height="400" role="img" aria-label="부채총계 안에서 단기차입금 유동성장기부채 장기차입금 사채 기업어음은 차입금으로 세고 매입채무 선수금 충당부채 퇴직급여부채는 세지 않는다는 것을 두 칸으로 나눈 도식">
+  <rect width="720" height="400" fill="#fcfcfd"/>
+  <text x="36" y="40" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="18" font-weight="700" fill="#1a2540">부채총계 안에서 차입금으로 세는 칸</text>
+  <text x="36" y="64" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#5b6478">가르는 기준은 이자를 물고 만기에 갚아야 하는 돈인지입니다 · 재무상태표 계정 분류</text>
+
+  <rect x="36" y="88" width="304" height="252" rx="10" fill="#eef2fb" stroke="#9fb3d9"/>
+  <text x="56" y="116" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#2b3f66">센다 (총차입금)</text>
+  <text x="56" y="148" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#1a2540">단기차입금</text>
+  <text x="56" y="176" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#1a2540">유동성장기부채</text>
+  <text x="56" y="204" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#1a2540">장기차입금</text>
+  <text x="56" y="232" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#1a2540">사채(회사채)</text>
+  <text x="56" y="260" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#1a2540">기업어음·전자단기사채</text>
+  <text x="56" y="300" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12.5" fill="#3a4357">리스부채는 기관에 따라 여기에</text>
+  <text x="56" y="320" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12.5" fill="#3a4357">넣기도 하고 빼기도 합니다.</text>
+
+  <rect x="380" y="88" width="304" height="252" rx="10" fill="#f1f2f5" stroke="#c4c8d2"/>
+  <text x="400" y="116" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#3a4357">안 센다 (영업·기타 부채)</text>
+  <text x="400" y="148" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#1a2540">매입채무</text>
+  <text x="400" y="176" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#1a2540">미지급금·미지급비용</text>
+  <text x="400" y="204" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#1a2540">선수금·계약부채</text>
+  <text x="400" y="232" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#1a2540">충당부채</text>
+  <text x="400" y="260" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#1a2540">확정급여부채</text>
+  <text x="400" y="300" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12.5" fill="#3a4357">부채비율에는 이 칸도 전부</text>
+  <text x="400" y="320" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12.5" fill="#3a4357">분자로 들어갑니다.</text>
+
+  <text x="36" y="372" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13.5" fill="#1a2540">차입금의존도는 왼쪽 칸만 모아 자산총계로 나눕니다.</text>
+</svg>

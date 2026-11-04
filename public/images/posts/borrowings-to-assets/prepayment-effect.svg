@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" width="720" height="420" role="img" aria-label="선수금 100이 들어와 자산과 부채가 같이 100 늘면 부채비율은 100퍼센트에서 200퍼센트로 올라가지만 차입금의존도는 25퍼센트에서 16.7퍼센트로 내려간다는 것을 비교한 도식">
+  <rect width="720" height="420" fill="#fcfcfd"/>
+  <text x="36" y="40" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="18" font-weight="700" fill="#1a2540">선수금이 들어온 해, 두 지표가 반대로 갑니다</text>
+  <text x="36" y="64" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#5b6478">설명을 위해 만든 예시 값 · 단위: 억원 · 차입금은 두 해 모두 50</text>
+
+  <rect x="36" y="88" width="304" height="276" rx="10" fill="#f1f2f5" stroke="#c4c8d2"/>
+  <text x="56" y="116" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#3a4357">선수금 받기 전</text>
+  <text x="56" y="146" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#1a2540">자산총계 200</text>
+  <text x="56" y="172" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#1a2540">부채총계 100 (차입금 50)</text>
+  <text x="56" y="198" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#1a2540">자본총계 100</text>
+  <line x1="56" y1="218" x2="320" y2="218" stroke="#c4c8d2"/>
+  <text x="56" y="250" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="17" font-weight="700" fill="#1a2540">부채비율 100%</text>
+  <text x="56" y="272" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12.5" fill="#3a4357">100 ÷ 100 × 100</text>
+  <text x="56" y="310" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="17" font-weight="700" fill="#1a2540">차입금의존도 25%</text>
+  <text x="56" y="332" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12.5" fill="#3a4357">50 ÷ 200 × 100</text>
+
+  <rect x="380" y="88" width="304" height="276" rx="10" fill="#eef2fb" stroke="#9fb3d9"/>
+  <text x="400" y="116" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#2b3f66">선수금 100을 받은 뒤</text>
+  <text x="400" y="146" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#1a2540">자산총계 300 (현금 +100)</text>
+  <text x="400" y="172" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#1a2540">부채총계 200 (차입금 50)</text>
+  <text x="400" y="198" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#1a2540">자본총계 100</text>
+  <line x1="400" y1="218" x2="664" y2="218" stroke="#9fb3d9"/>
+  <text x="400" y="250" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="17" font-weight="700" fill="#8f2f2f">부채비율 200%</text>
+  <text x="400" y="272" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12.5" fill="#1a2540">200 ÷ 100 × 100</text>
+  <text x="400" y="310" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="17" font-weight="700" fill="#2b5e35">차입금의존도 16.7%</text>
+  <text x="400" y="332" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12.5" fill="#1a2540">50 ÷ 300 × 100</text>
+
+  <text x="36" y="392" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13.5" fill="#1a2540">같은 한 해에 부채비율은 두 배가 되고 차입금의존도는 내려갑니다. 빌린 돈은 50에서 그대로입니다.</text>
+</svg>
