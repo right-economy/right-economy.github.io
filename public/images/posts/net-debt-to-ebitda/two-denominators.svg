@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" width="720" height="400" role="img" aria-label="순차입금 100을 영업이익 30으로 나누면 3.3배, 감가상각비 10을 더한 EBITDA 40으로 나누면 2.5배가 되어 같은 빚이 다른 배수로 적힌다는 것을 비교한 도식">
+  <rect width="720" height="400" fill="#fcfcfd"/>
+  <text x="36" y="40" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="18" font-weight="700" fill="#1a2540">분모를 바꾸면 같은 순차입금이 다른 배수가 됩니다</text>
+  <text x="36" y="64" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#5b6478">설명을 위해 만든 예시 값 · 단위: 억원 · 두 칸 모두 순차입금 100</text>
+
+  <rect x="36" y="92" width="304" height="246" rx="10" fill="#f1f2f5" stroke="#c4c8d2"/>
+  <text x="56" y="120" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#3a4357">분모에 영업이익을 쓰면</text>
+  <text x="56" y="152" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#1a2540">순차입금 100</text>
+  <text x="56" y="180" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#1a2540">영업이익 30</text>
+  <line x1="56" y1="200" x2="320" y2="200" stroke="#c4c8d2"/>
+  <text x="56" y="236" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="20" font-weight="700" fill="#1a2540">3.3배</text>
+  <text x="56" y="262" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12.5" fill="#3a4357">100 ÷ 30</text>
+  <text x="56" y="300" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#3a4357">설비 상각 부담을 그대로 둔 채</text>
+  <text x="56" y="320" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#3a4357">남은 이익으로 재는 값</text>
+
+  <rect x="380" y="92" width="304" height="246" rx="10" fill="#eef2fb" stroke="#9fb3d9"/>
+  <text x="400" y="120" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#2b3f66">분모에 EBITDA를 쓰면</text>
+  <text x="400" y="152" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#1a2540">순차입금 100</text>
+  <text x="400" y="180" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#1a2540">EBITDA 40 (영업이익 30 + 상각비 10)</text>
+  <line x1="400" y1="200" x2="664" y2="200" stroke="#9fb3d9"/>
+  <text x="400" y="236" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="20" font-weight="700" fill="#2b3f66">2.5배</text>
+  <text x="400" y="262" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12.5" fill="#1a2540">100 ÷ 40</text>
+  <text x="400" y="300" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#2b3f66">상각비를 다시 더해 분모가 커지니</text>
+  <text x="400" y="320" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#2b3f66">배수는 작게 나옵니다</text>
+
+  <text x="36" y="376" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13.5" fill="#1a2540">상각비가 큰 업종일수록 두 값의 차이가 벌어집니다. 어느 분모로 계산한 배수인지 확인해야 하는 이유입니다.</text>
+</svg>
