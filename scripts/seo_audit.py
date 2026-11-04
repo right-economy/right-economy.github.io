@@ -750,6 +750,96 @@ def check_sources(posts_dir):
     return out
 
 
+# ── description 의 상대 시점어가 검색결과에서 고정되나 ────────────────────
+#
+# 제목과 description 은 **본문 없이 둘이서만** 검색결과·공유카드에 나간다.
+# 그래서 「오늘 밤 CPI 가 나와요」 같은 문장은 **발행일을 알아야 뜻이 정해진다.**
+# 2026-09-13 에 세운 처방은 「제목에 날짜를 박는다」였고, 그러면 같은 카드에
+# 날짜가 있으니 description 의 상대어가 덮인다고 봤다. 그 전제에 조건이 하나
+# 빠져 있었다 — **제목이 잘리면 날짜가 먼저 사라진다**(날짜는 대개 끝에 있다).
+#
+#   제목 날짜가 35자 안    → 잘려도 남는다 → description 의 상대어가 덮인다
+#   제목 날짜가 35자 밖    → 먼저 사라진다 → 덮을 것이 없어진다   ← 이 검사
+#
+# 🔴 **이 축은 dist 검사로도, 제목 검사로도, 길이 검사로도 안 보인다.** 태그는
+#    전부 있고 길이도 권고 안이며 제목에 날짜도 **있다.** 어긋나는 건 둘의 조합뿐이다.
+# 📌 2026-11-04 실측 5건(전부 6·8월 시황). description 에 절대날짜를 넣어 0 이 됐다.
+#
+# ⚠️ **날짜 의존이 본질인 lane 만 본다**(시황·경제 뉴스). 해설글의 「요즘 서울은」은
+#    며칠에 쓰였는지 몰라도 뜻이 안 뒤집혀서 결함이 아니고, 전 글에 걸면 노이즈가
+#    실제 결함을 묻는다. 2026-11-04 실측으로 해설·부동산 lane 6건이 이 조건에
+#    걸렸는데 전부 그 종류였다(그리고 부동산은 다른 담당 lane 이다).
+# ⚠️ 35자는 픽셀 근사치다(구글은 ~600px 로 자른다). 경계가 아니라 위험 구간이다.
+DATED_LANES = ("시황", "경제 뉴스")
+
+# 「이 말이 며칠에 쓰였는지 몰라도 뜻이 같은가」에서 갈리는 말들. 목록은 반드시
+# 빠지니 **판정은 이 목록이 아니라 그 물음**이다 — 새로 보이면 여기 더한다.
+RELATIVE_TIME_WORDS = (
+    "오늘", "어제", "그제", "내일", "간밤", "지금", "요즘", "방금", "최근", "현재",
+    "이번 주", "이번주", "지난주", "지난 주", "다음 주", "다음주",
+    "이번 달", "이달", "지난달", "이번 분기", "올해", "작년", "사흘째", "당분간",
+)
+
+# 절대날짜 표기. 「6/20」·「2026년」·「8월 12일」·「8월」 넷을 받는다.
+ABS_DATE = re.compile(r"\d{1,2}\s?/\s?\d{1,2}|\d{4}\s?년|\d{1,2}\s?월")
+
+# 제목이 잘리는 위험 구간의 시작. 위 주석의 근사치다.
+TITLE_DATE_SAFE_MAX = 35
+
+FM_FIELD = {}
+for _k in ("title", "description", "category"):
+    FM_FIELD[_k] = re.compile(r'^%s:\s*"(.*)"\s*$' % _k, re.M)
+
+
+def _frontmatter(raw):
+    out = {}
+    for key, pat in FM_FIELD.items():
+        m = pat.search(raw)
+        out[key] = m.group(1) if m else ""
+    return out
+
+
+def check_desc_anchor(posts_dir):
+    """description 의 상대 시점어가 **검색결과 안에서** 날짜로 고정되나.
+
+    제목의 날짜가 잘리는 자리(35자 밖)에 있으면 덮개가 사라진다 — 위 주석 참조.
+    못 읽으면 0건이 아니라 「모름」으로 올린다.
+    """
+    out = []
+    if not os.path.isdir(posts_dir):
+        out.append(("desc-anchor-unreadable",
+                    "원고 디렉터리를 못 읽었다 — description 상대어를 못 쟀다"
+                    "(0건이 아니라 모름): %s" % posts_dir))
+        return out
+    names = [n for n in sorted(os.listdir(posts_dir)) if n.endswith(".md")]
+    if not names:
+        out.append(("desc-anchor-unreadable",
+                    "원고를 한 편도 못 찾았다 — description 상대어를 못 쟀다"
+                    "(0건이 아니라 모름): %s" % posts_dir))
+        return out
+    for name in names:
+        with open(os.path.join(posts_dir, name), encoding="utf-8") as fh:
+            fm = _frontmatter(fh.read())
+        if fm["category"] not in DATED_LANES:
+            continue
+        desc = fm["description"]
+        if not desc:
+            continue
+        words = [w for w in RELATIVE_TIME_WORDS if w in desc]
+        if not words or ABS_DATE.search(desc):
+            continue
+        m = ABS_DATE.search(fm["title"])
+        where = m.start() if m else None
+        if where is not None and where < TITLE_DATE_SAFE_MAX:
+            continue
+        out.append(("desc-relative-unanchored",
+                    "description 의 상대어(%s)를 고정할 날짜가 카드에 안 남는다 — "
+                    "제목 날짜 위치 %s: %s"
+                    % ("·".join(words),
+                       "없음" if where is None else "%d자" % where, name)))
+    return out
+
+
 # SVG 의 `fill` 은 presentation attribute 라 **그 파일 안의 `<style>` 규칙에 진다.**
 # 그래서 `<text … fill="#ffffff">` 라고 적혀 있어도 `text{fill:#2a2521}` 이 있으면
 # 어두운 글자로 찍히고, 어두운 상자 위에서는 **대비 1.00 = 안 보인다.**
@@ -1085,6 +1175,72 @@ def selftest_sources():
     return problems
 
 
+def _anchor_fixture(root, unanchored):
+    """원고 표본. 네 갈래를 한 폴더에 같이 둔다 — 걸려야 하는 한 편과,
+    **걸리면 과민인** 세 편(제목 날짜가 안쪽 · description 에 절대날짜 · 다른 lane).
+    과민 표본을 같이 두는 이유: 조건 넷 중 하나만 풀려도 0 이 되어야 한다.
+    """
+    posts = os.path.join(root, "posts")
+    os.makedirs(posts)
+
+    def post(name, title, desc, category):
+        body = ('---\ntitle: "%s"\ndescription: "%s"\ncategory: "%s"\n'
+                'publishedDate: 2026-08-12\n---\n\n본문.\n'
+                % (title, desc, category))
+        with open(os.path.join(posts, name), "w", encoding="utf-8") as fh:
+            fh.write(body)
+
+    # 과민 표본 셋 — 어느 것도 걸려서는 안 된다.
+    post("safe-title-date.md",
+         "짧은 제목 — 8월 12일 아침 시황",      # 날짜가 35자 안
+         "오늘 밤 지표가 나와요.", "시황")
+    post("desc-has-date.md",
+         "아주 긴 제목을 일부러 늘려서 날짜를 뒤로 밀어낸 시황 제목입니다 — 8월 12일 아침 시황",
+         "8월 12일 밤 지표가 나와요.", "시황")          # description 에 절대날짜
+    post("other-lane.md",
+         "아주 긴 제목을 일부러 늘려서 날짜를 뒤로 밀어낸 해설 제목입니다 — 8월 12일 정리",
+         "요즘 서울은 반대예요.", "기초 개념")          # 날짜 의존 lane 이 아니다
+
+    if unanchored:
+        post("bad.md",
+             "아주 긴 제목을 일부러 늘려서 날짜를 뒤로 밀어낸 시황 제목입니다 — 8월 12일 아침 시황",
+             "오늘 밤 지표가 나오고 어제는 올랐어요.", "시황")
+    return posts
+
+
+def selftest_desc_anchor():
+    """description 상대어 검사 점검. 양성·음성·「모름」을 같은 실행에서 본다.
+
+    🔴 양성 표본이 **세 편**인 이유 — 이 검사는 조건 넷의 곱이라, 한 조건을
+    잘못 써도 음성 표본은 그대로 걸린다. 과민은 음성만으로는 안 보인다.
+    """
+    problems = []
+    tmp = tempfile.mkdtemp()
+    try:
+        good = _anchor_fixture(os.path.join(tmp, "good"), unanchored=False)
+        bad = _anchor_fixture(os.path.join(tmp, "bad"), unanchored=True)
+        good_issues = check_desc_anchor(good)
+        if good_issues:
+            problems.append("description 상대어 양성 표본이 걸렸다(과민): %s"
+                            % [m for _, m in good_issues])
+        bad_rows = check_desc_anchor(bad)
+        bad_ids = set(i for i, _ in bad_rows)
+        if "desc-relative-unanchored" not in bad_ids:
+            problems.append("description 상대어 음성 표본에서 desc-relative-unanchored "
+                            "가 안 걸렸다(둔감)")
+        elif len(bad_rows) != 1:
+            # 걸린 편수까지 본다 — 과민 표본이 같이 걸렸다면 위 양성 검사가 잡지만,
+            # 음성 표본 쪽에서 편수가 늘면 조건이 느슨해진 것이다.
+            problems.append("description 상대어 음성 표본에서 %d편이 걸렸다(1편이어야 한다): %s"
+                            % (len(bad_rows), [m for _, m in bad_rows]))
+        unknown = set(i for i, _ in check_desc_anchor(os.path.join(tmp, "nope")))
+        if "desc-anchor-unreadable" not in unknown:
+            problems.append("없는 원고 경로가 「모름」으로 안 올라왔다(0건으로 묻힌다)")
+    finally:
+        shutil.rmtree(tmp, ignore_errors=True)
+    return problems
+
+
 def _lcp_fixture(root, first_lazy, hub_lazy_thumb=False):
     """dist 모양의 최소 표본. 글 두 편 + 허브 한 장."""
     def page(path, body):
@@ -1176,6 +1332,7 @@ def selftest():
     problems.extend(selftest_site())
     problems.extend(selftest_links())
     problems.extend(selftest_sources())
+    problems.extend(selftest_desc_anchor())
     problems.extend(selftest_lcp())
     problems.extend(selftest_svg_fill())
     return problems
@@ -1192,6 +1349,7 @@ def main():
           "음성 1본 전 검사 발화 · 빈 dist·없는 원고는 「모름」 · 원고 본문 링크 축 포함 · "
           "본문 첫 이미지 축 포함(허브 썸네일 과민 표본까지) · "
           "SVG fill 축 포함(처방·규칙없음 과민 표본까지) · "
+          "description 상대어 축 포함(과민 표본 3종) · "
           "loc 추출기 %s 경로)"
           % ("ET" if _expat_ok() else "순수 파이썬 fallback"))
 
@@ -1237,6 +1395,9 @@ def main():
         by_issue[issue_id].append(("(사이트 전체)", msg))
     # dist 가 아니라 원고를 읽는 축. dist 쪽 검사로는 안 보이는 자리다(함수 주석 참조).
     for issue_id, msg in check_sources(os.path.join("src", "content", "posts")):
+        by_issue[issue_id].append(("(원고)", msg))
+    # 같은 원고를 읽는 다른 축. 검색결과 안에서 상대어가 날짜로 고정되나를 본다.
+    for issue_id, msg in check_desc_anchor(os.path.join("src", "content", "posts")):
         by_issue[issue_id].append(("(원고)", msg))
     # 그림 파일을 읽는 축. dist 에서는 SVG 가 <img src> 한 줄이라 안쪽이 안 보인다.
     for issue_id, msg in check_svg_fill(os.path.join("public", "images", "posts")):
