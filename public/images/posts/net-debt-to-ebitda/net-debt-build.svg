@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" width="720" height="360" role="img" aria-label="단기차입금 50과 장기차입금 60, 사채 30을 더한 총차입금 140에서 현금및현금성자산 30과 단기금융상품 10을 합한 40을 빼면 순차입금 100이 된다는 것을 보여주는 도식">
+  <rect width="720" height="360" fill="#fcfcfd"/>
+  <text x="36" y="40" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="18" font-weight="700" fill="#1a2540">순차입금은 빌린 돈에서 쥐고 있는 현금을 뺀 금액입니다</text>
+  <text x="36" y="64" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#5b6478">설명을 위해 만든 예시 값 · 단위: 억원</text>
+
+  <rect x="36" y="92" width="300" height="196" rx="10" fill="#f1f2f5" stroke="#c4c8d2"/>
+  <text x="56" y="120" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#3a4357">총차입금에 더하는 것</text>
+  <text x="56" y="152" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#1a2540">단기차입금 50</text>
+  <text x="56" y="180" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#1a2540">장기차입금 60</text>
+  <text x="56" y="208" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#1a2540">사채 30</text>
+  <line x1="56" y1="228" x2="316" y2="228" stroke="#c4c8d2"/>
+  <text x="56" y="258" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="17" font-weight="700" fill="#1a2540">총차입금 140</text>
+
+  <text x="352" y="200" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="22" fill="#5b6478">−</text>
+  <rect x="384" y="92" width="300" height="196" rx="10" fill="#eef2fb" stroke="#9fb3d9"/>
+  <text x="404" y="120" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#2b3f66">분자에서 빼는 것</text>
+  <text x="404" y="152" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#1a2540">현금및현금성자산 30</text>
+  <text x="404" y="180" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#1a2540">단기금융상품 10</text>
+  <text x="404" y="208" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#5b6478">바로 빚을 갚는 데 쓸 수 있는 자산</text>
+  <line x1="404" y1="228" x2="664" y2="228" stroke="#9fb3d9"/>
+  <text x="404" y="258" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="16" font-weight="700" fill="#2b3f66">140 − 40 = 순차입금 100</text>
+
+  <text x="36" y="326" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13.5" fill="#1a2540">현금이 빌린 돈보다 많으면 순차입금은 음수가 되고, 이때 배수는 뜻을 잃습니다.</text>
+</svg>
