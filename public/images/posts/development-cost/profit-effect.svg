@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" width="720" height="380" role="img" aria-label="같은 100을 써도 전액 비용으로 처리하면 영업이익 50, 60을 자산으로 적으면 영업이익 110이 되는 막대 비교와 이후 상각으로 20씩 비용이 돌아오는 설명">
+  <rect width="720" height="380" fill="#fcfcfd"/>
+  <text x="36" y="42" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="18" font-weight="700" fill="#1a2540">같은 지출, 다른 영업이익</text>
+  <text x="36" y="66" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#5b6478">매출 1,000 · 그 밖의 비용 850 · 연구개발 지출 100으로 둔 가상의 예시 · 단위 없음</text>
+
+  <line x1="200" y1="100" x2="200" y2="286" stroke="#d6dae4" stroke-width="1"/>
+
+  <text x="36" y="132" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#1a2540">전액 비용으로</text>
+  <text x="36" y="152" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#1a2540">처리한 경우</text>
+  <rect x="200" y="116" width="100" height="48" rx="6" fill="#fdeeec" stroke="#d9a79f"/>
+  <text x="250" y="146" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="20" font-weight="700" fill="#8c3a30">50</text>
+  <text x="316" y="146" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#5b6478">올해 비용에 100이 전부 들어갑니다</text>
+
+  <text x="36" y="222" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#1a2540">60을 자산으로</text>
+  <text x="36" y="242" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#1a2540">적은 경우</text>
+  <rect x="200" y="206" width="220" height="48" rx="6" fill="#eef7f0" stroke="#8fb99f"/>
+  <text x="310" y="236" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="20" font-weight="700" fill="#2f6b49">110</text>
+  <text x="436" y="236" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#5b6478">올해 비용은 40만 들어갑니다</text>
+
+  <text x="200" y="278" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#5b6478">막대 길이는 영업이익 값에 맞췄습니다.</text>
+
+  <rect x="36" y="300" width="648" height="58" rx="8" fill="#f3f5f9" stroke="#d6dae4"/>
+  <text x="52" y="324" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#1a2540">자산으로 적은 60은 팔기 시작한 뒤 상각으로 돌아옵니다. 3년에 나눠 적으면 해마다 20씩</text>
+  <text x="52" y="344" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#1a2540">비용이 되고, 팔리지 않으면 남은 금액이 손상으로 한 번에 깎입니다.</text>
+</svg>
