@@ -750,6 +750,119 @@ def check_sources(posts_dir):
     return out
 
 
+# ── 본문 링크 그래프의 차수 ──────────────────────────────────────────────
+#
+# 🔴 **이것은 이슈가 아니라 보고다.** 종료코드를 바꾸지 않는다.
+#    한 번에 고칠 수 없는 양(2026-11-05 실측 114편)이라 이슈로 올리면 rc 가
+#    영구히 1 이 되고, 그러면 다음 사람이 그 1 을 기준선으로 알고 **진짜 결함을
+#    같이 묻는다.** 제목 길이를 「보고만 하고 차단하지 않는다」로 둔 것과 같은 자리다.
+#
+# 왜 센가 — `check_links` 의 고아 검사는 **dist 의 모든 `<a href>`** 를 센다.
+# 그런데 글 한 편은 태그·허브·이전/다음에서 템플릿으로 늘 걸리므로 **유입이
+# 0 이 되는 일이 구조적으로 없다.** 2026-11-05 실측에서 `orphan-post` 는 0건인데,
+# 사람이 본문에 단 링크만으로 세면 받는 유입이 0 인 글이 183편이었다.
+# 템플릿 링크는 모든 글에 똑같이 붙어서 글 사이의 가중치를 만들지 못한다.
+#
+# 세 축을 가른다.
+#   내보내기 0 — 그 글을 읽고 나서 갈 자리를 본문이 제시하지 않는다(막다른 글)
+#   받기 0     — 다른 글이 그 글을 근거로 인용하지 않는다
+#   둘 다 0    — 본문 링크 그래프에서 완전히 떨어져 있다
+# 「둘 다 0」만 세면 한쪽만 끊긴 글이 안 보이고, 합쳐 세면 조치가 다른 둘이 섞인다.
+#
+# ⚠️ 자기 자신을 가리키는 링크는 안 센다. 세면 자기 링크 한 줄로 두 축이 동시에
+#    0 을 벗어나서, 그래프가 좋아진 것처럼 보인다.
+def measure_body_graph(posts_dir):
+    """원고 본문 링크만으로 글 사이 그래프를 세어 돌려준다.
+
+    못 읽으면 None 이다 — **0건이 아니라 「모름」이다.**
+    """
+    if not os.path.isdir(posts_dir):
+        return None
+    names = [n for n in sorted(os.listdir(posts_dir)) if n.endswith(".md")]
+    if not names:
+        return None
+    slugs = set(n[:-3] for n in names)
+    outdeg = dict((s, 0) for s in slugs)
+    indeg = dict((s, 0) for s in slugs)
+    category = {}
+    for name in names:
+        me = name[:-3]
+        with open(os.path.join(posts_dir, name), encoding="utf-8") as fh:
+            raw = fh.read()
+        hit = re.search(r'^category:\s*"(.*)"\s*$', raw, re.M)
+        category[me] = hit.group(1) if hit else "(없음)"
+        seen = set()
+        for m in MD_LINK.finditer(raw):
+            url = m.group(2)
+            if not url.startswith("/posts/"):
+                continue
+            slug = url[len("/posts/"):].strip("/")
+            # 없는 글을 가리키는 링크는 check_sources 가 따로 올린다. 여기서는
+            # 실재하는 글 사이의 연결만 세서 두 축이 겹쳐 보고되지 않게 한다.
+            if not slug or slug == me or slug not in slugs or slug in seen:
+                continue
+            seen.add(slug)
+            outdeg[me] += 1
+            indeg[slug] += 1
+    zero_out = sorted(s for s in slugs if outdeg[s] == 0)
+    zero_in = sorted(s for s in slugs if indeg[s] == 0)
+    both = sorted(set(zero_out) & set(zero_in))
+    by_cat = defaultdict(int)
+    for s in both:
+        by_cat[category[s]] += 1
+    return {
+        "total": len(slugs),
+        "zero_out": zero_out,
+        "zero_in": zero_in,
+        "both": both,
+        "by_category": dict(by_cat),
+    }
+
+
+def _body_graph_fixture(root):
+    """원고 모양의 최소 표본. a→b 한 줄만 있고 c 는 떨어져 있다."""
+    os.makedirs(root, exist_ok=True)
+
+    def post(slug, category, body):
+        with open(os.path.join(root, slug + ".md"), "w", encoding="utf-8") as fh:
+            fh.write('---\ntitle: "t"\ncategory: "%s"\n---\n\n%s\n' % (category, body))
+
+    post("a", "기초 개념", "[비](/posts/b/) 를 건다. [자기](/posts/a/) 도 건다.")
+    post("b", "지표 읽기", "[없는 글](/posts/nope/) 만 건다.")
+    post("c", "시황", "링크가 없다.")
+    return root
+
+
+def selftest_body_graph():
+    """차수 축 점검. 자기 링크·없는 글 링크가 차수를 올리지 않는지까지 본다."""
+    problems = []
+    tmp = tempfile.mkdtemp()
+    try:
+        got = measure_body_graph(_body_graph_fixture(os.path.join(tmp, "posts")))
+        if got is None:
+            problems.append("표본 원고를 못 읽었다(차수 축이 아예 안 돈다)")
+            return problems
+        # a 는 b 로 내보낸다. b 는 없는 글만 가리키므로 내보내기 0 이다.
+        if got["zero_out"] != ["b", "c"]:
+            problems.append("내보내기 0 이 ['b','c'] 가 아니다: %s" % got["zero_out"])
+        # b 만 받는다. a 의 자기 링크는 a 의 받기를 올리면 안 된다.
+        if got["zero_in"] != ["a", "c"]:
+            problems.append("받기 0 이 ['a','c'] 가 아니다: %s" % got["zero_in"])
+        if got["both"] != ["c"]:
+            problems.append("둘 다 0 이 ['c'] 가 아니다: %s" % got["both"])
+        if got["by_category"] != {"시황": 1}:
+            problems.append("카테고리 집계가 {'시황': 1} 이 아니다: %s" % got["by_category"])
+        if measure_body_graph(os.path.join(tmp, "nope")) is not None:
+            problems.append("없는 원고 경로가 「모름」(None) 으로 안 나왔다(0건으로 묻힌다)")
+        empty = os.path.join(tmp, "empty")
+        os.makedirs(empty, exist_ok=True)
+        if measure_body_graph(empty) is not None:
+            problems.append("원고 0편이 「모름」(None) 으로 안 나왔다(0건으로 묻힌다)")
+    finally:
+        shutil.rmtree(tmp, ignore_errors=True)
+    return problems
+
+
 # ── description 의 상대 시점어가 검색결과에서 고정되나 ────────────────────
 #
 # 제목과 description 은 **본문 없이 둘이서만** 검색결과·공유카드에 나간다.
@@ -1335,6 +1448,7 @@ def selftest():
     problems.extend(selftest_desc_anchor())
     problems.extend(selftest_lcp())
     problems.extend(selftest_svg_fill())
+    problems.extend(selftest_body_graph())
     return problems
 
 
@@ -1350,6 +1464,7 @@ def main():
           "본문 첫 이미지 축 포함(허브 썸네일 과민 표본까지) · "
           "SVG fill 축 포함(처방·규칙없음 과민 표본까지) · "
           "description 상대어 축 포함(과민 표본 3종) · "
+          "본문 링크 차수 축 포함(자기 링크·없는 글 링크 과민 표본까지) · "
           "loc 추출기 %s 경로)"
           % ("ET" if _expat_ok() else "순수 파이썬 fallback"))
 
@@ -1409,6 +1524,20 @@ def main():
     print("\n📄 검사한 페이지 %d장 / 제외 %d장 (%s)" % (len(pages) - len(skipped), len(skipped), dist))
     for rel in skipped:
         print("   제외: %s (페이지 아님 — 소유확인 파일)" % rel)
+
+    # 보고 전용 축. 종료코드를 바꾸지 않는다(함수 주석 참조).
+    graph = measure_body_graph(os.path.join("src", "content", "posts"))
+    if graph is None:
+        print("🔗 본문 링크 차수 — 원고를 못 읽어 못 쟀다(0건이 아니라 모름)")
+    else:
+        print("🔗 본문 링크 차수 — 글 %d편 중 내보내기 0 이 %d편 · 받기 0 이 %d편 · 둘 다 0 이 %d편"
+              % (graph["total"], len(graph["zero_out"]), len(graph["zero_in"]), len(graph["both"])))
+        if graph["by_category"]:
+            print("   둘 다 0 의 카테고리: %s"
+                  % " · ".join("%s %d" % (k, v) for k, v in
+                               sorted(graph["by_category"].items(), key=lambda kv: -kv[1])))
+            print("   (템플릿 링크는 모든 글에 같이 붙어서 이 축에 안 잡힌다 — 사람이 본문에 단 링크만 센다)")
+
     if not by_issue and not dup_titles and not dup_descs:
         print("실질 이슈 없음")
         return 0
