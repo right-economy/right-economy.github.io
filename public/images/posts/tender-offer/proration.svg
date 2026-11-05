@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" width="720" height="400" role="img" aria-label="공개매수 예정 수량 100만주에 응모가 300만주 들어오면 비례배분 비율이 3분의 1이 되어, 1000주를 응모한 주주는 333주만 공개매수 가격으로 팔리고 667주는 그대로 남는다는 것을 보여주는 도식">
+  <rect width="720" height="400" fill="#fcfcfd"/>
+  <text x="36" y="40" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="18" font-weight="700" fill="#1a2540">응모가 예정 수량을 넘으면 나눠서 받습니다</text>
+  <text x="36" y="64" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#4a5468">설명을 위해 만든 예시 값 · 비례배분 조건을 공고에 적어 둔 경우</text>
+
+  <text x="36" y="104" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#2b3346">살 사람이 공고한 예정 수량 100만주</text>
+  <rect x="36" y="116" width="216" height="40" rx="6" fill="#dde6f5" stroke="#5a74a8"/>
+  <text x="144" y="142" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#1d2d4d">100만주</text>
+
+  <text x="36" y="196" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#2b3346">주주들이 실제로 낸 응모 300만주</text>
+  <rect x="36" y="208" width="648" height="40" rx="6" fill="#f1f2f5" stroke="#9099ab"/>
+  <rect x="36" y="208" width="216" height="40" rx="6" fill="#dde6f5" stroke="#5a74a8"/>
+  <text x="144" y="234" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#1d2d4d">팔리는 100만주</text>
+  <text x="468" y="234" text-anchor="middle" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#2b3346">남는 200만주</text>
+
+  <text x="36" y="288" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#161e2e">배분 비율은 100만 ÷ 300만 = 33.3%입니다.</text>
+
+  <rect x="36" y="306" width="312" height="70" rx="10" fill="#dde6f5" stroke="#5a74a8"/>
+  <text x="56" y="332" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#24375c">1,000주를 응모한 주주</text>
+  <text x="56" y="358" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="15" fill="#161e2e">333주는 공개매수 가격으로</text>
+
+  <rect x="372" y="306" width="312" height="70" rx="10" fill="#f1f2f5" stroke="#9099ab"/>
+  <text x="392" y="332" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#2b3346">나머지 667주</text>
+  <text x="392" y="358" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="15" fill="#161e2e">그대로 계좌에 남습니다</text>
+</svg>
