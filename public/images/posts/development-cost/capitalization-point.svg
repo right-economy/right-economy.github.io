@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" width="720" height="360" role="img" aria-label="신약은 임상 3상 개시 승인, 바이오시밀러는 임상 1상 개시 승인, 제네릭은 생물학적동등성시험 계획 승인, 진단시약은 제품 검증 단계부터 개발비를 자산으로 적을 수 있다는 표">
+  <rect width="720" height="360" fill="#fcfcfd"/>
+  <text x="36" y="42" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="18" font-weight="700" fill="#1a2540">제약·바이오는 자산으로 적을 수 있는 시점이 따로 정해져 있습니다</text>
+  <text x="36" y="66" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#5b6478">금융감독원 제약·바이오 연구개발비 회계처리 감독지침(2018년 9월 19일 발표) 기준 · 2026년 11월 5일 조회</text>
+
+  <rect x="36" y="92" width="648" height="38" rx="6" fill="#eef2fb" stroke="#9fb3d9"/>
+  <text x="56" y="117" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#1a2540">구분</text>
+  <text x="256" y="117" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#1a2540">이 시점부터 자산으로 적을 수 있습니다</text>
+
+  <rect x="36" y="130" width="648" height="44" fill="#ffffff" stroke="#e2e5ec"/>
+  <text x="56" y="158" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#1a2540">신약</text>
+  <text x="256" y="158" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#1a2540">임상 3상 개시 승인</text>
+
+  <rect x="36" y="174" width="648" height="44" fill="#f8f9fc" stroke="#e2e5ec"/>
+  <text x="56" y="202" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#1a2540">바이오시밀러</text>
+  <text x="256" y="202" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#1a2540">임상 1상 개시 승인</text>
+
+  <rect x="36" y="218" width="648" height="44" fill="#ffffff" stroke="#e2e5ec"/>
+  <text x="56" y="246" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#1a2540">제네릭</text>
+  <text x="256" y="246" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#1a2540">생물학적동등성시험 계획 승인</text>
+
+  <rect x="36" y="262" width="648" height="44" fill="#f8f9fc" stroke="#e2e5ec"/>
+  <text x="56" y="290" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#1a2540">진단시약</text>
+  <text x="256" y="290" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#1a2540">허가 신청, 외부임상 신청 등 제품 검증 단계</text>
+
+  <text x="36" y="336" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#1a2540">이 시점 앞에 쓴 돈은 개발 단계로 보더라도 자산으로 적지 않습니다.</text>
+</svg>
