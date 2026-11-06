@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" width="720" height="400" role="img" aria-label="기초재고 100에서 기말재고 300으로 재고가 늘어난 해에 매출원가 800을 평균재고 200으로 나누면 4.0회 91일이고 기말재고 300으로 나누면 2.7회 137일이 된다는 것을 보여주는 도식">
+  <rect width="720" height="400" fill="#fcfcfd"/>
+  <text x="36" y="40" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="18" font-weight="700" fill="#1a2540">재고가 연중에 늘면 분모 선택이 값을 바꿉니다</text>
+  <text x="36" y="64" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#5b6478">설명을 위해 만든 예시 값 · 단위: 억원 · 분자는 매출원가 800으로 고정</text>
+
+  <rect x="36" y="88" width="648" height="86" rx="10" fill="#f6f7fa" stroke="#c4c8d2"/>
+  <text x="56" y="114" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#3a4357">기초재고 100</text>
+  <rect x="56" y="126" width="80" height="26" fill="#cfd4de" stroke="#9aa2b2"/>
+  <text x="300" y="114" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#3a4357">평균재고 200 = (100 + 300) ÷ 2</text>
+  <rect x="300" y="126" width="160" height="26" fill="#dde6f7" stroke="#9fb3d9"/>
+  <text x="520" y="114" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#3a4357">기말재고 300</text>
+  <rect x="520" y="126" width="140" height="26" fill="#cfd4de" stroke="#9aa2b2"/>
+
+  <rect x="36" y="194" width="304" height="142" rx="10" fill="#eef2fb" stroke="#9fb3d9"/>
+  <text x="56" y="222" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#2b3f66">분모 = 평균재고 200</text>
+  <text x="56" y="256" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="17" font-weight="700" fill="#1a2540">4.0회 · 91일</text>
+  <text x="56" y="280" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12.5" fill="#3a4357">800 ÷ 200 · 365 ÷ 4.0</text>
+  <text x="56" y="312" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12.5" fill="#5b6478">한 해 동안의 평균을 쓴다</text>
+
+  <rect x="380" y="194" width="304" height="142" rx="10" fill="#f1f2f5" stroke="#c4c8d2"/>
+  <text x="400" y="222" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#3a4357">분모 = 기말재고 300</text>
+  <text x="400" y="256" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="17" font-weight="700" fill="#8a3b3b">2.7회 · 137일</text>
+  <text x="400" y="280" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12.5" fill="#3a4357">800 ÷ 300 · 365 ÷ 2.67</text>
+  <text x="400" y="312" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12.5" fill="#5b6478">결산일 하루의 재고에 전부 걸린다</text>
+
+  <text x="36" y="374" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12" fill="#5b6478">회전율은 소수 첫째 자리, 회전기간은 일 단위에서 반올림했습니다(2.67회 · 136.9일).</text>
+</svg>
