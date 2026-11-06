@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" width="720" height="400" role="img" aria-label="같은 회사의 평균재고 200으로 재고자산회전율을 구할 때 분자에 매출원가 800을 쓰면 4.0회 91일이고 매출액 1200을 쓰면 6.0회 61일로 나온다는 것을 비교한 도식">
+  <rect width="720" height="400" fill="#fcfcfd"/>
+  <text x="36" y="40" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="18" font-weight="700" fill="#1a2540">분자를 무엇으로 두느냐로 값이 갈립니다</text>
+  <text x="36" y="64" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#5b6478">설명을 위해 만든 예시 값 · 단위: 억원 · 한 회사의 같은 해, 평균재고 200으로 고정</text>
+
+  <rect x="36" y="92" width="304" height="244" rx="10" fill="#eef2fb" stroke="#9fb3d9"/>
+  <text x="56" y="120" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#2b3f66">분자 = 매출원가 800</text>
+  <text x="56" y="150" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#1a2540">재고와 같은 원가 기준</text>
+  <line x1="56" y1="170" x2="320" y2="170" stroke="#9fb3d9"/>
+  <text x="56" y="204" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="17" font-weight="700" fill="#1a2540">회전율 4.0회</text>
+  <text x="56" y="226" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12.5" fill="#3a4357">800 ÷ 200</text>
+  <text x="56" y="264" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="17" font-weight="700" fill="#1a2540">회전기간 91일</text>
+  <text x="56" y="286" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12.5" fill="#3a4357">365 ÷ 4.0</text>
+  <text x="56" y="318" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12.5" fill="#5b6478">해설서가 공식으로 드는 쪽</text>
+
+  <rect x="380" y="92" width="304" height="244" rx="10" fill="#f1f2f5" stroke="#c4c8d2"/>
+  <text x="400" y="120" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#3a4357">분자 = 매출액 1,200</text>
+  <text x="400" y="150" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#1a2540">판매가 기준이라 이익이 섞임</text>
+  <line x1="400" y1="170" x2="664" y2="170" stroke="#c4c8d2"/>
+  <text x="400" y="204" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="17" font-weight="700" fill="#2b5f45">회전율 6.0회</text>
+  <text x="400" y="226" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12.5" fill="#3a4357">1,200 ÷ 200</text>
+  <text x="400" y="264" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="17" font-weight="700" fill="#2b5f45">회전기간 61일</text>
+  <text x="400" y="286" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12.5" fill="#3a4357">365 ÷ 6.0</text>
+  <text x="400" y="318" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12.5" fill="#5b6478">같은 재고가 30일 빨리 도는 것처럼 보인다</text>
+
+  <text x="36" y="374" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12" fill="#5b6478">회전기간은 소수 첫째 자리에서 반올림했습니다(91.2일 · 60.8일).</text>
+</svg>
