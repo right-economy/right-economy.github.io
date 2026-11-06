@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" width="720" height="420" role="img" aria-label="유동자산 300과 유동부채 200이 같아 유동비율이 둘 다 150퍼센트인 두 회사가, 재고자산을 분자에서 빼면 당좌비율 75퍼센트와 135퍼센트로 갈린다는 것을 비교한 도식">
+  <rect width="720" height="420" fill="#fcfcfd"/>
+  <text x="36" y="40" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="18" font-weight="700" fill="#1a2540">유동비율이 같은 두 회사, 당좌비율은 갈립니다</text>
+  <text x="36" y="64" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#5b6478">설명을 위해 만든 예시 값 · 단위: 억원 · 두 회사 모두 유동자산 300, 유동부채 200</text>
+
+  <rect x="36" y="88" width="304" height="290" rx="10" fill="#f1f2f5" stroke="#c4c8d2"/>
+  <text x="56" y="116" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#3a4357">재고가 무거운 회사</text>
+  <rect x="56" y="132" width="132" height="40" fill="#cfd4de" stroke="#9aa2b2"/>
+  <text x="64" y="157" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#1a2540">재고자산 150</text>
+  <rect x="188" y="132" width="132" height="40" fill="#e7eaf1" stroke="#9aa2b2"/>
+  <text x="196" y="157" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#1a2540">당좌자산 150</text>
+  <text x="56" y="196" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#5b6478">유동자산 300 = 재고 150 + 당좌 150</text>
+  <line x1="56" y1="214" x2="320" y2="214" stroke="#c4c8d2"/>
+  <text x="56" y="248" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="17" font-weight="700" fill="#1a2540">유동비율 150%</text>
+  <text x="56" y="270" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12.5" fill="#3a4357">300 ÷ 200 × 100</text>
+  <text x="56" y="308" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="17" font-weight="700" fill="#8a3b3b">당좌비율 75%</text>
+  <text x="56" y="330" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12.5" fill="#3a4357">150 ÷ 200 × 100</text>
+  <text x="56" y="360" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12.5" fill="#5b6478">재고를 팔아야 만기를 맞춥니다</text>
+
+  <rect x="380" y="88" width="304" height="290" rx="10" fill="#eef2fb" stroke="#9fb3d9"/>
+  <text x="400" y="116" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#2b3f66">재고가 가벼운 회사</text>
+  <rect x="400" y="132" width="26" height="40" fill="#cfd4de" stroke="#9aa2b2"/>
+  <text x="430" y="157" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12" fill="#1a2540">재고 30</text>
+  <rect x="426" y="132" width="238" height="40" fill="#dde6f7" stroke="#9fb3d9"/>
+  <text x="498" y="157" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#1a2540">당좌자산 270</text>
+  <text x="400" y="196" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#5b6478">유동자산 300 = 재고 30 + 당좌 270</text>
+  <line x1="400" y1="214" x2="664" y2="214" stroke="#9fb3d9"/>
+  <text x="400" y="248" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="17" font-weight="700" fill="#1a2540">유동비율 150%</text>
+  <text x="400" y="270" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12.5" fill="#3a4357">300 ÷ 200 × 100</text>
+  <text x="400" y="308" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="17" font-weight="700" fill="#2b5f45">당좌비율 135%</text>
+  <text x="400" y="330" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12.5" fill="#3a4357">270 ÷ 200 × 100</text>
+  <text x="400" y="360" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12.5" fill="#5b6478">재고를 못 팔아도 만기를 맞춥니다</text>
+
+  <text x="36" y="404" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12" fill="#5b6478">당좌자산 = 유동자산 − 재고자산 − 선급비용 등 현금화가 더딘 항목</text>
+</svg>

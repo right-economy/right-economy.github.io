@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" width="720" height="400" role="img" aria-label="장기차입금 200이 만기 1년 이내로 들어와 유동부채가 200에서 400으로 늘면 유동비율은 150퍼센트에서 75퍼센트로 떨어지지만 부채총계가 그대로여서 부채비율은 변하지 않는다는 것을 보여주는 도식">
+  <rect width="720" height="400" fill="#fcfcfd"/>
+  <text x="36" y="40" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="18" font-weight="700" fill="#1a2540">빚이 늘지 않아도 유동비율은 반 토막이 납니다</text>
+  <text x="36" y="64" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13" fill="#5b6478">설명을 위해 만든 예시 값 · 단위: 억원 · 만기 일시상환 장기차입금 200의 만기가 다음 해로 들어온 경우</text>
+
+  <rect x="36" y="92" width="276" height="244" rx="10" fill="#f1f2f5" stroke="#c4c8d2"/>
+  <text x="56" y="120" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#3a4357">만기까지 2년 남은 결산</text>
+  <text x="56" y="150" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#1a2540">유동자산 300</text>
+  <text x="56" y="176" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#1a2540">유동부채 200</text>
+  <text x="56" y="202" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#1a2540">비유동부채 200 (장기차입금)</text>
+  <line x1="56" y1="222" x2="292" y2="222" stroke="#c4c8d2"/>
+  <text x="56" y="254" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="17" font-weight="700" fill="#1a2540">유동비율 150%</text>
+  <text x="56" y="276" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12.5" fill="#3a4357">300 ÷ 200 × 100</text>
+  <text x="56" y="310" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13.5" fill="#3a4357">부채총계 400</text>
+
+  <path d="M322 214 L396 214" stroke="#5b6478" stroke-width="2"/>
+  <path d="M396 214 l-9 -5.5 l0 11 z" fill="#5b6478"/>
+  <text x="318" y="198" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12" fill="#5b6478">1년 경과</text>
+
+  <rect x="408" y="92" width="276" height="244" rx="10" fill="#eef2fb" stroke="#9fb3d9"/>
+  <text x="428" y="120" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#2b3f66">만기까지 1년 남은 결산</text>
+  <text x="428" y="150" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#1a2540">유동자산 300 (그대로)</text>
+  <text x="428" y="176" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#1a2540">유동부채 400 (+200 재분류)</text>
+  <text x="428" y="202" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#1a2540">비유동부채 0</text>
+  <line x1="428" y1="222" x2="664" y2="222" stroke="#9fb3d9"/>
+  <text x="428" y="254" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="17" font-weight="700" fill="#8a3b3b">유동비율 75%</text>
+  <text x="428" y="276" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12.5" fill="#3a4357">300 ÷ 400 × 100</text>
+  <text x="428" y="310" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#2b3f66">부채총계 400 (변동 없음)</text>
+
+  <text x="36" y="374" font-family="system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="12" fill="#5b6478">부채총계와 자본총계가 그대로라 부채비율은 그대로이고, 유동과 비유동의 경계만 옮겨 앉았습니다.</text>
+</svg>
