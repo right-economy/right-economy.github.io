@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" font-family="Pretendard, sans-serif" role="img" aria-label="확장실업률인 고용보조지표3은 분자에 실업자와 시간관련 추가취업가능자, 잠재경제활동인구를 모두 더하고, 분모는 기존 경제활동인구에 잠재경제활동인구를 더한 확장경제활동인구를 쓴다. 시간관련 추가취업가능자는 주당 36시간 미만 일하면서 더 일하고 싶고 일할 수 있는 사람이고, 잠재경제활동인구는 일할 수 있는데 최근 구직활동을 하지 않은 사람과 구직했지만 사정이 생겨 일을 못 하는 사람이다">
+  <rect width="720" height="330" fill="#fffaf5"/>
+  <text x="360" y="38" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">확장실업률은 무엇을 더 세나</text>
+  <text x="360" y="61" text-anchor="middle" font-size="12.5" fill="#8a6d5a">실업자 바깥에 있던 사람들을 분자로 끌어옵니다</text>
+
+  <text x="52" y="96" font-size="12.5" font-weight="800" fill="#6b5b4a">분자</text>
+  <rect x="52" y="106" width="196" height="64" rx="10" fill="#fdecec" stroke="#f2c4c4"/>
+  <text x="150" y="132" text-anchor="middle" font-size="13" font-weight="800" fill="#b3261e">실업자</text>
+  <text x="150" y="153" text-anchor="middle" font-size="11.5" fill="#8a6d5a">기존 실업률의 분자</text>
+
+  <text x="262" y="146" text-anchor="middle" font-size="18" font-weight="800" fill="#c2410c">+</text>
+
+  <rect x="276" y="106" width="196" height="64" rx="10" fill="#fef3ec" stroke="#eaddd3"/>
+  <text x="374" y="128" text-anchor="middle" font-size="13" font-weight="800" fill="#c2410c">시간관련 추가취업가능자</text>
+  <text x="374" y="149" text-anchor="middle" font-size="11.5" fill="#8a6d5a">주 36시간 미만 일하면서</text>
+  <text x="374" y="165" text-anchor="middle" font-size="11.5" fill="#8a6d5a">더 일할 뜻과 여력이 있는 사람</text>
+
+  <text x="486" y="146" text-anchor="middle" font-size="18" font-weight="800" fill="#c2410c">+</text>
+
+  <rect x="500" y="106" width="186" height="64" rx="10" fill="#fef3ec" stroke="#eaddd3"/>
+  <text x="593" y="128" text-anchor="middle" font-size="13" font-weight="800" fill="#c2410c">잠재경제활동인구</text>
+  <text x="593" y="149" text-anchor="middle" font-size="11.5" fill="#8a6d5a">일할 수 있는데 구직을</text>
+  <text x="593" y="165" text-anchor="middle" font-size="11.5" fill="#8a6d5a">쉬었거나 못 하게 된 사람</text>
+
+  <line x1="52" y1="196" x2="686" y2="196" stroke="#c2410c" stroke-width="2.5"/>
+
+  <text x="52" y="226" font-size="12.5" font-weight="800" fill="#6b5b4a">분모</text>
+  <rect x="52" y="236" width="634" height="56" rx="10" fill="#f3f0ea" stroke="#ded7cc"/>
+  <text x="369" y="262" text-anchor="middle" font-size="13.5" font-weight="800" fill="#6b5b4a">확장경제활동인구 = 경제활동인구 + 잠재경제활동인구</text>
+  <text x="369" y="283" text-anchor="middle" font-size="11.5" fill="#8a6d5a">분자에 넣은 사람을 분모에도 넣어야 비율이 성립합니다</text>
+  <text x="52" y="316" font-size="12" fill="#8a6d5a">국가데이터처 경제활동인구조사의 고용보조지표3 산식.</text>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 350" font-family="Pretendard, sans-serif" role="img" aria-label="2026년 9월 기준 전체 실업률은 2.0퍼센트인데 확장실업률은 7.3퍼센트다. 청년층 15세부터 29세는 실업률 5.4퍼센트에 확장실업률 15.6퍼센트다. 두 집단 모두 확장실업률이 실업률의 세 배 가까이 높다. 국가데이터처 2026년 9월 고용동향 기준">
+  <rect width="720" height="350" fill="#fffaf5"/>
+  <text x="360" y="38" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">실업률과 확장실업률의 거리</text>
+  <text x="360" y="61" text-anchor="middle" font-size="12.5" fill="#8a6d5a">2026년 9월 · 국가데이터처 고용동향 (단위 %)</text>
+
+  <text x="52" y="100" font-size="13.5" font-weight="800" fill="#6b5b4a">전체</text>
+  <rect x="52" y="112" width="68" height="30" rx="7" fill="#e0852f"/>
+  <text x="132" y="133" font-size="14" font-weight="800" fill="#c2410c">2.0</text>
+  <text x="178" y="133" font-size="12.5" fill="#8a6d5a">실업률</text>
+  <rect x="52" y="152" width="248" height="30" rx="7" fill="#b3261e"/>
+  <text x="312" y="173" font-size="14" font-weight="800" fill="#b3261e">7.3</text>
+  <text x="358" y="173" font-size="12.5" fill="#8a6d5a">확장실업률 (고용보조지표3)</text>
+
+  <text x="52" y="226" font-size="13.5" font-weight="800" fill="#6b5b4a">청년층 (15~29세)</text>
+  <rect x="52" y="238" width="184" height="30" rx="7" fill="#e0852f"/>
+  <text x="248" y="259" font-size="14" font-weight="800" fill="#c2410c">5.4</text>
+  <text x="294" y="259" font-size="12.5" fill="#8a6d5a">실업률</text>
+  <rect x="52" y="278" width="530" height="30" rx="7" fill="#b3261e"/>
+  <text x="594" y="299" font-size="14" font-weight="800" fill="#b3261e">15.6</text>
+  <text x="52" y="332" font-size="12" fill="#8a6d5a">막대 길이는 수치에 비례합니다(가로 34px = 1%p).</text>
+</svg>
