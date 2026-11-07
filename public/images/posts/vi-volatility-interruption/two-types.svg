@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" font-family="Pretendard, sans-serif" role="img" aria-label="동적 VI와 정적 VI 비교. 동적 VI는 직전 체결가를 기준으로 코스피200 종목은 3퍼센트, 일반 종목과 코스닥 종목은 6퍼센트 벗어나면 발동하고, 정적 VI는 전일 종가 같은 기준가격 대비 10퍼센트 변동하면 발동한다. 둘 다 발동되면 2분간 단일가매매로 바뀐다">
+  <rect width="720" height="330" fill="#fffaf5"/>
+  <text x="360" y="38" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">VI 두 종류 — 무엇과 비교하나</text>
+  <text x="360" y="61" text-anchor="middle" font-size="12.5" fill="#8a6d5a">같은 이름이지만 기준으로 삼는 가격이 다릅니다</text>
+
+  <rect x="34" y="86" width="310" height="210" rx="14" fill="#fef3ec" stroke="#eaddd3"/>
+  <text x="189" y="118" text-anchor="middle" font-size="15" font-weight="800" fill="#c2410c">동적 VI</text>
+  <text x="189" y="146" text-anchor="middle" font-size="12.5" fill="#8a6d5a">기준: 직전 체결가</text>
+  <text x="189" y="184" text-anchor="middle" font-size="27" font-weight="800" fill="#e0852f">3% · 6%</text>
+  <text x="189" y="213" text-anchor="middle" font-size="12.5" fill="#5a4636">코스피200 종목 3%</text>
+  <text x="189" y="233" text-anchor="middle" font-size="12.5" fill="#5a4636">그 밖 유가증권·코스닥 6%</text>
+  <text x="189" y="268" text-anchor="middle" font-size="12.5" fill="#8a6d5a">한 호가에 훅 튀는 순간을 잡는다</text>
+
+  <rect x="376" y="86" width="310" height="210" rx="14" fill="#fdecec" stroke="#f2c4c4"/>
+  <text x="531" y="118" text-anchor="middle" font-size="15" font-weight="800" fill="#c0392b">정적 VI</text>
+  <text x="531" y="146" text-anchor="middle" font-size="12.5" fill="#8a6d5a">기준: 전일 종가 등 기준가격</text>
+  <text x="531" y="184" text-anchor="middle" font-size="27" font-weight="800" fill="#c0392b">10%</text>
+  <text x="531" y="213" text-anchor="middle" font-size="12.5" fill="#5a4636">종목 구분 없이 같은 기준</text>
+  <text x="531" y="233" text-anchor="middle" font-size="12.5" fill="#5a4636">하루 동안 쌓인 변동을 본다</text>
+  <text x="531" y="268" text-anchor="middle" font-size="12.5" fill="#8a6d5a">천천히 많이 간 날을 잡는다</text>
+
+  <text x="360" y="318" text-anchor="middle" font-size="12.5" font-weight="800" fill="#7c2d12">어느 쪽이 걸려도 조치는 같다 — 2분간 단일가매매</text>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" font-family="Pretendard, sans-serif" role="img" aria-label="세 가지 제동 장치의 범위 비교. VI는 한 종목만 2분 단일가매매로 바꾸고, 사이드카는 선물이 급변할 때 프로그램매매 호가만 5분 정지시키며, 서킷브레이커는 지수가 8퍼센트 하락하면 시장 전체 매매를 20분 중단한다">
+  <rect width="720" height="300" fill="#fffaf5"/>
+  <text x="360" y="38" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">멈추는 범위가 서로 다릅니다</text>
+  <text x="360" y="61" text-anchor="middle" font-size="12.5" fill="#8a6d5a">뉴스에 같이 나오지만 걸리는 대상이 다릅니다</text>
+
+  <g font-size="14" font-weight="800">
+    <rect x="40" y="82" width="150" height="40" fill="#f6ede6"/>
+    <rect x="190" y="82" width="163" height="40" fill="#fef3ec"/>
+    <rect x="353" y="82" width="163" height="40" fill="#fdf2e3"/>
+    <rect x="516" y="82" width="164" height="40" fill="#fdecec"/>
+    <text x="115" y="108" text-anchor="middle" fill="#8a6d5a">구분</text>
+    <text x="271" y="108" text-anchor="middle" fill="#c2410c">VI</text>
+    <text x="434" y="108" text-anchor="middle" fill="#b45309">사이드카</text>
+    <text x="598" y="108" text-anchor="middle" fill="#c0392b">서킷브레이커</text>
+  </g>
+
+  <g font-size="12.5" fill="#5a4636">
+    <text x="115" y="152" text-anchor="middle" font-weight="800" fill="#8a6d5a">멈추는 대상</text>
+    <text x="271" y="152" text-anchor="middle">그 종목 하나</text>
+    <text x="434" y="152" text-anchor="middle">프로그램매매 호가</text>
+    <text x="598" y="152" text-anchor="middle">시장 전체</text>
+
+    <text x="115" y="192" text-anchor="middle" font-weight="800" fill="#8a6d5a">보는 값</text>
+    <text x="271" y="192" text-anchor="middle">그 종목 주가</text>
+    <text x="434" y="192" text-anchor="middle">선물 가격</text>
+    <text x="598" y="192" text-anchor="middle">지수</text>
+
+    <text x="115" y="232" text-anchor="middle" font-weight="800" fill="#8a6d5a">시간</text>
+    <text x="271" y="232" text-anchor="middle">2분 단일가</text>
+    <text x="434" y="232" text-anchor="middle">5분 정지</text>
+    <text x="598" y="232" text-anchor="middle">20분 중단</text>
+
+    <text x="115" y="272" text-anchor="middle" font-weight="800" fill="#8a6d5a">하루 빈도</text>
+    <text x="271" y="272" text-anchor="middle">수시로</text>
+    <text x="434" y="272" text-anchor="middle">드물게</text>
+    <text x="598" y="272" text-anchor="middle">아주 드물게</text>
+  </g>
+
+  <line x1="40" y1="166" x2="680" y2="166" stroke="#eaddd3"/>
+  <line x1="40" y1="206" x2="680" y2="206" stroke="#eaddd3"/>
+  <line x1="40" y1="246" x2="680" y2="246" stroke="#eaddd3"/>
+</svg>
