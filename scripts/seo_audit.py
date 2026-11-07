@@ -564,6 +564,10 @@ def _normalize_href(href):
 #      href 목록을 읽고도 서로 안 보이는 축이라, 유입 그래프가 멀쩡해도 오타
 #      하나가 조용히 404 로 남는다. 본문 내부링크는 글 발행 크론이 매일 손으로
 #      적는 값이라 오타가 들어올 자리가 상시 열려 있다.
+#   ④ 고아 허브 — ①과 같은 축인데 **대상이 글이 아닌 라우트**다. 태그·카테고리
+#      목록은 글 쪽에서 템플릿으로 걸리는데, 그 템플릿 한 줄이 빠지면 수백 장이
+#      한 번에 끊기면서도 글은 전부 멀쩡해서 ①로는 한 건도 안 걸린다. 홈(`/`)만
+#      제외한다 — 들어오는 자리라 받는 링크가 0인 게 정상이다.
 #
 # ⚠️ **index.html 만 본다.** 404.html 은 .html 이지만 라우트가 아니고, 아무도
 #    링크하지 않는 게 정상이며 JSON-LD 가 없는 게 맞다. 같이 세면 「고아 1건·
@@ -655,13 +659,20 @@ def check_links(dist):
                             "%s 가 가리키는 파일이 dist 에 없다: %s ← %s"
                             % (key, raw, route)))
 
+    # 🔴 글만 보면 허브가 빠진다. 태그·카테고리·정적 페이지도 어디서도 안 걸리면
+    #    크롤러가 사이트맵 말고는 닿을 길이 없는 자리다. 2026-11-07 기준 실측은
+    #    1,126 라우트 전부 유입 1 이상이지만, **지금 0 이라는 것과 앞으로도 0 이라는
+    #    건 다르다** — 태그 목록을 템플릿에서 빼는 변경 하나로 조용히 수백 장이 끊긴다.
+    #    홈(`/`)은 들어오는 자리라 제외한다. 걸리는 쪽이 아니라 출발하는 쪽이다.
     for route in sorted(routes):
-        if not route.startswith("/posts/"):
-            continue
-        if inbound[route] == 0:
-            out.append(("orphan-post", "어느 페이지에서도 링크로 안 걸린다: %s" % route))
-        if routes[route].jsonld == 0:
-            out.append(("jsonld-missing", "글인데 JSON-LD 가 없다: %s" % route))
+        if route.startswith("/posts/"):
+            if inbound[route] == 0:
+                out.append(("orphan-post", "어느 페이지에서도 링크로 안 걸린다: %s" % route))
+            if routes[route].jsonld == 0:
+                out.append(("jsonld-missing", "글인데 JSON-LD 가 없다: %s" % route))
+        elif route != "/" and inbound[route] == 0:
+            out.append(("orphan-route",
+                        "글이 아닌 라우트인데 어디서도 링크로 안 걸린다: %s" % route))
     return out
 
 
@@ -1130,7 +1141,8 @@ def _fixture(root, thin_noindex, thin_in_sitemap, post_b_noindex):
     return dist, posts
 
 
-def _link_fixture(root, b_linked, b_jsonld, dead_link=False, bad_social=False):
+def _link_fixture(root, b_linked, b_jsonld, dead_link=False, bad_social=False,
+                  hub_linked=True):
     """유입 그래프 표본. 양성 쪽은 href 모양을 일부러 어긋나게 적는다 —
     `/posts/a`(끝 슬래시 없음)·`/posts/b/#요약`(앵커 붙음)으로 걸어서,
     정규화가 깨지면 **양성 표본이 고아로 잡히며** 바로 드러나게 둔다.
@@ -1158,9 +1170,17 @@ def _link_fixture(root, b_linked, b_jsonld, dead_link=False, bad_social=False):
         links += '<a href="/posts/b/#%EC%9A%94%EC%95%BD">나</a>'
     if dead_link:
         links += '<a href="/posts/ghost/">없는 글</a>'
+    # 글이 아닌 라우트. 양성에서는 글이 걸어주고, 음성(hub_linked=False)에서는 아무도
+    # 안 걸어서 orphan-route 로 올라와야 한다. 홈(`/`)은 양성에서도 아무도 안 거는데
+    # 같이 걸리면 과민이라, 이 표본이 그 자리까지 같이 본다.
+    hub_link = '<a href="/tags/%EA%B0%80/">태그</a>' if hub_linked else ""
     page("", links, False)                 # 허브는 글이 아니라 JSON-LD 를 안 본다
-    page("posts/a", "", True)
+    page("posts/a", hub_link, True)
     page("posts/b", "", b_jsonld)
+    # 디렉터리 이름은 **한글 그대로** 만든다 — 실제 dist 가 그 모양이다. 링크는
+    # 퍼센트 인코딩으로 걸어서, 정규화가 깨지면 양성 표본이 고아 + 깨진 링크로
+    # 동시에 걸리며 바로 드러나게 둔다.
+    page("tags/\uac00", "", False)
     open(os.path.join(dist, "og-default.png"), "wb").write(b"\x89PNG")
 
     # 404.html 은 라우트가 아니다. 섞어 넣어서 **같이 세지 않는지**까지 본다.
@@ -1185,9 +1205,9 @@ def selftest_links():
     try:
         fired = set(i for i, _ in check_links(
             _link_fixture(root, b_linked=False, b_jsonld=False, dead_link=True,
-                          bad_social=True)))
+                          bad_social=True, hub_linked=False)))
         missing = {"orphan-post", "jsonld-missing", "dead-internal-link",
-                   "social-image-missing"} - fired
+                   "social-image-missing", "orphan-route"} - fired
         if missing:
             problems.append("음성 표본에서 안 걸린 검사(둔감): %s" % sorted(missing))
     finally:
