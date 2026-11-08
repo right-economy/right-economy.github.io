@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 350" font-family="Pretendard, sans-serif" role="img" aria-label="주당 1에서 17시간 일하는 취업자가 전체 취업자에서 차지하는 비중은 2016년 8월 5.8퍼센트에서 2026년 8월 9.3퍼센트로 3.5퍼센트포인트 올랐다. 같은 기간 15세에서 29세 청년 취업자 중 비중은 7.9퍼센트에서 16.0퍼센트로 8.1퍼센트포인트 올라, 청년 취업자 약 6명 중 1명이 주 17시간 이하로 일한다. 청년층 1에서 17시간 취업자 수는 31만 5천명에서 55만명으로 늘었다">
+  <rect width="720" height="350" fill="#fffaf5"/>
+  <text x="360" y="36" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">주 17시간 이하로 일하는 비중</text>
+  <text x="360" y="58" text-anchor="middle" font-size="12.5" fill="#8a6d5a">전체보다 청년층에서 더 빠르게 올랐습니다</text>
+
+  <text x="150" y="92" text-anchor="middle" font-size="13" font-weight="800" fill="#6b5b4a">전체 취업자 중</text>
+  <text x="510" y="92" text-anchor="middle" font-size="13" font-weight="800" fill="#6b5b4a">청년(15~29세) 취업자 중</text>
+
+  <line x1="40" y1="290" x2="320" y2="290" stroke="#ded7cc" stroke-width="1.5"/>
+  <rect x="78" y="261" width="62" height="29" fill="#f8c9b4"/>
+  <text x="109" y="253" text-anchor="middle" font-size="13" font-weight="800" fill="#8a6d5a">5.8%</text>
+  <text x="109" y="309" text-anchor="middle" font-size="11.5" fill="#8a6d5a">2016년 8월</text>
+  <rect x="210" y="244" width="62" height="46" fill="#e8743c"/>
+  <text x="241" y="236" text-anchor="middle" font-size="13" font-weight="800" fill="#b3261e">9.3%</text>
+  <text x="241" y="309" text-anchor="middle" font-size="11.5" fill="#8a6d5a">2026년 8월</text>
+
+  <line x1="400" y1="290" x2="690" y2="290" stroke="#ded7cc" stroke-width="1.5"/>
+  <rect x="440" y="251" width="62" height="39" fill="#f8c9b4"/>
+  <text x="471" y="243" text-anchor="middle" font-size="13" font-weight="800" fill="#8a6d5a">7.9%</text>
+  <text x="471" y="309" text-anchor="middle" font-size="11.5" fill="#8a6d5a">2016년 8월</text>
+  <text x="471" y="326" text-anchor="middle" font-size="11" fill="#8a6d5a">31만 5천명</text>
+  <rect x="574" y="211" width="62" height="79" fill="#c2410c"/>
+  <text x="605" y="203" text-anchor="middle" font-size="13" font-weight="800" fill="#b3261e">16.0%</text>
+  <text x="605" y="309" text-anchor="middle" font-size="11.5" fill="#8a6d5a">2026년 8월</text>
+  <text x="605" y="326" text-anchor="middle" font-size="11" fill="#8a6d5a">55만명</text>
+
+  <text x="150" y="120" text-anchor="middle" font-size="11.5" fill="#8a6d5a">10년 새 3.5%p</text>
+  <text x="510" y="120" text-anchor="middle" font-size="11.5" fill="#8a6d5a">10년 새 8.1%p · 약 6명 중 1명</text>
+  <text x="360" y="342" text-anchor="middle" font-size="11.5" fill="#8a6d5a">단위: 전체 취업자 대비 비중(%) · 막대 높이는 비중에 비례</text>
+</svg>
