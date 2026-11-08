@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" font-family="Pretendard, sans-serif" role="img" aria-label="구직활동으로 인정되는 행동과 인정되지 않는 행동 비교. 인정되는 예는 사업체에 지원서 제출, 면접이나 채용시험 응시, 사업체에 연락하거나 방문해 채용 여부 문의, 공공 민간 취업알선기관에 구직 등록 또는 상담 네 가지다. 구인정보 열람과 취업을 희망하는 것만으로는 인정되지 않는다. 가르는 기준은 상대 쪽에 신호가 갔는지다">
+  <rect width="720" height="340" fill="#fffaf5"/>
+  <text x="360" y="36" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">무엇이 구직활동으로 인정되나</text>
+  <text x="360" y="58" text-anchor="middle" font-size="12.5" fill="#8a6d5a">가르는 자리는 상대 쪽에 신호가 갔는지입니다</text>
+
+  <rect x="40" y="80" width="330" height="222" rx="12" fill="#fff" stroke="#9bbf8f" stroke-width="2"/>
+  <text x="205" y="108" text-anchor="middle" font-size="15" font-weight="800" fill="#3f6b33">인정됩니다</text>
+  <text x="68" y="140" font-size="13.5" fill="#4a3728">· 사업체에 지원서 제출</text>
+  <text x="68" y="172" font-size="13.5" fill="#4a3728">· 면접이나 채용시험 응시</text>
+  <text x="68" y="204" font-size="13.5" fill="#4a3728">· 사업체에 연락하거나 방문해</text>
+  <text x="80" y="222" font-size="13.5" fill="#4a3728">채용 여부 문의</text>
+  <text x="68" y="254" font-size="13.5" fill="#4a3728">· 공공·민간 취업알선기관에</text>
+  <text x="80" y="272" font-size="13.5" fill="#4a3728">구직 등록 또는 상담</text>
+
+  <rect x="390" y="80" width="290" height="222" rx="12" fill="#fff" stroke="#d99c8a" stroke-width="2"/>
+  <text x="535" y="108" text-anchor="middle" font-size="15" font-weight="800" fill="#9c4a33">인정되지 않습니다</text>
+  <text x="414" y="140" font-size="13.5" fill="#4a3728">· 구인정보 열람</text>
+  <text x="414" y="172" font-size="13.5" fill="#4a3728">· 취업을 희망하는 것</text>
+  <text x="414" y="212" font-size="12.5" fill="#8a6d5a">정보를 보는 단계에서 멈추면</text>
+  <text x="414" y="232" font-size="12.5" fill="#8a6d5a">그 달 조사에서는 구직활동이</text>
+  <text x="414" y="252" font-size="12.5" fill="#8a6d5a">없는 것으로 잡힙니다</text>
+
+  <text x="360" y="326" text-anchor="middle" font-size="12" fill="#8a6d5a">국가데이터처 경제활동인구조사 설명자료(2026년 10월 29일 게시) 예시</text>
+</svg>

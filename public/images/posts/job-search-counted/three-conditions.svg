@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 390" font-family="Pretendard, sans-serif" role="img" aria-label="경제활동인구조사에서 실업자로 분류되기 위한 세 조건. 첫째 조사대상주간에 수입 있는 일을 하지 않았다, 둘째 조사대상주간을 포함한 지난 4주간 적극적으로 구직활동을 했다, 셋째 일이 주어지면 즉시 취업할 수 있다. 세 조건을 모두 채우면 실업자로 세고, 하나라도 빠지면 비경제활동인구로 분류되어 실업률 계산에서 빠진다">
+  <rect width="720" height="390" fill="#fffaf5"/>
+  <text x="360" y="36" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">실업자로 세는 조건 셋</text>
+  <text x="360" y="58" text-anchor="middle" font-size="12.5" fill="#8a6d5a">하나라도 빠지면 실업자 칸에 들어가지 않습니다</text>
+
+  <rect x="60" y="82" width="420" height="52" rx="10" fill="#fff" stroke="#e7cdb6"/>
+  <circle cx="92" cy="108" r="13" fill="#7c2d12"/>
+  <text x="92" y="113" text-anchor="middle" font-size="13" font-weight="800" fill="#fffaf5">1</text>
+  <text x="118" y="104" font-size="14.5" font-weight="700" fill="#4a3728">조사한 그 주에 수입 있는 일을 하지 않았다</text>
+  <text x="118" y="123" font-size="12" fill="#8a6d5a">1시간이라도 일했으면 취업자 쪽으로 갑니다</text>
+
+  <path d="M270 134 L270 150" stroke="#c9a68c" stroke-width="2"/>
+  <text x="286" y="148" font-size="12" font-weight="800" fill="#a8764f">그리고</text>
+
+  <rect x="60" y="152" width="420" height="52" rx="10" fill="#fff" stroke="#e7cdb6"/>
+  <circle cx="92" cy="178" r="13" fill="#7c2d12"/>
+  <text x="92" y="183" text-anchor="middle" font-size="13" font-weight="800" fill="#fffaf5">2</text>
+  <text x="118" y="174" font-size="14.5" font-weight="700" fill="#4a3728">지난 4주간 적극적으로 구직활동을 했다</text>
+  <text x="118" y="193" font-size="12" fill="#8a6d5a">4주 안에 조사한 주가 들어갑니다</text>
+
+  <path d="M270 204 L270 220" stroke="#c9a68c" stroke-width="2"/>
+  <text x="286" y="218" font-size="12" font-weight="800" fill="#a8764f">그리고</text>
+
+  <rect x="60" y="222" width="420" height="52" rx="10" fill="#fff" stroke="#e7cdb6"/>
+  <circle cx="92" cy="248" r="13" fill="#7c2d12"/>
+  <text x="92" y="253" text-anchor="middle" font-size="13" font-weight="800" fill="#fffaf5">3</text>
+  <text x="118" y="244" font-size="14.5" font-weight="700" fill="#4a3728">일이 주어지면 즉시 취업할 수 있다</text>
+  <text x="118" y="263" font-size="12" fill="#8a6d5a">당장 일할 수 없는 사정이 있으면 빠집니다</text>
+
+  <path d="M270 274 L270 298" stroke="#c9a68c" stroke-width="2"/>
+  <rect x="150" y="300" width="240" height="54" rx="10" fill="#f2e3d2" stroke="#c9a68c"/>
+  <text x="270" y="322" text-anchor="middle" font-size="15" font-weight="800" fill="#7c2d12">셋 다 채움 → 실업자</text>
+  <text x="270" y="342" text-anchor="middle" font-size="12" fill="#6b5b4a">실업률의 분자와 분모에 함께 들어갑니다</text>
+
+  <path d="M480 108 L530 108 L530 326 L498 326" stroke="#b08968" stroke-width="2" fill="none" stroke-dasharray="5 4"/>
+  <path d="M480 178 L530 178" stroke="#b08968" stroke-width="2" stroke-dasharray="5 4"/>
+  <path d="M480 248 L530 248" stroke="#b08968" stroke-width="2" stroke-dasharray="5 4"/>
+  <rect x="500" y="300" width="180" height="54" rx="10" fill="#fff" stroke="#b08968"/>
+  <text x="590" y="322" text-anchor="middle" font-size="14.5" font-weight="800" fill="#8a5a2b">하나라도 빠짐</text>
+  <text x="590" y="342" text-anchor="middle" font-size="12" fill="#6b5b4a">비경제활동인구로 갑니다</text>
+  <text x="604" y="200" text-anchor="middle" font-size="12" fill="#8a6d5a">실업률 계산에서</text>
+  <text x="604" y="218" text-anchor="middle" font-size="12" fill="#8a6d5a">아예 빠집니다</text>
+</svg>
