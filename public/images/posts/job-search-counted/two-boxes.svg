@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" font-family="Pretendard, sans-serif" role="img" aria-label="2026년 9월 실업자는 60만 명이고 비경제활동인구는 1618만 8천 명으로 약 27배 차이가 난다. 전년 같은 달과 비교하면 실업자는 3만 4천 명 줄고 비경제활동인구는 17만 9천 명 늘었다. 실업률은 2.0퍼센트로 0.1퍼센트포인트 내렸다">
+  <rect width="720" height="300" fill="#fffaf5"/>
+  <text x="360" y="36" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">실업자 바깥 칸이 훨씬 큽니다</text>
+  <text x="360" y="58" text-anchor="middle" font-size="12.5" fill="#8a6d5a">2026년 9월, 단위는 명</text>
+
+  <text x="40" y="106" font-size="13.5" font-weight="700" fill="#4a3728">실업자</text>
+  <rect x="150" y="90" width="20" height="30" rx="3" fill="#c2603f"/>
+  <text x="182" y="112" font-size="14.5" font-weight="800" fill="#7c2d12">60만</text>
+  <text x="300" y="112" font-size="12.5" fill="#3f6b33">전년 동월보다 3만 4천 줄었습니다</text>
+
+  <text x="40" y="176" font-size="13.5" font-weight="700" fill="#4a3728">비경제활동인구</text>
+  <rect x="150" y="160" width="540" height="30" rx="3" fill="#a8764f"/>
+  <text x="150" y="212" font-size="14.5" font-weight="800" fill="#7c2d12">1,618만 8천</text>
+  <text x="300" y="212" font-size="12.5" fill="#9c4a33">전년 동월보다 17만 9천 늘었습니다</text>
+
+  <line x1="40" y1="238" x2="680" y2="238" stroke="#e7cdb6" stroke-width="1.5"/>
+  <text x="40" y="264" font-size="13" fill="#4a3728">같은 달 실업률 2.0% (전년 동월보다 0.1%p 내림)</text>
+  <text x="40" y="286" font-size="13" fill="#4a3728">청년층(15~29세) 실업률 5.4% (전년 동월보다 0.6%p 오름)</text>
+</svg>
