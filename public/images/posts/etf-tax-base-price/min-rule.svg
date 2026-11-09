@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" font-family="Pretendard, sans-serif" role="img" aria-label="국내 상장 기타 ETF 의 매매차익 과세는 실제 매매차익과 과표기준가 상승분 두 숫자를 비교해 작은 쪽을 과세 대상 금액으로 삼고 거기에 15.4퍼센트를 매긴다는 도식">
+  <rect width="720" height="340" fill="#fffaf5"/>
+  <text x="360" y="38" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">세금이 붙는 금액은 둘 중 작은 쪽</text>
+  <text x="360" y="61" text-anchor="middle" font-size="12.5" fill="#8a6d5a">국내 상장 기타 ETF 를 팔 때 과세 대상 금액을 정하는 방법</text>
+
+  <rect x="34" y="88" width="300" height="104" rx="14" fill="#fef3ec" stroke="#eaddd3"/>
+  <text x="184" y="116" text-anchor="middle" font-size="14" font-weight="800" fill="#c2410c">① 실제 매매차익</text>
+  <text x="184" y="146" text-anchor="middle" font-size="12.5" fill="#5a4636">판 가격 − 산 가격</text>
+  <text x="184" y="172" text-anchor="middle" font-size="12.5" fill="#8a6d5a">내 계좌에 실제로 남은 몫</text>
+
+  <rect x="386" y="88" width="300" height="104" rx="14" fill="#fef3ec" stroke="#eaddd3"/>
+  <text x="536" y="116" text-anchor="middle" font-size="14" font-weight="800" fill="#c2410c">② 과표기준가 상승분</text>
+  <text x="536" y="146" text-anchor="middle" font-size="12.5" fill="#5a4636">팔 때 과표기준가 − 살 때 과표기준가</text>
+  <text x="536" y="172" text-anchor="middle" font-size="12.5" fill="#8a6d5a">그중 과세되는 몫만 따로 센 값</text>
+
+  <path d="M184 200 L300 232" stroke="#c2410c" stroke-width="2.5"/>
+  <path d="M536 200 L420 232" stroke="#c2410c" stroke-width="2.5"/>
+
+  <rect x="200" y="238" width="320" height="56" rx="14" fill="#fdecec" stroke="#f2c4c4"/>
+  <text x="360" y="264" text-anchor="middle" font-size="14" font-weight="800" fill="#c0392b">작은 쪽 × 15.4%</text>
+  <text x="360" y="284" text-anchor="middle" font-size="12" fill="#5a4636">소득세 14% + 지방소득세 1.4%, 배당소득으로 원천징수</text>
+
+  <text x="360" y="324" text-anchor="middle" font-size="12.5" font-weight="800" fill="#7c2d12">작은 쪽을 쓰니 실제로 번 돈보다 많이 과세되지 않습니다</text>
+</svg>

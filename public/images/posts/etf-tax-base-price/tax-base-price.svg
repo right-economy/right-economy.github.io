@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" font-family="Pretendard, sans-serif" role="img" aria-label="ETF 가 올린 수익 전체에서 국내 상장주식 매매차익처럼 비과세되는 몫을 빼고 남은 과세 대상 몫만 반영한 기준가격이 과표기준가라는 설명 도식">
+  <rect width="720" height="300" fill="#fffaf5"/>
+  <text x="360" y="38" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">과표기준가는 무엇을 뺀 값인가</text>
+  <text x="360" y="61" text-anchor="middle" font-size="12.5" fill="#8a6d5a">ETF 수익 중 비과세되는 부분을 제외하고 과세 대상만 계산해 둔 기준가격</text>
+
+  <text x="52" y="100" font-size="12.5" font-weight="800" fill="#7c2d12">ETF 가 올린 수익 전체</text>
+  <rect x="52" y="112" width="616" height="44" rx="10" fill="#fef3ec" stroke="#eaddd3"/>
+  <rect x="52" y="112" width="400" height="44" rx="10" fill="#eaf4ec" stroke="#cfe3d4"/>
+  <text x="252" y="140" text-anchor="middle" font-size="13" font-weight="800" fill="#1f7a4d">비과세되는 몫</text>
+  <text x="560" y="140" text-anchor="middle" font-size="13" font-weight="800" fill="#c0392b">과세 대상 몫</text>
+
+  <text x="52" y="196" font-size="12.5" font-weight="800" fill="#7c2d12">과표기준가에 반영되는 것</text>
+  <rect x="52" y="208" width="616" height="44" rx="10" fill="#fffaf5" stroke="#eaddd3" stroke-dasharray="5 4"/>
+  <rect x="452" y="208" width="216" height="44" rx="10" fill="#fdecec" stroke="#f2c4c4"/>
+  <text x="252" y="236" text-anchor="middle" font-size="12.5" fill="#8a6d5a">빠진다</text>
+  <text x="560" y="236" text-anchor="middle" font-size="13" font-weight="800" fill="#c0392b">이 몫만 들어간다</text>
+
+  <text x="360" y="284" text-anchor="middle" font-size="12" fill="#5a4636">국내 상장주식의 매매차익·평가차익은 비과세 소득이라 과표기준가를 올리지 않습니다 (칸 길이는 설명용이며 실제 비율이 아닙니다)</text>
+</svg>
