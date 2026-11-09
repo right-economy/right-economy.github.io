@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" font-family="Pretendard, sans-serif" role="img" aria-label="채권을 직접 사면 표면이자에만 15.4퍼센트 이자소득세가 붙고 매매차익은 소득세법에 열거되지 않아 과세되지 않지만, 국내 상장 채권형 ETF는 분배금과 매매차익 모두 15.4퍼센트 배당소득세 대상이고 금융소득종합과세에도 합산된다는 비교">
+  <rect width="720" height="320" fill="#fffaf5"/>
+  <text x="360" y="38" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">세금이 붙는 자리</text>
+  <text x="360" y="61" text-anchor="middle" font-size="12.5" fill="#8a6d5a">같은 채권에서 나온 수익인데 과세 대상이 달라집니다</text>
+
+  <rect x="34" y="88" width="310" height="190" rx="14" fill="#fef3ec" stroke="#eaddd3"/>
+  <text x="189" y="118" text-anchor="middle" font-size="15" font-weight="800" fill="#c2410c">채권 직접 매수</text>
+  <text x="54" y="150" font-size="12.5" fill="#5a4636">표면이자</text>
+  <text x="324" y="150" text-anchor="end" font-size="13" font-weight="800" fill="#c2410c">15.4%</text>
+  <line x1="54" y1="162" x2="324" y2="162" stroke="#eaddd3"/>
+  <text x="54" y="186" font-size="12.5" fill="#5a4636">매매차익</text>
+  <text x="324" y="186" text-anchor="end" font-size="13" font-weight="800" fill="#1f7a4d">과세 없음</text>
+  <line x1="54" y1="198" x2="324" y2="198" stroke="#eaddd3"/>
+  <text x="54" y="222" font-size="12.5" fill="#5a4636">종합과세 합산</text>
+  <text x="324" y="222" text-anchor="end" font-size="12.5" fill="#5a4636">이자 부분만</text>
+  <text x="189" y="256" text-anchor="middle" font-size="12" fill="#8a6d5a">매매차익은 소득세법에 열거되지 않습니다</text>
+
+  <rect x="376" y="88" width="310" height="190" rx="14" fill="#fdecec" stroke="#f2c4c4"/>
+  <text x="531" y="118" text-anchor="middle" font-size="15" font-weight="800" fill="#c0392b">국내 상장 채권형 ETF</text>
+  <text x="396" y="150" font-size="12.5" fill="#5a4636">분배금</text>
+  <text x="666" y="150" text-anchor="end" font-size="13" font-weight="800" fill="#c0392b">15.4%</text>
+  <line x1="396" y1="162" x2="666" y2="162" stroke="#f2c4c4"/>
+  <text x="396" y="186" font-size="12.5" fill="#5a4636">매매차익</text>
+  <text x="666" y="186" text-anchor="end" font-size="13" font-weight="800" fill="#c0392b">15.4%</text>
+  <line x1="396" y1="198" x2="666" y2="198" stroke="#f2c4c4"/>
+  <text x="396" y="222" font-size="12.5" fill="#5a4636">종합과세 합산</text>
+  <text x="666" y="222" text-anchor="end" font-size="12.5" fill="#5a4636">둘 다</text>
+  <text x="531" y="256" text-anchor="middle" font-size="12" fill="#8a6d5a">실제 차익과 과표기준가 증가분 중 적은 쪽에 과세</text>
+
+  <text x="360" y="304" text-anchor="middle" font-size="12.5" font-weight="800" fill="#7c2d12">15.4% = 소득세 14% + 지방소득세 1.4%</text>
+</svg>
