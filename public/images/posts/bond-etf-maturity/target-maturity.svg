@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" font-family="Pretendard, sans-serif" role="img" aria-label="만기매칭형 채권 ETF의 흐름. 비슷한 시기에 만기가 오는 채권을 담아 상장하고, 존속기한까지 채권을 교체하지 않고 들고 있다가, 존속기한이 끝나면 투자신탁을 해지하고 상장폐지한 뒤 투자자에게 해지상환금을 지급한다">
+  <rect width="720" height="330" fill="#fffaf5"/>
+  <text x="360" y="38" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">만기매칭형 채권 ETF가 끝나는 방식</text>
+  <text x="360" y="61" text-anchor="middle" font-size="12.5" fill="#8a6d5a">존속기한이 적혀 있어서 그 날짜에 상품 자체가 없어집니다</text>
+
+  <rect x="30" y="92" width="152" height="118" rx="14" fill="#fef3ec" stroke="#eaddd3"/>
+  <text x="106" y="124" text-anchor="middle" font-size="14" font-weight="800" fill="#c2410c">상장</text>
+  <text x="106" y="152" text-anchor="middle" font-size="12" fill="#5a4636">만기가 비슷한</text>
+  <text x="106" y="172" text-anchor="middle" font-size="12" fill="#5a4636">채권을 담는다</text>
+  <text x="106" y="194" text-anchor="middle" font-size="12" fill="#8a6d5a">이름에 연·월 표기</text>
+
+  <rect x="206" y="92" width="152" height="118" rx="14" fill="#fef3ec" stroke="#eaddd3"/>
+  <text x="282" y="124" text-anchor="middle" font-size="14" font-weight="800" fill="#c2410c">보유 기간</text>
+  <text x="282" y="152" text-anchor="middle" font-size="12" fill="#5a4636">채권을 교체하지</text>
+  <text x="282" y="172" text-anchor="middle" font-size="12" fill="#5a4636">않고 들고 간다</text>
+  <text x="282" y="194" text-anchor="middle" font-size="12" fill="#8a6d5a">남은 기간이 줄어든다</text>
+
+  <rect x="382" y="92" width="152" height="118" rx="14" fill="#fdecec" stroke="#f2c4c4"/>
+  <text x="458" y="124" text-anchor="middle" font-size="14" font-weight="800" fill="#c0392b">존속기한 만료</text>
+  <text x="458" y="152" text-anchor="middle" font-size="12" fill="#5a4636">투자신탁 해지</text>
+  <text x="458" y="172" text-anchor="middle" font-size="12" fill="#5a4636">상장폐지 절차</text>
+  <text x="458" y="194" text-anchor="middle" font-size="12" fill="#8a6d5a">거래가 끝난다</text>
+
+  <rect x="558" y="92" width="132" height="118" rx="14" fill="#fdecec" stroke="#f2c4c4"/>
+  <text x="624" y="124" text-anchor="middle" font-size="14" font-weight="800" fill="#c0392b">해지상환금</text>
+  <text x="624" y="155" text-anchor="middle" font-size="12" fill="#5a4636">남은 자산을</text>
+  <text x="624" y="175" text-anchor="middle" font-size="12" fill="#5a4636">현금으로 지급</text>
+
+  <path d="M186 151 L202 151" stroke="#c2410c" stroke-width="2.5" marker-end="url(#a)"/>
+  <path d="M362 151 L378 151" stroke="#c2410c" stroke-width="2.5" marker-end="url(#a)"/>
+  <path d="M538 151 L554 151" stroke="#c0392b" stroke-width="2.5" marker-end="url(#a)"/>
+  <defs><marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#c0392b"/></marker></defs>
+
+  <rect x="30" y="232" width="660" height="66" rx="12" fill="#fff4e8" stroke="#eaddd3"/>
+  <text x="50" y="259" font-size="12.5" font-weight="800" fill="#7c2d12">주의</text>
+  <text x="50" y="282" font-size="12.5" fill="#5a4636">예금자보호가 되는 원금 보장 상품이 아닙니다. 담긴 채권이 돈을 못 갚으면 받는 금액이 줄고, 존속기한 전에 팔면 그날 시장가격입니다.</text>
+</svg>
