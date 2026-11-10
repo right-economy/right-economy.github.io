@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" font-family="Pretendard, sans-serif" role="img" aria-label="미국 금리가 오르면 달러 자산 수익이 좋아져 신흥국에서 자금이 회수되고 신흥국 통화가 약해지며 달러 부채 상환 부담이 커져 추가 매도가 나오는 네 단계 순환 도식">
+  <rect width="720" height="380" fill="#fffaf5"/>
+  <text x="360" y="38" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">돈이 빠지는 순서</text>
+  <text x="360" y="61" text-anchor="middle" font-size="12.5" fill="#8a6d5a">한 바퀴 돌면 처음 자리로 돌아와 다시 밀립니다</text>
+
+  <rect x="42" y="92" width="286" height="76" rx="14" fill="#fef3ec" stroke="#eaddd3"/>
+  <text x="185" y="120" text-anchor="middle" font-size="14" font-weight="800" fill="#c2410c">① 미국 금리가 오른다</text>
+  <text x="185" y="146" text-anchor="middle" font-size="12.5" fill="#5a4636">달러로 그냥 두기만 해도 이자가 붙는다</text>
+
+  <rect x="392" y="92" width="286" height="76" rx="14" fill="#fef3ec" stroke="#eaddd3"/>
+  <text x="535" y="120" text-anchor="middle" font-size="14" font-weight="800" fill="#c2410c">② 신흥국에서 돈을 뺀다</text>
+  <text x="535" y="146" text-anchor="middle" font-size="12.5" fill="#5a4636">위험을 덜 지고 같은 수익을 받으려 한다</text>
+
+  <rect x="392" y="212" width="286" height="76" rx="14" fill="#fdecec" stroke="#f2c4c4"/>
+  <text x="535" y="240" text-anchor="middle" font-size="14" font-weight="800" fill="#c0392b">③ 그 나라 통화가 약해진다</text>
+  <text x="535" y="266" text-anchor="middle" font-size="12.5" fill="#5a4636">현지 통화를 팔고 달러를 사서 나간다</text>
+
+  <rect x="42" y="212" width="286" height="76" rx="14" fill="#fdecec" stroke="#f2c4c4"/>
+  <text x="185" y="240" text-anchor="middle" font-size="14" font-weight="800" fill="#c0392b">④ 달러 빚 부담이 커진다</text>
+  <text x="185" y="266" text-anchor="middle" font-size="12.5" fill="#5a4636">갚을 돈이 현지 통화로는 늘어난다</text>
+
+  <path d="M328 130 L392 130" stroke="#c2410c" stroke-width="2.5" marker-end="url(#a)"/>
+  <path d="M535 168 L535 212" stroke="#c0392b" stroke-width="2.5" marker-end="url(#a)"/>
+  <path d="M392 250 L328 250" stroke="#c0392b" stroke-width="2.5" marker-end="url(#a)"/>
+  <path d="M185 212 L185 168" stroke="#c2410c" stroke-width="2.5" marker-end="url(#a)"/>
+  <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#c2410c"/></marker></defs>
+
+  <text x="360" y="330" text-anchor="middle" font-size="12.5" fill="#8a6d5a">④ 때문에 ①이 끝나도 ②가 한동안 더 이어지는 구간이 생깁니다</text>
+  <text x="360" y="360" text-anchor="middle" font-size="12.5" font-weight="800" fill="#7c2d12">금리가 멈춘 뒤에도 환율이 늦게 돌아오는 이유입니다</text>
+</svg>
