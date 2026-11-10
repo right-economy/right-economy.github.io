@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" font-family="Pretendard, sans-serif" role="img" aria-label="달러인덱스가 내려도 원 달러 환율은 오를 수 있는 이유는 달러인덱스가 재는 상대 통화에 원화가 없고 원 달러 환율은 원화와 달러 사이만 재기 때문이라는 비교 도식">
+  <rect width="720" height="340" fill="#fffaf5"/>
+  <text x="360" y="38" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">두 숫자는 서로 다른 것을 잽니다</text>
+  <text x="360" y="61" text-anchor="middle" font-size="12.5" fill="#8a6d5a">그래서 방향이 어긋나는 날이 생깁니다</text>
+
+  <rect x="34" y="92" width="312" height="150" rx="14" fill="#fef3ec" stroke="#eaddd3"/>
+  <text x="190" y="120" text-anchor="middle" font-size="14" font-weight="800" fill="#c2410c">달러인덱스</text>
+  <text x="190" y="150" text-anchor="middle" font-size="12.5" fill="#5a4636">달러 ↔ 유로·엔·파운드 등 여섯</text>
+  <text x="190" y="176" text-anchor="middle" font-size="12.5" fill="#5a4636">유로 비중이 57.6%라</text>
+  <text x="190" y="198" text-anchor="middle" font-size="12.5" fill="#5a4636">유로가 오르면 지수가 내려갑니다</text>
+  <text x="190" y="226" text-anchor="middle" font-size="12.5" font-weight="800" fill="#8a6d5a">원화는 여기 없습니다</text>
+
+  <rect x="374" y="92" width="312" height="150" rx="14" fill="#f0f6fb" stroke="#d6e4ef"/>
+  <text x="530" y="120" text-anchor="middle" font-size="14" font-weight="800" fill="#2563a8">원/달러 환율</text>
+  <text x="530" y="150" text-anchor="middle" font-size="12.5" fill="#5a4636">원화 ↔ 달러 단 둘</text>
+  <text x="530" y="176" text-anchor="middle" font-size="12.5" fill="#5a4636">외국인이 한국 주식을 팔고</text>
+  <text x="530" y="198" text-anchor="middle" font-size="12.5" fill="#5a4636">달러로 바꿔 나가면 오릅니다</text>
+  <text x="530" y="226" text-anchor="middle" font-size="12.5" font-weight="800" fill="#8a6d5a">유로는 여기 없습니다</text>
+
+  <rect x="160" y="262" width="400" height="48" rx="14" fill="#fdecec" stroke="#f2c4c4"/>
+  <text x="360" y="292" text-anchor="middle" font-size="13.5" font-weight="800" fill="#c0392b">달러인덱스가 내린 날에도 원/달러가 오를 수 있습니다</text>
+</svg>
