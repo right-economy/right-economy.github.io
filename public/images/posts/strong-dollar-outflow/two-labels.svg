@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" font-family="Pretendard, sans-serif" role="img" aria-label="한국은 MSCI 기준으로는 신흥시장이고 FTSE 와 S&amp;P 기준으로는 선진시장이라 지수를 만드는 회사에 따라 분류가 다르다는 비교">
+  <rect width="720" height="320" fill="#fffaf5"/>
+  <text x="360" y="38" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">한국은 보는 곳에 따라 칸이 다릅니다</text>
+  <text x="360" y="61" text-anchor="middle" font-size="12.5" fill="#8a6d5a">지수를 만드는 회사마다 기준이 따로 있습니다</text>
+
+  <rect x="48" y="94" width="300" height="140" rx="14" fill="#fdecec" stroke="#f2c4c4"/>
+  <text x="198" y="124" text-anchor="middle" font-size="14" font-weight="800" fill="#c0392b">MSCI</text>
+  <text x="198" y="156" text-anchor="middle" font-size="18" font-weight="800" fill="#c0392b">신흥시장</text>
+  <text x="198" y="186" text-anchor="middle" font-size="12.5" fill="#5a4636">2026년 6월 연례 분류에서도</text>
+  <text x="198" y="208" text-anchor="middle" font-size="12.5" fill="#5a4636">관찰대상국에 오르지 않았습니다</text>
+
+  <rect x="372" y="94" width="300" height="140" rx="14" fill="#f0f6fb" stroke="#d6e4ef"/>
+  <text x="522" y="124" text-anchor="middle" font-size="14" font-weight="800" fill="#2563a8">FTSE · S&amp;P</text>
+  <text x="522" y="156" text-anchor="middle" font-size="18" font-weight="800" fill="#2563a8">선진시장</text>
+  <text x="522" y="186" text-anchor="middle" font-size="12.5" fill="#5a4636">FTSE 는 2009년,</text>
+  <text x="522" y="208" text-anchor="middle" font-size="12.5" fill="#5a4636">S&amp;P 는 2008년에 넣었습니다</text>
+
+  <text x="360" y="272" text-anchor="middle" font-size="12.5" font-weight="800" fill="#7c2d12">MSCI 신흥지수를 따라가는 돈에는 한국이 신흥국 묶음으로 들어 있습니다</text>
+  <text x="360" y="298" text-anchor="middle" font-size="12.5" fill="#8a6d5a">그래서 다른 신흥국 사정으로 생긴 환매에도 같이 팔립니다</text>
+</svg>

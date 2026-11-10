@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" font-family="Pretendard, sans-serif" role="img" aria-label="같은 1억 달러 빚이라도 환율이 1300원일 때는 1300억원이고 1400원일 때는 1400억원이어서 빌린 금액은 그대로인데 갚을 원화가 100억원 늘어난다는 가상 예시 비교">
+  <rect width="720" height="320" fill="#fffaf5"/>
+  <text x="360" y="38" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">빌린 돈은 그대로인데 갚을 돈이 늘어납니다</text>
+  <text x="360" y="61" text-anchor="middle" font-size="12.5" fill="#8a6d5a">달러로 1억 달러를 빌린 회사의 원화 상환액 (가상 예시)</text>
+
+  <rect x="60" y="94" width="266" height="130" rx="14" fill="#f0f6fb" stroke="#d6e4ef"/>
+  <text x="193" y="124" text-anchor="middle" font-size="13.5" font-weight="800" fill="#2563a8">환율 1,300원일 때</text>
+  <text x="193" y="166" text-anchor="middle" font-size="26" font-weight="800" fill="#2563a8">1,300억원</text>
+  <text x="193" y="200" text-anchor="middle" font-size="12.5" fill="#5a4636">1억 달러 × 1,300원</text>
+
+  <rect x="394" y="94" width="266" height="130" rx="14" fill="#fdecec" stroke="#f2c4c4"/>
+  <text x="527" y="124" text-anchor="middle" font-size="13.5" font-weight="800" fill="#c0392b">환율 1,400원일 때</text>
+  <text x="527" y="166" text-anchor="middle" font-size="26" font-weight="800" fill="#c0392b">1,400억원</text>
+  <text x="527" y="200" text-anchor="middle" font-size="12.5" fill="#5a4636">1억 달러 × 1,400원</text>
+
+  <text x="360" y="258" text-anchor="middle" font-size="14" font-weight="800" fill="#7c2d12">차이 100억원</text>
+  <text x="360" y="286" text-anchor="middle" font-size="12.5" fill="#8a6d5a">달러 금액과 금리가 하나도 안 변해도 생기는 차이입니다</text>
+</svg>
