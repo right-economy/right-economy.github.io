@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" font-family="Pretendard, sans-serif" role="img" aria-label="달러인덱스는 유로 57.6퍼센트, 일본 엔 13.6퍼센트, 영국 파운드 11.9퍼센트, 캐나다 달러 9.1퍼센트, 스웨덴 크로나 4.2퍼센트, 스위스 프랑 3.6퍼센트 여섯 통화로만 구성되고 원화는 들어 있지 않다는 비중 막대">
+  <rect width="720" height="360" fill="#fffaf5"/>
+  <text x="360" y="38" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">달러인덱스에 들어가는 여섯 통화</text>
+  <text x="360" y="61" text-anchor="middle" font-size="12.5" fill="#8a6d5a">비중은 고정값이고, 유로 하나가 절반을 넘습니다</text>
+
+  <rect x="40" y="88" width="369" height="34" rx="6" fill="#c2410c"/>
+  <text x="52" y="110" font-size="13.5" font-weight="800" fill="#fff">유로 57.6%</text>
+
+  <rect x="40" y="130" width="87" height="30" rx="6" fill="#e07a4a"/>
+  <text x="137" y="150" font-size="13" fill="#5a4636">일본 엔 13.6%</text>
+
+  <rect x="40" y="168" width="76" height="30" rx="6" fill="#e89a70"/>
+  <text x="126" y="188" font-size="13" fill="#5a4636">영국 파운드 11.9%</text>
+
+  <rect x="40" y="206" width="58" height="30" rx="6" fill="#efb795"/>
+  <text x="108" y="226" font-size="13" fill="#5a4636">캐나다 달러 9.1%</text>
+
+  <rect x="40" y="244" width="27" height="30" rx="6" fill="#f3cdb4"/>
+  <text x="77" y="264" font-size="13" fill="#5a4636">스웨덴 크로나 4.2%</text>
+
+  <rect x="40" y="282" width="23" height="30" rx="6" fill="#f7ded0"/>
+  <text x="73" y="302" font-size="13" fill="#5a4636">스위스 프랑 3.6%</text>
+
+  <rect x="430" y="88" width="250" height="100" rx="14" fill="#fdecec" stroke="#f2c4c4"/>
+  <text x="555" y="118" text-anchor="middle" font-size="14" font-weight="800" fill="#c0392b">원화는 없습니다</text>
+  <text x="555" y="144" text-anchor="middle" font-size="12.5" fill="#5a4636">중국 위안·대만 달러도</text>
+  <text x="555" y="166" text-anchor="middle" font-size="12.5" fill="#5a4636">들어 있지 않습니다</text>
+
+  <text x="430" y="222" font-size="12.5" fill="#8a6d5a">여섯 비중을 더하면 100.0%</text>
+  <text x="430" y="248" font-size="12.5" fill="#8a6d5a">1999년 유로가 나오면서</text>
+  <text x="430" y="270" font-size="12.5" fill="#8a6d5a">독일 마르크·프랑스 프랑 등이</text>
+  <text x="430" y="292" font-size="12.5" fill="#8a6d5a">유로 하나로 합쳐졌습니다</text>
+
+  <text x="360" y="340" text-anchor="middle" font-size="12.5" font-weight="800" fill="#7c2d12">달러가 세졌는지를 이 여섯 통화에 대해서만 재는 숫자입니다</text>
+</svg>

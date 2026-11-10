@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" font-family="Pretendard, sans-serif" role="img" aria-label="달러인덱스는 1973년 3월을 100으로 놓고 재며 100보다 높으면 그때보다 달러가 센 것이고 낮으면 약한 것이라는 기준선 도식, 2026년 11월 9일 종가는 101.75">
+  <rect width="720" height="330" fill="#fffaf5"/>
+  <text x="360" y="38" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">100은 1973년 3월의 달러입니다</text>
+  <text x="360" y="61" text-anchor="middle" font-size="12.5" fill="#8a6d5a">지수에는 단위가 없고, 기준 시점과 비교한 자리만 있습니다</text>
+
+  <line x1="80" y1="190" x2="650" y2="190" stroke="#eaddd3" stroke-width="2"/>
+  <line x1="80" y1="190" x2="650" y2="190" stroke="#c2410c" stroke-width="2.5" stroke-dasharray="6 5"/>
+  <text x="660" y="195" font-size="13" font-weight="800" fill="#c2410c">100</text>
+
+  <rect x="110" y="120" width="200" height="56" rx="14" fill="#fef3ec" stroke="#eaddd3"/>
+  <text x="210" y="144" text-anchor="middle" font-size="13.5" font-weight="800" fill="#c2410c">100보다 높으면</text>
+  <text x="210" y="166" text-anchor="middle" font-size="12.5" fill="#5a4636">1973년 3월보다 센 달러</text>
+
+  <rect x="110" y="206" width="200" height="56" rx="14" fill="#f0f6fb" stroke="#d6e4ef"/>
+  <text x="210" y="230" text-anchor="middle" font-size="13.5" font-weight="800" fill="#2563a8">100보다 낮으면</text>
+  <text x="210" y="252" text-anchor="middle" font-size="12.5" fill="#5a4636">그때보다 약한 달러</text>
+
+  <circle cx="470" cy="178" r="7" fill="#c2410c"/>
+  <text x="470" y="158" text-anchor="middle" font-size="14" font-weight="800" fill="#7c2d12">101.75</text>
+  <text x="470" y="222" text-anchor="middle" font-size="12.5" fill="#5a4636">2026년 11월 9일 종가</text>
+  <text x="470" y="244" text-anchor="middle" font-size="12.5" fill="#8a6d5a">기준선 바로 위입니다</text>
+
+  <text x="360" y="300" text-anchor="middle" font-size="12.5" fill="#8a6d5a">지수는 매일 움직입니다. 숫자를 볼 때는 조회한 날짜를 같이 적어 두세요.</text>
+</svg>
