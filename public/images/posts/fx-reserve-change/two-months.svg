@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" font-family="Pretendard, sans-serif" role="img" aria-label="2026년 9월에는 외환보유액이 17억 2천만 달러 줄고 10월에는 26억 달러 늘었는데 두 달 모두 달러가 강세였다는 비교">
+  <rect width="720" height="340" fill="#fffaf5"/>
+  <text x="360" y="38" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">달러는 두 달 다 셌는데 보유액은 반대로 갔습니다</text>
+  <text x="360" y="61" text-anchor="middle" font-size="12.5" fill="#8a6d5a">한국 외환보유액 전월 대비 증감 · 단위: 억 달러</text>
+
+  <rect x="60" y="96" width="266" height="152" rx="14" fill="#fdecec" stroke="#f2c4c4"/>
+  <text x="193" y="126" text-anchor="middle" font-size="13.5" font-weight="800" fill="#c0392b">2026년 9월</text>
+  <text x="193" y="170" text-anchor="middle" font-size="28" font-weight="800" fill="#c0392b">-17.2</text>
+  <text x="193" y="199" text-anchor="middle" font-size="12.5" fill="#5a4636">월말 잔액 4,405.6</text>
+  <text x="193" y="224" text-anchor="middle" font-size="12" fill="#8a6d5a">달러 강세 · 대미투자 위탁</text>
+
+  <rect x="394" y="96" width="266" height="152" rx="14" fill="#eaf6ee" stroke="#c3e3ce"/>
+  <text x="527" y="126" text-anchor="middle" font-size="13.5" font-weight="800" fill="#1e7a46">2026년 10월</text>
+  <text x="527" y="170" text-anchor="middle" font-size="28" font-weight="800" fill="#1e7a46">+26.0</text>
+  <text x="527" y="199" text-anchor="middle" font-size="12.5" fill="#5a4636">월말 잔액 4,431.6</text>
+  <text x="527" y="224" text-anchor="middle" font-size="12" fill="#8a6d5a">운용수익 · 외화예수금 증가</text>
+
+  <text x="360" y="284" text-anchor="middle" font-size="14" font-weight="800" fill="#7c2d12">10월 달러지수는 0.7% 올랐습니다</text>
+  <text x="360" y="310" text-anchor="middle" font-size="12.5" fill="#8a6d5a">달러가 센 쪽으로 간 건 두 달이 같은데 증감 부호는 갈렸습니다</text>
+</svg>

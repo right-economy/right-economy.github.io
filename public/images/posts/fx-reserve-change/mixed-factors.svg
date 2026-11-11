@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" font-family="Pretendard, sans-serif" role="img" aria-label="외환보유액 증감에는 외환당국 개입 외에도 외화자산 운용수익, 비달러 자산의 달러 환산액 변화, 금융기관 외화예수금 증감, 정책 목적의 자산 위탁이 함께 섞인다는 도식">
+  <rect width="720" height="360" fill="#fffaf5"/>
+  <text x="360" y="38" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">증감 한 줄에 섞여 있는 것들</text>
+  <text x="360" y="61" text-anchor="middle" font-size="12.5" fill="#8a6d5a">월별 증감액은 아래가 모두 합쳐진 뒤의 숫자입니다</text>
+
+  <rect x="52" y="92" width="300" height="72" rx="12" fill="#f0f6fb" stroke="#d6e4ef"/>
+  <text x="72" y="120" font-size="14" font-weight="800" fill="#2563a8">환율 방어용 매도</text>
+  <text x="72" y="144" font-size="12.5" fill="#5a4636">달러를 팔면 줄어듭니다</text>
+
+  <rect x="368" y="92" width="300" height="72" rx="12" fill="#f4f1fb" stroke="#ded6f0"/>
+  <text x="388" y="120" font-size="14" font-weight="800" fill="#6b4fa8">외화자산 운용수익</text>
+  <text x="388" y="144" font-size="12.5" fill="#5a4636">이자와 평가이익만큼 늘어납니다</text>
+
+  <rect x="52" y="178" width="300" height="72" rx="12" fill="#fdf3e6" stroke="#f0ddc0"/>
+  <text x="72" y="206" font-size="14" font-weight="800" fill="#b06b17">달러 환산액 변화</text>
+  <text x="72" y="230" font-size="12.5" fill="#5a4636">달러가 세면 유로·엔 자산이 줄어 보입니다</text>
+
+  <rect x="368" y="178" width="300" height="72" rx="12" fill="#eaf6ee" stroke="#c3e3ce"/>
+  <text x="388" y="206" font-size="14" font-weight="800" fill="#1e7a46">금융기관 외화예수금</text>
+  <text x="388" y="230" font-size="12.5" fill="#5a4636">맡긴 돈이 늘고 줄 때 같이 움직입니다</text>
+
+  <rect x="52" y="264" width="616" height="60" rx="12" fill="#fdecec" stroke="#f2c4c4"/>
+  <text x="360" y="291" text-anchor="middle" font-size="14" font-weight="800" fill="#c0392b">정책 목적의 자산 위탁</text>
+  <text x="360" y="313" text-anchor="middle" font-size="12.5" fill="#5a4636">2026년 9월 대미투자 재원 24억 달러가 여기에 해당합니다</text>
+</svg>
