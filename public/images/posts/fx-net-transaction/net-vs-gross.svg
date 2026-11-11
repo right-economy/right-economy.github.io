@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" font-family="Pretendard, sans-serif" role="img" aria-label="공개되는 순거래는 분기 동안의 총매수에서 총매도를 뺀 차액이라서 같은 분기에 사고판 금액이 서로 상쇄되어 실제로 손댄 총량보다 작게 보인다는 도식">
+  <rect width="720" height="330" fill="#fffaf5"/>
+  <text x="360" y="38" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">공개되는 숫자는 차액 하나입니다</text>
+  <text x="360" y="61" text-anchor="middle" font-size="12.5" fill="#8a6d5a">외환당국 순거래의 계산 방식 · 금액은 설명용 예시</text>
+
+  <rect x="48" y="96" width="186" height="120" rx="14" fill="#eaf1fa" stroke="#c3d6ee"/>
+  <text x="141" y="124" text-anchor="middle" font-size="13" font-weight="800" fill="#1f5c99">분기 중 산 달러</text>
+  <text x="141" y="162" text-anchor="middle" font-size="26" font-weight="800" fill="#1f5c99">30</text>
+  <text x="141" y="192" text-anchor="middle" font-size="12" fill="#8a6d5a">공개 안 됨</text>
+
+  <text x="258" y="163" text-anchor="middle" font-size="24" font-weight="800" fill="#8a6d5a">-</text>
+
+  <rect x="282" y="96" width="186" height="120" rx="14" fill="#fdecec" stroke="#f2c4c4"/>
+  <text x="375" y="124" text-anchor="middle" font-size="13" font-weight="800" fill="#c0392b">분기 중 판 달러</text>
+  <text x="375" y="162" text-anchor="middle" font-size="26" font-weight="800" fill="#c0392b">50</text>
+  <text x="375" y="192" text-anchor="middle" font-size="12" fill="#8a6d5a">공개 안 됨</text>
+
+  <text x="492" y="163" text-anchor="middle" font-size="24" font-weight="800" fill="#8a6d5a">=</text>
+
+  <rect x="516" y="96" width="156" height="120" rx="14" fill="#f5eafa" stroke="#dcc3ee"/>
+  <text x="594" y="124" text-anchor="middle" font-size="13" font-weight="800" fill="#6b2d99">순거래</text>
+  <text x="594" y="162" text-anchor="middle" font-size="26" font-weight="800" fill="#6b2d99">-20</text>
+  <text x="594" y="192" text-anchor="middle" font-size="12" fill="#6b2d99">이것만 발표</text>
+
+  <text x="360" y="258" text-anchor="middle" font-size="14" font-weight="800" fill="#7c2d12">손댄 금액은 80인데 숫자는 20으로 보입니다</text>
+  <text x="360" y="284" text-anchor="middle" font-size="12.5" fill="#8a6d5a">같은 분기 안에서 산 것과 판 것이 서로 상쇄되기 때문입니다</text>
+  <text x="360" y="308" text-anchor="middle" font-size="12" fill="#8a6d5a">그래서 순거래가 0이어도 아무것도 안 했다는 뜻은 아닙니다</text>
+</svg>
