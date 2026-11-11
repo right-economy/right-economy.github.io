@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" font-family="Pretendard, sans-serif" role="img" aria-label="외환당국 순거래는 해당 분기가 끝난 뒤 석 달이 지나 공표되므로 4월에서 6월까지의 거래가 9월 30일에 공개되고 7월에서 9월 거래는 그 규칙대로면 12월 말에 공개된다는 시간표">
+  <rect width="720" height="300" fill="#fffaf5"/>
+  <text x="360" y="38" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">지금 볼 수 있는 건 넉 달 전 거래입니다</text>
+  <text x="360" y="61" text-anchor="middle" font-size="12.5" fill="#8a6d5a">외환당국 순거래 공표 시간표 · 분기 종료 후 3개월 시차</text>
+
+  <line x1="80" y1="150" x2="640" y2="150" stroke="#e3d3c4" stroke-width="2"/>
+
+  <circle cx="200" cy="150" r="9" fill="#1f5c99"/>
+  <text x="200" y="124" text-anchor="middle" font-size="13.5" font-weight="800" fill="#1f5c99">4~6월 거래</text>
+  <text x="200" y="182" text-anchor="middle" font-size="12.5" fill="#5a4636">분기 종료 6월 30일</text>
+
+  <circle cx="420" cy="150" r="9" fill="#1e7a46"/>
+  <text x="420" y="124" text-anchor="middle" font-size="13.5" font-weight="800" fill="#1e7a46">9월 30일 공표</text>
+  <text x="420" y="182" text-anchor="middle" font-size="12.5" fill="#5a4636">96억 1,200만 달러 순매도</text>
+
+  <circle cx="600" cy="150" r="9" fill="#8a6d5a"/>
+  <text x="600" y="124" text-anchor="middle" font-size="13.5" font-weight="800" fill="#8a6d5a">7~9월 거래</text>
+  <text x="600" y="182" text-anchor="middle" font-size="12.5" fill="#8a6d5a">같은 시차면 12월 말</text>
+
+  <text x="360" y="240" text-anchor="middle" font-size="14" font-weight="800" fill="#7c2d12">10월과 11월 환율은 이 자료로 확인할 수 없습니다</text>
+  <text x="360" y="266" text-anchor="middle" font-size="12.5" fill="#8a6d5a">시차를 둔 이유는 공개가 시장에 주는 영향을 줄이기 위한 것입니다</text>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" font-family="Pretendard, sans-serif" role="img" aria-label="2026년 1분기 외환당국 순매도는 136억 2천800만 달러이고 2분기는 96억 1천200만 달러로 40억 1천600만 달러 줄었는데 2분기 평균 환율은 1501.64원으로 더 높았다는 비교 막대">
+  <rect width="720" height="360" fill="#fffaf5"/>
+  <text x="360" y="38" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">환율이 더 높았던 분기에 덜 팔았습니다</text>
+  <text x="360" y="61" text-anchor="middle" font-size="12.5" fill="#8a6d5a">외환당국 순매도액 · 단위: 억 달러 · 2026년 9월 30일 한국은행 공표</text>
+
+  <line x1="96" y1="262" x2="664" y2="262" stroke="#e3d3c4"/>
+
+  <rect x="168" y="118" width="124" height="144" rx="8" fill="#c0392b"/>
+  <text x="230" y="106" text-anchor="middle" font-size="22" font-weight="800" fill="#c0392b">136.28</text>
+  <text x="230" y="286" text-anchor="middle" font-size="13.5" font-weight="800" fill="#5a4636">2026년 1분기</text>
+  <text x="230" y="308" text-anchor="middle" font-size="12" fill="#8a6d5a">평균 환율은 2분기보다 낮음</text>
+
+  <rect x="428" y="160" width="124" height="102" rx="8" fill="#e08a7a"/>
+  <text x="490" y="148" text-anchor="middle" font-size="22" font-weight="800" fill="#c0392b">96.12</text>
+  <text x="490" y="286" text-anchor="middle" font-size="13.5" font-weight="800" fill="#5a4636">2026년 2분기</text>
+  <text x="490" y="308" text-anchor="middle" font-size="12" fill="#8a6d5a">평균 환율 1,501.64원</text>
+
+  <text x="360" y="338" text-anchor="middle" font-size="13" fill="#8a6d5a">두 분기 차이는 40억 1,600만 달러로 29.5% 줄었습니다</text>
+</svg>
