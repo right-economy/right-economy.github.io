@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" font-family="Pretendard, sans-serif" role="img" aria-label="2026년 10월말 외환보유액 구성은 유가증권 3824억3천만 달러로 86.3퍼센트이고 예치금 362억7천만, SDR 154억1천만, IMF포지션 42억5천만, 금 47억9천만 달러이며 유가증권은 줄고 예치금은 늘어 총액이 26억 달러 증가했다는 표">
+  <rect width="720" height="380" fill="#fffaf5"/>
+  <text x="360" y="38" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">총액은 늘었는데 가장 큰 칸은 줄었습니다</text>
+  <text x="360" y="61" text-anchor="middle" font-size="12.5" fill="#8a6d5a">2026년 10월말 외환보유액 구성 · 단위: 억 달러</text>
+
+  <line x1="56" y1="88" x2="664" y2="88" stroke="#e3d6c8"/>
+  <text x="76" y="110" font-size="12.5" font-weight="800" fill="#8a6d5a">자산</text>
+  <text x="430" y="110" text-anchor="end" font-size="12.5" font-weight="800" fill="#8a6d5a">잔액</text>
+  <text x="644" y="110" text-anchor="end" font-size="12.5" font-weight="800" fill="#8a6d5a">전월 대비</text>
+  <line x1="56" y1="122" x2="664" y2="122" stroke="#e3d6c8"/>
+
+  <text x="76" y="152" font-size="13.5" fill="#3f3027">유가증권 (86.3%)</text>
+  <text x="430" y="152" text-anchor="end" font-size="13.5" fill="#3f3027">3,824.3</text>
+  <text x="644" y="152" text-anchor="end" font-size="13.5" font-weight="800" fill="#c0392b">-35.9</text>
+
+  <text x="76" y="188" font-size="13.5" fill="#3f3027">예치금</text>
+  <text x="430" y="188" text-anchor="end" font-size="13.5" fill="#3f3027">362.7</text>
+  <text x="644" y="188" text-anchor="end" font-size="13.5" font-weight="800" fill="#1e7a46">+63.2</text>
+
+  <text x="76" y="224" font-size="13.5" fill="#3f3027">IMF 특별인출권 (SDR)</text>
+  <text x="430" y="224" text-anchor="end" font-size="13.5" fill="#3f3027">154.1</text>
+  <text x="644" y="224" text-anchor="end" font-size="13.5" fill="#c0392b">-0.7</text>
+
+  <text x="76" y="260" font-size="13.5" fill="#3f3027">IMF 포지션</text>
+  <text x="430" y="260" text-anchor="end" font-size="13.5" fill="#3f3027">42.5</text>
+  <text x="644" y="260" text-anchor="end" font-size="13.5" fill="#c0392b">-0.5</text>
+
+  <text x="76" y="296" font-size="13.5" fill="#3f3027">금</text>
+  <text x="430" y="296" text-anchor="end" font-size="13.5" fill="#3f3027">47.9</text>
+  <text x="644" y="296" text-anchor="end" font-size="13.5" fill="#8a6d5a">변동 없음</text>
+
+  <line x1="56" y1="316" x2="664" y2="316" stroke="#e3d6c8"/>
+  <text x="76" y="344" font-size="14" font-weight="800" fill="#7c2d12">합계</text>
+  <text x="430" y="344" text-anchor="end" font-size="14" font-weight="800" fill="#7c2d12">4,431.6</text>
+  <text x="644" y="344" text-anchor="end" font-size="14" font-weight="800" fill="#1e7a46">+26.0</text>
+  <text x="360" y="370" text-anchor="middle" font-size="12" fill="#8a6d5a">금은 장부가 기준이라 시세가 올라도 숫자가 그대로입니다</text>
+</svg>
