@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" font-family="Pretendard, sans-serif" role="img" aria-label="2026년 외국환평형기금 채권 발행한도는 원화가 13조 7천억원으로 전액 1년물이며 모두 기존 원화 외평채를 갚는 데 쓰이고, 외화표시는 정부안 14억 달러에서 국회 심의로 36억 달러 늘어난 50억 달러로 확정됐다는 비교">
+  <rect width="720" height="320" fill="#fffaf5"/>
+  <text x="360" y="38" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">2026년에 빌리기로 정해둔 한도</text>
+  <text x="360" y="61" text-anchor="middle" font-size="12.5" fill="#8a6d5a">외국환평형기금 채권 발행한도 · 원화와 외화는 따로 정합니다</text>
+
+  <rect x="48" y="92" width="300" height="146" rx="10" fill="#eaf1f8" stroke="#1f5c99" stroke-width="1.6"/>
+  <text x="198" y="120" text-anchor="middle" font-size="13.5" font-weight="800" fill="#1f5c99">원화 외평채</text>
+  <text x="198" y="156" text-anchor="middle" font-size="26" font-weight="800" fill="#1f5c99">13조 7,000억원</text>
+  <text x="198" y="184" text-anchor="middle" font-size="12.5" fill="#5a4636">전액 1년물 · 매월 셋째 주 금요일 입찰</text>
+  <text x="198" y="206" text-anchor="middle" font-size="12.5" fill="#5a4636">조달한 돈은 전액 기존 외평채 상환용</text>
+  <text x="198" y="228" text-anchor="middle" font-size="12.5" fill="#5a4636">상반기에 55~60% 배정</text>
+
+  <rect x="372" y="92" width="300" height="146" rx="10" fill="#eaf4ec" stroke="#1e7a46" stroke-width="1.6"/>
+  <text x="522" y="120" text-anchor="middle" font-size="13.5" font-weight="800" fill="#1e7a46">외화표시 외평채</text>
+  <text x="522" y="156" text-anchor="middle" font-size="26" font-weight="800" fill="#1e7a46">50억 달러</text>
+  <text x="522" y="184" text-anchor="middle" font-size="12.5" fill="#5a4636">정부안은 14억 달러였습니다</text>
+  <text x="522" y="206" text-anchor="middle" font-size="12.5" fill="#5a4636">국회 심의에서 36억 달러 늘렸습니다</text>
+  <text x="522" y="228" text-anchor="middle" font-size="12.5" fill="#5a4636">한도이고 실제 발행액은 아닙니다</text>
+
+  <text x="360" y="276" text-anchor="middle" font-size="14" font-weight="800" fill="#7c2d12">한도는 빌릴 수 있는 상한이고, 다 쓴다는 뜻이 아닙니다</text>
+  <text x="360" y="302" text-anchor="middle" font-size="12.5" fill="#8a6d5a">출처: 머니투데이(2025.12.26) · 국회예산정책처 나보포커스 제130호(2025.12.5)</text>
+</svg>

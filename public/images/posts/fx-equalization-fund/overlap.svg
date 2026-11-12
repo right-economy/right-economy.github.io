@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" font-family="Pretendard, sans-serif" role="img" aria-label="외국환평형기금의 외화자산 중 한국은행에 예탁된 부분은 외환보유액에도 함께 집계되므로 외평기금 규모와 외환보유액을 더하면 같은 돈을 두 번 세게 된다는 겹침 도식">
+  <rect width="720" height="300" fill="#fffaf5"/>
+  <text x="360" y="38" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">두 숫자를 더하면 같은 돈을 두 번 셉니다</text>
+  <text x="360" y="61" text-anchor="middle" font-size="12.5" fill="#8a6d5a">외국환평형기금과 외환보유액이 겹치는 자리</text>
+
+  <circle cx="290" cy="165" r="78" fill="#1f5c99" fill-opacity="0.16" stroke="#1f5c99" stroke-width="1.6"/>
+  <circle cx="430" cy="165" r="78" fill="#1e7a46" fill-opacity="0.16" stroke="#1e7a46" stroke-width="1.6"/>
+
+  <text x="228" y="160" text-anchor="middle" font-size="13" font-weight="800" fill="#1f5c99">외평기금</text>
+  <text x="228" y="180" text-anchor="middle" font-size="12" fill="#1f5c99">외화자산</text>
+
+  <text x="492" y="160" text-anchor="middle" font-size="13" font-weight="800" fill="#1e7a46">외환보유액</text>
+  <text x="492" y="180" text-anchor="middle" font-size="12" fill="#1e7a46">한국은행 집계</text>
+
+  <text x="360" y="158" text-anchor="middle" font-size="12" font-weight="800" fill="#7c2d12">한국은행에</text>
+  <text x="360" y="176" text-anchor="middle" font-size="12" font-weight="800" fill="#7c2d12">예탁된 부분</text>
+
+  <text x="360" y="272" text-anchor="middle" font-size="12.5" fill="#8a6d5a">가운데 겹친 칸이 두 숫자에 함께 들어갑니다 · 출처: 한국은행 외환보유액 운용 설명자료</text>
+</svg>
