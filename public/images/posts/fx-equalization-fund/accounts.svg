@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" font-family="Pretendard, sans-serif" role="img" aria-label="외국환평형기금은 한국은행에 외화기금계정과 원화기금계정 두 칸으로 설치되며 원화 외평채와 외화표시 외평채 발행으로 돈을 모아 한국은행과 국내외국환은행, 외국금융기관에 예치하거나 대여하고 외환을 사고팔 때 결제자금으로 쓴다는 구조도">
+  <rect width="720" height="340" fill="#fffaf5"/>
+  <text x="360" y="38" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">돈을 모으는 칸과 쓰는 칸</text>
+  <text x="360" y="61" text-anchor="middle" font-size="12.5" fill="#8a6d5a">외국환평형기금의 구조 · 한국은행에 두 계정으로 설치</text>
+
+  <rect x="40" y="92" width="170" height="92" rx="10" fill="#eaf1f8" stroke="#1f5c99" stroke-width="1.6"/>
+  <text x="125" y="120" text-anchor="middle" font-size="13.5" font-weight="800" fill="#1f5c99">채권을 팔아 모읍니다</text>
+  <text x="125" y="144" text-anchor="middle" font-size="12.5" fill="#5a4636">원화 외평채</text>
+  <text x="125" y="165" text-anchor="middle" font-size="12.5" fill="#5a4636">외화표시 외평채</text>
+
+  <path d="M218 138 L268 138" stroke="#8a6d5a" stroke-width="2"/>
+  <path d="M268 138 l-9 -5 v10 z" fill="#8a6d5a"/>
+
+  <rect x="276" y="80" width="168" height="116" rx="10" fill="#fff" stroke="#7c2d12" stroke-width="1.8"/>
+  <text x="360" y="106" text-anchor="middle" font-size="13.5" font-weight="800" fill="#7c2d12">외국환평형기금</text>
+  <text x="360" y="130" text-anchor="middle" font-size="12.5" fill="#5a4636">한국은행에 설치</text>
+  <rect x="292" y="142" width="136" height="20" rx="4" fill="#eaf4ec"/>
+  <text x="360" y="157" text-anchor="middle" font-size="12" fill="#1e7a46">외화기금계정</text>
+  <rect x="292" y="166" width="136" height="20" rx="4" fill="#eaf1f8"/>
+  <text x="360" y="181" text-anchor="middle" font-size="12" fill="#1f5c99">원화기금계정</text>
+
+  <path d="M452 138 L502 138" stroke="#8a6d5a" stroke-width="2"/>
+  <path d="M502 138 l-9 -5 v10 z" fill="#8a6d5a"/>
+
+  <rect x="510" y="86" width="172" height="104" rx="10" fill="#eaf4ec" stroke="#1e7a46" stroke-width="1.6"/>
+  <text x="596" y="112" text-anchor="middle" font-size="13.5" font-weight="800" fill="#1e7a46">이렇게 씁니다</text>
+  <text x="596" y="136" text-anchor="middle" font-size="12.5" fill="#5a4636">한국은행·은행에 예치</text>
+  <text x="596" y="157" text-anchor="middle" font-size="12.5" fill="#5a4636">외국금융기관에 대여</text>
+  <text x="596" y="178" text-anchor="middle" font-size="12.5" fill="#5a4636">외환 거래 결제자금</text>
+
+  <text x="360" y="244" text-anchor="middle" font-size="14" font-weight="800" fill="#7c2d12">기금이 달러를 들고 있는 게 아니라 빌려서 들고 있습니다</text>
+  <text x="360" y="272" text-anchor="middle" font-size="12.5" fill="#8a6d5a">채권으로 조달한 돈이라 갚을 날과 이자가 함께 붙습니다</text>
+  <text x="360" y="300" text-anchor="middle" font-size="12.5" fill="#8a6d5a">출처: 한국경제 한경용어사전 · 기획재정부 기금운용계획</text>
+</svg>
