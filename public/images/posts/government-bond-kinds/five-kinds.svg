@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 390" font-family="Pretendard, sans-serif" role="img" aria-label="기획재정부 국채시장이 분류한 국채 다섯 가지와 각각의 근거 법률, 부담 기금, 만기 구조를 정리한 표로 국고채권은 국채법과 공공자금관리기금, 외국환평형기금채권은 외국환거래법과 외국환평형기금, 국민주택채권은 주택도시기금법과 주택도시기금에 속한다">
+  <rect width="720" height="390" fill="#fffaf5"/>
+  <text x="360" y="36" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">국채는 한 종류가 아닙니다</text>
+  <text x="360" y="59" text-anchor="middle" font-size="12.5" fill="#8a6d5a">기획재정부 국채시장 분류 · 근거 법률과 돈이 들어가는 기금이 다릅니다</text>
+
+  <rect x="36" y="78" width="648" height="28" fill="#f0e4d8"/>
+  <text x="140" y="97" text-anchor="middle" font-size="12.5" font-weight="800" fill="#5a4636">국채 이름</text>
+  <text x="330" y="97" text-anchor="middle" font-size="12.5" font-weight="800" fill="#5a4636">근거 법률</text>
+  <text x="488" y="97" text-anchor="middle" font-size="12.5" font-weight="800" fill="#5a4636">부담 기금</text>
+  <text x="628" y="97" text-anchor="middle" font-size="12.5" font-weight="800" fill="#5a4636">만기</text>
+
+  <rect x="36" y="106" width="648" height="52" fill="#eaf1f8"/>
+  <text x="140" y="128" text-anchor="middle" font-size="13" font-weight="800" fill="#1f5c99">국고채권</text>
+  <text x="140" y="148" text-anchor="middle" font-size="11.5" fill="#5a4636">발행량 가장 많음</text>
+  <text x="330" y="136" text-anchor="middle" font-size="12.5" fill="#5a4636">국채법</text>
+  <text x="488" y="136" text-anchor="middle" font-size="12.5" fill="#5a4636">공공자금관리기금</text>
+  <text x="628" y="128" text-anchor="middle" font-size="11.5" fill="#5a4636">2·3·5·10년</text>
+  <text x="628" y="146" text-anchor="middle" font-size="11.5" fill="#5a4636">20·30·50년</text>
+
+  <rect x="36" y="158" width="648" height="34" fill="#fff"/>
+  <text x="140" y="180" text-anchor="middle" font-size="13" fill="#5a4636">개인투자용 국채</text>
+  <text x="330" y="180" text-anchor="middle" font-size="12.5" fill="#5a4636">국채법</text>
+  <text x="488" y="180" text-anchor="middle" font-size="12.5" fill="#5a4636">공공자금관리기금</text>
+  <text x="628" y="180" text-anchor="middle" font-size="11.5" fill="#5a4636">5·10·20년</text>
+
+  <rect x="36" y="192" width="648" height="52" fill="#eaf4ec"/>
+  <text x="140" y="214" text-anchor="middle" font-size="13" font-weight="800" fill="#1e7a46">외국환평형기금채권</text>
+  <text x="140" y="234" text-anchor="middle" font-size="11.5" fill="#5a4636">외화표시·원화표시</text>
+  <text x="330" y="222" text-anchor="middle" font-size="12.5" fill="#5a4636">외국환거래법</text>
+  <text x="488" y="222" text-anchor="middle" font-size="12.5" fill="#5a4636">외국환평형기금</text>
+  <text x="628" y="214" text-anchor="middle" font-size="11.5" fill="#5a4636">외화는 그때마다</text>
+  <text x="628" y="232" text-anchor="middle" font-size="11.5" fill="#5a4636">원화는 1년</text>
+
+  <rect x="36" y="244" width="648" height="34" fill="#fff"/>
+  <text x="140" y="266" text-anchor="middle" font-size="13" fill="#5a4636">재정증권</text>
+  <text x="330" y="266" text-anchor="middle" font-size="12.5" fill="#5a4636">국고금관리법</text>
+  <text x="488" y="266" text-anchor="middle" font-size="12.5" fill="#5a4636">정부</text>
+  <text x="628" y="266" text-anchor="middle" font-size="11.5" fill="#5a4636">1년 이내</text>
+
+  <rect x="36" y="278" width="648" height="34" fill="#f7efe7"/>
+  <text x="140" y="300" text-anchor="middle" font-size="13" fill="#5a4636">국민주택채권</text>
+  <text x="330" y="300" text-anchor="middle" font-size="12.5" fill="#5a4636">주택도시기금법</text>
+  <text x="488" y="300" text-anchor="middle" font-size="12.5" fill="#5a4636">주택도시기금</text>
+  <text x="628" y="300" text-anchor="middle" font-size="11.5" fill="#5a4636">1종 5년</text>
+
+  <text x="360" y="344" text-anchor="middle" font-size="14" font-weight="800" fill="#7c2d12">이름이 다른 건 돈이 들어가는 기금과 근거 법률이 달라서입니다</text>
+  <text x="360" y="370" text-anchor="middle" font-size="12.5" fill="#8a6d5a">출처: 기획재정부 국채시장 국채 종류 안내</text>
+</svg>
