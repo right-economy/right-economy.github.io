@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 270" font-family="Pretendard, sans-serif" role="img" aria-label="바이백과 교환의 차이를 정리한 표로 바이백은 정부가 만기 전 국고채를 사들여 그 빚을 없애므로 남은 국고채 잔액이 줄고, 교환은 거래가 뜸한 경과종목을 새로 발행하는 지표종목으로 바꿔 주는 것이라 잔액은 그대로이며 거래가 잘 되는 종목으로 옮겨지는 효과가 있다">
+  <rect width="720" height="270" fill="#fffaf5"/>
+  <text x="360" y="34" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">되사기와 바꿔주기는 다릅니다</text>
+  <text x="360" y="57" text-anchor="middle" font-size="12.5" fill="#6f5443">출처: 옳은경제 정리</text>
+
+  <rect x="36" y="78" width="648" height="30" fill="#f0e4d8"/>
+  <text x="140" y="98" text-anchor="middle" font-size="12.5" font-weight="800" fill="#5a4636">조치</text>
+  <text x="400" y="98" text-anchor="middle" font-size="12.5" font-weight="800" fill="#5a4636">정부가 하는 일</text>
+  <text x="614" y="98" text-anchor="middle" font-size="12.5" font-weight="800" fill="#5a4636">국고채 잔액</text>
+
+  <rect x="36" y="108" width="648" height="66" fill="#eaf1f8"/>
+  <text x="140" y="136" text-anchor="middle" font-size="14" font-weight="800" fill="#1f5c99">바이백</text>
+  <text x="140" y="158" text-anchor="middle" font-size="11.5" fill="#5a4636">조기상환 매입</text>
+  <text x="400" y="136" text-anchor="middle" font-size="12.5" fill="#5a4636">만기 전 국고채를 사들여</text>
+  <text x="400" y="158" text-anchor="middle" font-size="12.5" fill="#5a4636">그 빚을 없앱니다</text>
+  <text x="614" y="147" text-anchor="middle" font-size="13" font-weight="800" fill="#1f5c99">줄어듭니다</text>
+
+  <rect x="36" y="174" width="648" height="66" fill="#eaf4ec"/>
+  <text x="140" y="202" text-anchor="middle" font-size="14" font-weight="800" fill="#1e7a46">교환</text>
+  <text x="140" y="224" text-anchor="middle" font-size="11.5" fill="#5a4636">종목 맞바꾸기</text>
+  <text x="400" y="202" text-anchor="middle" font-size="12.5" fill="#5a4636">거래가 뜸한 경과종목을</text>
+  <text x="400" y="224" text-anchor="middle" font-size="12.5" fill="#5a4636">새 지표종목으로 바꿔 줍니다</text>
+  <text x="614" y="213" text-anchor="middle" font-size="13" font-weight="800" fill="#1e7a46">그대로입니다</text>
+</svg>
