@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" font-family="Pretendard, sans-serif" role="img" aria-label="국고채 만기대별로 주로 사는 쪽과 쓰임이 다르다는 도식으로 2년에서 5년은 은행과 자산운용사의 단기 운용과 현금화, 10년은 국내외 기관의 기준 비교와 장기 투자, 20년에서 50년은 보험사와 연기금이 장기 부채와 만기를 맞추는 자리다">
+  <rect width="720" height="330" fill="#fffaf5"/>
+  <text x="360" y="34" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">만기마다 사는 쪽이 다릅니다</text>
+  <text x="360" y="57" text-anchor="middle" font-size="12.5" fill="#8a6d5a">주된 수요처와 쓰임 · 출처: 옳은경제 정리</text>
+
+  <rect x="36" y="80" width="648" height="68" rx="8" fill="#eaf1f8" stroke="#1f5c99" stroke-width="1.3"/>
+  <text x="56" y="106" font-size="14" font-weight="800" fill="#1f5c99">2 · 3 · 5년</text>
+  <text x="56" y="130" font-size="12.5" fill="#5a4636">은행과 자산운용사의 단기 운용 자리입니다. 돈을 오래 묶지 않아도 되고 필요할 때 팔기 쉽습니다.</text>
+
+  <rect x="36" y="158" width="648" height="68" rx="8" fill="#eaf4ec" stroke="#1e7a46" stroke-width="1.3"/>
+  <text x="56" y="184" font-size="14" font-weight="800" fill="#1e7a46">10년</text>
+  <text x="56" y="208" font-size="12.5" fill="#5a4636">나라끼리 금리를 견줄 때 쓰는 자리입니다. 외국 기관이 한국 금리를 볼 때도 보통 이 만기를 봅니다.</text>
+
+  <rect x="36" y="236" width="648" height="68" rx="8" fill="#f7efe2" stroke="#c9873a" stroke-width="1.3"/>
+  <text x="56" y="262" font-size="14" font-weight="800" fill="#8a5a2b">20 · 30 · 50년</text>
+  <text x="56" y="286" font-size="12.5" fill="#5a4636">보험사와 연기금 자리입니다. 수십 년 뒤에 내줘야 할 돈이 있어서 그 시점에 맞는 채권을 삽니다.</text>
+</svg>

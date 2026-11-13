@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" font-family="Pretendard, sans-serif" role="img" aria-label="국고채 금리라는 말이 상황에 따라 가리키는 만기가 다르다는 비교로 대출과 예금 금리 흐름은 3년물, 해외 금리와 견주거나 장기 자금 흐름을 볼 때는 10년물, 경기 전망을 볼 때는 3년물과 10년물의 차이를 본다">
+  <rect width="720" height="300" fill="#fffaf5"/>
+  <text x="360" y="34" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">무엇을 궁금해하느냐에 따라 보는 만기가 갈립니다</text>
+  <text x="360" y="57" text-anchor="middle" font-size="12.5" fill="#6f5443">출처: 옳은경제 정리</text>
+
+  <rect x="36" y="80" width="200" height="180" rx="10" fill="#eaf1f8" stroke="#1f5c99" stroke-width="1.4"/>
+  <text x="136" y="114" text-anchor="middle" font-size="16" font-weight="800" fill="#1f5c99">3년물</text>
+  <text x="136" y="146" text-anchor="middle" font-size="12.5" fill="#5a4636">국내 시장금리의</text>
+  <text x="136" y="168" text-anchor="middle" font-size="12.5" fill="#5a4636">대표 자리</text>
+  <text x="136" y="202" text-anchor="middle" font-size="12" fill="#6f5443">은행 대출·예금 금리가</text>
+  <text x="136" y="222" text-anchor="middle" font-size="12" fill="#6f5443">움직이는 쪽을 볼 때</text>
+
+  <rect x="260" y="80" width="200" height="180" rx="10" fill="#eaf4ec" stroke="#1e7a46" stroke-width="1.4"/>
+  <text x="360" y="114" text-anchor="middle" font-size="16" font-weight="800" fill="#1e7a46">10년물</text>
+  <text x="360" y="146" text-anchor="middle" font-size="12.5" fill="#5a4636">바깥과 견주는</text>
+  <text x="360" y="168" text-anchor="middle" font-size="12.5" fill="#5a4636">자리</text>
+  <text x="360" y="202" text-anchor="middle" font-size="12" fill="#6f5443">미국 10년물과 비교하거나</text>
+  <text x="360" y="222" text-anchor="middle" font-size="12" fill="#6f5443">외국인 수급을 볼 때</text>
+
+  <rect x="484" y="80" width="200" height="180" rx="10" fill="#f7efe2" stroke="#c9873a" stroke-width="1.4"/>
+  <text x="584" y="114" text-anchor="middle" font-size="16" font-weight="800" fill="#8a5a2b">3년과 10년의 차이</text>
+  <text x="584" y="146" text-anchor="middle" font-size="12.5" fill="#5a4636">경기 전망을 읽는</text>
+  <text x="584" y="168" text-anchor="middle" font-size="12.5" fill="#5a4636">자리</text>
+  <text x="584" y="202" text-anchor="middle" font-size="12" fill="#6f5443">격차가 좁아지거나</text>
+  <text x="584" y="222" text-anchor="middle" font-size="12" fill="#6f5443">뒤집힐 때 신호로 봅니다</text>
+
+  <text x="360" y="285" text-anchor="middle" font-size="12.5" fill="#5a4636">한 숫자가 다 하지 않습니다. 기사에 적힌 만기를 먼저 확인합니다.</text>
+</svg>
