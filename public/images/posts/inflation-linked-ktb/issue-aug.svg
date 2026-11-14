@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" font-family="Pretendard, sans-serif" role="img" aria-label="2026년 8월 국고채 월별 발행계획 막대그래프. 2년물 3조3천억원, 3년물 3조6천억원, 5년물 3조원, 10년물 3조원, 20년물 4천억원, 30년물 2조8천억원, 50년물 8천억원, 물가연동국고채 1천억원으로 전체 17조원이며 물가연동국고채가 가장 작다">
+  <rect width="720" height="330" fill="#fffaf5"/>
+  <text x="360" y="34" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">2026년 8월 발행계획 17조원 중 1천억원</text>
+  <text x="360" y="57" text-anchor="middle" font-size="12.5" fill="#6f5443">단위: 조원 · 출처: 2026년 8월 국고채 월별 발행계획 보도(2026.7.30)</text>
+
+  <line x1="46" y1="272" x2="690" y2="272" stroke="#d8c3ab" stroke-width="1.5"/>
+
+  <rect x="58" y="140" width="56" height="132" fill="#9bbcd8"/>
+  <text x="86" y="131" text-anchor="middle" font-size="12.5" font-weight="800" fill="#1f5c99">3.3</text>
+  <text x="86" y="292" text-anchor="middle" font-size="12" fill="#5a4636">2년</text>
+
+  <rect x="138" y="128" width="56" height="144" fill="#9bbcd8"/>
+  <text x="166" y="119" text-anchor="middle" font-size="12.5" font-weight="800" fill="#1f5c99">3.6</text>
+  <text x="166" y="292" text-anchor="middle" font-size="12" fill="#5a4636">3년</text>
+
+  <rect x="218" y="152" width="56" height="120" fill="#9bbcd8"/>
+  <text x="246" y="143" text-anchor="middle" font-size="12.5" font-weight="800" fill="#1f5c99">3.0</text>
+  <text x="246" y="292" text-anchor="middle" font-size="12" fill="#5a4636">5년</text>
+
+  <rect x="298" y="152" width="56" height="120" fill="#9bbcd8"/>
+  <text x="326" y="143" text-anchor="middle" font-size="12.5" font-weight="800" fill="#1f5c99">3.0</text>
+  <text x="326" y="292" text-anchor="middle" font-size="12" fill="#5a4636">10년</text>
+
+  <rect x="378" y="256" width="56" height="16" fill="#9bbcd8"/>
+  <text x="406" y="247" text-anchor="middle" font-size="12.5" font-weight="800" fill="#1f5c99">0.4</text>
+  <text x="406" y="292" text-anchor="middle" font-size="12" fill="#5a4636">20년</text>
+
+  <rect x="458" y="160" width="56" height="112" fill="#9bbcd8"/>
+  <text x="486" y="151" text-anchor="middle" font-size="12.5" font-weight="800" fill="#1f5c99">2.8</text>
+  <text x="486" y="292" text-anchor="middle" font-size="12" fill="#5a4636">30년</text>
+
+  <rect x="538" y="240" width="56" height="32" fill="#9bbcd8"/>
+  <text x="566" y="231" text-anchor="middle" font-size="12.5" font-weight="800" fill="#1f5c99">0.8</text>
+  <text x="566" y="292" text-anchor="middle" font-size="12" fill="#5a4636">50년</text>
+
+  <rect x="618" y="268" width="56" height="4" fill="#c4703f"/>
+  <text x="646" y="259" text-anchor="middle" font-size="12.5" font-weight="800" fill="#9a4a1f">0.1</text>
+  <text x="646" y="292" text-anchor="middle" font-size="12" font-weight="800" fill="#9a4a1f">물가연동</text>
+
+  <text x="360" y="318" text-anchor="middle" font-size="12.5" fill="#6f5443">같은 달 명목 10년물 3조원의 30분의 1입니다</text>
+</svg>

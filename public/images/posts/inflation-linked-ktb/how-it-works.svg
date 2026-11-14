@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" font-family="Pretendard, sans-serif" role="img" aria-label="물가연동국고채의 작동 순서 도식. 발행 당시 액면가에서 출발해 소비자물가지수 변동에 따라 원금이 조정되고, 이자는 그 조정된 원금에 표면금리를 곱해 계산되므로 원금과 이자가 함께 움직인다는 설명">
+  <rect width="720" height="300" fill="#fffaf5"/>
+  <text x="360" y="34" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">원금이 움직이면 이자도 같이 움직입니다</text>
+  <text x="360" y="57" text-anchor="middle" font-size="12.5" fill="#6f5443">출처: 기획재정부 국채시장 FAQ · 옳은경제 정리</text>
+
+  <rect x="40" y="86" width="176" height="82" rx="8" fill="#f0e4d8"/>
+  <text x="128" y="114" text-anchor="middle" font-size="13" font-weight="800" fill="#5a4636">발행 당시 액면가</text>
+  <text x="128" y="138" text-anchor="middle" font-size="12" fill="#5a4636">채권에 적힌</text>
+  <text x="128" y="156" text-anchor="middle" font-size="12" fill="#5a4636">처음 금액입니다</text>
+
+  <path d="M224 127 L262 127" stroke="#a97c58" stroke-width="2.5"/>
+  <path d="M262 121 L274 127 L262 133 Z" fill="#a97c58"/>
+
+  <rect x="282" y="86" width="176" height="82" rx="8" fill="#eaf1f8"/>
+  <text x="370" y="114" text-anchor="middle" font-size="13" font-weight="800" fill="#1f5c99">조정된 원금</text>
+  <text x="370" y="138" text-anchor="middle" font-size="12" fill="#5a4636">소비자물가지수가</text>
+  <text x="370" y="156" text-anchor="middle" font-size="12" fill="#5a4636">움직인 만큼 바뀝니다</text>
+
+  <path d="M466 127 L504 127" stroke="#a97c58" stroke-width="2.5"/>
+  <path d="M504 121 L516 127 L504 133 Z" fill="#a97c58"/>
+
+  <rect x="524" y="86" width="156" height="82" rx="8" fill="#eaf4ec"/>
+  <text x="602" y="114" text-anchor="middle" font-size="13" font-weight="800" fill="#1e7a46">이자</text>
+  <text x="602" y="138" text-anchor="middle" font-size="12" fill="#5a4636">조정된 원금에</text>
+  <text x="602" y="156" text-anchor="middle" font-size="12" fill="#5a4636">표면금리를 곱합니다</text>
+
+  <rect x="40" y="196" width="640" height="72" rx="8" fill="#f7efe2"/>
+  <text x="360" y="224" text-anchor="middle" font-size="13.5" font-weight="800" fill="#5a4636">보통 국고채는 원금이 처음 금액으로 고정돼 있어서</text>
+  <text x="360" y="248" text-anchor="middle" font-size="13.5" fill="#6f5443">물가가 올라도 받을 이자 금액이 달라지지 않습니다</text>
+</svg>
