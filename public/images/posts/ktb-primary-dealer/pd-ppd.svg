@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" font-family="Pretendard, sans-serif" role="img" aria-label="2026년 1월 2일 기준 국고채전문딜러는 18개사로 증권사 11곳과 은행 7곳이고, 예비 국고채전문딜러는 5개사로 증권사 3곳과 은행 2곳이다. 예비 딜러 지정 요건은 자기자본 3천억원 이상, 순자본비율 100퍼센트 이상, 딜링용 국고채 평균잔액 2천억원 이상이다">
+  <rect width="720" height="300" fill="#fffaf5"/>
+  <text x="360" y="34" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">정식 18곳과 예비 5곳</text>
+  <text x="360" y="57" text-anchor="middle" font-size="12.5" fill="#6f5443">2026년 1월 2일 효력 기준 · 출처: 2025년 12월 30일 기획재정부 지정 보도</text>
+
+  <rect x="40" y="82" width="310" height="106" rx="8" fill="#eaf1f8"/>
+  <text x="195" y="110" text-anchor="middle" font-size="14" font-weight="800" fill="#1f5c99">국고채전문딜러 18개사</text>
+  <text x="195" y="140" text-anchor="middle" font-size="13" fill="#5a4636">증권사 11곳 · 은행 7곳</text>
+  <text x="195" y="168" text-anchor="middle" font-size="11.5" fill="#6f5443">입찰 인수와 시장조성을 맡습니다</text>
+
+  <rect x="370" y="82" width="310" height="106" rx="8" fill="#eaf4ec"/>
+  <text x="525" y="110" text-anchor="middle" font-size="14" font-weight="800" fill="#1e7a46">예비 국고채전문딜러 5개사</text>
+  <text x="525" y="140" text-anchor="middle" font-size="13" fill="#5a4636">증권사 3곳 · 은행 2곳</text>
+  <text x="525" y="168" text-anchor="middle" font-size="11.5" fill="#6f5443">실적 평가를 거쳐 정식으로 올라갑니다</text>
+
+  <rect x="40" y="204" width="640" height="76" rx="8" fill="#f7efe2"/>
+  <text x="360" y="230" text-anchor="middle" font-size="13" font-weight="800" fill="#5a4636">예비 딜러 지정 요건</text>
+  <text x="360" y="256" text-anchor="middle" font-size="12.5" fill="#6f5443">자기자본 3천억원 이상 · 순자본비율 100% 이상 · 딜링용 국고채 평균잔액 2천억원 이상</text>
+</svg>
