@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" font-family="Pretendard, sans-serif" role="img" aria-label="물가연동국고채의 만기 원금 바닥 설명 도식. 2010년 6월부터 발행되는 물가연동국고채는 만기 시점에 조정된 원금이 발행 당시 액면가보다 낮아지는 경우 발행 당시 액면가를 지급받는다. 물가가 오른 경우는 조정된 원금을 그대로 받는다">
+  <rect width="720" height="300" fill="#fffaf5"/>
+  <text x="360" y="34" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">만기에 받는 원금에는 바닥이 있습니다</text>
+  <text x="360" y="57" text-anchor="middle" font-size="12.5" fill="#6f5443">2010년 6월부터 발행되는 물가연동국고채 기준 · 출처: 기획재정부 국채시장 FAQ</text>
+
+  <rect x="40" y="86" width="310" height="176" rx="8" fill="#eaf4ec"/>
+  <text x="195" y="116" text-anchor="middle" font-size="14" font-weight="800" fill="#1e7a46">물가가 오른 경우</text>
+  <text x="195" y="146" text-anchor="middle" font-size="12.5" fill="#5a4636">조정된 원금이</text>
+  <text x="195" y="166" text-anchor="middle" font-size="12.5" fill="#5a4636">발행 당시 액면가보다 큽니다</text>
+  <rect x="88" y="186" width="214" height="34" rx="6" fill="#ffffff"/>
+  <text x="195" y="209" text-anchor="middle" font-size="13" font-weight="800" fill="#1e7a46">조정된 원금을 받습니다</text>
+  <text x="195" y="243" text-anchor="middle" font-size="12" fill="#6f5443">물가가 오른 만큼 커진 금액입니다</text>
+
+  <rect x="370" y="86" width="310" height="176" rx="8" fill="#eaf1f8"/>
+  <text x="525" y="116" text-anchor="middle" font-size="14" font-weight="800" fill="#1f5c99">물가가 내린 경우</text>
+  <text x="525" y="146" text-anchor="middle" font-size="12.5" fill="#5a4636">조정된 원금이</text>
+  <text x="525" y="166" text-anchor="middle" font-size="12.5" fill="#5a4636">발행 당시 액면가보다 작습니다</text>
+  <rect x="418" y="186" width="214" height="34" rx="6" fill="#ffffff"/>
+  <text x="525" y="209" text-anchor="middle" font-size="13" font-weight="800" fill="#1f5c99">발행 당시 액면가를 받습니다</text>
+  <text x="525" y="243" text-anchor="middle" font-size="12" fill="#6f5443">조정된 금액이 아니라 처음 금액입니다</text>
+
+  <text x="360" y="286" text-anchor="middle" font-size="12.5" fill="#6f5443">바닥은 만기에 받는 원금에 걸립니다. 중간에 사고파는 가격은 따로 움직입니다.</text>
+</svg>
