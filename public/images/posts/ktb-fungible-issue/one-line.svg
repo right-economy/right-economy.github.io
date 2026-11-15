@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" font-family="Pretendard, sans-serif" role="img" aria-label="국고채 통합발행 개념 도식. 통합기간 안에 열리는 여러 번의 입찰이 각각 다른 종목을 만들지 않고, 만기일과 표면금리가 같은 하나의 종목으로 쌓여 종목당 발행규모가 커진다. 통합기간이 끝나면 다음 종목이 새로 시작된다">
+  <rect width="720" height="300" fill="#fffaf5"/>
+  <text x="360" y="34" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">여러 번 입찰해도 종목은 하나입니다</text>
+  <text x="360" y="57" text-anchor="middle" font-size="12.5" fill="#6f5443">출처: 기획재정부 국채시장 안내(국고채통합발행) · 옳은경제 정리</text>
+
+  <text x="60" y="92" font-size="13" font-weight="800" fill="#5a4636">통합기간 안의 입찰</text>
+
+  <rect x="60" y="104" width="104" height="44" rx="6" fill="#f0e4d8"/>
+  <text x="112" y="131" text-anchor="middle" font-size="12.5" fill="#5a4636">첫째 달 입찰</text>
+  <rect x="176" y="104" width="104" height="44" rx="6" fill="#f0e4d8"/>
+  <text x="228" y="131" text-anchor="middle" font-size="12.5" fill="#5a4636">둘째 달 입찰</text>
+  <rect x="292" y="104" width="104" height="44" rx="6" fill="#f0e4d8"/>
+  <text x="344" y="131" text-anchor="middle" font-size="12.5" fill="#5a4636">셋째 달 입찰</text>
+  <rect x="408" y="104" width="104" height="44" rx="6" fill="#f0e4d8"/>
+  <text x="460" y="131" text-anchor="middle" font-size="12.5" fill="#5a4636">그다음 입찰</text>
+
+  <path d="M112 152 L112 168" stroke="#a97c58" stroke-width="2"/>
+  <path d="M228 152 L228 168" stroke="#a97c58" stroke-width="2"/>
+  <path d="M344 152 L344 168" stroke="#a97c58" stroke-width="2"/>
+  <path d="M460 152 L460 168" stroke="#a97c58" stroke-width="2"/>
+
+  <rect x="60" y="172" width="452" height="56" rx="8" fill="#cfe3d5"/>
+  <text x="286" y="196" text-anchor="middle" font-size="14" font-weight="800" fill="#2c5c3f">같은 종목 한 덩어리</text>
+  <text x="286" y="217" text-anchor="middle" font-size="12" fill="#2c5c3f">만기일과 표면금리가 같습니다</text>
+
+  <path d="M520 200 L556 200" stroke="#a97c58" stroke-width="2.5"/>
+  <path d="M556 194 L568 200 L556 206 Z" fill="#a97c58"/>
+
+  <rect x="576" y="172" width="104" height="56" rx="8" fill="#eaf1f8"/>
+  <text x="628" y="196" text-anchor="middle" font-size="12.5" font-weight="800" fill="#1f5c99">통합기간 종료</text>
+  <text x="628" y="216" text-anchor="middle" font-size="12" fill="#1f5c99">다음 종목 시작</text>
+
+  <text x="60" y="258" font-size="12.5" fill="#5a4636">종목당 발행규모가 커지면 사고팔 상대를 찾기 쉬워집니다.</text>
+  <text x="60" y="279" font-size="12.5" fill="#5a4636">입찰 횟수와 칸 수는 설명을 위한 것이며 실제 일정이 아닙니다.</text>
+</svg>
