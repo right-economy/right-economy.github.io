@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" font-family="Pretendard, sans-serif" role="img" aria-label="차등가격 낙찰방식의 구간 적용 예시 도식. 최고낙찰금리 이하의 응찰금리를 4bp 간격으로 묶고 각 묶음에는 그 묶음 안에서 가장 높은 금리를 적용한다. 최고낙찰금리가 3.00%라고 가정하면 첫 묶음은 2.97에서 3.00%이고 적용 금리는 3.00%, 두 번째 묶음은 2.93에서 2.96%이고 적용 금리는 2.96%가 된다. 숫자는 설명을 위한 가정이며 실제 입찰 결과가 아니다">
+  <rect width="720" height="330" fill="#fffaf5"/>
+  <text x="360" y="34" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">같은 입찰인데 받는 금리가 갈립니다</text>
+  <text x="360" y="57" text-anchor="middle" font-size="12.5" fill="#6f5443">기준: 기획재정부 국채시장 안내 4bp 간격(2026년 11월 15일 조회) · 숫자는 설명용 가정</text>
+
+  <rect x="40" y="80" width="640" height="34" rx="6" fill="#f0e4d8"/>
+  <text x="60" y="103" font-size="13" font-weight="800" fill="#5a4636">가정: 이 입찰의 최고낙찰금리가 3.00%로 정해졌습니다</text>
+
+  <rect x="40" y="128" width="200" height="30" rx="5" fill="#eaf1f8"/>
+  <text x="140" y="149" text-anchor="middle" font-size="12.5" font-weight="800" fill="#1f5c99">응찰금리 묶음</text>
+  <rect x="248" y="128" width="200" height="30" rx="5" fill="#eaf1f8"/>
+  <text x="348" y="149" text-anchor="middle" font-size="12.5" font-weight="800" fill="#1f5c99">적용되는 금리</text>
+  <rect x="456" y="128" width="224" height="30" rx="5" fill="#eaf1f8"/>
+  <text x="568" y="149" text-anchor="middle" font-size="12.5" font-weight="800" fill="#1f5c99">받는 쪽 사정</text>
+
+  <rect x="40" y="164" width="200" height="30" rx="5" fill="#f7efe2"/>
+  <text x="140" y="185" text-anchor="middle" font-size="12.5" fill="#5a4636">2.97 ~ 3.00%</text>
+  <rect x="248" y="164" width="200" height="30" rx="5" fill="#cfe3d5"/>
+  <text x="348" y="185" text-anchor="middle" font-size="12.5" font-weight="800" fill="#2c5c3f">3.00%</text>
+  <rect x="456" y="164" width="224" height="30" rx="5" fill="#f7efe2"/>
+  <text x="568" y="185" text-anchor="middle" font-size="12" fill="#5a4636">이자를 가장 많이 받습니다</text>
+
+  <rect x="40" y="200" width="200" height="30" rx="5" fill="#f7efe2"/>
+  <text x="140" y="221" text-anchor="middle" font-size="12.5" fill="#5a4636">2.93 ~ 2.96%</text>
+  <rect x="248" y="200" width="200" height="30" rx="5" fill="#cfe3d5"/>
+  <text x="348" y="221" text-anchor="middle" font-size="12.5" font-weight="800" fill="#2c5c3f">2.96%</text>
+  <rect x="456" y="200" width="224" height="30" rx="5" fill="#f7efe2"/>
+  <text x="568" y="221" text-anchor="middle" font-size="12" fill="#5a4636">한 칸 아래 금리를 받습니다</text>
+
+  <rect x="40" y="236" width="200" height="30" rx="5" fill="#f7efe2"/>
+  <text x="140" y="257" text-anchor="middle" font-size="12.5" fill="#5a4636">2.89 ~ 2.92%</text>
+  <rect x="248" y="236" width="200" height="30" rx="5" fill="#cfe3d5"/>
+  <text x="348" y="257" text-anchor="middle" font-size="12.5" font-weight="800" fill="#2c5c3f">2.92%</text>
+  <rect x="456" y="236" width="224" height="30" rx="5" fill="#f7efe2"/>
+  <text x="568" y="257" text-anchor="middle" font-size="12" fill="#5a4636">두 칸 아래가 됩니다</text>
+
+  <text x="60" y="292" font-size="12.5" fill="#5a4636">묶음 안에서는 누가 얼마를 써냈든 같은 금리를 받습니다.</text>
+  <text x="60" y="313" font-size="12.5" fill="#5a4636">묶음 폭은 연물과 시기에 따라 조정돼 왔습니다.</text>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" font-family="Pretendard, sans-serif" role="img" aria-label="국고채 입찰에 들어가는 세 경로 비교표. 경쟁입찰은 국고채전문딜러가 금액과 금리를 함께 써내고 딜러별 응찰한도는 발행예정금액의 30퍼센트 이내다. 비경쟁입찰 1은 일반인이 금리를 써내지 않고 그날 최고낙찰금리로 배정받으며 발행예정액의 20퍼센트 범위 안에서 배정되고 최저 응찰금액은 10만원이며 1인당 10억원을 넘을 수 없다. 비경쟁입찰 2는 국고채전문딜러가 낙찰물량에 비례해 최고낙찰금리로 추가 인수하는 권리다">
+  <rect width="720" height="330" fill="#fffaf5"/>
+  <text x="360" y="34" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">들어가는 길이 셋입니다</text>
+  <text x="360" y="57" text-anchor="middle" font-size="12.5" fill="#6f5443">출처: 기획재정부 국채시장 안내(입찰 방법·FAQ) · 2026년 11월 15일 조회</text>
+
+  <rect x="40" y="78" width="200" height="30" rx="5" fill="#eaf1f8"/>
+  <text x="140" y="99" text-anchor="middle" font-size="12.5" font-weight="800" fill="#1f5c99">경쟁입찰</text>
+  <rect x="248" y="78" width="200" height="30" rx="5" fill="#eaf4ec"/>
+  <text x="348" y="99" text-anchor="middle" font-size="12.5" font-weight="800" fill="#1e7a46">비경쟁입찰 I</text>
+  <rect x="456" y="78" width="224" height="30" rx="5" fill="#f3e7f0"/>
+  <text x="568" y="99" text-anchor="middle" font-size="12.5" font-weight="800" fill="#7a2f66">비경쟁입찰 II</text>
+
+  <rect x="40" y="114" width="200" height="56" rx="5" fill="#f7efe2"/>
+  <text x="140" y="136" text-anchor="middle" font-size="12" fill="#5a4636">국고채전문딜러</text>
+  <text x="140" y="157" text-anchor="middle" font-size="12" fill="#5a4636">금액과 금리를 써냅니다</text>
+  <rect x="248" y="114" width="200" height="56" rx="5" fill="#f7efe2"/>
+  <text x="348" y="136" text-anchor="middle" font-size="12" fill="#5a4636">일반인</text>
+  <text x="348" y="157" text-anchor="middle" font-size="12" fill="#5a4636">금리는 못 써냅니다</text>
+  <rect x="456" y="114" width="224" height="56" rx="5" fill="#f7efe2"/>
+  <text x="568" y="136" text-anchor="middle" font-size="12" fill="#5a4636">국고채전문딜러</text>
+  <text x="568" y="157" text-anchor="middle" font-size="12" fill="#5a4636">낙찰물량에 비례해 추가 인수</text>
+
+  <rect x="40" y="176" width="200" height="56" rx="5" fill="#f0e4d8"/>
+  <text x="140" y="198" text-anchor="middle" font-size="12" fill="#5a4636">받는 금리</text>
+  <text x="140" y="219" text-anchor="middle" font-size="12" font-weight="800" fill="#5a4636">구간별 최고금리</text>
+  <rect x="248" y="176" width="200" height="56" rx="5" fill="#f0e4d8"/>
+  <text x="348" y="198" text-anchor="middle" font-size="12" fill="#5a4636">받는 금리</text>
+  <text x="348" y="219" text-anchor="middle" font-size="12" font-weight="800" fill="#5a4636">그날 최고낙찰금리</text>
+  <rect x="456" y="176" width="224" height="56" rx="5" fill="#f0e4d8"/>
+  <text x="568" y="198" text-anchor="middle" font-size="12" fill="#5a4636">받는 금리</text>
+  <text x="568" y="219" text-anchor="middle" font-size="12" font-weight="800" fill="#5a4636">그날 최고낙찰금리</text>
+
+  <rect x="40" y="238" width="200" height="56" rx="5" fill="#f7efe2"/>
+  <text x="140" y="260" text-anchor="middle" font-size="12" fill="#5a4636">한도</text>
+  <text x="140" y="281" text-anchor="middle" font-size="12" fill="#5a4636">발행예정금액의 30% 이내</text>
+  <rect x="248" y="238" width="200" height="56" rx="5" fill="#f7efe2"/>
+  <text x="348" y="260" text-anchor="middle" font-size="12" fill="#5a4636">한도</text>
+  <text x="348" y="281" text-anchor="middle" font-size="12" fill="#5a4636">발행예정액의 20% 범위</text>
+  <rect x="456" y="238" width="224" height="56" rx="5" fill="#f7efe2"/>
+  <text x="568" y="260" text-anchor="middle" font-size="12" fill="#5a4636">응찰 단위</text>
+  <text x="568" y="281" text-anchor="middle" font-size="12" fill="#5a4636">딜러 응찰은 액면 10억원의 정수배</text>
+
+  <text x="60" y="316" font-size="12" fill="#6f5443">일반인 응찰은 최저 10만원이고 10만원의 정수배로 늘리되 1인당 10억원을 넘을 수 없습니다.</text>
+</svg>
