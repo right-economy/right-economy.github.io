@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 350" font-family="Pretendard, sans-serif" role="img" aria-label="국고채 지표종목 구성표. 기획재정부 국채시장 FAQ 기준으로 지표종목은 2년물 3년물 5년물 10년물 20년물 30년물 50년물 일반 국고채 일곱 개와 물가연동 10년물 하나를 합해 모두 여덟 개 종목이다. 물가연동국고채는 같은 만기여도 따로 센다">
+  <rect width="720" height="350" fill="#fffaf5"/>
+  <text x="360" y="34" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">지표종목은 한 번에 여덟 개입니다</text>
+  <text x="360" y="57" text-anchor="middle" font-size="12.5" fill="#6f5443">출처: 기획재정부 국채시장 안내 FAQ(지표종목) · 2026년 11월 16일 조회</text>
+
+  <rect x="50" y="80" width="400" height="30" rx="5" fill="#eaf1f8"/>
+  <text x="250" y="101" text-anchor="middle" font-size="12.5" font-weight="800" fill="#1f5c99">일반 국고채 · 만기별로 하나씩</text>
+  <rect x="462" y="80" width="208" height="30" rx="5" fill="#f3e7f0"/>
+  <text x="566" y="101" text-anchor="middle" font-size="12.5" font-weight="800" fill="#7a2f66">따로 세는 것</text>
+
+  <rect x="50" y="118" width="124" height="40" rx="6" fill="#cfe3d5"/>
+  <text x="112" y="143" text-anchor="middle" font-size="13" font-weight="800" fill="#2c5c3f">2년물</text>
+  <rect x="188" y="118" width="124" height="40" rx="6" fill="#cfe3d5"/>
+  <text x="250" y="143" text-anchor="middle" font-size="13" font-weight="800" fill="#2c5c3f">3년물</text>
+  <rect x="326" y="118" width="124" height="40" rx="6" fill="#cfe3d5"/>
+  <text x="388" y="143" text-anchor="middle" font-size="13" font-weight="800" fill="#2c5c3f">5년물</text>
+
+  <rect x="50" y="166" width="124" height="40" rx="6" fill="#cfe3d5"/>
+  <text x="112" y="191" text-anchor="middle" font-size="13" font-weight="800" fill="#2c5c3f">10년물</text>
+  <rect x="188" y="166" width="124" height="40" rx="6" fill="#cfe3d5"/>
+  <text x="250" y="191" text-anchor="middle" font-size="13" font-weight="800" fill="#2c5c3f">20년물</text>
+  <rect x="326" y="166" width="124" height="40" rx="6" fill="#cfe3d5"/>
+  <text x="388" y="191" text-anchor="middle" font-size="13" font-weight="800" fill="#2c5c3f">30년물</text>
+
+  <rect x="50" y="214" width="124" height="40" rx="6" fill="#cfe3d5"/>
+  <text x="112" y="239" text-anchor="middle" font-size="13" font-weight="800" fill="#2c5c3f">50년물</text>
+  <rect x="188" y="214" width="262" height="40" rx="6" fill="#f7efe2"/>
+  <text x="319" y="239" text-anchor="middle" font-size="12" fill="#5a4636">일곱 가지 만기에서 각각 하나</text>
+
+  <rect x="462" y="118" width="208" height="88" rx="6" fill="#e8dff0"/>
+  <text x="566" y="148" text-anchor="middle" font-size="13" font-weight="800" fill="#5a3f7a">물가연동 10년물</text>
+  <text x="566" y="172" text-anchor="middle" font-size="11.5" fill="#5a3f7a">같은 만기여도</text>
+  <text x="566" y="190" text-anchor="middle" font-size="11.5" fill="#5a3f7a">따로 셉니다</text>
+
+  <rect x="462" y="214" width="208" height="40" rx="6" fill="#f0e4d8"/>
+  <text x="566" y="239" text-anchor="middle" font-size="13" font-weight="800" fill="#7c2d12">합계 8개</text>
+
+  <text x="50" y="286" font-size="12.5" fill="#5a4636">기획재정부 설명으로 지표종목은 경쟁입찰로 발행된 국고채 중 만기별로 가장 최근에 발행된 것입니다.</text>
+  <text x="50" y="307" font-size="12.5" fill="#5a4636">같은 만기의 물가연동국고채가 있으면 각각 따로 봅니다.</text>
+  <text x="50" y="328" font-size="12.5" fill="#6f5443">만기 가짓수는 일곱이고 여기에 물가연동 10년물이 더해져 여덟이 됩니다.</text>
+</svg>
