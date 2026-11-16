@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" font-family="Pretendard, sans-serif" role="img" aria-label="지표종목이 경과종목으로 바뀌는 흐름 도식. 통합기간 동안 한 종목이 지표종목 자리에 있고 그 기간에 열린 입찰은 모두 그 종목으로 쌓이며 뉴스 금리도 이 종목에서 매겨진다. 통합기간이 끝나고 새 종목이 나오면 새 종목이 지표종목이 되고 앞 종목은 경과종목으로 밀려나 거래가 뜸해진다. 밀려난 종목은 교환이나 바이백 대상이 된다">
+  <rect width="720" height="320" fill="#fffaf5"/>
+  <text x="360" y="34" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">새 종목이 나오면 자리가 바뀝니다</text>
+  <text x="360" y="57" text-anchor="middle" font-size="12.5" fill="#6f5443">출처: 기획재정부 국채시장 안내(지표종목·통합발행·교환) · 옳은경제 정리</text>
+
+  <rect x="40" y="82" width="300" height="110" rx="10" fill="#cfe3d5"/>
+  <text x="190" y="110" text-anchor="middle" font-size="14" font-weight="800" fill="#2c5c3f">통합기간 동안</text>
+  <text x="190" y="136" text-anchor="middle" font-size="13" fill="#2c5c3f">이 종목이 지표종목</text>
+  <text x="190" y="160" text-anchor="middle" font-size="12" fill="#2c5c3f">그 기간 입찰분이 모두 여기로</text>
+  <text x="190" y="180" text-anchor="middle" font-size="12" fill="#2c5c3f">뉴스 금리도 이 종목 값</text>
+
+  <path d="M352 137 L392 137" stroke="#a97c58" stroke-width="2.5"/>
+  <path d="M392 130 L406 137 L392 144 Z" fill="#a97c58"/>
+  <text x="379" y="122" text-anchor="middle" font-size="11.5" fill="#6f5443">새 종목 발행</text>
+
+  <rect x="414" y="82" width="266" height="110" rx="10" fill="#eaf1f8"/>
+  <text x="547" y="110" text-anchor="middle" font-size="14" font-weight="800" fill="#1f5c99">새 종목이 지표종목</text>
+  <text x="547" y="136" text-anchor="middle" font-size="13" fill="#1f5c99">앞 종목은 경과종목으로</text>
+  <text x="547" y="160" text-anchor="middle" font-size="12" fill="#1f5c99">거래가 뜸해집니다</text>
+  <text x="547" y="180" text-anchor="middle" font-size="12" fill="#1f5c99">금리 발표의 기준에서 빠집니다</text>
+
+  <path d="M547 198 L547 222" stroke="#a97c58" stroke-width="2.5"/>
+  <path d="M540 222 L547 236 L554 222 Z" fill="#a97c58"/>
+
+  <rect x="414" y="240" width="266" height="52" rx="8" fill="#e8d8d2"/>
+  <text x="547" y="263" text-anchor="middle" font-size="12.5" font-weight="800" fill="#7c2d12">교환·바이백 대상이 되는 쪽</text>
+  <text x="547" y="283" text-anchor="middle" font-size="11.5" fill="#7c2d12">밀려난 종목의 유동성을 받쳐 주는 장치</text>
+
+  <text x="40" y="258" font-size="12.5" fill="#5a4636">만기가 줄어든 것이 아니라</text>
+  <text x="40" y="279" font-size="12.5" fill="#5a4636">더 새로 발행된 종목이 생겨서</text>
+  <text x="40" y="300" font-size="12.5" fill="#5a4636">자리에서 밀려나는 것입니다.</text>
+</svg>
