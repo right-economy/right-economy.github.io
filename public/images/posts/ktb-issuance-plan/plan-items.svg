@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" font-family="Pretendard, sans-serif" role="img" aria-label="2026년 11월 국고채 발행계획에 담긴 항목 표. 국고채 경쟁입찰 12.0조원, 국고채 교환 0.5조원, 바이백은 2년 3년 5년물 경과종목 대상 2.0조원, 원화표시 외국환평형기금채권 1.2조원 1년물 경쟁입찰, 재정증권은 11월 미발행이다. 전체 발행물량은 당초계획보다 5조원 줄었다">
+  <rect width="720" height="340" fill="#fffaf5"/>
+  <text x="360" y="34" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">한 장에 여러 칸이 같이 적힙니다</text>
+  <text x="360" y="57" text-anchor="middle" font-size="12.5" fill="#6f5443">출처: 재정경제부 2026년 10월 29일 발표(11월 국고채 발행계획)</text>
+
+  <rect x="40" y="80" width="300" height="30" rx="5" fill="#eaf1f8"/>
+  <text x="190" y="101" text-anchor="middle" font-size="12.5" font-weight="800" fill="#1f5c99">항목</text>
+  <rect x="348" y="80" width="332" height="30" rx="5" fill="#eaf1f8"/>
+  <text x="514" y="101" text-anchor="middle" font-size="12.5" font-weight="800" fill="#1f5c99">2026년 11월 계획</text>
+
+  <rect x="40" y="116" width="300" height="34" rx="5" fill="#f7efe2"/>
+  <text x="58" y="138" font-size="12.5" fill="#5a4636">국고채 경쟁입찰</text>
+  <rect x="348" y="116" width="332" height="34" rx="5" fill="#cfe3d5"/>
+  <text x="366" y="138" font-size="12.5" font-weight="800" fill="#2c5c3f">12.0조원</text>
+
+  <rect x="40" y="156" width="300" height="34" rx="5" fill="#f7efe2"/>
+  <text x="58" y="178" font-size="12.5" fill="#5a4636">국고채 교환</text>
+  <rect x="348" y="156" width="332" height="34" rx="5" fill="#f7efe2"/>
+  <text x="366" y="178" font-size="12.5" fill="#5a4636">0.5조원</text>
+
+  <rect x="40" y="196" width="300" height="34" rx="5" fill="#f7efe2"/>
+  <text x="58" y="218" font-size="12.5" fill="#5a4636">바이백</text>
+  <rect x="348" y="196" width="332" height="34" rx="5" fill="#f7efe2"/>
+  <text x="366" y="218" font-size="12.5" fill="#5a4636">2.0조원 · 2·3·5년물 경과종목 대상</text>
+
+  <rect x="40" y="236" width="300" height="34" rx="5" fill="#f7efe2"/>
+  <text x="58" y="258" font-size="12.5" fill="#5a4636">원화표시 외평채</text>
+  <rect x="348" y="236" width="332" height="34" rx="5" fill="#f7efe2"/>
+  <text x="366" y="258" font-size="12.5" fill="#5a4636">1.2조원 · 1년물 경쟁입찰</text>
+
+  <rect x="40" y="276" width="300" height="34" rx="5" fill="#f7efe2"/>
+  <text x="58" y="298" font-size="12.5" fill="#5a4636">재정증권</text>
+  <rect x="348" y="276" width="332" height="34" rx="5" fill="#e8d8d2"/>
+  <text x="366" y="298" font-size="12.5" font-weight="800" fill="#7c2d12">11월 미발행</text>
+
+  <text x="40" y="330" font-size="12.5" fill="#6f5443">전체 발행물량은 당초계획보다 5조원 줄어든 규모였습니다.</text>
+</svg>
