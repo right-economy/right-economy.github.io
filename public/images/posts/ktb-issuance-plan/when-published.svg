@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" font-family="Pretendard, sans-serif" role="img" aria-label="국고채 월간 발행계획 공표 시점 도식. 재정경제부는 월간 국고채 발행계획을 전월 마지막 주 목요일에 공표하며 계획에는 만기물별 발행액과 입찰일이 담긴다. 2026년 11월 계획은 2026년 10월 29일 목요일에 나왔고 그 뒤 11월 한 달 동안 연물별 입찰이 그 일정대로 열렸다">
+  <rect width="720" height="300" fill="#fffaf5"/>
+  <text x="360" y="34" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">계획이 먼저 나오고 입찰이 따라옵니다</text>
+  <text x="360" y="57" text-anchor="middle" font-size="12.5" fill="#6f5443">출처: 재정경제부 국채시장 안내(발행계획) · 2026년 11월 16일 조회</text>
+
+  <rect x="40" y="84" width="280" height="104" rx="10" fill="#eaf1f8"/>
+  <text x="180" y="112" text-anchor="middle" font-size="14" font-weight="800" fill="#1f5c99">전월 마지막 주 목요일</text>
+  <text x="180" y="140" text-anchor="middle" font-size="13" fill="#1f5c99">월간 발행계획 공표</text>
+  <text x="180" y="164" text-anchor="middle" font-size="12" fill="#1f5c99">만기물별 발행액과 입찰일</text>
+
+  <path d="M332 136 L372 136" stroke="#a97c58" stroke-width="2.5"/>
+  <path d="M372 129 L386 136 L372 143 Z" fill="#a97c58"/>
+
+  <rect x="396" y="84" width="284" height="104" rx="10" fill="#cfe3d5"/>
+  <text x="538" y="112" text-anchor="middle" font-size="14" font-weight="800" fill="#2c5c3f">그다음 달</text>
+  <text x="538" y="140" text-anchor="middle" font-size="13" fill="#2c5c3f">연물별 정기 입찰이 열립니다</text>
+  <text x="538" y="164" text-anchor="middle" font-size="12" fill="#2c5c3f">계획에 적힌 일정대로</text>
+
+  <rect x="40" y="204" width="640" height="40" rx="6" fill="#f7efe2"/>
+  <text x="360" y="229" text-anchor="middle" font-size="12.5" fill="#5a4636">실제 사례 · 2026년 11월 계획은 2026년 10월 29일 목요일에 나왔습니다</text>
+
+  <text x="40" y="272" font-size="12.5" fill="#6f5443">발행 규모 자체는 국회 동의를 받은 한도 안에서 정부가 정합니다.</text>
+  <text x="40" y="292" font-size="12.5" fill="#6f5443">월간 계획과 별도로 연간 계획도 함께 공표됩니다.</text>
+</svg>
