@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" font-family="Pretendard, sans-serif" role="img" aria-label="국고채 경쟁입찰에서 낙찰이 채워지는 순서 도식. 국고채전문딜러들이 금액과 금리를 함께 써내면 발행자는 낮은 금리부터 차례로 배정하고, 발행예정액이 다 차는 지점의 금리가 최고낙찰금리가 되며 그보다 높은 금리를 써낸 응찰은 떨어진다">
   <rect width="720" height="320" fill="#fffaf5"/>
   <text x="360" y="34" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">낙찰은 낮은 금리부터 채워집니다</text>
-  <text x="360" y="57" text-anchor="middle" font-size="12.5" fill="#6f5443">출처: 기획재정부 국채시장 안내(입찰 방법) · 옳은경제 정리</text>
+  <text x="360" y="57" text-anchor="middle" font-size="12.5" fill="#6f5443">출처: 재정경제부 국채시장 안내(입찰 방법) · 옳은경제 정리</text>
 
   <rect x="40" y="82" width="186" height="64" rx="8" fill="#f0e4d8"/>
   <text x="133" y="107" text-anchor="middle" font-size="13" font-weight="800" fill="#5a4636">응찰</text>

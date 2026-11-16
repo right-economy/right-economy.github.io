@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" font-family="Pretendard, sans-serif" role="img" aria-label="국고채 통합발행 개념 도식. 통합기간 안에 열리는 여러 번의 입찰이 각각 다른 종목을 만들지 않고, 만기일과 표면금리가 같은 하나의 종목으로 쌓여 종목당 발행규모가 커진다. 통합기간이 끝나면 다음 종목이 새로 시작된다">
   <rect width="720" height="300" fill="#fffaf5"/>
   <text x="360" y="34" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">여러 번 입찰해도 종목은 하나입니다</text>
-  <text x="360" y="57" text-anchor="middle" font-size="12.5" fill="#6f5443">출처: 기획재정부 국채시장 안내(국고채통합발행) · 옳은경제 정리</text>
+  <text x="360" y="57" text-anchor="middle" font-size="12.5" fill="#6f5443">출처: 재정경제부 국채시장 안내(국고채통합발행) · 옳은경제 정리</text>
 
   <text x="60" y="92" font-size="13" font-weight="800" fill="#5a4636">통합기간 안의 입찰</text>
 

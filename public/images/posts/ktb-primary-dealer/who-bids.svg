@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" font-family="Pretendard, sans-serif" role="img" aria-label="국고채 발행 입찰 참여 구조 도식. 정부가 국고채 입찰을 열면 국고채전문딜러가 입찰에 참여해 인수하고, 예비 국고채전문딜러는 제한된 한도로 참여하며, 그 밖의 투자자는 입찰에 직접 들어가지 않고 유통시장에서 산다">
   <rect width="720" height="300" fill="#fffaf5"/>
   <text x="360" y="34" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">입찰에 들어가는 쪽과 그 뒤에서 사는 쪽</text>
-  <text x="360" y="57" text-anchor="middle" font-size="12.5" fill="#6f5443">출처: 기획재정부 국채시장 안내 · 옳은경제 정리</text>
+  <text x="360" y="57" text-anchor="middle" font-size="12.5" fill="#6f5443">출처: 재정경제부 국채시장 안내 · 옳은경제 정리</text>
 
   <rect x="40" y="88" width="150" height="76" rx="8" fill="#f0e4d8"/>
   <text x="115" y="120" text-anchor="middle" font-size="14" font-weight="800" fill="#5a4636">정부</text>

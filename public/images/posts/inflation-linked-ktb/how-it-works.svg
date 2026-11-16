@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" font-family="Pretendard, sans-serif" role="img" aria-label="물가연동국고채의 작동 순서 도식. 발행 당시 액면가에서 출발해 소비자물가지수 변동에 따라 원금이 조정되고, 이자는 그 조정된 원금에 표면금리를 곱해 계산되므로 원금과 이자가 함께 움직인다는 설명">
   <rect width="720" height="300" fill="#fffaf5"/>
   <text x="360" y="34" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">원금이 움직이면 이자도 같이 움직입니다</text>
-  <text x="360" y="57" text-anchor="middle" font-size="12.5" fill="#6f5443">출처: 기획재정부 국채시장 FAQ · 옳은경제 정리</text>
+  <text x="360" y="57" text-anchor="middle" font-size="12.5" fill="#6f5443">출처: 재정경제부 국채시장 FAQ · 옳은경제 정리</text>
 
   <rect x="40" y="86" width="176" height="82" rx="8" fill="#f0e4d8"/>
   <text x="128" y="114" text-anchor="middle" font-size="13" font-weight="800" fill="#5a4636">발행 당시 액면가</text>
