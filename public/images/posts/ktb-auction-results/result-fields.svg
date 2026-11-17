@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" font-family="Pretendard, sans-serif" role="img" aria-label="한국은행 국고채 경쟁입찰 결과 공시에 적히는 항목과 2025년 9월 30일 30년물 국고02625-5509 통합발행 입찰의 실제 값. 발행예정금액 44,000억원, 응찰금액 99,140억원, 응찰률 225.3%, 응찰금리 범위 2.790에서 2.850%, 최저낙찰금리 2.820%, 최고낙찰금리 2.820%, 가중평균낙찰금리 2.820%, 부분낙찰률 30.5%, 낙찰금액 44,000억원">
+  <rect width="720" height="330" fill="#fffaf5"/>
+  <text x="360" y="34" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">결과 공시에 적히는 칸</text>
+  <text x="360" y="57" text-anchor="middle" font-size="12.5" fill="#6f5443">30년물 「국고02625-5509」 통합발행 경쟁입찰 · 2025년 9월 30일 · 출처: 한국은행 공시</text>
+
+  <rect x="60" y="78" width="320" height="30" rx="5" fill="#eaf1f8"/>
+  <text x="220" y="99" text-anchor="middle" font-size="12.5" font-weight="800" fill="#1f5c99">공시 항목</text>
+  <rect x="388" y="78" width="272" height="30" rx="5" fill="#eaf1f8"/>
+  <text x="524" y="99" text-anchor="middle" font-size="12.5" font-weight="800" fill="#1f5c99">그날 값</text>
+
+  <rect x="60" y="114" width="320" height="28" rx="5" fill="#f7efe2"/>
+  <text x="76" y="133" font-size="12.5" fill="#5a4636">발행예정금액</text>
+  <rect x="388" y="114" width="272" height="28" rx="5" fill="#f7efe2"/>
+  <text x="524" y="133" text-anchor="middle" font-size="12.5" fill="#5a4636">44,000억원</text>
+
+  <rect x="60" y="146" width="320" height="28" rx="5" fill="#f7efe2"/>
+  <text x="76" y="165" font-size="12.5" fill="#5a4636">응찰금액</text>
+  <rect x="388" y="146" width="272" height="28" rx="5" fill="#f7efe2"/>
+  <text x="524" y="165" text-anchor="middle" font-size="12.5" fill="#5a4636">99,140억원</text>
+
+  <rect x="60" y="178" width="320" height="28" rx="5" fill="#f7efe2"/>
+  <text x="76" y="197" font-size="12.5" fill="#5a4636">응찰률</text>
+  <rect x="388" y="178" width="272" height="28" rx="5" fill="#cfe3d5"/>
+  <text x="524" y="197" text-anchor="middle" font-size="12.5" font-weight="800" fill="#2c5c3f">225.3%</text>
+
+  <rect x="60" y="210" width="320" height="28" rx="5" fill="#f7efe2"/>
+  <text x="76" y="229" font-size="12.5" fill="#5a4636">응찰금리 범위</text>
+  <rect x="388" y="210" width="272" height="28" rx="5" fill="#f7efe2"/>
+  <text x="524" y="229" text-anchor="middle" font-size="12.5" fill="#5a4636">2.790 ~ 2.850%</text>
+
+  <rect x="60" y="242" width="320" height="28" rx="5" fill="#f7efe2"/>
+  <text x="76" y="261" font-size="12.5" fill="#5a4636">최저 · 최고 · 가중평균 낙찰금리</text>
+  <rect x="388" y="242" width="272" height="28" rx="5" fill="#eaf4ec"/>
+  <text x="524" y="261" text-anchor="middle" font-size="12.5" font-weight="800" fill="#1e7a46">모두 2.820%</text>
+
+  <rect x="60" y="274" width="320" height="28" rx="5" fill="#f7efe2"/>
+  <text x="76" y="293" font-size="12.5" fill="#5a4636">부분낙찰률</text>
+  <rect x="388" y="274" width="272" height="28" rx="5" fill="#e8dff0"/>
+  <text x="524" y="293" text-anchor="middle" font-size="12.5" font-weight="800" fill="#5a3f7a">30.5%</text>
+
+  <text x="60" y="322" font-size="12" fill="#6f5443">낙찰금액은 44,000억원으로 발행예정금액과 같았습니다.</text>
+</svg>
