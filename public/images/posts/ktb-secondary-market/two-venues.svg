@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" font-family="Pretendard, sans-serif" role="img" aria-label="국고채 유통시장 거래소시장과 장외시장 비교표. 주요 참가자는 거래소시장이 딜러, 장외시장은 딜러 및 브로커다. 매매방식은 경쟁매매와 상대매매로 갈린다. 매매단위는 거래소시장이 액면 10억원, 장외시장은 주로 100억원이다. 결제시점은 거래소시장이 익일 결제, 장외시장은 30일 이내 결제로 T플러스 0에서 30일이다">
+  <rect width="720" height="330" fill="#fffaf5"/>
+  <text x="360" y="34" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">같은 채권, 다른 두 자리</text>
+  <text x="360" y="57" text-anchor="middle" font-size="12.5" fill="#6f5443">출처: 재정경제부 국채시장 안내(국고채의 유통) · 2026년 11월 17일 조회</text>
+
+  <rect x="56" y="80" width="200" height="34" rx="5" fill="#f0e4d8"/>
+  <text x="156" y="103" text-anchor="middle" font-size="12.5" font-weight="800" fill="#5a4636">보는 칸</text>
+  <rect x="264" y="80" width="200" height="34" rx="5" fill="#eaf1f8"/>
+  <text x="364" y="103" text-anchor="middle" font-size="12.5" font-weight="800" fill="#1f5c99">거래소시장</text>
+  <rect x="472" y="80" width="192" height="34" rx="5" fill="#eaf4ec"/>
+  <text x="568" y="103" text-anchor="middle" font-size="12.5" font-weight="800" fill="#1e7a46">장외시장</text>
+
+  <rect x="56" y="122" width="200" height="44" rx="5" fill="#f7efe2"/>
+  <text x="76" y="150" font-size="12.5" fill="#5a4636">주요 참가자</text>
+  <rect x="264" y="122" width="200" height="44" rx="5" fill="#f7efe2"/>
+  <text x="364" y="150" text-anchor="middle" font-size="12.5" fill="#5a4636">딜러</text>
+  <rect x="472" y="122" width="192" height="44" rx="5" fill="#f7efe2"/>
+  <text x="568" y="150" text-anchor="middle" font-size="12.5" fill="#5a4636">딜러 및 브로커</text>
+
+  <rect x="56" y="174" width="200" height="44" rx="5" fill="#f7efe2"/>
+  <text x="76" y="202" font-size="12.5" fill="#5a4636">매매방식</text>
+  <rect x="264" y="174" width="200" height="44" rx="5" fill="#eaf1f8"/>
+  <text x="364" y="202" text-anchor="middle" font-size="12.5" font-weight="800" fill="#1f5c99">경쟁매매</text>
+  <rect x="472" y="174" width="192" height="44" rx="5" fill="#eaf4ec"/>
+  <text x="568" y="202" text-anchor="middle" font-size="12.5" font-weight="800" fill="#1e7a46">상대매매</text>
+
+  <rect x="56" y="226" width="200" height="44" rx="5" fill="#f7efe2"/>
+  <text x="76" y="254" font-size="12.5" fill="#5a4636">매매단위</text>
+  <rect x="264" y="226" width="200" height="44" rx="5" fill="#f7efe2"/>
+  <text x="364" y="254" text-anchor="middle" font-size="12.5" fill="#5a4636">액면 10억원</text>
+  <rect x="472" y="226" width="192" height="44" rx="5" fill="#f7efe2"/>
+  <text x="568" y="254" text-anchor="middle" font-size="12.5" fill="#5a4636">주로 100억원</text>
+
+  <rect x="56" y="278" width="200" height="44" rx="5" fill="#f7efe2"/>
+  <text x="76" y="306" font-size="12.5" fill="#5a4636">결제시점</text>
+  <rect x="264" y="278" width="200" height="44" rx="5" fill="#f7efe2"/>
+  <text x="364" y="306" text-anchor="middle" font-size="12.5" fill="#5a4636">익일 결제</text>
+  <rect x="472" y="278" width="192" height="44" rx="5" fill="#f7efe2"/>
+  <text x="568" y="306" text-anchor="middle" font-size="12.5" fill="#5a4636">30일 이내 (T+0~30)</text>
+</svg>
