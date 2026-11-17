@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" font-family="Pretendard, sans-serif" role="img" aria-label="국채전문유통시장 거래 흐름 도식. 여러 국채딜러가 내는 매도와 매수 주문이 한국거래소 KTS 시스템에 집중되어 공시되고, 각 딜러는 익명으로 매매를 체결하며 결제는 익일에 이뤄진다. 매매수량단위는 액면 10억원이다">
+  <rect width="720" height="300" fill="#fffaf5"/>
+  <text x="360" y="34" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">주문은 한 곳으로 모입니다</text>
+  <text x="360" y="57" text-anchor="middle" font-size="12.5" fill="#6f5443">출처: 재정경제부 국채시장 안내(한국거래소 채권시장) · 2026년 11월 17일 조회</text>
+
+  <rect x="40" y="86" width="120" height="38" rx="6" fill="#f0e4d8"/>
+  <text x="100" y="110" text-anchor="middle" font-size="12.5" fill="#5a4636">딜러 매도주문</text>
+  <rect x="40" y="132" width="120" height="38" rx="6" fill="#f0e4d8"/>
+  <text x="100" y="156" text-anchor="middle" font-size="12.5" fill="#5a4636">딜러 매수주문</text>
+  <rect x="40" y="178" width="120" height="38" rx="6" fill="#f0e4d8"/>
+  <text x="100" y="202" text-anchor="middle" font-size="12.5" fill="#5a4636">딜러 매도주문</text>
+
+  <path d="M168 105 L212 143" stroke="#a97c58" stroke-width="2"/>
+  <path d="M168 151 L212 151" stroke="#a97c58" stroke-width="2"/>
+  <path d="M168 197 L212 159" stroke="#a97c58" stroke-width="2"/>
+  <path d="M206 145 L220 151 L206 157 Z" fill="#a97c58"/>
+
+  <rect x="228" y="110" width="200" height="82" rx="10" fill="#eaf1f8"/>
+  <text x="328" y="140" text-anchor="middle" font-size="14" font-weight="800" fill="#1f5c99">KTS 시스템</text>
+  <text x="328" y="162" text-anchor="middle" font-size="12" fill="#1f5c99">주문 내역이 모여 공시됩니다</text>
+  <text x="328" y="181" text-anchor="middle" font-size="12" fill="#1f5c99">한국거래소가 연 시장입니다</text>
+
+  <path d="M436 151 L472 151" stroke="#a97c58" stroke-width="2.5"/>
+  <path d="M472 145 L484 151 L472 157 Z" fill="#a97c58"/>
+
+  <rect x="492" y="110" width="188" height="82" rx="10" fill="#cfe3d5"/>
+  <text x="586" y="140" text-anchor="middle" font-size="13.5" font-weight="800" fill="#2c5c3f">익명으로 체결</text>
+  <text x="586" y="162" text-anchor="middle" font-size="12" fill="#2c5c3f">상대가 누구인지 모릅니다</text>
+  <text x="586" y="181" text-anchor="middle" font-size="12" fill="#2c5c3f">결제는 다음 날입니다</text>
+
+  <text x="60" y="246" font-size="12.5" fill="#5a4636">매매수량단위는 액면 10억원입니다. 그보다 작은 금액은 이 시장에서 끊어지지 않습니다.</text>
+  <text x="60" y="270" font-size="12.5" fill="#5a4636">국채딜러간 거래와 증권회사를 통한 위탁거래를 위해 개설된 시장입니다.</text>
+</svg>
