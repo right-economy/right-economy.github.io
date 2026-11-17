@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" font-family="Pretendard, sans-serif" role="img" aria-label="응찰률 계산 도식. 응찰금액을 발행예정금액으로 나눈 값이 응찰률이다. 2025년 9월 30일 30년물은 응찰금액 99,140억원을 발행예정금액 44,000억원으로 나눠 225.3%였고, 2025년 10월 17일 50년물은 18,040억원을 8,000억원으로 나눠 225.5%였다. 비율은 비슷했지만 발행예정금액의 크기는 달랐다">
+  <rect width="720" height="300" fill="#fffaf5"/>
+  <text x="360" y="34" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">응찰률은 나눗셈 하나입니다</text>
+  <text x="360" y="57" text-anchor="middle" font-size="12.5" fill="#6f5443">출처: 한국은행 경쟁입찰 결과 공시 · 옳은경제 정리</text>
+
+  <rect x="60" y="80" width="230" height="46" rx="8" fill="#f0e4d8"/>
+  <text x="175" y="109" text-anchor="middle" font-size="13" fill="#5a4636">들어온 돈 (응찰금액)</text>
+  <text x="310" y="110" text-anchor="middle" font-size="22" fill="#a97c58">÷</text>
+  <rect x="330" y="80" width="230" height="46" rx="8" fill="#f0e4d8"/>
+  <text x="445" y="109" text-anchor="middle" font-size="13" fill="#5a4636">내려던 돈 (발행예정금액)</text>
+  <text x="588" y="110" text-anchor="middle" font-size="22" fill="#a97c58">=</text>
+  <rect x="604" y="80" width="76" height="46" rx="8" fill="#cfe3d5"/>
+  <text x="642" y="109" text-anchor="middle" font-size="13" font-weight="800" fill="#2c5c3f">응찰률</text>
+
+  <rect x="60" y="146" width="620" height="56" rx="8" fill="#eaf1f8"/>
+  <text x="80" y="170" font-size="12.5" font-weight="800" fill="#1f5c99">30년물 · 2025년 9월 30일</text>
+  <text x="80" y="191" font-size="12.5" fill="#1f5c99">99,140억원 ÷ 44,000억원 = 225.3%</text>
+
+  <rect x="60" y="212" width="620" height="56" rx="8" fill="#eaf4ec"/>
+  <text x="80" y="236" font-size="12.5" font-weight="800" fill="#1e7a46">50년물 · 2025년 10월 17일</text>
+  <text x="80" y="257" font-size="12.5" fill="#1e7a46">18,040억원 ÷ 8,000억원 = 225.5%</text>
+
+  <text x="60" y="288" font-size="12" fill="#6f5443">비율은 거의 같지만 내려던 금액은 44,000억원과 8,000억원으로 다섯 배 넘게 차이가 납니다.</text>
+</svg>

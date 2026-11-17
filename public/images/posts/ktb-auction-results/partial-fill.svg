@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" font-family="Pretendard, sans-serif" role="img" aria-label="부분낙찰률 설명 도식. 낙찰은 낮은 응찰금리부터 순서대로 채워지고 발행예정금액이 다 차는 금리가 최고낙찰금리가 된다. 그 금리에 몰린 응찰 물량은 남은 자리만큼만 잘려 들어가며 그 비율이 부분낙찰률이다. 2025년 9월 30일 30년물은 30.5%, 2025년 10월 17일 50년물은 90.0%였다">
+  <rect width="720" height="320" fill="#fffaf5"/>
+  <text x="360" y="34" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">경계에 걸린 물량은 잘려 들어갑니다</text>
+  <text x="360" y="57" text-anchor="middle" font-size="12.5" fill="#6f5443">출처: 재정경제부 국채시장 안내(입찰 방법) · 한국은행 결과 공시 · 옳은경제 정리</text>
+
+  <text x="60" y="88" font-size="12.5" font-weight="800" fill="#5a4636">낮은 금리부터 채웁니다</text>
+
+  <rect x="60" y="100" width="140" height="44" rx="6" fill="#cfe3d5"/>
+  <text x="130" y="127" text-anchor="middle" font-size="12.5" fill="#2c5c3f">가장 낮은 금리</text>
+  <rect x="212" y="100" width="140" height="44" rx="6" fill="#cfe3d5"/>
+  <text x="282" y="127" text-anchor="middle" font-size="12.5" fill="#2c5c3f">그다음 금리</text>
+  <rect x="364" y="100" width="140" height="44" rx="6" fill="#cfe3d5"/>
+  <text x="434" y="127" text-anchor="middle" font-size="12.5" fill="#2c5c3f">그다음 금리</text>
+  <rect x="516" y="100" width="164" height="44" rx="6" fill="#e8dff0"/>
+  <text x="598" y="121" text-anchor="middle" font-size="12.5" font-weight="800" fill="#5a3f7a">최고낙찰금리</text>
+  <text x="598" y="138" text-anchor="middle" font-size="11.5" fill="#5a3f7a">여기서 금액이 찹니다</text>
+
+  <path d="M598 148 L598 166" stroke="#a97c58" stroke-width="2"/>
+  <path d="M592 160 L598 172 L604 160 Z" fill="#a97c58"/>
+
+  <rect x="60" y="178" width="620" height="54" rx="8" fill="#f7efe2"/>
+  <text x="80" y="200" font-size="12.5" fill="#5a4636">그 금리에 들어온 물량 가운데 남은 자리만큼만 낙찰됩니다.</text>
+  <text x="80" y="221" font-size="12.5" fill="#5a4636">그 비율을 부분낙찰률이라고 적습니다.</text>
+
+  <rect x="60" y="242" width="300" height="46" rx="8" fill="#eaf1f8"/>
+  <text x="210" y="263" text-anchor="middle" font-size="12.5" font-weight="800" fill="#1f5c99">30년물 · 2025년 9월 30일</text>
+  <text x="210" y="281" text-anchor="middle" font-size="12.5" fill="#1f5c99">부분낙찰률 30.5%</text>
+  <rect x="380" y="242" width="300" height="46" rx="8" fill="#eaf4ec"/>
+  <text x="530" y="263" text-anchor="middle" font-size="12.5" font-weight="800" fill="#1e7a46">50년물 · 2025년 10월 17일</text>
+  <text x="530" y="281" text-anchor="middle" font-size="12.5" fill="#1e7a46">부분낙찰률 90.0%</text>
+
+  <text x="60" y="310" font-size="12" fill="#6f5443">비율이 작으면 그 금리에 들어온 물량이 남은 자리보다 많았다는 뜻입니다.</text>
+</svg>
