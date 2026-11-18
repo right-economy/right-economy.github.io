@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" font-family="Pretendard, sans-serif" role="img" aria-label="국고채를 보유한 사람이 돈을 받는 두 갈래 도식. 만기까지 들고 있으면 정해진 원금과 이표이자를 받고, 만기 전에 팔면 장외시장에서 증권사와 협의한 값으로 금액이 정해진다. 앞쪽 금액은 발행 조건으로 정해져 있고 뒤쪽 금액은 파는 날 시장에서 정해진다">
+  <rect width="720" height="320" fill="#fffaf5"/>
+  <text x="360" y="34" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">받는 금액이 정해지는 자리가 둘입니다</text>
+  <text x="360" y="57" text-anchor="middle" font-size="12.5" fill="#6f5443">출처: 재정경제부 국채시장 안내(장외시장·FAQ) · 2026년 11월 18일 조회</text>
+
+  <rect x="300" y="78" width="120" height="40" rx="8" fill="#f0e4d8"/>
+  <text x="360" y="103" text-anchor="middle" font-size="13" fill="#5a4636">국고채 보유</text>
+
+  <path d="M330 118 L200 150" stroke="#a97c58" stroke-width="2"/>
+  <path d="M390 118 L520 150" stroke="#a97c58" stroke-width="2"/>
+
+  <rect x="60" y="154" width="280" height="118" rx="10" fill="#eaf1f8"/>
+  <text x="200" y="180" text-anchor="middle" font-size="14" font-weight="800" fill="#1f5c99">만기까지 들고 있을 때</text>
+  <text x="200" y="206" text-anchor="middle" font-size="12.5" fill="#5a4636">1년에 두 번 이표이자를 받고</text>
+  <text x="200" y="229" text-anchor="middle" font-size="12.5" fill="#5a4636">만기에 정해진 원금을 받습니다</text>
+  <text x="200" y="256" text-anchor="middle" font-size="12" fill="#6f5443">금액은 살 때 이미 정해져 있습니다</text>
+
+  <rect x="380" y="154" width="280" height="118" rx="10" fill="#eaf4ec"/>
+  <text x="520" y="180" text-anchor="middle" font-size="14" font-weight="800" fill="#1e7a46">만기 전에 팔 때</text>
+  <text x="520" y="206" text-anchor="middle" font-size="12.5" fill="#5a4636">장외시장에서 증권사와 협의해</text>
+  <text x="520" y="229" text-anchor="middle" font-size="12.5" fill="#5a4636">수량과 값을 정합니다</text>
+  <text x="520" y="256" text-anchor="middle" font-size="12" fill="#6f5443">금액은 파는 날에 정해집니다</text>
+
+  <text x="60" y="298" font-size="12.5" fill="#5a4636">장외시장은 상대매매 방식이라 같은 종목이라도 상대와 시점에 따라 값이 달리 정해집니다.</text>
+</svg>
