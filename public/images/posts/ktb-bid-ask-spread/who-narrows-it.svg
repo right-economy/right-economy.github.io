@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" font-family="Pretendard, sans-serif" role="img" aria-label="국채전문유통시장에서 호가 차이를 좁히는 제도 도식. 조성호가는 국고채전문딜러가 매도와 매수호가를 동시에 제출하는 호가로 시장조성 의무로써 내는 것이고, 매매호가는 국채딜러가 매도 혹은 매수 한쪽만 내는 호가다. 전문딜러의 호가제시 의무는 매도 매수 양방향 호가 10개이며, 매매수량단위는 액면 10억원이다">
+  <rect width="720" height="320" fill="#fffaf5"/>
+  <text x="360" y="34" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">누가 양쪽에 값을 걸어두나</text>
+  <text x="360" y="57" text-anchor="middle" font-size="12.5" fill="#6f5443">출처: 재정경제부 국채시장 안내(한국거래소채권시장·혜택과 의무) · 2026년 11월 18일 조회</text>
+
+  <rect x="50" y="82" width="300" height="118" rx="10" fill="#eaf4ec"/>
+  <text x="200" y="108" text-anchor="middle" font-size="14" font-weight="800" fill="#1e7a46">조성호가</text>
+  <text x="200" y="134" text-anchor="middle" font-size="12.5" fill="#5a4636">국고채전문딜러가 매도와 매수를</text>
+  <text x="200" y="154" text-anchor="middle" font-size="12.5" fill="#5a4636">동시에 제출합니다</text>
+  <text x="200" y="180" text-anchor="middle" font-size="12.5" font-weight="800" fill="#1e7a46">시장조성 의무로 내는 호가</text>
+
+  <rect x="370" y="82" width="300" height="118" rx="10" fill="#eaf1f8"/>
+  <text x="520" y="108" text-anchor="middle" font-size="14" font-weight="800" fill="#1f5c99">매매호가</text>
+  <text x="520" y="134" text-anchor="middle" font-size="12.5" fill="#5a4636">국채딜러가 매도 혹은 매수</text>
+  <text x="520" y="154" text-anchor="middle" font-size="12.5" fill="#5a4636">한쪽을 제출합니다</text>
+  <text x="520" y="180" text-anchor="middle" font-size="12.5" font-weight="800" fill="#1f5c99">거래를 하려고 내는 호가</text>
+
+  <rect x="50" y="216" width="620" height="40" rx="8" fill="#f0e4d8"/>
+  <text x="360" y="241" text-anchor="middle" font-size="13" font-weight="800" fill="#7c2d12">전문딜러 호가제시 의무: 매도·매수 양방향 호가 10개</text>
+
+  <rect x="50" y="264" width="620" height="40" rx="8" fill="#f7efe2"/>
+  <text x="360" y="289" text-anchor="middle" font-size="12.5" fill="#5a4636">국채전문유통시장 매매수량단위는 액면 10억원입니다</text>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" font-family="Pretendard, sans-serif" role="img" aria-label="채권 호가 스프레드 구조 도식. 한 종목에 사겠다는 값인 매수호가와 팔겠다는 값인 매도호가가 따로 붙고, 두 값 사이의 빈 구간이 스프레드다. 지금 당장 사려면 매도호가에 맞춰야 하고 지금 당장 팔려면 매수호가에 맞춰야 하므로, 사고 바로 팔면 그 구간만큼이 비용으로 남는다">
+  <rect width="720" height="300" fill="#fffaf5"/>
+  <text x="360" y="34" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">한 종목에 값이 두 개 붙습니다</text>
+  <text x="360" y="57" text-anchor="middle" font-size="12.5" fill="#6f5443">출처: 재정경제부 국채시장 안내(한국거래소채권시장) · 옳은경제 정리</text>
+
+  <rect x="60" y="92" width="180" height="62" rx="8" fill="#cfe3d5"/>
+  <text x="150" y="117" text-anchor="middle" font-size="13.5" font-weight="800" fill="#2c5c3f">매수호가</text>
+  <text x="150" y="139" text-anchor="middle" font-size="12.5" fill="#2c5c3f">사겠다고 걸어둔 값</text>
+
+  <rect x="264" y="92" width="192" height="62" rx="8" fill="#f0e4d8"/>
+  <text x="360" y="117" text-anchor="middle" font-size="13.5" font-weight="800" fill="#7c2d12">스프레드</text>
+  <text x="360" y="139" text-anchor="middle" font-size="12.5" fill="#7c2d12">두 값 사이의 빈 구간</text>
+
+  <rect x="480" y="92" width="180" height="62" rx="8" fill="#eaf1f8"/>
+  <text x="570" y="117" text-anchor="middle" font-size="13.5" font-weight="800" fill="#1f5c99">매도호가</text>
+  <text x="570" y="139" text-anchor="middle" font-size="12.5" fill="#1f5c99">팔겠다고 걸어둔 값</text>
+
+  <path d="M240 123 L262 123" stroke="#a97c58" stroke-width="2"/>
+  <path d="M458 123 L478 123" stroke="#a97c58" stroke-width="2"/>
+
+  <text x="60" y="190" font-size="13" font-weight="800" fill="#5a4636">내가 지금 당장 움직이려면</text>
+  <rect x="60" y="202" width="290" height="48" rx="6" fill="#f7efe2"/>
+  <text x="205" y="222" text-anchor="middle" font-size="12.5" fill="#5a4636">지금 사려면 매도호가에 맞춥니다</text>
+  <text x="205" y="241" text-anchor="middle" font-size="12.5" fill="#5a4636">걸어둔 쪽의 값을 받아들이는 것입니다</text>
+  <rect x="370" y="202" width="290" height="48" rx="6" fill="#f7efe2"/>
+  <text x="515" y="222" text-anchor="middle" font-size="12.5" fill="#5a4636">지금 팔려면 매수호가에 맞춥니다</text>
+  <text x="515" y="241" text-anchor="middle" font-size="12.5" fill="#5a4636">이쪽도 걸어둔 값을 받아들입니다</text>
+
+  <text x="60" y="278" font-size="12.5" fill="#5a4636">그래서 사고 곧바로 팔면 값이 그대로여도 이 빈 구간만큼은 치르고 나오게 됩니다.</text>
+</svg>
