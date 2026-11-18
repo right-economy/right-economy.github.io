@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" font-family="Pretendard, sans-serif" role="img" aria-label="호가 차이가 좁은 자리와 넓은 자리의 비교. 좁은 쪽은 만기별로 가장 최근 발행된 지표종목이고 양방향 호가가 걸려 있어 상대를 바로 찾는다. 넓은 쪽은 지표에서 밀려난 종목이거나 금리가 크게 흔들리는 때이고, 걸린 값이 적어 원하는 값에 상대가 없다">
+  <rect width="720" height="320" fill="#fffaf5"/>
+  <text x="360" y="34" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">좁은 자리와 넓은 자리</text>
+  <text x="360" y="57" text-anchor="middle" font-size="12.5" fill="#6f5443">출처: 재정경제부 국채시장 안내(지표종목·혜택과 의무) · 옳은경제 정리</text>
+
+  <rect x="50" y="80" width="300" height="34" rx="6" fill="#cfe3d5"/>
+  <text x="200" y="103" text-anchor="middle" font-size="14" font-weight="800" fill="#2c5c3f">차이가 좁은 쪽</text>
+  <rect x="370" y="80" width="300" height="34" rx="6" fill="#e8d8d2"/>
+  <text x="520" y="103" text-anchor="middle" font-size="14" font-weight="800" fill="#7c2d12">차이가 넓은 쪽</text>
+
+  <rect x="50" y="122" width="300" height="52" rx="6" fill="#f7efe2"/>
+  <text x="200" y="143" text-anchor="middle" font-size="12.5" fill="#5a4636">만기별로 가장 최근 발행된</text>
+  <text x="200" y="163" text-anchor="middle" font-size="12.5" font-weight="800" fill="#5a4636">지표종목</text>
+  <rect x="370" y="122" width="300" height="52" rx="6" fill="#f7efe2"/>
+  <text x="520" y="143" text-anchor="middle" font-size="12.5" fill="#5a4636">새 종목이 나와 지표에서</text>
+  <text x="520" y="163" text-anchor="middle" font-size="12.5" font-weight="800" fill="#5a4636">밀려난 종목</text>
+
+  <rect x="50" y="182" width="300" height="52" rx="6" fill="#f7efe2"/>
+  <text x="200" y="203" text-anchor="middle" font-size="12.5" fill="#5a4636">양쪽에 걸린 값이 많아</text>
+  <text x="200" y="223" text-anchor="middle" font-size="12.5" fill="#5a4636">원하는 값에 상대가 있습니다</text>
+  <rect x="370" y="182" width="300" height="52" rx="6" fill="#f7efe2"/>
+  <text x="520" y="203" text-anchor="middle" font-size="12.5" fill="#5a4636">걸린 값이 적어 원하는 값에</text>
+  <text x="520" y="223" text-anchor="middle" font-size="12.5" fill="#5a4636">상대가 없습니다</text>
+
+  <rect x="50" y="242" width="300" height="52" rx="6" fill="#eaf1f8"/>
+  <text x="200" y="263" text-anchor="middle" font-size="12.5" fill="#1f5c99">금리가 조용한 때</text>
+  <text x="200" y="283" text-anchor="middle" font-size="12.5" fill="#1f5c99">값을 걸어두기 쉽습니다</text>
+  <rect x="370" y="242" width="300" height="52" rx="6" fill="#eaf1f8"/>
+  <text x="520" y="263" text-anchor="middle" font-size="12.5" fill="#1f5c99">금리가 크게 흔들리는 때</text>
+  <text x="520" y="283" text-anchor="middle" font-size="12.5" fill="#1f5c99">걸어둔 값을 거두게 됩니다</text>
+
+  <text x="60" y="313" font-size="12" fill="#6f5443">칸의 넓이는 설명을 위한 것이며 실제 호가 차이의 크기를 나타내지 않습니다.</text>
+</svg>
