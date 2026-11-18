@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" font-family="Pretendard, sans-serif" role="img" aria-label="장외 채권거래 가격 정보 공시 두 가지 비교표. 15분 룰은 2000년 7월 도입된 체결내역 공시로 증권회사가 매매계약 체결 시점부터 15분 이내에 협회에 보고하고 협회가 공시한다. 비큐에스는 2007년 12월 도입된 호가정보 공시로 증권회사와 채권매매전문중개회사의 호가와 체결가가 협회에 실시간 취합되어 공시된다">
+  <rect width="720" height="300" fill="#fffaf5"/>
+  <text x="360" y="34" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">내가 받은 값을 비교할 자리</text>
+  <text x="360" y="57" text-anchor="middle" font-size="12.5" fill="#6f5443">출처: 재정경제부 국채시장 안내(장외시장 공시) · 2026년 11월 18일 조회</text>
+
+  <rect x="50" y="80" width="300" height="30" rx="5" fill="#eaf1f8"/>
+  <text x="200" y="101" text-anchor="middle" font-size="13" font-weight="800" fill="#1f5c99">체결내역 공시 (15분 Rule)</text>
+  <rect x="370" y="80" width="300" height="30" rx="5" fill="#eaf4ec"/>
+  <text x="520" y="101" text-anchor="middle" font-size="13" font-weight="800" fill="#1e7a46">호가정보 공시 (BQS)</text>
+
+  <rect x="50" y="116" width="300" height="46" rx="5" fill="#f7efe2"/>
+  <text x="200" y="135" text-anchor="middle" font-size="12" fill="#6f5443">도입</text>
+  <text x="200" y="155" text-anchor="middle" font-size="12.5" fill="#5a4636">2000년 7월</text>
+  <rect x="370" y="116" width="300" height="46" rx="5" fill="#f7efe2"/>
+  <text x="520" y="135" text-anchor="middle" font-size="12" fill="#6f5443">도입</text>
+  <text x="520" y="155" text-anchor="middle" font-size="12.5" fill="#5a4636">2007년 12월</text>
+
+  <rect x="50" y="168" width="300" height="54" rx="5" fill="#f0e4d8"/>
+  <text x="200" y="188" text-anchor="middle" font-size="12" fill="#6f5443">무엇이 올라오나</text>
+  <text x="200" y="208" text-anchor="middle" font-size="12.5" fill="#5a4636">실제로 체결된 거래 내역</text>
+  <rect x="370" y="168" width="300" height="54" rx="5" fill="#f0e4d8"/>
+  <text x="520" y="188" text-anchor="middle" font-size="12" fill="#6f5443">무엇이 올라오나</text>
+  <text x="520" y="208" text-anchor="middle" font-size="12.5" fill="#5a4636">거래되기 전의 호가와 체결가</text>
+
+  <rect x="50" y="228" width="300" height="54" rx="5" fill="#f7efe2"/>
+  <text x="200" y="248" text-anchor="middle" font-size="12" fill="#6f5443">언제</text>
+  <text x="200" y="268" text-anchor="middle" font-size="12.5" fill="#5a4636">체결 시점부터 15분 이내 보고</text>
+  <rect x="370" y="228" width="300" height="54" rx="5" fill="#f7efe2"/>
+  <text x="520" y="248" text-anchor="middle" font-size="12" fill="#6f5443">언제</text>
+  <text x="520" y="268" text-anchor="middle" font-size="12.5" fill="#5a4636">실시간으로 협회에 취합</text>
+</svg>
