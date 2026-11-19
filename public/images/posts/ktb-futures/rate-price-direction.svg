@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" width="720" height="420" role="img" aria-label="시장금리가 오르면 채권 가격이 내리고 국채선물 가격도 내린다는 흐름 도식">
+  <style>
+    text{font-family:'Apple SD Gothic Neo','Noto Sans KR',sans-serif;}
+    .t{font-size:17px;font-weight:700;}
+    .s{font-size:14px;}
+    .cap{font-size:12px;}
+  </style>
+  <rect x="0" y="0" width="720" height="420" style="fill:#ffffff"/>
+
+  <text x="24" y="38" class="t" style="fill:#1f2933">금리가 오를 때</text>
+
+  <rect x="24" y="56" width="190" height="66" rx="10" style="fill:#fff3e6;stroke:#e8743b;stroke-width:2"/>
+  <text x="119" y="83" class="s" text-anchor="middle" style="fill:#8a3b12">시장금리 오름</text>
+  <text x="119" y="105" class="s" text-anchor="middle" style="fill:#8a3b12">3.725% → 3.736%</text>
+
+  <path d="M222 89 H262" style="stroke:#9aa5b1;stroke-width:2;fill:none"/>
+  <path d="M262 89 l-10 -5 v10 z" style="fill:#9aa5b1"/>
+
+  <rect x="268" y="56" width="190" height="66" rx="10" style="fill:#f5f7fa;stroke:#9aa5b1;stroke-width:2"/>
+  <text x="363" y="83" class="s" text-anchor="middle" style="fill:#1f2933">이미 발행된 채권은</text>
+  <text x="363" y="105" class="s" text-anchor="middle" style="fill:#1f2933">값이 내려감</text>
+
+  <path d="M466 89 H506" style="stroke:#9aa5b1;stroke-width:2;fill:none"/>
+  <path d="M506 89 l-10 -5 v10 z" style="fill:#9aa5b1"/>
+
+  <rect x="512" y="56" width="184" height="66" rx="10" style="fill:#fff3e6;stroke:#e8743b;stroke-width:2"/>
+  <text x="604" y="83" class="s" text-anchor="middle" style="fill:#8a3b12">국채선물 가격도</text>
+  <text x="604" y="105" class="s" text-anchor="middle" style="fill:#8a3b12">내려감</text>
+
+  <text x="24" y="178" class="t" style="fill:#1f2933">금리가 내릴 때</text>
+
+  <rect x="24" y="196" width="190" height="66" rx="10" style="fill:#eef6ff;stroke:#2f6fa8;stroke-width:2"/>
+  <text x="119" y="223" class="s" text-anchor="middle" style="fill:#1b4a73">시장금리 내림</text>
+  <text x="119" y="245" class="s" text-anchor="middle" style="fill:#1b4a73">3.736% → 3.725%</text>
+
+  <path d="M222 229 H262" style="stroke:#9aa5b1;stroke-width:2;fill:none"/>
+  <path d="M262 229 l-10 -5 v10 z" style="fill:#9aa5b1"/>
+
+  <rect x="268" y="196" width="190" height="66" rx="10" style="fill:#f5f7fa;stroke:#9aa5b1;stroke-width:2"/>
+  <text x="363" y="223" class="s" text-anchor="middle" style="fill:#1f2933">이미 발행된 채권은</text>
+  <text x="363" y="245" class="s" text-anchor="middle" style="fill:#1f2933">값이 올라감</text>
+
+  <path d="M466 229 H506" style="stroke:#9aa5b1;stroke-width:2;fill:none"/>
+  <path d="M506 229 l-10 -5 v10 z" style="fill:#9aa5b1"/>
+
+  <rect x="512" y="196" width="184" height="66" rx="10" style="fill:#eef6ff;stroke:#2f6fa8;stroke-width:2"/>
+  <text x="604" y="223" class="s" text-anchor="middle" style="fill:#1b4a73">국채선물 가격도</text>
+  <text x="604" y="245" class="s" text-anchor="middle" style="fill:#1b4a73">올라감</text>
+
+  <rect x="24" y="294" width="672" height="78" rx="10" style="fill:#fafbfc;stroke:#cbd2d9;stroke-width:1.5"/>
+  <text x="44" y="322" class="s" style="fill:#1f2933">채권을 들고 있는 쪽은 금리가 오르면 평가손실을 봅니다. 그때 국채선물을 미리 팔아두면</text>
+  <text x="44" y="346" class="s" style="fill:#1f2933">선물에서 이익이 생겨 손실의 일부를 상쇄합니다. 이것이 선물을 만들어 둔 이유입니다.</text>
+
+  <text x="24" y="400" class="cap" style="fill:#616e7c">금리 수치는 2026년 11월 18일 국고채 3년물 종가 기준 · 가격 방향은 채권·선물의 일반 원리</text>
+</svg>
