@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" width="720" height="400" role="img" aria-label="10년 국채선물 1670계약의 액면 1670억원에 위탁증거금률 3.030퍼센트를 적용하면 약 50억원이 된다는 환산 도식">
+  <style>
+    text{font-family:'Apple SD Gothic Neo','Noto Sans KR',sans-serif;}
+    .h{font-size:17px;font-weight:700;}
+    .big{font-size:25px;font-weight:700;}
+    .s{font-size:14px;}
+    .cap{font-size:12px;}
+  </style>
+  <rect x="0" y="0" width="720" height="400" style="fill:#ffffff"/>
+  <text x="24" y="36" class="h" style="fill:#1f2933">10년 국채선물 1,670계약을 금액으로 바꾸면</text>
+
+  <rect x="24" y="56" width="196" height="118" rx="12" style="fill:#f5f7fa;stroke:#9aa5b1;stroke-width:2"/>
+  <text x="122" y="84" class="s" text-anchor="middle" style="fill:#1f2933">액면으로 환산한</text>
+  <text x="122" y="104" class="s" text-anchor="middle" style="fill:#1f2933">명목 금액</text>
+  <text x="122" y="140" class="big" text-anchor="middle" style="fill:#1f2933">1,670억원</text>
+  <text x="122" y="162" class="s" text-anchor="middle" style="fill:#1f2933">1,670계약 × 1억원</text>
+
+  <text x="238" y="122" class="big" style="fill:#52606d">×</text>
+
+  <rect x="276" y="56" width="166" height="118" rx="12" style="fill:#fff3e6;stroke:#e8743b;stroke-width:2"/>
+  <text x="359" y="84" class="s" text-anchor="middle" style="fill:#8a3b12">10년물</text>
+  <text x="359" y="104" class="s" text-anchor="middle" style="fill:#8a3b12">위탁증거금률</text>
+  <text x="359" y="140" class="big" text-anchor="middle" style="fill:#8a3b12">3.030%</text>
+  <text x="359" y="162" class="s" text-anchor="middle" style="fill:#8a3b12">2026.11.2 기준</text>
+
+  <text x="458" y="122" class="big" style="fill:#52606d">=</text>
+
+  <rect x="494" y="56" width="202" height="118" rx="12" style="fill:#eef6ff;stroke:#2f6fa8;stroke-width:2"/>
+  <text x="595" y="84" class="s" text-anchor="middle" style="fill:#1b4a73">계좌에 있어야 하는</text>
+  <text x="595" y="104" class="s" text-anchor="middle" style="fill:#1b4a73">금액</text>
+  <text x="595" y="140" class="big" text-anchor="middle" style="fill:#1b4a73">약 50억원</text>
+  <text x="595" y="162" class="s" text-anchor="middle" style="fill:#1b4a73">1,670억원의 3.030%</text>
+
+  <rect x="24" y="200" width="672" height="100" rx="12" style="fill:#fafbfc;stroke:#cbd2d9;stroke-width:1.5"/>
+  <text x="44" y="228" class="s" style="fill:#1f2933">증거금은 액면이 아니라 계약금액에 매깁니다. 국채선물 가격은 액면 100원당으로 적혀 100 근처에서</text>
+  <text x="44" y="252" class="s" style="fill:#1f2933">움직이기 때문에, 액면으로 어림잡은 이 금액은 실제 요구액과 비슷한 자리에 떨어집니다.</text>
+  <text x="44" y="282" class="s" style="fill:#8a3b12">정확한 금액은 그날 정산가격으로 계산되고, 증권사가 자체 기준을 더 올려 받는 경우도 있습니다.</text>
+
+  <text x="24" y="340" class="cap" style="fill:#616e7c">그림이 보여주는 것: 계약 수에서 증거금 금액까지의 환산 순서 · 단위: 원 · 소수 둘째자리에서 반올림</text>
+  <text x="24" y="360" class="cap" style="fill:#616e7c">기준: 계약 수는 2026.11.18 외국인 순매수, 증거금률은 2026.11.2</text>
+  <text x="24" y="380" class="cap" style="fill:#616e7c">출처: 계약 수는 스페셜타임스(2026.11.18), 증거금률은 한국거래소 위탁증거금률표(증권사 공시본)</text>
+</svg>
