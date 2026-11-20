@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" width="720" height="420" role="img" aria-label="어제 장 종료 정산가격과 오늘 장 종료 정산가격 사이에서 갱신차금이, 오늘 체결가와 오늘 정산가격 사이에서 당일차금이 생기는 것을 시간 축 위에 보여주는 도식">
+  <style>
+    text{font-family:'Apple SD Gothic Neo','Noto Sans KR',sans-serif;}
+    .h{font-size:17px;font-weight:700;}
+    .n{font-size:18px;font-weight:700;}
+    .s{font-size:14px;}
+    .cap{font-size:12px;}
+  </style>
+  <rect x="0" y="0" width="720" height="420" style="fill:#ffffff"/>
+  <text x="24" y="36" class="h" style="fill:#1f2933">하루치 손익이 생기는 두 자리</text>
+
+  <path d="M60 220 H680" style="stroke:#cbd2d9;stroke-width:3"/>
+  <circle cx="110" cy="220" r="7" style="fill:#9aa5b1"/>
+  <circle cx="380" cy="220" r="7" style="fill:#e8743b"/>
+  <circle cx="630" cy="220" r="7" style="fill:#9aa5b1"/>
+
+  <text x="110" y="252" class="s" text-anchor="middle" style="fill:#616e7c">어제 장 종료</text>
+  <text x="110" y="272" class="n" text-anchor="middle" style="fill:#1f2933">106.05</text>
+  <text x="380" y="252" class="s" text-anchor="middle" style="fill:#8a3b12">오늘 체결</text>
+  <text x="380" y="272" class="n" text-anchor="middle" style="fill:#8a3b12">106.00</text>
+  <text x="630" y="252" class="s" text-anchor="middle" style="fill:#616e7c">오늘 장 종료</text>
+  <text x="630" y="272" class="n" text-anchor="middle" style="fill:#1f2933">105.95</text>
+
+  <rect x="24" y="66" width="330" height="118" rx="10" style="fill:#f5f7fa;stroke:#9aa5b1;stroke-width:2"/>
+  <text x="44" y="94" class="n" style="fill:#1f2933">갱신차금</text>
+  <text x="44" y="122" class="s" style="fill:#1f2933">어제부터 들고 있던 계약에 붙습니다</text>
+  <text x="44" y="146" class="s" style="fill:#1f2933">106.05 에서 105.95 로 0.10포인트</text>
+  <text x="44" y="170" class="s" style="fill:#1f2933">1계약이면 10만원이 빠집니다</text>
+
+  <rect x="380" y="66" width="316" height="118" rx="10" style="fill:#fff3e6;stroke:#e8743b;stroke-width:2"/>
+  <text x="400" y="94" class="n" style="fill:#8a3b12">당일차금</text>
+  <text x="400" y="122" class="s" style="fill:#8a3b12">오늘 새로 체결한 계약에 붙습니다</text>
+  <text x="400" y="146" class="s" style="fill:#8a3b12">106.00 에서 105.95 로 0.05포인트</text>
+  <text x="400" y="170" class="s" style="fill:#8a3b12">1계약이면 5만원이 빠집니다</text>
+
+  <path d="M110 200 H630" style="stroke:#9aa5b1;stroke-width:2;stroke-dasharray:6 5;fill:none"/>
+  <path d="M380 200 H630" style="stroke:#e8743b;stroke-width:2;fill:none"/>
+
+  <text x="24" y="320" class="cap" style="fill:#616e7c">그림이 보여주는 것: 선물 1계약의 하루치 결제금액이 어느 두 가격 차이에서 나오는지</text>
+  <text x="24" y="340" class="cap" style="fill:#616e7c">가격 106.05 · 106.00 · 105.95 는 계산을 보이기 위한 예시값이고 실제 시세가 아닙니다.</text>
+  <text x="24" y="360" class="cap" style="fill:#616e7c">금액은 3년 국채선물 기준이며 0.01포인트가 1만원이므로 1포인트는 100만원입니다. 매수 기준이고</text>
+  <text x="24" y="380" class="cap" style="fill:#616e7c">매도는 부호가 반대입니다.</text>
+  <text x="24" y="400" class="cap" style="fill:#616e7c">출처: 증권사 장내파생상품 거래설명서의 당일차금·갱신차금 정의, 한국거래소 3년 국채선물 상품명세</text>
+</svg>
