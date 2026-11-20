@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 440" width="720" height="440" role="img" aria-label="2027년 3월물 3년 국채선물 기준채권 세 종목의 잔존만기가 21개월, 27개월, 54개월이고 5년 국채선물 기준채권 두 종목이 54개월과 48개월이며 54개월 종목은 두 바스켓에 함께 들어가 있음을 보여주는 가로 막대 그래프">
+  <style>
+    text{font-family:'Apple SD Gothic Neo','Noto Sans KR',sans-serif;}
+    .h{font-size:17px;font-weight:700;}
+    .g{font-size:14px;font-weight:700;}
+    .s{font-size:13px;}
+    .cap{font-size:12px;}
+  </style>
+  <rect x="0" y="0" width="720" height="440" style="fill:#ffffff"/>
+  <text x="24" y="34" class="h" style="fill:#1f2933">2027년 3월물 기준채권의 잔존만기</text>
+
+  <path d="M220 60 V330" style="stroke:#cbd2d9;stroke-width:2"/>
+  <path d="M308 60 V330 M396 60 V330 M484 60 V330 M572 60 V330 M660 60 V330" style="stroke:#e4e7eb;stroke-width:1"/>
+  <text x="220" y="350" class="s" text-anchor="middle" style="fill:#616e7c">0</text>
+  <text x="308" y="350" class="s" text-anchor="middle" style="fill:#616e7c">12</text>
+  <text x="396" y="350" class="s" text-anchor="middle" style="fill:#616e7c">24</text>
+  <text x="484" y="350" class="s" text-anchor="middle" style="fill:#616e7c">36</text>
+  <text x="572" y="350" class="s" text-anchor="middle" style="fill:#616e7c">48</text>
+  <text x="660" y="350" class="s" text-anchor="middle" style="fill:#616e7c">60</text>
+  <text x="660" y="370" class="s" text-anchor="end" style="fill:#616e7c">단위: 개월</text>
+
+  <text x="24" y="80" class="g" style="fill:#8a3b12">3년 국채선물 기준채권</text>
+  <rect x="220" y="90" width="154" height="26" rx="4" style="fill:#f0b58a"/>
+  <text x="24" y="108" class="s" style="fill:#1f2933">국고02750-2812</text>
+  <text x="384" y="108" class="s" style="fill:#8a3b12">21</text>
+  <rect x="220" y="126" width="198" height="26" rx="4" style="fill:#f0b58a"/>
+  <text x="24" y="144" class="s" style="fill:#1f2933">국고03500-2906</text>
+  <text x="428" y="144" class="s" style="fill:#8a3b12">27</text>
+  <rect x="220" y="162" width="396" height="26" rx="4" style="fill:#e8743b"/>
+  <text x="24" y="180" class="s" style="fill:#1f2933">국고04125-3109</text>
+  <text x="626" y="180" class="s" style="fill:#8a3b12">54</text>
+
+  <text x="24" y="218" class="g" style="fill:#1b4a73">5년 국채선물 기준채권</text>
+  <rect x="220" y="228" width="396" height="26" rx="4" style="fill:#e8743b"/>
+  <text x="24" y="246" class="s" style="fill:#1f2933">국고04125-3109</text>
+  <text x="626" y="246" class="s" style="fill:#8a3b12">54</text>
+  <rect x="220" y="264" width="352" height="26" rx="4" style="fill:#8fb8d8"/>
+  <text x="24" y="282" class="s" style="fill:#1f2933">국고03375-3103</text>
+  <text x="582" y="282" class="s" style="fill:#1b4a73">48</text>
+
+  <rect x="24" y="382" width="672" height="20" rx="4" style="fill:#fdf2e9"/>
+  <text x="34" y="397" class="cap" style="fill:#8a3b12">진한 주황 막대는 3년과 5년 두 바스켓에 함께 들어간 같은 종목입니다.</text>
+  <text x="24" y="418" class="cap" style="fill:#616e7c">잔존만기는 최종거래일 2027.3.16 과 종목명의 만기 연월로 계산한 값 · 출처: 한국거래소 지정 내역 보도</text>
+  <text x="24" y="436" class="cap" style="fill:#616e7c">최종거래일은 결제월 세 번째 화요일이라는 상품명세에서 계산했고 공휴일이면 앞당겨집니다.</text>
+</svg>
