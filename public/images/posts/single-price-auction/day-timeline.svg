@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img" aria-label="하루 거래 시간표. 8시 30분부터 9시까지는 주문을 모아 시가를 정하고, 9시부터 3시 20분까지는 주문이 들어오는 대로 체결되며, 3시 20분부터 3시 30분까지는 다시 주문을 모아 종가를 정한다는 띠 그림">
+  <style>
+    text{font-family:'Apple SD Gothic Neo','Noto Sans KR',sans-serif;}
+    .h{font-size:19px;font-weight:700;}
+    .n{font-size:15px;font-weight:700;}
+    .s{font-size:13px;}
+    .cap{font-size:12px;}
+  </style>
+  <rect x="0" y="0" width="720" height="400" style="fill:#ffffff"/>
+  <text class="h" x="32" y="40" style="fill:#1b2733">모았다가 체결하는 구간은 하루에 두 번입니다</text>
+
+  <rect x="32" y="86" width="150" height="76" rx="8" style="fill:#e8eef6"/>
+  <rect x="190" y="86" width="330" height="76" rx="8" style="fill:#f3f6f9"/>
+  <rect x="528" y="86" width="160" height="76" rx="8" style="fill:#e8eef6"/>
+
+  <text class="n" x="48" y="116" style="fill:#2f6fb5">08:30 ~ 09:00</text>
+  <text class="s" x="48" y="140" style="fill:#3b4754">주문을 모읍니다</text>
+  <text class="s" x="48" y="158" style="fill:#3b4754">→ 09:00 시가 결정</text>
+
+  <text class="n" x="206" y="116" style="fill:#3b4754">09:00 ~ 15:20</text>
+  <text class="s" x="206" y="140" style="fill:#3b4754">값이 맞는 주문부터 그 자리에서 체결됩니다</text>
+  <text class="s" x="206" y="158" style="fill:#3b4754">우리가 보는 분봉이 이 구간입니다</text>
+
+  <text class="n" x="544" y="116" style="fill:#2f6fb5">15:20 ~ 15:30</text>
+  <text class="s" x="544" y="140" style="fill:#3b4754">다시 모읍니다</text>
+  <text class="s" x="544" y="158" style="fill:#3b4754">→ 15:30 종가 결정</text>
+
+  <line x1="32" y1="190" x2="688" y2="190" style="stroke:#c8d0d8;stroke-width:2"/>
+  <text class="s" x="32" y="212" style="fill:#78838e">장 시작</text>
+  <text class="s" x="632" y="212" style="fill:#78838e">장 마감</text>
+
+  <rect x="32" y="236" width="656" height="94" rx="8" style="fill:#f3f6f9"/>
+  <text class="s" x="50" y="262" style="fill:#3b4754">모으는 구간에도 화면에는 값이 뜹니다. 지금까지 들어온 주문으로 계산한 예상 체결가라,</text>
+  <text class="s" x="50" y="284" style="fill:#3b4754">주문이 더 들어오거나 취소되면 바뀝니다. 체결은 구간이 끝나는 순간에 한꺼번에 일어납니다.</text>
+  <text class="s" x="50" y="312" style="fill:#3b4754">거래가 멈췄다가 다시 열릴 때의 첫 가격도 같은 방식으로 정합니다.</text>
+
+  <text class="cap" x="32" y="358" style="fill:#78838e">유가증권시장 정규장의 시간대별 체결 방식을 보여줍니다.</text>
+  <text class="cap" x="32" y="376" style="fill:#78838e">시각은 한국거래소 시장 안내 기준이며, 정규장이 끝난 뒤의 시간외 거래는 이 그림에 넣지 않았습니다.</text>
+  <text class="cap" x="32" y="394" style="fill:#78838e">수능일처럼 개장 시각이 미뤄지는 날에는 이 시간표가 그만큼 밀립니다.</text>
+</svg>

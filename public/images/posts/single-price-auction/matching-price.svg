@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 430" role="img" aria-label="매수 주문을 높은 가격부터, 매도 주문을 낮은 가격부터 쌓아 올리면 두 누적 수량이 만나는 가격이 하나 나오고, 그 가격에서 체결 수량이 가장 커진다는 도식">
+  <style>
+    text{font-family:'Apple SD Gothic Neo','Noto Sans KR',sans-serif;}
+    .h{font-size:19px;font-weight:700;}
+    .n{font-size:14px;}
+    .s{font-size:13px;}
+    .cap{font-size:12px;}
+  </style>
+  <rect x="0" y="0" width="720" height="430" style="fill:#ffffff"/>
+  <text class="h" x="32" y="40" style="fill:#1b2733">누적 수량이 만나는 가격 하나를 찾습니다</text>
+
+  <line x1="110" y1="90" x2="110" y2="310" style="stroke:#c8d0d8;stroke-width:2"/>
+  <line x1="110" y1="310" x2="640" y2="310" style="stroke:#c8d0d8;stroke-width:2"/>
+  <text class="s" x="40" y="96" style="fill:#5a6672">누적</text>
+  <text class="s" x="40" y="112" style="fill:#5a6672">수량</text>
+  <text class="s" x="596" y="332" style="fill:#5a6672">가격 높음 →</text>
+  <text class="s" x="118" y="332" style="fill:#5a6672">← 가격 낮음</text>
+
+  <polyline points="130,120 220,150 310,190 375,228 440,262 530,288 620,300" style="fill:none;stroke:#2f6fb5;stroke-width:3"/>
+  <polyline points="130,298 220,284 310,256 375,228 440,186 530,146 620,118" style="fill:none;stroke:#c2562f;stroke-width:3"/>
+  <text class="n" x="136" y="112" style="fill:#2f6fb5">매수 누적 (높은 값부터)</text>
+  <text class="n" x="452" y="110" style="fill:#c2562f">매도 누적 (낮은 값부터)</text>
+
+  <circle cx="375" cy="228" r="7" style="fill:#1b2733"/>
+  <line x1="375" y1="228" x2="375" y2="310" style="stroke:#1b2733;stroke-width:2;stroke-dasharray:5 4"/>
+  <text class="n" x="300" y="352" style="fill:#1b2733">여기서 정해진 가격 하나</text>
+  <text class="s" x="300" y="372" style="fill:#5a6672">= 시가 또는 종가</text>
+
+  <rect x="446" y="196" width="238" height="86" rx="8" style="fill:#f3f6f9"/>
+  <text class="s" x="462" y="222" style="fill:#3b4754">두 줄이 만나는 값에서</text>
+  <text class="s" x="462" y="244" style="fill:#3b4754">맞춰지는 수량이 가장 커집니다.</text>
+  <text class="s" x="462" y="266" style="fill:#3b4754">그런 값이 여럿이면 직전 가격에</text>
+  <text class="s" x="462" y="288" style="fill:#3b4754">가장 가까운 값을 씁니다.</text>
+
+  <text class="cap" x="32" y="400" style="fill:#78838e">두 누적선이 만나는 자리에서 가격이 하나로 정해지는 구조를 보여줍니다.</text>
+  <text class="cap" x="32" y="418" style="fill:#78838e">선의 기울기와 위치는 설명을 위해 그린 것이고 특정 종목의 실제 호가 분포가 아닙니다.</text>
+</svg>
