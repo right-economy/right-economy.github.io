@@ -16,13 +16,32 @@ export const ADSENSE_CLIENT = 'ca-pub-5346278223838545';
 // Google Search Console 소유확인 메타 토큰. 발급받은 content 값만 넣으면 됨. 비우면 미삽입.
 export const GSC_VERIFICATION = 'URWVEa07_MRqW1giNH0NA8CVjRagzYNQ23BcWcmvYS0';
 
+// 쓸 수 있는 카테고리 전부. 글 스키마(src/content.config.ts)가 이 목록으로 원고를
+// 검사해서, 목록에 없는 값이면 빌드가 그 자리에서 실패한다.
+// (2026-11-08 SEO 감사 — 허용목록이 없어서 「경제」 4편·「경제 상식」 1편이 샜고,
+//  글 1~4편만 묶인 카테고리 허브 2장이 sitemap 에 올라가 있었다. 둘 다 기존
+//  카테고리와 겹치는 이름이라 검색결과에서 서로를 갉아먹는 자리였다.
+//  2026-10-22 감사는 허브 9장의 설명 길이를 재고도 그중 2장이 규격 밖인 걸
+//  못 봤다 — 「설명이 있나」를 보는 검사로는 「이 허브가 있어도 되나」가 안 보인다.)
+export const CATEGORIES = [
+  '기초 개념',
+  '지표 읽기',
+  '투자',
+  '생활 경제',
+  '부동산',
+  '경제 뉴스',
+  '시황',
+] as const;
+
+export type Category = (typeof CATEGORIES)[number];
+
 // 카테고리 허브의 meta description. 원래는 카테고리명만 끼운 한 문장을 9개 허브가
 // 공유했는데(「옳은경제의 <카테고리> 분야 글을 모아봤습니다. …」), 검색결과에
 // 나란히 뜨면 설명이 사실상 같아 검색엔진이 그 설명을 버리고 본문에서 임의로
 // 뽑아 쓴다. 허브마다 그 분야에서 실제로 다루는 것을 적는다.
 // 여기에 없는 카테고리는 아래 CATEGORY_DESCRIPTION_FALLBACK 으로 떨어진다.
 // (2026-10-22 SEO 감사 — 9개 허브 설명이 45~48자에 카테고리명만 달랐다)
-export const CATEGORY_DESCRIPTIONS: Record<string, string> = {
+export const CATEGORY_DESCRIPTIONS: Record<Category, string> = {
   '부동산': '서울·수도권 실거래와 분양가, 입주 물량, 경매 낙찰가율, 종부세와 중개보수까지. 집을 사고팔 때 돈이 걸리는 숫자를 직접 세어 확인합니다.',
   '기초 개념': '금리·채권·배당기준일·통화스와프처럼 뉴스에 그냥 나오는 말을 처음부터 풀어씁니다. 용어가 잡히면 그다음 기사가 읽힙니다.',
   '시황': '그날 코스피·코스닥 종가와 투자자별 매매, 환율·미국 증시·유가를 수치로 정리합니다. 직전 시황에 적어둔 관전 포인트가 어떻게 됐는지도 이어서 봅니다.',
