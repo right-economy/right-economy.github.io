@@ -1,8 +1,9 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
-import { SITE_NAME, SITE_DESCRIPTION, SITE_INSTAGRAM } from '../consts';
+import { SITE_NAME, SITE_DESCRIPTION } from '../consts';
 import { withBase } from '../lib/url';
+import { organizationNode, orgId as orgIdOf } from '../lib/schema';
 import { readingMinutes } from '../lib/reading';
 
 const posts = (await getCollection('posts')).sort(
@@ -15,11 +16,7 @@ const categories = CATEGORY_ORDER.filter((c) =>
 );
 
 const siteUrl = new URL(withBase('/'), Astro.site).href;
-const orgId = `${siteUrl}#organization`;
-// Organization.logo는 정사각 실로고를 써야 검색 리치결과에 브랜드 로고로 정확히
-// 인식된다(구글 가이드: 정사각 권장·최소 112px). og-default(1200×630 배너)는
-// 공유 미리보기용이라 로고로는 부적합 → 256×256 마스코트 favicon을 로고로 사용.
-const orgLogo = new URL(withBase('/favicon-cat.png'), Astro.site).href;
+const orgId = orgIdOf(Astro.site);
 
 // WebSite + ItemList(@graph): 검색엔진이 대표 글 목록을 구조로 이해하도록.
 // 최신 20편만 노출(과도한 목록 방지), position은 1부터.
@@ -33,17 +30,7 @@ const listItems = posts.slice(0, 20).map((post, i) => ({
 const jsonLd = {
   '@context': 'https://schema.org',
   '@graph': [
-    {
-      // 사이트를 대표하는 발행 주체. sameAs로 공식 인스타(@right.economy)와
-      // 같은 주체임을 명시 → 검색엔진 엔티티 인식·신뢰(E-E-A-T) 신호.
-      '@type': 'Organization',
-      '@id': orgId,
-      name: SITE_NAME,
-      url: siteUrl,
-      description: SITE_DESCRIPTION,
-      logo: { '@type': 'ImageObject', url: orgLogo },
-      sameAs: [SITE_INSTAGRAM],
-    },
+    organizationNode(Astro.site),
     {
       '@type': 'WebSite',
       name: SITE_NAME,

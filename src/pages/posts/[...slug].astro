@@ -1,8 +1,9 @@
 ---
 import { getCollection, render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { SITE_NAME, SITE_DESCRIPTION, SITE_INSTAGRAM } from '../../consts';
+import { SITE_NAME } from '../../consts';
 import { withBase } from '../../lib/url';
+import { organizationNode, orgId as orgIdOf } from '../../lib/schema';
 import { readingMinutes } from '../../lib/reading';
 
 export async function getStaticPaths() {
@@ -29,9 +30,6 @@ const minutes = readingMinutes(post.body);
 const canonical = new URL(Astro.url.pathname, Astro.site);
 const siteUrl = new URL(withBase('/'), Astro.site).href;
 const ogImage = new URL(withBase('/og-default.png'), Astro.site).href;
-// Organization.logo 전용: 정사각 실로고(256×256 마스코트 favicon). 배너인 og-default를
-// 로고로 쓰면 검색 리치결과에서 브랜드 로고로 부정확 인식 → 정사각 로고로 분리(구글 가이드).
-const orgLogo = new URL(withBase('/favicon-cat.png'), Astro.site).href;
 
 // Article 구조화 데이터 보강용: 글자 수 + ISO 8601 읽기 시간(PT#M)
 const wordCount = [...(post.body ?? '').replace(/[#>*`|_\-\[\]()!]/g, '')].length;
@@ -71,19 +69,11 @@ const categoryUrl = new URL(withBase(`/category/${categorySlug}/`), Astro.site).
 // 검색결과 리치 표시용 구조화 데이터: Organization + Article + BreadcrumbList (@graph)
 // 발행 주체를 홈페이지와 같은 @id(#organization)로 참조 → 검색엔진이 사이트 전체를
 // 단일 발행 엔티티로 통합 인식(E-E-A-T 신호). author·publisher가 같은 노드를 가리킨다.
-const orgId = `${siteUrl}#organization`;
+const orgId = orgIdOf(Astro.site);
 const jsonLd = {
   '@context': 'https://schema.org',
   '@graph': [
-    {
-      '@type': 'Organization',
-      '@id': orgId,
-      name: SITE_NAME,
-      url: siteUrl,
-      description: SITE_DESCRIPTION,
-      logo: { '@type': 'ImageObject', url: orgLogo },
-      sameAs: [SITE_INSTAGRAM],
-    },
+    organizationNode(Astro.site),
     {
       '@type': 'Article',
       headline: post.data.title,
