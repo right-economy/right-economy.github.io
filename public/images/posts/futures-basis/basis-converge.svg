@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" width="720" height="420" role="img" aria-label="선물 가격이 현물 가격보다 위에 있다가 만기로 갈수록 두 선이 만나고, 두 선 사이의 간격이 베이시스라는 것을 보여주는 그림">
+  <style>
+    text{font-family:'Apple SD Gothic Neo','Noto Sans KR',sans-serif;}
+    .h{font-size:17px;font-weight:700;}
+    .n{font-size:16px;font-weight:700;}
+    .s{font-size:14px;}
+    .cap{font-size:12px;}
+  </style>
+  <rect x="0" y="0" width="720" height="420" style="fill:#ffffff"/>
+  <text x="24" y="34" class="h" style="fill:#1f2933">두 선 사이의 간격이 베이시스입니다</text>
+
+  <line x1="90" y1="300" x2="660" y2="300" style="stroke:#cbd2d9;stroke-width:2"/>
+  <line x1="90" y1="80" x2="90" y2="300" style="stroke:#cbd2d9;stroke-width:2"/>
+  <text x="84" y="76" class="cap" text-anchor="end" style="fill:#7b8794">가격</text>
+  <text x="660" y="322" class="cap" text-anchor="end" style="fill:#7b8794">시간</text>
+  <text x="90" y="322" class="cap" style="fill:#7b8794">지금</text>
+  <text x="600" y="322" class="cap" text-anchor="middle" style="fill:#7b8794">만기</text>
+
+  <path d="M110 215 C220 205 330 200 440 196 C510 193 560 192 600 192" style="stroke:#2f6fa8;stroke-width:3;fill:none"/>
+  <path d="M110 140 C220 152 330 166 440 180 C510 186 560 190 600 192" style="stroke:#e8743b;stroke-width:3;fill:none"/>
+  <circle cx="600" cy="192" r="5" style="fill:#1f2933"/>
+
+  <text x="118" y="132" class="n" style="fill:#8a3b12">선물 가격</text>
+  <text x="118" y="236" class="n" style="fill:#1b4a73">현물 가격</text>
+  <text x="612" y="186" class="s" style="fill:#1f2933">두 값이</text>
+  <text x="612" y="206" class="s" style="fill:#1f2933">만납니다</text>
+
+  <line x1="200" y1="150" x2="200" y2="210" style="stroke:#3b7a57;stroke-width:2;stroke-dasharray:4 3"/>
+  <path d="M200 150 l-4 9 h8 z" style="fill:#3b7a57"/>
+  <path d="M200 210 l-4 -9 h8 z" style="fill:#3b7a57"/>
+  <text x="210" y="178" class="n" style="fill:#2b5e42">베이시스</text>
+  <text x="210" y="198" class="s" style="fill:#3b7a57">선물 − 현물</text>
+
+  <rect x="24" y="338" width="320" height="58" rx="8" style="fill:#f5f7fa;stroke:#cbd2d9;stroke-width:1.5"/>
+  <text x="38" y="360" class="s" style="fill:#1f2933">베이시스가 양수인 상태를 콘탱고라고</text>
+  <text x="38" y="382" class="s" style="fill:#1f2933">부릅니다. 보통 이쪽이 정상입니다.</text>
+
+  <rect x="360" y="338" width="336" height="58" rx="8" style="fill:#fff3e6;stroke:#e8743b;stroke-width:1.5"/>
+  <text x="374" y="360" class="s" style="fill:#8a3b12">선물이 현물보다 싸지면 음수가 되고,</text>
+  <text x="374" y="382" class="s" style="fill:#8a3b12">그 상태를 백워데이션이라고 부릅니다.</text>
+
+  <text x="24" y="412" class="cap" style="fill:#7b8794">선 모양은 두 값의 관계를 보이기 위해 그린 것이고 실제 시세 궤적이 아닙니다. 벌어진 폭도 임의로 과장해 그렸습니다.</text>
+</svg>
