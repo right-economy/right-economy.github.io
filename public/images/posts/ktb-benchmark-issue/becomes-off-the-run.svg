@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" font-family="Pretendard, sans-serif" role="img" aria-label="지표종목이 경과종목으로 바뀌는 흐름 도식. 통합기간 동안 한 종목이 지표종목 자리에 있고 그 기간에 열린 입찰은 모두 그 종목으로 쌓이며 뉴스 금리도 이 종목에서 매겨진다. 통합기간이 끝나고 새 종목이 나오면 새 종목이 지표종목이 되고 앞 종목은 경과종목으로 밀려나 거래가 뜸해진다. 밀려난 종목은 교환이나 바이백 대상이 된다">
   <rect width="720" height="320" fill="#fffaf5"/>
   <text x="360" y="34" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">새 종목이 나오면 자리가 바뀝니다</text>
-  <text x="360" y="57" text-anchor="middle" font-size="12.5" fill="#6f5443">출처: 기획재정부 국채시장 안내(지표종목·통합발행·교환) · 옳은경제 정리</text>
+  <text x="360" y="57" text-anchor="middle" font-size="12.5" fill="#6f5443">출처: 재정경제부 국채시장 안내(지표종목·통합발행·교환) · 옳은경제 정리</text>
 
   <rect x="40" y="82" width="300" height="110" rx="10" fill="#cfe3d5"/>
   <text x="190" y="110" text-anchor="middle" font-size="14" font-weight="800" fill="#2c5c3f">통합기간 동안</text>

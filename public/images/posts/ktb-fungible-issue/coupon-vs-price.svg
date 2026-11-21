@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" font-family="Pretendard, sans-serif" role="img" aria-label="통합발행 종목에서 표면금리는 고정되고 발행가격이 움직인다는 설명 도식. 통합기간 안에 열린 입찰마다 결정된 수익률이 다르더라도 표면금리와 만기일은 그대로이고, 수익률 차이는 발행가격으로 조정된다. 결정된 수익률이 표면금리보다 높으면 액면보다 싸게, 낮으면 액면보다 비싸게 발행된다">
   <rect width="720" height="300" fill="#fffaf5"/>
   <text x="360" y="34" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">고정된 칸과 움직이는 칸</text>
-  <text x="360" y="57" text-anchor="middle" font-size="12.5" fill="#6f5443">출처: 기획재정부 국채시장 안내 · 옳은경제 정리</text>
+  <text x="360" y="57" text-anchor="middle" font-size="12.5" fill="#6f5443">출처: 재정경제부 국채시장 안내 · 옳은경제 정리</text>
 
   <rect x="50" y="82" width="300" height="150" rx="10" fill="#eaf1f8"/>
   <text x="200" y="110" text-anchor="middle" font-size="14" font-weight="800" fill="#1f5c99">통합기간 내내 그대로인 것</text>

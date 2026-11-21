@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" font-family="Pretendard, sans-serif" role="img" aria-label="국고채 연물별 통합발행 주기 표. 2년물 3년물 5년물 10년물 30년물은 신규발행 연 2회에 통합기간 6개월이고, 20년물은 연 1회에 1년, 50년물과 물가연동국고채는 격년 1회에 2년이다">
   <rect width="720" height="360" fill="#fffaf5"/>
   <text x="360" y="34" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">연물마다 묶는 기간이 다릅니다</text>
-  <text x="360" y="57" text-anchor="middle" font-size="12.5" fill="#6f5443">출처: 기획재정부 국채시장 안내(국고채통합발행) · 2026년 11월 15일 조회</text>
+  <text x="360" y="57" text-anchor="middle" font-size="12.5" fill="#6f5443">출처: 재정경제부 국채시장 안내(국고채통합발행) · 2026년 11월 15일 조회</text>
 
   <rect x="60" y="78" width="200" height="30" rx="5" fill="#eaf1f8"/>
   <text x="160" y="99" text-anchor="middle" font-size="12.5" font-weight="800" fill="#1f5c99">연물</text>

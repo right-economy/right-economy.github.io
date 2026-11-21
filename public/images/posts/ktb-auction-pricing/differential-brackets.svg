@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" font-family="Pretendard, sans-serif" role="img" aria-label="차등가격 낙찰방식의 구간 적용 예시 도식. 최고낙찰금리 이하의 응찰금리를 4bp 간격으로 묶고 각 묶음에는 그 묶음 안에서 가장 높은 금리를 적용한다. 최고낙찰금리가 3.00%라고 가정하면 첫 묶음은 2.97에서 3.00%이고 적용 금리는 3.00%, 두 번째 묶음은 2.93에서 2.96%이고 적용 금리는 2.96%가 된다. 숫자는 설명을 위한 가정이며 실제 입찰 결과가 아니다">
   <rect width="720" height="330" fill="#fffaf5"/>
   <text x="360" y="34" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">같은 입찰인데 받는 금리가 갈립니다</text>
-  <text x="360" y="57" text-anchor="middle" font-size="12.5" fill="#6f5443">기준: 기획재정부 국채시장 안내 4bp 간격(2026년 11월 15일 조회) · 숫자는 설명용 가정</text>
+  <text x="360" y="57" text-anchor="middle" font-size="12.5" fill="#6f5443">기준: 재정경제부 국채시장 안내 4bp 간격(2026년 11월 15일 조회) · 숫자는 설명용 가정</text>
 
   <rect x="40" y="80" width="640" height="34" rx="6" fill="#f0e4d8"/>
   <text x="60" y="103" font-size="13" font-weight="800" fill="#5a4636">가정: 이 입찰의 최고낙찰금리가 3.00%로 정해졌습니다</text>
