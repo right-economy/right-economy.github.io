@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" role="img" aria-label="2026년 10월 19일부터 23일까지 발표·회의 일정을 날짜순으로 늘어놓은 표. 19일 중국 3분기 GDP와 9월 소매판매·산업생산, 20일 미국 9월 주택착공과 엔비디아 GTC 개막, 21일 한국 10월 1~20일 수출과 메타·IBM·텍사스인스트루먼트·램리서치 실적, 22일 한국은행 금융통화위원회와 웨스턴디지털 실적, 23일 미국 10월 PMI 잠정치">
+  <rect width="760" height="360" fill="#ffffff"/>
+  <style>
+    text{font-family:'Pretendard',system-ui,sans-serif;fill:#2a2521}
+    .title{font-size:17px;font-weight:700}
+    .note{font-size:12px;fill:#6b6157}
+    .day{font-size:14px;font-weight:800}
+    .item{font-size:12.5px}
+    .sub{font-size:11.5px;fill:#6b6157}
+  </style>
+
+  <text class="title" x="30" y="34">10월 19일부터 23일까지 나오는 것</text>
+  <text class="note" x="30" y="56">칠한 줄이 한국 증시가 직접 받는 자리 · 가장 진한 줄이 이번 주 가장 큰 자리</text>
+
+  <rect x="30" y="76" width="700" height="46" rx="8" fill="#f4f1ea" stroke="#c9bfae" stroke-width="1.5"/>
+  <text class="day" x="48" y="98">10/19 월</text>
+  <text class="item" x="150" y="97">중국 3분기 GDP · 9월 소매판매 · 9월 산업생산</text>
+  <text class="sub" x="150" y="114">GDP 시장 예상 전년 대비 4.4% 안팎</text>
+
+  <rect x="30" y="128" width="700" height="46" rx="8" fill="#ffffff" stroke="#c9bfae" stroke-width="1.5"/>
+  <text class="day" x="48" y="150">10/20 화</text>
+  <text class="item" x="150" y="149">미국 9월 주택착공</text>
+  <text class="sub" x="150" y="166">엔비디아 GTC 개막(베를린, 20~22일)</text>
+
+  <rect x="30" y="180" width="700" height="46" rx="8" fill="#f4f1ea" stroke="#c9bfae" stroke-width="1.5"/>
+  <text class="day" x="48" y="202">10/21 수</text>
+  <text class="item" x="150" y="201">한국 10월 1~20일 수출</text>
+  <text class="sub" x="150" y="218">미국 실적: 메타 · IBM · 텍사스인스트루먼트 · 램리서치</text>
+
+  <rect x="30" y="232" width="700" height="46" rx="8" fill="#2a2521"/>
+  <text class="day" x="48" y="254" style="fill:#ffb877">10/22 목</text>
+  <text class="item" x="150" y="253" style="fill:#ffffff">한국은행 금융통화위원회</text>
+  <text class="sub" x="150" y="270" style="fill:#9a8f7a">현재 기준금리 연 3.00% · 웨스턴디지털 실적</text>
+
+  <rect x="30" y="284" width="700" height="40" rx="8" fill="#ffffff" stroke="#c9bfae" stroke-width="1.5"/>
+  <text class="day" x="48" y="309">10/23 금</text>
+  <text class="item" x="150" y="308">미국 10월 S&amp;P 글로벌 PMI 잠정치</text>
+
+  <text class="sub" x="30" y="348">출처: 파이낸셜뉴스·뉴스핌·SBS Biz 주간 일정 정리(2026년 10월 18일 보도) · 2026년 10월 19일 오전 조회</text>
+</svg>
