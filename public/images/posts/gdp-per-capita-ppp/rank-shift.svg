@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" role="img" aria-label="명목 기준 순위와 구매력평가 기준 순위를 비교하면 한국은 39위에서 33위, 일본은 53위에서 45위, 대만은 37위에서 10위로 오르고 미국은 11위에서 13위로 내려간다는 그림">
+  <style>
+    text{font-family:'Apple SD Gothic Neo','Noto Sans KR',sans-serif;}
+    .h{font-size:19px;font-weight:700;}
+    .n{font-size:15px;}
+    .v{font-size:16px;font-weight:700;}
+    .s{font-size:13px;}
+  </style>
+  <rect x="0" y="0" width="720" height="340" style="fill:#ffffff"/>
+  <text class="h" x="32" y="42" style="fill:#1b2733">기준을 바꾸면 순위가 움직입니다</text>
+
+  <text class="n" x="150" y="80" style="fill:#5a6672">명목 기준</text>
+  <text class="n" x="430" y="80" style="fill:#5a6672">구매력평가 기준</text>
+  <text class="s" x="150" y="98" style="fill:#8a949e">213개국 중</text>
+  <text class="s" x="430" y="98" style="fill:#8a949e">202개국 중</text>
+
+  <text class="n" x="32" y="136" style="fill:#3b4754">한국</text>
+  <text class="v" x="150" y="136" style="fill:#1b2733">39위</text>
+  <line x1="220" y1="131" x2="410" y2="131" style="stroke:#2f6fb5;stroke-width:2"/>
+  <polygon points="410,131 400,127 400,135" style="fill:#2f6fb5"/>
+  <text class="v" x="430" y="136" style="fill:#2f6fb5">33위</text>
+
+  <text class="n" x="32" y="180" style="fill:#3b4754">일본</text>
+  <text class="v" x="150" y="180" style="fill:#1b2733">53위</text>
+  <line x1="220" y1="175" x2="410" y2="175" style="stroke:#2f6fb5;stroke-width:2"/>
+  <polygon points="410,175 400,171 400,179" style="fill:#2f6fb5"/>
+  <text class="v" x="430" y="180" style="fill:#2f6fb5">45위</text>
+
+  <text class="n" x="32" y="224" style="fill:#3b4754">대만</text>
+  <text class="v" x="150" y="224" style="fill:#1b2733">37위</text>
+  <line x1="220" y1="219" x2="410" y2="219" style="stroke:#2f6fb5;stroke-width:2"/>
+  <polygon points="410,219 400,215 400,223" style="fill:#2f6fb5"/>
+  <text class="v" x="430" y="224" style="fill:#2f6fb5">10위</text>
+
+  <text class="n" x="32" y="268" style="fill:#3b4754">미국</text>
+  <text class="v" x="150" y="268" style="fill:#1b2733">11위</text>
+  <line x1="220" y1="263" x2="410" y2="263" style="stroke:#c2562f;stroke-width:2"/>
+  <polygon points="410,263 400,259 400,267" style="fill:#c2562f"/>
+  <text class="v" x="430" y="268" style="fill:#c2562f">13위</text>
+
+  <text class="s" x="32" y="304" style="fill:#5a6672">두 순위는 목록에 오른 나라 수가 달라 계단 수를 그대로 빼서 읽지 않습니다.</text>
+  <text class="s" x="32" y="324" style="fill:#5a6672">단위: 등수 · 기준: 국제통화기금 세계경제전망 2026년 10월판의 2026년 전망치</text>
+</svg>
