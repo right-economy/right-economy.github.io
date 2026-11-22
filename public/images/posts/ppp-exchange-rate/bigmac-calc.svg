@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" role="img" aria-label="한국 빅맥 5,700원을 미국 빅맥 6.22달러로 나누면 1달러당 916.4원이 나온다는 계산 도식">
+  <style>
+    text{font-family:'Apple SD Gothic Neo','Noto Sans KR',sans-serif;}
+    .h{font-size:19px;font-weight:700;}
+    .n{font-size:15px;}
+    .s{font-size:13px;}
+    .big{font-size:26px;font-weight:700;}
+  </style>
+  <rect x="0" y="0" width="720" height="320" style="fill:#ffffff"/>
+  <text class="h" x="32" y="42" style="fill:#1b2733">같은 햄버거 값으로 환율을 만드는 계산</text>
+
+  <rect x="32" y="74" width="190" height="104" rx="10" style="fill:#f3f6f9"/>
+  <text class="s" x="50" y="102" style="fill:#5a6672">한국 빅맥 값</text>
+  <text class="big" x="50" y="140" style="fill:#2f6fb5">5,700원</text>
+  <text class="s" x="50" y="164" style="fill:#5a6672">2026년 7월판</text>
+
+  <text class="big" x="240" y="134" style="fill:#3b4754">÷</text>
+
+  <rect x="278" y="74" width="190" height="104" rx="10" style="fill:#f3f6f9"/>
+  <text class="s" x="296" y="102" style="fill:#5a6672">미국 빅맥 값</text>
+  <text class="big" x="296" y="140" style="fill:#c2562f">6.22달러</text>
+  <text class="s" x="296" y="164" style="fill:#5a6672">같은 판의 기준값</text>
+
+  <text class="big" x="486" y="134" style="fill:#3b4754">=</text>
+
+  <rect x="524" y="74" width="164" height="104" rx="10" style="fill:#eaf1f8"/>
+  <text class="s" x="542" y="102" style="fill:#5a6672">버거로 잰 환율</text>
+  <text class="big" x="542" y="140" style="fill:#1b2733">916.4원</text>
+  <text class="s" x="542" y="164" style="fill:#5a6672">1달러당</text>
+
+  <line x1="32" y1="210" x2="688" y2="210" style="stroke:#c8d0d8;stroke-width:1"/>
+  <text class="n" x="32" y="242" style="fill:#3b4754">같은 날 시장에서 거래된 환율은 1달러당 1,485.90원이었습니다.</text>
+  <text class="n" x="32" y="268" style="fill:#3b4754">두 값의 차이가 「원화가 38.3% 저평가」라는 문장이 됩니다.</text>
+  <text class="s" x="32" y="298" style="fill:#5a6672">단위: 원, 달러 · 기준: 이코노미스트 빅맥지수 2026년 7월판(환율은 7월 1일 기준)</text>
+</svg>

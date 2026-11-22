@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img" aria-label="구매력평가환율 820원, 빅맥으로 계산한 916원, 2026년 11월 20일 시장환율 1,330원을 가로 막대로 비교한 그림">
+  <style>
+    text{font-family:'Apple SD Gothic Neo','Noto Sans KR',sans-serif;}
+    .h{font-size:19px;font-weight:700;}
+    .n{font-size:15px;}
+    .v{font-size:17px;font-weight:700;}
+    .s{font-size:13px;}
+  </style>
+  <rect x="0" y="0" width="720" height="400" style="fill:#ffffff"/>
+  <text class="h" x="32" y="42" style="fill:#1b2733">1달러를 몇 원으로 보느냐가 세 갈래입니다</text>
+
+  <rect x="196" y="76" width="246" height="36" rx="6" style="fill:#7fa6cc"/>
+  <text class="n" x="32" y="100" style="fill:#3b4754">구매력평가환율</text>
+  <text class="s" x="32" y="118" style="fill:#5a6672">2025년</text>
+  <text class="v" x="454" y="101" style="fill:#1b2733">820원</text>
+
+  <rect x="196" y="146" width="275" height="36" rx="6" style="fill:#2f6fb5"/>
+  <text class="n" x="32" y="170" style="fill:#3b4754">빅맥으로 계산</text>
+  <text class="s" x="32" y="188" style="fill:#5a6672">2026년 7월판</text>
+  <text class="v" x="483" y="171" style="fill:#1b2733">916원</text>
+
+  <rect x="196" y="216" width="399" height="36" rx="6" style="fill:#c2562f"/>
+  <text class="n" x="32" y="240" style="fill:#3b4754">시장환율</text>
+  <text class="s" x="32" y="258" style="fill:#5a6672">2026년 11월 20일</text>
+  <text class="v" x="607" y="241" style="fill:#1b2733">1,330원</text>
+
+  <line x1="196" y1="286" x2="688" y2="286" style="stroke:#c8d0d8;stroke-width:1"/>
+  <text class="s" x="196" y="306" style="fill:#5a6672">막대 길이는 원 금액에 비례합니다(0원에서 시작)</text>
+
+  <text class="n" x="32" y="340" style="fill:#3b4754">시장환율은 구매력평가환율의 1.62배입니다. 7월에는 1.81배였습니다.</text>
+  <text class="s" x="32" y="366" style="fill:#5a6672">단위: 원/달러 · 출처: 구매력평가환율은 한국경제 경제학산책(2026.7.9),</text>
+  <text class="s" x="32" y="386" style="fill:#5a6672">빅맥은 이코노미스트 2026년 7월판, 시장환율은 11월 20일 서울 외환시장 종가</text>
+</svg>
