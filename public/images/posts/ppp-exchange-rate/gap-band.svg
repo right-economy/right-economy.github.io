@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 354" role="img" aria-label="구매력평가환율의 1.2배에서 1.6배 구간인 984원에서 1,312원을 띠로 표시하고, 2026년 7월 1,486원은 띠 위쪽 밖에, 11월 1,330원은 띠 상단에 거의 닿은 위치로 표시한 그림">
+  <style>
+    text{font-family:'Apple SD Gothic Neo','Noto Sans KR',sans-serif;}
+    .h{font-size:19px;font-weight:700;}
+    .n{font-size:15px;}
+    .s{font-size:13px;}
+    .v{font-size:15px;font-weight:700;}
+  </style>
+  <rect x="0" y="0" width="720" height="354" style="fill:#ffffff"/>
+  <text class="h" x="32" y="42" style="fill:#1b2733">과거에 머물던 구간과 지금 자리</text>
+
+  <line x1="150" y1="80" x2="150" y2="250" style="stroke:#c8d0d8;stroke-width:2"/>
+  <rect x="150" y="150" width="470" height="70" style="fill:#eaf1f8"/>
+  <text class="s" x="628" y="166" style="fill:#5a6672">1,312원</text>
+  <text class="s" x="628" y="218" style="fill:#5a6672">984원</text>
+  <text class="n" x="166" y="192" style="fill:#3b4754">2012~2022년이 머문 구간 (구매력평가환율의 1.2~1.6배)</text>
+
+  <line x1="150" y1="113" x2="620" y2="113" style="stroke:#c2562f;stroke-width:3"/>
+  <text class="v" x="166" y="105" style="fill:#c2562f">2026년 7월 1,486원 (구간 밖)</text>
+
+  <line x1="150" y1="146" x2="620" y2="146" style="stroke:#2f6fb5;stroke-width:3;stroke-dasharray:6 4"/>
+  <text class="v" x="166" y="138" style="fill:#2f6fb5">2026년 11월 1,330원 (상단에 거의 닿음)</text>
+
+  <text class="s" x="32" y="86" style="fill:#5a6672">높음</text>
+  <text class="s" x="32" y="250" style="fill:#5a6672">낮음</text>
+
+  <text class="n" x="32" y="288" style="fill:#3b4754">구간 안으로 들어왔다는 것이 더 내려간다는 뜻은 아닙니다. 같은 자리에 오래 머문 적도 있습니다.</text>
+  <text class="s" x="32" y="316" style="fill:#5a6672">단위: 원/달러 · 세로 위치만 금액에 비례 · 구간은 2025년 구매력평가환율 820원에</text>
+  <text class="s" x="32" y="336" style="fill:#5a6672">1.2배와 1.6배를 적용한 값 · 출처: 한국경제 경제학산책(2026.7.9)</text>
+</svg>
