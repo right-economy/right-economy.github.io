@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img" aria-label="2026년 한국의 1인당 국내총생산이 명목 기준 4만 3,510달러, 구매력평가 기준 7만 250달러로 1.61배 차이가 난다는 막대 비교">
+  <style>
+    text{font-family:'Apple SD Gothic Neo','Noto Sans KR',sans-serif;}
+    .h{font-size:19px;font-weight:700;}
+    .n{font-size:15px;}
+    .v{font-size:17px;font-weight:700;}
+    .s{font-size:13px;}
+  </style>
+  <rect x="0" y="0" width="720" height="300" style="fill:#ffffff"/>
+  <text class="h" x="32" y="42" style="fill:#1b2733">같은 해 한국의 1인당 소득이 두 값으로 나옵니다</text>
+
+  <rect x="196" y="76" width="218" height="38" rx="6" style="fill:#7fa6cc"/>
+  <text class="n" x="32" y="94" style="fill:#3b4754">명목 기준</text>
+  <text class="s" x="32" y="112" style="fill:#5a6672">시장환율로 환산</text>
+  <text class="v" x="426" y="102" style="fill:#1b2733">43,510달러</text>
+
+  <rect x="196" y="140" width="351" height="38" rx="6" style="fill:#2f6fb5"/>
+  <text class="n" x="32" y="158" style="fill:#3b4754">구매력평가 기준</text>
+  <text class="s" x="32" y="176" style="fill:#5a6672">물가로 환산</text>
+  <text class="v" x="559" y="166" style="fill:#1b2733">70,250달러</text>
+
+  <line x1="196" y1="206" x2="688" y2="206" style="stroke:#c8d0d8;stroke-width:1"/>
+  <text class="s" x="196" y="226" style="fill:#5a6672">막대 길이는 금액에 비례합니다(0달러에서 시작)</text>
+
+  <text class="n" x="32" y="258" style="fill:#3b4754">두 값의 비는 1.61배입니다. 환율을 무엇으로 잡느냐만 다릅니다.</text>
+  <text class="s" x="32" y="284" style="fill:#5a6672">단위: 달러 · 기준: 국제통화기금 세계경제전망 2026년 10월판의 2026년 전망치</text>
+</svg>
