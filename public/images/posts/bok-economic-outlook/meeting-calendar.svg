@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img" aria-label="1월부터 12월까지 가운데 통화정책방향 결정회의가 열리는 여덟 달을 표시하고 그중 2월 5월 8월 11월 네 달에만 경제전망보고서가 함께 나온다는 것을 색으로 구분한 달력 띠 그림">
+  <style>
+    text{font-family:'Apple SD Gothic Neo','Noto Sans KR',sans-serif;}
+    .h{font-size:19px;font-weight:700;}
+    .m{font-size:15px;font-weight:700;}
+    .n{font-size:14px;}
+    .s{font-size:13px;}
+  </style>
+  <rect x="0" y="0" width="720" height="300" style="fill:#ffffff"/>
+  <text class="h" x="32" y="40" style="fill:#1b2733">금리를 정하는 날은 여덟 번, 전망이 같이 나오는 날은 네 번입니다</text>
+
+  <rect x="32" y="70" width="48" height="44" rx="6" style="fill:#7fa6cc"/>
+  <text class="m" x="47" y="98" style="fill:#ffffff">1월</text>
+  <rect x="88" y="70" width="48" height="44" rx="6" style="fill:#c2562f"/>
+  <text class="m" x="103" y="98" style="fill:#ffffff">2월</text>
+  <rect x="144" y="70" width="48" height="44" rx="6" style="fill:#eef1f4"/>
+  <text class="m" x="159" y="98" style="fill:#6b7682">3월</text>
+  <rect x="200" y="70" width="48" height="44" rx="6" style="fill:#7fa6cc"/>
+  <text class="m" x="215" y="98" style="fill:#ffffff">4월</text>
+  <rect x="256" y="70" width="48" height="44" rx="6" style="fill:#c2562f"/>
+  <text class="m" x="271" y="98" style="fill:#ffffff">5월</text>
+  <rect x="312" y="70" width="48" height="44" rx="6" style="fill:#eef1f4"/>
+  <text class="m" x="327" y="98" style="fill:#6b7682">6월</text>
+  <rect x="368" y="70" width="48" height="44" rx="6" style="fill:#7fa6cc"/>
+  <text class="m" x="383" y="98" style="fill:#ffffff">7월</text>
+  <rect x="424" y="70" width="48" height="44" rx="6" style="fill:#c2562f"/>
+  <text class="m" x="439" y="98" style="fill:#ffffff">8월</text>
+  <rect x="480" y="70" width="48" height="44" rx="6" style="fill:#eef1f4"/>
+  <text class="m" x="495" y="98" style="fill:#6b7682">9월</text>
+  <rect x="536" y="70" width="52" height="44" rx="6" style="fill:#7fa6cc"/>
+  <text class="m" x="546" y="98" style="fill:#ffffff">10월</text>
+  <rect x="596" y="70" width="52" height="44" rx="6" style="fill:#c2562f"/>
+  <text class="m" x="606" y="98" style="fill:#ffffff">11월</text>
+  <rect x="656" y="70" width="52" height="44" rx="6" style="fill:#eef1f4"/>
+  <text class="m" x="666" y="98" style="fill:#6b7682">12월</text>
+
+  <rect x="32" y="146" width="22" height="16" rx="4" style="fill:#c2562f"/>
+  <text class="n" x="64" y="159" style="fill:#3b4754">금리 결정 + 경제전망보고서 (4회)</text>
+  <rect x="340" y="146" width="22" height="16" rx="4" style="fill:#7fa6cc"/>
+  <text class="n" x="372" y="159" style="fill:#3b4754">금리 결정만 (4회)</text>
+  <rect x="32" y="178" width="22" height="16" rx="4" style="fill:#eef1f4"/>
+  <text class="n" x="64" y="191" style="fill:#3b4754">통화정책방향 결정회의가 없는 달 (4개월)</text>
+
+  <line x1="32" y1="216" x2="688" y2="216" style="stroke:#c8d0d8;stroke-width:1"/>
+  <text class="s" x="32" y="240" style="fill:#5a6672">회의 날짜는 한국은행이 전년에 연간 단위로 미리 공고하며, 경제여건이 급변하면 임시회의가 열릴 수 있습니다.</text>
+  <text class="s" x="32" y="266" style="fill:#5a6672">기준: 2017년 이후 운영 방식 · 출처: 한국은행 통화정책 운영 안내</text>
+</svg>
