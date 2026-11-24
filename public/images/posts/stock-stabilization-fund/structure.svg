@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img" aria-label="금융회사가 10조원, 증권 유관기관이 7600억원을 약정해 10조 7600억원 규모의 증권시장안정펀드를 만들고 그 돈으로 주식과 상장지수펀드를 매입하는 흐름을 상자와 화살표로 그린 도식">
+  <style>
+    text{font-family:'Apple SD Gothic Neo','Noto Sans KR',sans-serif;}
+    .h{font-size:19px;font-weight:700;}
+    .n{font-size:15px;}
+    .v{font-size:18px;font-weight:700;}
+    .s{font-size:13px;}
+  </style>
+  <rect x="0" y="0" width="720" height="400" style="fill:#ffffff"/>
+  <text class="h" x="32" y="40" style="fill:#1b2733">돈은 미리 들어와 있지 않고, 약정만 돼 있습니다</text>
+
+  <rect x="32" y="74" width="190" height="72" rx="6" style="fill:#eaf0f6;stroke:#7fa6cc;stroke-width:1.5"/>
+  <text class="n" x="52" y="102" style="fill:#3b4754">금융회사</text>
+  <text class="v" x="52" y="128" style="fill:#1b2733">10조원 약정</text>
+
+  <rect x="32" y="164" width="190" height="72" rx="6" style="fill:#eaf0f6;stroke:#7fa6cc;stroke-width:1.5"/>
+  <text class="n" x="52" y="192" style="fill:#3b4754">증권 유관기관</text>
+  <text class="v" x="52" y="218" style="fill:#1b2733">7,600억원 약정</text>
+
+  <line x1="222" y1="110" x2="286" y2="146" style="stroke:#7fa6cc;stroke-width:2"/>
+  <line x1="222" y1="200" x2="286" y2="166" style="stroke:#7fa6cc;stroke-width:2"/>
+
+  <rect x="290" y="118" width="180" height="80" rx="6" style="fill:#2f6fb5"/>
+  <text class="n" x="312" y="148" style="fill:#ffffff">증권시장안정펀드</text>
+  <text class="v" x="312" y="176" style="fill:#ffffff">10조 7,600억원</text>
+
+  <line x1="470" y1="158" x2="530" y2="158" style="stroke:#2f6fb5;stroke-width:2"/>
+  <polygon points="530,152 544,158 530,164" style="fill:#2f6fb5"/>
+
+  <rect x="548" y="118" width="140" height="80" rx="6" style="fill:#f3ece6;stroke:#c2562f;stroke-width:1.5"/>
+  <text class="n" x="568" y="148" style="fill:#3b4754">주식 · ETF</text>
+  <text class="n" x="568" y="174" style="fill:#3b4754">매입</text>
+
+  <rect x="32" y="258" width="656" height="56" rx="6" style="fill:#fdf6ee;stroke:#d8b48c;stroke-width:1.5"/>
+  <text class="n" x="52" y="282" style="fill:#1b2733">캐피털콜: 출자기관이 금액을 미리 약속해 두고, 펀드가 요청할 때 그때그때 납입합니다.</text>
+  <text class="s" x="52" y="304" style="fill:#5a6672">그래서 "10조 7,600억원 조성"은 통장에 그 돈이 있다는 뜻이 아니라 모을 수 있다는 뜻입니다.</text>
+
+  <text class="s" x="32" y="348" style="fill:#5a6672">국가 예산이 들어가는 구조가 아니라 민간 금융회사의 출자 약정으로 만들어집니다.</text>
+  <text class="s" x="32" y="370" style="fill:#5a6672">단위: 원 · 기준: 2020년 조성 당시 구성 · 출처: 쿠키뉴스·비즈워치(2026.11.23) 보도 종합</text>
+</svg>
