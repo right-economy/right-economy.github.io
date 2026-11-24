@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img" aria-label="공동펀드를 집행한 2003년과 2008년에 코스피가 그 뒤 1년간 각각 41.3퍼센트와 42.0퍼센트 올랐다는 것을 세로 막대로 비교하고, 같은 기간 다른 경기회복 요인이 섞여 있다는 단서를 함께 적은 그림">
+  <style>
+    text{font-family:'Apple SD Gothic Neo','Noto Sans KR',sans-serif;}
+    .h{font-size:19px;font-weight:700;}
+    .n{font-size:15px;}
+    .v{font-size:20px;font-weight:700;}
+    .s{font-size:13px;}
+  </style>
+  <rect x="0" y="0" width="720" height="400" style="fill:#ffffff"/>
+  <text class="h" x="32" y="40" style="fill:#1b2733">집행한 두 해 모두 1년 뒤 코스피는 40% 넘게 올라 있었습니다</text>
+
+  <line x1="100" y1="268" x2="660" y2="268" style="stroke:#c8d0d8;stroke-width:1.5"/>
+
+  <rect x="180" y="103" width="110" height="165" rx="5" style="fill:#2f6fb5"/>
+  <text class="v" x="196" y="91" style="fill:#1b2733">+41.3%</text>
+  <text class="n" x="186" y="292" style="fill:#3b4754">2003년 집행 후</text>
+
+  <rect x="420" y="100" width="110" height="168" rx="5" style="fill:#c2562f"/>
+  <text class="v" x="436" y="88" style="fill:#1b2733">+42.0%</text>
+  <text class="n" x="426" y="292" style="fill:#3b4754">2008년 집행 후</text>
+
+  <text class="s" x="32" y="330" style="fill:#5a6672">두 막대 모두 집행 시점부터 1년간 코스피 상승률입니다. 막대 높이는 0%에서 시작합니다.</text>
+  <text class="s" x="32" y="352" style="fill:#5a6672">같은 기간에 금리 인하와 경기 회복이 함께 있었던 구간이라, 이 상승분을 펀드 몫으로만 보기는 어렵습니다.</text>
+  <text class="s" x="32" y="376" style="fill:#5a6672">단위: % · 기준: 각 해 공동펀드 집행 시점부터 1년 · 출처: 키움증권 집계, 쿠키뉴스(2026.11.23) 재인용</text>
+</svg>
