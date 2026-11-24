@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img" aria-label="상장사가 자기주식을 직접 취득할 때 하루 매수주문 수량은 취득신고 수량의 10퍼센트와 이사회 결의 전 1개월 일평균 거래량의 25퍼센트 중 많은 쪽으로 정하고, 그 값이 발행주식총수의 1퍼센트를 넘으면 1퍼센트에서 끊긴다는 순서를 상자와 화살표로 그린 도식">
+  <style>
+    text{font-family:'Apple SD Gothic Neo','Noto Sans KR',sans-serif;}
+    .h{font-size:19px;font-weight:700;}
+    .n{font-size:15px;}
+    .v{font-size:16px;font-weight:700;}
+    .s{font-size:13px;}
+  </style>
+  <rect x="0" y="0" width="720" height="400" style="fill:#ffffff"/>
+  <text class="h" x="32" y="40" style="fill:#1b2733">두 값 중 큰 쪽을 고르고, 1% 천장에서 끊습니다</text>
+
+  <rect x="32" y="72" width="250" height="68" rx="6" style="fill:#eaf0f6;stroke:#7fa6cc;stroke-width:1.5"/>
+  <text class="n" x="50" y="98" style="fill:#3b4754">취득신고 수량의</text>
+  <text class="v" x="50" y="122" style="fill:#1b2733">10%</text>
+
+  <rect x="32" y="158" width="250" height="68" rx="6" style="fill:#eaf0f6;stroke:#7fa6cc;stroke-width:1.5"/>
+  <text class="n" x="50" y="184" style="fill:#3b4754">결의 전 1개월 일평균 거래량의</text>
+  <text class="v" x="50" y="208" style="fill:#1b2733">25%</text>
+
+  <text class="v" x="300" y="155" style="fill:#2f6fb5">둘 중</text>
+  <text class="v" x="300" y="178" style="fill:#2f6fb5">많은 쪽</text>
+
+  <line x1="282" y1="106" x2="372" y2="140" style="stroke:#7fa6cc;stroke-width:2"/>
+  <line x1="282" y1="192" x2="372" y2="158" style="stroke:#7fa6cc;stroke-width:2"/>
+
+  <rect x="376" y="118" width="150" height="62" rx="6" style="fill:#2f6fb5"/>
+  <text class="n" x="396" y="144" style="fill:#ffffff">그날 주문할</text>
+  <text class="n" x="396" y="166" style="fill:#ffffff">수 있는 수량</text>
+
+  <line x1="526" y1="149" x2="578" y2="149" style="stroke:#c2562f;stroke-width:2"/>
+  <polygon points="578,143 592,149 578,155" style="fill:#c2562f"/>
+
+  <rect x="548" y="200" width="140" height="0" style="fill:none"/>
+  <rect x="596" y="112" width="92" height="74" rx="6" style="fill:#f3ece6;stroke:#c2562f;stroke-width:1.5"/>
+  <text class="s" x="612" y="138" style="fill:#3b4754">발행주식</text>
+  <text class="s" x="612" y="156" style="fill:#3b4754">총수의</text>
+  <text class="v" x="612" y="178" style="fill:#c2562f">1%</text>
+
+  <text class="n" x="32" y="268" style="fill:#1b2733">앞의 두 값이 1%보다 크게 나오더라도 1%에서 잘립니다. 1%는 고르는 선택지가 아니라 천장입니다.</text>
+  <text class="n" x="32" y="296" style="fill:#3b4754">신탁계약으로 사는 경우에는 두 값을 따지지 않고 발행주식총수의 1%만 봅니다.</text>
+
+  <text class="s" x="32" y="344" style="fill:#5a6672">직접 취득 기준입니다. 취득신고 수량은 회사가 "이만큼 사겠다"고 미리 알린 전체 물량입니다.</text>
+  <text class="s" x="32" y="368" style="fill:#5a6672">기준: 2026년 11월 23일 이전의 평시 규정 · 출처: 금융위원회 조치 보도(파이낸셜뉴스·비즈워치, 2026.11.23)</text>
+</svg>
