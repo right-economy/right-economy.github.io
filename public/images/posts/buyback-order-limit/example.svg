@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img" aria-label="발행주식 1억주, 취득신고 500만주, 1개월 일평균 거래량 80만주를 가정하면 취득신고의 10퍼센트는 50만주, 거래량의 25퍼센트는 20만주이고, 큰 쪽인 50만주가 발행주식 1퍼센트인 100만주 아래이므로 하루 주문 한도가 50만주가 된다는 계산을 단계별로 보여주는 그림">
+  <style>
+    text{font-family:'Apple SD Gothic Neo','Noto Sans KR',sans-serif;}
+    .h{font-size:19px;font-weight:700;}
+    .n{font-size:15px;}
+    .v{font-size:17px;font-weight:700;}
+    .s{font-size:13px;}
+  </style>
+  <rect x="0" y="0" width="720" height="400" style="fill:#ffffff"/>
+  <text class="h" x="32" y="38" style="fill:#1b2733">가정한 숫자로 한 번 계산해 보면</text>
+  <text class="s" x="32" y="60" style="fill:#c2562f">실제 회사의 값이 아니라 설명을 위해 만든 숫자입니다.</text>
+
+  <rect x="32" y="78" width="656" height="46" rx="6" style="fill:#f6f8fa;stroke:#c8d0d8;stroke-width:1"/>
+  <text class="n" x="50" y="107" style="fill:#3b4754">전제 — 발행주식 1억주  ·  취득신고 500만주  ·  결의 전 1개월 일평균 거래량 80만주</text>
+
+  <text class="n" x="32" y="160" style="fill:#3b4754">① 취득신고의 10%</text>
+  <rect x="220" y="144" width="150" height="24" rx="4" style="fill:#2f6fb5"/>
+  <text class="v" x="382" y="163" style="fill:#1b2733">50만주</text>
+
+  <text class="n" x="32" y="204" style="fill:#3b4754">② 일평균 거래량의 25%</text>
+  <rect x="220" y="188" width="60" height="24" rx="4" style="fill:#7fa6cc"/>
+  <text class="v" x="292" y="207" style="fill:#1b2733">20만주</text>
+
+  <text class="n" x="32" y="248" style="fill:#3b4754">③ 발행주식의 1% (천장)</text>
+  <rect x="220" y="232" width="300" height="24" rx="4" style="fill:#ffffff;stroke:#c2562f;stroke-width:1.5;stroke-dasharray:6 4"/>
+  <text class="v" x="532" y="251" style="fill:#c2562f">100만주</text>
+
+  <rect x="32" y="286" width="656" height="52" rx="6" style="fill:#eaf0f6;stroke:#2f6fb5;stroke-width:1.5"/>
+  <text class="n" x="50" y="318" style="fill:#1b2733">큰 쪽은 ①의 50만주이고 천장 100만주 아래이므로, 하루 주문 한도는 50만주입니다.</text>
+
+  <text class="s" x="32" y="366" style="fill:#5a6672">500만주를 다 사려면 이 속도로는 최소 열흘치 주문이 필요합니다. 막대 길이는 주식 수에 비례합니다.</text>
+  <text class="s" x="32" y="386" style="fill:#5a6672">단위: 주 · 기준: 2026년 11월 23일 이전의 평시 규정으로 계산한 가상 예시</text>
+</svg>

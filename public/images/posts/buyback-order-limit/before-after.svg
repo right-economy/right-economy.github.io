@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img" aria-label="평시에는 직접 취득의 하루 주문 한도가 세 숫자로 묶이고 신탁 취득은 발행주식총수 1퍼센트였으나, 2026년 11월 24일부터 2027년 2월 23일까지는 직접 취득은 취득신고 전량, 신탁 취득은 신탁재산 총액 범위까지 주문할 수 있게 바뀐다는 것을 두 칸으로 비교한 표 형태의 그림">
+  <style>
+    text{font-family:'Apple SD Gothic Neo','Noto Sans KR',sans-serif;}
+    .h{font-size:19px;font-weight:700;}
+    .n{font-size:15px;}
+    .v{font-size:15px;font-weight:700;}
+    .s{font-size:13px;}
+  </style>
+  <rect x="0" y="0" width="720" height="400" style="fill:#ffffff"/>
+  <text class="h" x="32" y="40" style="fill:#1b2733">3개월간 하루 한도가 사실상 없어집니다</text>
+
+  <rect x="32" y="68" width="316" height="38" rx="6" style="fill:#eaf0f6"/>
+  <text class="v" x="52" y="93" style="fill:#1b2733">평시 (11월 23일까지)</text>
+
+  <rect x="372" y="68" width="316" height="38" rx="6" style="fill:#f3ece6"/>
+  <text class="v" x="392" y="93" style="fill:#c2562f">11월 24일 ~ 2027년 2월 23일</text>
+
+  <text class="s" x="32" y="130" style="fill:#5a6672">직접 취득</text>
+  <rect x="32" y="138" width="316" height="86" rx="6" style="fill:#ffffff;stroke:#7fa6cc;stroke-width:1.5"/>
+  <text class="n" x="50" y="164" style="fill:#3b4754">신고 수량의 10% 또는</text>
+  <text class="n" x="50" y="186" style="fill:#3b4754">일평균 거래량의 25% 중 큰 쪽,</text>
+  <text class="n" x="50" y="208" style="fill:#3b4754">발행주식총수 1% 이내</text>
+
+  <rect x="372" y="138" width="316" height="86" rx="6" style="fill:#ffffff;stroke:#c2562f;stroke-width:1.5"/>
+  <text class="n" x="390" y="176" style="fill:#1b2733">취득신고한 주식 전량을</text>
+  <text class="n" x="390" y="198" style="fill:#1b2733">하루에 주문 가능</text>
+
+  <text class="s" x="32" y="256" style="fill:#5a6672">신탁 취득</text>
+  <rect x="32" y="264" width="316" height="62" rx="6" style="fill:#ffffff;stroke:#7fa6cc;stroke-width:1.5"/>
+  <text class="n" x="50" y="302" style="fill:#3b4754">발행주식총수 1% 이내</text>
+
+  <rect x="372" y="264" width="316" height="62" rx="6" style="fill:#ffffff;stroke:#c2562f;stroke-width:1.5"/>
+  <text class="n" x="390" y="302" style="fill:#1b2733">신탁재산 총액 범위 안에서 주문 가능</text>
+
+  <text class="s" x="32" y="358" style="fill:#5a6672">기간이 끝나면 왼쪽 칸으로 돌아갑니다. 살 수 있는 총량이 늘어난 것은 아니고 하루에 넣는 속도만 풀렸습니다.</text>
+  <text class="s" x="32" y="380" style="fill:#5a6672">기준: 금융위원회 2026년 11월 23일 제20차 정례회의 의결 · 출처: 파이낸셜뉴스·비즈워치·아시아경제(2026.11.23)</text>
+</svg>
