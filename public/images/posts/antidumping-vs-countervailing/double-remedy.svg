@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" width="720" height="320" role="img" aria-label="수출보조금은 수출가격만 끌어내리기 때문에 반덤핑관세가 이미 그 효과를 거둬 같은 사정에 두 관세를 함께 매기지 못하도록 GATT 제6조 5항이 금지하고 있고, 국내보조금은 국내 판매가격까지 함께 낮춰 그 조항이 직접 다루지 않아 병과 자체는 열려 있다는 차이를 두 칸으로 비교한 도식">
+  <style>
+    text{font-family:'Apple SD Gothic Neo','Noto Sans KR',sans-serif;}
+    .h{font-size:19px;font-weight:700;}
+    .v{font-size:16px;font-weight:700;}
+    .n{font-size:14px;}
+    .s{font-size:13px;}
+  </style>
+  <rect x="0" y="0" width="720" height="320" style="fill:#ffffff"/>
+  <text class="h" x="32" y="40" style="fill:#1b2733">보조금 종류에 따라 취급이 다릅니다</text>
+
+  <rect x="32" y="64" width="320" height="152" style="fill:#ffffff;stroke:#c2562f;stroke-width:2"/>
+  <text class="v" x="52" y="96" style="fill:#c2562f">수출보조금</text>
+  <text class="n" x="52" y="124" style="fill:#1b2733">수출가격만 내려갑니다</text>
+  <text class="n" x="52" y="148" style="fill:#1b2733">= 덤핑 폭에 이미 들어가 있어</text>
+  <text class="n" x="52" y="172" style="fill:#1b2733">반덤핑관세가 한 번 거뒀습니다</text>
+  <text class="v" x="52" y="202" style="fill:#c2562f">같은 사정에 병과 금지</text>
+
+  <rect x="368" y="64" width="320" height="152" style="fill:#eaf0f6;stroke:#2f6fb5;stroke-width:2"/>
+  <text class="v" x="388" y="96" style="fill:#2f6fb5">국내보조금</text>
+  <text class="n" x="388" y="124" style="fill:#1b2733">국내 판매가격도 같이</text>
+  <text class="n" x="388" y="148" style="fill:#1b2733">내려가 덤핑 폭에 그만큼</text>
+  <text class="n" x="388" y="172" style="fill:#1b2733">반영되지 않습니다</text>
+  <text class="v" x="388" y="202" style="fill:#2f6fb5">조항이 직접 다루지 않습니다</text>
+
+  <text class="s" x="32" y="248" style="fill:#5b6b7a">무엇을 보여주는지: 두 관세를 겹쳐 매기는 것을 금지하는 조항이 어떤 경우에 걸리는지. 단위 없음</text>
+  <text class="s" x="32" y="270" style="fill:#5b6b7a">기준: GATT 1994 제6조 5항 — 덤핑이나 수출보조금이라는 같은 사정을 보상하기 위한 병과 금지</text>
+  <text class="s" x="32" y="292" style="fill:#5b6b7a">비시장경제 조사의 이중계산은 보조금협정 제19조 3항 위반이라는 2011년 WTO 상소기구 판정(DS379)이 있습니다</text>
+  <text class="s" x="32" y="314" style="fill:#5b6b7a">출처: WTO 협정문, WTO 분쟁해결 DS379 상소기구 보고서(2011-03-11 배포, 2011-03-25 채택)</text>
+</svg>
