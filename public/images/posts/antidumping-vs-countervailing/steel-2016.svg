@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" width="720" height="330" role="img" aria-label="2016년 미국 상무부 최종판정에서 포스코 냉연강판은 반덤핑관세 6.32퍼센트와 상계관세 58.36퍼센트를 합쳐 64.68퍼센트, 열연강판은 3.89퍼센트와 57.04퍼센트를 합쳐 60.93퍼센트가 됐다는 것을 두 개의 누적 막대로 보여주는 그림">
+  <style>
+    text{font-family:'Apple SD Gothic Neo','Noto Sans KR',sans-serif;}
+    .h{font-size:19px;font-weight:700;}
+    .v{font-size:15px;font-weight:700;}
+    .n{font-size:14px;}
+    .s{font-size:13px;}
+  </style>
+  <rect x="0" y="0" width="720" height="330" style="fill:#ffffff"/>
+  <text class="h" x="32" y="40" style="fill:#1b2733">두 관세는 더해져서 한 묶음으로 붙습니다</text>
+
+  <rect x="32" y="60" width="16" height="16" style="fill:#2f6fb5"/>
+  <text class="n" x="56" y="74" style="fill:#3b4754">반덤핑관세</text>
+  <rect x="160" y="60" width="16" height="16" style="fill:#c2562f"/>
+  <text class="n" x="184" y="74" style="fill:#3b4754">상계관세</text>
+
+  <text class="v" x="32" y="122" style="fill:#1b2733">냉연강판</text>
+  <rect x="180" y="104" width="40" height="30" style="fill:#2f6fb5"/>
+  <rect x="220" y="104" width="367" height="30" style="fill:#c2562f"/>
+  <text class="s" x="186" y="124" style="fill:#ffffff">6.32</text>
+  <text class="s" x="228" y="124" style="fill:#ffffff">58.36</text>
+  <text class="v" x="599" y="124" style="fill:#1b2733">64.68%</text>
+
+  <text class="v" x="32" y="182" style="fill:#1b2733">열연강판</text>
+  <rect x="180" y="164" width="24" height="30" style="fill:#2f6fb5"/>
+  <rect x="204" y="164" width="359" height="30" style="fill:#c2562f"/>
+  <text class="s" x="212" y="184" style="fill:#ffffff">3.89</text>
+  <text class="s" x="250" y="184" style="fill:#ffffff">57.04</text>
+  <text class="v" x="575" y="184" style="fill:#1b2733">60.93%</text>
+
+  <path d="M180 208 L620 208" style="stroke:#c9d4de;stroke-width:1"/>
+  <text class="s" x="180" y="226" style="fill:#5b6b7a">0</text>
+  <text class="s" x="494" y="226" style="fill:#5b6b7a">50%</text>
+  <text class="s" x="607" y="226" style="fill:#5b6b7a">70%</text>
+
+  <text class="s" x="32" y="262" style="fill:#5b6b7a">무엇을 보여주는지: 같은 품목에 두 관세가 함께 붙었을 때의 합산 세율. 단위 퍼센트</text>
+  <text class="s" x="32" y="284" style="fill:#5b6b7a">기준: 2016년 미국 상무부 최종판정 당시 포스코에 적용된 세율. 연례재심으로 바뀝니다</text>
+  <text class="s" x="32" y="306" style="fill:#5b6b7a">출처: 2016년 미국 상무부 최종판정 보도(뉴스핌·SBS Biz)</text>
+</svg>
