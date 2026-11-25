@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" width="720" height="320" role="img" aria-label="미국 무역법 301조 조사가 302조 조사 개시, 303조 상대국 협의 요청, 304조 위법성과 조치 필요성 판단, 301조 대응조치 순서로 이어지고 원칙적으로 개시일부터 12개월 안에 조치 내용을 정한다는 흐름을 상자와 화살표로 그린 도식">
+  <style>
+    text{font-family:'Apple SD Gothic Neo','Noto Sans KR',sans-serif;}
+    .h{font-size:19px;font-weight:700;}
+    .n{font-size:15px;}
+    .v{font-size:16px;font-weight:700;}
+    .s{font-size:13px;}
+  </style>
+  <rect x="0" y="0" width="720" height="320" style="fill:#ffffff"/>
+  <text class="h" x="32" y="40" style="fill:#1b2733">조문 번호가 그대로 절차 순서입니다</text>
+
+  <rect x="32" y="72" width="148" height="84" rx="6" style="fill:#eaf0f6;stroke:#7fa6cc;stroke-width:1.5"/>
+  <text class="v" x="50" y="100" style="fill:#2f6fb5">302조</text>
+  <text class="n" x="50" y="124" style="fill:#3b4754">조사 개시</text>
+  <text class="s" x="50" y="144" style="fill:#5b6b7a">청원 또는 직권</text>
+
+  <rect x="204" y="72" width="148" height="84" rx="6" style="fill:#eaf0f6;stroke:#7fa6cc;stroke-width:1.5"/>
+  <text class="v" x="222" y="100" style="fill:#2f6fb5">303조</text>
+  <text class="n" x="222" y="124" style="fill:#3b4754">상대국에</text>
+  <text class="n" x="222" y="144" style="fill:#3b4754">협의 요청</text>
+
+  <rect x="376" y="72" width="148" height="84" rx="6" style="fill:#eaf0f6;stroke:#7fa6cc;stroke-width:1.5"/>
+  <text class="v" x="394" y="100" style="fill:#2f6fb5">304조</text>
+  <text class="n" x="394" y="124" style="fill:#3b4754">위법성과</text>
+  <text class="n" x="394" y="144" style="fill:#3b4754">조치 필요성 판단</text>
+
+  <rect x="548" y="72" width="140" height="84" rx="6" style="fill:#2f6fb5"/>
+  <text class="v" x="566" y="100" style="fill:#ffffff">301조</text>
+  <text class="n" x="566" y="124" style="fill:#ffffff">추가 관세 등</text>
+  <text class="n" x="566" y="144" style="fill:#ffffff">대응조치</text>
+
+  <line x1="180" y1="114" x2="200" y2="114" style="stroke:#7fa6cc;stroke-width:2"/>
+  <line x1="352" y1="114" x2="372" y2="114" style="stroke:#7fa6cc;stroke-width:2"/>
+  <line x1="524" y1="114" x2="544" y2="114" style="stroke:#7fa6cc;stroke-width:2"/>
+
+  <line x1="106" y1="188" x2="618" y2="188" style="stroke:#c2562f;stroke-width:2"/>
+  <line x1="106" y1="182" x2="106" y2="194" style="stroke:#c2562f;stroke-width:2"/>
+  <line x1="618" y1="182" x2="618" y2="194" style="stroke:#c2562f;stroke-width:2"/>
+  <text class="v" x="286" y="216" style="fill:#c2562f">원칙적으로 개시일부터 12개월</text>
+
+  <text class="s" x="32" y="262" style="fill:#5b6b7a">협의로 정리되면 조치 없이 끝날 수도 있고, 정리가 안 되면 대통령 지시로 조치가 나갑니다.</text>
+  <text class="s" x="32" y="284" style="fill:#5b6b7a">근거 법은 1974년 제정된 미국 무역법입니다.</text>
+</svg>

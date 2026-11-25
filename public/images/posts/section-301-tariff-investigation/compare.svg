@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 390" width="720" height="390" role="img" aria-label="반덤핑관세와 상계관세는 수입품의 가격이나 보조금을 보고 국내 산업 피해 판정을 거쳐 품목별로 붙는 반면 무역법 301조는 상대국의 법률과 정책, 관행을 보고 피해 판정 없이 미국 무역대표부와 대통령 결정으로 붙는다는 차이를 세 열로 비교한 표">
+  <style>
+    text{font-family:'Apple SD Gothic Neo','Noto Sans KR',sans-serif;}
+    .h{font-size:19px;font-weight:700;}
+    .n{font-size:14px;}
+    .v{font-size:15px;font-weight:700;}
+    .s{font-size:13px;}
+  </style>
+  <rect x="0" y="0" width="720" height="390" style="fill:#ffffff"/>
+  <text class="h" x="32" y="40" style="fill:#1b2733">무엇을 보고 누가 정하는지가 다릅니다</text>
+
+  <rect x="32" y="64" width="216" height="40" style="fill:#f2f5f8;stroke:#c9d4de;stroke-width:1"/>
+  <rect x="248" y="64" width="216" height="40" style="fill:#f2f5f8;stroke:#c9d4de;stroke-width:1"/>
+  <rect x="464" y="64" width="224" height="40" style="fill:#2f6fb5"/>
+  <text class="v" x="48" y="90" style="fill:#1b2733">보는 대상</text>
+  <text class="v" x="264" y="90" style="fill:#1b2733">반덤핑·상계관세</text>
+  <text class="v" x="480" y="90" style="fill:#ffffff">무역법 301조</text>
+
+  <rect x="32" y="104" width="216" height="66" style="fill:#ffffff;stroke:#c9d4de;stroke-width:1"/>
+  <rect x="248" y="104" width="216" height="66" style="fill:#ffffff;stroke:#c9d4de;stroke-width:1"/>
+  <rect x="464" y="104" width="224" height="66" style="fill:#eaf0f6;stroke:#7fa6cc;stroke-width:1"/>
+  <text class="n" x="48" y="143" style="fill:#3b4754">무엇을 문제로 보나</text>
+  <text class="n" x="264" y="132" style="fill:#3b4754">수출가격이 낮거나</text>
+  <text class="n" x="264" y="154" style="fill:#3b4754">정부 보조금을 받았나</text>
+  <text class="n" x="480" y="132" style="fill:#1b2733">상대국의 법률·정책·</text>
+  <text class="n" x="480" y="154" style="fill:#1b2733">관행 자체</text>
+
+  <rect x="32" y="170" width="216" height="66" style="fill:#ffffff;stroke:#c9d4de;stroke-width:1"/>
+  <rect x="248" y="170" width="216" height="66" style="fill:#ffffff;stroke:#c9d4de;stroke-width:1"/>
+  <rect x="464" y="170" width="224" height="66" style="fill:#eaf0f6;stroke:#7fa6cc;stroke-width:1"/>
+  <text class="n" x="48" y="209" style="fill:#3b4754">산업 피해 판정</text>
+  <text class="n" x="264" y="198" style="fill:#3b4754">필요합니다</text>
+  <text class="s" x="264" y="220" style="fill:#5b6b7a">한국은 무역위원회가 조사</text>
+  <text class="n" x="480" y="209" style="fill:#1b2733">요건에 없습니다</text>
+
+  <rect x="32" y="236" width="216" height="66" style="fill:#ffffff;stroke:#c9d4de;stroke-width:1"/>
+  <rect x="248" y="236" width="216" height="66" style="fill:#ffffff;stroke:#c9d4de;stroke-width:1"/>
+  <rect x="464" y="236" width="224" height="66" style="fill:#eaf0f6;stroke:#7fa6cc;stroke-width:1"/>
+  <text class="n" x="48" y="275" style="fill:#3b4754">붙는 범위</text>
+  <text class="n" x="264" y="264" style="fill:#3b4754">조사한 품목과</text>
+  <text class="n" x="264" y="286" style="fill:#3b4754">수출 기업</text>
+  <text class="n" x="480" y="264" style="fill:#1b2733">조치 내용을 정하는</text>
+  <text class="n" x="480" y="286" style="fill:#1b2733">쪽이 범위도 정합니다</text>
+
+  <text class="s" x="32" y="334" style="fill:#5b6b7a">한국의 반덤핑·상계관세는 무역위원회가 조사·판정하고 기획재정부가 부과합니다.</text>
+  <text class="s" x="32" y="356" style="fill:#5b6b7a">반덤핑관세의 유효기간은 통상 5년이고 일몰재심으로 연장될 수 있습니다.</text>
+</svg>

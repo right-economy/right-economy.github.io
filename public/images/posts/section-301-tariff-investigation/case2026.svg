@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" width="720" height="300" role="img" aria-label="미국 무역대표부가 2026년 3월에 한국을 포함한 16개 경제주체를 대상으로 과잉생산 관련 무역법 301조 조사를 시작했고 2026년 11월 24일 현지시간 기준으로 조사 결과 공개가 임박했다는 일정을 가로 축으로 그린 도식">
+  <style>
+    text{font-family:'Apple SD Gothic Neo','Noto Sans KR',sans-serif;}
+    .h{font-size:19px;font-weight:700;}
+    .n{font-size:15px;}
+    .v{font-size:16px;font-weight:700;}
+    .s{font-size:13px;}
+  </style>
+  <rect x="0" y="0" width="720" height="300" style="fill:#ffffff"/>
+  <text class="h" x="32" y="40" style="fill:#1b2733">2026년에 열려 있는 조사 한 건</text>
+
+  <line x1="60" y1="130" x2="660" y2="130" style="stroke:#c9d4de;stroke-width:3"/>
+
+  <circle cx="140" cy="130" r="9" style="fill:#2f6fb5"/>
+  <text class="v" x="104" y="104" style="fill:#2f6fb5">2026년 3월</text>
+  <text class="n" x="92" y="168" style="fill:#3b4754">조사 개시</text>
+  <text class="s" x="76" y="190" style="fill:#5b6b7a">16개 경제주체 대상</text>
+  <text class="s" x="92" y="210" style="fill:#5b6b7a">한국 포함</text>
+
+  <circle cx="560" cy="130" r="9" style="fill:#c2562f"/>
+  <text class="v" x="492" y="104" style="fill:#c2562f">2026년 11월</text>
+  <text class="n" x="492" y="168" style="fill:#3b4754">조사 결과 공개 임박</text>
+  <text class="s" x="492" y="190" style="fill:#5b6b7a">세율과 품목은</text>
+  <text class="s" x="492" y="210" style="fill:#5b6b7a">공개 전까지 미확정</text>
+
+  <text class="s" x="32" y="256" style="fill:#5b6b7a">쟁점은 각국의 보조금과 산업 지원이 공급 과잉을 키웠는지입니다.</text>
+  <text class="s" x="32" y="278" style="fill:#5b6b7a">기준 시점은 2026년 11월 25일 오전입니다.</text>
+</svg>
