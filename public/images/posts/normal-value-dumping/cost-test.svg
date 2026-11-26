@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" width="720" height="300" role="img" aria-label="원가 미만으로 팔린 내수 판매를 정상가격 계산에서 빼려면 상당 기간에 걸쳐 이뤄졌을 것, 상당한 수량일 것, 합리적 기간 안에 비용을 회수하지 못하는 가격일 것 세 요건이 함께 충족돼야 한다는 것을 보여주는 도식입니다.">
+<style>
+text{font-family:'Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#1b2733}
+.t{font-size:17px;font-weight:700}
+.h{font-size:14px;font-weight:700}
+.s{font-size:12px;fill:#3b4754}
+.c{font-size:12px;fill:#5b6b7a}
+</style>
+<rect width="720" height="300" fill="#ffffff"/>
+<text class="t" x="28" y="36">원가 미만 판매를 빼려면 셋이 함께 맞아야 합니다</text>
+
+<rect x="28" y="58" width="208" height="128" rx="8" fill="#eaf0f6" stroke="#2f6fb5"/>
+<text class="h" x="46" y="84">상당 기간</text>
+<text class="s" x="46" y="110">통상 1년</text>
+<text class="s" x="46" y="132">최소 6개월</text>
+<text class="c" x="46" y="160">그보다 짧으면</text>
+<text class="c" x="46" y="176">제외할 수 없습니다</text>
+
+<rect x="256" y="58" width="208" height="128" rx="8" fill="#eaf0f6" stroke="#2f6fb5"/>
+<text class="h" x="274" y="84">상당한 수량</text>
+<text class="s" x="274" y="110">가중평균 판매가격이</text>
+<text class="s" x="274" y="130">가중평균 단위비용 미만</text>
+<text class="s" x="274" y="152">또는 원가 미만 판매량</text>
+<text class="s" x="274" y="172">20% 이상</text>
+
+<rect x="484" y="58" width="208" height="128" rx="8" fill="#eaf0f6" stroke="#2f6fb5"/>
+<text class="h" x="502" y="84">비용 회수 불가</text>
+<text class="s" x="502" y="110">합리적 기간 안에</text>
+<text class="s" x="502" y="130">비용을 회수하지 못하는</text>
+<text class="s" x="502" y="150">가격일 것</text>
+<text class="c" x="502" y="176">회수되면 그대로 씁니다</text>
+
+<rect x="28" y="206" width="664" height="40" rx="6" fill="#ffffff" stroke="#c2562f"/>
+<text class="h" x="46" y="231">셋이 모두 맞을 때만 그 판매를 정상가격 계산에서 뺍니다</text>
+
+<text class="c" x="28" y="280">단위: 기간과 비율 · 기준: WTO 반덤핑협정 제2조 2항 1호와 각주 · 출처: WTO 협정문</text>
+</svg>

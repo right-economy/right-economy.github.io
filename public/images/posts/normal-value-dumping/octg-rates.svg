@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" width="720" height="330" role="img" aria-label="2023년에서 2024년 한국산 유정용 강관 반덤핑 연례재심의 가중평균 덤핑률 막대그래프입니다. 넥스틸은 29.94퍼센트에서 29.18퍼센트로 정정됐고, 세아제강은 9.80퍼센트이며, 개별 조사를 받지 않은 기업은 19.87퍼센트에서 19.49퍼센트로 정정됐습니다.">
+<style>
+text{font-family:'Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#1b2733}
+.t{font-size:17px;font-weight:700}
+.n{font-size:13px;font-weight:700}
+.v{font-size:13px;font-weight:700;fill:#1b2733}
+.s{font-size:12px;fill:#3b4754}
+.c{font-size:12px;fill:#5b6b7a}
+</style>
+<rect width="720" height="330" fill="#ffffff"/>
+<text class="t" x="28" y="34">유정용 강관 2023~2024년 연례재심 덤핑률</text>
+
+<line x1="190" y1="60" x2="190" y2="248" stroke="#5b6b7a" stroke-width="2"/>
+<line x1="323" y1="60" x2="323" y2="248" stroke="#eaf0f6"/>
+<line x1="456" y1="60" x2="456" y2="248" stroke="#eaf0f6"/>
+<line x1="590" y1="60" x2="590" y2="248" stroke="#eaf0f6"/>
+<text class="c" x="186" y="266">0</text>
+<text class="c" x="313" y="266">10%</text>
+<text class="c" x="446" y="266">20%</text>
+<text class="c" x="580" y="266">30%</text>
+
+<text class="n" x="28" y="92">넥스틸</text>
+<rect x="190" y="76" width="399" height="12" fill="none" stroke="#7fa6cc" stroke-dasharray="4 3"/>
+<rect x="190" y="76" width="389" height="26" fill="#2f6fb5"/>
+<text class="v" x="594" y="96">29.18%</text>
+<text class="c" x="28" y="112">정정 전 29.94%</text>
+
+<text class="n" x="28" y="152">세아제강</text>
+<rect x="190" y="136" width="131" height="26" fill="#2f6fb5"/>
+<text class="v" x="328" y="156">9.80%</text>
+<text class="c" x="28" y="172">정정 없음</text>
+
+<text class="n" x="28" y="212">개별 조사 안 받은 기업</text>
+<rect x="190" y="196" width="265" height="12" fill="none" stroke="#7fa6cc" stroke-dasharray="4 3"/>
+<rect x="190" y="196" width="260" height="26" fill="#2f6fb5"/>
+<text class="v" x="460" y="216">19.49%</text>
+<text class="c" x="28" y="232">정정 전 19.87%</text>
+
+<text class="c" x="28" y="294">점선은 2026년 9월 24일 최종 결과, 막대는 11월 16일 정정 공고 기준입니다.</text>
+<text class="c" x="28" y="314">단위: 퍼센트 · 출처: 미국 연방관보 91 FR 60583, FR Doc 2026-23258</text>
+</svg>
