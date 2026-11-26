@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" width="720" height="340" role="img" aria-label="반덤핑 관세를 부과한 날부터 5년이 되기 전에 종료재심사가 개시되고, 그 재심사에서 덤핑과 피해의 지속 또는 재발 가능성이 인정되면 관세가 유지되고 인정되지 않으면 관세가 종료되는 절차를 그린 도식입니다.">
+<style>
+text{font-family:'Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#1b2733}
+.t{font-size:17px;font-weight:700}
+.l{font-size:13px;fill:#3b4754}
+.s{font-size:12px;fill:#5b6b7a}
+.b{font-size:13px;font-weight:700}
+</style>
+<rect width="720" height="340" fill="#ffffff"/>
+<text class="t" x="28" y="36">부과일부터 5년, 그 전에 재심사가 열립니다</text>
+
+<line x1="40" y1="110" x2="470" y2="110" stroke="#5b6b7a" stroke-width="3"/>
+<circle cx="40" cy="110" r="7" fill="#2f6fb5"/>
+<text class="l" x="28" y="92">부과일</text>
+<circle cx="470" cy="110" r="7" fill="#c2562f"/>
+<text class="l" x="432" y="92">5년이 되는 날</text>
+<text class="s" x="190" y="136">관세 부과 기간</text>
+
+<rect x="300" y="152" width="200" height="40" rx="6" fill="#eaf0f6" stroke="#7fa6cc"/>
+<text class="b" x="316" y="177">종료재심사 개시</text>
+<line x1="400" y1="118" x2="400" y2="150" stroke="#7fa6cc" stroke-width="2"/>
+<text class="s" x="300" y="208">5년이 되는 날 전에 개시해야 합니다</text>
+
+<rect x="520" y="60" width="172" height="86" rx="6" fill="#eaf0f6" stroke="#2f6fb5"/>
+<text class="b" x="534" y="86">지속·재발 인정</text>
+<text class="s" x="534" y="108">관세 유지</text>
+<text class="s" x="534" y="128">다시 5년이 갑니다</text>
+<path d="M500 172 L512 172 L512 103 L518 103" fill="none" stroke="#2f6fb5" stroke-width="2"/>
+
+<rect x="520" y="196" width="172" height="86" rx="6" fill="#ffffff" stroke="#c2562f"/>
+<text class="b" x="534" y="222">인정되지 않음</text>
+<text class="s" x="534" y="244">관세 종료</text>
+<text class="s" x="534" y="264">부과가 끝납니다</text>
+<path d="M500 172 L512 172 L512 239 L518 239" fill="none" stroke="#c2562f" stroke-width="2"/>
+
+<text class="s" x="28" y="306">재심사 결과가 나오기 전까지는 관세를 그대로 둘 수 있습니다.</text>
+<text class="s" x="28" y="326">기준: WTO 반덤핑협정 제11조 3항·4항 · 출처: WTO 협정문</text>
+</svg>

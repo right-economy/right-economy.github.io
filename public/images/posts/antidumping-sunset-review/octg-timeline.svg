@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" width="720" height="320" role="img" aria-label="한국산 유정용 강관 반덤핑 명령이 2014년 9월 10일 공고되고 2025년 7월 1일 두 번째 일몰재심이 개시되어 2026년 1월 9일 상무부 판정과 2026년 9월 29일 국제무역위원회 판정을 거쳐 2026년 10월 22일 유지 공고가 나온 날짜 흐름을 보여주는 도식입니다.">
+<style>
+text{font-family:'Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#1b2733}
+.t{font-size:17px;font-weight:700}
+.d{font-size:13px;font-weight:700;fill:#2f6fb5}
+.s{font-size:12px;fill:#3b4754}
+.c{font-size:12px;fill:#5b6b7a}
+</style>
+<rect width="720" height="320" fill="#ffffff"/>
+<text class="t" x="28" y="36">2014년 명령이 2026년에 두 번째로 유지됐습니다</text>
+
+<line x1="60" y1="72" x2="60" y2="268" stroke="#eaf0f6" stroke-width="4"/>
+
+<circle cx="60" cy="86" r="7" fill="#2f6fb5"/>
+<text class="d" x="84" y="82">2014년 9월 10일</text>
+<text class="s" x="84" y="102">인도·한국·대만·튀르키예·베트남산 유정용 강관 반덤핑 명령 공고</text>
+
+<circle cx="60" cy="134" r="7" fill="#2f6fb5"/>
+<text class="d" x="84" y="130">2025년 7월 1일</text>
+<text class="s" x="84" y="150">ITC와 상무부가 두 번째 일몰재심 개시</text>
+
+<circle cx="60" cy="182" r="7" fill="#2f6fb5"/>
+<text class="d" x="84" y="178">2026년 1월 9일</text>
+<text class="s" x="84" y="198">상무부 신속재심 최종 결과, 덤핑 지속·재발 가능성 인정</text>
+
+<circle cx="60" cy="230" r="7" fill="#2f6fb5"/>
+<text class="d" x="84" y="226">2026년 9월 29일</text>
+<text class="s" x="84" y="246">ITC 판정 공고, 피해 지속·재발 가능성 인정 (유지 발효일)</text>
+
+<circle cx="60" cy="268" r="7" fill="#c2562f"/>
+<text class="d" x="84" y="264">2026년 10월 22일</text>
+<text class="s" x="84" y="284">상무부 명령 유지 공고, 다음 재심은 ITC 판정 5주년 30일 전까지 개시</text>
+
+<text class="c" x="28" y="312">단위: 날짜 · 기준: 각 절차의 연방관보 공고일 · 출처: 미국 연방관보 FR Doc 2026-21530</text>
+</svg>
