@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" width="720" height="340" role="img" aria-label="미국 관세법 제781조가 정한 우회 네 유형을 보여주는 도식입니다. 미국 안에서 조립한 물품, 제3국에서 조립한 물품, 모양을 조금 바꾼 물품, 조사 개시 뒤에 개발된 물품 네 가지입니다.">
+<style>
+text{font-family:'Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#1b2733}
+.t{font-size:17px;font-weight:700}
+.h{font-size:14px;font-weight:700;fill:#ffffff}
+.b{font-size:12px;fill:#2a3542}
+.c{font-size:12px;fill:#5b6b7a}
+</style>
+<rect width="720" height="340" fill="#ffffff"/>
+<text class="t" x="28" y="34">미국이 명령 범위 안으로 끌어들이는 네 가지</text>
+
+<rect x="28" y="58" width="320" height="40" rx="6" fill="#2f6fb5"/>
+<text class="h" x="46" y="84">(a) 미국 안에서 조립·완성한 물품</text>
+<text class="b" x="46" y="120">명령 대상국 부품을 들여와 미국에서 마무리한 경우</text>
+
+<rect x="372" y="58" width="320" height="40" rx="6" fill="#2f6fb5"/>
+<text class="h" x="390" y="84">(b) 제3국에서 조립·완성한 물품</text>
+<text class="b" x="390" y="120">조립 공정이 사소하고, 대상국 부품 값이</text>
+<text class="b" x="390" y="138">수출품 값에서 큰 몫을 차지할 때</text>
+
+<rect x="28" y="176" width="320" height="40" rx="6" fill="#2f6fb5"/>
+<text class="h" x="46" y="202">(c) 모양을 조금 바꾼 물품</text>
+<text class="b" x="46" y="238">품목분류번호가 달라져도 범위에 들어간다</text>
+
+<rect x="372" y="176" width="320" height="40" rx="6" fill="#2f6fb5"/>
+<text class="h" x="390" y="202">(d) 조사 개시 뒤 개발된 물품</text>
+<text class="b" x="390" y="238">물리적 특성·구매자 기대·용도·유통 경로·</text>
+<text class="b" x="390" y="256">광고 방식 다섯을 견준다</text>
+
+<rect x="28" y="282" width="664" height="34" rx="6" fill="#f4f7fa" stroke="#d6e0ea"/>
+<text class="b" x="46" y="304">(b)에서 조립이 사소한지는 투자 규모·연구개발·생산 공정의 성격·설비 규모·가공 부가가치 비중으로 본다</text>
+
+<text class="c" x="28" y="334">기준: 2026.11.27 현행 조문 · 출처: 19 U.S.C. 1677j (1930년 관세법 제781조), 19 CFR 351.226</text>
+</svg>
