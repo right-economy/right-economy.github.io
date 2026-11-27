@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" width="720" height="340" role="img" aria-label="2023년 미국 태양광 우회 조사 결과를 나라별로 그린 막대그래프입니다. 불리한 사실이 적용된 기업은 캄보디아 1곳, 말레이시아 5곳, 태국 8곳, 베트남 9곳이고, 우회가 아니라고 판정된 기업은 말레이시아 2곳과 베트남 1곳입니다.">
+<style>
+text{font-family:'Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#1b2733}
+.t{font-size:17px;font-weight:700}
+.n{font-size:13px;font-weight:700}
+.v{font-size:12px;font-weight:700;fill:#1b2733}
+.c{font-size:12px;fill:#5b6b7a}
+.lg{font-size:12px;fill:#2a3542}
+</style>
+<rect width="720" height="340" fill="#ffffff"/>
+<text class="t" x="28" y="34">태양광 우회 조사 결과의 나라별 기업 수</text>
+
+<rect x="176" y="48" width="12" height="12" fill="#2f6fb5"/>
+<text class="lg" x="194" y="59">불리한 사실 적용</text>
+<rect x="320" y="48" width="12" height="12" fill="#b4531a"/>
+<text class="lg" x="338" y="59">우회 아님</text>
+
+<line x1="160" y1="78" x2="160" y2="268" stroke="#5b6b7a" stroke-width="2"/>
+<line x1="340" y1="78" x2="340" y2="268" stroke="#eaf0f6"/>
+<line x1="520" y1="78" x2="520" y2="268" stroke="#eaf0f6"/>
+<line x1="700" y1="78" x2="700" y2="268" stroke="#eaf0f6"/>
+<text class="c" x="156" y="286">0</text>
+<text class="c" x="330" y="286">3곳</text>
+<text class="c" x="510" y="286">6곳</text>
+<text class="c" x="690" y="286">9곳</text>
+
+<text class="n" x="28" y="100">캄보디아</text>
+<rect x="160" y="88" width="60" height="18" fill="#2f6fb5"/>
+<text class="v" x="228" y="102">1</text>
+
+<text class="n" x="28" y="146">말레이시아</text>
+<rect x="160" y="134" width="300" height="18" fill="#2f6fb5"/>
+<text class="v" x="468" y="148">5</text>
+<rect x="160" y="156" width="120" height="14" fill="#b4531a"/>
+<text class="v" x="288" y="168">2</text>
+
+<text class="n" x="28" y="196">태국</text>
+<rect x="160" y="184" width="480" height="18" fill="#2f6fb5"/>
+<text class="v" x="648" y="198">8</text>
+
+<text class="n" x="28" y="240">베트남</text>
+<rect x="160" y="228" width="540" height="18" fill="#2f6fb5"/>
+<text class="v" x="676" y="242">9</text>
+<rect x="160" y="250" width="60" height="14" fill="#b4531a"/>
+<text class="v" x="228" y="262">1</text>
+
+<text class="c" x="28" y="312">네 나라 모두 국가 단위로 우회가 있다고 판정됐고, 위 막대에 없는 기업은 공고의 부록 목록에 따라 다르게 다뤄진다.</text>
+<text class="c" x="28" y="330">기준: 2023.08.23 최종 판정 공고 · 단위: 기업 수 · 출처: 미국 연방관보 88 FR 57419 부록 2·3</text>
+</svg>

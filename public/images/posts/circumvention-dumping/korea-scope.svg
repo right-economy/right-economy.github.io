@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 280" width="720" height="280" role="img" aria-label="한국 우회덤핑 제도가 다루는 행위가 넓어진 과정을 그린 도식입니다. 2023년 12월 31일 관세법에 제56조의2가 신설돼 2025년 1월 1일 시행됐고 그때는 공급국 안에서의 경미한 변경만 대상이었으며, 2026년 1월 1일부터는 제3국에서의 단순 조립과 가공도 대상에 들어갔습니다.">
+<style>
+text{font-family:'Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#1b2733}
+.t{font-size:17px;font-weight:700}
+.h{font-size:14px;font-weight:700;fill:#ffffff}
+.d{font-size:13px;font-weight:700;fill:#1b2733}
+.b{font-size:12px;fill:#2a3542}
+.c{font-size:12px;fill:#5b6b7a}
+</style>
+<rect width="720" height="280" fill="#ffffff"/>
+<text class="t" x="28" y="34">한국이 우회로 보는 행위가 넓어진 과정</text>
+
+<text class="d" x="28" y="70">2023.12.31 신설</text>
+<rect x="28" y="82" width="196" height="40" rx="6" fill="#8aa3b8"/>
+<text class="h" x="46" y="107">관세법 제56조의2</text>
+<text class="b" x="28" y="146">조사로 확인되면 물품을</text>
+<text class="b" x="28" y="164">지정해 덤핑방지관세를</text>
+<text class="b" x="28" y="182">부과할 수 있게 한 근거</text>
+
+<path d="M234 102 h22 l-6 -6 6 6 -6 6" fill="none" stroke="#5b6b7a" stroke-width="2"/>
+
+<text class="d" x="262" y="70">2025.1.1 시행</text>
+<rect x="262" y="82" width="196" height="40" rx="6" fill="#2f6fb5"/>
+<text class="h" x="280" y="107">공급국 안 경미한 변경</text>
+<text class="b" x="262" y="146">본질적 특성을 그대로 둔 채</text>
+<text class="b" x="262" y="164">물리적 특성·형태·포장·용도를</text>
+<text class="b" x="262" y="182">바꾸는 행위</text>
+
+<path d="M468 102 h22 l-6 -6 6 6 -6 6" fill="none" stroke="#5b6b7a" stroke-width="2"/>
+
+<text class="d" x="496" y="70">2026.1.1 시행</text>
+<rect x="496" y="82" width="196" height="40" rx="6" fill="#b4531a"/>
+<text class="h" x="514" y="107">제3국 단순 조립·가공</text>
+<text class="b" x="496" y="146">부품·원재료를 제3국으로</text>
+<text class="b" x="496" y="164">보내 조립해 들여오는 경로가</text>
+<text class="b" x="496" y="182">대상에 들어왔다</text>
+
+<text class="c" x="28" y="234">출처: 관세법 제56조의2(본조신설 2023.12.31, 시행 2025.1.1), 개정 관세법 시행령 시행에 관한 무역위원회 설명</text>
+<text class="c" x="28" y="252">기준: 2026.11.27 · 2026년 1월 1일 시행분은 시행령 개정 사항이다.</text>
+</svg>
