@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 280" width="720" height="280" role="img" aria-label="한국산 유정용 강관 반덤핑 사건의 날짜 흐름입니다. 2014년 9월 10일 반덤핑 명령이 내려졌고, 2023년 9월부터 2024년 8월까지가 이번 재심의 대상 기간이며, 2026년 3월 16일 예비 결과, 9월 24일 최종 결과, 11월 16일 정정 공고가 이어졌습니다.">
+<style>
+text{font-family:'Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#1b2733}
+.t{font-size:17px;font-weight:700}
+.d{font-size:12px;font-weight:700;fill:#1b2733}
+.l{font-size:12px;fill:#3b4754}
+.c{font-size:12px;fill:#5b6b7a}
+.p{font-size:12px;font-weight:700;fill:#b4531a}
+</style>
+<rect width="720" height="280" fill="#ffffff"/>
+<text class="t" x="28" y="34">수입한 해와 세율이 정해진 해가 벌어진다</text>
+
+<rect x="300" y="128" width="110" height="20" fill="#f0d9c6"/>
+<text class="p" x="300" y="166">대상 기간</text>
+<text class="p" x="300" y="182">2023.9~2024.8</text>
+
+<line x1="60" y1="138" x2="664" y2="138" stroke="#5b6b7a" stroke-width="2"/>
+
+<circle cx="60" cy="138" r="6" fill="#2f6fb5"/>
+<text class="d" x="40" y="114">2014.9.10</text>
+<text class="l" x="40" y="96">반덤핑 명령</text>
+
+<circle cx="478" cy="138" r="6" fill="#2f6fb5"/>
+<text class="d" x="446" y="114">2026.3.16</text>
+<text class="l" x="446" y="96">예비 결과</text>
+
+<circle cx="571" cy="138" r="6" fill="#2f6fb5"/>
+<text class="d" x="539" y="200">2026.9.24</text>
+<text class="l" x="539" y="218">최종 결과</text>
+
+<circle cx="664" cy="138" r="6" fill="#b4531a"/>
+<text class="d" x="614" y="114">2026.11.16</text>
+<text class="l" x="614" y="96">정정 공고</text>
+
+<text class="c" x="28" y="252">가로 간격은 날짜 순서만 나타내고 실제 기간 비율이 아니다. 기준: 2026년 11월 16일 정정 공고</text>
+<text class="c" x="28" y="268">출처: 미국 연방관보 79 FR 53691, 91 FR 12575, 91 FR 60583, FR Doc 2026-23258</text>
+</svg>
