@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" width="720" height="300" role="img" aria-label="미국 반덤핑 관세가 정해지는 순서를 그린 도식입니다. 수입 신고 때는 추정액인 예치금을 내고, 그 뒤 연례재심에서 대상 기간의 세율이 다시 계산되며, 최종 결과 공고 뒤 상무부가 세관에 정산 지시를 보내면 세관이 차액을 추징하거나 환급합니다.">
+<style>
+text{font-family:'Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#1b2733}
+.t{font-size:17px;font-weight:700}
+.h{font-size:14px;font-weight:700;fill:#ffffff}
+.b{font-size:12px;fill:#2a3542}
+.c{font-size:12px;fill:#5b6b7a}
+.k{font-size:12px;font-weight:700;fill:#b4531a}
+</style>
+<rect width="720" height="300" fill="#ffffff"/>
+<text class="t" x="28" y="34">수입할 때 낸 돈이 끝이 아닌 구조</text>
+
+<rect x="28" y="58" width="150" height="46" rx="6" fill="#2f6fb5"/>
+<text class="h" x="46" y="87">① 수입 신고</text>
+<text class="b" x="28" y="124">예치금을 낸다</text>
+<text class="c" x="28" y="142">추정액이고</text>
+<text class="c" x="28" y="158">확정액이 아니다</text>
+
+<path d="M186 81 h22 l-6 -6 6 6 -6 6" fill="none" stroke="#5b6b7a" stroke-width="2"/>
+
+<rect x="214" y="58" width="150" height="46" rx="6" fill="#2f6fb5"/>
+<text class="h" x="232" y="87">② 연례재심</text>
+<text class="b" x="214" y="124">대상 기간 1년치를</text>
+<text class="c" x="214" y="142">다시 계산한다</text>
+<text class="c" x="214" y="158">예비 판정 뒤 최종 판정</text>
+
+<path d="M372 81 h22 l-6 -6 6 6 -6 6" fill="none" stroke="#5b6b7a" stroke-width="2"/>
+
+<rect x="400" y="58" width="150" height="46" rx="6" fill="#2f6fb5"/>
+<text class="h" x="418" y="87">③ 정산 지시</text>
+<text class="b" x="400" y="124">최종 결과 공고 뒤</text>
+<text class="c" x="400" y="142">세관에 지시가 간다</text>
+<text class="k" x="400" y="160">공고 35일 이후</text>
+
+<path d="M558 81 h22 l-6 -6 6 6 -6 6" fill="none" stroke="#5b6b7a" stroke-width="2"/>
+
+<rect x="586" y="58" width="106" height="46" rx="6" fill="#b4531a"/>
+<text class="h" x="604" y="87">④ 정산</text>
+<text class="b" x="586" y="124">차액을 받거나</text>
+<text class="c" x="586" y="142">돌려준다</text>
+<text class="c" x="586" y="158">이자가 붙는다</text>
+
+<rect x="28" y="186" width="664" height="58" rx="6" fill="#f4f7fa" stroke="#d6e0ea"/>
+<text class="b" x="46" y="210">소송이 제기되면 ③에서 멈춘다 — 법원에 소장이 접수되면 정산 지시는 금지명령 신청 기한이</text>
+<text class="b" x="46" y="230">끝날 때까지 세관에 정산하지 말라고 지시한다. 공고일부터 90일 안이다.</text>
+
+<text class="c" x="28" y="272">기준: 2026년 9월 24일 한국산 유정용 강관 연례재심 최종 결과 공고 · 출처: 미국 연방관보 91 FR 60583</text>
+</svg>
