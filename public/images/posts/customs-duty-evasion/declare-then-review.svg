@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" width="720" height="300" role="img" aria-label="수입 세금이 정해지는 순서를 그린 도식입니다. 수입하려는 사람이 수입신고를 하면서 세액을 스스로 신고하고, 세관장은 수입신고를 수리한 뒤에 세액심사를 하며, 심사에서 세액이 부족하다는 것이 드러나면 경정해 부족분을 징수합니다. 부과할 수 있는 기간은 원칙 5년이고 수입신고를 하지 않고 수입한 경우 7년, 부정한 방법으로 포탈하거나 환급·감면받은 경우 10년입니다.">
+<style>
+text{font-family:'Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#1b2733}
+.t{font-size:17px;font-weight:700}
+.h{font-size:14px;font-weight:700;fill:#ffffff}
+.d{font-size:13px;font-weight:700;fill:#1b2733}
+.b{font-size:12px;fill:#2a3542}
+.c{font-size:12px;fill:#5b6b7a}
+.n{font-size:15px;font-weight:700;fill:#ffffff}
+</style>
+<rect width="720" height="300" fill="#ffffff"/>
+<text class="t" x="28" y="34">세금을 적는 사람과 확인하는 시점</text>
+
+<rect x="28" y="56" width="190" height="40" rx="6" fill="#2f6fb5"/>
+<text class="h" x="46" y="81">① 수입자가 납세신고</text>
+<text class="b" x="28" y="118">수입신고를 할 때 과세가격과</text>
+<text class="b" x="28" y="136">세율을 스스로 적어 낸다</text>
+<text class="c" x="28" y="156">관세법 제38조 제1항</text>
+
+<path d="M226 76 h24 l-7 -7 7 7 -7 7" fill="none" stroke="#5b6b7a" stroke-width="2"/>
+
+<rect x="258" y="56" width="190" height="40" rx="6" fill="#8aa3b8"/>
+<text class="h" x="276" y="81">② 수입신고 수리</text>
+<text class="b" x="258" y="118">물건은 이 시점에 나간다</text>
+<text class="b" x="258" y="136">세액심사는 수리한 뒤에 한다</text>
+<text class="c" x="258" y="156">관세법 제38조 제2항</text>
+
+<path d="M456 76 h24 l-7 -7 7 7 -7 7" fill="none" stroke="#5b6b7a" stroke-width="2"/>
+
+<rect x="488" y="56" width="204" height="40" rx="6" fill="#b4531a"/>
+<text class="h" x="506" y="81">③ 세액심사·경정</text>
+<text class="b" x="488" y="118">부족하면 세관장이 경정해</text>
+<text class="b" x="488" y="136">부족분과 가산세를 징수한다</text>
+<text class="c" x="488" y="156">관세법 제38조의3 제6항</text>
+
+<text class="d" x="28" y="200">③을 할 수 있는 기간 (관세를 부과할 수 있는 날부터)</text>
+
+<rect x="28" y="214" width="180" height="34" rx="6" fill="#eaf0f6"/>
+<text class="d" x="46" y="236">원칙 5년</text>
+<rect x="218" y="214" width="214" height="34" rx="6" fill="#8aa3b8"/>
+<text class="n" x="236" y="237">신고 없이 수입 7년</text>
+<rect x="442" y="214" width="250" height="34" rx="6" fill="#b4531a"/>
+<text class="n" x="460" y="237">부정한 방법으로 포탈 10년</text>
+
+<text class="c" x="28" y="274">출처: 관세법 제38조, 제38조의3, 제21조 제1항 제1호·제2호 · 제21조는 2025년 1월 1일 시행본</text>
+<text class="c" x="28" y="292">기준: 2026.11.28 · 가로 길이는 기간의 비율을 나타내지 않는다. 세 경우를 나란히 놓은 것이다.</text>
+</svg>

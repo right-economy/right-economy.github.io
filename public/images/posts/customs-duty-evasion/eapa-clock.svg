@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 280" width="720" height="280" role="img" aria-label="미국 관세청의 우회·탈세 조사 일정을 그린 도식입니다. 이해관계인이 신고서를 접수하면 관세청은 15영업일 안에 조사 개시 여부를 정하고, 개시 뒤 90일 안에 합리적 의심이 있으면 잠정조치를 취하며, 개시일부터 300일 안에 실질적 증거를 근거로 판정합니다. 매우 복잡한 사건은 60일을 더 쓸 수 있습니다.">
+<style>
+text{font-family:'Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#1b2733}
+.t{font-size:17px;font-weight:700}
+.h{font-size:14px;font-weight:700;fill:#ffffff}
+.d{font-size:13px;font-weight:700;fill:#1b2733}
+.b{font-size:12px;fill:#2a3542}
+.c{font-size:12px;fill:#5b6b7a}
+</style>
+<rect width="720" height="280" fill="#ffffff"/>
+<text class="t" x="28" y="34">신고서가 들어온 뒤 움직이는 기한</text>
+
+<line x1="60" y1="96" x2="660" y2="96" stroke="#eaf0f6" stroke-width="6"/>
+<circle cx="60" cy="96" r="9" fill="#8aa3b8"/>
+<circle cx="214" cy="96" r="9" fill="#2f6fb5"/>
+<circle cx="398" cy="96" r="9" fill="#2f6fb5"/>
+<circle cx="600" cy="96" r="9" fill="#b4531a"/>
+
+<text class="d" x="34" y="74">접수</text>
+<text class="d" x="178" y="74">15영업일</text>
+<text class="d" x="368" y="74">90일</text>
+<text class="d" x="572" y="74">300일</text>
+
+<text class="b" x="34" y="126">이해관계인이</text>
+<text class="b" x="34" y="144">신고서를 낸다</text>
+
+<text class="b" x="160" y="126">개시 여부를</text>
+<text class="b" x="160" y="144">정한다</text>
+
+<text class="b" x="348" y="126">합리적 의심이 있으면</text>
+<text class="b" x="348" y="144">잠정조치를 한다</text>
+
+<text class="b" x="546" y="126">실질적 증거로</text>
+<text class="b" x="546" y="144">판정한다</text>
+
+<rect x="28" y="172" width="664" height="40" rx="6" fill="#eaf0f6"/>
+<text class="d" x="46" y="190">잠정조치로 하는 것</text>
+<text class="b" x="46" y="206">개시일 이후 수입분은 세액 확정을 정지하고, 그 전 수입분은 확정 기간을 늘리며, 단일 보증이나 예치금을 요구한다</text>
+
+<text class="c" x="28" y="240">출처: 19 CFR 165.15, 165.22, 165.24 · 사건이 매우 복잡하면 판정 기한을 60일까지 늘릴 수 있다(165.22(c)).</text>
+<text class="c" x="28" y="260">기준: 2026.11.28 · 가로 간격은 날짜 순서를 나타내고 실제 기간 비율은 아니다. 15영업일만 영업일 기준이다.</text>
+</svg>
