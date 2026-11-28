@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 390" width="720" height="390" role="img" aria-label="한국과 미국이 수입 물품의 과세가격을 정하는 여섯 방법의 순서를 나란히 비교한 표입니다. 순서는 거래가격, 동종·동질물품의 거래가격, 유사물품의 거래가격, 국내판매가격 또는 공제가격, 산정가격, 합리적 기준 또는 그 밖의 가격입니다. 한국은 관세법 제30조부터 제35조까지, 미국은 19 CFR 152.101(b)에 같은 순서를 두고 있습니다. 앞 방법을 쓸 수 없을 때에만 다음으로 내려가고, 납세의무자나 수입자가 요청하면 네 번째와 다섯 번째의 순서를 바꿀 수 있습니다.">
+<style>
+text{font-family:'Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#1b2733}
+.t{font-size:17px;font-weight:700}
+.h{font-size:13px;font-weight:700;fill:#2a3542}
+.b{font-size:12px;fill:#2a3542}
+.c{font-size:12px;fill:#5b6b7a}
+.w{font-size:13px;font-weight:700;fill:#ffffff}
+.k{font-size:12px;font-weight:700;fill:#2f6fb5}
+.u{font-size:12px;font-weight:700;fill:#b4531a}
+</style>
+<rect width="720" height="390" fill="#ffffff"/>
+<text class="t" x="28" y="34">과세가격을 정하는 순서</text>
+
+<text class="h" x="76" y="62">방법</text>
+<text class="h" x="372" y="62">한국 관세법</text>
+<text class="h" x="540" y="62">미국 19 CFR</text>
+<line x1="28" y1="70" x2="692" y2="70" stroke="#eaf0f6" stroke-width="2"/>
+
+<rect x="28" y="80" width="30" height="30" rx="4" fill="#2f6fb5"/>
+<text class="w" x="38" y="100">1</text>
+<text class="b" x="76" y="100">거래가격 (실제로 지급하였거나 지급하여야 할 가격 + 가산)</text>
+<text class="k" x="372" y="100">제30조</text>
+<text class="u" x="540" y="100">152.103</text>
+
+<rect x="28" y="124" width="30" height="30" rx="4" fill="#2f6fb5"/>
+<text class="w" x="38" y="144">2</text>
+<text class="b" x="76" y="144">동종·동질물품의 거래가격</text>
+<text class="k" x="372" y="144">제31조</text>
+<text class="u" x="540" y="144">152.104</text>
+
+<rect x="28" y="168" width="30" height="30" rx="4" fill="#2f6fb5"/>
+<text class="w" x="38" y="188">3</text>
+<text class="b" x="76" y="188">유사물품의 거래가격</text>
+<text class="k" x="372" y="188">제32조</text>
+<text class="u" x="540" y="188">152.104</text>
+
+<rect x="28" y="212" width="30" height="30" rx="4" fill="#8aa3b8"/>
+<text class="w" x="38" y="232">4</text>
+<text class="b" x="76" y="232">국내판매가격에서 이윤·일반경비·국내 운임·세금을 뺀 가격</text>
+<text class="k" x="372" y="232">제33조</text>
+<text class="u" x="540" y="232">152.105</text>
+
+<rect x="28" y="256" width="30" height="30" rx="4" fill="#8aa3b8"/>
+<text class="w" x="38" y="276">5</text>
+<text class="b" x="76" y="276">산정가격 (원자재·가공비 + 통상 이윤·일반경비 + 운임)</text>
+<text class="k" x="372" y="276">제34조</text>
+<text class="u" x="540" y="276">152.106</text>
+
+<rect x="28" y="300" width="30" height="30" rx="4" fill="#2f6fb5"/>
+<text class="w" x="38" y="320">6</text>
+<text class="b" x="76" y="320">앞 방법들의 원칙에 부합하는 합리적 기준</text>
+<text class="k" x="372" y="320">제35조</text>
+<text class="u" x="540" y="320">152.107</text>
+
+<path d="M660 218 L676 218 L676 280 L660 280" fill="none" stroke="#b4531a" stroke-width="2"/>
+<text class="u" x="614" y="250">바꿀 수 있다</text>
+
+<text class="b" x="28" y="356">앞 방법을 쓸 수 없을 때에만 다음으로 내려간다. 4번과 5번은 납세의무자(한국)나 수입자(미국)가 요청하면 순서를 바꾼다.</text>
+<text class="c" x="28" y="378">출처: 관세법 제30조~제35조, 제33조 제1항 단서 · 19 CFR 152.101(b)·(c) · 기준: 2026.11.28</text>
+</svg>
