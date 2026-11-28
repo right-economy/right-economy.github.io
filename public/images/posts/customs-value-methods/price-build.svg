@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" width="720" height="420" role="img" aria-label="수입 물품의 과세가격을 만드는 계산을 정리한 도식입니다. 구매자가 실제로 지급하였거나 지급하여야 할 가격에서 출발해, 수수료와 중개료, 용기와 포장 비용, 무료나 인하된 가격으로 공급한 물품과 용역, 권리 사용 대가, 판매자에게 귀속되는 수익, 수입항까지의 운임과 보험료 여섯 항목을 더합니다. 총금액에서 명백히 구분할 수 있으면 수입 후 설치와 기술지원 비용, 수입항 도착 후의 운임과 보험료, 국내에서 부과된 세금과 공과금, 연불이자 네 항목을 뺍니다. 더하는 금액은 객관적이고 수량화할 수 있는 자료가 있어야 합니다.">
+<style>
+text{font-family:'Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#1b2733}
+.t{font-size:17px;font-weight:700}
+.h{font-size:13px;font-weight:700;fill:#2a3542}
+.b{font-size:12px;fill:#2a3542}
+.c{font-size:12px;fill:#5b6b7a}
+.w{font-size:13px;font-weight:700;fill:#ffffff}
+.ws{font-size:12px;fill:#ffffff}
+.n{font-size:12px;font-weight:700;fill:#2f6fb5}
+.no{font-size:12px;font-weight:700;fill:#b4531a}
+</style>
+<rect width="720" height="420" fill="#ffffff"/>
+<text class="t" x="28" y="34">과세가격을 만드는 계산</text>
+
+<rect x="28" y="52" width="664" height="38" rx="5" fill="#2f6fb5"/>
+<text class="w" x="44" y="76">구매자가 실제로 지급하였거나 지급하여야 할 가격 (간접적인 지급액 포함)</text>
+<text class="ws" x="560" y="76">관세법 제30조 ②</text>
+
+<text class="h" x="28" y="118">더하는 여섯 항목 (제30조 ① 제1호~제6호)</text>
+<line x1="28" y1="126" x2="692" y2="126" stroke="#eaf0f6" stroke-width="2"/>
+
+<text class="n" x="32" y="148">＋1</text>
+<text class="b" x="64" y="148">구매자가 부담하는 수수료와 중개료 (구매수수료는 제외)</text>
+<text class="n" x="32" y="170">＋2</text>
+<text class="b" x="64" y="170">동일체로 취급되는 용기 비용, 포장에 드는 노무비와 자재비</text>
+<text class="n" x="32" y="192">＋3</text>
+<text class="b" x="64" y="192">구매자가 무료나 인하된 가격으로 공급한 물품과 용역의 가격</text>
+<text class="n" x="32" y="214">＋4</text>
+<text class="b" x="64" y="214">특허권·실용신안권·디자인권·상표권과 유사한 권리를 쓰는 대가</text>
+<text class="n" x="32" y="236">＋5</text>
+<text class="b" x="64" y="236">수입 후 전매·처분·사용으로 생긴 수익 중 판매자에게 귀속되는 금액</text>
+<text class="n" x="32" y="258">＋6</text>
+<text class="b" x="64" y="258">수입항까지의 운임·보험료와 운송 관련 비용</text>
+
+<text class="h" x="28" y="292">명백히 구분할 수 있으면 빼는 네 항목 (제30조 ② 제1호~제4호)</text>
+<line x1="28" y1="300" x2="692" y2="300" stroke="#eaf0f6" stroke-width="2"/>
+
+<text class="no" x="32" y="322">－1</text>
+<text class="b" x="64" y="322">수입 후의 건설·설치·조립·정비·유지, 기술지원 비용</text>
+<text class="no" x="32" y="344">－2</text>
+<text class="b" x="64" y="344">수입항에 도착한 뒤의 운임·보험료와 운송 관련 비용</text>
+<text class="no" x="368" y="322">－3</text>
+<text class="b" x="400" y="322">국내에서 부과된 관세 등 세금과 공과금</text>
+<text class="no" x="368" y="344">－4</text>
+<text class="b" x="400" y="344">연불조건 수입의 연불이자</text>
+
+<rect x="28" y="360" width="664" height="30" rx="5" fill="#eaf0f6"/>
+<text class="b" x="44" y="380">더하는 금액은 객관적이고 수량화할 수 있는 자료에 근거해야 하고, 그 자료가 없으면 제31조부터 제35조까지로 넘어간다.</text>
+
+<text class="c" x="28" y="410">출처: 관세법 제30조 제1항·제2항 · 2026년 1월 2일 시행본(법률 제21065호) · 기준: 2026.11.28</text>
+</svg>

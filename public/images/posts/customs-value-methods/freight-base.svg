@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" width="720" height="300" role="img" aria-label="같은 송장으로도 한국과 미국의 과세가격이 달라지는 지점을 비교한 도식입니다. 미국 관세평가 규정의 예시에서 물품값은 1850달러, 해상운임과 보험료는 150달러이고 판매자가 구매자에게 빚진 350달러만큼 값이 깎여 있었습니다. 미국은 깎인 350달러를 간접 지급으로 되살려 더하고 운임과 보험료 150달러는 빼서 과세가격을 2200달러로 봅니다. 한국은 같은 계산에 수입항까지의 운임과 보험료를 더하도록 정하고 있어 그 150달러가 과세가격에 들어갑니다. 가로 길이는 금액의 비율을 나타내지 않는다.">
+<style>
+text{font-family:'Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#1b2733}
+.t{font-size:17px;font-weight:700}
+.h{font-size:13px;font-weight:700;fill:#2a3542}
+.b{font-size:12px;fill:#2a3542}
+.c{font-size:12px;fill:#5b6b7a}
+.w{font-size:13px;font-weight:700;fill:#ffffff}
+.v{font-size:15px;font-weight:700}
+</style>
+<rect width="720" height="300" fill="#ffffff"/>
+<text class="t" x="28" y="34">같은 송장, 다른 과세가격</text>
+
+<text class="h" x="28" y="62">송장에 적힌 것</text>
+<rect x="150" y="48" width="250" height="30" rx="4" fill="#8aa3b8"/>
+<text class="w" x="164" y="68">물품값 1,850달러</text>
+<rect x="408" y="48" width="130" height="30" rx="4" fill="#eaf0f6"/>
+<text class="b" x="420" y="68">운임·보험 150달러</text>
+<text class="b" x="552" y="68">빚 350달러만큼 깎인 값</text>
+
+<line x1="28" y1="96" x2="692" y2="96" stroke="#eaf0f6" stroke-width="2"/>
+
+<text class="h" x="28" y="128">미국</text>
+<text class="b" x="28" y="148">19 CFR 152.103</text>
+<rect x="150" y="114" width="250" height="30" rx="4" fill="#2f6fb5"/>
+<text class="w" x="164" y="134">1,850달러</text>
+<rect x="408" y="114" width="110" height="30" rx="4" fill="#2f6fb5"/>
+<text class="w" x="420" y="134">＋350달러</text>
+<text class="b" x="528" y="134">간접 지급으로 되살린다</text>
+<text class="v" x="150" y="166" fill="#2f6fb5">과세가격 2,200달러</text>
+<text class="b" x="320" y="166">운임·보험 150달러는 뺀다</text>
+
+<text class="h" x="28" y="212">한국</text>
+<text class="b" x="28" y="232">관세법 제30조 ① 6호</text>
+<rect x="150" y="198" width="250" height="30" rx="4" fill="#b4531a"/>
+<text class="w" x="164" y="218">1,850달러</text>
+<rect x="408" y="198" width="110" height="30" rx="4" fill="#b4531a"/>
+<text class="w" x="420" y="218">＋350달러</text>
+<rect x="526" y="198" width="120" height="30" rx="4" fill="#b4531a"/>
+<text class="w" x="538" y="218">＋운임·보험</text>
+<text class="v" x="150" y="250" fill="#b4531a">수입항까지의 운임과 보험료를 더한다</text>
+
+<text class="b" x="28" y="276">가로 길이는 금액의 비율을 나타내지 않는다. 두 제도를 나란히 놓은 것이다.</text>
+<text class="c" x="28" y="294">출처: 19 CFR 152.103(a)(1) Example 4, 관세법 제30조 제1항 제6호·제2항 제2호 · 기준: 2026.11.28</text>
+</svg>
