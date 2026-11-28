@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 260" width="720" height="260" role="img" aria-label="부족한 관세액에 붙는 가산세 비율을 비교한 막대 그래프입니다. 그냥 모자라게 신고한 경우는 부족세액의 100분의 10이고, 과세표준이나 세액의 기초가 되는 사실을 숨기거나 꾸며 과소신고한 경우는 100분의 60입니다. 두 경우 모두 납부지연에 따른 금액이 따로 더해집니다.">
+<style>
+text{font-family:'Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#1b2733}
+.t{font-size:17px;font-weight:700}
+.d{font-size:13px;font-weight:700;fill:#1b2733}
+.b{font-size:12px;fill:#2a3542}
+.c{font-size:12px;fill:#5b6b7a}
+.v{font-size:16px;font-weight:700;fill:#ffffff}
+.w{font-size:12px;fill:#ffffff}
+</style>
+<rect width="720" height="260" fill="#ffffff"/>
+<text class="t" x="28" y="34">부족한 세액에 붙는 가산세 비율</text>
+
+<line x1="150" y1="56" x2="150" y2="186" stroke="#eaf0f6" stroke-width="2"/>
+<line x1="330" y1="56" x2="330" y2="186" stroke="#eaf0f6" stroke-width="2"/>
+<line x1="510" y1="56" x2="510" y2="186" stroke="#eaf0f6" stroke-width="2"/>
+<line x1="690" y1="56" x2="690" y2="186" stroke="#eaf0f6" stroke-width="2"/>
+
+<text class="d" x="28" y="86">모자라게 신고</text>
+<rect x="150" y="68" width="90" height="34" rx="4" fill="#2f6fb5"/>
+<text class="v" x="166" y="92">10%</text>
+<text class="b" x="252" y="92">부족세액의 100분의 10</text>
+
+<text class="d" x="28" y="146">숨기거나 꾸며 과소신고</text>
+<rect x="150" y="128" width="540" height="34" rx="4" fill="#b4531a"/>
+<text class="v" x="166" y="152">60%</text>
+<text class="w" x="248" y="152">부족세액의 100분의 60</text>
+
+<text class="c" x="150" y="202">0%</text>
+<text class="c" x="312" y="202">20%</text>
+<text class="c" x="492" y="202">40%</text>
+<text class="c" x="668" y="202">60%</text>
+
+<text class="b" x="28" y="226">두 경우 모두 법정납부기한 다음 날부터 납부일까지의 납부지연 금액이 따로 더해진다.</text>
+<text class="c" x="28" y="246">출처: 관세법 제42조 제1항 제1호·제2호, 제2항 · 2026년 7월 1일 시행본 · 기준: 2026.11.28</text>
+</svg>
